@@ -11,6 +11,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { estAdmiseDansDefi } from '../core/defi/index.ts';
 import { etatDePosition } from '../core/score/codee.ts';
 import { chargerDataset } from './lib/dataset.ts';
 import { validerDataset } from './lib/validate.ts';
@@ -79,11 +80,44 @@ export function construirePaquet() {
     });
   }
 
+  // Défi « Qui a dit ça ? » : seules les positions admises (estAdmiseDansDefi) emportent leur version
+  // anonymisée ; les autres positions publiées gardent uniquement ce que tirerDefi lit pour écarter les
+  // propositions ambiguës (statut, code, question). Aucune justification de codeur.
+  const actives = new Set(questions.map((q) => q.id));
+  const defi: Record<string, unknown[]> = {};
+  for (const [id, f] of Object.entries(ds.positions)) {
+    defi[id] = f.positions
+      .filter((p) => (p.statut === 'accord' || p.statut === 'arbitre') && p.code !== null && actives.has(p.question_id))
+      .map((p) => {
+        const x = p.extraits[0];
+        const admise = estAdmiseDansDefi(p, actives) && x;
+        return {
+          question_id: p.question_id,
+          statut: p.statut,
+          code: p.code,
+          nature: p.nature,
+          extraits: admise
+            ? [
+                {
+                  reformulation: x.reformulation,
+                  reformulation_anonymisee: x.reformulation_anonymisee,
+                  citation_courte: x.citation_courte,
+                  citation_anonymisee: x.citation_anonymisee,
+                  citation_verifiee_mot_a_mot: x.citation_verifiee_mot_a_mot,
+                  source: { titre: x.source.titre, url: x.source.url, date_publication: x.source.date_publication ?? null },
+                },
+              ]
+            : [],
+        };
+      });
+  }
+
   return {
     empreinte: ds.empreinte,
     questions,
     candidats,
     positions,
+    defi,
     discriminance,
     ancrage,
   };

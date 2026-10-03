@@ -44,6 +44,8 @@ export interface Paquet {
   questions: QuestionPaquet[];
   candidats: CandidatPaquet[];
   positions: Record<string, PositionPaquet[]>;
+  /** Positions admises au défi, avec leur version anonymisée (voir scripts/bundle.ts). */
+  defi: Record<string, unknown[]>;
   discriminance: DeriveDiscriminance.DeriveDiscriminance;
   ancrage: DeriveAncrage.DeriveAncrage;
 }

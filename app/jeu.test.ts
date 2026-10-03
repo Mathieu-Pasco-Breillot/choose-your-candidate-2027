@@ -91,3 +91,29 @@ describe('déroulement', () => {
     expect(communes.length).toBeLessThanOrEqual(5);
   });
 });
+
+describe('préparation : poids des chapitres et affinités', () => {
+  it('un chapitre écarté (poids 0) n\'est jamais tiré, les autres le sont', () => {
+    for (let graine = 0; graine < 30; graine++) {
+      const p = nouvellePartie('express', [], graine, { poids: { retraites: 0, defense: 3 }, affinites: [] });
+      expect(p.chapitres.map((c) => c.theme)).not.toContain('retraites');
+      expect(p.chapitres.map((c) => c.theme)).toContain('defense');
+      expect(p.questions).toHaveLength(20);
+    }
+  });
+
+  it('les affinités ne changent pas le tirage (même graine, mêmes questions)', () => {
+    const sans = nouvellePartie('debat', [], 12345, { poids: {}, affinites: [] });
+    const avec = nouvellePartie('debat', [], 12345, { poids: {}, affinites: ['le-pen-marine', 'melenchon-jean-luc'] });
+    expect(avec.questions).toEqual(sans.questions);
+    expect(avec.affinites).toEqual(['le-pen-marine', 'melenchon-jean-luc']);
+  });
+
+  it('les affinités sont situées dans les résultats', () => {
+    const p = nouvellePartie('express', [], 99, { poids: {}, affinites: ['le-pen-marine', 'inconnu-xyz'] });
+    const fin = { ...p, position: p.questions.length };
+    const r = resultatsDePartie(fin);
+    expect(r.affinites.map((a) => a.candidatId)).toEqual(['le-pen-marine', 'inconnu-xyz']);
+    expect(r.affinites[1]!.situation).toBe('inconnu');
+  });
+});

@@ -9,6 +9,7 @@ import { paquet } from '../paquet.ts';
 interface Props {
   partie: Partie;
   onNouvelle: () => void;
+  onDefi: () => void;
   onToutEffacer: () => void;
 }
 
@@ -152,7 +153,7 @@ function CarteCandidat({ s, rang, exAequo }: { s: ScoreCandidat; rang?: number; 
   );
 }
 
-export function Resultats({ partie, onNouvelle, onToutEffacer }: Props) {
+export function Resultats({ partie, onNouvelle, onDefi, onToutEffacer }: Props) {
   const r = useMemo(() => resultatsDePartie(partie), [partie]);
   const total = partie.questions.length;
   const classement: Classe[] = r.classement;
@@ -167,6 +168,27 @@ export function Resultats({ partie, onNouvelle, onToutEffacer }: Props) {
           Mode {MODES[partie.mode].nom} · {r.repondues} réponses sur {total} questions · graine du tirage {partie.graine}
         </p>
       </header>
+
+      {r.affinites.length > 0 && (
+        <section className="rounded-2xl bg-nuit-clair p-5 leading-relaxed">
+          <h2 className="font-serif text-xl font-semibold">Vos affinités</h2>
+          <p className="mt-1 text-sm text-sourdine">Les affinités n'entrent pas dans le score : elles servent seulement à situer ces candidats.</p>
+          <ul className="mt-3 flex flex-col gap-1">
+            {r.affinites.map((a) => (
+              <li key={a.candidatId}>
+                <strong>{nomComplet(a.candidatId)}</strong> :{' '}
+                {a.situation === 'classe'
+                  ? `${a.exAequo ? 'ex aequo, ' : ''}${a.rang}${a.rang === 1 ? 'er' : 'e'} du classement, score ${a.score}`
+                  : a.situation === 'hors_classement'
+                    ? `hors classement (${a.motif.texte})`
+                    : a.situation === 'non_evalue'
+                      ? `non évalué (${MOTIFS_NON_EVALUATION[a.motif] ?? a.motif})`
+                      : 'candidat inconnu'}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {classement.length === 0 && (
         <section className="rounded-2xl border-l-4 border-or bg-nuit-clair p-5 leading-relaxed">
@@ -236,6 +258,9 @@ export function Resultats({ partie, onNouvelle, onToutEffacer }: Props) {
       <div className="flex flex-col gap-3">
         <button type="button" onClick={onNouvelle} className="rounded-2xl bg-or px-5 py-4 font-serif text-xl font-semibold text-nuit">
           Nouvelle partie, nouvelles questions
+        </button>
+        <button type="button" onClick={onDefi} className="min-h-11 rounded-2xl border border-or/60 px-5 py-3 font-serif text-lg">
+          Jouer au défi « Qui a dit ça ? »
         </button>
         <button type="button" onClick={onToutEffacer} className="text-sm text-sourdine underline">
           Tout effacer sur cet appareil

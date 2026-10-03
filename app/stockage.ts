@@ -29,9 +29,10 @@ function ecrire(cle: string, valeur: unknown): void {
 
 export function lirePartie(): Partie | null {
   const p = lire(CLE_PARTIE) as Partie | null;
-  if (!p || p.version !== 1 || p.empreinte !== paquet.empreinte) return null;
+  if (!p || p.version !== 2 || p.empreinte !== paquet.empreinte) return null;
   if (!Array.isArray(p.questions) || !p.questions.every((id) => questionsParId.has(id))) return null;
   if (!Number.isInteger(p.position) || p.position < 0 || p.position > p.questions.length) return null;
+  if (typeof p.poids !== 'object' || p.poids === null || !Array.isArray(p.affinites)) return null;
   return p;
 }
 

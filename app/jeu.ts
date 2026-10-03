@@ -6,7 +6,7 @@ import { creerGenerateur, deriverGraine, melanger } from '../core/aleatoire/prng
 import { calculerResultats } from '../core/score/index.ts';
 import type { Resultats, Valeur } from '../core/score/index.ts';
 import { construireBanqueTirage, tirer } from '../core/tirage/index.ts';
-import type { BanqueTirage, QuestionVue } from '../core/tirage/index.ts';
+import type { BanqueTirage, PoidsTheme, QuestionVue } from '../core/tirage/index.ts';
 import type { QuestionPaquet } from './paquet.ts';
 import { paquet } from './paquet.ts';
 
@@ -18,7 +18,7 @@ export interface ReponseSaisie {
 }
 
 export interface Partie {
-  version: 1;
+  version: 2;
   mode: ModeJeu;
   graine: number;
   /** Empreinte des données au moment du tirage : une partie sauvegardée avec d'autres données est écartée. */
@@ -28,6 +28,10 @@ export interface Partie {
   reponses: Record<string, ReponseSaisie>;
   /** Indice de la question en cours ; égal au nombre de questions quand la partie est terminée. */
   position: number;
+  /** Poids des chapitres choisis à la préparation (0 = chapitre écarté). Un thème absent vaut 1. */
+  poids: Record<string, PoidsTheme>;
+  /** Candidats cochés comme « affinités » : ils servent seulement à situer ces candidats dans les résultats. */
+  affinites: string[];
   /** Ordre des boutons de l'échelle, inversé une partie sur deux (spécification § 5.4). */
   echelleInversee: boolean;
 }
@@ -45,10 +49,23 @@ export function nouvelleGraine(): number {
   return crypto.getRandomValues(new Uint32Array(1))[0]!;
 }
 
-export function nouvellePartie(mode: ModeJeu, vues: readonly QuestionVue[], graine: number): Partie {
-  const tirage = tirer(banque(), { mode, poids: {}, vues, graine });
+export interface Preparation {
+  poids: Record<string, PoidsTheme>;
+  affinites: string[];
+}
+
+export const PREPARATION_PAR_DEFAUT: Preparation = { poids: {}, affinites: [] };
+
+export function nouvellePartie(
+  mode: ModeJeu,
+  vues: readonly QuestionVue[],
+  graine: number,
+  preparation: Preparation = PREPARATION_PAR_DEFAUT,
+): Partie {
+  // Les affinités ne vont jamais au tirage : seuls les poids de chapitres y entrent.
+  const tirage = tirer(banque(), { mode, poids: preparation.poids, vues, graine });
   return {
-    version: 1,
+    version: 2,
     mode,
     graine,
     empreinte: paquet.empreinte,
@@ -56,6 +73,8 @@ export function nouvellePartie(mode: ModeJeu, vues: readonly QuestionVue[], grai
     questions: [...tirage.questions],
     reponses: {},
     position: 0,
+    poids: { ...preparation.poids },
+    affinites: [...preparation.affinites],
     echelleInversee: graine % 2 === 1,
   };
 }
@@ -121,9 +140,10 @@ export function resultatsDePartie(p: Partie): Resultats {
   return calculerResultats(
     {
       reponses,
-      poidsThemes: Object.fromEntries(themes.map((t) => [t, 1])),
+      poidsThemes: Object.fromEntries(themes.map((t) => [t, p.poids[t] ?? 1])),
       candidats: candidatsCalcules,
       positions: paquet.positions,
+      affinites: p.affinites,
     },
     <T>(liste: readonly T[]): T[] => melanger(g, liste),
   );

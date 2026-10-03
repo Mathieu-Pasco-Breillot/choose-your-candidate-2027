@@ -5,6 +5,7 @@ interface Props {
   enCours: boolean;
   terminee: boolean;
   onCommencer: (mode: ModeJeu) => void;
+  onDefi: () => void;
   onReprendre: () => void;
   onVoirResultats: () => void;
   onToutEffacer: () => void;
@@ -19,7 +20,7 @@ function Carte({ titre, children }: { titre: string; children: React.ReactNode }
   );
 }
 
-export function Accueil({ enCours, terminee, onCommencer, onReprendre, onVoirResultats, onToutEffacer }: Props) {
+export function Accueil({ enCours, terminee, onCommencer, onDefi, onReprendre, onVoirResultats, onToutEffacer }: Props) {
   return (
     <main className="mx-auto flex max-w-xl flex-col gap-4 px-5 py-10">
       <header className="mb-2">
@@ -75,6 +76,15 @@ export function Accueil({ enCours, terminee, onCommencer, onReprendre, onVoirRes
           </button>
         ))}
       </div>
+
+      <button
+        type="button"
+        onClick={onDefi}
+        className="min-h-11 rounded-2xl border border-or/60 px-5 py-3 text-left"
+      >
+        <span className="block font-serif text-xl font-semibold">Défi « Qui a dit ça ? »</span>
+        <span className="text-sourdine">Cinq positions sourcées, sans les noms. Un jeu à part, sans lien avec votre résultat.</span>
+      </button>
 
       <footer className="mt-6 flex flex-col gap-2 text-sm text-sourdine">
         <p>
