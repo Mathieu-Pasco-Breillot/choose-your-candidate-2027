@@ -1,0 +1,196 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FichierPositions",
+  "description": "data/positions/<candidat>.json — codages d'un candidat, un enregistrement par question. Valeurs observées au 3 octobre 2026 : statut accord, sans_extrait, arbitrage_en_attente. Le statut `arbitre` et l'objet `arbitrage` suivent le schéma de la phase 1 et n'apparaissent encore dans aucun fichier.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["candidat_id", "_statut", "grille_version", "programme", "positions"],
+  "properties": {
+    "candidat_id": { "$ref": "#/$defs/identifiant" },
+    "_statut": { "type": "string", "minLength": 1 },
+    "grille_version": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
+    "programme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["officiel_disponible", "date_publication", "url", "note"],
+      "properties": {
+        "officiel_disponible": { "type": "boolean" },
+        "date_publication": { "anyOf": [{ "$ref": "#/$defs/dateIso" }, { "type": "null" }] },
+        "url": { "anyOf": [{ "type": "string", "format": "uri", "pattern": "^https?://" }, { "type": "null" }] },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "positions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/position" }
+    }
+  },
+  "$defs": {
+    "identifiant": { "type": "string", "pattern": "^[a-z]+(-[a-z]+)*$" },
+    "dateIso": { "type": "string", "format": "date" },
+    "code": { "anyOf": [{ "type": "integer", "minimum": -2, "maximum": 2 }, { "type": "null" }] },
+    "nature": { "enum": ["nette", "nuancee", "imprecise", "non_connu"] },
+    "codeur": {
+      "title": "Codeur",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["modele", "code", "nature", "justification", "date", "aveugle"],
+      "properties": {
+        "modele": { "type": "string", "minLength": 1 },
+        "code": { "$ref": "#/$defs/code" },
+        "nature": { "$ref": "#/$defs/nature" },
+        "justification": { "type": "string", "minLength": 1 },
+        "date": { "$ref": "#/$defs/dateIso" },
+        "aveugle": { "type": "boolean" }
+      }
+    },
+    "extrait": {
+      "title": "Extrait",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reformulation",
+        "citation_courte",
+        "reformulation_anonymisee",
+        "citation_anonymisee",
+        "source",
+        "date_consultation",
+        "citation_verifiee_mot_a_mot"
+      ],
+      "properties": {
+        "reformulation": { "type": "string", "minLength": 1 },
+        "citation_courte": { "type": ["string", "null"], "minLength": 1 },
+        "reformulation_anonymisee": { "type": "string", "minLength": 1 },
+        "citation_anonymisee": { "type": ["string", "null"], "minLength": 1 },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["url", "titre", "date_publication", "type"],
+          "properties": {
+            "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+            "titre": { "type": "string", "minLength": 1 },
+            "date_publication": { "anyOf": [{ "$ref": "#/$defs/dateIso" }, { "type": "null" }] },
+            "type": { "enum": ["programme_officiel", "texte_signe", "declaration_publique", "programme_parti"] }
+          }
+        },
+        "date_consultation": { "$ref": "#/$defs/dateIso" },
+        "citation_verifiee_mot_a_mot": { "type": ["boolean", "null"] }
+      }
+    },
+    "position": {
+      "title": "Position",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["question_id", "code", "nature", "statut", "extraits", "codage", "arbitrage", "controle_humain", "contestations", "version"],
+      "properties": {
+        "question_id": { "type": "string", "pattern": "^[A-Z]{3}-\\d{3}$" },
+        "code": { "$ref": "#/$defs/code" },
+        "nature": { "anyOf": [{ "$ref": "#/$defs/nature" }, { "type": "null" }] },
+        "statut": { "enum": ["accord", "sans_extrait", "arbitrage_en_attente", "arbitre"] },
+        "item_aveugle": { "type": "string", "pattern": "^[0-9a-f]{8}$" },
+        "extraits": { "type": "array", "items": { "$ref": "#/$defs/extrait" } },
+        "codage": {
+          "anyOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["codeur_1", "codeur_2", "accord"],
+              "properties": {
+                "codeur_1": { "$ref": "#/$defs/codeur" },
+                "codeur_2": { "$ref": "#/$defs/codeur" },
+                "accord": { "type": "boolean" }
+              }
+            }
+          ]
+        },
+        "arbitrage": {
+          "anyOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["par", "date", "code_retenu", "nature_retenue", "motif"],
+              "properties": {
+                "par": { "type": "string", "minLength": 1 },
+                "date": { "$ref": "#/$defs/dateIso" },
+                "code_retenu": { "$ref": "#/$defs/code" },
+                "nature_retenue": { "$ref": "#/$defs/nature" },
+                "motif": { "type": "string", "minLength": 1 }
+              }
+            }
+          ]
+        },
+        "controle_humain": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["tire_au_sort"],
+          "properties": {
+            "tire_au_sort": { "type": "boolean" },
+            "date": { "anyOf": [{ "$ref": "#/$defs/dateIso" }, { "type": "null" }] },
+            "resultat": {
+              "description": "Vide tant que le contrôle humain n'a pas eu lieu. Le script de dérivation compte comme correction la valeur « corrige ».",
+              "anyOf": [{ "type": "string", "minLength": 1 }, { "type": "null" }]
+            }
+          }
+        },
+        "contestations": {
+          "description": "Vide dans tous les fichiers ; forme à préciser à la première contestation (issue GitHub, état, issue).",
+          "type": "array",
+          "items": { "type": "object" }
+        },
+        "version": { "type": "integer", "minimum": 1 }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "statut": { "const": "sans_extrait" } }, "required": ["statut"] },
+          "then": {
+            "properties": {
+              "code": { "type": "null" },
+              "nature": { "const": "non_connu" },
+              "extraits": { "maxItems": 0 },
+              "codage": { "type": "null" },
+              "arbitrage": { "type": "null" }
+            },
+            "not": { "required": ["item_aveugle"] }
+          },
+          "else": {
+            "required": ["item_aveugle"],
+            "properties": { "extraits": { "minItems": 1 }, "codage": { "type": "object" } }
+          }
+        },
+        {
+          "if": { "properties": { "statut": { "const": "accord" } }, "required": ["statut"] },
+          "then": {
+            "properties": {
+              "nature": { "$ref": "#/$defs/nature" },
+              "codage": { "properties": { "accord": { "const": true } } },
+              "arbitrage": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "statut": { "const": "arbitrage_en_attente" } }, "required": ["statut"] },
+          "then": {
+            "properties": {
+              "code": { "type": "null" },
+              "nature": { "type": "null" },
+              "codage": { "properties": { "accord": { "const": false } } },
+              "arbitrage": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "statut": { "const": "arbitre" } }, "required": ["statut"] },
+          "then": {
+            "properties": {
+              "nature": { "$ref": "#/$defs/nature" },
+              "codage": { "properties": { "accord": { "const": false } } },
+              "arbitrage": { "type": "object" }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

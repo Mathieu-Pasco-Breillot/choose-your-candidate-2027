@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DeriveAncrage",
+  "description": "derive/ancrage.json — questions d'ancrage (méthodologie v1.1, § 7.2). `classement` donne toutes les questions éligibles par D décroissant : le tirage y prend la question suivante quand une ancre est écartée (spécification, § 7.2, étape 1). Généré par `npm run derive`, jamais édité à la main.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "empreinte_donnees", "provisoire", "parametres", "classement", "ancres", "ancres_express", "ancres_completes", "express_complet"],
+  "properties": {
+    "version": { "const": 1 },
+    "empreinte_donnees": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "provisoire": { "type": "boolean" },
+    "parametres": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["nombre_ancres", "nombre_express", "couverture_min", "par_theme_max", "par_axe_max", "min_par_sens", "min_par_sens_express", "rang_stabilite"],
+      "properties": {
+        "nombre_ancres": { "const": 10 },
+        "nombre_express": { "const": 5 },
+        "couverture_min": { "const": 0.8 },
+        "par_theme_max": { "const": 1 },
+        "par_axe_max": { "const": 3 },
+        "min_par_sens": { "const": 4 },
+        "min_par_sens_express": { "const": 2 },
+        "rang_stabilite": { "const": 20 }
+      }
+    },
+    "classement": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["rang", "question_id", "theme", "axe", "sens", "D", "couverture", "candidats_codes"],
+        "properties": {
+          "rang": { "type": "integer", "minimum": 1 },
+          "question_id": { "type": "string", "pattern": "^[A-Z]{3}-\\d{3}$" },
+          "theme": { "type": "string" },
+          "axe": { "type": "string" },
+          "sens": { "enum": [1, -1] },
+          "D": { "type": "number", "minimum": 0, "maximum": 4 },
+          "couverture": { "type": "number", "minimum": 0, "maximum": 1 },
+          "candidats_codes": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "ancres": { "type": "array", "maxItems": 10, "items": { "type": "string", "pattern": "^[A-Z]{3}-\\d{3}$" } },
+    "ancres_express": { "type": "array", "maxItems": 5, "items": { "type": "string", "pattern": "^[A-Z]{3}-\\d{3}$" } },
+    "ancres_completes": { "type": "boolean" },
+    "express_complet": { "type": "boolean" }
+  }
+}

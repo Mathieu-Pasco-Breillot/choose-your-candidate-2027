@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FichierCandidats",
+  "description": "data/candidats.json — personnes, statuts de candidature et d'évaluation, primaires. Les champs prévus par le schéma de la phase 1 mais absents des fichiers (historique_statuts, programme, rattachements_parlementaires, remplace, remplace_par) seront ajoutés ici quand ils entreront dans les données.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["_critere_version", "_date_etat_des_lieux", "_note", "candidats", "primaires"],
+  "properties": {
+    "_critere_version": { "type": "integer", "minimum": 1 },
+    "_date_etat_des_lieux": { "type": "string", "format": "date" },
+    "_note": { "type": "string" },
+    "candidats": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/candidat" }
+    },
+    "primaires": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/primaire" }
+    }
+  },
+  "$defs": {
+    "identifiant": { "type": "string", "pattern": "^[a-z]+(-[a-z]+)*$" },
+    "identifiantPrimaire": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "candidat": {
+      "title": "Candidat",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "prenom", "nom", "parti", "statut_candidature", "statut_evaluation"],
+      "properties": {
+        "id": { "$ref": "#/$defs/identifiant" },
+        "prenom": { "type": "string", "minLength": 1 },
+        "nom": { "type": "string", "minLength": 1 },
+        "parti": { "type": "string", "minLength": 1 },
+        "statut_candidature": {
+          "enum": ["pressenti", "declare", "en_primaire", "investi", "parrainages_valides", "officiel", "retire", "remplace", "ineligible"]
+        },
+        "date_declaration": {
+          "description": "Année-mois, date complète, ou « à vérifier » tant que la source n'est pas confirmée.",
+          "type": "string",
+          "pattern": "^(\\d{4}-\\d{2}(-\\d{2})?|à vérifier)$"
+        },
+        "statut_evaluation": { "enum": ["evalue", "codage_en_attente", "non_evalue"] },
+        "motif_non_evaluation": {
+          "enum": ["primaire_en_cours", "pressenti", "declaration_non_sourcee", "absent_liste_officielle"]
+        },
+        "vague": { "type": "integer", "minimum": 1 },
+        "primaire": { "$ref": "#/$defs/identifiantPrimaire" },
+        "a_verifier": { "type": "string", "minLength": 1 },
+        "note": { "type": "string", "minLength": 1 }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "statut_evaluation": { "const": "non_evalue" } }, "required": ["statut_evaluation"] },
+          "then": { "required": ["motif_non_evaluation"] },
+          "else": { "required": ["vague"], "not": { "required": ["motif_non_evaluation"] } }
+        },
+        {
+          "if": { "properties": { "statut_candidature": { "const": "en_primaire" } }, "required": ["statut_candidature"] },
+          "then": { "required": ["primaire"] }
+        }
+      ]
+    },
+    "primaire": {
+      "title": "Primaire",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "nom", "calendrier", "statut", "vainqueur"],
+      "properties": {
+        "id": { "$ref": "#/$defs/identifiantPrimaire" },
+        "nom": { "type": "string", "minLength": 1 },
+        "calendrier": { "type": "string" },
+        "statut": { "type": "string", "minLength": 1 },
+        "vainqueur": { "anyOf": [{ "$ref": "#/$defs/identifiant" }, { "type": "null" }] }
+      }
+    }
+  }
+}

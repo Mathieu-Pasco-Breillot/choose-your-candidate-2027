@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DeriveAccordCodeurs",
+  "description": "derive/accord-codeurs.json — accord entre les deux codeurs (grille v1.2, § 7) : taux d'accord brut (même code et même nature), accord sur le code seul, kappa pondéré quadratique calculé sur les couples où les deux codeurs ont rendu un code. Généré par `npm run derive`, jamais édité à la main.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "empreinte_donnees", "provisoire", "codeurs", "global", "par_vague", "par_candidat", "arbitrages", "controle_humain"],
+  "properties": {
+    "version": { "const": 1 },
+    "empreinte_donnees": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "provisoire": { "type": "boolean" },
+    "codeurs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["codeur_1", "codeur_2"],
+      "properties": {
+        "codeur_1": { "type": "array", "items": { "type": "string" } },
+        "codeur_2": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "global": { "$ref": "#/$defs/bloc" },
+    "par_vague": { "type": "object", "additionalProperties": { "$ref": "#/$defs/bloc" } },
+    "par_candidat": { "type": "object", "additionalProperties": { "$ref": "#/$defs/bloc" } },
+    "arbitrages": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en_attente", "rendus"],
+      "properties": {
+        "en_attente": { "type": "integer", "minimum": 0 },
+        "rendus": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "controle_humain": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tires_au_sort", "effectues", "corrections"],
+      "properties": {
+        "tires_au_sort": { "type": "integer", "minimum": 0 },
+        "effectues": { "type": "integer", "minimum": 0 },
+        "corrections": { "type": "integer", "minimum": 0 }
+      }
+    }
+  },
+  "$defs": {
+    "bloc": {
+      "title": "BlocAccord",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "couples_codes",
+        "accord_code_et_nature",
+        "taux_accord",
+        "accord_code_seul",
+        "taux_accord_code_seul",
+        "couples_pour_kappa",
+        "kappa_pondere_quadratique",
+        "arbitrages_en_attente"
+      ],
+      "properties": {
+        "couples_codes": { "type": "integer", "minimum": 0 },
+        "accord_code_et_nature": { "type": "integer", "minimum": 0 },
+        "taux_accord": { "anyOf": [{ "type": "number", "minimum": 0, "maximum": 1 }, { "type": "null" }] },
+        "accord_code_seul": { "type": "integer", "minimum": 0 },
+        "taux_accord_code_seul": { "anyOf": [{ "type": "number", "minimum": 0, "maximum": 1 }, { "type": "null" }] },
+        "couples_pour_kappa": { "type": "integer", "minimum": 0 },
+        "kappa_pondere_quadratique": { "anyOf": [{ "type": "number", "minimum": -1, "maximum": 1 }, { "type": "null" }] },
+        "arbitrages_en_attente": { "type": "integer", "minimum": 0 }
+      }
+    }
+  }
+}

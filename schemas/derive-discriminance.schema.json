@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DeriveDiscriminance",
+  "description": "derive/discriminance.json — pouvoir discriminant D(q) par question active (méthodologie v1.1, § 7.1). Généré par `npm run derive`, jamais édité à la main.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "empreinte_donnees", "provisoire", "population", "candidats_evalues", "seuil_candidats_codes", "d_max", "questions"],
+  "properties": {
+    "version": { "const": 1 },
+    "empreinte_donnees": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "provisoire": { "type": "boolean" },
+    "population": { "type": "array", "items": { "type": "string" } },
+    "candidats_evalues": { "type": "integer", "minimum": 0 },
+    "seuil_candidats_codes": { "const": 4 },
+    "d_max": { "anyOf": [{ "type": "number", "minimum": 0, "maximum": 4 }, { "type": "null" }] },
+    "questions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["theme", "axe", "sens", "candidats_codes", "couverture", "variance", "D"],
+        "properties": {
+          "theme": { "type": "string" },
+          "axe": { "type": "string" },
+          "sens": { "enum": [1, -1] },
+          "candidats_codes": { "type": "integer", "minimum": 0 },
+          "couverture": { "anyOf": [{ "type": "number", "minimum": 0, "maximum": 1 }, { "type": "null" }] },
+          "variance": { "anyOf": [{ "type": "number", "minimum": 0, "maximum": 4 }, { "type": "null" }] },
+          "D": { "anyOf": [{ "type": "number", "minimum": 0, "maximum": 4 }, { "type": "null" }] }
+        }
+      }
+    }
+  }
+}

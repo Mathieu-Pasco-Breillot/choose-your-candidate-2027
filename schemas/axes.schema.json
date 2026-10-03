@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FichierAxes",
+  "description": "data/axes.json — les six axes validés en phase 2 (décision D1). Ils servent uniquement à équilibrer le tirage ; ils n'entrent pas dans le score.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["_version", "_statut", "_note", "axes"],
+  "properties": {
+    "_version": { "type": "integer", "minimum": 1 },
+    "_statut": { "type": "string" },
+    "_note": { "type": "string" },
+    "axes": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "pole_a", "pole_b"],
+        "properties": {
+          "id": { "enum": ["economie", "securite", "frontieres", "europe", "ecologie", "institutions"] },
+          "pole_a": { "type": "string", "minLength": 1 },
+          "pole_b": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

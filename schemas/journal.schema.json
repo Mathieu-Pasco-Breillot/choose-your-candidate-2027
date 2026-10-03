@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FichierJournal",
+  "description": "data/journal.json — journal des modifications (méthodologie, § 9). Le type `import_initial` s'ajoute aux types du schéma de la phase 1.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["_note", "entrees"],
+  "properties": {
+    "_note": { "type": "string" },
+    "entrees": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["date", "type", "objets", "description", "auteur", "reference"],
+        "properties": {
+          "date": { "type": "string", "format": "date" },
+          "type": {
+            "enum": [
+              "import_initial",
+              "ajout_candidat",
+              "changement_statut",
+              "ajout_question",
+              "reformulation",
+              "recodage",
+              "arbitrage",
+              "changement_critere",
+              "recalcul"
+            ]
+          },
+          "objets": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+          "description": { "type": "string", "minLength": 1 },
+          "auteur": { "type": "string", "minLength": 1 },
+          "reference": { "anyOf": [{ "type": "string", "minLength": 1 }, { "type": "null" }] }
+        }
+      }
+    }
+  }
+}

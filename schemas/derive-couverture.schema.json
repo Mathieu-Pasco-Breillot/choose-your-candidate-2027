@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DeriveCouverture",
+  "description": "derive/couverture.json — couverture et précision par candidat (grille v1.2, § 7 ; méthodologie v1.1, § 6.3). Un code est « publié » s'il est en accord ou arbitré et non nul ; un désaccord non arbitré compte comme « non connu » (D8). Généré par `npm run derive`, jamais édité à la main.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "empreinte_donnees", "provisoire", "questions_actives", "seuil_evalue", "candidats"],
+  "properties": {
+    "version": { "const": 1 },
+    "empreinte_donnees": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "provisoire": { "type": "boolean" },
+    "questions_actives": { "type": "integer", "minimum": 0 },
+    "seuil_evalue": { "const": 0.4 },
+    "candidats": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "vague",
+          "statut_evaluation",
+          "positions_disponibles",
+          "questions_avec_position",
+          "avec_extrait",
+          "codes_publies",
+          "arbitrages_en_attente",
+          "non_connu_apres_accord",
+          "taux_couverture",
+          "seuil_evalue_atteint",
+          "natures",
+          "parts_natures",
+          "par_theme"
+        ],
+        "properties": {
+          "vague": { "anyOf": [{ "type": "integer", "minimum": 1 }, { "type": "null" }] },
+          "statut_evaluation": { "enum": ["evalue", "codage_en_attente"] },
+          "positions_disponibles": { "type": "boolean" },
+          "questions_avec_position": { "type": "integer", "minimum": 0 },
+          "avec_extrait": { "type": "integer", "minimum": 0 },
+          "codes_publies": { "type": "integer", "minimum": 0 },
+          "arbitrages_en_attente": { "type": "integer", "minimum": 0 },
+          "non_connu_apres_accord": { "type": "integer", "minimum": 0 },
+          "taux_couverture": { "type": "number", "minimum": 0, "maximum": 1 },
+          "seuil_evalue_atteint": { "type": "boolean" },
+          "natures": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["nette", "nuancee", "imprecise"],
+            "properties": {
+              "nette": { "type": "integer", "minimum": 0 },
+              "nuancee": { "type": "integer", "minimum": 0 },
+              "imprecise": { "type": "integer", "minimum": 0 }
+            }
+          },
+          "parts_natures": {
+            "anyOf": [
+              { "type": "null" },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["nette", "nuancee", "imprecise"],
+                "properties": {
+                  "nette": { "type": "number", "minimum": 0, "maximum": 1 },
+                  "nuancee": { "type": "number", "minimum": 0, "maximum": 1 },
+                  "imprecise": { "type": "number", "minimum": 0, "maximum": 1 }
+                }
+              }
+            ]
+          },
+          "par_theme": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["questions_actives", "codes_publies", "taux_couverture"],
+              "properties": {
+                "questions_actives": { "type": "integer", "minimum": 0 },
+                "codes_publies": { "type": "integer", "minimum": 0 },
+                "taux_couverture": { "type": "number", "minimum": 0, "maximum": 1 }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

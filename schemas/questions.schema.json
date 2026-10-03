@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FichierQuestions",
+  "description": "data/questions/<theme>.json — une banque de questions par thème. L'identifiant du thème est le nom du fichier (il n'existe pas de themes.json). `origine.source.date_publication` n'est pas encore renseigné dans les fichiers (bilan phase 3, § 4) : il est optionnel ici et signalé en avertissement par le script de validation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["_theme", "_lot", "_statut", "_equilibre", "_note", "questions"],
+  "properties": {
+    "_theme": { "$ref": "#/$defs/identifiant" },
+    "_lot": { "type": "integer", "minimum": 1 },
+    "_statut": { "type": "string", "minLength": 1 },
+    "_note": { "type": "string" },
+    "_equilibre": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["actives", "suspendues", "sens_plus", "sens_moins", "axes"],
+      "properties": {
+        "actives": { "type": "integer", "minimum": 0 },
+        "suspendues": { "type": "integer", "minimum": 0 },
+        "archivees": { "type": "integer", "minimum": 0 },
+        "sens_plus": { "type": "integer", "minimum": 0 },
+        "sens_moins": { "type": "integer", "minimum": 0 },
+        "axes": {
+          "type": "object",
+          "propertyNames": { "$ref": "#/$defs/axe" },
+          "additionalProperties": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/question" }
+    }
+  },
+  "$defs": {
+    "identifiant": { "type": "string", "pattern": "^[a-z]+(-[a-z]+)*$" },
+    "axe": { "enum": ["economie", "securite", "frontieres", "europe", "ecologie", "institutions"] },
+    "dateIso": { "type": "string", "format": "date" },
+    "question": {
+      "title": "Question",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "theme", "axe", "sens", "enonce", "precision", "origine", "statut", "alertes_neutralite", "scrutins", "historique"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[A-Z]{3}-\\d{3}$" },
+        "theme": { "$ref": "#/$defs/identifiant" },
+        "axe": { "$ref": "#/$defs/axe" },
+        "sens": { "enum": [1, -1] },
+        "enonce": { "type": "string", "minLength": 1 },
+        "precision": { "type": ["string", "null"], "minLength": 1 },
+        "origine": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["description", "source"],
+          "properties": {
+            "description": { "type": "string", "minLength": 1 },
+            "source": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["url", "titre", "date_consultation", "nature"],
+              "properties": {
+                "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+                "titre": { "type": "string", "minLength": 1 },
+                "date_publication": { "$ref": "#/$defs/dateIso" },
+                "date_consultation": { "$ref": "#/$defs/dateIso" },
+                "nature": { "enum": ["primaire", "secondaire", "institutionnelle", "source syndicale"] }
+              }
+            }
+          }
+        },
+        "statut": { "enum": ["active", "suspendue", "archivee"] },
+        "alertes_neutralite": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["signalement", "decision"],
+            "properties": {
+              "signalement": { "type": "string", "minLength": 1 },
+              "decision": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "scrutins": {
+          "description": "Vide dans tous les fichiers (phase 6, indicateur de votes). Forme prévue par le schéma de la phase 1.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["scrutin_id", "sens_du_pour"],
+            "properties": {
+              "scrutin_id": { "type": "string", "minLength": 1 },
+              "sens_du_pour": { "enum": [1, -1] }
+            }
+          }
+        },
+        "historique": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["date"],
+            "properties": {
+              "date": { "$ref": "#/$defs/dateIso" },
+              "ancien_enonce": { "type": "string", "minLength": 1 },
+              "note": { "type": "string", "minLength": 1 }
+            },
+            "anyOf": [{ "required": ["ancien_enonce"] }, { "required": ["note"] }]
+          }
+        }
+      }
+    }
+  }
+}
