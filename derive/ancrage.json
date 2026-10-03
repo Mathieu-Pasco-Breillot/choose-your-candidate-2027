@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "empreinte_donnees": "c311a62b83d6096affbfdfab73633c8552648305dce79dc07f18a8446f3ef6e4",
+  "empreinte_donnees": "44cbec923709aacdf9753859fd0290d83b293a4e1a24aab2b680791c95a5e264",
   "provisoire": true,
   "parametres": {
     "nombre_ancres": 10,
@@ -15,6 +15,16 @@
   "classement": [
     {
       "rang": 1,
+      "question_id": "RET-002",
+      "theme": "retraites",
+      "axe": "economie",
+      "sens": 1,
+      "D": 2.666667,
+      "couverture": 1,
+      "candidats_codes": 9
+    },
+    {
+      "rang": 2,
       "question_id": "RET-003",
       "theme": "retraites",
       "axe": "economie",
@@ -22,13 +32,70 @@
       "D": 2.54321,
       "couverture": 1,
       "candidats_codes": 9
+    },
+    {
+      "rang": 3,
+      "question_id": "RET-001",
+      "theme": "retraites",
+      "axe": "economie",
+      "sens": 1,
+      "D": 2.320988,
+      "couverture": 1,
+      "candidats_codes": 9
+    },
+    {
+      "rang": 4,
+      "question_id": "FIS-001",
+      "theme": "fiscalite",
+      "axe": "economie",
+      "sens": 1,
+      "D": 1.875,
+      "couverture": 0.888889,
+      "candidats_codes": 8
+    },
+    {
+      "rang": 5,
+      "question_id": "INS-009",
+      "theme": "institutions",
+      "axe": "institutions",
+      "sens": 1,
+      "D": 1.430556,
+      "couverture": 0.888889,
+      "candidats_codes": 8
+    },
+    {
+      "rang": 6,
+      "question_id": "EDU-007",
+      "theme": "education",
+      "axe": "economie",
+      "sens": 1,
+      "D": 1.358025,
+      "couverture": 1,
+      "candidats_codes": 9
+    },
+    {
+      "rang": 7,
+      "question_id": "ENV-002",
+      "theme": "ecologie-energie",
+      "axe": "ecologie",
+      "sens": 1,
+      "D": 0.875,
+      "couverture": 0.888889,
+      "candidats_codes": 8
     }
   ],
   "ancres": [
-    "RET-003"
+    "RET-003",
+    "FIS-001",
+    "INS-009",
+    "EDU-007",
+    "ENV-002"
   ],
   "ancres_express": [
-    "RET-003"
+    "RET-003",
+    "FIS-001",
+    "INS-009",
+    "EDU-007"
   ],
   "ancres_completes": false,
   "express_complet": false

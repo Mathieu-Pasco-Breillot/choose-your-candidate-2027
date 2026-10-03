@@ -55,12 +55,12 @@ describe('désaccord non arbitré = « non connu » (D8)', () => {
     expect(estPublie({ ...(position('candidat-a', 'RET-001', 1) as object), code: 1 } as never)).toBe(true);
   });
 
-  it('sur les données réelles : 58 accords, dont 5 « non connu », donnent 53 codes publiés ; aucun désaccord n\'est compté', () => {
+  it('sur les données réelles (phase 4) : 584 codes publiés, aucun arbitrage en attente', () => {
     const couverture = calculerCouverture(reel) as { candidats: Record<string, { codes_publies: number; arbitrages_en_attente: number }> };
     const total = Object.values(couverture.candidats).reduce((s, c) => s + c.codes_publies, 0);
     const attente = Object.values(couverture.candidats).reduce((s, c) => s + c.arbitrages_en_attente, 0);
-    expect(total).toBe(53);
-    expect(attente).toBe(12);
+    expect(total).toBe(584);
+    expect(attente).toBe(0);
   });
 });
 
@@ -86,29 +86,32 @@ describe('kappa pondéré quadratique', () => {
   });
 });
 
-describe('reproduit les chiffres publiés du pilote retraites (phase 4, 3 octobre 2026)', () => {
+describe('reproduit les chiffres publiés de la phase 4 (vague 1, 11 thèmes, 3 octobre 2026)', () => {
   const accord = calculerAccordCodeurs(reel);
 
-  it('accord global : 70 couples, 58 accords (82,9 %), kappa 0,908', () => {
-    expect(accord.global.couples_codes).toBe(70);
-    expect(accord.global.accord_code_et_nature).toBe(58);
-    expect(arrondi3(accord.global.taux_accord)).toBe(0.829);
-    expect(arrondi3(accord.global.taux_accord_code_seul)).toBe(0.829);
-    expect(arrondi3(accord.global.kappa_pondere_quadratique)).toBe(0.908);
-    expect(accord.arbitrages.en_attente).toBe(12);
-    expect(accord.controle_humain.tires_au_sort).toBe(9);
+  it('accord global : 628 couples, 495 accords (78,8 %), code seul 83,1 %, kappa 0,941', () => {
+    expect(accord.global.couples_codes).toBe(628);
+    expect(accord.global.accord_code_et_nature).toBe(495);
+    expect(arrondi3(accord.global.taux_accord)).toBe(0.788);
+    expect(arrondi3(accord.global.taux_accord_code_seul)).toBe(0.831);
+    expect(arrondi3(accord.global.kappa_pondere_quadratique)).toBe(0.941);
+    // 12 arbitrages du pilote + 121 arbitrages provisoires (troisième modèle), validation humaine en attente.
+    expect(accord.arbitrages.en_attente).toBe(0);
+    expect(accord.arbitrages.rendus).toBe(133);
+    expect(accord.controle_humain.tires_au_sort).toBe(56);
+    expect(accord.controle_humain.effectues).toBe(9);
   });
 
   it.each([
-    ['arthaud-nathalie', 7, 7, 1, 0],
-    ['attal-gabriel', 6, 6, 1, 0],
-    ['dupont-aignan-nicolas', 7, 6, 0.865, 1],
-    ['le-pen-marine', 8, 5, 0.795, 3],
-    ['lisnard-david', 6, 4, 0.933, 2],
-    ['melenchon-jean-luc', 12, 10, 0.978, 2],
-    ['philippe-edouard', 9, 8, 1, 1],
-    ['retailleau-bruno', 7, 5, 0.418, 2],
-    ['roussel-fabien', 8, 7, 1, 1],
+    ['arthaud-nathalie', 58, 42, 0.874, 0],
+    ['attal-gabriel', 58, 47, 0.964, 0],
+    ['dupont-aignan-nicolas', 84, 68, 0.938, 0],
+    ['le-pen-marine', 66, 53, 0.934, 0],
+    ['lisnard-david', 82, 66, 0.899, 0],
+    ['melenchon-jean-luc', 105, 80, 0.959, 0],
+    ['philippe-edouard', 50, 38, 0.987, 0],
+    ['retailleau-bruno', 67, 55, 0.935, 0],
+    ['roussel-fabien', 58, 46, 0.958, 0],
   ])('%s : %i couples, %i accords, kappa %f, %i arbitrage(s) en attente', (id, couples, accords, kappa, attente) => {
     const b = accord.par_candidat[id]!;
     expect(b.couples_codes).toBe(couples);
@@ -119,15 +122,15 @@ describe('reproduit les chiffres publiés du pilote retraites (phase 4, 3 octobr
 
   it.each([
     // candidat, avec extrait, codes publiés, nette, nuancée, imprécise, « non connu » malgré un extrait (règle R4)
-    ['arthaud-nathalie', 7, 7, 3, 4, 0, 0],
-    ['attal-gabriel', 6, 6, 0, 3, 3, 0],
-    ['dupont-aignan-nicolas', 7, 6, 3, 3, 0, 0],
-    ['le-pen-marine', 8, 5, 4, 1, 0, 0],
-    ['lisnard-david', 6, 4, 2, 2, 0, 0],
-    ['melenchon-jean-luc', 12, 9, 6, 3, 0, 1],
-    ['philippe-edouard', 9, 7, 6, 1, 0, 1],
-    ['retailleau-bruno', 7, 4, 1, 3, 0, 1],
-    ['roussel-fabien', 8, 5, 4, 1, 0, 2],
+    ['arthaud-nathalie', 58, 52, 12, 21, 19, 4],
+    ['attal-gabriel', 58, 54, 16, 23, 15, 1],
+    ['dupont-aignan-nicolas', 84, 84, 36, 35, 13, 0],
+    ['le-pen-marine', 66, 62, 30, 25, 7, 2],
+    ['lisnard-david', 82, 77, 26, 34, 17, 4],
+    ['melenchon-jean-luc', 105, 98, 45, 28, 25, 5],
+    ['philippe-edouard', 50, 42, 12, 16, 14, 3],
+    ['retailleau-bruno', 67, 62, 26, 24, 12, 4],
+    ['roussel-fabien', 58, 53, 21, 25, 7, 2],
   ])('couverture de %s : %i extraits, %i codes, natures %i/%i/%i, %i R4', (id, extraits, codes, nette, nuancee, imprecise, r4) => {
     const c = (calculerCouverture(reel).candidats as Record<string, never>)[id] as {
       avec_extrait: number;
@@ -145,7 +148,7 @@ describe('reproduit les chiffres publiés du pilote retraites (phase 4, 3 octobr
     const c = calculerCouverture(reel);
     expect(c.questions_actives).toBe(206);
     const arthaud = (c.candidats as Record<string, { taux_couverture: number; seuil_evalue_atteint: boolean }>)['arthaud-nathalie']!;
-    expect(arrondi3(arthaud.taux_couverture)).toBe(0.034);
+    expect(arrondi3(arthaud.taux_couverture)).toBe(0.252);
     expect(arthaud.seuil_evalue_atteint).toBe(false);
   });
 });
@@ -187,9 +190,11 @@ describe('ancrage', () => {
     expect(a.provisoire).toBe(true);
     expect(a.ancres_completes).toBe(false);
     expect(a.ancres.length).toBeLessThan(10);
-    // Seule RET-003 est codée pour les 9 candidats : c'est la seule question éligible (couverture ≥ 80 %).
-    expect(a.ancres).toEqual(['RET-003']);
-    expect(a.classement.map((e) => e.question_id)).toEqual(['RET-003']);
+    // Phase 4 : peu de questions sont codées pour au moins 80 % des candidats évalués, d'où 5 ancres seulement.
+    expect(a.ancres).toEqual(['RET-002', 'FIS-001', 'INS-009', 'EDU-007', 'ENV-002']);
+    // Règle de stabilité : RET-003, ancre du pilote, reste dans les 20 premières et est donc conservée
+    // à la place de RET-002 (c'est la liste publiée dans derive/ancrage.json).
+    expect(calculerAncrage(reel, ['RET-003']).ancres).toEqual(['RET-003', 'FIS-001', 'INS-009', 'EDU-007', 'ENV-002']);
   });
 
   it('avec un codage complet : 10 ancres, une par thème, ≤ 3 par axe, ≥ 4 de chaque sens, par D décroissant', () => {

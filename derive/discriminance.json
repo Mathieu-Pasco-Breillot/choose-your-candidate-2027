@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "empreinte_donnees": "c311a62b83d6096affbfdfab73633c8552648305dce79dc07f18a8446f3ef6e4",
+  "empreinte_donnees": "44cbec923709aacdf9753859fd0290d83b293a4e1a24aab2b680791c95a5e264",
   "provisoire": true,
   "population": [
     "arthaud-nathalie",
@@ -15,23 +15,23 @@
   ],
   "candidats_evalues": 9,
   "seuil_candidats_codes": 4,
-  "d_max": 2.54321,
+  "d_max": 2.666667,
   "questions": {
     "DEF-001": {
       "theme": "defense",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 0.96,
+      "D": 0.533333
     },
     "DEF-002": {
       "theme": "defense",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -39,44 +39,44 @@
       "theme": "defense",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 1.6875,
+      "D": 0.75
     },
     "DEF-004": {
       "theme": "defense",
       "axe": "europe",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 0.1875,
+      "D": 0.083333
     },
     "DEF-005": {
       "theme": "defense",
       "axe": "europe",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 7,
+      "couverture": 0.777778,
+      "variance": 2.285714,
+      "D": 1.777778
     },
     "DEF-006": {
       "theme": "defense",
       "axe": "europe",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 1.44,
+      "D": 0.8
     },
     "DEF-007": {
       "theme": "defense",
       "axe": "europe",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -84,17 +84,17 @@
       "theme": "defense",
       "axe": "europe",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 7,
+      "couverture": 0.777778,
+      "variance": 1.959184,
+      "D": 1.52381
     },
     "DEF-009": {
       "theme": "defense",
       "axe": "securite",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -111,8 +111,8 @@
       "theme": "defense",
       "axe": "europe",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -120,8 +120,8 @@
       "theme": "defense",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -129,17 +129,17 @@
       "theme": "defense",
       "axe": "europe",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 0.75,
+      "D": 0.333333
     },
     "DEF-014": {
       "theme": "defense",
       "axe": "europe",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -147,8 +147,8 @@
       "theme": "economie-dette",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -156,8 +156,8 @@
       "theme": "economie-dette",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -165,8 +165,8 @@
       "theme": "economie-dette",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -174,8 +174,8 @@
       "theme": "economie-dette",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -192,17 +192,17 @@
       "theme": "economie-dette",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 1.1875,
+      "D": 0.527778
     },
     "ECO-007": {
       "theme": "economie-dette",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -219,8 +219,8 @@
       "theme": "economie-dette",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -228,17 +228,17 @@
       "theme": "economie-dette",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 1.1875,
+      "D": 0.527778
     },
     "ECO-011": {
       "theme": "economie-dette",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -246,44 +246,44 @@
       "theme": "economie-dette",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 2.6875,
+      "D": 1.194444
     },
     "ECO-013": {
       "theme": "economie-dette",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 1.1875,
+      "D": 0.527778
     },
     "ECO-014": {
       "theme": "economie-dette",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 1.44,
+      "D": 0.8
     },
     "ECO-015": {
       "theme": "economie-dette",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 2.25,
+      "D": 1
     },
     "ECO-016": {
       "theme": "economie-dette",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -300,8 +300,8 @@
       "theme": "economie-dette",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -309,8 +309,8 @@
       "theme": "economie-dette",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -318,17 +318,17 @@
       "theme": "economie-dette",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 0,
+      "D": 0
     },
     "EDU-001": {
       "theme": "education",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -336,8 +336,8 @@
       "theme": "education",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -345,8 +345,8 @@
       "theme": "education",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -354,8 +354,8 @@
       "theme": "education",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -363,8 +363,8 @@
       "theme": "education",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -372,8 +372,8 @@
       "theme": "education",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -381,10 +381,10 @@
       "theme": "education",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 9,
+      "couverture": 1,
+      "variance": 1.358025,
+      "D": 1.358025
     },
     "EDU-008": {
       "theme": "education",
@@ -399,8 +399,8 @@
       "theme": "education",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -408,17 +408,17 @@
       "theme": "education",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 1.25,
+      "D": 0.555556
     },
     "EDU-011": {
       "theme": "education",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -426,8 +426,8 @@
       "theme": "education",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -435,17 +435,17 @@
       "theme": "education",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 0.1875,
+      "D": 0.083333
     },
     "EDU-014": {
       "theme": "education",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -453,8 +453,8 @@
       "theme": "education",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -462,8 +462,8 @@
       "theme": "education",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -471,8 +471,8 @@
       "theme": "education",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -480,8 +480,8 @@
       "theme": "education",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -489,8 +489,8 @@
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -498,17 +498,17 @@
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 8,
+      "couverture": 0.888889,
+      "variance": 0.984375,
+      "D": 0.875
     },
     "ENV-003": {
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -516,19 +516,19 @@
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 2.5,
+      "D": 1.111111
     },
     "ENV-005": {
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 6,
+      "couverture": 0.666667,
+      "variance": 1.25,
+      "D": 0.833333
     },
     "ENV-006": {
       "theme": "ecologie-energie",
@@ -543,8 +543,8 @@
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -561,8 +561,8 @@
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -570,8 +570,8 @@
       "theme": "ecologie-energie",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -579,28 +579,28 @@
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 6,
+      "couverture": 0.666667,
+      "variance": 2,
+      "D": 1.333333
     },
     "ENV-012": {
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 0.24,
+      "D": 0.133333
     },
     "ENV-013": {
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 0.1875,
+      "D": 0.083333
     },
     "ENV-014": {
       "theme": "ecologie-energie",
@@ -615,8 +615,8 @@
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -624,8 +624,8 @@
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -633,37 +633,37 @@
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 2.16,
+      "D": 1.2
     },
     "ENV-018": {
       "theme": "ecologie-energie",
       "axe": "europe",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 2.25,
+      "D": 1
     },
     "ENV-022": {
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 2.64,
+      "D": 1.466667
     },
     "ENV-023": {
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 1,
+      "D": 0.444444
     },
     "ENV-024": {
       "theme": "ecologie-energie",
@@ -678,10 +678,10 @@
       "theme": "ecologie-energie",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 6,
+      "couverture": 0.666667,
+      "variance": 2.472222,
+      "D": 1.648148
     },
     "ENV-026": {
       "theme": "ecologie-energie",
@@ -696,10 +696,10 @@
       "theme": "union-europeenne",
       "axe": "europe",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 1.2,
+      "D": 0.666667
     },
     "EUR-002": {
       "theme": "union-europeenne",
@@ -714,8 +714,8 @@
       "theme": "union-europeenne",
       "axe": "europe",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -732,8 +732,8 @@
       "theme": "union-europeenne",
       "axe": "europe",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -741,10 +741,10 @@
       "theme": "union-europeenne",
       "axe": "europe",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 0.1875,
+      "D": 0.083333
     },
     "EUR-007": {
       "theme": "union-europeenne",
@@ -759,17 +759,17 @@
       "theme": "union-europeenne",
       "axe": "europe",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 6,
+      "couverture": 0.666667,
+      "variance": 2.333333,
+      "D": 1.555556
     },
     "EUR-009": {
       "theme": "union-europeenne",
       "axe": "europe",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -777,8 +777,8 @@
       "theme": "union-europeenne",
       "axe": "europe",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -786,8 +786,8 @@
       "theme": "union-europeenne",
       "axe": "europe",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -795,26 +795,26 @@
       "theme": "union-europeenne",
       "axe": "frontieres",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 0.96,
+      "D": 0.533333
     },
     "EUR-014": {
       "theme": "union-europeenne",
       "axe": "europe",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 1.6875,
+      "D": 0.75
     },
     "EUR-015": {
       "theme": "union-europeenne",
       "axe": "ecologie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -822,44 +822,44 @@
       "theme": "union-europeenne",
       "axe": "europe",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 6,
+      "couverture": 0.666667,
+      "variance": 0.25,
+      "D": 0.166667
     },
     "FIS-001": {
       "theme": "fiscalite",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 8,
+      "couverture": 0.888889,
+      "variance": 2.109375,
+      "D": 1.875
     },
     "FIS-002": {
       "theme": "fiscalite",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 6,
+      "couverture": 0.666667,
+      "variance": 2.25,
+      "D": 1.5
     },
     "FIS-003": {
       "theme": "fiscalite",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 3.1875,
+      "D": 1.416667
     },
     "FIS-004": {
       "theme": "fiscalite",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -867,17 +867,17 @@
       "theme": "fiscalite",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 2.16,
+      "D": 1.2
     },
     "FIS-006": {
       "theme": "fiscalite",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -885,17 +885,17 @@
       "theme": "fiscalite",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 0.25,
+      "D": 0.111111
     },
     "FIS-008": {
       "theme": "fiscalite",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -921,8 +921,8 @@
       "theme": "fiscalite",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -930,8 +930,8 @@
       "theme": "fiscalite",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -939,19 +939,19 @@
       "theme": "fiscalite",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 2.25,
+      "D": 1
     },
     "FIS-015": {
       "theme": "fiscalite",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 1.6875,
+      "D": 0.75
     },
     "FIS-016": {
       "theme": "fiscalite",
@@ -966,8 +966,8 @@
       "theme": "fiscalite",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -975,17 +975,17 @@
       "theme": "fiscalite",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 1,
+      "D": 0.444444
     },
     "FIS-019": {
       "theme": "fiscalite",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -993,26 +993,26 @@
       "theme": "fiscalite",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 1.44,
+      "D": 0.8
     },
     "IMM-001": {
       "theme": "immigration",
       "axe": "frontieres",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 3.36,
+      "D": 1.866667
     },
     "IMM-002": {
       "theme": "immigration",
       "axe": "frontieres",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -1020,8 +1020,8 @@
       "theme": "immigration",
       "axe": "frontieres",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -1029,8 +1029,8 @@
       "theme": "immigration",
       "axe": "frontieres",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1065,44 +1065,44 @@
       "theme": "immigration",
       "axe": "frontieres",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 2.4,
+      "D": 1.333333
     },
     "IMM-009": {
       "theme": "immigration",
       "axe": "frontieres",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 2.5,
+      "D": 1.111111
     },
     "IMM-010": {
       "theme": "immigration",
       "axe": "frontieres",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 2.5,
+      "D": 1.111111
     },
     "IMM-011": {
       "theme": "immigration",
       "axe": "frontieres",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 6,
+      "couverture": 0.666667,
+      "variance": 2.25,
+      "D": 1.5
     },
     "IMM-012": {
       "theme": "immigration",
       "axe": "frontieres",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -1110,8 +1110,8 @@
       "theme": "immigration",
       "axe": "frontieres",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1119,17 +1119,17 @@
       "theme": "immigration",
       "axe": "frontieres",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 0.64,
+      "D": 0.355556
     },
     "IMM-015": {
       "theme": "immigration",
       "axe": "frontieres",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -1137,17 +1137,17 @@
       "theme": "immigration",
       "axe": "frontieres",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 1.44,
+      "D": 0.8
     },
     "IMM-017": {
       "theme": "immigration",
       "axe": "frontieres",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -1155,17 +1155,17 @@
       "theme": "immigration",
       "axe": "frontieres",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 7,
+      "couverture": 0.777778,
+      "variance": 1.102041,
+      "D": 0.857143
     },
     "IMM-019": {
       "theme": "immigration",
       "axe": "frontieres",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -1173,17 +1173,17 @@
       "theme": "immigration",
       "axe": "frontieres",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 0.96,
+      "D": 0.533333
     },
     "IMM-021": {
       "theme": "immigration",
       "axe": "frontieres",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -1191,26 +1191,26 @@
       "theme": "institutions",
       "axe": "institutions",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 7,
+      "couverture": 0.777778,
+      "variance": 1.55102,
+      "D": 1.206349
     },
     "INS-002": {
       "theme": "institutions",
       "axe": "institutions",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 6,
+      "couverture": 0.666667,
+      "variance": 0.555556,
+      "D": 0.37037
     },
     "INS-003": {
       "theme": "institutions",
       "axe": "institutions",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -1218,17 +1218,17 @@
       "theme": "institutions",
       "axe": "institutions",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 3.1875,
+      "D": 1.416667
     },
     "INS-005": {
       "theme": "institutions",
       "axe": "institutions",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -1245,8 +1245,8 @@
       "theme": "institutions",
       "axe": "institutions",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1254,8 +1254,8 @@
       "theme": "institutions",
       "axe": "institutions",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1263,17 +1263,17 @@
       "theme": "institutions",
       "axe": "institutions",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 8,
+      "couverture": 0.888889,
+      "variance": 1.609375,
+      "D": 1.430556
     },
     "INS-010": {
       "theme": "institutions",
       "axe": "institutions",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1281,8 +1281,8 @@
       "theme": "institutions",
       "axe": "institutions",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -1290,8 +1290,8 @@
       "theme": "institutions",
       "axe": "institutions",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -1299,8 +1299,8 @@
       "theme": "institutions",
       "axe": "institutions",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1308,8 +1308,8 @@
       "theme": "institutions",
       "axe": "institutions",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1317,8 +1317,8 @@
       "theme": "institutions",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -1326,17 +1326,17 @@
       "theme": "institutions",
       "axe": "frontieres",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 6,
+      "couverture": 0.666667,
+      "variance": 1.138889,
+      "D": 0.759259
     },
     "INS-017": {
       "theme": "institutions",
       "axe": "institutions",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -1344,8 +1344,8 @@
       "theme": "institutions",
       "axe": "institutions",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1353,19 +1353,19 @@
       "theme": "retraites",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 6,
-      "couverture": 0.666667,
-      "variance": 1.888889,
-      "D": 1.259259
+      "candidats_codes": 9,
+      "couverture": 1,
+      "variance": 2.320988,
+      "D": 2.320988
     },
     "RET-002": {
       "theme": "retraites",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 5,
-      "couverture": 0.555556,
-      "variance": 3.04,
-      "D": 1.688889
+      "candidats_codes": 9,
+      "couverture": 1,
+      "variance": 2.666667,
+      "D": 2.666667
     },
     "RET-003": {
       "theme": "retraites",
@@ -1398,10 +1398,10 @@
       "theme": "retraites",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 5,
-      "couverture": 0.555556,
-      "variance": 0.24,
-      "D": 0.133333
+      "candidats_codes": 6,
+      "couverture": 0.666667,
+      "variance": 1,
+      "D": 0.666667
     },
     "RET-008": {
       "theme": "retraites",
@@ -1425,8 +1425,8 @@
       "theme": "retraites",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 1,
-      "couverture": 0.111111,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -1524,8 +1524,8 @@
       "theme": "sante",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -1542,8 +1542,8 @@
       "theme": "sante",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -1551,8 +1551,8 @@
       "theme": "sante",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1560,8 +1560,8 @@
       "theme": "sante",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -1569,8 +1569,8 @@
       "theme": "sante",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1578,8 +1578,8 @@
       "theme": "sante",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -1587,8 +1587,8 @@
       "theme": "sante",
       "axe": "economie",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1605,26 +1605,26 @@
       "theme": "sante",
       "axe": "securite",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 2.24,
+      "D": 1.244444
     },
     "SAN-011": {
       "theme": "sante",
       "axe": "frontieres",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 6,
+      "couverture": 0.666667,
+      "variance": 2.472222,
+      "D": 1.648148
     },
     "SAN-012": {
       "theme": "sante",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -1641,8 +1641,8 @@
       "theme": "sante",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1650,8 +1650,8 @@
       "theme": "sante",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -1659,8 +1659,8 @@
       "theme": "sante",
       "axe": "economie",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -1668,17 +1668,17 @@
       "theme": "sante",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 1.44,
+      "D": 0.8
     },
     "SAN-019": {
       "theme": "sante",
       "axe": "frontieres",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1704,8 +1704,8 @@
       "theme": "securite",
       "axe": "securite",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1713,8 +1713,8 @@
       "theme": "securite",
       "axe": "securite",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1722,8 +1722,8 @@
       "theme": "securite",
       "axe": "securite",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1731,8 +1731,8 @@
       "theme": "securite",
       "axe": "securite",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -1740,8 +1740,8 @@
       "theme": "securite",
       "axe": "securite",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -1749,8 +1749,8 @@
       "theme": "securite",
       "axe": "securite",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -1758,10 +1758,10 @@
       "theme": "securite",
       "axe": "securite",
       "sens": 1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 1.5,
+      "D": 0.666667
     },
     "SEC-010": {
       "theme": "securite",
@@ -1776,44 +1776,44 @@
       "theme": "securite",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 1.36,
+      "D": 0.755556
     },
     "SEC-012": {
       "theme": "securite",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 6,
+      "couverture": 0.666667,
+      "variance": 0,
+      "D": 0
     },
     "SEC-013": {
       "theme": "securite",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 5,
+      "couverture": 0.555556,
+      "variance": 0.24,
+      "D": 0.133333
     },
     "SEC-014": {
       "theme": "securite",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 6,
+      "couverture": 0.666667,
+      "variance": 0.805556,
+      "D": 0.537037
     },
     "SEC-015": {
       "theme": "securite",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -1821,8 +1821,8 @@
       "theme": "securite",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -1830,17 +1830,17 @@
       "theme": "securite",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
-      "variance": null,
-      "D": null
+      "candidats_codes": 4,
+      "couverture": 0.444444,
+      "variance": 0,
+      "D": 0
     },
     "SEC-018": {
       "theme": "securite",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 2,
+      "couverture": 0.222222,
       "variance": null,
       "D": null
     },
@@ -1848,8 +1848,8 @@
       "theme": "securite",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 3,
+      "couverture": 0.333333,
       "variance": null,
       "D": null
     },
@@ -1857,8 +1857,8 @@
       "theme": "securite",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     },
@@ -1866,8 +1866,8 @@
       "theme": "securite",
       "axe": "securite",
       "sens": -1,
-      "candidats_codes": 0,
-      "couverture": 0,
+      "candidats_codes": 1,
+      "couverture": 0.111111,
       "variance": null,
       "D": null
     }

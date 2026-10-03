@@ -29,6 +29,16 @@
       "description": "Premier calcul des fichiers dérivés sur les codes publiés à cette date (pilote retraites seul) : résultats provisoires.",
       "auteur": "Claude (lot 5b), à la demande de Mathieu",
       "reference": "phase-5, lot 5b"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "recodage",
+      "objets": [
+        "data/positions/*.json"
+      ],
+      "description": "Import des codes de la phase 4 (vague 1) : 9 candidats, 11 thèmes, 206 positions chacun, grille 1.2. Les désaccords entre codeurs sont tranchés provisoirement par un troisième modèle ; validation humaine des arbitrages et contrôle humain d'échantillon encore en attente. Données de preuve de concept.",
+      "auteur": "Claude (préparation du lot 5e), à la demande de Mathieu",
+      "reference": "phase-4"
     }
   ]
 }
