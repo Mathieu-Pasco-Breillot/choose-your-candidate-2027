@@ -1,0 +1,615 @@
+{
+ "candidat_id": "philippe-edouard",
+ "_statut": "PILOTE retraites — à valider ; arbitrages et contrôle humain en attente",
+ "grille_version": "1.1",
+ "programme": {
+  "officiel_disponible": false,
+  "date_publication": null,
+  "url": null,
+  "note": "Aucun document de programme officiel 2027 trouvé en ligne. Le volet retraites a été présenté le 29 septembre 2026 dans une vidéo d'une vingtaine de minutes sur ses réseaux sociaux, complétée par un entretien au Parisien ; extraction faite à partir des comptes rendus de médias nationaux (LCP, Public Sénat, Journal du Net). Vidéo et entretien d'origine non consultés directement."
+ },
+ "positions": [
+  {
+   "question_id": "RET-001",
+   "code": -2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "53752a8c",
+   "extraits": [
+    {
+     "reformulation": "Dans une vidéo du 29 septembre 2026, Édouard Philippe propose de reprendre d'abord la réforme de 2023 (64 ans, 43 annuités), puis de porter progressivement l'âge légal de départ à 65 ans en moins de dix ans, pour les Français qui le peuvent. Il précise qu'environ un Français sur trois pourrait continuer à partir entre 60 et 64 ans (carrières longues, métiers pénibles, handicap, invalidité). Proposition présentée comme un engagement de son projet.",
+     "citation_courte": "l'âge de départ à 65 ans",
+     "reformulation_anonymisee": "[CANDIDAT] propose de reprendre d'abord la réforme de 2023 (64 ans, 43 annuités), puis de porter progressivement l'âge légal de départ à 65 ans en moins de dix ans, pour les Français qui le peuvent. Il précise qu'environ un Français sur trois pourrait continuer à partir entre 60 et 64 ans (carrières longues, métiers pénibles, handicap, invalidité). Proposition présentée comme un engagement de son projet.",
+     "citation_anonymisee": "l'âge de départ à 65 ans",
+     "source": {
+      "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+      "titre": "Retraites: Édouard Philippe veut porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans",
+      "date_publication": "2026-09-29",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Engagement à porter l'âge légal à 65 ans, contraire de 62 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il propose de porter progressivement l'âge légal à 65 ans, contre 62 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-002",
+   "code": -2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "ebe316cd",
+   "extraits": [
+    {
+     "reformulation": "Dans une vidéo du 29 septembre 2026, Édouard Philippe propose de reprendre d'abord la réforme de 2023 (64 ans, 43 annuités), puis de porter progressivement l'âge légal de départ à 65 ans en moins de dix ans, pour les Français qui le peuvent. Il précise qu'environ un Français sur trois pourrait continuer à partir entre 60 et 64 ans (carrières longues, métiers pénibles, handicap, invalidité). Proposition présentée comme un engagement de son projet.",
+     "citation_courte": "l'âge de départ à 65 ans",
+     "reformulation_anonymisee": "[CANDIDAT] propose de reprendre d'abord la réforme de 2023 (64 ans, 43 annuités), puis de porter progressivement l'âge légal de départ à 65 ans en moins de dix ans, pour les Français qui le peuvent. Il précise qu'environ un Français sur trois pourrait continuer à partir entre 60 et 64 ans (carrières longues, métiers pénibles, handicap, invalidité). Proposition présentée comme un engagement de son projet.",
+     "citation_anonymisee": "l'âge de départ à 65 ans",
+     "source": {
+      "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+      "titre": "Retraites: Édouard Philippe veut porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans",
+      "date_publication": "2026-09-29",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Engagement à porter l'âge légal à 65 ans, contraire de 60 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il propose de porter l'âge légal à 65 ans, contre 60 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-003",
+   "code": 2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "f8232112",
+   "extraits": [
+    {
+     "reformulation": "Dans une vidéo du 29 septembre 2026, Édouard Philippe propose de reprendre d'abord la réforme de 2023 (64 ans, 43 annuités), puis de porter progressivement l'âge légal de départ à 65 ans en moins de dix ans, pour les Français qui le peuvent. Il précise qu'environ un Français sur trois pourrait continuer à partir entre 60 et 64 ans (carrières longues, métiers pénibles, handicap, invalidité). Proposition présentée comme un engagement de son projet.",
+     "citation_courte": "l'âge de départ à 65 ans",
+     "reformulation_anonymisee": "[CANDIDAT] propose de reprendre d'abord la réforme de 2023 (64 ans, 43 annuités), puis de porter progressivement l'âge légal de départ à 65 ans en moins de dix ans, pour les Français qui le peuvent. Il précise qu'environ un Français sur trois pourrait continuer à partir entre 60 et 64 ans (carrières longues, métiers pénibles, handicap, invalidité). Proposition présentée comme un engagement de son projet.",
+     "citation_anonymisee": "l'âge de départ à 65 ans",
+     "source": {
+      "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+      "titre": "Retraites: Édouard Philippe veut porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans",
+      "date_publication": "2026-09-29",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Engagement à porter l'âge légal à 65 ans, progressivement en moins de dix ans (R2).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "R2 : engagement ferme sur 65 ans avec étalement en moins de dix ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-005",
+   "code": 2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "ca12d187",
+   "extraits": [
+    {
+     "reformulation": "Édouard Philippe propose de porter progressivement la durée de cotisation requise à 45 ans (contre 43 ans dans le cadre actuel), en moins de dix ans, après avoir repris la réforme de 2023. Proposition présentée comme un engagement de son projet.",
+     "citation_courte": "porter progressivement la durée de cotisation à 45 ans",
+     "reformulation_anonymisee": "[CANDIDAT] propose de porter progressivement la durée de cotisation requise à 45 ans (contre 43 ans dans le cadre actuel), en moins de dix ans, après avoir repris la réforme de 2023. Proposition présentée comme un engagement de son projet.",
+     "citation_anonymisee": "porter progressivement la durée de cotisation à 45 ans",
+     "source": {
+      "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+      "titre": "Retraites: Édouard Philippe veut porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans",
+      "date_publication": "2026-09-29",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Engagement à porter la durée à 45 ans, progressivement en moins de dix ans (R2).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Engagement ferme sur 45 ans de cotisation avec étalement en moins de dix ans (R2).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-006",
+   "code": -2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "9fca4744",
+   "extraits": [
+    {
+     "reformulation": "Édouard Philippe propose de porter progressivement la durée de cotisation requise à 45 ans (contre 43 ans dans le cadre actuel), en moins de dix ans, après avoir repris la réforme de 2023. Proposition présentée comme un engagement de son projet.",
+     "citation_courte": "porter progressivement la durée de cotisation à 45 ans",
+     "reformulation_anonymisee": "[CANDIDAT] propose de porter progressivement la durée de cotisation requise à 45 ans (contre 43 ans dans le cadre actuel), en moins de dix ans, après avoir repris la réforme de 2023. Proposition présentée comme un engagement de son projet.",
+     "citation_anonymisee": "porter progressivement la durée de cotisation à 45 ans",
+     "source": {
+      "url": "https://lcp.fr/actualites/retraites-edouard-philippe-veut-porter-l-age-de-depart-a-65-ans-et-la-duree-de",
+      "titre": "Retraites: Édouard Philippe veut porter l'âge de départ à 65 ans et la durée de cotisation à 45 ans",
+      "date_publication": "2026-09-29",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Propose de porter la durée à 45 ans, contraire de 40 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il propose de porter la durée à 45 ans, contre 40 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": true,
+    "date": null,
+    "resultat": null
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-007",
+   "code": 2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "f014035e",
+   "extraits": [
+    {
+     "reformulation": "Selon le Journal du Net, le projet d'Édouard Philippe prévoit une dose de capitalisation pour tous via un fonds de capitalisation collective obligatoire pour l'ensemble des salariés, alimenté par les excédents de l'Agirc-Arrco. S'y ajoute la généralisation du plan d'épargne-retraite, amorcé par l'État à hauteur de 500 euros au premier contrat de travail (400 millions d'euros par an, financés par les dividendes de l'État actionnaire).",
+     "citation_courte": null,
+     "reformulation_anonymisee": "Le projet de [CANDIDAT] prévoit une dose de capitalisation pour tous via un fonds de capitalisation collective obligatoire pour l'ensemble des salariés, alimenté par les excédents du régime complémentaire Agirc-Arrco. S'y ajoute la généralisation du plan d'épargne-retraite, amorcé par l'État à hauteur de 500 euros au premier contrat de travail (400 millions d'euros par an, financés par les dividendes de l'État actionnaire).",
+     "citation_anonymisee": null,
+     "source": {
+      "url": "https://www.journaldunet.com/business/action-publique/1555605-edouard-philippe-devoile-son-projet-de-reforme-des-retraites-pour-la-presidentielle-2027-prevoyant-un-depart-a-65-ans-et-45-annuites/",
+      "titre": "Edouard Philippe dévoile son projet de réforme des retraites pour la présidentielle 2027, prévoyant un départ à 65 ans et 45 annuités",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": null
+    },
+    {
+     "reformulation": "Édouard Philippe veut un système mixte : la répartition doit rester le socle, complétée par un volet de capitalisation, d'abord sous la forme d'un fonds collectif obligatoire qu'il dit neutre sur le coût du travail, puis par la généralisation du plan d'épargne-retraite avec un abondement de l'État de 500 euros au premier contrat de travail.",
+     "citation_courte": "neutre sur le coût du travail",
+     "reformulation_anonymisee": "[CANDIDAT] veut un système mixte : la répartition doit rester le socle, complétée par un volet de capitalisation, d'abord sous la forme d'un fonds collectif obligatoire qu'il dit neutre sur le coût du travail, puis par la généralisation du plan d'épargne-retraite avec un abondement de l'État de 500 euros au premier contrat de travail.",
+     "citation_anonymisee": "neutre sur le coût du travail",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "titre": "Reculer ou avancer l'âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l'élection présidentielle sur les retraites",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Fonds de capitalisation collective obligatoire pour l'ensemble des salariés.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Il prévoit un fonds de capitalisation collective obligatoire pour l'ensemble des salariés.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-008",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-009",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-010",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-011",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-012",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-013",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-014",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-015",
+   "code": null,
+   "nature": null,
+   "statut": "arbitrage_en_attente",
+   "item_aveugle": "6be3e1b3",
+   "extraits": [
+    {
+     "reformulation": "Édouard Philippe affirme que ceux qui ont commencé à travailler très tôt doivent pouvoir partir plus tôt : les dispositifs de carrières longues seraient maintenus malgré le passage à 65 ans, et environ un Français sur trois pourrait partir entre 60 et 64 ans. Il ne précise ni un seuil d'entrée dans la vie active avant 20 ans ni une garantie de départ à 60 ans pour tous ces cas.",
+     "citation_courte": "Ceux qui ont commencé très tôt doivent pouvoir partir plus tôt",
+     "reformulation_anonymisee": "[CANDIDAT] affirme que ceux qui ont commencé à travailler très tôt doivent pouvoir partir plus tôt : les dispositifs de carrières longues seraient maintenus malgré le passage à 65 ans, et environ un Français sur trois pourrait partir entre 60 et 64 ans. Il ne précise ni un seuil d'entrée dans la vie active avant 20 ans ni une garantie de départ à 60 ans pour tous ces cas.",
+     "citation_anonymisee": "Ceux qui ont commencé très tôt doivent pouvoir partir plus tôt",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/retraites-edouard-philippe-sort-du-bois-et-propose-un-age-de-depart-a-65-ans",
+      "titre": "Retraites : Édouard Philippe sort du bois et propose un âge de départ à 65 ans",
+      "date_publication": "2026-09-29",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": null,
+     "nature": "non_connu",
+     "justification": "Principe général « partir plus tôt » pour les carrières longues, sans seuil de 20 ans ni garantie de 60 ans (R4).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "imprecise",
+     "justification": "Il veut que ceux qui ont commencé très tôt partent plus tôt (carrières longues maintenues) mais sans seuil avant 20 ans ni garantie de 60 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": false
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-016",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "accord",
+   "item_aveugle": "582c62b0",
+   "extraits": [
+    {
+     "reformulation": "Édouard Philippe dit que ceux qui exercent des métiers pénibles, ou dont le corps ne suit plus, doivent pouvoir partir avant l'âge légal (entre 60 et 64 ans). Il ne cite pas de critères précis de pénibilité (charges lourdes, postures, vibrations).",
+     "citation_courte": "le corps ne suit plus",
+     "reformulation_anonymisee": "[CANDIDAT] dit que ceux qui exercent des métiers pénibles, ou dont le corps ne suit plus, doivent pouvoir partir avant l'âge légal (entre 60 et 64 ans). Il ne cite pas de critères précis de pénibilité (charges lourdes, postures, vibrations).",
+     "citation_anonymisee": "le corps ne suit plus",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/retraites-edouard-philippe-sort-du-bois-et-propose-un-age-de-depart-a-65-ans",
+      "titre": "Retraites : Édouard Philippe sort du bois et propose un âge de départ à 65 ans",
+      "date_publication": "2026-09-29",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Selon le Journal du Net, Édouard Philippe entend donner plus de pouvoir aux partenaires sociaux pour redéfinir ou ajuster les critères de pénibilité, les aménagements de fin de carrière et le rythme de mise en place de la réforme. Il ne se prononce pas lui-même sur les critères à retenir.",
+     "citation_courte": null,
+     "reformulation_anonymisee": "[CANDIDAT] entend donner plus de pouvoir aux partenaires sociaux pour redéfinir ou ajuster les critères de pénibilité, les aménagements de fin de carrière et le rythme de mise en place de la réforme. Il ne se prononce pas lui-même sur les critères à retenir.",
+     "citation_anonymisee": null,
+     "source": {
+      "url": "https://www.journaldunet.com/business/action-publique/1555605-edouard-philippe-devoile-son-projet-de-reforme-des-retraites-pour-la-presidentielle-2027-prevoyant-un-depart-a-65-ans-et-45-annuites/",
+      "titre": "Edouard Philippe dévoile son projet de réforme des retraites pour la présidentielle 2027, prévoyant un départ à 65 ans et 45 annuités",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": null
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": null,
+     "nature": "non_connu",
+     "justification": "Départ anticipé pour métiers pénibles en général, sans reprendre les trois critères de l'énoncé (R4).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": null,
+     "nature": "non_connu",
+     "justification": "R4 : position générale sur la pénibilité (partenaires sociaux, métiers pénibles) sans reprendre les trois critères de l'énoncé.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-017",
+   "code": -1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "c11a18e0",
+   "extraits": [
+    {
+     "reformulation": "Interrogé sur l'âge d'annulation de la décote, aujourd'hui fixé à 67 ans, Édouard Philippe assure qu'il n'y touchera pas (propos tenus au Parisien, rapportés par le Journal du Net). Engagement ferme de maintien à 67 ans.",
+     "citation_courte": "je n'y toucherai pas",
+     "reformulation_anonymisee": "Interrogé sur l'âge d'annulation de la décote, aujourd'hui fixé à 67 ans, [CANDIDAT] assure qu'il n'y touchera pas. Engagement ferme de maintien à 67 ans.",
+     "citation_anonymisee": "je n'y toucherai pas",
+     "source": {
+      "url": "https://www.journaldunet.com/business/action-publique/1555605-edouard-philippe-devoile-son-projet-de-reforme-des-retraites-pour-la-presidentielle-2027-prevoyant-un-depart-a-65-ans-et-45-annuites/",
+      "titre": "Edouard Philippe dévoile son projet de réforme des retraites pour la présidentielle 2027, prévoyant un départ à 65 ans et 45 annuités",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Engagement de ne pas toucher à l'âge de 67 ans : statu quo opposé à l'abaissement.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Il s'engage à ne pas toucher à l'âge d'annulation de la décote à 67 ans, ce qui contredit l'abaissement proposé sans proposer l'inverse.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-018",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-019",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-022",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  }
+ ]
+}

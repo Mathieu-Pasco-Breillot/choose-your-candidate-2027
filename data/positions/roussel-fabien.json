@@ -1,0 +1,595 @@
+{
+ "candidat_id": "roussel-fabien",
+ "_statut": "PILOTE retraites — à valider ; arbitrages et contrôle humain en attente",
+ "grille_version": "1.1",
+ "programme": {
+  "officiel_disponible": false,
+  "date_publication": null,
+  "url": null,
+  "note": "Candidature officialisée le 6 septembre 2026 (vote des militants). Aucun programme officiel 2027 trouvé ; Capital (24/09/2026, repris par Yahoo Finance) indique qu'il n'a pas encore détaillé son projet retraites 2027. Les extraits reposent surtout sur le programme et les déclarations de la campagne 2022 (postérieurs au 1er janvier 2022), rapportés par des sources secondaires ; le site fabienroussel2022.fr est inaccessible. Les déclarations de 2019 (cotisation de 10,45 % sur les revenus financiers/dividendes, critique de la capitalisation) sont antérieures à 2022 et donc exclues (RET-007, RET-013, RET-022 vides)."
+ },
+ "positions": [
+  {
+   "question_id": "RET-001",
+   "code": 1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "8e23c5d9",
+   "extraits": [
+    {
+     "reformulation": "Réagissant en octobre 2025 à la suspension de la réforme de 2023, il qualifie le maintien à 62 ans et 9 mois et 170 trimestres de « première victoire » pour 500 000 salariés et appelle à poursuivre le combat jusqu'à l'abrogation de la réforme et pour un financement juste. Il ne dit pas dans ce passage quel âge légal il veut fixer.",
+     "citation_courte": "Poursuivons le combat jusqu'à l'abrogation et pour un financement juste !",
+     "reformulation_anonymisee": "Réagissant en octobre 2025 à la suspension de la réforme de 2023, [CANDIDAT] qualifie le maintien à 62 ans et 9 mois et 170 trimestres de première victoire pour 500 000 salariés et appelle à poursuivre le combat jusqu'à l'abrogation de la réforme et pour un financement juste. Il ne dit pas dans ce passage quel âge légal il veut fixer.",
+     "citation_anonymisee": "Poursuivons le combat jusqu'à l'abrogation et pour un financement juste !",
+     "source": {
+      "url": "https://fr.hespress.com/445401-445401.html",
+      "titre": "France: La suspension de la réforme des retraites saluée",
+      "date_publication": "2025-10-14",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Dans son programme présidentiel de 2022, il promet le rétablissement de la retraite à 60 ans (et non 62 ans). Engagement ferme, daté de 2022.",
+     "citation_courte": "rétablissement de la retraite à 60 ans",
+     "reformulation_anonymisee": "Dans son programme présidentiel de 2022, [CANDIDAT] promet le rétablissement de la retraite à 60 ans (et non 62 ans). Engagement ferme, daté de 2022.",
+     "citation_anonymisee": "rétablissement de la retraite à 60 ans",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-fabien-roussel-presente-180-propositions-pour-une-france-des-jours",
+      "titre": "Présidentielle : Fabien Roussel présente 180 propositions pour « une France des jours heureux »",
+      "date_publication": "2022-01-24",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Veut l'abrogation de la réforme et, en source concordante, la retraite à 60 ans (R1).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "R1 : il demande l'abrogation de la réforme et avait promis 60 ans en 2022, soit plus loin que 62 ans dans le même sens.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": true,
+    "date": null,
+    "resultat": null
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-002",
+   "code": 2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "a53618b3",
+   "extraits": [
+    {
+     "reformulation": "Dans son programme présidentiel présenté en janvier 2022, il promet le rétablissement de la retraite à 60 ans. Engagement ferme, daté de 2022.",
+     "citation_courte": "rétablissement de la retraite à 60 ans",
+     "reformulation_anonymisee": "Dans son programme présidentiel présenté en janvier 2022, [CANDIDAT] promet le rétablissement de la retraite à 60 ans. Engagement ferme, daté de 2022.",
+     "citation_anonymisee": "rétablissement de la retraite à 60 ans",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-fabien-roussel-presente-180-propositions-pour-une-france-des-jours",
+      "titre": "Présidentielle : Fabien Roussel présente 180 propositions pour « une France des jours heureux »",
+      "date_publication": "2022-01-24",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Le programme 2022 cité par l'Institut Montaigne prévoit qu'une loi rétablira la retraite à 60 ans, à taux plein.",
+     "citation_courte": "Une loi rétablira la retraite à 60 ans, à taux plein.",
+     "reformulation_anonymisee": "Le programme 2022 de [CANDIDAT] prévoit qu'une loi rétablira la retraite à 60 ans, à taux plein.",
+     "citation_anonymisee": "Une loi rétablira la retraite à 60 ans, à taux plein.",
+     "source": {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/fabien-roussel/restaurer-la-retraite-a-60-ans-a-taux-plein-porter-la-pension-a-75-du-revenu-net-des-dix-meilleures-annees-pour-le-public-et-le-prive/",
+      "titre": "Restaurer la retraite à 60 ans à taux plein, porter la pension à 75 % du revenu net des dix meilleures années pour le public et le privé",
+      "date_publication": "2022-02-14",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Une loi rétablira la retraite à 60 ans à taux plein.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Il promet une loi rétablissant la retraite à 60 ans à taux plein.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-003",
+   "code": -2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "ffe28d2f",
+   "extraits": [
+    {
+     "reformulation": "En mars 2022, il défend le retour à 60 ans, qu'il juge possible, et conteste le report à 65 ans en demandant comment on peut travailler jusqu'à cet âge alors qu'un million de plus de 60 ans sont au chômage.",
+     "citation_courte": "Comment peut-on travailler jusqu'à 65 ans",
+     "reformulation_anonymisee": "En mars 2022, [CANDIDAT] défend le retour à 60 ans, qu'il juge possible, et conteste le report à 65 ans en demandant comment on peut travailler jusqu'à cet âge alors qu'un million de plus de 60 ans sont au chômage.",
+     "citation_anonymisee": "Comment peut-on travailler jusqu'à 65 ans",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-de-60-a-65-ans-que-proposent-les-candidats-sur-l-age-de-depart-a-la",
+      "titre": "Présidentielle : de 60 à 65 ans, que proposent les candidats sur l’âge de départ à la retraite ?",
+      "date_publication": "2022-03-10",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Conteste le report à 65 ans et défend le retour à 60 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il défend le retour à 60 ans et conteste le report à 65 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-005",
+   "code": -2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "827ebaac",
+   "extraits": [
+    {
+     "reformulation": "Selon Public Sénat (mars 2022), il défend un retour à 60 ans avec 40 annuités de cotisation. L'article rapporte la position sans citation directe sur la durée.",
+     "citation_courte": null,
+     "reformulation_anonymisee": "Selon un média national (mars 2022), [CANDIDAT] défend un retour à 60 ans avec 40 annuités de cotisation. L'article rapporte la position sans citation directe sur la durée.",
+     "citation_anonymisee": null,
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-de-60-a-65-ans-que-proposent-les-candidats-sur-l-age-de-depart-a-la",
+      "titre": "Présidentielle : de 60 à 65 ans, que proposent les candidats sur l’âge de départ à la retraite ?",
+      "date_publication": "2022-03-10",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": null
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Défend 40 annuités, contraire d'un allongement à 45 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il défend 40 annuités, soit le contraire d'une durée portée à 45 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-006",
+   "code": 2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "1fe406ed",
+   "extraits": [
+    {
+     "reformulation": "Selon Public Sénat (mars 2022), il défend un retour à 60 ans avec 40 annuités de cotisation. L'article rapporte la position sans citation directe sur la durée.",
+     "citation_courte": null,
+     "reformulation_anonymisee": "Selon un média national (mars 2022), [CANDIDAT] défend un retour à 60 ans avec 40 annuités de cotisation. L'article rapporte la position sans citation directe sur la durée.",
+     "citation_anonymisee": null,
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-de-60-a-65-ans-que-proposent-les-candidats-sur-l-age-de-depart-a-la",
+      "titre": "Présidentielle : de 60 à 65 ans, que proposent les candidats sur l’âge de départ à la retraite ?",
+      "date_publication": "2022-03-10",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": null
+    },
+    {
+     "reformulation": "Selon La finance pour tous (mars 2022), il propose de ramener la durée de cotisation à 160 trimestres (40 annuités).",
+     "citation_courte": "160 trimestres (40 annuités)",
+     "reformulation_anonymisee": "Selon un site d'information financière (mars 2022), [CANDIDAT] propose de ramener la durée de cotisation à 160 trimestres (40 annuités).",
+     "citation_anonymisee": "160 trimestres (40 annuités)",
+     "source": {
+      "url": "https://www.lafinancepourtous.com/2022/03/25/elections-presidentielles-les-propositions-des-candidats-sur-la-retraite/",
+      "titre": "Élections présidentielles : les propositions des candidats sur la retraite",
+      "date_publication": "2022-03-25",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Propose de ramener la durée à 160 trimestres (40 annuités).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Il propose 160 trimestres, soit 40 annuités.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-007",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-008",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-009",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-010",
+   "code": null,
+   "nature": null,
+   "statut": "arbitrage_en_attente",
+   "item_aveugle": "efae002e",
+   "extraits": [
+    {
+     "reformulation": "Le programme 2022 prévoit qu'aucune pension ne pourra être inférieure à 1 200 euros net par mois. Le montant est exprimé en euros, sans référence au SMIC dans le passage.",
+     "citation_courte": "Aucune pension ne pourra être inférieure à 1 200 euros net.",
+     "reformulation_anonymisee": "Le programme 2022 de [CANDIDAT] prévoit qu'aucune pension ne pourra être inférieure à 1 200 euros net par mois. Le montant est exprimé en euros, sans référence au SMIC dans le passage.",
+     "citation_anonymisee": "Aucune pension ne pourra être inférieure à 1 200 euros net.",
+     "source": {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/fabien-roussel/restaurer-la-retraite-a-60-ans-a-taux-plein-porter-la-pension-a-75-du-revenu-net-des-dix-meilleures-annees-pour-le-public-et-le-prive/",
+      "titre": "Restaurer la retraite à 60 ans à taux plein, porter la pension à 75 % du revenu net des dix meilleures années pour le public et le privé",
+      "date_publication": "2022-02-14",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Pension minimale de 1 200 euros nets : relèvement chiffré mais sans référence au SMIC.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": null,
+     "nature": "non_connu",
+     "justification": "Le plancher de 1 200 euros net n'est pas relié au SMIC dans l'extrait, donc impossible de comparer.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": false
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-011",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-012",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-013",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-014",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-015",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-016",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "accord",
+   "item_aveugle": "42835e0d",
+   "extraits": [
+    {
+     "reformulation": "Selon La finance pour tous (mars 2022), il propose, avec l'abaissement de l'âge légal à 60 ans, une possibilité de départ anticipé pour les « métiers pénibles ». Les critères de pénibilité (charges lourdes, postures, vibrations) ne sont pas précisés.",
+     "citation_courte": "possibilité de départ anticipé pour les « métiers pénibles »",
+     "reformulation_anonymisee": "Selon un site d'information financière (mars 2022), [CANDIDAT] propose, avec l'abaissement de l'âge légal à 60 ans, une possibilité de départ anticipé pour les « métiers pénibles ». Les critères de pénibilité (charges lourdes, postures, vibrations) ne sont pas précisés.",
+     "citation_anonymisee": "possibilité de départ anticipé pour les « métiers pénibles »",
+     "source": {
+      "url": "https://www.lafinancepourtous.com/2022/03/25/elections-presidentielles-les-propositions-des-candidats-sur-la-retraite/",
+      "titre": "Élections présidentielles : les propositions des candidats sur la retraite",
+      "date_publication": "2022-03-25",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": null,
+     "nature": "non_connu",
+     "justification": "Départ anticipé pour « métiers pénibles » sans critères précis (R4).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": null,
+     "nature": "non_connu",
+     "justification": "R4 : départ anticipé pour « métiers pénibles » sans reprendre les critères (charges, postures, vibrations).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-017",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-018",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-019",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "accord",
+   "item_aveugle": "1aed2746",
+   "extraits": [
+    {
+     "reformulation": "Le programme 2022 prévoit que la pension atteindra 75 % du revenu net d'activité, dans le public comme dans le privé ; l'Institut Montaigne le présente comme un calcul sur les dix meilleures années pour le public et le privé. Rien sur un passage aux 25 meilleures années pour les fonctionnaires.",
+     "citation_courte": "La pension atteindra 75 % du revenu net d'activité, dans le secteur public comme",
+     "reformulation_anonymisee": "Le programme 2022 de [CANDIDAT] prévoit que la pension atteindra 75 % du revenu net d'activité, dans le public comme dans le privé ; un institut d'analyse le présente comme un calcul sur les dix meilleures années pour le public et le privé. Rien sur un passage aux 25 meilleures années pour les fonctionnaires.",
+     "citation_anonymisee": "La pension atteindra 75 % du revenu net d'activité, dans le secteur public comme",
+     "source": {
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/fabien-roussel/restaurer-la-retraite-a-60-ans-a-taux-plein-porter-la-pension-a-75-du-revenu-net-des-dix-meilleures-annees-pour-le-public-et-le-prive/",
+      "titre": "Restaurer la retraite à 60 ans à taux plein, porter la pension à 75 % du revenu net des dix meilleures années pour le public et le privé",
+      "date_publication": "2022-02-14",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": null,
+     "nature": "non_connu",
+     "justification": "Porte sur le taux de remplacement, rien sur les 25 meilleures années pour les fonctionnaires.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": null,
+     "nature": "non_connu",
+     "justification": "Aucune position sur les 25 meilleures années pour les fonctionnaires, seulement un taux de 75 % du revenu net.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-022",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  }
+ ]
+}

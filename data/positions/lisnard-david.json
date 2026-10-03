@@ -1,0 +1,527 @@
+{
+ "candidat_id": "lisnard-david",
+ "_statut": "PILOTE retraites — à valider ; arbitrages et contrôle humain en attente",
+ "grille_version": "1.1",
+ "programme": {
+  "officiel_disponible": false,
+  "date_publication": null,
+  "url": null,
+  "note": "Aucun programme officiel présidentiel 2027 trouvé. Le site de Nouvelle Énergie publie une page « Notre programme » (https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/) NON DATÉE, attribuée à David Lisnard ; en ligne le 3 oct. 2026, archivée au moins depuis août 2025, rédigée après 2020 (mention du Covid). Date de publication et statut (texte adopté après investiture ?) non vérifiables : classée programme_parti avec date null, à valider par le relecteur au regard de la règle du 1er janvier 2022."
+ },
+ "positions": [
+  {
+   "question_id": "RET-001",
+   "code": null,
+   "nature": null,
+   "statut": "arbitrage_en_attente",
+   "item_aveugle": "82b1677f",
+   "extraits": [
+    {
+     "reformulation": "Le texte présente la norme d'un âge légal de 65 ans comme un impératif national urgent, pour des raisons d'équilibre financier, et comme un préalable à toute réforme d'ensemble combinant répartition et capitalisation.",
+     "citation_courte": "la norme de l'âge légal de 65 ans est un impératif national urgent",
+     "reformulation_anonymisee": "Le texte présente la norme d'un âge légal de 65 ans comme un impératif national urgent, pour des raisons d'équilibre financier, et comme un préalable à toute réforme d'ensemble combinant répartition et capitalisation.",
+     "citation_anonymisee": "la norme de l'âge légal de 65 ans est un impératif national urgent",
+     "source": {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "titre": "L'ambition française de David Lisnard | Nouvelle Énergie (section « La réforme des retraites »)",
+      "date_publication": null,
+      "type": "programme_parti"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "David Lisnard a déclaré (franceinfo, 9 octobre 2024) qu'il ne fallait pas revenir sur les réformes décidées en matière de retraites ; il qualifie par ailleurs la réforme de 2023 de « réformette » (29 novembre 2025), jugeant qu'il faudrait passer à la capitalisation.",
+     "citation_courte": "il faut pas revenir sur les réformes qui avaient été décidées",
+     "reformulation_anonymisee": "[CANDIDAT] a déclaré en octobre 2024 qu'il ne fallait pas revenir sur les réformes décidées en matière de retraites ; il qualifie par ailleurs la réforme de 2023 de « réformette » (novembre 2025), jugeant qu'il faudrait passer à la capitalisation.",
+     "citation_anonymisee": "il faut pas revenir sur les réformes qui avaient été décidées",
+     "source": {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-age-de-depart-a-la-retraite-david-lisnard-defend-il/",
+      "titre": "Quel âge de départ à la retraite David Lisnard défend-il ? (page du site Nouvelle Énergie citant franceinfo, 9 oct. 2024, et un entretien vidéo du 29 nov. 2025)",
+      "date_publication": "2026-08-31",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Source datée la plus récente : ne pas revenir sur les réformes décidées, statu quo qui contredit un retour à 62 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il ne veut pas revenir sur les réformes et présente l'âge légal de 65 ans comme un impératif, ce qui rejette un âge fixé à 62 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": false
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-002",
+   "code": null,
+   "nature": null,
+   "statut": "arbitrage_en_attente",
+   "item_aveugle": "c0f235d9",
+   "extraits": [
+    {
+     "reformulation": "Le texte présente la norme d'un âge légal de 65 ans comme un impératif national urgent, pour des raisons d'équilibre financier, et comme un préalable à toute réforme d'ensemble combinant répartition et capitalisation.",
+     "citation_courte": "la norme de l'âge légal de 65 ans est un impératif national urgent",
+     "reformulation_anonymisee": "Le texte présente la norme d'un âge légal de 65 ans comme un impératif national urgent, pour des raisons d'équilibre financier, et comme un préalable à toute réforme d'ensemble combinant répartition et capitalisation.",
+     "citation_anonymisee": "la norme de l'âge légal de 65 ans est un impératif national urgent",
+     "source": {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "titre": "L'ambition française de David Lisnard | Nouvelle Énergie (section « La réforme des retraites »)",
+      "date_publication": null,
+      "type": "programme_parti"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "David Lisnard a déclaré (franceinfo, 9 octobre 2024) qu'il ne fallait pas revenir sur les réformes décidées en matière de retraites ; il qualifie par ailleurs la réforme de 2023 de « réformette » (29 novembre 2025), jugeant qu'il faudrait passer à la capitalisation.",
+     "citation_courte": "il faut pas revenir sur les réformes qui avaient été décidées",
+     "reformulation_anonymisee": "[CANDIDAT] a déclaré en octobre 2024 qu'il ne fallait pas revenir sur les réformes décidées en matière de retraites ; il qualifie par ailleurs la réforme de 2023 de « réformette » (novembre 2025), jugeant qu'il faudrait passer à la capitalisation.",
+     "citation_anonymisee": "il faut pas revenir sur les réformes qui avaient été décidées",
+     "source": {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-age-de-depart-a-la-retraite-david-lisnard-defend-il/",
+      "titre": "Quel âge de départ à la retraite David Lisnard défend-il ? (page du site Nouvelle Énergie citant franceinfo, 9 oct. 2024, et un entretien vidéo du 29 nov. 2025)",
+      "date_publication": "2026-08-31",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Source datée la plus récente : ne pas revenir sur les réformes, statu quo opposé à un âge de 60 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il refuse de revenir sur les réformes et veut un âge légal de 65 ans, contre 60 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": false
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-003",
+   "code": 2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "105771d6",
+   "extraits": [
+    {
+     "reformulation": "Le texte présente la norme d'un âge légal de 65 ans comme un impératif national urgent, pour des raisons d'équilibre financier, et comme un préalable à toute réforme d'ensemble combinant répartition et capitalisation.",
+     "citation_courte": "la norme de l'âge légal de 65 ans est un impératif national urgent",
+     "reformulation_anonymisee": "Le texte présente la norme d'un âge légal de 65 ans comme un impératif national urgent, pour des raisons d'équilibre financier, et comme un préalable à toute réforme d'ensemble combinant répartition et capitalisation.",
+     "citation_anonymisee": "la norme de l'âge légal de 65 ans est un impératif national urgent",
+     "source": {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "titre": "L'ambition française de David Lisnard | Nouvelle Énergie (section « La réforme des retraites »)",
+      "date_publication": null,
+      "type": "programme_parti"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Présente l'âge légal de 65 ans comme un impératif national urgent.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Le texte présente l'âge légal de 65 ans comme un impératif national urgent.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-005",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-006",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-007",
+   "code": 2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "d11c0f38",
+   "extraits": [
+    {
+     "reformulation": "Réforme proposée : conserver un socle de pension minimale par répartition, versé à tous dès 65 ans, et faire évoluer tous les autres régimes vers la capitalisation à partir des cotisations obligatoires des salariés et des employeurs, chacun plaçant ces contributions obligatoires dans un dispositif individuel de son choix. Transition en environ 8 tranches, jusqu'à 116 milliards d'euros, soit environ 40 % du total des retraites.",
+     "citation_courte": "faire évoluer tous les autres régimes vers la capitalisation",
+     "reformulation_anonymisee": "Réforme proposée : conserver un socle de pension minimale par répartition, versé à tous dès 65 ans, et faire évoluer tous les autres régimes vers la capitalisation à partir des cotisations obligatoires des salariés et des employeurs, chacun plaçant ces contributions obligatoires dans un dispositif individuel de son choix. Transition en environ 8 tranches, jusqu'à 116 milliards d'euros, soit environ 40 % du total des retraites.",
+     "citation_anonymisee": "faire évoluer tous les autres régimes vers la capitalisation",
+     "source": {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "titre": "L'ambition française de David Lisnard | Nouvelle Énergie (section « La réforme des retraites »)",
+      "date_publication": null,
+      "type": "programme_parti"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "La page indique que David Lisnard porte une capitalisation « obligatoire et collective » comme vraie réponse, plutôt que le seul ajustement de l'âge de départ.",
+     "citation_courte": "il porte la capitalisation obligatoire et collective",
+     "reformulation_anonymisee": "La page indique que [CANDIDAT] porte une capitalisation « obligatoire et collective » comme vraie réponse, plutôt que le seul ajustement de l'âge de départ.",
+     "citation_anonymisee": "il porte la capitalisation obligatoire et collective",
+     "source": {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-age-de-depart-a-la-retraite-david-lisnard-defend-il/",
+      "titre": "Quel âge de départ à la retraite David Lisnard défend-il ? (page du site Nouvelle Énergie citant franceinfo, 9 oct. 2024, et un entretien vidéo du 29 nov. 2025)",
+      "date_publication": "2026-08-31",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Porte une capitalisation obligatoire et collective.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Il porte une capitalisation obligatoire et collective.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": true,
+    "date": null,
+    "resultat": null
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-008",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-009",
+   "code": 1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "72b17dd8",
+   "extraits": [
+    {
+     "reformulation": "David Lisnard propose (déclaration du 29 novembre 2025) de désindexer les pensions au-delà d'un seuil de 2 000 euros par mois ; la page dit qu'il assume la désindexation des pensions les plus élevées plutôt que d'accroître l'effort des actifs. La mesure ne vise pas les pensions inférieures à ce seuil et aucune durée n'est précisée.",
+     "citation_courte": "il assume la désindexation des pensions les plus élevées",
+     "reformulation_anonymisee": "[CANDIDAT] propose (novembre 2025) de désindexer les pensions au-delà d'un seuil de 2 000 euros par mois ; il assume la désindexation des pensions les plus élevées plutôt que d'accroître l'effort des actifs. La mesure ne vise pas les pensions inférieures à ce seuil et aucune durée n'est précisée.",
+     "citation_anonymisee": "il assume la désindexation des pensions les plus élevées",
+     "source": {
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-age-de-depart-a-la-retraite-david-lisnard-defend-il/",
+      "titre": "Quel âge de départ à la retraite David Lisnard défend-il ? (page du site Nouvelle Énergie citant franceinfo, 9 oct. 2024, et un entretien vidéo du 29 nov. 2025)",
+      "date_publication": "2026-08-31",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Désindexation limitée aux pensions de plus de 2 000 euros.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Il propose de désindexer les pensions au-dessus de 2 000 euros, soit un gel partiel sans durée précisée.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-010",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-011",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-012",
+   "code": -1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "9aea8ece",
+   "extraits": [
+    {
+     "reformulation": "Le texte constate que la solution unificatrice de la retraite par points a été brisée par sa complexité, par la rue et par le Covid, et propose à la place un socle minimal par répartition complété par la capitalisation, géré par une agence publique unique remplaçant tous les organismes actuels.",
+     "citation_courte": "la retraite par points a été brisée par sa complexité",
+     "reformulation_anonymisee": "Le texte constate que la solution unificatrice de la retraite par points a été brisée par sa complexité, par la rue et par le Covid, et propose à la place un socle minimal par répartition complété par la capitalisation, géré par une agence publique unique remplaçant tous les organismes actuels.",
+     "citation_anonymisee": "la retraite par points a été brisée par sa complexité",
+     "source": {
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+      "titre": "L'ambition française de David Lisnard | Nouvelle Énergie (section « La réforme des retraites »)",
+      "date_publication": null,
+      "type": "programme_parti"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Écarte la retraite par points au profit d'un socle par répartition complété par la capitalisation (R3).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Il rejette la retraite par points au profit d'un socle par répartition plus capitalisation, avec une agence unique remplaçant les organismes actuels.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-013",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-014",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-015",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-016",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-017",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-018",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-019",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-022",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  }
+ ]
+}

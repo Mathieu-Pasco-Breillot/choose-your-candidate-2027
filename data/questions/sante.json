@@ -1,0 +1,521 @@
+{
+ "_theme": "sante",
+ "_lot": 4,
+ "_statut": "VALIDÉ le 2026-10-03 — sources à recontrôler sur textes officiels avant publication",
+ "_equilibre": {
+  "actives": 19,
+  "suspendues": 1,
+  "sens_plus": 10,
+  "sens_moins": 9,
+  "axes": {
+   "economie": 15,
+   "securite": 2,
+   "frontieres": 2
+  }
+ },
+ "_note": "Sources recherchées le 2026-10-02, lues via un résumé automatique : chiffres et citations à recontrôler avant publication. Écartées faute de proposition documentée ou parce que déjà en vigueur : interdiction des EHPAD lucratifs, carte Vitale biométrique, fin du numerus apertus, recrutement de 100 000 soignants.",
+ "questions": [
+  {
+   "id": "SAN-001",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "L'installation d'un médecin dans une zone déjà bien dotée doit être soumise à autorisation.",
+   "precision": "Les médecins libéraux s'installent aujourd'hui où ils le souhaitent. Une proposition de loi prévoyant cette autorisation a été adoptée par l'Assemblée nationale le 7 mai 2025 ; le Sénat l'a réécrite en juin 2026.",
+   "origine": {
+    "description": "Proposition de loi visant à lutter contre les déserts médicaux, article 1er",
+    "source": {
+     "url": "https://lcp.fr/actualites/deserts-medicaux-l-assemblee-adopte-la-proposition-de-loi-qui-prevoit-de-reguler-l",
+     "titre": "Déserts médicaux : l'Assemblée adopte la proposition de loi qui prévoit de réguler l'installation des médecins",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-002",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Les dépassements d'honoraires des médecins doivent être plafonnés.",
+   "precision": "Dépassement d'honoraires : part du tarif d'un médecin qui excède le tarif de l'assurance maladie et n'est pas remboursée par elle.",
+   "origine": {
+    "description": "Rapport parlementaire sur les dépassements d'honoraires remis le 23 octobre 2025",
+    "source": {
+     "url": "https://www.egora.fr/actus-pro/conditions-dexercice/un-plafonnement-et-des-sanctions-en-cas-de-pratique-excessive-ce-que",
+     "titre": "Un plafonnement et des sanctions en cas de pratique excessive : ce que préconise le rapport parlementaire sur les dépassements d'honoraires",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "le niveau du plafond n'est pas précisé dans la source lue",
+     "decision": "énoncé laissé sans seuil ; aucune proposition d'interdiction totale trouvée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-003",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "L'assurance maladie doit rembourser à 100 % les soins prescrits, les mutuelles étant intégrées à la Sécurité sociale.",
+   "precision": "Mesure souvent appelée « 100 % Sécu ».",
+   "origine": {
+    "description": "Proposition de la présidentielle de 2022",
+    "source": {
+     "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/instaurer-le-100-secu-en-remboursant-100-les-soins-de-sante-prescrits-et-en-integrant-les-mutuelles-dans-la-securite-sociale",
+     "titre": "Instaurer le 100 % Sécu en remboursant 100 % les soins de santé prescrits et en intégrant les mutuelles dans la Sécurité sociale",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "deux volets dans un énoncé : indissociables dans la proposition d'origine",
+     "decision": "un seul énoncé conservé"
+    },
+    {
+     "signalement": "libellé actuel de la proposition non relu",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-004",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Les franchises médicales doivent être supprimées.",
+   "precision": "Franchise : somme laissée à la charge du patient (1 euro par boîte de médicament, 2 euros par consultation). Deux plafonds annuels de 70 euros chacun s'appliquent depuis le 1er octobre 2026, contre 50 euros auparavant.",
+   "origine": {
+    "description": "Opposition documentée à la hausse des plafonds en 2026 ; suppression mentionnée dans un programme de 2024, source lue partiellement",
+    "source": {
+     "url": "https://www.legisocial.fr/actualites-sociales/8139-franchises-medicales-participations-forfaitaires-plafonds-passent-70.html",
+     "titre": "Franchises médicales et participations forfaitaires : les plafonds passent à 70 €",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucune proposition formelle de suppression totale lue en entier",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-005",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Un établissement public chargé de produire des médicaments doit être créé.",
+   "precision": "Mesure souvent appelée « pôle public du médicament ».",
+   "origine": {
+    "description": "Proposition de loi n° 677 (2019-2020) déposée au Sénat le 27 juillet 2020 ; programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://www.senat.fr/leg/ppl19-677.html",
+     "titre": "Création d'un pôle public du médicament et des produits médicaux (PPL) — texte déposé au Sénat",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-006",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Tous les médecins doivent être obligés de participer aux gardes de nuit et de week-end.",
+   "precision": "Depuis 2003, les médecins libéraux participent aux gardes sur la base du volontariat.",
+   "origine": {
+    "description": "Proposition de loi visant à lutter contre les déserts médicaux, adoptée par l'Assemblée nationale le 7 mai 2025",
+    "source": {
+     "url": "https://lcp.fr/actualites/deserts-medicaux-l-assemblee-adopte-la-proposition-de-loi-qui-prevoit-de-reguler-l",
+     "titre": "Déserts médicaux : l'Assemblée adopte la proposition de loi qui prévoit de réguler l'installation des médecins",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-007",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "La tarification à l'activité doit être supprimée à l'hôpital.",
+   "precision": "Tarification à l'activité (T2A) : l'hôpital est financé selon le nombre et le type d'actes réalisés. Sa part a été réduite par une réforme en 2025, sans être supprimée.",
+   "origine": {
+    "description": "Programme d'un mouvement politique (2025), d'après une source secondaire",
+    "source": {
+     "url": "https://www.elyseescope.com/candidat/jean-luc-melenchon/sante",
+     "titre": "Que propose Jean-Luc Mélenchon sur Santé ?",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "source faible : agrégateur, texte d'origine non relu",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-008",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Les médecins doivent être obligés d'exercer jusqu'à deux jours par mois dans une zone qui manque de médecins.",
+   "precision": "Ce dispositif existe depuis septembre 2025 sur la base du volontariat.",
+   "origine": {
+    "description": "Proposition de loi visant à améliorer l'accès aux soins dans les territoires, adoptée par le Sénat le 13 mai 2025",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/sante/installation-des-medecins-deserts-medicaux-le-senat-adopte-la-proposition-de-loi-pour-ameliorer-lacces-aux-soins-dans-les-territoires",
+     "titre": "Le Sénat adopte la proposition de loi pour améliorer l'accès aux soins dans les territoires",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "adoption définitive de ce texte non trouvée : la mesure pourrait être en vigueur",
+     "decision": "à vérifier sur le dossier législatif avant publication"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-009",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Un prix minimum de vente de l'alcool doit être fixé à 0,50 euro par unité d'alcool.",
+   "precision": "Cela correspond à environ 3,50 euros pour une bouteille de vin.",
+   "origine": {
+    "description": "Amendement transpartisan au Sénat, rejeté en novembre 2023 puis en novembre 2024",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/parlementaire/prix-minium-de-lalcool-le-senat-rejette-la-mesure-ses-defenseurs-veulent-ouvrir-le-debat",
+     "titre": "Prix minimum de l'alcool : le Sénat rejette la mesure, ses défenseurs veulent « ouvrir le débat »",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "rattachement à l'axe économie discutable (mesure de santé publique)",
+     "decision": "sens +1 par défaut ; sans effet sur le score"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-010",
+   "theme": "sante",
+   "axe": "securite",
+   "sens": 1,
+   "enonce": "Le cannabis à usage récréatif doit être légalisé.",
+   "precision": "L'usage du cannabis est aujourd'hui interdit et sanctionné.",
+   "origine": {
+    "description": "Rapport de la mission d'information de l'Assemblée nationale du 17 février 2025",
+    "source": {
+     "url": "https://lcp.fr/actualites/cannabis-deux-deputes-proposent-sa-legalisation-faisant-le-constat-de-l-echec-du-tout",
+     "titre": "Cannabis : deux députés proposent sa légalisation, faisant le constat de l'échec du « tout répressif » dans un rapport",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "le rapport propose deux modèles (monopole d'État ou marché privé régulé), non distingués ici",
+     "decision": "un seul énoncé sur le principe de la légalisation (2026-10-03)"
+    },
+    {
+     "signalement": "pourrait relever du thème sécurité",
+     "decision": "placée en santé par défaut"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-011",
+   "theme": "sante",
+   "axe": "frontieres",
+   "sens": -1,
+   "enonce": "L'aide médicale de l'État doit être remplacée par une aide limitée aux soins urgents.",
+   "precision": "L'aide médicale de l'État (AME) prend en charge les soins des étrangers en situation irrégulière résidant en France depuis plus de trois mois.",
+   "origine": {
+    "description": "Vote du Sénat de novembre 2023 lors du projet de loi immigration, non retenu dans la loi",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/474850",
+     "titre": "Loi immigration : le Sénat supprime l'aide médicale d'Etat",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "condition de trois mois de résidence non revérifiée",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-012",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Un jour de carence non indemnisé, que l'employeur n'aurait pas le droit de compenser, doit être créé pour les arrêts maladie des salariés du privé.",
+   "precision": "Les salariés du privé ont trois jours de carence, le plus souvent compensés par l'employeur ou la prévoyance.",
+   "origine": {
+    "description": "Proposition du rapporteur général du budget de la Sécurité sociale, octobre 2024",
+    "source": {
+     "url": "https://www.previssima.fr/actualite/plfss-2025-vers-la-mise-en-place-dun-jour-de-carence-dordre-public-finance-par-les-salaries.html",
+     "titre": "PLFSS 2025 : vers la mise en place d'un jour de carence d'ordre public financé par les salariés ?",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-013",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Un premier arrêt maladie prescrit par un médecin de ville doit être limité à 15 jours.",
+   "precision": "Depuis le 1er septembre 2026, un premier arrêt est limité à 31 jours, sauf dérogation justifiée.",
+   "origine": {
+    "description": "Projet de loi de financement de la sécurité sociale pour 2026 (version initiale, non retenue)",
+    "source": {
+     "url": "https://www.previssima.fr/actualite/arrets-de-travail-ce-que-le-nouveau-decret-change-pour-vous-des-septembre-2026.html",
+     "titre": "Arrêts de travail : ce que le nouveau décret change pour vous dès septembre 2026",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-014",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "La prise en charge à 100 % des affections de longue durée doit être remplacée par un plafond annuel de reste à charge de 1 000 euros pour tous les assurés.",
+   "precision": "Affection de longue durée (ALD) : maladie grave ou chronique dont les soins sont remboursés à 100 % par l'assurance maladie.",
+   "origine": {
+    "description": "Scénario du rapport des inspections générales des finances et des affaires sociales (2024)",
+    "source": {
+     "url": "https://www.previssima.fr/actualite/affections-de-longue-duree-ald-le-spectre-dune-suppression-de-la-prise-en-charge-a-100-refait-surface.html",
+     "titre": "Affections de longue durée (ALD) : le spectre d'une suppression de la prise en charge à 100 % refait surface",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "suspendue",
+   "alertes_neutralite": [
+    {
+     "signalement": "origine = scénario d'un rapport administratif, non repris par un responsable politique dans les sources trouvées",
+     "decision": "conservée ; à réexaminer si aucun candidat ne se positionne"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "suspendue : conservée dans la banque mais non posée, faute de responsable politique identifié pour la porter ; à réactiver si un candidat se positionne"
+    }
+   ]
+  },
+  {
+   "id": "SAN-015",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Un patient qui n'honore pas un rendez-vous médical sans prévenir doit payer une pénalité de 5 euros.",
+   "precision": "Mesure souvent appelée « taxe lapin ». Votée fin 2024, elle a été censurée par le Conseil constitutionnel le 28 février 2025 pour imprécision.",
+   "origine": {
+    "description": "Annonce du Premier ministre en 2024 ; article 52 de la loi de financement de la sécurité sociale pour 2025, censuré",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/sante/budget-de-la-securite-sociale-le-conseil-constitutionnel-censure-la-taxe-lapin",
+     "titre": "Budget de la Sécurité sociale : le Conseil constitutionnel censure la « taxe lapin »",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-016",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Les agences régionales de santé doivent être supprimées et leurs missions confiées aux préfets.",
+   "precision": "Les agences régionales de santé (ARS) pilotent l'organisation des soins dans chaque région.",
+   "origine": {
+    "description": "Proposition de loi n° 566 (2025-2026) déposée au Sénat le 27 avril 2026, article 8",
+    "source": {
+     "url": "https://www.senat.fr/leg/exposes-des-motifs/ppl25-566-expose.html",
+     "titre": "Repenser l'agencification pour renforcer l'action publique (exposé des motifs)",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "rattachement à l'axe économie discutable (organisation de l'État)",
+     "decision": "sens −1 par défaut ; sans effet sur le score"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-017",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Les plafonds annuels des franchises médicales doivent être portés à 100 euros chacun.",
+   "precision": "Franchise : somme laissée à la charge du patient (1 euro par boîte de médicament, 2 euros par consultation). Deux plafonds annuels de 70 euros chacun s'appliquent depuis le 1er octobre 2026, contre 50 euros auparavant.",
+   "origine": {
+    "description": "Projet du gouvernement annoncé en juillet 2026, abandonné fin août 2026",
+    "source": {
+     "url": "https://lcp.fr/actualites/franchises-medicales-ce-qui-va-changer-apres-les-annonces-du-gouvernement-439936",
+     "titre": "Franchises médicales : ce qui va changer après les annonces du gouvernement (24 juillet 2026)",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-018",
+   "theme": "sante",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "La loi du 18 août 2026 créant un droit à l'aide à mourir doit être abrogée.",
+   "precision": "Cette loi permet à un majeur atteint d'une affection grave et incurable, en phase avancée ou terminale, d'obtenir une aide à mourir sous conditions.",
+   "origine": {
+    "description": "Loi n° 2026-794 du 18 août 2026 ; débat sur son abrogation rapporté par la presse",
+    "source": {
+     "url": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-relative-au-droit-a-laide-a-mourir.html",
+     "titre": "Proposition de loi relative au droit à l'aide à mourir",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucun des six axes ne convient à cette question",
+     "decision": "axe sécurité (pôle libertés individuelles) retenu (2026-10-03) ; sans effet sur le score"
+    },
+    {
+     "signalement": "article de presse sur les promesses d'abrogation repéré mais non lu",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-019",
+   "theme": "sante",
+   "axe": "frontieres",
+   "sens": -1,
+   "enonce": "Les soins non urgents pris en charge par l'aide médicale de l'État doivent être soumis à un accord préalable de l'assurance maladie.",
+   "precision": "L'aide médicale de l'État (AME) prend en charge les soins des étrangers en situation irrégulière.",
+   "origine": {
+    "description": "Votes du Sénat du 2 décembre 2024 et du 11 décembre 2025 lors des budgets 2025 et 2026",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-les-conditions-de-laide-medicale-detat-et-vote-une-baisse-de-ses-credits-de-200-millions",
+     "titre": "Budget 2026 : le Sénat durcit les conditions de l'aide médicale d'Etat et vote une baisse de ses crédits de 200 millions",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "sort de la mesure dans la loi de finances pour 2026 non vérifié : elle pourrait être en vigueur",
+     "decision": "à vérifier avant publication"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SAN-020",
+   "theme": "sante",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "La part d'une consultation médicale remboursée par l'assurance maladie doit passer de 70 % à 60 %.",
+   "precision": "Le reste est payé par la complémentaire santé ou par le patient.",
+   "origine": {
+    "description": "Projet de loi de financement de la sécurité sociale pour 2025",
+    "source": {
+     "url": "https://www.previssima.fr/actualite/plfss-2025-la-prise-en-charge-secu-des-consultations-chez-le-medecin-passera-de-70-a-60-en-2025-quel-impact-pour-les-assures.html",
+     "titre": "PLFSS 2025 : la prise en charge Sécu des consultations chez le médecin passera de 70 % à 60 % en 2025, quel impact pour les assurés ?",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "page non lue (titre seul) ; abandon de la mesure non revérifié",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  }
+ ]
+}

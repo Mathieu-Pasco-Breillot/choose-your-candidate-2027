@@ -1,0 +1,578 @@
+{
+ "_theme": "securite",
+ "_lot": 7,
+ "_statut": "VALIDÉ le 2026-10-03 — sources à recontrôler sur textes officiels avant publication",
+ "_equilibre": {
+  "actives": 20,
+  "suspendues": 0,
+  "archivees": 1,
+  "sens_plus": 9,
+  "sens_moins": 11,
+  "axes": {
+   "securite": 20
+  }
+ },
+ "_note": "Sources recherchées le 2026-10-03, lues via un résumé automatique : chiffres et citations à recontrôler avant publication. Non retenues : perpétuité réelle (mesure imprécise), comparution immédiate des mineurs, reconnaissance faciale en temps réel, recrutements de policiers (source trop faible), couvre-feu national des mineurs et extension de la déchéance de nationalité (aucune proposition trouvée), vente d'armes blanches aux mineurs (déjà interdite).",
+ "questions": [
+  {
+   "id": "SEC-001",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": 1,
+   "enonce": "Les policiers doivent remettre un récépissé à chaque personne dont ils contrôlent l'identité.",
+   "precision": "Récépissé : document attestant du contrôle, de sa date et de son motif.",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024 ; décision du Conseil d'État du 11 octobre 2023 sur les contrôles discriminatoires",
+    "source": {
+     "url": "https://conseil-etat.fr/site/actualites/controles-d-identite-discriminatoires-la-determination-d-une-politique-publique-ne-releve-pas-du-juge-administratif",
+     "titre": "Contrôles d'identité discriminatoires : la détermination d'une politique publique ne relève pas du juge administratif",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "source = reprise du programme de 2024 par un tiers ; texte d'origine non relu",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-002",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": 1,
+   "enonce": "L'usage des lanceurs de balles de défense (LBD) doit être interdit lors des manifestations.",
+   "precision": null,
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://www.change.org/p/sos-d%C3%A9mocratie-en-p%C3%A9ril/u/32682377",
+     "titre": "Libertés publiques : programme du Nouveau Front Populaire (NFP) — reprise du programme par un tiers",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "la proposition d'origine réunit LBD, grenades et dissolution d'unités",
+     "decision": "scindée : SEC-002 (LBD) et SEC-003 (BRAV-M) ; les grenades ne sont pas reprises, leur type n'étant pas vérifié"
+    },
+    {
+     "signalement": "source = reprise du programme de 2024 par un tiers ; texte d'origine non relu",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-003",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": 1,
+   "enonce": "Les brigades de policiers à moto chargées du maintien de l'ordre (BRAV-M) doivent être dissoutes.",
+   "precision": null,
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://www.change.org/p/sos-d%C3%A9mocratie-en-p%C3%A9ril/u/32682377",
+     "titre": "Libertés publiques : programme du Nouveau Front Populaire (NFP) — reprise du programme par un tiers",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "source = reprise du programme de 2024 par un tiers ; texte d'origine non relu",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-004",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": 1,
+   "enonce": "La loi de 2017 qui fixe les cas où policiers et gendarmes peuvent faire usage de leur arme, notamment après un refus d'obtempérer, doit être abrogée.",
+   "precision": "Il s'agit de l'article L. 435-1 du code de la sécurité intérieure.",
+   "origine": {
+    "description": "Proposition de loi n° 1212 du 1er avril 2025",
+    "source": {
+     "url": "https://questions.assemblee-nationale.fr/dyn/17/textes/l17b1212_proposition-loi.pdf",
+     "titre": "Proposition de loi visant à abroger l'article L. 435-1 du code de la sécurité intérieure",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« a élargi les cas où les policiers peuvent tirer » : description contestée par les défenseurs de la loi, qui parlent d'alignement sur les règles des gendarmes",
+     "decision": "formulation neutre retenue (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "ancien_enonce": "La loi de 2017 qui a élargi les cas où les policiers peuvent tirer, notamment après un refus d'obtempérer, doit être abrogée."
+    }
+   ]
+  },
+  {
+   "id": "SEC-005",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": 1,
+   "enonce": "Les inspections internes de la police et de la gendarmerie (IGPN, IGGN) doivent être remplacées par un organisme indépendant rattaché au Défenseur des droits.",
+   "precision": null,
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024 ; proposition de loi organique n° 620 du 15 décembre 2022",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/16/textes/l16b0620_proposition-loi.pdf",
+     "titre": "Proposition de loi organique visant à rétablir la confiance entre les citoyens et les forces de l'ordre",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-006",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": 1,
+   "enonce": "Lorsqu'une prison dépasse 100 % d'occupation, des détenus en fin de peine doivent être libérés sous contrainte pour revenir à ce seuil.",
+   "precision": "Au 1er août 2026, les prisons françaises comptaient 89 668 détenus pour 63 303 places.",
+   "origine": {
+    "description": "Proposition de loi n° 440 du 15 octobre 2024 (détenus à qui il reste six mois ou moins, avec exclusions)",
+    "source": {
+     "url": "https://questions.assemblee-nationale.fr/dyn/17/textes/l17b0440_proposition-loi.pdf",
+     "titre": "Proposition de loi visant à la création d'un mécanisme de régulation carcérale",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-007",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": 1,
+   "enonce": "La loi doit interdire à la police d'utiliser la reconnaissance faciale.",
+   "precision": "La reconnaissance faciale n'est pas autorisée aujourd'hui. La vidéosurveillance algorithmique, qui détecte des situations sans identifier les personnes, est autorisée à titre expérimental.",
+   "origine": {
+    "description": "Proposition de loi n° 1317 du 17 avril 2025",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b1317_proposition-loi.pdf",
+     "titre": "Proposition de loi visant à l'interdiction de la reconnaissance faciale",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "archivee",
+   "alertes_neutralite": [
+    {
+     "signalement": "la mesure confirme un état de fait : elle vise à empêcher une autorisation future",
+     "decision": "remplacée par la question inverse SEC-021 (2026-10-03)"
+    },
+    {
+     "signalement": "durée et périmètre exacts de l'expérimentation à vérifier sur Légifrance",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "archivée : confirmait un état de fait ; remplacée par SEC-021"
+    }
+   ]
+  },
+  {
+   "id": "SEC-008",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": 1,
+   "enonce": "Une police de proximité doit être rétablie.",
+   "precision": "Police de proximité : policiers affectés durablement à un quartier. Ce dispositif a été supprimé en 2003.",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://www.change.org/p/sos-d%C3%A9mocratie-en-p%C3%A9ril/u/32682377",
+     "titre": "Libertés publiques : programme du Nouveau Front Populaire (NFP) — reprise du programme par un tiers",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "mesure peu précise ; date de 2003 non revérifiée",
+     "decision": "à compléter"
+    },
+    {
+     "signalement": "source = reprise du programme de 2024 par un tiers ; texte d'origine non relu",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-009",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": 1,
+   "enonce": "La consommation de drogue ne doit plus être une infraction pénale.",
+   "precision": "Aujourd'hui, l'usage de stupéfiants est un délit, le plus souvent puni d'une amende forfaitaire. La proposition ne légalise ni la vente ni le trafic.",
+   "origine": {
+    "description": "Proposition de loi n° 750 du 19 décembre 2024",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b0750_proposition-loi.pdf",
+     "titre": "Proposition de loi visant à supprimer les sanctions pénales liées à l'usage simple de stupéfiants",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-010",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": 1,
+   "enonce": "Le contrat d'engagement républicain imposé aux associations subventionnées doit être supprimé.",
+   "precision": "Depuis 2022, une association qui demande une subvention publique doit signer ce contrat, par lequel elle s'engage à respecter les principes de la République.",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://www.change.org/p/sos-d%C3%A9mocratie-en-p%C3%A9ril/u/32682377",
+     "titre": "Libertés publiques : programme du Nouveau Front Populaire (NFP) — reprise du programme par un tiers",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "date d'entrée en vigueur (2022) non revérifiée",
+     "decision": "à compléter"
+    },
+    {
+     "signalement": "source = reprise du programme de 2024 par un tiers ; texte d'origine non relu",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-011",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "Des peines minimales de prison doivent être imposées aux récidivistes.",
+   "precision": "Mesure souvent appelée « peines planchers ». Elles ont existé de 2007 à 2014.",
+   "origine": {
+    "description": "Proposition de loi déposée le 17 septembre 2024",
+    "source": {
+     "url": "https://avocatparis.org/sites/bdp/files/2024-10/Rapport%20sur%20la%20proposition%20de%20loi%20tendant%20%C3%A0%20l%27instauration%20de%20peines%20planchers%20pour%20certains%20crimes%20et%20d%C3%A9lits.pdf",
+     "titre": "Rapport du barreau de Paris sur la proposition de loi tendant à l'instauration de peines planchers",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "date de création (2007) non revérifiée ; sort du vote d'octobre 2024 non trouvé",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-012",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "Les mineurs de 16 ans et plus en récidive doivent encourir les mêmes peines que les majeurs.",
+   "precision": "Aujourd'hui, un mineur encourt en principe la moitié de la peine prévue pour un majeur. Une loi de 2025 supprimant cette règle pour les récidivistes de 16 ans et plus a été censurée par le Conseil constitutionnel.",
+   "origine": {
+    "description": "Loi n° 2025-568 du 23 juin 2025, dispositions censurées le 19 juin 2025",
+    "source": {
+     "url": "https://www.leclubdesjuristes.com/en-bref/justice-penale-des-mineurs-le-conseil-constitutionnel-censure-de-nombreuses-dispositions-de-la-proposition-de-loi-11161/",
+     "titre": "Justice pénale des mineurs : le Conseil constitutionnel censure de nombreuses dispositions de la proposition de loi",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-013",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "Les peines de prison ferme de moins d'un an ne doivent plus être aménagées automatiquement.",
+   "precision": "Aménagement : la peine est exécutée hors de prison, par exemple sous bracelet électronique. Il est aujourd'hui la règle pour les courtes peines.",
+   "origine": {
+    "description": "Proposition de loi adoptée par l'Assemblée nationale le 3 avril 2025 et par le Sénat le 1er juillet 2025",
+    "source": {
+     "url": "https://lcp.fr/actualites/prison-l-assemblee-adopte-un-texte-des-deputes-horizons-sur-l-execution-des-courtes",
+     "titre": "Prison : l'Assemblée adopte un texte des députés Horizons sur l'exécution des courtes peines",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "adoption définitive non trouvée : la mesure pourrait être en vigueur",
+     "decision": "à vérifier avant publication"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-014",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "Le nombre de places de prison doit être porté à 85 000.",
+   "precision": "Il y a aujourd'hui environ 63 000 places. Le plan en cours prévoit 15 000 places supplémentaires.",
+   "origine": {
+    "description": "Programme d'un parti, d'après un site agrégateur",
+    "source": {
+     "url": "https://votons-2027.fr/candidats/bardella/programme/securite",
+     "titre": "Sécurité · présidentielle 2027 (site agrégateur)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "source faible : site agrégateur ; échéance d'origine (2027) non reprise",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-015",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "Les policiers et gendarmes qui font usage de leur arme doivent être présumés avoir agi dans le cadre de la loi.",
+   "precision": "Aujourd'hui, c'est à eux de démontrer que leur tir était légal. Une proposition de loi en ce sens a été adoptée par l'Assemblée nationale le 7 juillet 2026.",
+   "origine": {
+    "description": "Proposition de loi adoptée en première lecture par 313 voix contre 199",
+    "source": {
+     "url": "https://www.leclubdesjuristes.com/en-bref/presomption-de-legitime-defense-des-forces-de-lordre-lassemblee-nationale-adopte-le-texte-16847/",
+     "titre": "Présomption de légitime défense des forces de l'ordre : l'Assemblée nationale adopte le texte",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« c'est à eux de démontrer » : formulation juridique non revérifiée ; examen au Sénat non trouvé",
+     "decision": "à vérifier avant publication"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-016",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "Les policiers municipaux doivent être armés, sauf refus motivé du maire.",
+   "precision": "Aujourd'hui, l'armement d'une police municipale est une décision du maire, autorisée par le préfet.",
+   "origine": {
+    "description": "Proposition de loi annoncée le 1er juin 2026",
+    "source": {
+     "url": "https://www.macommune.info/laurent-croizier-propose-une-loi-pour-generaliser-larmement-des-policiers-municipaux-en-france/",
+     "titre": "Laurent Croizier propose une loi pour généraliser l'armement des policiers municipaux en France",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-017",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "Les allocations familiales doivent être suspendues pour les parents d'un mineur condamné pour un délit ou un crime.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition de loi rejetée en commission le 29 janvier 2025 ; proposition des législatives de 2024",
+    "source": {
+     "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/suppression-des-allocations-familiales-pour-les-parents-de-mineurs-delinquants-recidivistes",
+     "titre": "Suppression des allocations familiales pour les parents de mineurs délinquants récidivistes",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "les propositions varient : toute infraction ou récidive seulement, suspension ou suppression",
+     "decision": "version la plus large conservée (2026-10-03)"
+    },
+    {
+     "signalement": "proche de EDU-011 (perturbations scolaires)",
+     "decision": "deux questions conservées : faits différents"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-018",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "Le port du voile doit être interdit aux mineures dans l'espace public.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition de loi n° 2167, rejetée en commission le 14 janvier 2026",
+    "source": {
+     "url": "https://lcp.fr/actualites/voile-des-mineures-le-texte-de-laurent-wauquiez-qui-veut-l-interdire-dans-l-espace",
+     "titre": "Voile des mineures : le texte de Laurent Wauquiez, qui veut l'interdire dans l'espace public, rejeté en commission",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucun des six axes ne convient (laïcité)",
+     "decision": "axe sécurité par défaut ; sans effet sur le score"
+    },
+    {
+     "signalement": "le texte vise toute « tenue dissimulant les cheveux » ; une autre proposition limite l'interdiction aux moins de 15 ans",
+     "decision": "énoncé conforme au texte déposé conservé (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-019",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "Le port de signes religieux doit être interdit dans les compétitions sportives.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition de loi adoptée par le Sénat le 18 février 2025, non examinée à l'Assemblée nationale",
+    "source": {
+     "url": "https://www.senat.fr/questions/base/2026/qSEQ26010660G.html",
+     "titre": "Question de M. Savin Michel (Isère - Les Républicains) publiée le 22/01/2026",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucun des six axes ne convient (laïcité)",
+     "decision": "axe sécurité par défaut ; sans effet sur le score"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-020",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "La castration chimique doit être imposée aux auteurs de crimes sexuels jugés les plus dangereux.",
+   "precision": "Castration chimique : traitement médicamenteux qui réduit la libido. Il ne peut aujourd'hui être prescrit qu'avec l'accord du condamné.",
+   "origine": {
+    "description": "Proposition publique de juin 2026",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/affaire-lyhanna-la-proposition-de-bruno-retailleau-visant-a-imposer-la-castration-chimique-des-pedocriminels-jugee-inefficace-par-les-experts",
+     "titre": "Article Public Sénat du 12 juin 2026 sur la proposition d'imposer la castration chimique (titre exact à relever)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« castration chimique » est le terme courant ; le terme médical est « traitement inhibiteur de libido »",
+     "decision": "terme courant conservé, expliqué dans la précision (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "SEC-021",
+   "theme": "securite",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "La police doit pouvoir utiliser la reconnaissance faciale en temps réel dans l'espace public pour le terrorisme et la criminalité organisée.",
+   "precision": "La reconnaissance faciale n'est pas autorisée aujourd'hui. Une expérimentation de trois ans a été votée par le Sénat en 2023, sans suite à l'Assemblée nationale.",
+   "origine": {
+    "description": "Proposition de loi adoptée par le Sénat le 12 juin 2023 (226 voix contre 117)",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/reconnaissance-faciale-le-senat-adopte-une-proposition-de-loi-pour-experimenter-cette-technologie",
+     "titre": "Reconnaissance faciale : le Sénat adopte une proposition de loi pour expérimenter cette technologie",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "le texte du Sénat vise aussi les atteintes aux intérêts fondamentaux de la nation, non reprises dans l'énoncé",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "créée en remplacement de SEC-007"
+    }
+   ]
+  }
+ ]
+}

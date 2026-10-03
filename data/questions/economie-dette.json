@@ -1,0 +1,482 @@
+{
+ "_theme": "economie-dette",
+ "_lot": 3,
+ "_statut": "VALIDÉ le 2026-10-02 — sources à recontrôler sur textes officiels avant publication",
+ "_equilibre": {
+  "actives": 20,
+  "suspendues": 0,
+  "sens_plus": 10,
+  "sens_moins": 10,
+  "axes": {
+   "economie": 20
+  }
+ },
+ "_note": "Sources recherchées le 2026-10-02, lues via un résumé automatique : chiffres et citations à recontrôler avant publication. Énoncés alignés sur la forme exacte des propositions documentées.",
+ "questions": [
+  {
+   "id": "ECO-001",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Le SMIC doit être porté à 1 600 euros net par mois.",
+   "precision": "Le SMIC est d'environ 1 478 euros net par mois depuis le 1er juin 2026.",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024 ; montant actuel : info.gouv.fr",
+    "source": {
+     "url": "https://www.info.gouv.fr/actualite/le-smic-revalorise-le-1er-juin-2026",
+     "titre": "Le SMIC revalorisé le 1er juin 2026",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-002",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Tous les salaires doivent être indexés automatiquement sur l'inflation.",
+   "precision": "Aujourd'hui, seul le SMIC est indexé ; la loi interdit l'indexation automatique des autres salaires sur les prix.",
+   "origine": {
+    "description": "Proposition de loi n° 208 (2024-2025) déposée au Sénat le 17 décembre 2024",
+    "source": {
+     "url": "https://www.senat.fr/leg/ppl24-208.html",
+     "titre": "Indexer les salaires sur l'inflation (PPL) — texte déposé au Sénat",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-003",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Les prix des biens de première nécessité doivent être bloqués dans l'alimentation, l'énergie et les carburants.",
+   "precision": null,
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://www.zoomdici.fr/sites/default/files/upload/documents/lhumanite-presente-le-programme-du-nouveau-front-populaire.pdf",
+     "titre": "Programme du Nouveau Front populaire (juin 2024), copie hébergée par un site tiers",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "trois secteurs dans un énoncé : ils sont réunis dans la proposition d'origine",
+     "decision": "un seul énoncé conservé"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-004",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "La durée légale du travail doit être ramenée à 32 heures par semaine dans les métiers pénibles ou de nuit.",
+   "precision": "La durée légale est de 35 heures par semaine pour tous les salariés.",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024 ; amendement n° 12 (rect.) du 22 juin 2026",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2790/AN/12.pdf",
+     "titre": "Amendement n° 12 (rect.) au texte n° 2790 (22 juin 2026)",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "les 32 heures pour tous ne sont proposées par personne dans les sources trouvées",
+     "decision": "énoncé aligné sur la mesure documentée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-005",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Une entreprise qui délocalise dans les deux ans après avoir reçu une aide publique doit la rembourser intégralement.",
+   "precision": "Une commission d'enquête du Sénat a chiffré les aides publiques aux entreprises en 2023 à au moins 211 milliards d'euros au sens large, et à 108 milliards en périmètre restreint.",
+   "origine": {
+    "description": "Recommandation n° 20 du rapport n° 808 (2024-2025) de la commission d'enquête du Sénat, adopté le 1er juillet 2025",
+    "source": {
+     "url": "https://www.senat.fr/rap/r24-808-1/r24-808-1-syn.pdf",
+     "titre": "Transparence et évaluation des aides publiques aux entreprises — synthèse du rapport",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "le chiffre de 211 milliards repose sur un périmètre large (108 milliards en périmètre restreint)",
+     "decision": "les deux chiffres sont cités (2026-10-02)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-006",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "ArcelorMittal France doit être nationalisé.",
+   "precision": "Une proposition de loi en ce sens a été adoptée par l'Assemblée nationale le 27 novembre 2025, rejetée par le Sénat le 25 février 2026, puis adoptée de nouveau à l'Assemblée le 11 juin 2026.",
+   "origine": {
+    "description": "Proposition de loi visant à la nationalisation d'ArcelorMittal France",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/7380",
+     "titre": "Scrutin n° 7380 — deuxième séance du jeudi 11 juin 2026",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "l'énoncé nomme une entreprise : mesure précise mais liée à l'actualité",
+     "decision": "conservée (2026-10-02) ; suite de la navette non trouvée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-007",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "L'écart entre le plus bas et le plus haut salaire d'une même entreprise doit être limité de 1 à 20.",
+   "precision": null,
+   "origine": {
+    "description": "Amendement n° 7 du 22 juin 2026 au texte n° 2790",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2790/AN/7.pdf",
+     "titre": "Amendement n° 7 au texte n° 2790 (22 juin 2026)",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-008",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Une sixième semaine de congés payés doit être accordée à tous les salariés.",
+   "precision": "Les salariés ont droit à cinq semaines de congés payés.",
+   "origine": {
+    "description": "Amendement n° 12 (rect.) du 22 juin 2026 au texte n° 2790",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2790/AN/12.pdf",
+     "titre": "Amendement n° 12 (rect.) au texte n° 2790 (22 juin 2026)",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-009",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Le point d'indice des fonctionnaires doit être relevé de 10 %.",
+   "precision": "Le point d'indice sert à calculer le traitement des fonctionnaires. Sa dernière hausse date du 1er juillet 2023 (+1,5 %).",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://www.zoomdici.fr/sites/default/files/upload/documents/lhumanite-presente-le-programme-du-nouveau-front-populaire.pdf",
+     "titre": "Programme du Nouveau Front populaire (juin 2024), copie hébergée par un site tiers",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-010",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "L'obligation de 15 heures d'activité par semaine pour les allocataires du RSA doit être supprimée.",
+   "precision": "Cette obligation, créée par la loi du 18 décembre 2023, s'applique partout depuis le 1er janvier 2025, avec des dispenses (santé, handicap, parent isolé).",
+   "origine": {
+    "description": "Loi n° 2023-1196 du 18 décembre 2023 pour le plein emploi",
+    "source": {
+     "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17997?lang=fr",
+     "titre": "Service-Public — nouvelles modalités du RSA en 2025",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "origine = état du droit ; la seule proposition trouvée vise l'annulation globale des réformes du RSA, sans citer les 15 heures",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-011",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Deux jours fériés doivent être supprimés.",
+   "precision": null,
+   "origine": {
+    "description": "Annonce du Premier ministre du 15 juillet 2025, retirée en septembre 2025",
+    "source": {
+     "url": "https://www.legifiscal.fr/actualites-fiscales/4234-sebastien-lecornu-renonce-suppression-2-jours-feries.html",
+     "titre": "Sébastien Lecornu renonce à la suppression de 2 jours fériés",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-012",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Les prestations sociales doivent être gelées pendant un an.",
+   "precision": "Gel : absence de revalorisation annuelle sur l'inflation. Une « année blanche » avait été annoncée en juillet 2025 ; elle n'a pas été retenue dans le budget 2026.",
+   "origine": {
+    "description": "Annonce du Premier ministre du 15 juillet 2025",
+    "source": {
+     "url": "https://www.moneyvox.fr/votre-argent/actualites/107381/impots-immobilier-locatif-apl-rsa-tout-ce-qui-change-avec-le-budget-2026",
+     "titre": "Impôts, immobilier locatif, APL, RSA... Tout ce qui change (au final) avec le budget 2026",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "l'« année blanche » annoncée regroupait prestations, pensions et barèmes fiscaux",
+     "decision": "scindée : les pensions sont en RET-009 ; le gel des barèmes fiscaux n'est pas repris"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-013",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Une règle imposant l'équilibre du budget de l'État doit être inscrite dans la Constitution.",
+   "precision": "Mesure souvent appelée « règle d'or » budgétaire.",
+   "origine": {
+    "description": "Propositions publiques de mars 2025 et de juillet 2026",
+    "source": {
+     "url": "https://www.europe1.fr/node/668233",
+     "titre": "Dissolution, référendum sur les retraites et sur une « règle d'or » budgétaire : Philippe dévoile sa méthode",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« règle d'or » est une expression favorable à la mesure",
+     "decision": "absente de l'énoncé, mentionnée dans la précision pour que l'utilisateur reconnaisse la mesure"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-014",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Un fonctionnaire de l'État sur trois partant à la retraite ne doit pas être remplacé.",
+   "precision": "La mesure annoncée en 2025 visait les administrations et opérateurs de l'État, pas les collectivités ni les hôpitaux.",
+   "origine": {
+    "description": "Annonce du Premier ministre du 15 juillet 2025",
+    "source": {
+     "url": "https://acteurspublics.fr/articles/francois-bayrou-annonce-le-non-remplacement-dun-fonctionnaire-sur-trois-partant-a-la-retraite-francois-bayrou-annonce-le-non-remplacement-dun-fonctionnaire-sur-trois-suppression-de-postes-non/",
+     "titre": "François Bayrou annonce le non-remplacement d'un fonctionnaire d'État sur trois partant à la retraite",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-015",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "La durée légale annuelle du travail doit être portée de 1 607 à 1 623 heures.",
+   "precision": "1 607 heures par an correspondent aux 35 heures par semaine.",
+   "origine": {
+    "description": "Proposition publique du 7 janvier 2026, présentée comme la fin des 35 heures",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/la-fete-est-finie-bruno-retailleau-veut-supprimer-les-35-heures-inciter-a-la-reprise-dactivite-et-plafonner-les-aides-sociales-pour-relancer-lemploi",
+     "titre": "Article Public Sénat sur les propositions de janvier 2026 relatives au travail (titre exact à relever)",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "la proposition d'origine comporte aussi une exonération de cotisations et d'impôt au-delà de 1 607 heures, non reprise",
+     "decision": "énoncé conservé tel quel (2026-10-02)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-016",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Le cumul du RSA et des aides au logement doit être plafonné à 70 % du SMIC.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition de loi n° 765 du 19 décembre 2024",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b0765_proposition-loi.pdf",
+     "titre": "Proposition de loi n° 765 (17e législature)",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-017",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Le RSA doit être limité à deux ans pour les personnes aptes au travail.",
+   "precision": "Le RSA n'est pas limité dans le temps aujourd'hui.",
+   "origine": {
+    "description": "Proposition publique du 11 mai 2025",
+    "source": {
+     "url": "https://econostrum.info/rsa-wauquiez-veut-en-finir-avec-laide-a-vie/",
+     "titre": "RSA : Laurent Wauquiez veut en finir avec l'aide à vie pour les allocataires aptes au travail",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-018",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Les fonctionnaires en arrêt maladie doivent avoir trois jours de carence au lieu d'un.",
+   "precision": "Jour de carence : jour d'arrêt non rémunéré. Les fonctionnaires en ont un ; les salariés du privé en ont trois, souvent pris en charge par l'employeur.",
+   "origine": {
+    "description": "Proposition gouvernementale de l'automne 2024, abandonnée en janvier 2025",
+    "source": {
+     "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13861?lang=fr",
+     "titre": "Service-Public — jour de carence dans la fonction publique",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "la règle du privé (trois jours, souvent compensés) n'a pas été revérifiée",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-019",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Les salariés doivent pouvoir renoncer à leur cinquième semaine de congés payés en échange d'un paiement.",
+   "precision": null,
+   "origine": {
+    "description": "Piste évoquée par la ministre du Travail le 15 juillet 2025",
+    "source": {
+     "url": "https://www.editions-tissot.fr/actualite/droit-du-travail/budget-2026-les-annonces-du-gouvernement-en-matiere-sociale",
+     "titre": "Budget 2026 : les annonces du Gouvernement en matière sociale (17 juillet 2025)",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ECO-020",
+   "theme": "economie-dette",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Un tiers des agences et opérateurs de l'État, hors universités, doit être fusionné ou supprimé.",
+   "precision": null,
+   "origine": {
+    "description": "Annonce de la ministre des Comptes publics du 27 avril 2025",
+    "source": {
+     "url": "https://www.banquedesterritoires.fr/amelie-de-montchalin-promet-un-grand-menage-dans-les-agences-et-operateurs-de-letat",
+     "titre": "Amélie de Montchalin promet un grand « ménage » dans les agences et opérateurs de l'État",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  }
+ ]
+}

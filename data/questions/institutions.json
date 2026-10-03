@@ -1,0 +1,505 @@
+{
+ "_theme": "institutions",
+ "_lot": 11,
+ "_statut": "VALIDÉ le 2026-10-03 — sources à recontrôler sur textes officiels avant publication",
+ "_equilibre": {
+  "actives": 18,
+  "suspendues": 0,
+  "sens_plus": 11,
+  "sens_moins": 7,
+  "axes": {
+   "institutions": 16,
+   "economie": 1,
+   "frontieres": 1
+  }
+ },
+ "_note": "Sources recherchées le 2026-10-03, lues via un résumé automatique : chiffres et citations à recontrôler avant publication. Non retenues : Nouvelle-Calédonie (révision rejetée en avril 2026, processus incertain), suppression d'un échelon territorial et suppression du Sénat (aucune proposition de parti trouvée), réforme du Conseil constitutionnel (dispositif non trouvé), référendum d'initiative partagée à un million de signatures (proche de INS-002), conventions citoyennes tirées au sort, suppression de l'Arcom (annonce sans texte).",
+ "questions": [
+  {
+   "id": "INS-001",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": 1,
+   "enonce": "Les députés doivent être élus à la proportionnelle dans chaque département.",
+   "precision": "Aujourd'hui, chaque député est élu au scrutin majoritaire à deux tours dans une circonscription. La proportionnelle par département a été utilisée une fois, en 1986.",
+   "origine": {
+    "description": "Consultations du Premier ministre du 30 avril 2025 ; proposition de loi n° 375 déposée au Sénat le 11 février 2026",
+    "source": {
+     "url": "https://lcp.fr/actualites/proportionnelle-aux-legislatives-francois-bayrou-consulte-les-avis-divergent-sur-le",
+     "titre": "Proportionnelle aux législatives : François Bayrou consulte, les avis divergent (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-002",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": 1,
+   "enonce": "Les citoyens doivent pouvoir déclencher un référendum pour proposer ou abroger une loi, en réunissant les signatures de 2 % des électeurs.",
+   "precision": "Mesure souvent appelée « référendum d'initiative citoyenne » (RIC). Aujourd'hui, un référendum d'initiative partagée exige le soutien d'un cinquième des parlementaires et d'un dixième des électeurs.",
+   "origine": {
+    "description": "Proposition de loi de février 2019 ; programme de la présidentielle de 2022",
+    "source": {
+     "url": "https://www.banquedesterritoires.fr/referendum-dinitiative-citoyenne-les-deputes-en-commission-rejettent-la-proposition-de-loi",
+     "titre": "Référendum d'initiative citoyenne : les députés en commission rejettent la proposition de loi",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "la proposition d'origine réunit quatre référendums (loi, abrogation, révocation, Constitution)",
+     "decision": "scindée : INS-002 (lois) et INS-003 (révocation) ; le volet constitutionnel n'est pas repris"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-003",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": 1,
+   "enonce": "Les citoyens doivent pouvoir révoquer un élu en cours de mandat par référendum.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition de loi de février 2019 ; programme de la présidentielle de 2022",
+    "source": {
+     "url": "https://melenchon.fr/wp-content/uploads/2022/04/programme-avenir-en-commun-abrege.pdf",
+     "titre": "Programme de la présidentielle de 2022, version abrégée",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "proposition de 2022 ; version pour 2027 non trouvée",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-004",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": 1,
+   "enonce": "Une assemblée constituante doit être convoquée pour rédiger une nouvelle Constitution.",
+   "precision": "La proposition prévoit une assemblée de citoyens élus ou tirés au sort, puis un référendum sur le texte. Elle est souvent présentée comme le passage à une « VIe République ».",
+   "origine": {
+    "description": "Programme de la présidentielle de 2022",
+    "source": {
+     "url": "https://melenchon.fr/wp-content/uploads/2022/04/programme-avenir-en-commun-abrege.pdf",
+     "titre": "Programme de la présidentielle de 2022, version abrégée",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "proposition de 2022 ; version pour 2027 non trouvée",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-005",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": 1,
+   "enonce": "L'article 49.3 de la Constitution doit être supprimé.",
+   "precision": "L'article 49.3 permet au gouvernement de faire adopter un texte sans vote de l'Assemblée nationale, sauf si une motion de censure est votée.",
+   "origine": {
+    "description": "Proposition de loi constitutionnelle n° 940 du 9 mars 2023",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/16/textes/l16b0940_proposition-loi.pdf",
+     "titre": "Proposition de loi constitutionnelle pour un article 49 respectueux de la représentation nationale",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-006",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": 1,
+   "enonce": "Le droit de vote doit être accordé à partir de 16 ans.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition de loi rejetée par le Sénat le 9 décembre 2021 ; programme de la présidentielle de 2022",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/droit-de-vote-a-16-ans-une-proposition-de-loi-des-socialistes-sera-debattue-le",
+     "titre": "Droit de vote à 16 ans : une proposition de loi des socialistes sera débattue le 9 décembre",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucun texte de 2025-2026 trouvé",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-007",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": 1,
+   "enonce": "Les bulletins blancs doivent être comptés comme des suffrages exprimés.",
+   "precision": "Aujourd'hui, les votes blancs sont décomptés à part et n'entrent pas dans le calcul des résultats.",
+   "origine": {
+    "description": "Proposition de loi n° 301 déposée au Sénat le 1er février 2023",
+    "source": {
+     "url": "https://www.senat.fr/leg/ppl22-301.html",
+     "titre": "Reconnaissance du vote blanc et instauration du vote obligatoire (PPL) — texte déposé au Sénat",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "le texte d'origine réunit vote blanc et vote obligatoire",
+     "decision": "question séparée créée : INS-018 (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-008",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": 1,
+   "enonce": "Les procureurs ne doivent plus pouvoir être nommés sans l'accord du Conseil supérieur de la magistrature.",
+   "precision": "Aujourd'hui, le gouvernement nomme les procureurs après un avis du Conseil supérieur de la magistrature qu'il n'est pas obligé de suivre. Une réforme en ce sens a été votée par les deux chambres en 2016, sans être définitivement adoptée.",
+   "origine": {
+    "description": "Demande de convocation du Congrès du 13 janvier 2026",
+    "source": {
+     "url": "https://lcp.fr/actualites/independance-de-la-justice-yael-braun-pivet-veut-un-congres-pour-faire-appliquer-une",
+     "titre": "Indépendance de la Justice : Yaël Braun-Pivet veut un Congrès pour faire appliquer une réforme votée en 2016",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-009",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": 1,
+   "enonce": "La Corse doit obtenir un statut d'autonomie inscrit dans la Constitution.",
+   "precision": "Un projet de loi constitutionnelle en ce sens a été adopté par l'Assemblée nationale le 23 juin 2026. Son examen au Sénat est prévu fin octobre 2026.",
+   "origine": {
+    "description": "Projet de loi constitutionnelle pour une Corse autonome au sein de la République",
+    "source": {
+     "url": "https://www.senat.fr/dossier-legislatif/pjl24-869.html",
+     "titre": "Une Corse autonome au sein de la République — dossier législatif du Sénat",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "sens discutable sur l'axe institutions",
+     "decision": "sens +1 (décentralisation) par défaut ; sans effet sur le score"
+    },
+    {
+     "signalement": "question dépendante du calendrier parlementaire",
+     "decision": "à revoir après le vote du Sénat"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-010",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": 1,
+   "enonce": "Toute personne condamnée pour corruption ou atteinte à la probité doit être interdite de candidature aux élections municipales.",
+   "precision": "Aujourd'hui, l'inéligibilité est une peine prononcée par le juge, au cas par cas.",
+   "origine": {
+    "description": "Proposition de loi n° 1934 du 14 octobre 2025 (limitée aux élections municipales)",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b1934_proposition-loi.pdf",
+     "titre": "Proposition de loi n° 1934 (17e législature)",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "l'énoncé étend à toutes les élections une proposition limitée aux municipales",
+     "decision": "restreint aux municipales, conformément au texte (2026-10-03)"
+    },
+    {
+     "signalement": "sens discutable sur l'axe institutions",
+     "decision": "sens +1 par défaut ; sans effet sur le score"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "ancien_enonce": "Toute personne condamnée pour corruption ou atteinte à la probité doit être interdite de candidature aux élections."
+    }
+   ]
+  },
+  {
+   "id": "INS-011",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": -1,
+   "enonce": "Le président de la République doit être élu pour un mandat unique de sept ans.",
+   "precision": "Le mandat est aujourd'hui de cinq ans, renouvelable une fois.",
+   "origine": {
+    "description": "Proposition de la présidentielle de 2022, reprise dans le débat de 2026",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/non-classe/septennat-non-renouvelable-une-proposition-qui-traverse-les-clivages-202357",
+     "titre": "Septennat non renouvelable : une proposition qui traverse les clivages",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "sens discutable sur l'axe institutions",
+     "decision": "sens −1 par défaut ; sans effet sur le score"
+    },
+    {
+     "signalement": "article de 2026 sur les positions actuelles repéré mais non lu",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-012",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": -1,
+   "enonce": "Le nombre de parlementaires doit être ramené à 350 députés et 200 sénateurs.",
+   "precision": "Il y a aujourd'hui 577 députés et 348 sénateurs.",
+   "origine": {
+    "description": "Proposition publique d'août 2026",
+    "source": {
+     "url": "https://www.journaldunet.com/business/action-publique/1553335-gabriel-attal-promet-la-plus-grande-reforme-institutionnelle-depuis-1958-s-il-est-elu-president/",
+     "titre": "Gabriel Attal propose de ramener le nombre de députés à 350 et celui des sénateurs à 200 et d'organiser un référendum chaque année",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-013",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": -1,
+   "enonce": "Un député ou un sénateur doit pouvoir être en même temps maire d'une commune de moins de 10 000 habitants.",
+   "precision": "Depuis 2017, un parlementaire ne peut plus diriger une commune, un département ou une région.",
+   "origine": {
+    "description": "Proposition de loi organique n° 850 du 23 janvier 2025 ; vote du Sénat du 12 octobre 2021",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/retablir_cumul_mandats",
+     "titre": "Dossier législatif — rétablir le cumul des mandats",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "sens discutable sur l'axe institutions",
+     "decision": "sens −1 par défaut ; sans effet sur le score"
+    },
+    {
+     "signalement": "date d'application (2017) non revérifiée",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-014",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": -1,
+   "enonce": "Le Conseil économique, social et environnemental doit être supprimé.",
+   "precision": "Le Conseil économique, social et environnemental (CESE) est une assemblée consultative qui représente les syndicats, les entreprises et les associations.",
+   "origine": {
+    "description": "Proposition de loi constitutionnelle n° 491 du 28 octobre 2024",
+    "source": {
+     "url": "https://questions.assemblee-nationale.fr/dyn/17/textes/l17b0491_proposition-loi.pdf",
+     "titre": "Proposition de loi constitutionnelle visant à supprimer le Conseil économique, social et environnemental",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "sens discutable sur l'axe institutions",
+     "decision": "sens −1 par défaut ; sans effet sur le score"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-015",
+   "theme": "institutions",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "L'audiovisuel public doit être privatisé.",
+   "precision": "L'audiovisuel public comprend notamment France Télévisions et Radio France.",
+   "origine": {
+    "description": "Position d'un parti rapportée par la presse",
+    "source": {
+     "url": "https://lcp.fr/actualites/reforme-de-l-audiovisuel-public-apres-le-vote-d-une-motion-de-rejet-a-l-assemblee-le",
+     "titre": "Réforme de l'audiovisuel public : après le vote d'une motion de rejet à l'Assemblée (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "périmètre exact de la privatisation proposée non trouvé",
+     "decision": "à compléter"
+    },
+    {
+     "signalement": "relève de l'axe économie",
+     "decision": "axe économie, sens −1"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-016",
+   "theme": "institutions",
+   "axe": "frontieres",
+   "sens": -1,
+   "enonce": "La Constitution doit être révisée pour permettre un référendum sur l'immigration.",
+   "precision": "Aujourd'hui, un référendum ne peut pas porter sur l'immigration ni sur la nationalité.",
+   "origine": {
+    "description": "Proposition de loi constitutionnelle déposée au Sénat en décembre 2023 ; projet de référendum sur un texte « citoyenneté, identité, immigration »",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/referendum-sur-limmigration-une-petition-controversee-relance-le-debat-enterre-au-senat-en-2023",
+     "titre": "Référendum sur l'immigration : une pétition controversée relance le débat enterré au Sénat en 2023",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "deux voies différentes : révision préalable de la Constitution pour l'une, référendum direct pour l'autre",
+     "decision": "un seul énoncé sur l'objectif"
+    },
+    {
+     "signalement": "question renvoyée du lot immigration",
+     "decision": "axe frontières, sens −1"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-017",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": -1,
+   "enonce": "Une peine d'inéligibilité ne doit plus pouvoir s'appliquer avant le jugement en appel.",
+   "precision": "Aujourd'hui, le juge peut décider qu'une peine d'inéligibilité s'applique immédiatement, même si le condamné fait appel (« exécution provisoire »).",
+   "origine": {
+    "description": "Proposition de loi retirée à l'Assemblée nationale le 26 juin 2025 après le rejet de son article",
+    "source": {
+     "url": "https://lcp.fr/actualites/execution-provisoire-des-peines-d-ineligibilite-eric-ciotti-retire-le-texte-vide-de-sa",
+     "titre": "Exécution provisoire des peines d'inéligibilité : Éric Ciotti retire le texte vidé de sa substance (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "sens discutable sur l'axe institutions",
+     "decision": "sens −1 par défaut ; sans effet sur le score"
+    },
+    {
+     "signalement": "question liée à une affaire judiciaire en cours visant une personnalité politique",
+     "decision": "conservée : mesure générale, personne n'est nommé (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "INS-018",
+   "theme": "institutions",
+   "axe": "institutions",
+   "sens": 1,
+   "enonce": "Le vote doit devenir obligatoire.",
+   "precision": "La proposition de loi prévoit une amende pour les électeurs qui ne votent pas.",
+   "origine": {
+    "description": "Proposition de loi n° 301 déposée au Sénat le 1er février 2023 ; programme de la présidentielle de 2022",
+    "source": {
+     "url": "https://www.senat.fr/leg/ppl22-301.html",
+     "titre": "Reconnaissance du vote blanc et instauration du vote obligatoire (PPL) — texte déposé au Sénat",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "sens discutable sur l'axe institutions",
+     "decision": "sens +1 par défaut ; sans effet sur le score"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "créée à côté de INS-007 (vote blanc) : deux mesures distinctes"
+    }
+   ]
+  }
+ ]
+}

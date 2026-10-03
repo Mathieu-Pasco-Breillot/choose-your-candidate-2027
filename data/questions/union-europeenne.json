@@ -1,0 +1,433 @@
+{
+ "_theme": "union-europeenne",
+ "_lot": 10,
+ "_statut": "VALIDÉ le 2026-10-03 — sources à recontrôler sur textes officiels avant publication",
+ "_equilibre": {
+  "actives": 15,
+  "suspendues": 1,
+  "sens_plus": 7,
+  "sens_moins": 8,
+  "axes": {
+   "europe": 12,
+   "economie": 1,
+   "frontieres": 1,
+   "ecologie": 1
+  }
+ },
+ "_note": "Sources recherchées le 2026-10-03, lues via un résumé automatique : chiffres et citations à recontrôler avant publication. Non retenues : accord CETA (aucune suite depuis 2024), accord commercial avec les États-Unis (aucune proposition française de le dénoncer), fin des règles budgétaires des 3 % (source trop faible), listes transnationales, siège de Strasbourg, travailleurs détachés, politique agricole commune (consensus sur le maintien du budget). L'emprunt commun européen est en DEF-011, le prix de l'électricité en ENV-018.",
+ "questions": [
+  {
+   "id": "EUR-001",
+   "theme": "union-europeenne",
+   "axe": "europe",
+   "sens": 1,
+   "enonce": "L'Ukraine doit adhérer à l'Union européenne.",
+   "precision": "Les négociations d'adhésion sont ouvertes. En France, un traité d'adhésion doit être approuvé par référendum ou par un vote des trois cinquièmes du Parlement.",
+   "origine": {
+    "description": "Négociations d'adhésion (volets ouverts en juin et juillet 2026)",
+    "source": {
+     "url": "https://fr.euronews.com/my-europe/2026/07/14/lukraine-ouvre-un-nouveau-volet-de-negociations-et-fait-un-pas-de-plus-vers-ladhesion-a-lu",
+     "titre": "L'Ukraine ouvre un nouveau volet de négociations et fait un pas de plus vers l'adhésion à l'UE",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucune échéance dans l'énoncé ; positions primaires des partis non trouvées",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EUR-002",
+   "theme": "union-europeenne",
+   "axe": "europe",
+   "sens": 1,
+   "enonce": "Les décisions de politique étrangère de l'Union européenne doivent pouvoir être prises à la majorité, sans droit de veto des États.",
+   "precision": "Aujourd'hui, elles exigent l'accord unanime des États membres.",
+   "origine": {
+    "description": "Lettre de onze États membres, dont la France, du 1er septembre 2026",
+    "source": {
+     "url": "https://fr.euronews.com/my-europe/2026/09/01/politique-etrangere-de-lue-onze-etats-membres-reclament-la-fin-des-vetos-obstructifs",
+     "titre": "Politique étrangère de l'UE : onze États membres réclament la fin des vetos « obstructifs »",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EUR-003",
+   "theme": "union-europeenne",
+   "axe": "europe",
+   "sens": 1,
+   "enonce": "Le budget de l'Union européenne pour 2028-2034 doit être porté à 2 000 milliards d'euros.",
+   "precision": "C'est la proposition de la Commission européenne. Le budget 2021-2027 est d'environ 1 200 milliards. La contribution française pourrait passer d'environ 29 à près de 40 milliards d'euros par an.",
+   "origine": {
+    "description": "Proposition de la Commission européenne de juillet 2025",
+    "source": {
+     "url": "https://www.senat.fr/rap/r25-532/r25-532-syn.pdf",
+     "titre": "CFP 2028-2034 : de grandes fusions au risque de beaucoup de confusion (synthèse du rapport d'information n° 532)",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "montant du budget 2021-2027 non revérifié ; positions des partis non trouvées",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EUR-004",
+   "theme": "union-europeenne",
+   "axe": "europe",
+   "sens": 1,
+   "enonce": "Une taxe européenne sur les grandes entreprises du numérique doit être créée pour financer le budget de l'Union.",
+   "precision": null,
+   "origine": {
+    "description": "Rapport d'information du Sénat n° 532 (avril 2026)",
+    "source": {
+     "url": "https://www.senat.fr/rap/r25-532/r25-532-syn.pdf",
+     "titre": "CFP 2028-2034 : de grandes fusions au risque de beaucoup de confusion (synthèse du rapport d'information n° 532)",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "la finalité (« pour financer le budget ») fait partie de la mesure : c'est une ressource propre de l'Union",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EUR-005",
+   "theme": "union-europeenne",
+   "axe": "europe",
+   "sens": 1,
+   "enonce": "L'Union européenne doit accueillir de nouveaux États membres d'ici 2030.",
+   "precision": "Le Monténégro, l'Albanie, la Moldavie et l'Ukraine sont en négociation d'adhésion.",
+   "origine": {
+    "description": "Position rapportée en 2026 ; calendrier de la Commission européenne",
+    "source": {
+     "url": "https://fr.euronews.com/my-europe/2026/08/13/elargissement-de-lue-bruxelles-a-lheure-de-verite",
+     "titre": "Élargissement de l'UE : Bruxelles à l'heure de vérité",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "énoncé général, plusieurs pays réunis",
+     "decision": "conservé : mesure l'attitude générale face à l'élargissement (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EUR-006",
+   "theme": "union-europeenne",
+   "axe": "europe",
+   "sens": 1,
+   "enonce": "Les marchés publics doivent donner la priorité aux produits fabriqués dans l'Union européenne.",
+   "precision": "Un texte européen en ce sens est en négociation.",
+   "origine": {
+    "description": "Proposition de règlement européen de mars 2026 ; position française (préférence limitée aux Vingt-Sept)",
+    "source": {
+     "url": "https://fr.euronews.com/2026/09/24/que-signifie-vraiment-made-in-europe-la-france-lallemagne-et-lespagne-divisees",
+     "titre": "Que signifie vraiment « made in Europe » ? La France, l'Allemagne et l'Espagne divisées",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EUR-007",
+   "theme": "union-europeenne",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Le taux de la taxe française sur les services numériques doit être porté de 3 % à 6 %.",
+   "precision": "Cette taxe vise le chiffre d'affaires des grandes entreprises du numérique. Une hausse à 6 % a été votée à l'Assemblée nationale en octobre 2025, sans figurer dans le budget final.",
+   "origine": {
+    "description": "Amendement n° I-655 au projet de loi de finances pour 2026, adopté en séance le 28 octobre 2025",
+    "source": {
+     "url": "https://www.legifiscal.fr/actualites-fiscales/4297-plf-2026-amendement-double-taux-taxe-gafam.html",
+     "titre": "PLF 2026 : un amendement double le taux de la taxe GAFAM",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "absence de la hausse dans la loi promulguée : déduction non vérifiée sur Légifrance",
+     "decision": "à vérifier avant publication"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EUR-008",
+   "theme": "union-europeenne",
+   "axe": "europe",
+   "sens": -1,
+   "enonce": "La France doit quitter l'Union européenne.",
+   "precision": null,
+   "origine": {
+    "description": "Programmes de candidats déclarés, d'après des sites agrégateurs",
+    "source": {
+     "url": "https://votons-2027.fr/candidats/asselineau/programme",
+     "titre": "Programme complet · à jour (site agrégateur)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "source faible : site agrégateur, programme d'origine non relu",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EUR-009",
+   "theme": "union-europeenne",
+   "axe": "europe",
+   "sens": -1,
+   "enonce": "La France doit abandonner l'euro et rétablir une monnaie nationale.",
+   "precision": null,
+   "origine": {
+    "description": "Programme d'un candidat déclaré, d'après un site agrégateur",
+    "source": {
+     "url": "https://votons-2027.fr/candidats/asselineau/programme",
+     "titre": "Programme complet · à jour (site agrégateur)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "source faible : site agrégateur, programme d'origine non relu",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EUR-010",
+   "theme": "union-europeenne",
+   "axe": "europe",
+   "sens": -1,
+   "enonce": "La Constitution doit affirmer que le droit français prime sur le droit européen.",
+   "precision": "Aujourd'hui, le droit européen l'emporte sur les lois françaises.",
+   "origine": {
+    "description": "Projets de révision constitutionnelle par référendum rapportés en septembre 2026",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle",
+     "titre": "Présidentielle 2027 : Bruno Retailleau veut renverser la table avec une profonde réforme constitutionnelle (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "les projets diffèrent : primauté générale pour l'un, limitée à l'immigration et à la sécurité pour l'autre",
+     "decision": "un seul énoncé sur le principe (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EUR-011",
+   "theme": "union-europeenne",
+   "axe": "europe",
+   "sens": -1,
+   "enonce": "La contribution de la France au budget de l'Union européenne doit être ramenée de 28,8 à 23,1 milliards d'euros par an.",
+   "precision": null,
+   "origine": {
+    "description": "Amendement n° 598 au projet de loi de finances pour 2026",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/1906A/AN/598.pdf",
+     "titre": "Amendement n° 598 au projet de loi de finances pour 2026",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "montant finalement voté pour 2026 non vérifié ; d'autres propositions chiffrent la baisse autrement (20 %)",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EUR-012",
+   "theme": "union-europeenne",
+   "axe": "frontieres",
+   "sens": -1,
+   "enonce": "Les étrangers non européens doivent être contrôlés aux frontières françaises, même lorsqu'ils viennent d'un autre pays de l'espace Schengen.",
+   "precision": "Dans l'espace Schengen, les contrôles aux frontières entre pays membres sont en principe supprimés. La proposition, dite « double frontière », ne prévoit pas de sortir de Schengen.",
+   "origine": {
+    "description": "Proposition de résolution n° 3119 du 10 septembre 2026",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3119_proposition-resolution.pdf",
+     "titre": "Proposition de résolution visant à refonder l'espace Schengen en instaurant une double frontière nationale et européenne",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EUR-013",
+   "theme": "union-europeenne",
+   "axe": "europe",
+   "sens": -1,
+   "enonce": "La France doit quitter la Convention européenne des droits de l'homme.",
+   "precision": "Cette convention, distincte de l'Union européenne, permet de saisir la Cour européenne des droits de l'homme.",
+   "origine": {
+    "description": "Programme d'un candidat pressenti, d'après un site agrégateur",
+    "source": {
+     "url": "https://votons-2027.fr/candidats/zemmour/programme",
+     "titre": "Programme (site agrégateur)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "suspendue",
+   "alertes_neutralite": [
+    {
+     "signalement": "source faible : site agrégateur, programme d'origine non relu",
+     "decision": "à compléter"
+    },
+    {
+     "signalement": "aucun candidat déclaré ne porte la mesure dans les sources trouvées",
+     "decision": "suspendue (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "suspendue : aucun candidat déclaré ne porte la mesure dans les sources trouvées"
+    }
+   ]
+  },
+  {
+   "id": "EUR-014",
+   "theme": "union-europeenne",
+   "axe": "europe",
+   "sens": -1,
+   "enonce": "La France doit refuser d'appliquer les règles européennes qui empêchent la mise en œuvre du programme du président élu.",
+   "precision": "Mesure présentée par ses auteurs comme une « désobéissance » aux traités.",
+   "origine": {
+    "description": "Programme, édition 2025, chapitre Europe (page non ouverte)",
+    "source": {
+     "url": "https://melenchon2027.fr/programme2025/livre/chapitre17/s2/",
+     "titre": "Désobéir à chaque fois que c'est nécessaire pour mettre en œuvre notre programme",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "page d'origine inaccessible : seul le titre a été lu",
+     "decision": "à compléter"
+    },
+    {
+     "signalement": "énoncé général, sans règle précise",
+     "decision": "conservé, sous réserve de relire le programme avant publication (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EUR-015",
+   "theme": "union-europeenne",
+   "axe": "ecologie",
+   "sens": -1,
+   "enonce": "Le Pacte vert européen doit être suspendu.",
+   "precision": "Pacte vert : ensemble de lois européennes visant la neutralité carbone en 2050 (fin des voitures thermiques neuves, marché du carbone, normes agricoles).",
+   "origine": {
+    "description": "Déclaration publique du 23 janvier 2025",
+    "source": {
+     "url": "https://www.linfodurable.fr/face-trump-bardella-appelle-la-suspension-du-pacte-vert-europeen-49044",
+     "titre": "Face à Trump, Bardella appelle à la suspension du Pacte vert européen",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EUR-016",
+   "theme": "union-europeenne",
+   "axe": "europe",
+   "sens": -1,
+   "enonce": "La France doit refuser d'appliquer l'accord commercial entre l'Union européenne et le Mercosur.",
+   "precision": "Cet accord avec l'Argentine, le Brésil, le Paraguay et l'Uruguay s'applique à titre provisoire depuis le 1er mai 2026, malgré le vote contre de la France. La Cour de justice de l'Union européenne a été saisie.",
+   "origine": {
+    "description": "Signature du 17 janvier 2026 ; application provisoire au 1er mai 2026",
+    "source": {
+     "url": "https://bilaterals.org/eu-mercosur-trade-deal-to-take",
+     "titre": "EU–Mercosur trade deal to take provisional effect from 1 May",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "la quasi-totalité des partis français s'opposent à l'accord : la question porte sur le refus de l'appliquer, pas sur l'opposition",
+     "decision": "à trancher"
+    },
+    {
+     "signalement": "liste des pays du Mercosur non revérifiée ; positions par parti non trouvées",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  }
+ ]
+}

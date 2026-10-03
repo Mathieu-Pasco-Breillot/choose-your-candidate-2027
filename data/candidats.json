@@ -1,0 +1,41 @@
+{
+  "_critere_version": 1,
+  "_date_etat_des_lieux": "2026-10-02",
+  "_note": "Dates « à vérifier » et sources R1 à compléter sur source primaire avant publication.",
+  "candidats": [
+    {"id": "le-pen-marine", "prenom": "Marine", "nom": "Le Pen", "parti": "Rassemblement national", "statut_candidature": "declare", "date_declaration": "2023-09", "statut_evaluation": "codage_en_attente", "vague": 1, "a_verifier": "décision d'appel du 2026-07-07"},
+    {"id": "philippe-edouard", "prenom": "Édouard", "nom": "Philippe", "parti": "Horizons", "statut_candidature": "declare", "date_declaration": "2024-09", "statut_evaluation": "codage_en_attente", "vague": 1},
+    {"id": "melenchon-jean-luc", "prenom": "Jean-Luc", "nom": "Mélenchon", "parti": "La France insoumise", "statut_candidature": "declare", "date_declaration": "à vérifier", "statut_evaluation": "codage_en_attente", "vague": 1},
+    {"id": "attal-gabriel", "prenom": "Gabriel", "nom": "Attal", "parti": "Renaissance", "statut_candidature": "declare", "date_declaration": "à vérifier", "statut_evaluation": "codage_en_attente", "vague": 1},
+    {"id": "retailleau-bruno", "prenom": "Bruno", "nom": "Retailleau", "parti": "Les Républicains", "statut_candidature": "declare", "date_declaration": "2026-02-12", "statut_evaluation": "codage_en_attente", "vague": 1},
+    {"id": "lisnard-david", "prenom": "David", "nom": "Lisnard", "parti": "Nouvelle Énergie", "statut_candidature": "declare", "date_declaration": "à vérifier", "statut_evaluation": "codage_en_attente", "vague": 1},
+    {"id": "tondelier-marine", "prenom": "Marine", "nom": "Tondelier", "parti": "Les Écologistes", "statut_candidature": "declare", "date_declaration": "à vérifier", "statut_evaluation": "codage_en_attente", "vague": 2},
+    {"id": "roussel-fabien", "prenom": "Fabien", "nom": "Roussel", "parti": "Parti communiste français", "statut_candidature": "investi", "date_declaration": "2026-09", "statut_evaluation": "codage_en_attente", "vague": 1},
+    {"id": "ruffin-francois", "prenom": "François", "nom": "Ruffin", "parti": "Debout", "statut_candidature": "declare", "date_declaration": "à vérifier", "statut_evaluation": "codage_en_attente", "vague": 2, "a_verifier": "statut exact depuis l'abandon de la primaire unitaire"},
+    {"id": "dupont-aignan-nicolas", "prenom": "Nicolas", "nom": "Dupont-Aignan", "parti": "Debout la France", "statut_candidature": "declare", "date_declaration": "2025-03", "statut_evaluation": "codage_en_attente", "vague": 1},
+    {"id": "arthaud-nathalie", "prenom": "Nathalie", "nom": "Arthaud", "parti": "Lutte ouvrière", "statut_candidature": "declare", "date_declaration": "2025-12", "statut_evaluation": "codage_en_attente", "vague": 1},
+
+    {"id": "asselineau-francois", "prenom": "François", "nom": "Asselineau", "parti": "Union populaire républicaine", "statut_candidature": "declare", "statut_evaluation": "codage_en_attente", "vague": 2, "a_verifier": "source R1"},
+    {"id": "batho-delphine", "prenom": "Delphine", "nom": "Batho", "parti": "Génération écologie", "statut_candidature": "declare", "date_declaration": "2025-11", "statut_evaluation": "codage_en_attente", "vague": 2},
+    {"id": "becht-olivier", "prenom": "Olivier", "nom": "Becht", "parti": "à vérifier", "statut_candidature": "declare", "statut_evaluation": "codage_en_attente", "vague": 2, "a_verifier": "source R1"},
+    {"id": "bouamrane-karim", "prenom": "Karim", "nom": "Bouamrane", "parti": "La France humaine et forte", "statut_candidature": "declare", "date_declaration": "2026-06", "statut_evaluation": "codage_en_attente", "vague": 2},
+    {"id": "egger-clara", "prenom": "Clara", "nom": "Egger", "parti": "Solution démocratique", "statut_candidature": "declare", "statut_evaluation": "codage_en_attente", "vague": 2, "a_verifier": "source R1"},
+    {"id": "lalanne-francis", "prenom": "Francis", "nom": "Lalanne", "parti": "France libre", "statut_candidature": "declare", "statut_evaluation": "codage_en_attente", "vague": 2, "a_verifier": "source R1"},
+    {"id": "mikolajczak-antoine", "prenom": "Antoine", "nom": "Mikolajczak", "parti": "à vérifier", "statut_candidature": "declare", "statut_evaluation": "codage_en_attente", "vague": 2, "a_verifier": "source R1"},
+    {"id": "philippot-florian", "prenom": "Florian", "nom": "Philippot", "parti": "Les Patriotes", "statut_candidature": "declare", "statut_evaluation": "codage_en_attente", "vague": 2, "a_verifier": "a indiqué qu'il se retirerait si Philippe de Villiers se présentait"},
+
+    {"id": "zemmour-eric", "prenom": "Éric", "nom": "Zemmour", "parti": "Reconquête", "statut_candidature": "pressenti", "statut_evaluation": "non_evalue", "motif_non_evaluation": "pressenti", "note": "annonce prévue « avant décembre » 2026"},
+    {"id": "bertrand-xavier", "prenom": "Xavier", "nom": "Bertrand", "parti": "Nous France", "statut_candidature": "pressenti", "statut_evaluation": "non_evalue", "motif_non_evaluation": "pressenti", "note": "déclaration formelle annoncée pour la fin de l'année 2026"},
+    {"id": "villepin-dominique-de", "prenom": "Dominique", "nom": "de Villepin", "parti": "La France humaniste", "statut_candidature": "pressenti", "statut_evaluation": "non_evalue", "motif_non_evaluation": "pressenti"},
+    {"id": "wauquiez-laurent", "prenom": "Laurent", "nom": "Wauquiez", "parti": "Les Républicains", "statut_candidature": "pressenti", "statut_evaluation": "non_evalue", "motif_non_evaluation": "pressenti", "a_verifier": "statut exact"},
+
+    {"id": "faure-olivier", "prenom": "Olivier", "nom": "Faure", "parti": "Parti socialiste", "statut_candidature": "en_primaire", "primaire": "primaire-ps-place-publique-2026", "statut_evaluation": "non_evalue", "motif_non_evaluation": "primaire_en_cours"},
+    {"id": "glucksmann-raphael", "prenom": "Raphaël", "nom": "Glucksmann", "parti": "Place publique", "statut_candidature": "en_primaire", "primaire": "primaire-ps-place-publique-2026", "statut_evaluation": "non_evalue", "motif_non_evaluation": "primaire_en_cours"},
+    {"id": "guedj-jerome", "prenom": "Jérôme", "nom": "Guedj", "parti": "Parti socialiste", "statut_candidature": "en_primaire", "primaire": "primaire-ps-place-publique-2026", "statut_evaluation": "non_evalue", "motif_non_evaluation": "primaire_en_cours"},
+    {"id": "maurel-emmanuel", "prenom": "Emmanuel", "nom": "Maurel", "parti": "Gauche républicaine et socialiste", "statut_candidature": "en_primaire", "primaire": "primaire-ps-place-publique-2026", "statut_evaluation": "non_evalue", "motif_non_evaluation": "primaire_en_cours"},
+    {"id": "royal-segolene", "prenom": "Ségolène", "nom": "Royal", "parti": "Parti socialiste", "statut_candidature": "en_primaire", "primaire": "primaire-ps-place-publique-2026", "statut_evaluation": "non_evalue", "motif_non_evaluation": "primaire_en_cours"}
+  ],
+  "primaires": [
+    {"id": "primaire-ps-place-publique-2026", "nom": "Primaire PS – Place publique", "calendrier": "octobre 2026 (dates à vérifier sur source officielle)", "statut": "en_cours", "vainqueur": null}
+  ]
+}

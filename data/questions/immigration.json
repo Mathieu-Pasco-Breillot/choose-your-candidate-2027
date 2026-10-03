@@ -1,0 +1,587 @@
+{
+ "_theme": "immigration",
+ "_lot": 6,
+ "_statut": "VALIDÉ le 2026-10-03 — sources à recontrôler sur textes officiels avant publication",
+ "_equilibre": {
+  "actives": 21,
+  "suspendues": 0,
+  "sens_plus": 10,
+  "sens_moins": 11,
+  "axes": {
+   "frontieres": 21
+  }
+ },
+ "_note": "Sources recherchées le 2026-10-03, lues via un résumé automatique, en majorité secondaires : à recontrôler avant publication. Écartées car déjà en vigueur : rétention jusqu'à 210 jours (loi du 27 juillet 2026), niveau B2 pour la naturalisation, interdiction de la rétention des mineurs en métropole. Écartées faute de proposition documentée : sortie du pacte européen sur la migration et l'asile, fermeture des centres de rétention, durcissement chiffré du regroupement familial. Le référendum sur l'immigration est renvoyé au lot institutions.",
+ "questions": [
+  {
+   "id": "IMM-001",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": 1,
+   "enonce": "Les travailleurs étrangers en situation irrégulière doivent être régularisés.",
+   "precision": "« En situation irrégulière » : sans titre de séjour valide ; on dit couramment « sans papiers ». Aujourd'hui, la régularisation se décide au cas par cas : le préfet peut l'accorder après sept ans de présence, ou après douze mois de travail dans un métier en tension.",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024 ; règles actuelles : circulaire du 24 janvier 2025",
+    "source": {
+     "url": "https://www.maire-info.com/immigration/ce-que-contient-la-circulaire-retailleau-sur-la-regularisation-des-etrangers-en-situation-irreguliere-article-29333",
+     "titre": "Ce que contient la circulaire Retailleau sur la régularisation des étrangers en situation irrégulière",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« sans papiers » est le terme courant ; le terme administratif est « en situation irrégulière »",
+     "decision": "« en situation irrégulière » dans l'énoncé, « sans papiers » dans la précision (2026-10-03)"
+    },
+    {
+     "signalement": "la proposition d'origine réunit travailleurs, étudiants et parents d'élèves",
+     "decision": "scindée en IMM-001, IMM-009 et IMM-010"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "ancien_enonce": "Les travailleurs sans papiers doivent être régularisés."
+    }
+   ]
+  },
+  {
+   "id": "IMM-002",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": 1,
+   "enonce": "La loi immigration du 26 janvier 2024 doit être abrogée.",
+   "precision": "Loi votée en décembre 2023 sur l'entrée, le séjour et l'éloignement des étrangers.",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/abroger-les-lois-asile-et-immigration-demmanuel-macron-et-autoriser-les-demandeurs-dasile-a-travailler/",
+     "titre": "Abroger les lois asile et immigration d'Emmanuel Macron et autoriser les demandeurs d'asile à travailler",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "la précision résume une loi longue en deux mesures : choix discutable",
+     "decision": "précision remplacée par une phrase neutre (2026-10-03)"
+    },
+    {
+     "signalement": "proposition datée de 2024 ; aucun programme pour 2027 trouvé",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-003",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": 1,
+   "enonce": "Les étrangers non européens doivent pouvoir voter aux élections municipales.",
+   "precision": "Les citoyens d'un autre pays de l'Union européenne ont déjà ce droit. L'étendre suppose de réviser la Constitution.",
+   "origine": {
+    "description": "Proposition de loi constitutionnelle adoptée en commission des lois de l'Assemblée nationale le 4 février 2026",
+    "source": {
+     "url": "https://lcp.fr/actualites/droit-de-vote-des-etrangers-aux-municipales-la-proposition-de-loi-ecologiste-adoptee-en",
+     "titre": "Droit de vote des étrangers aux municipales : la proposition de loi écologiste adoptée en commission",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "pourrait relever de l'axe institutions",
+     "decision": "axe frontières par défaut ; sans effet sur le score"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-004",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": 1,
+   "enonce": "La carte de séjour de dix ans doit devenir le titre de séjour normal des étrangers en situation régulière.",
+   "precision": "Aujourd'hui, la plupart des étrangers reçoivent d'abord des titres d'un à quatre ans.",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://novlaw.fr/ressource/elections-legislatives-2024-quelles-propositions-pour-limmigration-et-lasile-en-france",
+     "titre": "Élections législatives 2024 : quelles propositions pour l'immigration et l'asile en France (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "durées des titres actuels non revérifiées",
+     "decision": "à compléter"
+    },
+    {
+     "signalement": "proposition datée de 2024 ; aucun programme pour 2027 trouvé",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-005",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": 1,
+   "enonce": "Les demandeurs d'asile doivent pouvoir travailler dès le dépôt de leur demande.",
+   "precision": "Ils ne peuvent aujourd'hui demander une autorisation de travail qu'après six mois sans réponse à leur demande.",
+   "origine": {
+    "description": "Proposition de loi n° 771 (février 2025)",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/888961/file/EAT%20-%20PPL%20n%C2%B0%20771%20Acc%C3%A8s%20des%20demandeurs%20d%27asile%20au%20march%C3%A9%20du%20travail.pdf",
+     "titre": "État d'avancement des travaux — proposition de loi n° 771 visant à faciliter l'accès des demandeurs d'asile au marché du travail",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-006",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": 1,
+   "enonce": "Un statut de déplacé climatique doit être créé pour accueillir les personnes contraintes de quitter leur pays à cause du changement climatique.",
+   "precision": null,
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/creation-dun-statut-de-deplace-climatique",
+     "titre": "Création d'un statut de déplacé climatique",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« chassées » : terme à forte charge",
+     "decision": "« contraintes de quitter » retenu (2026-10-03)"
+    },
+    {
+     "signalement": "proposition datée de 2024 ; aucun programme pour 2027 trouvé",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "ancien_enonce": "Un statut de déplacé climatique doit être créé pour accueillir les personnes chassées de leur pays par le changement climatique."
+    }
+   ]
+  },
+  {
+   "id": "IMM-007",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": 1,
+   "enonce": "Une agence publique de sauvetage des migrants en mer doit être créée.",
+   "precision": null,
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024 (« agence de sauvetage en mer et sur terre »)",
+    "source": {
+     "url": "https://novlaw.fr/ressource/elections-legislatives-2024-quelles-propositions-pour-limmigration-et-lasile-en-france",
+     "titre": "Élections législatives 2024 : quelles propositions pour l'immigration et l'asile en France (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "proposition datée de 2024 ; aucun programme pour 2027 trouvé",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-008",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": 1,
+   "enonce": "Tout enfant né en France doit être français dès sa naissance.",
+   "precision": "Aujourd'hui, un enfant né en France de parents étrangers devient français à 18 ans s'il y a résidé cinq ans depuis l'âge de 11 ans.",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024 (« droit du sol intégral »)",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/16/textes/l16b2120_proposition-loi.pdf",
+     "titre": "Proposition de loi constitutionnelle n° 2120 du 25 janvier 2024",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "la source citée décrit l'état du droit et la proposition inverse ; le libellé exact de la proposition n'a pas été relu",
+     "decision": "à compléter"
+    },
+    {
+     "signalement": "proposition datée de 2024 ; aucun programme pour 2027 trouvé",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-009",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": 1,
+   "enonce": "Les parents en situation irrégulière d'enfants scolarisés en France doivent être régularisés.",
+   "precision": "« En situation irrégulière » : sans titre de séjour valide ; on dit couramment « sans papiers ».",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://novlaw.fr/ressource/elections-legislatives-2024-quelles-propositions-pour-limmigration-et-lasile-en-france",
+     "titre": "Élections législatives 2024 : quelles propositions pour l'immigration et l'asile en France (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "proposition datée de 2024 ; aucun programme pour 2027 trouvé",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "ancien_enonce": "Les parents sans papiers d'enfants scolarisés en France doivent être régularisés."
+    }
+   ]
+  },
+  {
+   "id": "IMM-010",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": 1,
+   "enonce": "Les étudiants étrangers en situation irrégulière doivent être régularisés.",
+   "precision": "« En situation irrégulière » : sans titre de séjour valide ; on dit couramment « sans papiers ».",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://novlaw.fr/ressource/elections-legislatives-2024-quelles-propositions-pour-limmigration-et-lasile-en-france",
+     "titre": "Élections législatives 2024 : quelles propositions pour l'immigration et l'asile en France (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "proposition datée de 2024 ; aucun programme pour 2027 trouvé",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "ancien_enonce": "Les étudiants étrangers sans papiers doivent être régularisés."
+    }
+   ]
+  },
+  {
+   "id": "IMM-011",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": -1,
+   "enonce": "Le droit du sol doit être supprimé : la nationalité française ne s'obtiendrait plus que par filiation ou par naturalisation.",
+   "precision": "Aujourd'hui, un enfant né en France de parents étrangers devient français à 18 ans s'il y a résidé cinq ans depuis l'âge de 11 ans. Des conditions plus strictes s'appliquent à Mayotte depuis 2026.",
+   "origine": {
+    "description": "Proposition de loi constitutionnelle n° 2120 du 25 janvier 2024 ; annonces de 2026",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/16/textes/l16b2120_proposition-loi.pdf",
+     "titre": "Proposition de loi constitutionnelle n° 2120 du 25 janvier 2024",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-012",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": -1,
+   "enonce": "Les Français doivent être prioritaires sur les étrangers pour l'attribution des logements sociaux.",
+   "precision": "Mesure souvent appelée « priorité nationale ». Elle suppose de réviser la Constitution.",
+   "origine": {
+    "description": "Proposition de loi constitutionnelle n° 2120 du 25 janvier 2024",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/16/textes/l16b2120_proposition-loi.pdf",
+     "titre": "Proposition de loi constitutionnelle n° 2120 du 25 janvier 2024",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "la proposition d'origine réunit logement et emploi",
+     "decision": "scindée en IMM-012 et IMM-013"
+    },
+    {
+     "signalement": "« elle suppose de réviser la Constitution » : affirmation non revérifiée",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-013",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": -1,
+   "enonce": "Les Français doivent être prioritaires sur les étrangers pour l'accès à l'emploi.",
+   "precision": "Mesure souvent appelée « priorité nationale ».",
+   "origine": {
+    "description": "Proposition de loi constitutionnelle n° 2120 du 25 janvier 2024",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/16/textes/l16b2120_proposition-loi.pdf",
+     "titre": "Proposition de loi constitutionnelle n° 2120 du 25 janvier 2024",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "formulation exacte du texte (« à mérite égal » ?) à relire",
+     "decision": "à vérifier avant publication"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-014",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": -1,
+   "enonce": "Les étrangers doivent résider en France depuis au moins deux ans pour toucher les allocations familiales et les aides au logement.",
+   "precision": "La proposition votée au Sénat dispense de cette condition les étrangers qui travaillent. Une condition de cinq ans a été censurée par le Conseil constitutionnel en 2024.",
+   "origine": {
+    "description": "Proposition de loi n° 299 adoptée par le Sénat le 18 mars 2025",
+    "source": {
+     "url": "https://www.lemondedudroit.fr/deals/97731-condition-de-duree-de-residence-pour-le-versement-de-prestations-sociales-adoption-au-senat-en-premiere-lecture.html",
+     "titre": "Condition de durée de résidence pour le versement de prestations sociales : adoption au Sénat en première lecture",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "une autre proposition porte sur cinq ans de présence et de travail",
+     "decision": "deuxième question créée : IMM-021 (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-015",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": -1,
+   "enonce": "Le séjour irrégulier en France doit redevenir un délit.",
+   "precision": "Ce délit a été supprimé en 2012. Son rétablissement, voté en 2024, a été censuré pour une raison de procédure.",
+   "origine": {
+    "description": "Proposition de loi examinée à l'Assemblée nationale le 30 octobre 2025 (amende de 3 750 euros), retirée après rejet de son article",
+    "source": {
+     "url": "https://lcp.fr/actualites/retablissement-du-delit-de-sejour-irregulier-le-rn-echoue-a-faire-voter-son-texte-apres",
+     "titre": "Rétablissement du délit de séjour irrégulier : le RN échoue à faire voter son texte après un débat tendu à l'Assemblée",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "date de suppression du délit (2012) non revérifiée",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-016",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": -1,
+   "enonce": "Le Parlement doit voter chaque année un nombre maximal d'étrangers admis à s'installer en France.",
+   "precision": "Des quotas de ce type, votés en 2024, ont été censurés par le Conseil constitutionnel.",
+   "origine": {
+    "description": "Proposition des législatives de 2024",
+    "source": {
+     "url": "https://novlaw.fr/ressource/elections-legislatives-2024-quelles-propositions-pour-limmigration-et-lasile-en-france",
+     "titre": "Élections législatives 2024 : quelles propositions pour l'immigration et l'asile en France (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "motif exact de la censure de 2024 non établi",
+     "decision": "à vérifier dans la décision n° 2023-863 DC"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-017",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": -1,
+   "enonce": "Les demandes d'asile doivent être déposées uniquement dans les ambassades et consulats français à l'étranger.",
+   "precision": "Aujourd'hui, une demande d'asile se dépose une fois arrivé en France.",
+   "origine": {
+    "description": "Proposition de loi constitutionnelle n° 2120 du 25 janvier 2024",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/16/textes/l16b2120_proposition-loi.pdf",
+     "titre": "Proposition de loi constitutionnelle n° 2120 du 25 janvier 2024",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-018",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": -1,
+   "enonce": "La France doit dénoncer l'accord franco-algérien de 1968.",
+   "precision": "Cet accord fixe des règles de séjour et de travail propres aux Algériens. Une résolution non contraignante demandant sa dénonciation a été adoptée par l'Assemblée nationale le 30 octobre 2025.",
+   "origine": {
+    "description": "Proposition de résolution adoptée par 185 voix contre 184",
+    "source": {
+     "url": "https://lcp.fr/actualites/denonciation-des-accords-franco-algeriens-de-1968-un-texte-du-rn-adopte-a-une-voix-pres",
+     "titre": "Dénonciation des accords franco-algériens de 1968 : un texte du RN adopté, à une voix près, à l'Assemblée",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-019",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": -1,
+   "enonce": "Une personne en situation irrégulière ne doit pas pouvoir se marier en France.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition de loi adoptée par le Sénat le 20 février 2025 ; examen inachevé à l'Assemblée nationale en 2025 et 2026",
+    "source": {
+     "url": "https://lcp.fr/actualites/mariages-d-etrangers-en-situation-irreguliere-la-niche-parlementaire-de-l-udr-une",
+     "titre": "Mariages d'étrangers en situation irrégulière : la « niche parlementaire » de l'UDR une nouvelle fois bloquée par la gauche",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-020",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": -1,
+   "enonce": "Tout étranger condamné pour un crime ou un délit doit être expulsé.",
+   "precision": "L'expulsion se décide aujourd'hui au cas par cas. La loi de 2024 a levé plusieurs protections qui l'empêchaient.",
+   "origine": {
+    "description": "Propositions des législatives de 2024",
+    "source": {
+     "url": "https://novlaw.fr/ressource/elections-legislatives-2024-quelles-propositions-pour-limmigration-et-lasile-en-france",
+     "titre": "Élections législatives 2024 : quelles propositions pour l'immigration et l'asile en France (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "les propositions d'origine varient : « délinquants et criminels étrangers », « étranger délinquant ou radicalisé », « étranger qui représente un danger »",
+     "decision": "énoncé large conservé : seul critère vérifiable (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "IMM-021",
+   "theme": "immigration",
+   "axe": "frontieres",
+   "sens": -1,
+   "enonce": "Les étrangers doivent avoir résidé et travaillé légalement en France pendant cinq ans pour toucher des aides sociales.",
+   "precision": "Une condition de cinq ans de résidence a été censurée par le Conseil constitutionnel en 2024.",
+   "origine": {
+    "description": "Proposition publique de juillet 2026",
+    "source": {
+     "url": "https://kohenavocats.com/retailleau-suppression-droit-sol-aides-etrangers-constitution-juge-administratif-2026/",
+     "titre": "Article d'un cabinet d'avocats sur les propositions de juillet 2026 (titre exact à relever)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "liste des aides visées non précisée dans la source lue",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "créée à côté de IMM-014 (deux ans) : deux mesures distinctes"
+    }
+   ]
+  }
+ ]
+}

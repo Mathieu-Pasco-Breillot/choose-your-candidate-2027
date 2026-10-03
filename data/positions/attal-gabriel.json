@@ -1,0 +1,485 @@
+{
+ "candidat_id": "attal-gabriel",
+ "_statut": "PILOTE retraites — à valider ; arbitrages et contrôle humain en attente",
+ "grille_version": "1.1",
+ "programme": {
+  "officiel_disponible": false,
+  "date_publication": null,
+  "url": null,
+  "note": "Aucun programme officiel 2027 publié et consultable n'a été trouvé. Public Sénat (30/09/2026) évoque « son programme » sans lien ; les positions proviennent de déclarations rapportées par la presse. Aucun programme de parti postérieur à une investiture n'a été identifié."
+ },
+ "positions": [
+  {
+   "question_id": "RET-001",
+   "code": -1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "2164cd1e",
+   "extraits": [
+    {
+     "reformulation": "Gabriel Attal ne veut plus réguler le système par l'âge légal : il propose de retenir la seule durée de cotisation, avec une vraie décote en cas de départ précoce et une vraie surcote en cas de départ tardif. Il estime qu'il ne s'agit plus de bouger les paramètres d'un système qui, selon lui, ne tient plus. Aucun âge ni aucune durée chiffrés ne sont donnés.",
+     "citation_courte": "Je propose qu'on prenne la durée de cotisation.",
+     "reformulation_anonymisee": "[CANDIDAT] ne veut plus réguler le système par l'âge légal : il propose de retenir la seule durée de cotisation, avec une vraie décote en cas de départ précoce et une vraie surcote en cas de départ tardif. Il estime qu'il ne s'agit plus de bouger les paramètres d'un système qui, selon lui, ne tient plus. Aucun âge ni aucune durée chiffrés ne sont donnés.",
+     "citation_anonymisee": "Je propose qu'on prenne la durée de cotisation.",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "titre": "Reculer ou avancer l'âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l'élection présidentielle sur les retraites",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Écarte l'âge légal au profit de la seule durée de cotisation (R3).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "R3 : il écarte l'âge légal au profit de la durée de cotisation seule.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-002",
+   "code": -1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "f4b91bcc",
+   "extraits": [
+    {
+     "reformulation": "Gabriel Attal ne veut plus réguler le système par l'âge légal : il propose de retenir la seule durée de cotisation, avec une vraie décote en cas de départ précoce et une vraie surcote en cas de départ tardif. Il estime qu'il ne s'agit plus de bouger les paramètres d'un système qui, selon lui, ne tient plus. Aucun âge ni aucune durée chiffrés ne sont donnés.",
+     "citation_courte": "Je propose qu'on prenne la durée de cotisation.",
+     "reformulation_anonymisee": "[CANDIDAT] ne veut plus réguler le système par l'âge légal : il propose de retenir la seule durée de cotisation, avec une vraie décote en cas de départ précoce et une vraie surcote en cas de départ tardif. Il estime qu'il ne s'agit plus de bouger les paramètres d'un système qui, selon lui, ne tient plus. Aucun âge ni aucune durée chiffrés ne sont donnés.",
+     "citation_anonymisee": "Je propose qu'on prenne la durée de cotisation.",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "titre": "Reculer ou avancer l'âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l'élection présidentielle sur les retraites",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Écarte l'âge légal au profit de la seule durée de cotisation (R3).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "R3 : il écarte l'âge légal au profit de la durée de cotisation, sans chiffre.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-003",
+   "code": -1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "872b9a5d",
+   "extraits": [
+    {
+     "reformulation": "Gabriel Attal ne veut plus réguler le système par l'âge légal : il propose de retenir la seule durée de cotisation, avec une vraie décote en cas de départ précoce et une vraie surcote en cas de départ tardif. Il estime qu'il ne s'agit plus de bouger les paramètres d'un système qui, selon lui, ne tient plus. Aucun âge ni aucune durée chiffrés ne sont donnés.",
+     "citation_courte": "Je propose qu'on prenne la durée de cotisation.",
+     "reformulation_anonymisee": "[CANDIDAT] ne veut plus réguler le système par l'âge légal : il propose de retenir la seule durée de cotisation, avec une vraie décote en cas de départ précoce et une vraie surcote en cas de départ tardif. Il estime qu'il ne s'agit plus de bouger les paramètres d'un système qui, selon lui, ne tient plus. Aucun âge ni aucune durée chiffrés ne sont donnés.",
+     "citation_anonymisee": "Je propose qu'on prenne la durée de cotisation.",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "titre": "Reculer ou avancer l'âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l'élection présidentielle sur les retraites",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Écarte l'âge légal au profit de la seule durée de cotisation, sans chiffre (R3).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "R3 : il écarte l'âge légal au profit de la seule durée de cotisation, sans chiffre.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-005",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-006",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-007",
+   "code": 1,
+   "nature": "imprecise",
+   "statut": "accord",
+   "item_aveugle": "ddf8f543",
+   "extraits": [
+    {
+     "reformulation": "Gabriel Attal assortit ses propositions sur les retraites d'un « vrai pilier de capitalisation ». Selon l'article, les contours de ce pilier restent à préciser ; son caractère obligatoire ou facultatif n'est pas indiqué.",
+     "citation_courte": "vrai pilier de capitalisation",
+     "reformulation_anonymisee": "[CANDIDAT] assortit ses propositions sur les retraites d'un « vrai pilier de capitalisation ». Selon la source, les contours de ce pilier restent à préciser ; son caractère obligatoire ou facultatif n'est pas indiqué.",
+     "citation_anonymisee": "vrai pilier de capitalisation",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "titre": "Reculer ou avancer l'âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l'élection présidentielle sur les retraites",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "imprecise",
+     "justification": "« Vrai pilier de capitalisation » sans préciser s'il est obligatoire.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "imprecise",
+     "justification": "Il veut un pilier de capitalisation mais son caractère obligatoire et ses contours ne sont pas précisés.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-008",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-009",
+   "code": 1,
+   "nature": "imprecise",
+   "statut": "accord",
+   "item_aveugle": "6f2bbb11",
+   "extraits": [
+    {
+     "reformulation": "Dans un entretien aux Échos repris par l'article, Gabriel Attal affirme que l'indexation automatique et pleine de l'ensemble des pensions sur l'inflation n'est pas intangible, en rappelant qu'elle a coûté 15 milliards d'euros en 2024. Il ouvre ainsi la porte à une revalorisation non intégrale, sans annoncer de gel ni en préciser la durée ou le périmètre.",
+     "citation_courte": "L'indexation automatique et pleine de l'ensemble des pensions n'est pas intangible",
+     "reformulation_anonymisee": "Dans un entretien de presse, [CANDIDAT] affirme que l'indexation automatique et pleine de l'ensemble des pensions sur l'inflation n'est pas intangible, en rappelant qu'elle a coûté 15 milliards d'euros en 2024. Il ouvre ainsi la porte à une revalorisation non intégrale, sans annoncer de gel ni en préciser la durée ou le périmètre.",
+     "citation_anonymisee": "L'indexation automatique et pleine de l'ensemble des pensions n'est pas intangible",
+     "source": {
+      "url": "https://www.previssima.fr/actualite/une-retraite-fondee-sur-la-cotisation-et-non-sur-un-age-de-depart-gabriel-attal-defend-un-nouveau-systeme.html",
+      "titre": "Une retraite fondée sur la cotisation et non sur un âge de départ ? Gabriel Attal défend un nouveau système",
+      "date_publication": "2025-07-02",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "imprecise",
+     "justification": "Ouvre la porte à une revalorisation non intégrale sans annoncer de gel ni sa durée.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "imprecise",
+     "justification": "Il juge l'indexation pleine non intangible, ce qui ouvre la porte à une revalorisation réduite sans annoncer de gel ni de durée.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": true,
+    "date": null,
+    "resultat": null
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-010",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-011",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-012",
+   "code": 1,
+   "nature": "imprecise",
+   "statut": "accord",
+   "item_aveugle": "ded1b0be",
+   "extraits": [
+    {
+     "reformulation": "Lors du débat entre candidats du 27 août 2026 à l'université d'été du Medef, Gabriel Attal a évoqué un « nouveau système universel », à points selon l'article, présenté comme une incitation à travailler davantage. L'article précise que les modalités restent floues.",
+     "citation_courte": "nouveau système universel",
+     "reformulation_anonymisee": "Lors d'un débat entre candidats fin août 2026, [CANDIDAT] a évoqué un « nouveau système universel », à points selon la source, présenté comme une incitation à travailler davantage. La source précise que les modalités restent floues.",
+     "citation_anonymisee": "nouveau système universel",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "titre": "Reculer ou avancer l'âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l'élection présidentielle sur les retraites",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "imprecise",
+     "justification": "Évoque un « nouveau système universel », à points selon la source, aux modalités floues.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "imprecise",
+     "justification": "Il évoque un nouveau système universel à points mais les modalités restent floues et le remplacement des régimes n'est pas indiqué.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-013",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-014",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-015",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-016",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-017",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-018",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-019",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-022",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  }
+ ]
+}

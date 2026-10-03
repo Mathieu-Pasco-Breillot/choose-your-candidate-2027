@@ -1,0 +1,637 @@
+{
+ "candidat_id": "le-pen-marine",
+ "_statut": "PILOTE retraites — à valider ; arbitrages et contrôle humain en attente",
+ "grille_version": "1.1",
+ "programme": {
+  "officiel_disponible": false,
+  "date_publication": null,
+  "url": null,
+  "note": "Aucun programme officiel 2027 trouvé en ligne au 3 octobre 2026 ; positions tirées de déclarations publiques (RTL 13 mai 2026, France 3 14 juin 2026, université d'été du Medef 27 août 2026) rapportées par la presse."
+ },
+ "positions": [
+  {
+   "question_id": "RET-001",
+   "code": null,
+   "nature": null,
+   "statut": "arbitrage_en_attente",
+   "item_aveugle": "391ade2f",
+   "extraits": [
+    {
+     "reformulation": "Devant le Medef le 27 août 2026, Marine Le Pen a présenté un barème progressif : 40 ans de cotisation pour ceux qui ont commencé à travailler avant 20 ans, puis progressivement, jusqu'à une entrée dans l'emploi à 24 ans et demi, 42 ans de cotisation et un âge légal de 62 ans. Elle chiffre la réforme à 9 milliards d'euros, un déficit qu'elle dit assumer comme choix politique.",
+     "citation_courte": "on arrivera à 42 ans de cotisation et un âge légal de 62 ans",
+     "reformulation_anonymisee": "Devant une organisation patronale fin août 2026, [CANDIDAT] a présenté un barème progressif : 40 ans de cotisation pour ceux qui ont commencé à travailler avant 20 ans, puis progressivement, jusqu'à une entrée dans l'emploi à 24 ans et demi, 42 ans de cotisation et un âge légal de 62 ans. [CANDIDAT] chiffre la réforme à 9 milliards d'euros, un déficit dit assumé comme choix politique.",
+     "citation_anonymisee": "on arrivera à 42 ans de cotisation et un âge légal de 62 ans",
+     "source": {
+      "url": "https://www.bvoltaire.fr/devant-le-medef-marine-le-pen-defend-son-epineuse-reforme-des-retraites/",
+      "titre": "Devant le MEDEF, Marine Le Pen défend son épineuse réforme des retraites",
+      "date_publication": "2026-08-27",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Selon Public Sénat, Marine Le Pen veut ramener l'âge légal à 62 ans avec 42 annuités, et à 60 ans avec 40 ans de cotisation pour ceux qui ont eu un emploi effectif avant 20 ans ; elle a dit sur RTL le 13 mai 2026 que cette mesure « reste d'actualité ».",
+     "citation_courte": "reste d'actualité",
+     "reformulation_anonymisee": "Selon un média national, [CANDIDAT] veut ramener l'âge légal à 62 ans avec 42 annuités, et à 60 ans avec 40 ans de cotisation pour ceux qui ont eu un emploi effectif avant 20 ans ; [CANDIDAT] a dit à la radio en mai 2026 que cette mesure « reste d'actualité ».",
+     "citation_anonymisee": "reste d'actualité",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "titre": "Reculer ou avancer l’âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l’élection présidentielle sur les retraites",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Veut ramener l'âge légal à 62 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Il retient 62 ans avec 42 annuités, avec 60 ans pour ceux qui ont commencé avant 20 ans, ce qui fait une exception à un âge unique.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": false
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-002",
+   "code": null,
+   "nature": null,
+   "statut": "arbitrage_en_attente",
+   "item_aveugle": "1f91eaf0",
+   "extraits": [
+    {
+     "reformulation": "Devant le Medef le 27 août 2026, Marine Le Pen a présenté un barème progressif : 40 ans de cotisation pour ceux qui ont commencé à travailler avant 20 ans, puis progressivement, jusqu'à une entrée dans l'emploi à 24 ans et demi, 42 ans de cotisation et un âge légal de 62 ans. Elle chiffre la réforme à 9 milliards d'euros, un déficit qu'elle dit assumer comme choix politique.",
+     "citation_courte": "on arrivera à 42 ans de cotisation et un âge légal de 62 ans",
+     "reformulation_anonymisee": "Devant une organisation patronale fin août 2026, [CANDIDAT] a présenté un barème progressif : 40 ans de cotisation pour ceux qui ont commencé à travailler avant 20 ans, puis progressivement, jusqu'à une entrée dans l'emploi à 24 ans et demi, 42 ans de cotisation et un âge légal de 62 ans. [CANDIDAT] chiffre la réforme à 9 milliards d'euros, un déficit dit assumé comme choix politique.",
+     "citation_anonymisee": "on arrivera à 42 ans de cotisation et un âge légal de 62 ans",
+     "source": {
+      "url": "https://www.bvoltaire.fr/devant-le-medef-marine-le-pen-defend-son-epineuse-reforme-des-retraites/",
+      "titre": "Devant le MEDEF, Marine Le Pen défend son épineuse réforme des retraites",
+      "date_publication": "2026-08-27",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Sur France 3 le 14 juin 2026, Marine Le Pen a indiqué que ceux qui sont entrés avant 20 ans sur le marché du travail pourraient partir à 60 ans avec 40 annuités, et que l'on arrive progressivement, selon l'âge d'entrée sur le marché du travail, à 42 annuités et 62 ans. Elle précise qu'il y aura « bien sûr » un âge légal, combiné au critère des annuités.",
+     "citation_courte": "peuvent partir avec 40 annuités à 60 ans",
+     "reformulation_anonymisee": "À la télévision en juin 2026, [CANDIDAT] a indiqué que ceux qui sont entrés avant 20 ans sur le marché du travail pourraient partir à 60 ans avec 40 annuités, et que l'on arrive progressivement, selon l'âge d'entrée sur le marché du travail, à 42 annuités et 62 ans. [CANDIDAT] précise qu'il y aura « bien sûr » un âge légal, combiné au critère des annuités.",
+     "citation_anonymisee": "peuvent partir avec 40 annuités à 60 ans",
+     "source": {
+      "url": "https://www.lejdd.fr/politique/retraites-marine-le-pen-se-dit-favorable-a-une-part-de-capitalisation-volontaire-176451",
+      "titre": "Retraites : Marine Le Pen se dit favorable à une part de capitalisation «volontaire»",
+      "date_publication": "2026-06-14",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "60 ans seulement pour ceux entrés avant 20 ans, 62 ans pour les autres.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Il garde un âge légal de 62 ans et réserve 60 ans aux seuls entrés avant 20 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": false
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-003",
+   "code": -2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "74b26f51",
+   "extraits": [
+    {
+     "reformulation": "Devant le Medef le 27 août 2026, Marine Le Pen a présenté un barème progressif : 40 ans de cotisation pour ceux qui ont commencé à travailler avant 20 ans, puis progressivement, jusqu'à une entrée dans l'emploi à 24 ans et demi, 42 ans de cotisation et un âge légal de 62 ans. Elle chiffre la réforme à 9 milliards d'euros, un déficit qu'elle dit assumer comme choix politique.",
+     "citation_courte": "on arrivera à 42 ans de cotisation et un âge légal de 62 ans",
+     "reformulation_anonymisee": "Devant une organisation patronale fin août 2026, [CANDIDAT] a présenté un barème progressif : 40 ans de cotisation pour ceux qui ont commencé à travailler avant 20 ans, puis progressivement, jusqu'à une entrée dans l'emploi à 24 ans et demi, 42 ans de cotisation et un âge légal de 62 ans. [CANDIDAT] chiffre la réforme à 9 milliards d'euros, un déficit dit assumé comme choix politique.",
+     "citation_anonymisee": "on arrivera à 42 ans de cotisation et un âge légal de 62 ans",
+     "source": {
+      "url": "https://www.bvoltaire.fr/devant-le-medef-marine-le-pen-defend-son-epineuse-reforme-des-retraites/",
+      "titre": "Devant le MEDEF, Marine Le Pen défend son épineuse réforme des retraites",
+      "date_publication": "2026-08-27",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Propose un âge légal de 62 ans, contraire de 65 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il propose un âge légal de 62 ans, contre 65 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-005",
+   "code": -2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "148d7e45",
+   "extraits": [
+    {
+     "reformulation": "Devant le Medef le 27 août 2026, Marine Le Pen a présenté un barème progressif : 40 ans de cotisation pour ceux qui ont commencé à travailler avant 20 ans, puis progressivement, jusqu'à une entrée dans l'emploi à 24 ans et demi, 42 ans de cotisation et un âge légal de 62 ans. Elle chiffre la réforme à 9 milliards d'euros, un déficit qu'elle dit assumer comme choix politique.",
+     "citation_courte": "on arrivera à 42 ans de cotisation et un âge légal de 62 ans",
+     "reformulation_anonymisee": "Devant une organisation patronale fin août 2026, [CANDIDAT] a présenté un barème progressif : 40 ans de cotisation pour ceux qui ont commencé à travailler avant 20 ans, puis progressivement, jusqu'à une entrée dans l'emploi à 24 ans et demi, 42 ans de cotisation et un âge légal de 62 ans. [CANDIDAT] chiffre la réforme à 9 milliards d'euros, un déficit dit assumé comme choix politique.",
+     "citation_anonymisee": "on arrivera à 42 ans de cotisation et un âge légal de 62 ans",
+     "source": {
+      "url": "https://www.bvoltaire.fr/devant-le-medef-marine-le-pen-defend-son-epineuse-reforme-des-retraites/",
+      "titre": "Devant le MEDEF, Marine Le Pen défend son épineuse réforme des retraites",
+      "date_publication": "2026-08-27",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Propose 40 à 42 ans de cotisation, contraire de 45 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il propose 40 à 42 ans de cotisation, contre 45 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-006",
+   "code": 1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "d1c72b62",
+   "extraits": [
+    {
+     "reformulation": "Devant le Medef le 27 août 2026, Marine Le Pen a présenté un barème progressif : 40 ans de cotisation pour ceux qui ont commencé à travailler avant 20 ans, puis progressivement, jusqu'à une entrée dans l'emploi à 24 ans et demi, 42 ans de cotisation et un âge légal de 62 ans. Elle chiffre la réforme à 9 milliards d'euros, un déficit qu'elle dit assumer comme choix politique.",
+     "citation_courte": "on arrivera à 42 ans de cotisation et un âge légal de 62 ans",
+     "reformulation_anonymisee": "Devant une organisation patronale fin août 2026, [CANDIDAT] a présenté un barème progressif : 40 ans de cotisation pour ceux qui ont commencé à travailler avant 20 ans, puis progressivement, jusqu'à une entrée dans l'emploi à 24 ans et demi, 42 ans de cotisation et un âge légal de 62 ans. [CANDIDAT] chiffre la réforme à 9 milliards d'euros, un déficit dit assumé comme choix politique.",
+     "citation_anonymisee": "on arrivera à 42 ans de cotisation et un âge légal de 62 ans",
+     "source": {
+      "url": "https://www.bvoltaire.fr/devant-le-medef-marine-le-pen-defend-son-epineuse-reforme-des-retraites/",
+      "titre": "Devant le MEDEF, Marine Le Pen défend son épineuse réforme des retraites",
+      "date_publication": "2026-08-27",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Sur France 3 le 14 juin 2026, Marine Le Pen a indiqué que ceux qui sont entrés avant 20 ans sur le marché du travail pourraient partir à 60 ans avec 40 annuités, et que l'on arrive progressivement, selon l'âge d'entrée sur le marché du travail, à 42 annuités et 62 ans. Elle précise qu'il y aura « bien sûr » un âge légal, combiné au critère des annuités.",
+     "citation_courte": "peuvent partir avec 40 annuités à 60 ans",
+     "reformulation_anonymisee": "À la télévision en juin 2026, [CANDIDAT] a indiqué que ceux qui sont entrés avant 20 ans sur le marché du travail pourraient partir à 60 ans avec 40 annuités, et que l'on arrive progressivement, selon l'âge d'entrée sur le marché du travail, à 42 annuités et 62 ans. [CANDIDAT] précise qu'il y aura « bien sûr » un âge légal, combiné au critère des annuités.",
+     "citation_anonymisee": "peuvent partir avec 40 annuités à 60 ans",
+     "source": {
+      "url": "https://www.lejdd.fr/politique/retraites-marine-le-pen-se-dit-favorable-a-une-part-de-capitalisation-volontaire-176451",
+      "titre": "Retraites : Marine Le Pen se dit favorable à une part de capitalisation «volontaire»",
+      "date_publication": "2026-06-14",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "40 ans seulement pour ceux entrés avant 20 ans, 42 ans pour les autres.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Il propose 40 ans de cotisation seulement pour les entrés avant 20 ans, puis jusqu'à 42 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": true,
+    "date": null,
+    "resultat": null
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-007",
+   "code": null,
+   "nature": null,
+   "statut": "arbitrage_en_attente",
+   "item_aveugle": "43c601de",
+   "extraits": [
+    {
+     "reformulation": "Sur France 3 le 14 juin 2026, Marine Le Pen s'est dite favorable à une part de capitalisation volontaire : donner à ceux qui le veulent et le peuvent les moyens de se constituer une retraite complémentaire par capitalisation. Elle juge impossible de passer d'un système par répartition déficitaire à un système par capitalisation et insiste sur la protection de ceux qui n'ont pas les moyens de capitaliser.",
+     "citation_courte": "donner les moyens à ceux qui le veulent et qui le peuvent",
+     "reformulation_anonymisee": "À la télévision en juin 2026, [CANDIDAT] s'est dit favorable à une part de capitalisation volontaire : donner à ceux qui le veulent et le peuvent les moyens de se constituer une retraite complémentaire par capitalisation. [CANDIDAT] juge impossible de passer d'un système par répartition déficitaire à un système par capitalisation et insiste sur la protection de ceux qui n'ont pas les moyens de capitaliser.",
+     "citation_anonymisee": "donner les moyens à ceux qui le veulent et qui le peuvent",
+     "source": {
+      "url": "https://www.lejdd.fr/politique/retraites-marine-le-pen-se-dit-favorable-a-une-part-de-capitalisation-volontaire-176451",
+      "titre": "Retraites : Marine Le Pen se dit favorable à une part de capitalisation «volontaire»",
+      "date_publication": "2026-06-14",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Europe 1 rapporte la même intervention : Marine Le Pen veut proposer aux Français les moyens de se constituer une retraite complémentaire par capitalisation, sur une base volontaire, pour ceux « qui le peuvent », en rappelant son idée de fonds d'investissement de 2022.",
+     "citation_courte": null,
+     "reformulation_anonymisee": "Un second média rapporte la même intervention : [CANDIDAT] veut proposer aux Français les moyens de se constituer une retraite complémentaire par capitalisation, sur une base volontaire, pour ceux « qui le peuvent », en rappelant son idée antérieure de fonds d'investissement.",
+     "citation_anonymisee": null,
+     "source": {
+      "url": "https://www.europe1.fr/economie/retraites-marine-le-pen-pour-une-part-de-capitalisation-volontaire-953651",
+      "titre": "Retraites : Marine Le Pen pour une part de capitalisation «volontaire»",
+      "date_publication": "2026-06-14",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": null
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Favorable à une part de capitalisation, mais volontaire et non obligatoire.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Il est favorable à une capitalisation seulement volontaire et rejette le passage à la capitalisation, ce qui contredit le caractère obligatoire.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": false
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-008",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-009",
+   "code": -2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "cd8ef00a",
+   "extraits": [
+    {
+     "reformulation": "LCP rappelle qu'en décembre 2025, lors du débat budgétaire à l'Assemblée nationale, Marine Le Pen s'est opposée à toute désindexation des pensions de retraite, la qualifiant de violation de la loi.",
+     "citation_courte": "la désindexation, c'est la violation de la loi !",
+     "reformulation_anonymisee": "Un média national rappelle qu'en décembre 2025, lors du débat budgétaire, [CANDIDAT] s'est opposé à toute désindexation des pensions de retraite, la qualifiant de violation de la loi.",
+     "citation_anonymisee": "la désindexation, c'est la violation de la loi !",
+     "source": {
+      "url": "https://lcp.fr/actualites/budget-2027-vers-un-gel-partiel-des-pensions-de-retraites-440455",
+      "titre": "Budget 2027: vers un gel partiel des pensions de retraites?",
+      "date_publication": "2026-08-17",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "S'oppose à toute désindexation des pensions.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il s'oppose à toute désindexation des pensions, qu'il juge contraire à la loi.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-010",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-011",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-012",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-013",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-014",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-015",
+   "code": 2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "96c7b244",
+   "extraits": [
+    {
+     "reformulation": "Devant le Medef le 27 août 2026, Marine Le Pen a présenté un barème progressif : 40 ans de cotisation pour ceux qui ont commencé à travailler avant 20 ans, puis progressivement, jusqu'à une entrée dans l'emploi à 24 ans et demi, 42 ans de cotisation et un âge légal de 62 ans. Elle chiffre la réforme à 9 milliards d'euros, un déficit qu'elle dit assumer comme choix politique.",
+     "citation_courte": "on arrivera à 42 ans de cotisation et un âge légal de 62 ans",
+     "reformulation_anonymisee": "Devant une organisation patronale fin août 2026, [CANDIDAT] a présenté un barème progressif : 40 ans de cotisation pour ceux qui ont commencé à travailler avant 20 ans, puis progressivement, jusqu'à une entrée dans l'emploi à 24 ans et demi, 42 ans de cotisation et un âge légal de 62 ans. [CANDIDAT] chiffre la réforme à 9 milliards d'euros, un déficit dit assumé comme choix politique.",
+     "citation_anonymisee": "on arrivera à 42 ans de cotisation et un âge légal de 62 ans",
+     "source": {
+      "url": "https://www.bvoltaire.fr/devant-le-medef-marine-le-pen-defend-son-epineuse-reforme-des-retraites/",
+      "titre": "Devant le MEDEF, Marine Le Pen défend son épineuse réforme des retraites",
+      "date_publication": "2026-08-27",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Sur France 3 le 14 juin 2026, Marine Le Pen a indiqué que ceux qui sont entrés avant 20 ans sur le marché du travail pourraient partir à 60 ans avec 40 annuités, et que l'on arrive progressivement, selon l'âge d'entrée sur le marché du travail, à 42 annuités et 62 ans. Elle précise qu'il y aura « bien sûr » un âge légal, combiné au critère des annuités.",
+     "citation_courte": "peuvent partir avec 40 annuités à 60 ans",
+     "reformulation_anonymisee": "À la télévision en juin 2026, [CANDIDAT] a indiqué que ceux qui sont entrés avant 20 ans sur le marché du travail pourraient partir à 60 ans avec 40 annuités, et que l'on arrive progressivement, selon l'âge d'entrée sur le marché du travail, à 42 annuités et 62 ans. [CANDIDAT] précise qu'il y aura « bien sûr » un âge légal, combiné au critère des annuités.",
+     "citation_anonymisee": "peuvent partir avec 40 annuités à 60 ans",
+     "source": {
+      "url": "https://www.lejdd.fr/politique/retraites-marine-le-pen-se-dit-favorable-a-une-part-de-capitalisation-volontaire-176451",
+      "titre": "Retraites : Marine Le Pen se dit favorable à une part de capitalisation «volontaire»",
+      "date_publication": "2026-06-14",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Selon Public Sénat, Marine Le Pen veut ramener l'âge légal à 62 ans avec 42 annuités, et à 60 ans avec 40 ans de cotisation pour ceux qui ont eu un emploi effectif avant 20 ans ; elle a dit sur RTL le 13 mai 2026 que cette mesure « reste d'actualité ».",
+     "citation_courte": "reste d'actualité",
+     "reformulation_anonymisee": "Selon un média national, [CANDIDAT] veut ramener l'âge légal à 62 ans avec 42 annuités, et à 60 ans avec 40 ans de cotisation pour ceux qui ont eu un emploi effectif avant 20 ans ; [CANDIDAT] a dit à la radio en mai 2026 que cette mesure « reste d'actualité ».",
+     "citation_anonymisee": "reste d'actualité",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "titre": "Reculer ou avancer l’âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l’élection présidentielle sur les retraites",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Départ à 60 ans avec 40 annuités pour ceux entrés dans l'emploi avant 20 ans, mesure toujours d'actualité.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Il propose 60 ans avec 40 annuités pour ceux qui ont eu un emploi avant 20 ans, mesure confirmée comme d'actualité.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-016",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-017",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-018",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-019",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-022",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  }
+ ]
+}

@@ -1,0 +1,561 @@
+{
+ "candidat_id": "retailleau-bruno",
+ "_statut": "PILOTE retraites — à valider ; arbitrages et contrôle humain en attente",
+ "grille_version": "1.1",
+ "programme": {
+  "officiel_disponible": false,
+  "date_publication": null,
+  "url": null,
+  "note": "Aucun programme officiel 2027 complet trouvé en ligne. Les propositions retraites ont été présentées oralement sur LCI le 22 septembre 2026 et rapportées par LCP (dépêche AFP) et Public Sénat. Un agrégateur tiers (votons-2027.fr) attribue à republicains.fr (janv.-févr. 2026) un étage d'épargne retraite « complémentaire et volontaire » : non vérifié sur la page d'origine, non retenu."
+ },
+ "positions": [
+  {
+   "question_id": "RET-001",
+   "code": null,
+   "nature": null,
+   "statut": "arbitrage_en_attente",
+   "item_aveugle": "01ee57fa",
+   "extraits": [
+    {
+     "reformulation": "Sur LCI le 22 septembre 2026, Bruno Retailleau propose un âge minimal de départ à 63 ans, avec une décote de 7 % par an pour un départ avant 65 ans, âge auquel le taux plein serait acquis. Seul l'âge du taux plein (65 ans) serait lié à l'espérance de vie, pas l'âge minimal de 63 ans.",
+     "citation_courte": "L'âge minimal de départ, c'est 63 ans",
+     "reformulation_anonymisee": "[CANDIDAT] propose un âge minimal de départ à 63 ans, avec une décote de 7 % par an pour un départ avant 65 ans, âge auquel le taux plein serait acquis. Seul l'âge du taux plein (65 ans) serait lié à l'espérance de vie, pas l'âge minimal de 63 ans.",
+     "citation_anonymisee": "L'âge minimal de départ, c'est 63 ans",
+     "source": {
+      "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+      "titre": "Retraites: Bruno Retailleau veut un âge minimal de départ à 63 ans et un taux plein à 65 ans",
+      "date_publication": "2026-09-23",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Âge minimal de 63 ans : baisse par rapport à 64, version partielle de 62 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Il fixe l'âge minimal à 63 ans, proche mais différent de 62 ans, avec taux plein à 65 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": false
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-002",
+   "code": null,
+   "nature": null,
+   "statut": "arbitrage_en_attente",
+   "item_aveugle": "40029d02",
+   "extraits": [
+    {
+     "reformulation": "Sur LCI le 22 septembre 2026, Bruno Retailleau propose un âge minimal de départ à 63 ans, avec une décote de 7 % par an pour un départ avant 65 ans, âge auquel le taux plein serait acquis. Seul l'âge du taux plein (65 ans) serait lié à l'espérance de vie, pas l'âge minimal de 63 ans.",
+     "citation_courte": "L'âge minimal de départ, c'est 63 ans",
+     "reformulation_anonymisee": "[CANDIDAT] propose un âge minimal de départ à 63 ans, avec une décote de 7 % par an pour un départ avant 65 ans, âge auquel le taux plein serait acquis. Seul l'âge du taux plein (65 ans) serait lié à l'espérance de vie, pas l'âge minimal de 63 ans.",
+     "citation_anonymisee": "L'âge minimal de départ, c'est 63 ans",
+     "source": {
+      "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+      "titre": "Retraites: Bruno Retailleau veut un âge minimal de départ à 63 ans et un taux plein à 65 ans",
+      "date_publication": "2026-09-23",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Propose un âge minimal de 63 ans : baisse par rapport à 64, mais version partielle par rapport à 60.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il propose un âge minimal de 63 ans, qui rejette les 60 ans de l'énoncé.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": false
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-003",
+   "code": -1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "d50d9509",
+   "extraits": [
+    {
+     "reformulation": "Sur LCI le 22 septembre 2026, Bruno Retailleau propose un âge minimal de départ à 63 ans, avec une décote de 7 % par an pour un départ avant 65 ans, âge auquel le taux plein serait acquis. Seul l'âge du taux plein (65 ans) serait lié à l'espérance de vie, pas l'âge minimal de 63 ans.",
+     "citation_courte": "L'âge minimal de départ, c'est 63 ans",
+     "reformulation_anonymisee": "[CANDIDAT] propose un âge minimal de départ à 63 ans, avec une décote de 7 % par an pour un départ avant 65 ans, âge auquel le taux plein serait acquis. Seul l'âge du taux plein (65 ans) serait lié à l'espérance de vie, pas l'âge minimal de 63 ans.",
+     "citation_anonymisee": "L'âge minimal de départ, c'est 63 ans",
+     "source": {
+      "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+      "titre": "Retraites: Bruno Retailleau veut un âge minimal de départ à 63 ans et un taux plein à 65 ans",
+      "date_publication": "2026-09-23",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Âge minimal de 63 ans plutôt que 65, même si le taux plein serait à 65 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Son âge minimal est de 63 ans, avec 65 ans seulement comme âge du taux plein, ce qui contredit en partie un âge légal à 65 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-005",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-006",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-007",
+   "code": 1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "f73b104b",
+   "extraits": [
+    {
+     "reformulation": "Bruno Retailleau veut introduire une part de retraite par capitalisation pour les jeunes, avec un rendement minimum de 4 %, qui représenterait 25 à 30 % de leurs retraites. Elle serait financée par une cotisation de 1 % du salaire brut répartie entre salarié et employeur ; elle ne concernerait pas les retraités actuels.",
+     "citation_courte": "C'est fondamental pour les jeunes, mais aussi pour nos entreprises",
+     "reformulation_anonymisee": "[CANDIDAT] veut introduire une part de retraite par capitalisation pour les jeunes, avec un rendement minimum de 4 %, qui représenterait 25 à 30 % de leurs retraites. Elle serait financée par une cotisation de 1 % du salaire brut répartie entre salarié et employeur ; elle ne concernerait pas les retraités actuels.",
+     "citation_anonymisee": "C'est fondamental pour les jeunes, mais aussi pour nos entreprises",
+     "source": {
+      "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+      "titre": "Retraites: Bruno Retailleau veut un âge minimal de départ à 63 ans et un taux plein à 65 ans",
+      "date_publication": "2026-09-23",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Selon Public Sénat, Bruno Retailleau souhaite développer une part de capitalisation pour les nouveaux entrants sur le marché du travail, pouvant constituer dans un premier temps 25 à 30 % de leurs retraites. Il prévoit de flécher une partie de baisses de cotisations sociales, permises par des économies, vers ces fonds de pension, à hauteur de 0,5 % pour le salarié et 0,5 % pour l'employeur.",
+     "citation_courte": "dans un premier temps",
+     "reformulation_anonymisee": "[CANDIDAT] souhaite développer une part de capitalisation pour les nouveaux entrants sur le marché du travail, pouvant constituer dans un premier temps 25 à 30 % de leurs retraites. Il prévoit de flécher une partie de baisses de cotisations sociales, permises par des économies, vers ces fonds de pension, à hauteur de 0,5 % pour le salarié et 0,5 % pour l'employeur.",
+     "citation_anonymisee": "dans un premier temps",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "titre": "Reculer ou avancer l'âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l'élection présidentielle sur les retraites",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Capitalisation financée par cotisation, limitée aux nouveaux entrants sur le marché du travail.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Il propose une part de capitalisation financée par cotisation, mais seulement pour les nouveaux entrants.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-008",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-009",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-010",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-011",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-012",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-013",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-014",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-015",
+   "code": -2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "7003e4af",
+   "extraits": [
+    {
+     "reformulation": "Les personnes ayant commencé à travailler jeunes et ayant une carrière complète pourraient partir à taux plein à 63 ans, qui reste l'âge minimal de départ ; elles seraient incitées à poursuivre jusqu'à 65 ans par une exonération de cotisations.",
+     "citation_courte": "L'âge minimal de départ, c'est 63 ans",
+     "reformulation_anonymisee": "Selon [CANDIDAT], les personnes ayant commencé à travailler jeunes et ayant une carrière complète pourraient partir à taux plein à 63 ans, qui reste l'âge minimal de départ ; elles seraient incitées à poursuivre jusqu'à 65 ans par une exonération de cotisations.",
+     "citation_anonymisee": "L'âge minimal de départ, c'est 63 ans",
+     "source": {
+      "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+      "titre": "Retraites: Bruno Retailleau veut un âge minimal de départ à 63 ans et un taux plein à 65 ans",
+      "date_publication": "2026-09-23",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Pour ceux qui ont commencé jeunes, l'âge minimal reste 63 ans, contraire de 60 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il maintient l'âge minimal à 63 ans, y compris pour les carrières longues, sans départ à 60 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-016",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "accord",
+   "item_aveugle": "3ff5ae56",
+   "extraits": [
+    {
+     "reformulation": "La réforme de Bruno Retailleau prendrait en compte le handicap, les maladies, la pénibilité du travail et l'usure professionnelle, selon des dispositifs déjà en vigueur ; des consultations avec les partenaires sociaux sont envisagées. Aucun critère précis de pénibilité n'est cité.",
+     "citation_courte": null,
+     "reformulation_anonymisee": "La réforme de [CANDIDAT] prendrait en compte le handicap, les maladies, la pénibilité du travail et l'usure professionnelle, selon des dispositifs déjà en vigueur ; des consultations avec les partenaires sociaux sont envisagées. Aucun critère précis de pénibilité n'est cité.",
+     "citation_anonymisee": null,
+     "source": {
+      "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+      "titre": "Retraites: Bruno Retailleau veut un âge minimal de départ à 63 ans et un taux plein à 65 ans",
+      "date_publication": "2026-09-23",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": null
+    },
+    {
+     "reformulation": "Bruno Retailleau promet des consultations avec les partenaires sociaux pour fixer les conditions de prise en compte de la pénibilité.",
+     "citation_courte": null,
+     "reformulation_anonymisee": "[CANDIDAT] promet des consultations avec les partenaires sociaux pour fixer les conditions de prise en compte de la pénibilité.",
+     "citation_anonymisee": null,
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "titre": "Reculer ou avancer l'âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l'élection présidentielle sur les retraites",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": null
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": null,
+     "nature": "non_connu",
+     "justification": "Consultations sur la pénibilité sans aucun critère précis (R4).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": null,
+     "nature": "non_connu",
+     "justification": "R4 : consultations sur la pénibilité sans critère précis.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-017",
+   "code": 1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "0004f704",
+   "extraits": [
+    {
+     "reformulation": "Bruno Retailleau veut que le taux plein soit acquis automatiquement à 65 ans (contre 67 ans aujourd'hui), même sans avoir toutes ses annuités. Il veut lier cet âge du taux plein à l'espérance de vie : il pourrait donc bouger.",
+     "citation_courte": "même si vous n'avez pas toutes vos annuités, tous vos trimestres",
+     "reformulation_anonymisee": "[CANDIDAT] veut que le taux plein soit acquis automatiquement à 65 ans (contre 67 ans aujourd'hui), même sans avoir toutes ses annuités. Il veut lier cet âge du taux plein à l'espérance de vie : il pourrait donc bouger.",
+     "citation_anonymisee": "même si vous n'avez pas toutes vos annuités, tous vos trimestres",
+     "source": {
+      "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
+      "titre": "Retraites: Bruno Retailleau veut un âge minimal de départ à 63 ans et un taux plein à 65 ans",
+      "date_publication": "2026-09-23",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Bruno Retailleau préconise de fixer à 65 ans, au lieu de 67, l'âge d'annulation de la décote, au motif que le seuil actuel pénalise les femmes aux carrières hachées. Cet âge de 65 ans serait toutefois relevé si l'espérance de vie progresse.",
+     "citation_courte": "et notamment les mères de famille, parce qu'elles ont eu des carrières hachées",
+     "reformulation_anonymisee": "[CANDIDAT] préconise de fixer à 65 ans, au lieu de 67, l'âge d'annulation de la décote, au motif que le seuil actuel pénalise les femmes aux carrières hachées. Cet âge de 65 ans serait toutefois relevé si l'espérance de vie progresse.",
+     "citation_anonymisee": "et notamment les mères de famille, parce qu'elles ont eu des carrières hachées",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "titre": "Reculer ou avancer l'âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l'élection présidentielle sur les retraites",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Âge d'annulation de la décote à 65 ans : va plus loin que 66 ans et demi (R1).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "R1 : il veut l'annulation de la décote à 65 ans, plus loin que 66 ans et demi, avec un indexage possible sur l'espérance de vie.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": true,
+    "date": null,
+    "resultat": null
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-018",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-019",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-022",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  }
+ ]
+}

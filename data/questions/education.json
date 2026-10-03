@@ -1,0 +1,515 @@
+{
+ "_theme": "education",
+ "_lot": 5,
+ "_statut": "VALIDÉ le 2026-10-03 — sources à recontrôler sur textes officiels avant publication",
+ "_equilibre": {
+  "actives": 18,
+  "suspendues": 1,
+  "sens_plus": 9,
+  "sens_moins": 9,
+  "axes": {
+   "economie": 15,
+   "securite": 3
+  }
+ },
+ "_note": "Sources recherchées le 2026-10-03, lues via un résumé automatique : chiffres et citations à recontrôler avant publication. Écartées car déjà en vigueur ou abandonnées : repas à 1 euro pour tous les étudiants, portable interdit au lycée, brevet obligatoire pour entrer en seconde. Écartées faute de proposition documentée : scolarité obligatoire jusqu'à 18 ans, raccourcissement des vacances d'été, retrait du programme d'éducation à la sexualité.",
+ "questions": [
+  {
+   "id": "EDU-001",
+   "theme": "education",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Parcoursup doit être supprimé.",
+   "precision": "Parcoursup est la plateforme nationale d'admission dans l'enseignement supérieur après le baccalauréat.",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024 ; proposition de loi n° 2488 du 17 février 2026",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b2488_proposition-loi.pdf",
+     "titre": "Proposition de loi relative à la suppression de Parcoursup et à la réforme de l'accès à l'enseignement supérieur",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "deux propositions différentes : fin de la sélection à l'université pour l'une, classement selon les notes du baccalauréat pour l'autre",
+     "decision": "un seul énoncé sur le principe de la suppression (2026-10-03)"
+    },
+    {
+     "signalement": "sens discutable : mesure portée des deux côtés de l'axe",
+     "decision": "sens +1 par défaut ; sans effet sur le score"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-002",
+   "theme": "education",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "La cantine, les fournitures, les transports et les activités périscolaires doivent être gratuits pour tous les élèves de l'école publique.",
+   "precision": null,
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/proposer-la-gratuite-integrale-a-lecole-cantine-scolaire-fournitures-transports-activites-periscolaires",
+     "titre": "Proposer la gratuité intégrale à l'école : cantine scolaire, fournitures, transports, activités périscolaires",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "quatre postes dans un énoncé : réunis dans la proposition d'origine",
+     "decision": "un seul énoncé conservé"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-003",
+   "theme": "education",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Le nombre d'élèves par classe doit être ramené à 19 en moyenne.",
+   "precision": null,
+   "origine": {
+    "description": "Propositions rapportées en août 2026 ; programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+     "titre": "Présidentielle 2027 : que proposent les candidats pour l'école (31 août 2026, titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "les sources divergent : « 19 élèves maximum » ou « 19 en moyenne »",
+     "decision": "« 19 en moyenne » retenu, formulation la plus fréquente en 2026 (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "ancien_enonce": "Le nombre d'élèves par classe doit être limité à 19."
+    }
+   ]
+  },
+  {
+   "id": "EDU-004",
+   "theme": "education",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Le financement public d'un établissement privé sous contrat doit être réduit s'il accueille moins d'élèves défavorisés que les établissements publics voisins.",
+   "precision": "L'État et les collectivités financent aujourd'hui les établissements privés sous contrat sans tenir compte de leur mixité sociale.",
+   "origine": {
+    "description": "Proposition de loi n° 418 du 15 octobre 2024 (baisse de 10 à 50 %) ; rapport d'information du 2 avril 2024",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b0418_proposition-loi.pdf",
+     "titre": "Proposition de loi visant à la refondation du modèle de financement public des établissements privés sous contrat afin de garantir la mixité sociale en leur sein",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-005",
+   "theme": "education",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Tous les étudiants de 18 à 25 ans doivent recevoir une allocation de 1 078 euros par mois pendant leurs études.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition de loi rejetée par le Sénat le 13 décembre 2023",
+    "source": {
+     "url": "https://www.senat.fr/lessentiel/ppl23-015.pdf",
+     "titre": "Instaurer une allocation autonomie universelle d'études (L'Essentiel)",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "montant de 2023 ; aucun montant actuel trouvé",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-006",
+   "theme": "education",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Les accompagnants d'élèves en situation de handicap (AESH) doivent devenir fonctionnaires.",
+   "precision": "Les AESH sont aujourd'hui des agents contractuels.",
+   "origine": {
+    "description": "Proposition de loi rejetée par le Sénat le 7 janvier 2026",
+    "source": {
+     "url": "https://www.banquedesterritoires.fr/ecole-inclusive-le-senat-rejette-la-fonctionnarisation-des-aesh",
+     "titre": "École inclusive : le Sénat rejette la fonctionnarisation des AESH",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-007",
+   "theme": "education",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Le salaire des enseignants doit être augmenté de 20 % en cinq ans.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition rapportée en août 2026",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+     "titre": "Présidentielle 2027 : que proposent les candidats pour l'école (31 août 2026, titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "plusieurs hausses chiffrées sont proposées (de 10 % à 25 %, ou en euros) ; une seule est reprise",
+     "decision": "seul le chiffre de 20 % en cinq ans est repris (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-008",
+   "theme": "education",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Le nombre d'élèves par classe doit être limité à 12 dans les écoles et collèges d'éducation prioritaire.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition rapportée en août 2026",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+     "titre": "Présidentielle 2027 : que proposent les candidats pour l'école (31 août 2026, titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "état du droit non vérifié (dédoublement de certaines classes en éducation prioritaire)",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-009",
+   "theme": "education",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "160 000 personnes doivent être recrutées dans l'Éducation nationale.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition rapportée en août 2026",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole",
+     "titre": "Présidentielle 2027 : que proposent les candidats pour l'école (31 août 2026, titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "périmètre (enseignants seuls ou tous personnels) et durée non précisés dans la source lue",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-010",
+   "theme": "education",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "L'uniforme doit être obligatoire à l'école primaire et au collège.",
+   "precision": "Une expérimentation menée de 2024 à 2026 dans une centaine d'établissements n'a pas été prolongée par l'État.",
+   "origine": {
+    "description": "Programme des législatives de 2024 ; proposition de loi rejetée à l'Assemblée nationale le 12 janvier 2023",
+    "source": {
+     "url": "https://www.banquedesterritoires.fr/leducation-nationale-range-luniforme-au-placard",
+     "titre": "L'Éducation nationale range l'uniforme au placard",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucune proposition de généralisation datée de 2026 trouvée",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-011",
+   "theme": "education",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "Les allocations familiales doivent être suspendues lorsqu'un élève perturbe gravement et de façon répétée la vie scolaire.",
+   "precision": "Une loi de 2010 permettait cette suspension en cas d'absentéisme ; elle a été abrogée en 2013.",
+   "origine": {
+    "description": "Proposition des législatives de 2024",
+    "source": {
+     "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/reinstaurer-la-loi-ciotti",
+     "titre": "Réinstaurer la loi Ciotti",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-012",
+   "theme": "education",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Les élèves en difficulté doivent être orientés vers une voie professionnelle ou technologique dès la classe de quatrième.",
+   "precision": "Aujourd'hui, tous les élèves suivent le même enseignement jusqu'à la fin de la troisième (« collège unique »).",
+   "origine": {
+    "description": "Programme des législatives de 2024",
+    "source": {
+     "url": "https://www.europe1.fr/societe/legislatives-2024-les-propositions-chocs-du-rassemblement-national-pour-lecole-4254651",
+     "titre": "Législatives 2024 : les propositions chocs du Rassemblement national pour l'école",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "la classe exacte de l'orientation est ambiguë dans la source lue",
+     "decision": "à vérifier avant publication"
+    },
+    {
+     "signalement": "« en difficulté » n'est pas défini",
+     "decision": "formule de la proposition d'origine conservée (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-013",
+   "theme": "education",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Un examen doit conditionner l'entrée en sixième.",
+   "precision": null,
+   "origine": {
+    "description": "Propositions rapportées en août 2026",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux",
+     "titre": "Présidentielle 2027 : Bruno Retailleau veut refonder l'école autour de quatre axes principaux (31 août 2026, titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "rattachement à l'axe économie discutable",
+     "decision": "sens −1 par défaut ; sans effet sur le score"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-014",
+   "theme": "education",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "L'État doit financer à égalité l'école publique et l'école privée choisie par les parents.",
+   "precision": "Mesure souvent appelée « chèque éducation ».",
+   "origine": {
+    "description": "Programme d'un candidat déclaré, d'après un site agrégateur",
+    "source": {
+     "url": "https://votons-2027.fr/candidats/lisnard/programme/education",
+     "titre": "Éducation · présidentielle 2027 (site agrégateur)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "source faible : site agrégateur, texte d'origine non relu",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-015",
+   "theme": "education",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "La carte scolaire doit être supprimée.",
+   "precision": "Carte scolaire : règle qui affecte chaque élève à un établissement public selon son adresse.",
+   "origine": {
+    "description": "Programme d'un candidat déclaré, d'après un site agrégateur",
+    "source": {
+     "url": "https://votons-2027.fr/candidats/lisnard/programme/education",
+     "titre": "Éducation · présidentielle 2027 (site agrégateur)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "source faible : site agrégateur, texte d'origine non relu",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-016",
+   "theme": "education",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "Les parents qui accompagnent les sorties scolaires doivent avoir l'interdiction de porter des signes religieux visibles.",
+   "precision": "Cette interdiction s'applique aux élèves et aux personnels de l'école publique, pas aux parents accompagnateurs.",
+   "origine": {
+    "description": "Proposition de loi adoptée par le Sénat le 29 octobre 2019 ; amendement adopté par le Sénat le 30 mars 2021",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/port-du-voile-et-sorties-scolaires-le-senat-adopte-la-proposition-de-loi",
+     "titre": "Port du voile et sorties scolaires : le Sénat adopte la proposition de loi Eustache-Brinio",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucun des six axes ne convient ; aucun texte de 2025-2026 trouvé",
+     "decision": "axe sécurité par défaut ; sans effet sur le score"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-017",
+   "theme": "education",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Des groupes de niveau doivent être obligatoires en français et en mathématiques au collège.",
+   "precision": "Rendus obligatoires en 2024, ces groupes sont devenus facultatifs depuis un arrêté du 10 mars 2026.",
+   "origine": {
+    "description": "Arrêté du 10 mars 2026 ; proposition de groupes de niveau rapportée en 2026",
+    "source": {
+     "url": "https://www.banquedesterritoires.fr/au-college-les-groupes-de-besoins-sont-remplaces-par-un-accompagnement-pedagogique-renforce",
+     "titre": "Au collège, les « groupes de besoins » sont remplacés par un « accompagnement pédagogique renforcé »",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "la proposition de 2026 ne précise pas si les groupes seraient obligatoires",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-018",
+   "theme": "education",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Les chefs d'établissement doivent pouvoir recruter eux-mêmes leurs enseignants.",
+   "precision": "Les enseignants du public sont aujourd'hui affectés par l'administration.",
+   "origine": {
+    "description": "Programme d'un candidat déclaré, d'après un site agrégateur",
+    "source": {
+     "url": "https://votons-2027.fr/candidats/lisnard/programme/education",
+     "titre": "Éducation · présidentielle 2027 (site agrégateur)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "source faible : site agrégateur, texte d'origine non relu",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "EDU-019",
+   "theme": "education",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Les frais d'inscription à l'université doivent être multipliés par cinq, avec un barème exonérant les étudiants les plus modestes.",
+   "precision": "Ils sont aujourd'hui de 178 euros par an en licence et de 254 euros en master.",
+   "origine": {
+    "description": "Rapport des Assises du financement des universités (juin 2026)",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/education/universites-vers-une-hausse-des-frais-dinscription",
+     "titre": "Universités : vers une hausse des frais d'inscription ? (26 juin 2026)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "suspendue",
+   "alertes_neutralite": [
+    {
+     "signalement": "origine = rapport, sans responsable politique identifié pour porter la mesure",
+     "decision": "suspendue par application de la décision du 2026-10-03 sur SAN-014"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "suspendue : conservée dans la banque mais non posée, faute de responsable politique identifié pour la porter ; à réactiver si un candidat se positionne"
+    }
+   ]
+  }
+ ]
+}

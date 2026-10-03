@@ -1,0 +1,34 @@
+{
+  "_note": "Journal des modifications des données (méthodologie, § 9). Une entrée par événement : import, ajout, recodage, arbitrage, changement de statut ou de critère. Les fichiers de derive/ sont régénérés à chaque modification des données et ne sont journalisés que lorsqu'un recalcul change un résultat publié.",
+  "entrees": [
+    {
+      "date": "2026-10-03",
+      "type": "import_initial",
+      "objets": [
+        "data/candidats.json",
+        "data/axes.json",
+        "data/questions/*.json",
+        "data/positions/*.json",
+        "docs/methodologie.md",
+        "docs/grille-codage.md",
+        "docs/critere-inclusion.md"
+      ],
+      "description": "Import dans le dépôt des données validées dans le projet de travail, recopiées sans modification : liste des candidats et critère d'inclusion v1 (2 octobre 2026), axes (2 octobre), banque de 220 questions dont 206 actives (phase 3), pilote de codage retraites pour 9 candidats en grille v1.1 avec 12 arbitrages en attente (phase 4), méthodologie v1.1 et grille de codage v1.2 (3 octobre).",
+      "auteur": "Claude (lot 5b), à la demande de Mathieu",
+      "reference": "phase-5, lot 5b"
+    },
+    {
+      "date": "2026-10-03",
+      "type": "recalcul",
+      "objets": [
+        "derive/discriminance.json",
+        "derive/ancrage.json",
+        "derive/couverture.json",
+        "derive/accord-codeurs.json"
+      ],
+      "description": "Premier calcul des fichiers dérivés sur les codes publiés à cette date (pilote retraites seul) : résultats provisoires.",
+      "auteur": "Claude (lot 5b), à la demande de Mathieu",
+      "reference": "phase-5, lot 5b"
+    }
+  ]
+}

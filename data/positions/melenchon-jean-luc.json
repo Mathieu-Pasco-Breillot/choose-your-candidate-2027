@@ -1,0 +1,829 @@
+{
+ "candidat_id": "melenchon-jean-luc",
+ "_statut": "PILOTE retraites — à valider ; arbitrages et contrôle humain en attente",
+ "grille_version": "1.1",
+ "programme": {
+  "officiel_disponible": false,
+  "date_publication": null,
+  "url": "https://melenchon2027.fr/programme2025/livre/",
+  "note": "Le site de campagne annonce une nouvelle édition de « L'Avenir en commun » (page « Découvrir le programme » du 25/09/2026, livre annoncé pour le 6 novembre) mais son texte n'est pas en ligne : la page du livre indique que le programme est « en cours de réactualisation » et les chapitres de l'édition 2025 renvoient une erreur 404 au 03/10/2026 (archive web inaccessible). Les mesures de l'édition 2025 sont donc citées via la reprise verbatim du site tiers votons-2027.fr, non recoupée avec la page d'origine ; elles sont typées programme_officiel bien qu'il s'agisse de l'édition 2025 en cours de révision, à requalifier si besoin. Les extraits CNews sont un compte rendu de presse du projet, sans citation directe du candidat."
+ },
+ "positions": [
+  {
+   "question_id": "RET-001",
+   "code": 1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "52cde339",
+   "extraits": [
+    {
+     "reformulation": "Lors du débat organisé par le Medef (fin août 2026), il a prôné un âge de départ ramené « dans un premier temps » à 62 ans, puis « le plus vite possible » à 60 ans pour 40 années de cotisation.",
+     "citation_courte": "dans un premier temps à 62 ans",
+     "reformulation_anonymisee": "Lors d'un débat devant une organisation patronale (fin août 2026), [CANDIDAT] a prôné un âge de départ ramené « dans un premier temps » à 62 ans, puis « le plus vite possible » à 60 ans pour 40 années de cotisation.",
+     "citation_anonymisee": "dans un premier temps à 62 ans",
+     "source": {
+      "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+      "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Il plaide pour l'abrogation de la réforme de 2023, donc un retour « dans un premier temps » à un âge légal de 62 ans ; devant le Medef, il a précisé que son « but » est d'arriver le plus vite possible à 60 ans.",
+     "citation_courte": "d'arriver le plus vite possible à 60 ans",
+     "reformulation_anonymisee": "[CANDIDAT] plaide pour l'abrogation de la réforme de 2023, donc un retour « dans un premier temps » à un âge légal de 62 ans ; il a précisé que son « but » est d'arriver le plus vite possible à 60 ans.",
+     "citation_anonymisee": "d'arriver le plus vite possible à 60 ans",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "titre": "Reculer ou avancer l'âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l'élection présidentielle sur les retraites",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "62 ans dans un premier temps mais but de 60 ans : va plus loin que l'énoncé (R1).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "R1 : retour à 62 ans dans un premier temps, mais son but est d'aller plus loin, jusqu'à 60 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-002",
+   "code": 2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "452cacfa",
+   "extraits": [
+    {
+     "reformulation": "Lors du débat organisé par le Medef (fin août 2026), il a prôné un âge de départ ramené « dans un premier temps » à 62 ans, puis « le plus vite possible » à 60 ans pour 40 années de cotisation.",
+     "citation_courte": "dans un premier temps à 62 ans",
+     "reformulation_anonymisee": "Lors d'un débat devant une organisation patronale (fin août 2026), [CANDIDAT] a prôné un âge de départ ramené « dans un premier temps » à 62 ans, puis « le plus vite possible » à 60 ans pour 40 années de cotisation.",
+     "citation_anonymisee": "dans un premier temps à 62 ans",
+     "source": {
+      "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+      "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Il plaide pour l'abrogation de la réforme de 2023, donc un retour « dans un premier temps » à un âge légal de 62 ans ; devant le Medef, il a précisé que son « but » est d'arriver le plus vite possible à 60 ans.",
+     "citation_courte": "d'arriver le plus vite possible à 60 ans",
+     "reformulation_anonymisee": "[CANDIDAT] plaide pour l'abrogation de la réforme de 2023, donc un retour « dans un premier temps » à un âge légal de 62 ans ; il a précisé que son « but » est d'arriver le plus vite possible à 60 ans.",
+     "citation_anonymisee": "d'arriver le plus vite possible à 60 ans",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+      "titre": "Reculer ou avancer l'âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l'élection présidentielle sur les retraites",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Le programme (édition 2025) prévoit d'abroger la réforme portant l'âge de départ à 64 ans et de restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisation.",
+     "citation_courte": "restaurer le droit à la retraite à 60 ans à taux plein",
+     "reformulation_anonymisee": "Le programme de [CANDIDAT] (édition 2025) prévoit d'abroger la réforme portant l'âge de départ à 64 ans et de restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisation.",
+     "citation_anonymisee": "restaurer le droit à la retraite à 60 ans à taux plein",
+     "source": {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/retraite",
+      "titre": "Programme de Jean-Luc Mélenchon (LFI) sur les retraites 2027 · Votons — reprise verbatim de « L'Avenir en commun », édition 2025 (melenchon2027.fr/programme2025/livre/chapitre8/s8/, page d'origine en 404 le 2026-10-03)",
+      "date_publication": "2026-07-21",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Le site de campagne présente « Instaurer la retraite à 60 ans » comme une mesure du programme actuel, qualifiée de mesure phare depuis 2017.",
+     "citation_courte": "Instaurer la retraite à 60 ans",
+     "reformulation_anonymisee": "Le site de campagne de [CANDIDAT] présente « Instaurer la retraite à 60 ans » comme une mesure du programme actuel, qualifiée de mesure phare de longue date.",
+     "citation_anonymisee": "Instaurer la retraite à 60 ans",
+     "source": {
+      "url": "https://melenchon2027.fr/programme/synthese-des-contributions/chapitre-8-travailler-tous-travailler-moins-travailler-mieux/",
+      "titre": "Chapitre 8 : Travailler tous, travailler moins, travailler mieux (synthèse des contributions, site de campagne)",
+      "date_publication": "2026-07-17",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Engagement ferme sur 60 ans, avec étape à 62 ans (R2).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "R2 : engagement ferme sur les 60 ans, avec un calendrier d'étalement via 62 ans dans un premier temps.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-003",
+   "code": -2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "9dfb4198",
+   "extraits": [
+    {
+     "reformulation": "Lors du débat organisé par le Medef (fin août 2026), il a prôné un âge de départ ramené « dans un premier temps » à 62 ans, puis « le plus vite possible » à 60 ans pour 40 années de cotisation.",
+     "citation_courte": "dans un premier temps à 62 ans",
+     "reformulation_anonymisee": "Lors d'un débat devant une organisation patronale (fin août 2026), [CANDIDAT] a prôné un âge de départ ramené « dans un premier temps » à 62 ans, puis « le plus vite possible » à 60 ans pour 40 années de cotisation.",
+     "citation_anonymisee": "dans un premier temps à 62 ans",
+     "source": {
+      "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+      "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Le programme (édition 2025) prévoit d'abroger la réforme portant l'âge de départ à 64 ans et de restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisation.",
+     "citation_courte": "restaurer le droit à la retraite à 60 ans à taux plein",
+     "reformulation_anonymisee": "Le programme de [CANDIDAT] (édition 2025) prévoit d'abroger la réforme portant l'âge de départ à 64 ans et de restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisation.",
+     "citation_anonymisee": "restaurer le droit à la retraite à 60 ans à taux plein",
+     "source": {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/retraite",
+      "titre": "Programme de Jean-Luc Mélenchon (LFI) sur les retraites 2027 · Votons — reprise verbatim de « L'Avenir en commun », édition 2025 (melenchon2027.fr/programme2025/livre/chapitre8/s8/, page d'origine en 404 le 2026-10-03)",
+      "date_publication": "2026-07-21",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Veut ramener l'âge à 62 puis 60 ans, contraire de 65 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il veut revenir à 62 puis 60 ans, contre 65 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-005",
+   "code": -2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "09b26336",
+   "extraits": [
+    {
+     "reformulation": "Lors du débat organisé par le Medef (fin août 2026), il a prôné un âge de départ ramené « dans un premier temps » à 62 ans, puis « le plus vite possible » à 60 ans pour 40 années de cotisation.",
+     "citation_courte": "dans un premier temps à 62 ans",
+     "reformulation_anonymisee": "Lors d'un débat devant une organisation patronale (fin août 2026), [CANDIDAT] a prôné un âge de départ ramené « dans un premier temps » à 62 ans, puis « le plus vite possible » à 60 ans pour 40 années de cotisation.",
+     "citation_anonymisee": "dans un premier temps à 62 ans",
+     "source": {
+      "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+      "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Le programme (édition 2025) prévoit d'abroger la réforme portant l'âge de départ à 64 ans et de restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisation.",
+     "citation_courte": "restaurer le droit à la retraite à 60 ans à taux plein",
+     "reformulation_anonymisee": "Le programme de [CANDIDAT] (édition 2025) prévoit d'abroger la réforme portant l'âge de départ à 64 ans et de restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisation.",
+     "citation_anonymisee": "restaurer le droit à la retraite à 60 ans à taux plein",
+     "source": {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/retraite",
+      "titre": "Programme de Jean-Luc Mélenchon (LFI) sur les retraites 2027 · Votons — reprise verbatim de « L'Avenir en commun », édition 2025 (melenchon2027.fr/programme2025/livre/chapitre8/s8/, page d'origine en 404 le 2026-10-03)",
+      "date_publication": "2026-07-21",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Propose 40 annuités, contraire de 45 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il veut 40 annuités à taux plein, contre 45 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-006",
+   "code": 2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "539b9ab5",
+   "extraits": [
+    {
+     "reformulation": "Lors du débat organisé par le Medef (fin août 2026), il a prôné un âge de départ ramené « dans un premier temps » à 62 ans, puis « le plus vite possible » à 60 ans pour 40 années de cotisation.",
+     "citation_courte": "dans un premier temps à 62 ans",
+     "reformulation_anonymisee": "Lors d'un débat devant une organisation patronale (fin août 2026), [CANDIDAT] a prôné un âge de départ ramené « dans un premier temps » à 62 ans, puis « le plus vite possible » à 60 ans pour 40 années de cotisation.",
+     "citation_anonymisee": "dans un premier temps à 62 ans",
+     "source": {
+      "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+      "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites ?",
+      "date_publication": "2026-09-30",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Le programme (édition 2025) prévoit d'abroger la réforme portant l'âge de départ à 64 ans et de restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisation.",
+     "citation_courte": "restaurer le droit à la retraite à 60 ans à taux plein",
+     "reformulation_anonymisee": "Le programme de [CANDIDAT] (édition 2025) prévoit d'abroger la réforme portant l'âge de départ à 64 ans et de restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisation.",
+     "citation_anonymisee": "restaurer le droit à la retraite à 60 ans à taux plein",
+     "source": {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/retraite",
+      "titre": "Programme de Jean-Luc Mélenchon (LFI) sur les retraites 2027 · Votons — reprise verbatim de « L'Avenir en commun », édition 2025 (melenchon2027.fr/programme2025/livre/chapitre8/s8/, page d'origine en 404 le 2026-10-03)",
+      "date_publication": "2026-07-21",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Retraite à 60 ans à taux plein pour 40 annuités de cotisation.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Son programme et son discours retiennent 40 annuités de cotisation à taux plein.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-007",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-008",
+   "code": 2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "c9566184",
+   "extraits": [
+    {
+     "reformulation": "Le programme (édition 2025) prévoit d'indexer le montant des retraites sur les salaires.",
+     "citation_courte": "Indexer le montant des retraites sur les salaires",
+     "reformulation_anonymisee": "Le programme de [CANDIDAT] (édition 2025) prévoit d'indexer le montant des retraites sur les salaires.",
+     "citation_anonymisee": "Indexer le montant des retraites sur les salaires",
+     "source": {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/retraite",
+      "titre": "Programme de Jean-Luc Mélenchon (LFI) sur les retraites 2027 · Votons — reprise verbatim de « L'Avenir en commun », édition 2025 (melenchon2027.fr/programme2025/livre/chapitre8/s8/, page d'origine en 404 le 2026-10-03)",
+      "date_publication": "2026-07-21",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Le programme prévoit d'indexer les retraites sur les salaires.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Son programme indexe le montant des retraites sur les salaires.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-009",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-010",
+   "code": null,
+   "nature": null,
+   "statut": "arbitrage_en_attente",
+   "item_aveugle": "c14b41d4",
+   "extraits": [
+    {
+     "reformulation": "Le programme (édition 2025) prévoit de porter a minima au niveau du SMIC revalorisé toutes les pensions pour une carrière complète (salarié, indépendant, agriculteur), et le minimum vieillesse au niveau du seuil de pauvreté.",
+     "citation_courte": "Porter a minima au niveau du SMIC revalorisé toutes les pensions",
+     "reformulation_anonymisee": "Le programme de [CANDIDAT] (édition 2025) prévoit de porter a minima au niveau du SMIC revalorisé toutes les pensions pour une carrière complète (salarié, indépendant, agriculteur), et le minimum vieillesse au niveau du seuil de pauvreté.",
+     "citation_anonymisee": "Porter a minima au niveau du SMIC revalorisé toutes les pensions",
+     "source": {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/retraite",
+      "titre": "Programme de Jean-Luc Mélenchon (LFI) sur les retraites 2027 · Votons — reprise verbatim de « L'Avenir en commun », édition 2025 (melenchon2027.fr/programme2025/livre/chapitre8/s8/, page d'origine en 404 le 2026-10-03)",
+      "date_publication": "2026-07-21",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Le site de campagne liste parmi les mesures du programme actuel la revalorisation des pensions de retraite a minima au niveau du SMIC revalorisé.",
+     "citation_courte": "Revaloriser les pensions de retraite a minima au niveau du SMIC revalorisé",
+     "reformulation_anonymisee": "Le site de campagne de [CANDIDAT] liste parmi les mesures du programme actuel la revalorisation des pensions de retraite a minima au niveau du SMIC revalorisé.",
+     "citation_anonymisee": "Revaloriser les pensions de retraite a minima au niveau du SMIC revalorisé",
+     "source": {
+      "url": "https://melenchon2027.fr/programme/synthese-des-contributions/chapitre-8-travailler-tous-travailler-moins-travailler-mieux/",
+      "titre": "Chapitre 8 : Travailler tous, travailler moins, travailler mieux (synthèse des contributions, site de campagne)",
+      "date_publication": "2026-07-17",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Pensions a minima au niveau du SMIC revalorisé : va au-delà du SMIC actuel (R1).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Son programme porte a minima au niveau du SMIC revalorisé toutes les pensions de carrière complète.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": false
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-011",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-012",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-013",
+   "code": 1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "fa28cf28",
+   "extraits": [
+    {
+     "reformulation": "Le programme (édition 2025) prévoit d'augmenter de 0,25 point par an durant le quinquennat le taux de cotisation vieillesse. Le texte ne précise pas s'il s'agit de la part employeur ou de la part salarié.",
+     "citation_courte": "Augmenter de 0,25 point par an durant le quinquennat le taux de cotisation vieillesse",
+     "reformulation_anonymisee": "Le programme de [CANDIDAT] (édition 2025) prévoit d'augmenter de 0,25 point par an durant le quinquennat le taux de cotisation vieillesse. Le texte ne précise pas s'il s'agit de la part employeur ou de la part salarié.",
+     "citation_anonymisee": "Augmenter de 0,25 point par an durant le quinquennat le taux de cotisation vieillesse",
+     "source": {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/retraite",
+      "titre": "Programme de Jean-Luc Mélenchon (LFI) sur les retraites 2027 · Votons — reprise verbatim de « L'Avenir en commun », édition 2025 (melenchon2027.fr/programme2025/livre/chapitre8/s8/, page d'origine en 404 le 2026-10-03)",
+      "date_publication": "2026-07-21",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Selon CNews, pour équilibrer le système, il propose d'augmenter les cotisations vieillesse et les cotisations sur les revenus du capital, de faire contribuer les plus hauts revenus et de remettre en cause certaines exonérations de charges patronales.",
+     "citation_courte": "remettre en cause certaines exonérations de charges patronales",
+     "reformulation_anonymisee": "Selon un média national, pour équilibrer le système, [CANDIDAT] propose d'augmenter les cotisations vieillesse et les cotisations sur les revenus du capital, de faire contribuer les plus hauts revenus et de remettre en cause certaines exonérations de charges patronales.",
+     "citation_anonymisee": "remettre en cause certaines exonérations de charges patronales",
+     "source": {
+      "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+      "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+      "date_publication": "2026-10-02",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Hausse des cotisations vieillesse et remise en cause de certaines exonérations patronales : hausse partielle.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Il veut augmenter les cotisations vieillesse et remettre en cause certaines exonérations patronales, soit une hausse partielle côté employeurs.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-014",
+   "code": null,
+   "nature": null,
+   "statut": "arbitrage_en_attente",
+   "item_aveugle": "6f4b8e74",
+   "extraits": [
+    {
+     "reformulation": "Le programme (édition 2025) prévoit d'augmenter de 0,25 point par an durant le quinquennat le taux de cotisation vieillesse. Le texte ne précise pas s'il s'agit de la part employeur ou de la part salarié.",
+     "citation_courte": "Augmenter de 0,25 point par an durant le quinquennat le taux de cotisation vieillesse",
+     "reformulation_anonymisee": "Le programme de [CANDIDAT] (édition 2025) prévoit d'augmenter de 0,25 point par an durant le quinquennat le taux de cotisation vieillesse. Le texte ne précise pas s'il s'agit de la part employeur ou de la part salarié.",
+     "citation_anonymisee": "Augmenter de 0,25 point par an durant le quinquennat le taux de cotisation vieillesse",
+     "source": {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/retraite",
+      "titre": "Programme de Jean-Luc Mélenchon (LFI) sur les retraites 2027 · Votons — reprise verbatim de « L'Avenir en commun », édition 2025 (melenchon2027.fr/programme2025/livre/chapitre8/s8/, page d'origine en 404 le 2026-10-03)",
+      "date_publication": "2026-07-21",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -1,
+     "nature": "imprecise",
+     "justification": "Hausse du taux de cotisation vieillesse sans préciser la part salariale.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": null,
+     "nature": "non_connu",
+     "justification": "Il propose d'augmenter la cotisation vieillesse sans préciser la part salarié ou employeur, donc aucune position codable sur les salariés.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": false
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-015",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-016",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "accord",
+   "item_aveugle": "6025bd88",
+   "extraits": [
+    {
+     "reformulation": "Selon CNews, il souhaite la prise en compte de la pénibilité pour autoriser un départ anticipé dès 55 ou 57 ans selon les secteurs. Les critères de pénibilité ne sont pas détaillés.",
+     "citation_courte": "dès 55 ou 57 ans selon les secteurs",
+     "reformulation_anonymisee": "Selon un média national, [CANDIDAT] souhaite la prise en compte de la pénibilité pour autoriser un départ anticipé dès 55 ou 57 ans selon les secteurs. Les critères de pénibilité ne sont pas détaillés.",
+     "citation_anonymisee": "dès 55 ou 57 ans selon les secteurs",
+     "source": {
+      "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+      "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+      "date_publication": "2026-10-02",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Le site de campagne affirme que les travailleurs soumis à des conditions de travail pénibles doivent pouvoir partir à la retraite plus tôt, sans lister de critères précis.",
+     "citation_courte": "doivent pouvoir partir à la retraite plus tôt",
+     "reformulation_anonymisee": "Le site de campagne de [CANDIDAT] affirme que les travailleurs soumis à des conditions de travail pénibles doivent pouvoir partir à la retraite plus tôt, sans lister de critères précis.",
+     "citation_anonymisee": "doivent pouvoir partir à la retraite plus tôt",
+     "source": {
+      "url": "https://melenchon2027.fr/programme/synthese-des-contributions/chapitre-8-travailler-tous-travailler-moins-travailler-mieux/",
+      "titre": "Chapitre 8 : Travailler tous, travailler moins, travailler mieux (synthèse des contributions, site de campagne)",
+      "date_publication": "2026-07-17",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": null,
+     "nature": "non_connu",
+     "justification": "Départ anticipé pour pénibilité selon les secteurs, sans les critères de l'énoncé (R4).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": null,
+     "nature": "non_connu",
+     "justification": "R4 : départ anticipé pour pénibilité sans reprendre les critères précis.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": true,
+    "date": null,
+    "resultat": null
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-017",
+   "code": 1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "766b6385",
+   "extraits": [
+    {
+     "reformulation": "Le programme (édition 2025) prévoit de supprimer la décote, présentée comme une double peine pour les retraités, a fortiori les femmes et les plus précaires. L'âge d'annulation de la décote (67 ans) n'est pas mentionné.",
+     "citation_courte": "Supprimer la décote qui représente une double peine pour les retraités",
+     "reformulation_anonymisee": "Le programme de [CANDIDAT] (édition 2025) prévoit de supprimer la décote, présentée comme une double peine pour les retraités, a fortiori les femmes et les plus précaires. L'âge d'annulation de la décote (67 ans) n'est pas mentionné.",
+     "citation_anonymisee": "Supprimer la décote qui représente une double peine pour les retraités",
+     "source": {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/retraite",
+      "titre": "Programme de Jean-Luc Mélenchon (LFI) sur les retraites 2027 · Votons — reprise verbatim de « L'Avenir en commun », édition 2025 (melenchon2027.fr/programme2025/livre/chapitre8/s8/, page d'origine en 404 le 2026-10-03)",
+      "date_publication": "2026-07-21",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Suppression de la décote : va plus loin que l'abaissement à 66 ans et demi (R1).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "R1 : il veut supprimer la décote, ce qui va plus loin que l'abaissement de l'âge d'annulation.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-018",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-019",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-022",
+   "code": 2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "ee243395",
+   "extraits": [
+    {
+     "reformulation": "Le programme (édition 2025) prévoit de soumettre à cotisation les dividendes, les revenus d'intéressement, de participation, d'épargne salariale, ainsi que les revenus financiers des entreprises.",
+     "citation_courte": "soumettre à cotisation les dividendes, les revenus d'intéressement, de participation, d'épargne salariale",
+     "reformulation_anonymisee": "Le programme de [CANDIDAT] (édition 2025) prévoit de soumettre à cotisation les dividendes, les revenus d'intéressement, de participation, d'épargne salariale, ainsi que les revenus financiers des entreprises.",
+     "citation_anonymisee": "soumettre à cotisation les dividendes, les revenus d'intéressement, de participation, d'épargne salariale",
+     "source": {
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/retraite",
+      "titre": "Programme de Jean-Luc Mélenchon (LFI) sur les retraites 2027 · Votons — reprise verbatim de « L'Avenir en commun », édition 2025 (melenchon2027.fr/programme2025/livre/chapitre8/s8/, page d'origine en 404 le 2026-10-03)",
+      "date_publication": "2026-07-21",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Le programme prévoit de soumettre les dividendes à cotisation.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Son programme soumet explicitement les dividendes à cotisation.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  }
+ ]
+}

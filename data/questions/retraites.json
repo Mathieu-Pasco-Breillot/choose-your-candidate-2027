@@ -1,0 +1,617 @@
+{
+ "_theme": "retraites",
+ "_lot": 1,
+ "_statut": "VALIDÉ le 2026-10-02 — sources à recontrôler sur textes officiels avant publication",
+ "_equilibre": {
+  "actives": 19,
+  "suspendues": 3,
+  "sens_plus": 10,
+  "sens_moins": 9,
+  "axes": {
+   "economie": 19
+  }
+ },
+ "_note": "Sources recherchées le 2026-10-02 ; plusieurs ont été lues via un résumé automatique : chiffres et citations à recontrôler avant publication. Les énoncés et précisions ne nomment ni candidat ni parti ; certains titres de sources en nomment.",
+ "questions": [
+  {
+   "id": "RET-001",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "L'âge légal de départ à la retraite doit être fixé à 62 ans.",
+   "precision": "La loi du 14 avril 2023 relève progressivement l'âge légal de 62 à 64 ans. La loi de financement de la sécurité sociale pour 2026 a gelé ce relèvement à 62 ans et 9 mois jusqu'en janvier 2028 ; sans nouvelle loi, il reprend ensuite jusqu'à 64 ans.",
+   "origine": {
+    "description": "Loi n° 2023-270 du 14 avril 2023 ; loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026 (suspension)",
+    "source": {
+     "url": "https://www.actu-juridique.fr/securite-sociale/retraites-les-evolutions-a-venir/",
+     "titre": "Retraites : les évolutions à venir",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« ramené » suppose un point de départ",
+     "decision": "remplacé par « fixé » (2026-10-02)"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-02",
+     "ancien_enonce": "L'âge légal de départ à la retraite doit être ramené à 62 ans."
+    }
+   ]
+  },
+  {
+   "id": "RET-002",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "L'âge légal de départ à la retraite doit être fixé à 60 ans.",
+   "precision": null,
+   "origine": {
+    "description": "Amendement n° 7829 au projet de loi de financement rectificative de la sécurité sociale pour 2023 (60 ans et 40 annuités)",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/16/amendements/0760/AN/7829.pdf",
+     "titre": "Amendement n° 7829 au PLFRSS pour 2023 (n° 760)",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "RET-003",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "L'âge légal de départ à la retraite doit être porté à 65 ans.",
+   "precision": null,
+   "origine": {
+    "description": "Programme présidentiel de 2022 du président élu ; proposition de loi n° 1625 du 24 juin 2025 (65 ans à l'horizon 2042)",
+    "source": {
+     "url": "https://questions.assemblee-nationale.fr/dyn/17/textes/l17b1625_proposition-loi.pdf",
+     "titre": "Proposition de loi visant à décaler progressivement l'âge de départ à la retraite à soixante-cinq ans à l'horizon 2042",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« ou plus » regroupait plusieurs mesures (65, 66, 67 ans)",
+     "decision": "scindée : RET-003 (65 ans) et RET-021 (67 ans) (2026-10-02)"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-02",
+     "ancien_enonce": "L'âge légal de départ à la retraite doit être porté à 65 ans ou plus."
+    }
+   ]
+  },
+  {
+   "id": "RET-004",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "L'âge légal de départ à la retraite doit évoluer automatiquement avec l'espérance de vie.",
+   "precision": "Le Danemark, les Pays-Bas et l'Italie indexent les conditions d'accès à la retraite sur l'espérance de vie.",
+   "origine": {
+    "description": "Comparaisons internationales du Conseil d'orientation des retraites ; « âge d'équilibre » évoluant avec l'espérance de vie dans le projet de loi de 2020",
+    "source": {
+     "url": "https://www.cor-retraites.fr/sites/default/files/2022-02/Dossier%20en%20bref.pdf",
+     "titre": "COR, « Dossier en bref », séance du 17 février 2022",
+     "date_consultation": "2026-10-02",
+     "nature": "institutionnelle"
+    }
+   },
+   "statut": "suspendue",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucune proposition française d'indexation automatique de l'âge légal n'a été trouvée ; les mécanismes proposés portent sur l'âge du taux plein",
+     "decision": "conservée ; à réexaminer si aucun candidat ne se positionne"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-02",
+     "note": "suspendue : conservée dans la banque mais non posée, faute de proposition ferme et actuelle ; à réactiver si un candidat se positionne"
+    }
+   ]
+  },
+  {
+   "id": "RET-005",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "La durée de cotisation requise pour une retraite à taux plein doit être portée à 45 ans.",
+   "precision": "La durée cible est de 172 trimestres (43 ans). Elle est gelée à 170 trimestres jusqu'en janvier 2028 pour les générations concernées par la suspension.",
+   "origine": {
+    "description": "Proposition de 45 annuités rapportée en septembre 2026 ; rapport du Haut-Commissariat à la Stratégie et au Plan (allongement de deux à trois ans d'ici 2050)",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites",
+     "titre": "Reculer ou avancer l'âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l'élection présidentielle sur les retraites (30 septembre 2026)",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« au-delà de 43 ans » regroupait plusieurs mesures",
+     "decision": "fixée à 45 ans, seule durée documentée ; 44 ans non trouvé (2026-10-02)"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-02",
+     "ancien_enonce": "La durée de cotisation requise pour une retraite à taux plein doit être allongée au-delà de 43 ans."
+    }
+   ]
+  },
+  {
+   "id": "RET-006",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "La durée de cotisation requise pour une retraite à taux plein doit être ramenée à 40 ans.",
+   "precision": "La durée cible est de 172 trimestres (43 ans). Elle est gelée à 170 trimestres jusqu'en janvier 2028 pour les générations concernées par la suspension.",
+   "origine": {
+    "description": "Amendement n° 7829 au PLFRSS pour 2023 (160 trimestres)",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/16/amendements/0760/AN/7829.pdf",
+     "titre": "Amendement n° 7829 au PLFRSS pour 2023 (n° 760)",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "RET-007",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Une part de retraite par capitalisation obligatoire doit être introduite pour les salariés du privé.",
+   "precision": "Capitalisation : les cotisations de chacun sont placées et financent sa propre pension future, à la différence de la répartition.",
+   "origine": {
+    "description": "Proposition de l'association Capissens (octobre 2025) ; propositions de fonds obligatoire rapportées en 2026",
+    "source": {
+     "url": "https://placement.meilleurtaux.com/retraite/actualites/2025-octobre/capissens-propose-capitalisation-obligatoire-redresser-systeme-retraite-salaries-prive.html",
+     "titre": "Capissens propose une capitalisation obligatoire pour redresser le système de retraite des salariés du privé",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "RET-008",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Les pensions de retraite doivent être indexées sur l'évolution des salaires plutôt que sur les prix.",
+   "precision": "Les pensions du régime général suivent les prix en pratique depuis le milieu des années 1980 ; la règle est inscrite dans la loi depuis 2003.",
+   "origine": {
+    "description": "Document du Conseil d'orientation des retraites sur les modes d'indexation",
+    "source": {
+     "url": "https://www.cor-retraites.fr/sites/default/files/2019-06/doc-676.pdf",
+     "titre": "COR, séance du 27 juin 2006, « Modes d'indexation et évolution des pensions dans les différents régimes de retraite en France »",
+     "date_consultation": "2026-10-02",
+     "nature": "institutionnelle"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "origine = état du droit ; proposition explicite d'indexation sur les salaires non recherchée",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "RET-009",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Les pensions de retraite doivent être gelées pendant au moins un an.",
+   "precision": "Gel : absence de revalorisation annuelle sur l'inflation. Le projet de loi de financement de la sécurité sociale pour 2026 prévoyait un gel en 2026 ; il a été retiré et les pensions de base ont été revalorisées de 0,9 %.",
+   "origine": {
+    "description": "Projet de loi de financement de la sécurité sociale pour 2026",
+    "source": {
+     "url": "https://www.lafinancepourtous.com/2025/10/27/projet-de-financement-de-la-securite-sociale-pour-2026-des-economies-sur-les-retraites-et-la-sante/",
+     "titre": "Projet de financement de la Sécurité sociale pour 2026 : des économies sur les retraites et la santé",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« pour réduire le déficit public » ajoutait une justification à la mesure",
+     "decision": "finalité supprimée (2026-10-02)"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-02",
+     "ancien_enonce": "Les pensions de retraite doivent être gelées pendant au moins un an pour réduire le déficit public."
+    }
+   ]
+  },
+  {
+   "id": "RET-010",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "La pension minimale pour une carrière complète doit être portée au niveau du SMIC net.",
+   "precision": "La réforme de 2023 vise une pension minimale de 85 % du SMIC net pour une carrière complète.",
+   "origine": {
+    "description": "Amendement n° 15293 au PLFRSS pour 2023 (100 % au lieu de 85 %)",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/16/amendements/0760/AN/15293.pdf",
+     "titre": "Amendement n° 15293 au PLFRSS pour 2023 (n° 760)",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "RET-011",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Les régimes spéciaux de retraite doivent être fermés aussi pour les salariés déjà en poste.",
+   "precision": "La loi de 2023 a fermé cinq régimes spéciaux (RATP, industries électriques et gazières, clercs de notaires, Banque de France, CESE) aux seules personnes recrutées à partir du 1er septembre 2023.",
+   "origine": {
+    "description": "Loi n° 2023-270 du 14 avril 2023, article 1er ; décrets n° 2023-689, 690, 692 et 693 du 28 juillet 2023",
+    "source": {
+     "url": "https://www.legisocial.fr/actualites-sociales/6128-reforme-retraites-publication-decrets-relatifs-fermeture-regimes-speciaux.html",
+     "titre": "Réforme des retraites : publication des décrets relatifs à la fermeture des régimes spéciaux",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« régimes spéciaux » peut être perçu comme connoté, mais c'est le terme juridique",
+     "decision": "conservé"
+    },
+    {
+     "signalement": "origine = état du droit ; proposition explicite d'extension aux salariés en poste non trouvée",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "RET-012",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Un régime universel de retraite par points doit remplacer les régimes existants.",
+   "precision": null,
+   "origine": {
+    "description": "Projet de loi instituant un système universel de retraite (n° 2623), adopté en première lecture le 3 mars 2020 (texte n° 409) puis abandonné",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/15/textes/l15t0409_texte-adopte-provisoire",
+     "titre": "Texte adopté n° 409 — projet de loi instituant un système universel de retraite",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "rattachement à l'axe économie et sens discutables : la mesure n'est pas clairement d'un pôle",
+     "decision": "conservée en sens −1 ; sans effet sur le score (2026-10-02)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "RET-013",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Les cotisations retraite versées par les employeurs doivent être augmentées.",
+   "precision": null,
+   "origine": {
+    "description": "Amendement n° 4613 au PLFRSS pour 2023 (taux patronal vieillesse relevé d'un point) ; demande syndicale lors de la concertation de 2025",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/16/amendements/0760/AN/4613.pdf",
+     "titre": "Amendement n° 4613 au PLFRSS pour 2023 (n° 760)",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« pour financer le système » était une finalité",
+     "decision": "supprimée par application de la règle du 2026-10-02"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-02",
+     "ancien_enonce": "Les cotisations retraite versées par les employeurs doivent être augmentées pour financer le système."
+    }
+   ]
+  },
+  {
+   "id": "RET-014",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Les cotisations retraite des salariés doivent être réduites.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition de la présidentielle de 2022 (baisse de 2,4 points des cotisations salariales vieillesse)",
+    "source": {
+     "url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/baisser-les-cotisations-salariales-vieillesse-de-24-points-pour-tous-les-salaries-du-secteur-prive",
+     "titre": "Baisser les cotisations salariales vieillesse de 2,4 points pour tous les salariés du secteur privé",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« pour augmenter le salaire net » énonçait un bénéfice sans la contrepartie",
+     "decision": "finalité supprimée (2026-10-02)"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-02",
+     "ancien_enonce": "Les cotisations retraite des salariés doivent être réduites pour augmenter le salaire net."
+    }
+   ]
+  },
+  {
+   "id": "RET-015",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Toute personne ayant commencé à travailler avant 20 ans doit pouvoir partir à la retraite à 60 ans.",
+   "precision": "Aujourd'hui, une personne ayant commencé avant 20 ans peut partir entre 60 et 62 ans selon son année de naissance (dispositif « carrières longues »).",
+   "origine": {
+    "description": "Proposition des législatives de 2024 (départ à 60 ans avec 40 annuités pour un début d'activité avant 20 ans) ; règles actuelles : Assurance retraite",
+    "source": {
+     "url": "https://www.lassuranceretraite.fr/portail-info/sites/pub/home/actif/je-souhaite-partir-plus-tot/carriere-longue-retraite.html",
+     "titre": "Assurance retraite — retraite anticipée pour carrière longue",
+     "date_consultation": "2026-10-02",
+     "nature": "institutionnelle"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "RET-016",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Le port de charges lourdes, les postures pénibles et les vibrations mécaniques doivent ouvrir droit à un départ anticipé.",
+   "precision": "L'ordonnance du 22 septembre 2017 a retiré quatre facteurs du compte de pénibilité : ces trois-là et l'exposition aux agents chimiques dangereux.",
+   "origine": {
+    "description": "Ordonnance n° 2017-1389 du 22 septembre 2017 ; proposition de loi n° 1049 (16e législature) visant à réintégrer ces trois facteurs",
+    "source": {
+     "url": "https://questions.assemblee-nationale.fr/dyn/16/textes/l16b1049_proposition-loi.pdf",
+     "titre": "Proposition de loi visant à améliorer la reconnaissance de la pénibilité",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "trois critères dans un seul énoncé : une mesure ou trois ?",
+     "decision": "un seul énoncé conservé : ces trois facteurs sont traités ensemble dans le débat parlementaire (2026-10-02)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "RET-017",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "L'âge auquel la retraite est versée sans décote, quelle que soit la durée cotisée, doit être abaissé de 67 ans à 66 ans et demi.",
+   "precision": "Mesure annoncée à l'issue de la concertation de 2025 ; elle n'apparaît pas dans les mesures retraite de la loi de financement de la sécurité sociale pour 2026.",
+   "origine": {
+    "description": "Annonce du Premier ministre à l'issue de la concertation entre partenaires sociaux (juin 2025)",
+    "source": {
+     "url": "https://www.cgt.fr/actualites/france/retraites/ou-en-est-sur-les-retraites-la-sortie-du-conclave",
+     "titre": "Où en est-on sur les retraites à la sortie du « conclave » ? (7 juillet 2025)",
+     "date_consultation": "2026-10-02",
+     "nature": "source syndicale"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "l'abaissement à 65 ans pour tous n'est proposé par personne dans les sources trouvées",
+     "decision": "énoncé aligné sur la mesure documentée, 66 ans et demi (2026-10-02)"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-02",
+     "ancien_enonce": "L'âge auquel la retraite est versée sans décote, quelle que soit la durée cotisée, doit être abaissé de 67 à 65 ans."
+    }
+   ]
+  },
+  {
+   "id": "RET-018",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "La pension de réversion doit être soumise à une condition de ressources dans tous les régimes.",
+   "precision": "Pension de réversion : part de la pension d'un conjoint décédé versée au survivant. La condition de ressources existe dans le régime général, pas dans la fonction publique ni à l'Agirc-Arrco.",
+   "origine": {
+    "description": "Questions écrites à l'Assemblée nationale sur l'écart entre régimes",
+    "source": {
+     "url": "https://questions.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE13999.pdf",
+     "titre": "Question écrite sur les pensions de réversion (14e législature)",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "RET-019",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "La pension des fonctionnaires doit être calculée sur les 25 meilleures années et non sur les six derniers mois.",
+   "precision": "Le régime général calcule la pension de base sur les 25 meilleures années.",
+   "origine": {
+    "description": "Amendement n° 3035 au projet de loi n° 1400 (octobre 2013), rejeté",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/14/amendements/1400/AN/3035.pdf",
+     "titre": "Amendement n° 3035 au projet de loi garantissant l'avenir et la justice du système de retraites (n° 1400)",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "origine ancienne (2013) ; aucune proposition récente trouvée",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "RET-020",
+   "theme": "retraites",
+   "axe": "institutions",
+   "sens": 1,
+   "enonce": "Toute modification de l'âge légal de départ à la retraite doit être soumise à référendum.",
+   "precision": null,
+   "origine": {
+    "description": "Demandes de référendum d'initiative partagée de 2023, rejetées par le Conseil constitutionnel (décisions n° 2023-4 RIP du 14 avril 2023 et n° 2023-5 RIP du 3 mai 2023)",
+    "source": {
+     "url": "https://www.conseil-constitutionnel.fr/sites/default/files/as/root/bank_mm/decisions/20234rip/20234rip.pdf",
+     "titre": "Conseil constitutionnel, décision n° 2023-4 RIP du 14 avril 2023",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "suspendue",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucune proposition de référendum obligatoire n'a été trouvée ; les demandes de 2023 portaient sur un référendum ponctuel",
+     "decision": "conservée ; à réexaminer si aucun candidat ne se positionne"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-02",
+     "note": "suspendue : conservée dans la banque mais non posée, faute de proposition ferme et actuelle ; à réactiver si un candidat se positionne"
+    }
+   ]
+  },
+  {
+   "id": "RET-021",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "L'âge légal de départ à la retraite doit être porté à 67 ans.",
+   "precision": null,
+   "origine": {
+    "description": "Déclaration publique de septembre 2021 évoquant un âge de « 65, 66 ou 67 ans »",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/retraites-edouard-philippe-reprend-les-idees-des-lr-selon-le-senateur-rene-paul",
+     "titre": "Retraites : « Edouard Philippe reprend les idées des LR », selon le sénateur René-Paul Savary (30 septembre 2021)",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "suspendue",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucune proposition ferme et actuelle d'un âge légal à 67 ans n'a été trouvée",
+     "decision": "conservée à la demande de Mathieu ; à réexaminer si aucun candidat ne se positionne"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-02",
+     "note": "créée par scission de RET-003"
+    },
+    {
+     "date": "2026-10-02",
+     "note": "suspendue : conservée dans la banque mais non posée, faute de proposition ferme et actuelle ; à réactiver si un candidat se positionne"
+    }
+   ]
+  },
+  {
+   "id": "RET-022",
+   "theme": "retraites",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Les dividendes versés par les entreprises doivent être soumis aux cotisations retraite.",
+   "precision": null,
+   "origine": {
+    "description": "Amendement n° 8398 au PLFRSS pour 2023 (dividendes assujettis aux cotisations vieillesse au taux de 17,7 %), retiré",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/16/amendements/0760/AN/8398.pdf",
+     "titre": "Amendement n° 8398 au PLFRSS pour 2023 (n° 760)",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-02",
+     "note": "ajoutée pour rétablir l'équilibre des sens"
+    }
+   ]
+  }
+ ]
+}

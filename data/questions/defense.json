@@ -1,0 +1,458 @@
+{
+ "_theme": "defense",
+ "_lot": 8,
+ "_statut": "VALIDÉ le 2026-10-03 — sources à recontrôler sur textes officiels avant publication",
+ "_equilibre": {
+  "actives": 14,
+  "suspendues": 2,
+  "sens_plus": 8,
+  "sens_moins": 6,
+  "axes": {
+   "economie": 3,
+   "securite": 2,
+   "europe": 8,
+   "institutions": 1
+  }
+ },
+ "_note": "Sources recherchées le 2026-10-03, lues via un résumé automatique : chiffres et citations à recontrôler avant publication. Non retenues faute de proposition documentée : armée européenne, second porte-avions, adhésion de l'Ukraine à l'OTAN, partage du siège au Conseil de sécurité, hausse chiffrée des effectifs, livret d'épargne défense, préférence européenne obligatoire. Déjà décidées : trajectoire budgétaire, service national volontaire, objectifs de réserve.",
+ "questions": [
+  {
+   "id": "DEF-001",
+   "theme": "defense",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Le budget de la défense doit atteindre au moins 3 % du PIB dès 2030.",
+   "precision": "La loi du 16 août 2026 prévoit un budget de la défense d'au moins 2,5 % du PIB en 2030, avec un objectif de 3,5 % en 2035.",
+   "origine": {
+    "description": "Amendement n° 565 au projet de loi d'actualisation de la programmation militaire (2026), rejeté",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2695/AN/565.rtf",
+     "titre": "Amendement n° 565 au projet de loi n° 2695",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucun des six axes ne convient vraiment à cette question",
+     "decision": "axe économie, sens +1 (hausse de la dépense publique) par défaut ; sans effet sur le score"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "DEF-002",
+   "theme": "defense",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "L'objectif de dépenses militaires en pourcentage du PIB doit être supprimé de la loi.",
+   "precision": "La loi du 16 août 2026 prévoit un budget de la défense d'au moins 2,5 % du PIB en 2030, avec un objectif de 3,5 % en 2035.",
+   "origine": {
+    "description": "Amendement n° 86 au projet de loi d'actualisation de la programmation militaire (2026)",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2695/AN/86.pdf",
+     "titre": "Amendement n° 86 au projet de loi n° 2695",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucun des six axes ne convient vraiment à cette question",
+     "decision": "axe économie, sens −1 par défaut ; sans effet sur le score"
+    },
+    {
+     "signalement": "énoncé à la forme négative",
+     "decision": "forme affirmative retenue (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "ancien_enonce": "La loi ne doit fixer aucun objectif de dépenses militaires en pourcentage du PIB."
+    }
+   ]
+  },
+  {
+   "id": "DEF-003",
+   "theme": "defense",
+   "axe": "securite",
+   "sens": -1,
+   "enonce": "Un service militaire obligatoire doit être rétabli.",
+   "precision": "Un service national volontaire de dix mois existe depuis le 31 août 2026. Le service obligatoire a été suspendu en 1997. La proposition de loi prévoit un appel obligatoire mais sélectif : tous sont recensés, une partie seulement est appelée.",
+   "origine": {
+    "description": "Proposition de loi n° 1210 du 1er avril 2025 (appel obligatoire mais sélectif)",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b1210_proposition-loi.pdf",
+     "titre": "Proposition de loi visant à rétablir le service national",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucun des six axes ne convient vraiment à cette question",
+     "decision": "axe sécurité, sens −1 par défaut ; sans effet sur le score"
+    },
+    {
+     "signalement": "la proposition de loi prévoit un appel « obligatoire mais sélectif », non universel ; date de 1997 non revérifiée",
+     "decision": "« sélectif » expliqué dans la précision, pas dans l'énoncé (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "DEF-004",
+   "theme": "defense",
+   "axe": "europe",
+   "sens": -1,
+   "enonce": "La France doit quitter le commandement militaire intégré de l'OTAN.",
+   "precision": "Le commandement intégré est la structure qui dirige les opérations militaires de l'Alliance. La France l'a quitté en 1966 et réintégré en 2009, tout en restant membre de l'OTAN.",
+   "origine": {
+    "description": "Programme publié en juillet 2026",
+    "source": {
+     "url": "https://melenchon2027.fr/?p=23178",
+     "titre": "Chapitre 16 : une diplomatie altermondialiste pour la paix (17 juillet 2026)",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "dates de 1966 et 2009 non revérifiées",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "DEF-005",
+   "theme": "defense",
+   "axe": "europe",
+   "sens": -1,
+   "enonce": "La France doit quitter l'OTAN.",
+   "precision": null,
+   "origine": {
+    "description": "Programme publié en juillet 2026 (« sortir de l'OTAN en commençant par son commandement intégré »)",
+    "source": {
+     "url": "https://melenchon2027.fr/?p=23178",
+     "titre": "Chapitre 16 : une diplomatie altermondialiste pour la paix (17 juillet 2026)",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "le programme d'origine présente DEF-004 comme la première étape de DEF-005",
+     "decision": "deux questions conservées (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "DEF-006",
+   "theme": "defense",
+   "axe": "europe",
+   "sens": 1,
+   "enonce": "Des soldats français doivent être déployés en Ukraine après un cessez-le-feu pour en garantir le respect.",
+   "precision": "Une déclaration signée à Paris le 6 janvier 2026 prévoit une force multinationale après un cessez-le-feu. En juillet 2026, aucun cessez-le-feu n'était conclu.",
+   "origine": {
+    "description": "Déclaration de Paris du 6 janvier 2026",
+    "source": {
+     "url": "https://fr.euronews.com/my-europe/2026/07/11/coalition-des-volontaires-25-dirigeants-a-paris-lundi-avant-un-defile-du-14-juillet-hors-n",
+     "titre": "Coalition des volontaires : 25 dirigeants à Paris lundi (11 juillet 2026)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "question dépendante de l'actualité : à revoir si la situation change",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "DEF-007",
+   "theme": "defense",
+   "axe": "europe",
+   "sens": 1,
+   "enonce": "Les avoirs russes gelés en Europe doivent être utilisés pour financer l'Ukraine.",
+   "precision": "Environ 210 milliards d'euros d'avoirs russes sont gelés dans l'Union européenne. En décembre 2025, les États membres ont renoncé à les utiliser et ont choisi un emprunt commun.",
+   "origine": {
+    "description": "Débat européen relancé en août 2026 par quatre États membres",
+    "source": {
+     "url": "https://www.lalibre.be/international/europe/2026/09/01/pourquoi-la-question-de-lutilisation-des-avoirs-russes-immobilises-pour-lukraine-revient-maintenant-a-lagenda-europeen-IVOK2XQDPND63CJ6W2EQHJECVU/",
+     "titre": "Pourquoi la question de l'utilisation des avoirs russes immobilisés pour l'Ukraine revient maintenant à l'agenda européen",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "positions des partis français non trouvées",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "DEF-008",
+   "theme": "defense",
+   "axe": "europe",
+   "sens": 1,
+   "enonce": "La France doit étendre la protection de sa dissuasion nucléaire à ses partenaires européens.",
+   "precision": "Le 2 mars 2026, le président de la République a annoncé une « dissuasion avancée » avec huit pays européens, qui pourraient accueillir des avions français, la décision d'emploi restant française.",
+   "origine": {
+    "description": "Discours du 2 mars 2026 à l'Île Longue",
+    "source": {
+     "url": "https://lcp.fr/actualites/nous-devons-renforcer-notre-dissuasion-nucleaire-face-a-la-combinaison-des-menaces",
+     "titre": "« Nous devons renforcer notre dissuasion nucléaire face à la combinaison des menaces » (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "mesure déjà engagée par l'exécutif : la question porte sur sa poursuite",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "DEF-009",
+   "theme": "defense",
+   "axe": "securite",
+   "sens": 1,
+   "enonce": "La France doit cesser toute exportation de matériel militaire vers Israël.",
+   "precision": "Le gouvernement indique ne vendre à Israël que des composants, et non des armes.",
+   "origine": {
+    "description": "Communiqué du 26 mars 2024 demandant un embargo",
+    "source": {
+     "url": "https://lafranceinsoumise.fr/2024/03/26/la-france-doit-decreter-un-embargo-sur-les-armes-a-destination-disrael/",
+     "titre": "La France doit décréter un embargo sur les armes à destination d'Israël",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucun des six axes ne convient vraiment à cette question",
+     "decision": "axe sécurité, sens +1 par défaut ; sans effet sur le score"
+    },
+    {
+     "signalement": "état des exportations en 2026 non trouvé",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "DEF-010",
+   "theme": "defense",
+   "axe": "institutions",
+   "sens": 1,
+   "enonce": "Le Parlement doit pouvoir s'opposer à un contrat d'exportation d'armes.",
+   "precision": "Aujourd'hui, les exportations d'armes sont autorisées par le gouvernement ; le Parlement est informé après coup.",
+   "origine": {
+    "description": "Proposition de loi déposée au Sénat en septembre 2022 (droit de veto d'une délégation parlementaire)",
+    "source": {
+     "url": "https://www.publicsenat.fr/article/parlementaire/le-groupe-communiste-veut-reguler-les-exportations-d-armes-en-instaurant-un",
+     "titre": "Le groupe communiste veut réguler les exportations d'armes (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "proposition de 2022 ; aucune reprise récente trouvée",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "DEF-011",
+   "theme": "defense",
+   "axe": "europe",
+   "sens": 1,
+   "enonce": "L'Union européenne doit emprunter en commun pour financer la défense.",
+   "precision": "L'Union prête déjà 150 milliards d'euros aux États pour leurs achats d'armement (programme SAFE). La proposition va plus loin : une dette commune.",
+   "origine": {
+    "description": "Proposition présidentielle du 10 février 2026",
+    "source": {
+     "url": "https://euronews.com/2026/02/10/macron-pushes-for-eu-common-debt-capacity-to-fund-europes-future",
+     "titre": "Macron pushes for EU common debt capacity to fund Europe's future",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "DEF-012",
+   "theme": "defense",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Un pôle public de l'armement doit être créé pour produire les équipements militaires, des munitions aux matériels complexes.",
+   "precision": null,
+   "origine": {
+    "description": "Amendement n° 168 au projet de loi d'actualisation de la programmation militaire, rejeté le 29 avril 2026",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/2695/AN/168.pdf",
+     "titre": "Amendement n° 168 au projet de loi n° 2695",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "DEF-013",
+   "theme": "defense",
+   "axe": "europe",
+   "sens": -1,
+   "enonce": "Les armées françaises doivent s'équiper en priorité de matériel fabriqué en France.",
+   "precision": null,
+   "origine": {
+    "description": "Programme publié en juillet 2026 (« acquisition de matériel militaire français dans les armées »)",
+    "source": {
+     "url": "https://melenchon2027.fr/?p=23178",
+     "titre": "Chapitre 16 : une diplomatie altermondialiste pour la paix (17 juillet 2026)",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« plutôt qu'européen ou américain » est une interprétation : la source dit seulement « matériel militaire français »",
+     "decision": "formulation fidèle à la source retenue (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "ancien_enonce": "Les armées françaises doivent acheter du matériel militaire français plutôt qu'européen ou américain."
+    }
+   ]
+  },
+  {
+   "id": "DEF-014",
+   "theme": "defense",
+   "axe": "europe",
+   "sens": -1,
+   "enonce": "L'aide militaire à l'Ukraine doit être limitée aux équipements défensifs.",
+   "precision": "La France livre aujourd'hui à l'Ukraine des armes défensives et offensives, dont des missiles de longue portée.",
+   "origine": {
+    "description": "Position rapportée en septembre 2026",
+    "source": {
+     "url": "https://europeantimes.news/2026/09/frances-2027-rivals-split-over-europe/",
+     "titre": "France's 2027 rivals split over Europe",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "source de faible autorité ; nature des armes livrées non revérifiée ; aucune proposition d'arrêt total des livraisons trouvée",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "DEF-015",
+   "theme": "defense",
+   "axe": "europe",
+   "sens": 1,
+   "enonce": "La France doit engager des négociations en vue de signer le traité d'interdiction des armes nucléaires.",
+   "precision": "La France n'a pas signé ce traité de l'ONU, entré en vigueur en 2021.",
+   "origine": {
+    "description": "Amendement n° 1438 à la loi de programmation militaire (17 mai 2023), rejeté",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/16/amendements/1234/AN/1438.pdf",
+     "titre": "Amendement n° 1438 au projet de loi n° 1234",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "suspendue",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucune reprise depuis 2023",
+     "decision": "suspendue"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "suspendue : conservée dans la banque mais non posée, faute de proposition actuelle portée par un responsable politique ; à réactiver si un candidat se positionne"
+    }
+   ]
+  },
+  {
+   "id": "DEF-016",
+   "theme": "defense",
+   "axe": "securite",
+   "sens": 1,
+   "enonce": "L'opération Sentinelle doit prendre fin : la surveillance des lieux publics doit revenir à la police et à la gendarmerie.",
+   "precision": "Sentinelle mobilise des militaires pour protéger des lieux publics depuis les attentats de 2015.",
+   "origine": {
+    "description": "Rapport de la Cour des comptes du 11 mai 2022",
+    "source": {
+     "url": "https://www.publicsenat.fr/article/parlementaire/fin-de-l-operation-sentinelle-il-faut-du-courage-politique-estime-le-senateur",
+     "titre": "Fin de l'opération Sentinelle : « il faut du courage politique », estime le sénateur (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "suspendue",
+   "alertes_neutralite": [
+    {
+     "signalement": "origine = rapport de 2022 ; aucun candidat ne porte la mesure",
+     "decision": "suspendue"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "suspendue : conservée dans la banque mais non posée, faute de proposition actuelle portée par un responsable politique ; à réactiver si un candidat se positionne"
+    }
+   ]
+  }
+ ]
+}

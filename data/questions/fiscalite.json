@@ -1,0 +1,504 @@
+{
+ "_theme": "fiscalite",
+ "_lot": 2,
+ "_statut": "VALIDÉ le 2026-10-02 — sources à recontrôler sur textes officiels avant publication",
+ "_equilibre": {
+  "actives": 19,
+  "suspendues": 1,
+  "sens_plus": 10,
+  "sens_moins": 9,
+  "axes": {
+   "economie": 19
+  }
+ },
+ "_note": "Sources recherchées le 2026-10-02, en majorité secondaires ; à remplacer par des sources primaires (Légifrance, BOFiP, textes parlementaires) avant publication. État du droit après la loi n° 2026-103 du 19 février 2026 de finances pour 2026 et la loi n° 2025-1403 du 30 décembre 2025.",
+ "questions": [
+  {
+   "id": "FIS-001",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "L'impôt de solidarité sur la fortune (ISF) doit être rétabli.",
+   "precision": "L'ISF a été remplacé le 1er janvier 2018 par l'impôt sur la fortune immobilière (IFI), limité aux biens immobiliers, avec le même seuil de 1,3 million d'euros.",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://www.moneyvox.fr/impot/actualites/98280/impots-sur-heritage-csg-modifiee-les-mesures-fiscales-du-nouveau-front-populaire",
+     "titre": "Les mesures fiscales du Nouveau Front populaire (titre exact à relever)",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-002",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Un impôt minimal de 2 % par an doit être instauré sur les patrimoines supérieurs à 100 millions d'euros.",
+   "precision": "Mesure souvent appelée « taxe Zucman ». Adoptée par l'Assemblée nationale le 20 février 2025, rejetée par le Sénat le 12 juin 2025, puis de nouveau rejetée à l'Assemblée lors du budget 2026.",
+   "origine": {
+    "description": "Proposition de loi adoptée en première lecture à l'Assemblée nationale le 20 février 2025",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/economie/taxe-zucman-le-senat-rejette-la-creation-dun-nouvel-impot-sur-les-ultra-riches",
+     "titre": "Taxe « Zucman » : le Sénat rejette la création d'un nouvel impôt sur les ultra-riches",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« taxe Zucman » porte le nom d'un économiste engagé dans le débat",
+     "decision": "nom absent de l'énoncé, mentionné dans la précision pour que l'utilisateur reconnaisse la mesure"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-003",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Le prélèvement forfaitaire unique sur les revenus du capital doit être supprimé : ces revenus doivent être soumis au barème de l'impôt sur le revenu.",
+   "precision": "Le prélèvement forfaitaire unique (« flat tax ») s'applique aux dividendes, intérêts et plus-values. Son taux est passé de 30 % à 31,4 % en 2026.",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024 ; taux : loi n° 2025-1403 du 30 décembre 2025",
+    "source": {
+     "url": "https://www.actu-juridique.fr/fiscalite/fiscal-finances/la-csg-en-hausse-sur-les-revenus-du-capital/",
+     "titre": "La CSG en hausse sur les revenus du capital",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-004",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Le barème de l'impôt sur le revenu doit passer de 5 à 14 tranches.",
+   "precision": "Le barème actuel compte cinq tranches : 0, 11, 30, 41 et 45 %.",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://www.moneyvox.fr/impot/actualites/98280/impots-sur-heritage-csg-modifiee-les-mesures-fiscales-du-nouveau-front-populaire",
+     "titre": "Les mesures fiscales du Nouveau Front populaire (titre exact à relever)",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-005",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "La part d'un héritage qui dépasse 12 millions d'euros doit être intégralement prélevée par l'État.",
+   "precision": "Aujourd'hui, les droits de succession en ligne directe suivent un barème de 5 à 45 %, sans plafond d'héritage.",
+   "origine": {
+    "description": "Proposition de la présidentielle de 2022, toujours portée en 2026",
+    "source": {
+     "url": "https://www.lafinancepourtous.com/2022/01/31/fiscalite-successorale-le-programme-des-candidats/",
+     "titre": "Fiscalité successorale : le programme des candidats",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-006",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Les Français qui s'installent dans un pays à fiscalité très faible doivent continuer à payer l'impôt en France.",
+   "precision": "Mesure appelée « impôt universel ciblé ». Adoptée en commission des finances en octobre 2024, rejetée d'une voix en séance en octobre 2025.",
+   "origine": {
+    "description": "Amendement au projet de loi de finances pour 2026, rejeté par 132 voix contre 131",
+    "source": {
+     "url": "https://lcp.fr/actualites/impot-universel-cible-l-abstention-du-ps-lors-du-rejet-d-un-amendement-critiquee-par-lfi",
+     "titre": "« Impôt universel ciblé » : l'abstention du PS lors du rejet d'un amendement critiquée par LFI",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "rattachement à l'axe économie discutable",
+     "decision": "sens +1 par défaut ; sans effet sur le score"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-007",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "L'exonération de droits accordée aux transmissions d'entreprises (pacte Dutreil) doit être ramenée de 75 % à 50 %.",
+   "precision": "Le pacte Dutreil exonère de droits de donation et de succession 75 % de la valeur d'une entreprise transmise, sans plafond. La loi de finances pour 2026 en a exclu les biens non professionnels.",
+   "origine": {
+    "description": "Rapport de la Cour des comptes du 18 novembre 2025 ; proposition de réduction à 50 % rapportée en août 2026",
+    "source": {
+     "url": "https://www.legifiscal.fr/actualites-fiscales/4333-rapport-cour-comptes-pacte-dutreil.html",
+     "titre": "Rapport de la Cour des comptes sur le pacte Dutreil (titre exact à relever)",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-008",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "La CSG doit devenir progressive : son taux doit augmenter avec le revenu.",
+   "precision": "La CSG sur les revenus d'activité est aujourd'hui à taux unique (9,2 %). Seules les pensions de retraite ont des taux variables selon le revenu.",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://www.moneyvox.fr/impot/actualites/98280/impots-sur-heritage-csg-modifiee-les-mesures-fiscales-du-nouveau-front-populaire",
+     "titre": "Les mesures fiscales du Nouveau Front populaire (titre exact à relever)",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-009",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "L'« exit tax » doit être rétablie dans sa version de 2011.",
+   "precision": "L'« exit tax » impose les plus-values des contribuables qui transfèrent leur domicile fiscal à l'étranger. En 2011, elle s'appliquait si les titres étaient vendus dans les 15 ans ; depuis 2019, ce délai est de 2 à 5 ans.",
+   "origine": {
+    "description": "Amendement adopté à l'Assemblée nationale le 3 novembre 2025, non repris dans la loi de finances pour 2026",
+    "source": {
+     "url": "https://lcp.fr/actualites/budget-2026-un-amendement-rn-visant-a-retablir-l-exit-tax-vote-a-l-assemblee-414048",
+     "titre": "Budget 2026 : un amendement RN visant à rétablir l'exit tax voté à l'Assemblée",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-010",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "L'abattement fiscal de 10 % sur les pensions de retraite doit être remplacé par un abattement forfaitaire de 2 000 euros.",
+   "precision": "Les retraités déduisent aujourd'hui 10 % de leurs pensions avant impôt, dans la limite d'un plafond par foyer. Un forfait de 2 000 euros alourdirait l'impôt des pensions élevées et allégerait celui des petites pensions imposables.",
+   "origine": {
+    "description": "Projet de loi de finances pour 2026 ; mesure rejetée par l'Assemblée nationale le 13 novembre 2025",
+    "source": {
+     "url": "https://www.legifiscal.fr/actualites-fiscales/4279-plf-2026-abattement-forfaitaire-2000-pensions-retraite.html",
+     "titre": "PLF 2026 : abattement forfaitaire de 2 000 € sur les pensions de retraite (page non ouverte)",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "sens discutable : hausse de prélèvement pour une partie des retraités, baisse pour d'autres",
+     "decision": "sens +1 par défaut ; sans effet sur le score"
+    },
+    {
+     "signalement": "la seconde phrase de la précision décrit un effet et non le droit",
+     "decision": "à trancher"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-011",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "La cotisation sur la valeur ajoutée des entreprises (CVAE) doit être supprimée sans attendre 2030.",
+   "precision": "La CVAE est un impôt local payé par les entreprises. Sa suppression, d'abord prévue pour 2027, a été reportée à 2030 par la loi de finances pour 2025.",
+   "origine": {
+    "description": "Loi n° 2025-127 du 14 février 2025 de finances pour 2025, article 62",
+    "source": {
+     "url": "https://entreprendre.service-public.gouv.fr/actualites/A18078?lang=",
+     "titre": "Suppression de la CVAE en 2030",
+     "date_consultation": "2026-10-02",
+     "nature": "institutionnelle"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "origine = état du droit ; proposition explicite de suppression anticipée à sourcer",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-012",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "L'impôt sur la fortune immobilière (IFI) doit être supprimé.",
+   "precision": "L'IFI s'applique aux patrimoines immobiliers supérieurs à 1,3 million d'euros, à des taux de 0,5 à 1,5 %.",
+   "origine": {
+    "description": "Amendement sénatorial de novembre 2017 lors du budget 2018",
+    "source": {
+     "url": "https://cms.law/fr/fra/a-la-une/l-isf-c-est-fini.-voici-l-ifi",
+     "titre": "L'ISF, c'est fini. Voici l'IFI",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "suspendue",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucune proposition récente de suppression pure n'a été trouvée ; le débat de 2025 portait sur sa transformation en « impôt sur la fortune improductive »",
+     "decision": "conservée ; à réexaminer si aucun candidat ne se positionne"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-02",
+     "note": "suspendue : conservée dans la banque mais non posée, faute de proposition ferme et actuelle ; à réactiver si un candidat se positionne"
+    }
+   ]
+  },
+  {
+   "id": "FIS-013",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "L'abattement sur les successions entre parents et enfants doit être porté de 100 000 à 150 000 euros.",
+   "precision": "Abattement : part de l'héritage sur laquelle aucun droit n'est dû. Il est de 100 000 euros par parent et par enfant.",
+   "origine": {
+    "description": "Engagement de la présidentielle de 2022, non mis en œuvre",
+    "source": {
+     "url": "https://www.institutmontaigne.org/presidentielle-2022/emmanuel-macron/relever-labattement-sur-les-droits-de-succession-a-150-000e-en-ligne-directe-enfants-et-100-000e-en-ligne-indirecte",
+     "titre": "Relever l'abattement sur les droits de succession à 150 000 € en ligne directe (enfants) et 100 000 € en ligne indirecte",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-014",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Les parents doivent pouvoir donner 100 000 euros à chaque enfant sans droits tous les 10 ans, au lieu de tous les 15 ans.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition rapportée en septembre 2026",
+    "source": {
+     "url": "https://placement.meilleurtaux.com/placement-financier/actualites/2026-septembre/heritage-taxer-plus-ou-taxer-moins-le-grand-clivage-de-la-presidentielle-2027.html",
+     "titre": "Héritage : taxer plus ou taxer moins, le grand clivage de la présidentielle 2027",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-015",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "La TVA doit être augmentée en contrepartie d'une baisse des cotisations sociales.",
+   "precision": "Mesure souvent appelée « TVA sociale ».",
+   "origine": {
+    "description": "Débat relancé en mai 2025 ; proposition patronale de juillet 2026 (deux points de TVA contre des baisses de cotisations)",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/economie/financement-de-la-securite-sociale-emmanuel-macron-relance-le-debat-sur-la-tva-sociale",
+     "titre": "Emmanuel Macron veut une refonte du financement de la Sécurité sociale : est-ce le retour de la TVA sociale ?",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "mesure à deux volets (hausse et baisse) : indissociables dans la proposition d'origine",
+     "decision": "un seul énoncé conservé"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-016",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Les heures supplémentaires doivent être totalement exonérées d'impôt sur le revenu.",
+   "precision": "Elles sont aujourd'hui exonérées dans la limite de 7 500 euros par an.",
+   "origine": {
+    "description": "Amendement adopté à l'Assemblée nationale le 25 octobre 2025, non repris dans la loi de finances pour 2026",
+    "source": {
+     "url": "https://lcp.fr/actualites/un-signal-pour-la-france-qui-travaille-les-deputes-votent-pour-une-defiscalisation",
+     "titre": "« Un signal pour la France qui travaille » : les députés votent pour une défiscalisation totale des heures supplémentaires",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-017",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Les moins de 30 ans doivent être exonérés d'impôt sur le revenu.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition de la présidentielle de 2022",
+    "source": {
+     "url": "https://www.institutmontaigne.org/presidentielle-2022/marine-le-pen/exonerer-tous-les-jeunes-de-moins-de-30-ans-dimpot-sur-le-revenu/",
+     "titre": "Exonérer tous les jeunes de moins de 30 ans d'impôt sur le revenu",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "maintien de la mesure pour 2027 non confirmé",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-018",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Les transmissions d'entreprises familiales doivent être totalement exonérées de droits de donation et de succession.",
+   "precision": "Elles sont aujourd'hui exonérées à 75 % (pacte Dutreil).",
+   "origine": {
+    "description": "Propositions de la présidentielle de 2022",
+    "source": {
+     "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/exonerer-de-droits-de-donation-et-de-succession-les-transmissions-dentreprises-familiales-entre-generations",
+     "titre": "Exonérer de droits de donation et de succession les transmissions d'entreprises familiales entre générations",
+     "date_consultation": "2026-10-02",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "reprise de la mesure pour 2027 non confirmée",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-019",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "La TVA doit être ramenée à 0 % sur un panier de cent produits de première nécessité.",
+   "precision": "Les produits alimentaires sont aujourd'hui taxés à 5,5 % pour la plupart.",
+   "origine": {
+    "description": "Amendement n° 625 au projet de loi de finances rectificative pour 2022 (demande de rapport), rejeté",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/16/amendements/0017/AN/625.pdf",
+     "titre": "Amendement n° 625 au projet de loi de finances rectificative pour 2022 (n° 17)",
+     "date_consultation": "2026-10-02",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "sens discutable : baisse de prélèvement, mais ciblée sur le pouvoir d'achat",
+     "decision": "sens −1 par défaut ; sans effet sur le score"
+    },
+    {
+     "signalement": "taux de 5,5 % sur l'alimentaire non revérifié",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "FIS-020",
+   "theme": "fiscalite",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "La TVA sur l'électricité, le gaz et les carburants doit être abaissée de 20 % à 5,5 %.",
+   "precision": "La TVA est de 20 % sur l'électricité, le gaz et les carburants, abonnements compris depuis le 1er août 2025.",
+   "origine": {
+    "description": "Proposition portée depuis 2022 et réitérée en mars 2026",
+    "source": {
+     "url": "https://www.moneyvox.fr/votre-argent/actualites/98274/electricite-gaz-carburant-baisser-la-tva-a-5,5-comme-le-promet-le-rn-combien-ca-coute",
+     "titre": "Électricité, gaz, carburant : baisser la TVA à 5,5 %, combien ça coûte ? (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "source désormais lue (2026-10-03)",
+     "decision": "levée"
+    },
+    {
+     "signalement": "trois produits dans un énoncé : ils sont réunis dans la proposition d'origine",
+     "decision": "un seul énoncé conservé, à confirmer à la lecture de la source"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  }
+ ]
+}

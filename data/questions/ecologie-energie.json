@@ -1,0 +1,755 @@
+{
+ "_theme": "ecologie-energie",
+ "_lot": 9,
+ "_statut": "VALIDÉ le 2026-10-03 — sources à recontrôler sur textes officiels avant publication",
+ "_equilibre": {
+  "actives": 23,
+  "suspendues": 4,
+  "sens_plus": 13,
+  "sens_moins": 10,
+  "axes": {
+   "ecologie": 18,
+   "economie": 4,
+   "europe": 1
+  }
+ },
+ "_note": "Sources recherchées le 2026-10-03, lues via un résumé automatique : chiffres et citations à recontrôler avant publication. Non retenues car déjà tranchées : autoroute A69 (validée, ouverture en cours), assouplissement des tirs de loup (en vigueur), report du marché carbone des carburants à 2028. Non retenues faute de proposition documentée : abandon du marché carbone, taxe sur le kérosène, publicité pour les produits polluants, suppression du malus au poids, MaPrimeRénov', nombre de nouveaux réacteurs.",
+ "questions": [
+  {
+   "id": "ENV-001",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": 1,
+   "enonce": "La vente de voitures neuves à essence ou diesel doit être interdite en 2035, sans exception.",
+   "precision": "C'est la règle européenne actuelle. La Commission européenne a proposé en décembre 2025 de l'assouplir (réduction de 90 % des émissions au lieu de 100 %) ; cette proposition n'est pas adoptée.",
+   "origine": {
+    "description": "Règlement européen de 2023 ; proposition de révision du 16 décembre 2025",
+    "source": {
+     "url": "https://lcp.fr/actualites/fin-de-la-vente-des-voitures-thermiques-neuves-en-2035-l-assemblee-s-y-oppose-lors-d-un",
+     "titre": "Fin de la vente des voitures thermiques neuves en 2035 : l'Assemblée s'y oppose (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "positions des candidats connues seulement par un site agrégateur ; un vote de l'Assemblée nationale du 17 février 2025 a supprimé l'inscription de l'échéance dans un projet de loi",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-002",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": 1,
+   "enonce": "La France doit sortir du nucléaire d'ici 2050.",
+   "precision": "La programmation actuelle prévoit au contraire six nouveaux réacteurs, et huit autres en option.",
+   "origine": {
+    "description": "Proposition de la présidentielle de 2022 ; programmation pluriannuelle de l'énergie publiée le 13 février 2026",
+    "source": {
+     "url": "https://theshiftproject.org/app/uploads/2025/02/The-Shift-Project-Reponse-J-L.-Melenchon-2022.pdf",
+     "titre": "Réponse d'un candidat de 2022 au questionnaire du Shift Project",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "sens discutable : le nucléaire émet peu de CO2",
+     "decision": "sens +1 par défaut ; sans effet sur le score"
+    },
+    {
+     "signalement": "proposition de 2022 ; reprise pour 2027 non vérifiée",
+     "decision": "conservée"
+    },
+    {
+     "signalement": "énoncé d'origine réunissant sortie du nucléaire et 100 % renouvelables",
+     "decision": "raccourci à la sortie du nucléaire (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "ancien_enonce": "La France doit sortir du nucléaire d'ici 2050 et produire toute son électricité à partir d'énergies renouvelables."
+    }
+   ]
+  },
+  {
+   "id": "ENV-003",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": 1,
+   "enonce": "Le glyphosate doit être interdit.",
+   "precision": "Le glyphosate est l'herbicide le plus utilisé en France. Il est autorisé dans l'Union européenne jusqu'en 2033.",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024 (interdiction avec accompagnement financier)",
+    "source": {
+     "url": "https://melenchon2027.fr/wp-content/uploads/2026/04/PROGRAMME-FRONT-POPULAIRE.pdf",
+     "titre": "Contrat de législature — Nouveau Front Populaire (2024)",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "échéance européenne de 2033 non revérifiée",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-004",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": 1,
+   "enonce": "L'autorisation dérogatoire de l'acétamipride, rétablie en août 2026, doit être supprimée.",
+   "precision": "L'acétamipride est un insecticide de la famille des néonicotinoïdes, interdit en France depuis 2018. La loi du 18 août 2026 permet de nouveau son usage, par dérogation, pour certaines cultures.",
+   "origine": {
+    "description": "Loi n° 2026-796 du 18 août 2026, adoptée par 296 voix contre 224",
+    "source": {
+     "url": "https://www.banquedesterritoires.fr/la-loi-durgence-agricole-promulguee-tout-ce-quil-faut-en-retenir",
+     "titre": "La loi d'urgence agricole promulguée : tout ce qu'il faut en retenir",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "origine = état du droit ; proposition formelle d'abrogation non trouvée ; date de 2018 non revérifiée",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-005",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": 1,
+   "enonce": "La construction de grandes retenues d'eau agricoles doit être suspendue pendant dix ans.",
+   "precision": "Ces retenues, souvent appelées « méga-bassines », stockent l'eau pompée en hiver pour l'irrigation d'été.",
+   "origine": {
+    "description": "Proposition de loi n° 1303 du 17 avril 2025",
+    "source": {
+     "url": "https://www.lemondedudroit.fr/public/284-environnement/98923-instaurer-un-moratoire-sur-les-mega-bassines-depot-a-l-an.html",
+     "titre": "Instaurer un moratoire sur les méga-bassines : dépôt à l'AN",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "« méga-bassines » est le terme des opposants ; « retenues de substitution » celui des promoteurs",
+     "decision": "conservé (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-006",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": 1,
+   "enonce": "Tous les nouveaux projets d'autoroutes doivent être suspendus.",
+   "precision": null,
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024 (moratoire sur les grands projets d'infrastructures autoroutières)",
+    "source": {
+     "url": "https://melenchon2027.fr/wp-content/uploads/2026/04/PROGRAMME-FRONT-POPULAIRE.pdf",
+     "titre": "Contrat de législature — Nouveau Front Populaire (2024)",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-007",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": 1,
+   "enonce": "Les vols intérieurs doivent être interdits lorsqu'un trajet en train de moins de quatre heures existe.",
+   "precision": "Cette interdiction s'applique déjà lorsque le trajet en train dure moins de deux heures et demie.",
+   "origine": {
+    "description": "Proposition de la présidentielle de 2022 (liaisons sans correspondance internationale)",
+    "source": {
+     "url": "https://theshiftproject.org/app/uploads/2025/02/The-Shift-Project-Reponse-J-L.-Melenchon-2022.pdf",
+     "titre": "Réponse d'un candidat de 2022 au questionnaire du Shift Project",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "le décret de 2023 était limité à trois ans : reconduction en 2026 non vérifiée",
+     "decision": "à vérifier avant publication"
+    },
+    {
+     "signalement": "proposition de 2022 ; reprise pour 2027 non vérifiée",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-008",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": 1,
+   "enonce": "L'élevage en cages doit être interdit.",
+   "precision": null,
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://melenchon2027.fr/wp-content/uploads/2026/04/PROGRAMME-FRONT-POPULAIRE.pdf",
+     "titre": "Contrat de législature — Nouveau Front Populaire (2024)",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-009",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": 1,
+   "enonce": "La Constitution doit interdire de prélever sur la nature plus que ce qu'elle peut reconstituer.",
+   "precision": "Mesure souvent appelée « règle verte ».",
+   "origine": {
+    "description": "Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://melenchon2027.fr/wp-content/uploads/2026/04/PROGRAMME-FRONT-POPULAIRE.pdf",
+     "titre": "Contrat de législature — Nouveau Front Populaire (2024)",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-010",
+   "theme": "ecologie-energie",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Les premiers mètres cubes d'eau indispensables à chaque personne doivent être gratuits.",
+   "precision": null,
+   "origine": {
+    "description": "Amendement rejeté à l'Assemblée nationale le 13 mars 2025 (50 litres par jour et par personne) ; Programme commun de gauche des législatives de 2024",
+    "source": {
+     "url": "https://datan.fr/votes/legislature-17/vote_996",
+     "titre": "Scrutin du 13 mars 2025 sur l'amendement n° 15",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "relève plutôt de l'axe économie",
+     "decision": "axe économie, sens +1"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-011",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": -1,
+   "enonce": "L'État doit cesser de soutenir financièrement toute nouvelle installation éolienne.",
+   "precision": "Un moratoire a été voté à l'Assemblée nationale en juin 2025, dans un texte finalement rejeté.",
+   "origine": {
+    "description": "Amendement adopté le 19 juin 2025 ; proposition de loi en préparation rapportée en juin 2026",
+    "source": {
+     "url": "https://www.revolution-energetique.com/actus/moratoire-eolien-et-solaire-le-rn-remet-la-pression-a-un-an-de-la-presidentielle/",
+     "titre": "Moratoire éolien et solaire : le RN remet la pression à un an de la présidentielle",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "sens discutable : la mesure est aussi défendue au nom de la protection des paysages",
+     "decision": "sens −1 par défaut ; sans effet sur le score"
+    },
+    {
+     "signalement": "éolien et solaire dans un énoncé : réunis dans la proposition d'origine",
+     "decision": "scindée : ENV-011 (éolien) et ENV-022 (solaire) (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "ancien_enonce": "L'État doit cesser de soutenir financièrement toute nouvelle installation éolienne ou solaire."
+    }
+   ]
+  },
+  {
+   "id": "ENV-012",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": -1,
+   "enonce": "Les zones à faibles émissions doivent être supprimées.",
+   "precision": "Zone à faibles émissions (ZFE) : périmètre où les véhicules les plus polluants n'ont pas le droit de circuler. Leur suppression, votée en 2026, a été annulée par le Conseil constitutionnel pour une raison de procédure.",
+   "origine": {
+    "description": "Loi de simplification de la vie économique ; décision n° 2026-903 DC du 21 mai 2026",
+    "source": {
+     "url": "https://www.banquedesterritoires.fr/loi-de-simplification-les-zfe-remises-en-piste-apres-la-decision-du-conseil-constitutionnel",
+     "titre": "Loi de simplification : les ZFE remises en piste après la décision du Conseil constitutionnel",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-013",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": -1,
+   "enonce": "L'obligation de réduire de moitié l'artificialisation des sols d'ici 2031 doit être supprimée.",
+   "precision": "Artificialisation : transformation de terres naturelles ou agricoles en zones construites. La loi impose de la diviser par deux d'ici 2031 et vise « zéro artificialisation nette » en 2050.",
+   "origine": {
+    "description": "Proposition de loi adoptée par le Sénat le 18 mars 2025",
+    "source": {
+     "url": "https://www.weka.fr/actualite/?p=208102",
+     "titre": "Article Weka sur la proposition de loi TRACE (titre exact à relever)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "la proposition remplace l'obligation par un jalon non contraignant en 2034 ; issue à l'Assemblée non trouvée",
+     "decision": "à vérifier avant publication"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-014",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": -1,
+   "enonce": "La recherche et l'exploitation de pétrole et de gaz doivent être de nouveau autorisées en outre-mer.",
+   "precision": "Elles sont interdites sur tout le territoire français depuis 2017. Une proposition de loi levant cette interdiction outre-mer a été adoptée par le Sénat puis rejetée par l'Assemblée nationale en juin 2026.",
+   "origine": {
+    "description": "Proposition de loi adoptée par le Sénat le 29 janvier 2026",
+    "source": {
+     "url": "https://www.maire-info.com/les-senateurs-approuvent-la-relance-de-lexploitation-des-hydrocarbures-en-outre-mer-article2-30431",
+     "titre": "Les sénateurs approuvent la relance de l'exploitation des hydrocarbures en outre-mer",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-015",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": -1,
+   "enonce": "L'Agence de la transition écologique (Ademe) doit être supprimée.",
+   "precision": "L'Ademe finance et accompagne des projets de transition énergétique et de gestion des déchets.",
+   "origine": {
+    "description": "Amendement au projet de loi de finances pour 2026 (6 novembre 2025)",
+    "source": {
+     "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/1906C/CION_FIN/CF2572.pdf",
+     "titre": "Amendement II-CF2572 au projet de loi de finances pour 2026",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-016",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": -1,
+   "enonce": "L'Office français de la biodiversité (OFB) doit être supprimé.",
+   "precision": "L'OFB assure la police de l'environnement et la protection des espèces.",
+   "origine": {
+    "description": "Déclaration publique du 15 janvier 2025",
+    "source": {
+     "url": "https://www.futura-sciences.com/planete/actualites/environnement-politiques-veulent-supprimer-agences-environnementales-cest-france-ca-passe-118930/",
+     "titre": "Article Futura sur les propositions de suppression des agences environnementales (titre exact à relever)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-017",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": -1,
+   "enonce": "L'interdiction de louer les logements les plus mal isolés doit être supprimée.",
+   "precision": "Depuis 2025, les logements classés G au diagnostic de performance énergétique ne peuvent plus être mis en location.",
+   "origine": {
+    "description": "Programme des législatives de 2024, d'après une source secondaire",
+    "source": {
+     "url": "https://bonpote.com/le-programme-energie-du-rassemblement-national-surconsommation-et-flambee-des-factures-denergie/",
+     "titre": "Le programme énergie du Rassemblement national (Bon Pote, 27 juin 2024)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "source secondaire et critique ; un projet de loi en cours prévoit des dérogations, pas une suppression",
+     "decision": "à compléter"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-018",
+   "theme": "ecologie-energie",
+   "axe": "europe",
+   "sens": -1,
+   "enonce": "La France doit sortir des règles du marché européen de l'électricité pour fixer elle-même le prix de l'électricité.",
+   "precision": null,
+   "origine": {
+    "description": "Programme des législatives de 2024 ; proposition de loi en préparation rapportée en juin 2026",
+    "source": {
+     "url": "https://www.revolution-energetique.com/actus/moratoire-eolien-et-solaire-le-rn-remet-la-pression-a-un-an-de-la-presidentielle/",
+     "titre": "Moratoire éolien et solaire : le RN remet la pression à un an de la présidentielle",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "texte d'origine non relu ; pourrait relever du lot Union européenne",
+     "decision": "axe Europe, sens −1"
+    }
+   ],
+   "scrutins": [],
+   "historique": []
+  },
+  {
+   "id": "ENV-019",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": 1,
+   "enonce": "La vitesse maximale sur autoroute doit être abaissée à 110 km/h.",
+   "precision": null,
+   "origine": {
+    "description": "Convention citoyenne pour le climat (juin 2020)",
+    "source": {
+     "url": "https://www.linfodurable.fr/convention-climat-macron-ecarte-les-110-kmh-sur-autoroute-18734",
+     "titre": "Convention climat : Macron écarte les 110 km/h sur autoroute",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "suspendue",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucune reprise par un parti trouvée",
+     "decision": "suspendue"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "suspendue : conservée dans la banque mais non posée, faute de proposition actuelle portée par un responsable politique ; à réactiver si un candidat se positionne"
+    }
+   ]
+  },
+  {
+   "id": "ENV-020",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": 1,
+   "enonce": "La chasse doit être interdite le dimanche.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition de loi discutée à l'Assemblée nationale le 6 avril 2023",
+    "source": {
+     "url": "https://www.publicsenat.fr/actualites/politique/petition-le-senat-appele-a-ouvrir-le-debat-sur-la-limitation-de-la-chasse",
+     "titre": "Pétition : le Sénat appelé à ouvrir le débat sur la limitation de la chasse",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "suspendue",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucune reprise dans un programme pour 2027 trouvée",
+     "decision": "suspendue"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "suspendue : conservée dans la banque mais non posée, faute de proposition actuelle portée par un responsable politique ; à réactiver si un candidat se positionne"
+    }
+   ]
+  },
+  {
+   "id": "ENV-021",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": 1,
+   "enonce": "La France doit réduire ses émissions de gaz à effet de serre de 65 % d'ici 2030 par rapport à 1990.",
+   "precision": null,
+   "origine": {
+    "description": "Proposition de la présidentielle de 2022",
+    "source": {
+     "url": "https://theshiftproject.org/app/uploads/2025/02/The-Shift-Project-Reponse-J-L.-Melenchon-2022.pdf",
+     "titre": "Réponse d'un candidat de 2022 au questionnaire du Shift Project",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "suspendue",
+   "alertes_neutralite": [
+    {
+     "signalement": "objectif actuel non vérifié ; proposition de 2022 non reprise",
+     "decision": "suspendue"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "suspendue : conservée dans la banque mais non posée, faute de proposition actuelle portée par un responsable politique ; à réactiver si un candidat se positionne"
+    }
+   ]
+  },
+  {
+   "id": "ENV-022",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": -1,
+   "enonce": "L'État doit cesser de soutenir financièrement toute nouvelle installation solaire.",
+   "precision": "Un moratoire sur l'éolien et le solaire a été voté à l'Assemblée nationale en juin 2025, dans un texte finalement rejeté.",
+   "origine": {
+    "description": "Amendement adopté le 19 juin 2025 ; proposition de loi en préparation rapportée en juin 2026",
+    "source": {
+     "url": "https://www.revolution-energetique.com/actus/moratoire-eolien-et-solaire-le-rn-remet-la-pression-a-un-an-de-la-presidentielle/",
+     "titre": "Moratoire éolien et solaire : le RN remet la pression à un an de la présidentielle",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "créée par scission de ENV-011"
+    }
+   ]
+  },
+  {
+   "id": "ENV-023",
+   "theme": "ecologie-energie",
+   "axe": "ecologie",
+   "sens": -1,
+   "enonce": "Huit réacteurs nucléaires supplémentaires doivent être construits, en plus des six déjà décidés.",
+   "precision": "La programmation de l'énergie publiée le 13 février 2026 prévoit six nouveaux réacteurs et huit autres en option.",
+   "origine": {
+    "description": "Programmation pluriannuelle de l'énergie (décret publié le 13 février 2026)",
+    "source": {
+     "url": "https://www.connaissancedesenergies.org/afp/ppe-3-le-decret-sur-la-feuille-de-route-energetique-publie-au-jo-260213",
+     "titre": "PPE 3 : le décret sur la feuille de route énergétique publié au JO",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "sens discutable : le nucléaire émet peu de CO2",
+     "decision": "sens −1 par défaut ; sans effet sur le score"
+    },
+    {
+     "signalement": "origine = option de la programmation officielle, sans porteur identifié",
+     "decision": "ajoutée sur décision du 2026-10-03"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "ajoutée pour couvrir la construction de nouveaux réacteurs"
+    }
+   ]
+  },
+  {
+   "id": "ENV-024",
+   "theme": "ecologie-energie",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "L'État doit bloquer le prix du gaz en cas de forte hausse.",
+   "precision": "Le tarif réglementé du gaz a été supprimé en 2023 : les prix sont fixés librement par les fournisseurs. Le gouvernement a refusé un blocage lors de la hausse du printemps 2026.",
+   "origine": {
+    "description": "Proposition de loi n° 453 déposée au Sénat le 13 mars 2026 (plafonnement pendant six mois) ; proposition de loi déposée à l'Assemblée nationale le 6 mars 2026 (gel de trois mois)",
+    "source": {
+     "url": "https://www.senat.fr/leg/ppl25-453.pdf",
+     "titre": "Proposition de loi n° 453 visant à bloquer les prix du gaz et des carburants et à encadrer les marges en période de crise",
+     "date_consultation": "2026-10-03",
+     "nature": "primaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "les deux propositions réunissent gaz et carburants",
+     "decision": "scindée : ENV-024 (gaz) et ENV-025 (carburants)"
+    },
+    {
+     "signalement": "« forte hausse » : les textes parlent de crise internationale",
+     "decision": "« forte hausse » conservé (2026-10-03)"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "ajoutée à la demande de Mathieu (prix du gaz)"
+    }
+   ]
+  },
+  {
+   "id": "ENV-025",
+   "theme": "ecologie-energie",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "L'État doit bloquer le prix des carburants en cas de forte hausse.",
+   "precision": "Au printemps 2026, le gouvernement a refusé un blocage et a choisi des aides ciblées.",
+   "origine": {
+    "description": "Proposition de loi n° 453 déposée au Sénat le 13 mars 2026 ; proposition de loi déposée à l'Assemblée nationale le 6 mars 2026",
+    "source": {
+     "url": "https://lcp.fr/actualites/essence-lfi-depose-une-proposition-de-loi-pour-bloquer-les-prix-432389",
+     "titre": "Essence : LFI dépose une proposition de loi pour bloquer les prix",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "ajoutée avec ENV-024"
+    }
+   ]
+  },
+  {
+   "id": "ENV-026",
+   "theme": "ecologie-energie",
+   "axe": "economie",
+   "sens": 1,
+   "enonce": "Les aides publiques à l'achat d'une voiture électrique doivent être réservées aux véhicules assemblés en Europe.",
+   "precision": "Aujourd'hui, l'aide à l'achat va jusqu'à 5 700 euros, avec un supplément lorsque la batterie est européenne. Un texte européen en discussion réserverait les aides aux véhicules assemblés dans l'Union.",
+   "origine": {
+    "description": "Proposition de règlement européen du 4 mars 2026 (70 % de composants européens) ; position du gouvernement français de janvier 2026 (75 % de contenu local)",
+    "source": {
+     "url": "https://journalauto.com/industrie/bruxelles-devoile-ses-regles-de-contenu-local-pour-lautomobile-electrique-subventionnee/",
+     "titre": "Bruxelles dévoile ses règles de contenu local pour l'automobile électrique subventionnée (titre à contrôler)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "active",
+   "alertes_neutralite": [
+    {
+     "signalement": "aucune proposition de supprimer ou d'augmenter les aides n'a été trouvée",
+     "decision": "conservée"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "ajoutée à la demande de Mathieu (voitures électriques)"
+    }
+   ]
+  },
+  {
+   "id": "ENV-027",
+   "theme": "ecologie-energie",
+   "axe": "economie",
+   "sens": -1,
+   "enonce": "Une taxe annuelle d'environ 95 euros par voiture doit être créée pour compenser la baisse des recettes de taxes sur les carburants.",
+   "precision": "Les voitures électriques ne paient pas de taxe sur les carburants ; un rapport estime la perte de recettes à 7 à 10 milliards d'euros en 2030.",
+   "origine": {
+    "description": "Rapport du Conseil des prélèvements obligatoires du 3 juin 2026",
+    "source": {
+     "url": "https://selectra.info/energie/actualites/marche/taxe-detention-vehicules-vignette-voiture-electrique",
+     "titre": "Article Selectra sur la taxe de détention des véhicules (titre exact à relever)",
+     "date_consultation": "2026-10-03",
+     "nature": "secondaire"
+    }
+   },
+   "statut": "suspendue",
+   "alertes_neutralite": [
+    {
+     "signalement": "origine = rapport, sans porteur politique",
+     "decision": "suspendue"
+    }
+   ],
+   "scrutins": [],
+   "historique": [
+    {
+     "date": "2026-10-03",
+     "note": "suspendue : conservée dans la banque mais non posée, faute de responsable politique identifié pour la porter ; à réactiver si un candidat se positionne"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,547 @@
+{
+ "candidat_id": "arthaud-nathalie",
+ "_statut": "PILOTE retraites — à valider ; arbitrages et contrôle humain en attente",
+ "grille_version": "1.1",
+ "programme": {
+  "officiel_disponible": true,
+  "date_publication": "2026-06-26",
+  "url": "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf",
+  "note": "Brochure de campagne « Nathalie Arthaud - Présidentielle 2027 » (supplément au journal du parti, été 2026 ; date et statut lus via résumé automatique du PDF, à confirmer). Texte général, très peu détaillé sur les retraites : aucun âge légal, durée de cotisation ou montant chiffré. La capitalisation n'y est mentionnée que pour décrire le projet d'un adversaire, sans position explicite. Les positions chiffrées (60 ans, 37,5 annuités, 2 000 euros) ne proviennent que de synthèses de presse de la campagne 2022."
+ },
+ "positions": [
+  {
+   "question_id": "RET-001",
+   "code": 1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "77e4e2b3",
+   "extraits": [
+    {
+     "reformulation": "Selon l'article (campagne 2022), Nathalie Arthaud souhaite ramener l'âge légal de départ à la retraite à 60 ans.",
+     "citation_courte": null,
+     "reformulation_anonymisee": "Selon l'article (campagne 2022), [CANDIDAT] souhaite ramener l'âge légal de départ à la retraite à 60 ans.",
+     "citation_anonymisee": null,
+     "source": {
+      "url": "https://www.moneyvox.fr/retraite/actualites/87657/presidentielle-2022-qui-veut-la-retraite-a-65-ans",
+      "titre": "Présidentielle 2022 : qui veut la retraite à 65 ans ?",
+      "date_publication": "2022-03-21",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": null
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Veut 60 ans : va plus loin que 62 ans (R1).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "R1 : il veut 60 ans, plus loin que 62 ans dans le même sens.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": true,
+    "date": null,
+    "resultat": null
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-002",
+   "code": 2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "de28ca18",
+   "extraits": [
+    {
+     "reformulation": "Selon l'article (campagne 2022), Nathalie Arthaud souhaite ramener l'âge légal de départ à la retraite à 60 ans.",
+     "citation_courte": null,
+     "reformulation_anonymisee": "Selon l'article (campagne 2022), [CANDIDAT] souhaite ramener l'âge légal de départ à la retraite à 60 ans.",
+     "citation_anonymisee": null,
+     "source": {
+      "url": "https://www.moneyvox.fr/retraite/actualites/87657/presidentielle-2022-qui-veut-la-retraite-a-65-ans",
+      "titre": "Présidentielle 2022 : qui veut la retraite à 65 ans ?",
+      "date_publication": "2022-03-21",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": null
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Veut ramener l'âge légal à 60 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Il souhaite ramener l'âge légal à 60 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-003",
+   "code": -2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "de3bdb14",
+   "extraits": [
+    {
+     "reformulation": "La brochure de campagne dénonce les dirigeants qui, pour alléger impôts et cotisations des grands groupes, démolissent les droits des travailleurs et reculent l'âge de la retraite. Critique générale, sans âge chiffré proposé.",
+     "citation_courte": "reculent l'âge de la retraite",
+     "reformulation_anonymisee": "Le document de campagne de [CANDIDAT] dénonce les dirigeants qui, pour alléger impôts et cotisations des grands groupes, démolissent les droits des travailleurs et reculent l'âge de la retraite. Critique générale, sans âge chiffré proposé.",
+     "citation_anonymisee": "reculent l'âge de la retraite",
+     "source": {
+      "url": "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf",
+      "titre": "Nathalie Arthaud - Présidentielle 2027 (brochure de campagne, été 2026)",
+      "date_publication": "2026-06-26",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Selon l'article (campagne 2022), Nathalie Arthaud souhaite ramener l'âge légal de départ à la retraite à 60 ans.",
+     "citation_courte": null,
+     "reformulation_anonymisee": "Selon l'article (campagne 2022), [CANDIDAT] souhaite ramener l'âge légal de départ à la retraite à 60 ans.",
+     "citation_anonymisee": null,
+     "source": {
+      "url": "https://www.moneyvox.fr/retraite/actualites/87657/presidentielle-2022-qui-veut-la-retraite-a-65-ans",
+      "titre": "Présidentielle 2022 : qui veut la retraite à 65 ans ?",
+      "date_publication": "2022-03-21",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": null
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Dénonce le recul de l'âge et, en source concordante, veut revenir à 60 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il dénonce le recul de l'âge de la retraite, et sa position de 2022 est de 60 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-005",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-006",
+   "code": 1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "1949f2d0",
+   "extraits": [
+    {
+     "reformulation": "Selon cette synthèse des programmes 2022, Nathalie Arthaud défend un départ à 60 ans avec 37,5 annuités de cotisation.",
+     "citation_courte": "37,5 annuités de cotisation",
+     "reformulation_anonymisee": "Selon cette synthèse des programmes 2022, [CANDIDAT] défend un départ à 60 ans avec 37,5 annuités de cotisation.",
+     "citation_anonymisee": "37,5 annuités de cotisation",
+     "source": {
+      "url": "https://www.lafinancepourtous.com/2022/03/25/elections-presidentielles-les-propositions-des-candidats-sur-la-retraite/",
+      "titre": "Élections présidentielles : les propositions des candidats sur la retraite",
+      "date_publication": "2022-03-25",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "37,5 annuités : va plus loin que 40 ans (R1).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "R1 : il défend 37,5 annuités, plus loin que 40 ans dans le même sens.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-007",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-008",
+   "code": -1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "93039198",
+   "extraits": [
+    {
+     "reformulation": "La brochure affirme qu'il faut imposer une augmentation massive des salaires, des allocations et des pensions, et leur indexation sur la hausse des prix. Formulé comme un objectif à imposer par les travailleurs.",
+     "citation_courte": "des pensions et leur indexation sur la hausse des prix",
+     "reformulation_anonymisee": "Le document de campagne de [CANDIDAT] affirme qu'il faut imposer une augmentation massive des salaires, des allocations et des pensions, et leur indexation sur la hausse des prix. Formulé comme un objectif à imposer par les travailleurs.",
+     "citation_anonymisee": "des pensions et leur indexation sur la hausse des prix",
+     "source": {
+      "url": "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf",
+      "titre": "Nathalie Arthaud - Présidentielle 2027 (brochure de campagne, été 2026)",
+      "date_publication": "2026-06-26",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    },
+    {
+     "reformulation": "Selon LCP (campagne 2022), Nathalie Arthaud veut porter ensemble le Smic et les pensions à 2000 euros minimum, avec à terme une indexation des pensions sur les salaires.",
+     "citation_courte": "avec à terme une indexation des pensions sur les salaires",
+     "reformulation_anonymisee": "Selon l'article (campagne 2022), [CANDIDAT] veut porter ensemble le Smic et les pensions à 2000 euros minimum, avec à terme une indexation des pensions sur les salaires.",
+     "citation_anonymisee": "avec à terme une indexation des pensions sur les salaires",
+     "source": {
+      "url": "https://lcp.fr/actualites/presidentielle-le-grand-ecart-des-propositions-sur-les-retraites-107244",
+      "titre": "Présidentielle : le grand écart des propositions sur les retraites",
+      "date_publication": "2022-03-22",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Source la plus récente : indexation sur les prix (règle actuelle), qui l'emporte sur l'indexation sur salaires de 2022.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "La source la plus récente retient l'indexation sur les prix, accompagnée d'une hausse massive des pensions, ce qui va contre l'énoncé avec une réserve.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-009",
+   "code": -2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "ddf1960b",
+   "extraits": [
+    {
+     "reformulation": "La brochure affirme qu'il faut imposer une augmentation massive des salaires, des allocations et des pensions, et leur indexation sur la hausse des prix. Formulé comme un objectif à imposer par les travailleurs.",
+     "citation_courte": "des pensions et leur indexation sur la hausse des prix",
+     "reformulation_anonymisee": "Le document de campagne de [CANDIDAT] affirme qu'il faut imposer une augmentation massive des salaires, des allocations et des pensions, et leur indexation sur la hausse des prix. Formulé comme un objectif à imposer par les travailleurs.",
+     "citation_anonymisee": "des pensions et leur indexation sur la hausse des prix",
+     "source": {
+      "url": "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf",
+      "titre": "Nathalie Arthaud - Présidentielle 2027 (brochure de campagne, été 2026)",
+      "date_publication": "2026-06-26",
+      "type": "programme_officiel"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Exige une augmentation massive et l'indexation des pensions sur les prix, contraire d'un gel.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il veut une augmentation massive des pensions et leur indexation sur les prix, soit le contraire d'un gel.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-010",
+   "code": 1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "2d59cbce",
+   "extraits": [
+    {
+     "reformulation": "Dans son programme 2022, cité par l'article, Nathalie Arthaud écrit qu'aucun salaire ni aucune pension de retraite ne doit être inférieur à 2 000 euros nets.",
+     "citation_courte": "aucune pension de retraite ne doivent être inférieurs à 2 000 euros nets",
+     "reformulation_anonymisee": "Dans son programme 2022, cité par l'article, [CANDIDAT] écrit qu'aucun salaire ni aucune pension de retraite ne doit être inférieur à 2 000 euros nets.",
+     "citation_anonymisee": "aucune pension de retraite ne doivent être inférieurs à 2 000 euros nets",
+     "source": {
+      "url": "https://www.moneyvox.fr/retraite/actualites/87657/presidentielle-2022-qui-veut-la-retraite-a-65-ans",
+      "titre": "Présidentielle 2022 : qui veut la retraite à 65 ans ?",
+      "date_publication": "2022-03-21",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Aucune pension sous 2 000 euros nets : va plus loin que le SMIC net (R1).",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "R1 : aucune pension inférieure à 2 000 euros nets, soit un plancher égal à celui des salaires et donc au moins au niveau du SMIC, mais sans mention de la carrière complète.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-011",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-012",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-013",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-014",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-015",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-016",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-017",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-018",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-019",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-022",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  }
+ ]
+}

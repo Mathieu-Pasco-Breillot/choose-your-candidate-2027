@@ -1,0 +1,519 @@
+{
+ "candidat_id": "dupont-aignan-nicolas",
+ "_statut": "PILOTE retraites — à valider ; arbitrages et contrôle humain en attente",
+ "grille_version": "1.1",
+ "programme": {
+  "officiel_disponible": false,
+  "date_publication": null,
+  "url": null,
+  "note": "Pas de programme officiel 2027 publié : la page https://www.debout-la-france.fr/notre-projet/ (modifiée le 2026-09-08) indique que le programme est en cours d'actualisation pour 2027. La fiche parti https://www.debout-la-france.fr/projet/retraites/ (modifiée le 2024-02-05, donc antérieure à la candidature) n'a pas été retenue comme source ; elle reprend le texte de 2022 (maintien de l'âge et de la durée, indexation a minima sur l'inflation, opposition à toute baisse des pensions de réversion, meilleure prise en compte de la pénibilité)."
+ },
+ "positions": [
+  {
+   "question_id": "RET-001",
+   "code": 2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "34d566bd",
+   "extraits": [
+    {
+     "reformulation": "En janvier 2023, Nicolas Dupont-Aignan juge la réforme portant l'âge légal à 64 ans inutile, injuste et prématurée, le financement des retraites étant selon lui assuré. Il veut lancer un référendum d'initiative partagée sur le maintien de la retraite à 62 ans.",
+     "citation_courte": "cette réforme des retraites est abominable, elle est inutile et injuste",
+     "reformulation_anonymisee": "En janvier 2023, [CANDIDAT] juge la réforme portant l'âge légal à 64 ans inutile, injuste et prématurée, le financement des retraites étant selon lui assuré. Il veut lancer un référendum d'initiative partagée sur le maintien de la retraite à 62 ans.",
+     "citation_anonymisee": "cette réforme des retraites est abominable, elle est inutile et injuste",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/retraites-une-reforme-abominable-inutile-et-injuste-pour-nicolas-dupont-aignan",
+      "titre": "Retraites : une réforme « abominable, inutile et injuste » pour Nicolas Dupont-Aignan",
+      "date_publication": "2023-01-16",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Rejette le passage à 64 ans et défend le maintien à 62 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 2,
+     "nature": "nette",
+     "justification": "Il veut un référendum pour maintenir la retraite à 62 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": true,
+    "date": null,
+    "resultat": null
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-002",
+   "code": null,
+   "nature": null,
+   "statut": "arbitrage_en_attente",
+   "item_aveugle": "821f1d1e",
+   "extraits": [
+    {
+     "reformulation": "En janvier 2023, Nicolas Dupont-Aignan juge la réforme portant l'âge légal à 64 ans inutile, injuste et prématurée, le financement des retraites étant selon lui assuré. Il veut lancer un référendum d'initiative partagée sur le maintien de la retraite à 62 ans.",
+     "citation_courte": "cette réforme des retraites est abominable, elle est inutile et injuste",
+     "reformulation_anonymisee": "En janvier 2023, [CANDIDAT] juge la réforme portant l'âge légal à 64 ans inutile, injuste et prématurée, le financement des retraites étant selon lui assuré. Il veut lancer un référendum d'initiative partagée sur le maintien de la retraite à 62 ans.",
+     "citation_anonymisee": "cette réforme des retraites est abominable, elle est inutile et injuste",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/retraites-une-reforme-abominable-inutile-et-injuste-pour-nicolas-dupont-aignan",
+      "titre": "Retraites : une réforme « abominable, inutile et injuste » pour Nicolas Dupont-Aignan",
+      "date_publication": "2023-01-16",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Veut maintenir 62 ans contre 64 : baisse partielle par rapport à 60 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Il veut maintenir la retraite à 62 ans, ce qui contredit les 60 ans sans proposer le contraire.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": false
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-003",
+   "code": -2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "0a947a43",
+   "extraits": [
+    {
+     "reformulation": "En janvier 2023, Nicolas Dupont-Aignan juge la réforme portant l'âge légal à 64 ans inutile, injuste et prématurée, le financement des retraites étant selon lui assuré. Il veut lancer un référendum d'initiative partagée sur le maintien de la retraite à 62 ans.",
+     "citation_courte": "cette réforme des retraites est abominable, elle est inutile et injuste",
+     "reformulation_anonymisee": "En janvier 2023, [CANDIDAT] juge la réforme portant l'âge légal à 64 ans inutile, injuste et prématurée, le financement des retraites étant selon lui assuré. Il veut lancer un référendum d'initiative partagée sur le maintien de la retraite à 62 ans.",
+     "citation_anonymisee": "cette réforme des retraites est abominable, elle est inutile et injuste",
+     "source": {
+      "url": "https://www.publicsenat.fr/actualites/politique/retraites-une-reforme-abominable-inutile-et-injuste-pour-nicolas-dupont-aignan",
+      "titre": "Retraites : une réforme « abominable, inutile et injuste » pour Nicolas Dupont-Aignan",
+      "date_publication": "2023-01-16",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Rejette le report à 64 ans et veut le maintien à 62 ans, contraire de 65 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il rejette le report de l'âge légal et veut maintenir la retraite à 62 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-005",
+   "code": -1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "15d5e08c",
+   "extraits": [
+    {
+     "reformulation": "Dans ses réponses écrites à un questionnaire (avril 2022), il dit souhaiter maintenir l'âge minimum de départ et la durée de cotisation alors en vigueur, qu'il rattache à la réforme de 2010. Il préfère augmenter le nombre de cotisants (emploi, travailleurs détachés, politique familiale).",
+     "citation_courte": "maintenir l'âge minimum de départ à la retraite et la durée de cotisations actuelle",
+     "reformulation_anonymisee": "Dans ses réponses écrites à un questionnaire (avril 2022), [CANDIDAT] dit souhaiter maintenir l'âge minimum de départ et la durée de cotisation alors en vigueur, qu'il rattache à la réforme de 2010. Il préfère augmenter le nombre de cotisants (emploi, travailleurs détachés, politique familiale).",
+     "citation_anonymisee": "maintenir l'âge minimum de départ à la retraite et la durée de cotisations actuelle",
+     "source": {
+      "url": "https://www.previssima.fr/actualite/presidentielle-2022-nicolas-dupont-aignan-repond-a-nos-questions-en-matiere-de-protection-sociale.html",
+      "titre": "Présidentielle 2022 : Nicolas Dupont-Aignan répond à nos questions en matière de protection sociale",
+      "date_publication": "2022-04-01",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Veut maintenir la durée de cotisation en vigueur : statu quo opposé à 45 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Il veut maintenir la durée de cotisation en vigueur et préfère augmenter le nombre de cotisants, sans la porter à 45 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-006",
+   "code": -1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "66f053d6",
+   "extraits": [
+    {
+     "reformulation": "Dans ses réponses écrites à un questionnaire (avril 2022), il dit souhaiter maintenir l'âge minimum de départ et la durée de cotisation alors en vigueur, qu'il rattache à la réforme de 2010. Il préfère augmenter le nombre de cotisants (emploi, travailleurs détachés, politique familiale).",
+     "citation_courte": "maintenir l'âge minimum de départ à la retraite et la durée de cotisations actuelle",
+     "reformulation_anonymisee": "Dans ses réponses écrites à un questionnaire (avril 2022), [CANDIDAT] dit souhaiter maintenir l'âge minimum de départ et la durée de cotisation alors en vigueur, qu'il rattache à la réforme de 2010. Il préfère augmenter le nombre de cotisants (emploi, travailleurs détachés, politique familiale).",
+     "citation_anonymisee": "maintenir l'âge minimum de départ à la retraite et la durée de cotisations actuelle",
+     "source": {
+      "url": "https://www.previssima.fr/actualite/presidentielle-2022-nicolas-dupont-aignan-repond-a-nos-questions-en-matiere-de-protection-sociale.html",
+      "titre": "Présidentielle 2022 : Nicolas Dupont-Aignan répond à nos questions en matière de protection sociale",
+      "date_publication": "2022-04-01",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Veut maintenir la durée de cotisation en vigueur : statu quo opposé à 40 ans.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -1,
+     "nature": "nuancee",
+     "justification": "Il veut maintenir la durée de cotisation actuelle et non la ramener à 40 ans, sans exprimer de refus du sens opposé.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-007",
+   "code": 1,
+   "nature": "nuancee",
+   "statut": "accord",
+   "item_aveugle": "e56f1e54",
+   "extraits": [
+    {
+     "reformulation": "En septembre 2026, il propose que l'État verse à chaque nouveau-né français un capital de 10 000 euros sur un livret retraite bloqué jusqu'à 60 ans, regroupé dans un fonds public de capitalisation « à la norvégienne ». Ce socle minimum par capitalisation serait complété par la répartition ; coût annoncé de 6 à 7 milliards d'euros par an, financé par l'État (et non par une cotisation des salariés).",
+     "citation_courte": "chaque Français saura qu'il aura un minimum retraite par capitalisation",
+     "reformulation_anonymisee": "En septembre 2026, [CANDIDAT] propose que l'État verse à chaque nouveau-né français un capital de 10 000 euros sur un livret retraite bloqué jusqu'à 60 ans, regroupé dans un fonds public de capitalisation sur le modèle norvégien. Ce socle minimum par capitalisation serait complété par la répartition ; coût annoncé de 6 à 7 milliards d'euros par an, financé par l'État (et non par une cotisation des salariés).",
+     "citation_anonymisee": "chaque Français saura qu'il aura un minimum retraite par capitalisation",
+     "source": {
+      "url": "https://www.europe1.fr/politique/restaurer-la-confiance-nicolas-dupont-aignan-propose-un-capital-de-10000-euros-pour-chaque-nouveau-ne-garantissant-un-minimum-retraite-par-capitalisation-1081169",
+      "titre": "«Restaurer la confiance» : Nicolas Dupont-Aignan propose un capital de «10.000 euros pour chaque nouveau-né garantissant un minimum retraite par capitalisation»",
+      "date_publication": "2026-09-16",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": false
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Socle de capitalisation pour tous, mais financé par l'État et non par une cotisation des salariés.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": 1,
+     "nature": "nuancee",
+     "justification": "Il propose un capital de capitalisation financé par l'État, sans cotisation des salariés, donc une version partielle de l'énoncé.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-008",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-009",
+   "code": -2,
+   "nature": "nette",
+   "statut": "accord",
+   "item_aveugle": "bc18555d",
+   "extraits": [
+    {
+     "reformulation": "Dans ses réponses écrites (avril 2022), il se fixe pour objectif d'indexer les retraites au minimum sur l'inflation afin qu'elles augmentent chaque année, et dénonce les gels de pensions passés.",
+     "citation_courte": "Indexer les retraites à minima sur l'inflation",
+     "reformulation_anonymisee": "Dans ses réponses écrites (avril 2022), [CANDIDAT] se fixe pour objectif d'indexer les retraites au minimum sur l'inflation afin qu'elles augmentent chaque année, et dénonce les gels de pensions passés.",
+     "citation_anonymisee": "Indexer les retraites à minima sur l'inflation",
+     "source": {
+      "url": "https://www.previssima.fr/actualite/presidentielle-2022-nicolas-dupont-aignan-repond-a-nos-questions-en-matiere-de-protection-sociale.html",
+      "titre": "Présidentielle 2022 : Nicolas Dupont-Aignan répond à nos questions en matière de protection sociale",
+      "date_publication": "2022-04-01",
+      "type": "declaration_publique"
+     },
+     "date_consultation": "2026-10-03",
+     "citation_verifiee_mot_a_mot": true
+    }
+   ],
+   "codage": {
+    "codeur_1": {
+     "modele": "claude-opus-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Indexation au minimum sur l'inflation et dénonciation des gels.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "codeur_2": {
+     "modele": "claude-sonnet-5-5",
+     "code": -2,
+     "nature": "nette",
+     "justification": "Il veut indexer les retraites au minimum sur l'inflation et dénonce les gels.",
+     "date": "2026-10-03",
+     "aveugle": true
+    },
+    "accord": true
+   },
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-010",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-011",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-012",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-013",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-014",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-015",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-016",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-017",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-018",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-019",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  },
+  {
+   "question_id": "RET-022",
+   "code": null,
+   "nature": "non_connu",
+   "statut": "sans_extrait",
+   "extraits": [],
+   "codage": null,
+   "arbitrage": null,
+   "controle_humain": {
+    "tire_au_sort": false
+   },
+   "contestations": [],
+   "version": 1
+  }
+ ]
+}

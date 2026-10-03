@@ -1,0 +1,13 @@
+{
+  "_version": 1,
+  "_statut": "validé le 2026-10-02",
+  "_note": "Les axes servent uniquement à équilibrer le tirage. Ils n'entrent pas dans le score. Les lettres A et B sont arbitraires. sens = +1 si l'accord avec l'énoncé rapproche du pôle A.",
+  "axes": [
+    {"id": "economie", "pole_a": "intervention publique, redistribution", "pole_b": "marché, baisse des prélèvements et de la dépense"},
+    {"id": "securite", "pole_a": "priorité aux libertés individuelles", "pole_b": "priorité à l'ordre et à la sanction (police, justice, peines)"},
+    {"id": "frontieres", "pole_a": "ouverture (immigration, accueil)", "pole_b": "restriction"},
+    {"id": "europe", "pole_a": "intégration européenne", "pole_b": "souveraineté nationale"},
+    {"id": "ecologie", "pole_a": "priorité à la contrainte environnementale", "pole_b": "priorité au coût et à l'activité"},
+    {"id": "institutions", "pole_a": "pouvoir au Parlement et aux citoyens", "pole_b": "pouvoir à l'exécutif"}
+  ]
+}
