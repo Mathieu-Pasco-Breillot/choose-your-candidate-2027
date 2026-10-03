@@ -5,11 +5,13 @@ import type { Partie } from '../jeu.ts';
 import { questionsParId, resultatsDePartie } from '../jeu.ts';
 import { FIABILITE, libelleTheme, libelleValeur, MODES, MOTIFS_NON_EVALUATION, NATURES } from '../libelles.ts';
 import { paquet } from '../paquet.ts';
+import { CartePartage } from './CartePartage.tsx';
 
 interface Props {
   partie: Partie;
   onNouvelle: () => void;
   onDefi: () => void;
+  onVieprivee: () => void;
   onToutEffacer: () => void;
 }
 
@@ -153,7 +155,7 @@ function CarteCandidat({ s, rang, exAequo }: { s: ScoreCandidat; rang?: number; 
   );
 }
 
-export function Resultats({ partie, onNouvelle, onDefi, onToutEffacer }: Props) {
+export function Resultats({ partie, onNouvelle, onDefi, onVieprivee, onToutEffacer }: Props) {
   const r = useMemo(() => resultatsDePartie(partie), [partie]);
   const total = partie.questions.length;
   const classement: Classe[] = r.classement;
@@ -216,6 +218,8 @@ export function Resultats({ partie, onNouvelle, onDefi, onToutEffacer }: Props) 
         </section>
       )}
 
+      <CartePartage mode={partie.mode} graine={partie.graine} classement={classement} nom={nomComplet} />
+
       {horsClassement.length > 0 && (
         <section>
           <h2 className="font-serif text-2xl font-semibold">Hors classement</h2>
@@ -261,6 +265,9 @@ export function Resultats({ partie, onNouvelle, onDefi, onToutEffacer }: Props) 
         </button>
         <button type="button" onClick={onDefi} className="min-h-11 rounded-2xl border border-or/60 px-5 py-3 font-serif text-lg">
           Jouer au défi « Qui a dit ça ? »
+        </button>
+        <button type="button" onClick={onVieprivee} className="min-h-11 text-sm text-sourdine underline">
+          Vie privée
         </button>
         <button type="button" onClick={onToutEffacer} className="text-sm text-sourdine underline">
           Tout effacer sur cet appareil

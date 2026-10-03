@@ -10,7 +10,7 @@ import type { BanqueTirage, PoidsTheme, QuestionVue } from '../core/tirage/index
 import type { QuestionPaquet } from './paquet.ts';
 import { paquet } from './paquet.ts';
 
-export type ModeJeu = 'express' | 'debat';
+export type ModeJeu = 'express' | 'debat' | 'campagne';
 
 export interface ReponseSaisie {
   valeur: Valeur | 'sans_avis';

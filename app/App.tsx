@@ -5,12 +5,13 @@ import type { ModeJeu, Partie, Preparation as PreparationChoisie } from './jeu.t
 import { estTerminee, marquerVues, nouvelleGraine, nouvellePartie, reculer, repondre } from './jeu.ts';
 import { ecrirePartie, ecrireVues, lirePartie, lireVues, toutEffacer } from './stockage.ts';
 import { Accueil } from './ecrans/Accueil.tsx';
+import { Vieprivee } from './ecrans/Vieprivee.tsx';
 import { Defi } from './ecrans/Defi.tsx';
 import { Preparation } from './ecrans/Preparation.tsx';
 import { Quiz } from './ecrans/Quiz.tsx';
 import { Resultats } from './ecrans/Resultats.tsx';
 
-type Ecran = 'accueil' | 'preparation' | 'quiz' | 'resultats' | 'defi';
+type Ecran = 'accueil' | 'preparation' | 'quiz' | 'resultats' | 'defi' | 'vieprivee';
 
 const aujourdhui = (): string => new Date().toISOString().slice(0, 10);
 
@@ -68,16 +69,19 @@ export function App() {
         />
       ) : ecran === 'preparation' ? (
         <Preparation mode={mode} onLancer={lancer} onRetour={() => setEcran('accueil')} />
+      ) : ecran === 'vieprivee' ? (
+        <Vieprivee onRetour={() => setEcran('accueil')} onToutEffacer={effacer} />
       ) : ecran === 'defi' ? (
         <Defi graine={graineDefi} onRejouer={() => setGraineDefi(nouvelleGraine())} onQuitter={() => setEcran('accueil')} />
       ) : ecran === 'resultats' && partie && estTerminee(partie) ? (
-        <Resultats partie={partie} onNouvelle={() => setEcran('accueil')} onDefi={jouerDefi} onToutEffacer={effacer} />
+        <Resultats partie={partie} onNouvelle={() => setEcran('accueil')} onDefi={jouerDefi} onVieprivee={() => setEcran('vieprivee')} onToutEffacer={effacer} />
       ) : (
         <Accueil
           enCours={!!partie && !estTerminee(partie)}
           terminee={!!partie && estTerminee(partie)}
           onCommencer={choisirMode}
           onDefi={jouerDefi}
+          onVieprivee={() => setEcran('vieprivee')}
           onReprendre={() => setEcran('quiz')}
           onVoirResultats={() => setEcran('resultats')}
           onToutEffacer={effacer}

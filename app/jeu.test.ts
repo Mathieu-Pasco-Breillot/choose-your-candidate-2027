@@ -16,6 +16,7 @@ function jouer(p: Partie, choix: (i: number) => number | 'sans_avis'): Partie {
 describe.each([
   ['express', 20],
   ['debat', 40],
+  ['campagne', 60],
 ] as const)('partie %s', (mode, taille) => {
   it(`tire ${taille} questions actives, sans doublon, regroupées par chapitre`, () => {
     for (let graine = 1; graine <= 50; graine++) {

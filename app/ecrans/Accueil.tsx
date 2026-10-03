@@ -6,6 +6,7 @@ interface Props {
   terminee: boolean;
   onCommencer: (mode: ModeJeu) => void;
   onDefi: () => void;
+  onVieprivee: () => void;
   onReprendre: () => void;
   onVoirResultats: () => void;
   onToutEffacer: () => void;
@@ -20,7 +21,7 @@ function Carte({ titre, children }: { titre: string; children: React.ReactNode }
   );
 }
 
-export function Accueil({ enCours, terminee, onCommencer, onDefi, onReprendre, onVoirResultats, onToutEffacer }: Props) {
+export function Accueil({ enCours, terminee, onCommencer, onDefi, onVieprivee, onReprendre, onVoirResultats, onToutEffacer }: Props) {
   return (
     <main className="mx-auto flex max-w-xl flex-col gap-4 px-5 py-10">
       <header className="mb-2">
@@ -89,7 +90,12 @@ export function Accueil({ enCours, terminee, onCommencer, onDefi, onReprendre, o
       <footer className="mt-6 flex flex-col gap-2 text-sm text-sourdine">
         <p>
           Version de démonstration : les positions des candidats sont codées au fil de l'eau, thème par thème. Pour
-          l'instant, très peu de questions sont codées.
+          l'instant, le codage est partiel : les résultats sont à lire avec prudence.
+        </p>
+        <p>
+          <button type="button" onClick={onVieprivee} className="min-h-11 underline">
+            Vie privée
+          </button>
         </p>
         <p>
           <a className="underline" href="https://github.com/Mathieu-Pasco-Breillot/choose-your-candidate-2027" rel="noopener noreferrer">

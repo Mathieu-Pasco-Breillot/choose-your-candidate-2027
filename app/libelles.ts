@@ -48,4 +48,5 @@ export const MOTIFS_NON_EVALUATION: Record<string, string> = {
 export const MODES = {
   express: { nom: 'Express', questions: 20, duree: 'environ 5 minutes' },
   debat: { nom: 'Débat', questions: 40, duree: 'environ 10 minutes' },
+  campagne: { nom: 'Campagne', questions: 60, duree: 'environ 15 minutes' },
 } as const;
