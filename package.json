@@ -14,8 +14,8 @@
     "typecheck": "tsc -b",
     "test": "vitest run",
     "data:validate": "tsx scripts/validate.ts",
-    "derive": "tsx scripts/derive.ts",
-    "derive:check": "tsx scripts/derive.ts --check",
+    "derive": "tsx scripts/derive.ts && tsx scripts/rapport-neutralite.ts",
+    "derive:check": "tsx scripts/derive.ts --check && tsx scripts/rapport-neutralite.ts --check",
     "types:generate": "tsx scripts/generate-types.ts",
     "types:check": "tsx scripts/generate-types.ts --check",
     "check": "npm run data:validate && npm run derive:check && npm run types:check && npm run typecheck && npm test && vite build"
