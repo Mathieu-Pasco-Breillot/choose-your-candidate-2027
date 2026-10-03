@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "empreinte_donnees": "c311a62b83d6096affbfdfab73633c8552648305dce79dc07f18a8446f3ef6e4",
+  "provisoire": true,
+  "parametres": {
+    "nombre_ancres": 10,
+    "nombre_express": 5,
+    "couverture_min": 0.8,
+    "par_theme_max": 1,
+    "par_axe_max": 3,
+    "min_par_sens": 4,
+    "min_par_sens_express": 2,
+    "rang_stabilite": 20
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "question_id": "RET-003",
+      "theme": "retraites",
+      "axe": "economie",
+      "sens": -1,
+      "D": 2.54321,
+      "couverture": 1,
+      "candidats_codes": 9
+    }
+  ],
+  "ancres": [
+    "RET-003"
+  ],
+  "ancres_express": [
+    "RET-003"
+  ],
+  "ancres_completes": false,
+  "express_complet": false
+}
