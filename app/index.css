@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/source-serif-4';
+@import '@fontsource-variable/source-sans-3';
+
+@theme {
+  --font-serif: 'Source Serif 4 Variable', Georgia, serif;
+  --font-sans: 'Source Sans 3 Variable', system-ui, sans-serif;
+  --color-papier: #f7f4ee;
+  --color-encre: #1f2a44;
+  --color-sourdine: #5b6478;
+}
+
+body {
+  background: var(--color-papier);
+  color: var(--color-encre);
+  font-family: var(--font-sans);
+}
