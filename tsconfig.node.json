@@ -16,5 +16,5 @@
     "skipLibCheck": true,
     "noEmit": true
   },
-  "include": ["scripts", "core", "vite.config.ts", "vitest.config.ts"]
+  "include": ["scripts", "core", "app/jeu.ts", "app/stockage.ts", "app/paquet.ts", "app/libelles.ts", "app/jeu.test.ts", "app/donnees", "vite.config.ts", "vitest.config.ts"]
 }

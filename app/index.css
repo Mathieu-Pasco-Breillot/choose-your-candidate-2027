@@ -5,13 +5,25 @@
 @theme {
   --font-serif: 'Source Serif 4 Variable', Georgia, serif;
   --font-sans: 'Source Sans 3 Variable', system-ui, sans-serif;
-  --color-papier: #f7f4ee;
-  --color-encre: #1f2a44;
-  --color-sourdine: #5b6478;
+  --color-nuit: #0e1a33;
+  --color-nuit-clair: #17284a;
+  --color-or: #e2b85c;
+  --color-creme: #f4ecd8;
+  --color-sourdine: #aab4c8;
+}
+
+html {
+  background: var(--color-nuit);
 }
 
 body {
-  background: var(--color-papier);
-  color: var(--color-encre);
+  background: linear-gradient(180deg, var(--color-nuit) 0%, #0a1226 100%) fixed;
+  color: var(--color-creme);
   font-family: var(--font-sans);
+  min-height: 100dvh;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-or);
+  outline-offset: 2px;
 }

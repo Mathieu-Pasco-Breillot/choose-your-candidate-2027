@@ -1,22 +1,68 @@
-import { motion } from 'motion/react';
+import { MotionConfig } from 'motion/react';
+import { useCallback, useState } from 'react';
+import type { Valeur } from '../core/score/types.ts';
+import type { ModeJeu, Partie } from './jeu.ts';
+import { estTerminee, marquerVues, nouvelleGraine, nouvellePartie, reculer, repondre } from './jeu.ts';
+import { ecrirePartie, ecrireVues, lirePartie, lireVues, toutEffacer } from './stockage.ts';
+import { Accueil } from './ecrans/Accueil.tsx';
+import { Quiz } from './ecrans/Quiz.tsx';
+import { Resultats } from './ecrans/Resultats.tsx';
 
-/**
- * Page provisoire : l'interface réelle arrive au lot 5e (calcul au lot 5c, tirage des questions au lot 5d).
- */
+type Ecran = 'accueil' | 'quiz' | 'resultats';
+
+const aujourdhui = (): string => new Date().toISOString().slice(0, 10);
+
 export function App() {
+  const [partie, setPartie] = useState<Partie | null>(() => lirePartie());
+  const [ecran, setEcran] = useState<Ecran>('accueil');
+
+  const changer = useCallback((p: Partie) => {
+    setPartie(p);
+    ecrirePartie(p);
+  }, []);
+
+  const commencer = (mode: ModeJeu) => {
+    changer(nouvellePartie(mode, lireVues(), nouvelleGraine()));
+    setEcran('quiz');
+  };
+
+  const repondreEtAvancer = (valeur: Valeur | 'sans_avis', tresImportant: boolean) => {
+    if (!partie) return;
+    const suivante = repondre(partie, { valeur, tresImportant });
+    changer(suivante);
+    if (estTerminee(suivante)) {
+      ecrireVues(marquerVues(lireVues(), suivante, aujourdhui()));
+      setEcran('resultats');
+    }
+  };
+
+  const effacer = () => {
+    toutEffacer();
+    setPartie(null);
+    setEcran('accueil');
+  };
+
   return (
-    <main className="mx-auto flex min-h-dvh max-w-2xl flex-col justify-center px-6 py-16">
-      <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-        <p className="text-sm tracking-wide text-sourdine uppercase">Présidentielle 2027</p>
-        <h1 className="mt-3 font-serif text-4xl font-semibold">Mon Isoloir</h1>
-        <p className="mt-6 text-lg leading-relaxed">
-          Le comparateur de la présidentielle 2027 est en construction. Il confrontera vos opinions aux positions publiques des candidats,
-          chaque position étant adossée à une source vérifiable.
-        </p>
-        <p className="mt-4 text-sourdine">
-          Tout le calcul se fera dans votre navigateur : aucune de vos réponses ne quittera votre appareil.
-        </p>
-      </motion.div>
-    </main>
+    <MotionConfig reducedMotion="user">
+      {ecran === 'quiz' && partie && !estTerminee(partie) ? (
+        <Quiz
+          partie={partie}
+          onRepondre={repondreEtAvancer}
+          onReculer={() => changer(reculer(partie))}
+          onQuitter={() => setEcran('accueil')}
+        />
+      ) : ecran === 'resultats' && partie && estTerminee(partie) ? (
+        <Resultats partie={partie} onNouvelle={() => setEcran('accueil')} onToutEffacer={effacer} />
+      ) : (
+        <Accueil
+          enCours={!!partie && !estTerminee(partie)}
+          terminee={!!partie && estTerminee(partie)}
+          onCommencer={commencer}
+          onReprendre={() => setEcran('quiz')}
+          onVoirResultats={() => setEcran('resultats')}
+          onToutEffacer={effacer}
+        />
+      )}
+    </MotionConfig>
   );
 }
