@@ -1,6 +1,6 @@
 {
   "candidat_id": "attal-gabriel",
-  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication.",
+  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
   "grille_version": "1.2",
   "programme": {
     "officiel_disponible": true,
@@ -385,17 +385,57 @@
     },
     {
       "question_id": "RET-014",
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null,
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Dans une interview aux Échos relayée par Le Figaro, Gabriel Attal dit vouloir un « choc » de 40 milliards d'euros de hausse de salaires en supprimant la part salariale de la cotisation vieillesse. Le texte présente cela comme issu de propositions de son parti sur le travail ; aucun calendrier n'est précisé dans l'extrait.",
+          "citation_courte": "supprimant la part salariale de la cotisation vieillesse",
+          "reformulation_anonymisee": "Dans une interview, [CANDIDAT] dit vouloir un « choc » de 40 milliards d'euros de hausse de salaires en supprimant la part salariale de la cotisation vieillesse. Aucun calendrier n'est précisé dans l'extrait.",
+          "citation_anonymisee": "supprimant la part salariale de la cotisation vieillesse",
+          "source": {
+            "url": "https://www.lefigaro.fr/politique/retraites-hausses-de-salaires-apres-le-regalien-gabriel-attal-devoile-ses-propositions-en-matiere-economique-20250629",
+            "titre": "Gabriel Attal propose de réformer les retraites sans âge de départ et dévoile ses autres propositions en matière économique",
+            "date_publication": "2025-06-29",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Veut supprimer la part salariale de la cotisation vieillesse.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Supprime la part salariale vieillesse, plus loin que réduire.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Suppression de la part salariale va plus loin que la réduction énoncée (R1) : +1 nuancee, contre-proposition identifiable. (code retenu : celui du codeur A)"
+      },
       "controle_humain": {
         "tire_au_sort": false
       },
       "contestations": [],
-      "version": 1
+      "version": 1,
+      "item_aveugle": "f20f7fbd"
     },
     {
       "question_id": "RET-015",
@@ -486,14 +526,50 @@
       "contestations": [],
       "version": 1,
       "controle_humain": {
-        "tire_au_sort": false
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "S'opposant à la proposition d'une alliance de gauche de porter le Smic à 1 600 euros net, il affirme que la mesure « paraît belle » mais n'est pas la solution et qu'elle détruirait des emplois (il avance le chiffre de 500 000). Il défend plutôt une baisse des cotisations sociales sur les salaires au-dessus du Smic.",
+          "citation_courte": "détruirait des emplois",
+          "reformulation_anonymisee": "S'opposant à la proposition d'une alliance de gauche de porter le Smic à 1 600 euros net, [CANDIDAT] affirme que la mesure « paraît belle » mais n'est pas la solution et qu'elle détruirait des emplois (il avance le chiffre de 500 000). Il défend plutôt une baisse des cotisations sociales sur les salaires au-dessus du Smic.",
+          "citation_anonymisee": "détruirait des emplois",
+          "source": {
+            "url": "https://www.bfmtv.com/politique/elections/legislatives/smic-a-1-600-euros-gabriel-attal-assure-que-la-mesure-du-nouveau-front-populaire-detruirait-des-emplois_AV-202406200350.html",
+            "titre": "Smic à 1.600 euros: Gabriel Attal assure que la mesure du Nouveau Front populaire \"détruirait des emplois\"",
+            "date_publication": "2024-06-20",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Rejette le Smic à 1 600 euros, qu'il juge destructeur d'emplois.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Rejette le SMIC à 1 600 euros net.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "be466ae1"
     },
     {
       "question_id": "ECO-002",
@@ -696,12 +772,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur le travail les jours fériés, il déclare qu'il n'a jamais proposé de supprimer un jour férié et qu'il ne veut pas forcer les Français qui travaillent à travailler davantage. Il ne se prononce pas dans cet extrait sur une suppression de deux jours fériés en particulier.",
+          "citation_courte": "Je n'ai jamais proposé de supprimer un jour férié",
+          "reformulation_anonymisee": "Interrogé sur le travail les jours fériés, [CANDIDAT] déclare qu'il n'a jamais proposé de supprimer un jour férié et qu'il ne veut pas forcer les Français qui travaillent à travailler davantage. Il ne se prononce pas dans cet extrait sur une suppression de deux jours fériés en particulier.",
+          "citation_anonymisee": "Je n'ai jamais proposé de supprimer un jour férié",
+          "source": {
+            "url": "https://rmc.bfmtv.com/actualites/economie/travail/1er-mai-je-ne-veux-pas-forcer-les-francais-a-travailler-davantage-se-defend-gabriel-attal-sur-rmc_AV-202605010346.html",
+            "titre": "1er-Mai: \"Je ne veux pas forcer les Français à travailler davantage\", se défend Gabriel Attal sur RMC",
+            "date_publication": "2026-05-01",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "N'a jamais proposé de supprimer un jour férié et ne veut pas forcer à travailler plus, sans rejet explicite.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "N'a jamais proposé de supprimer un jour férié.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "b4a7d8f0"
     },
     {
       "question_id": "ECO-012",
@@ -2340,12 +2450,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur le plan espagnol de régularisation d'environ 500 000 sans-papiers, il dit ne pas avoir les mêmes propositions. Il préconise de s'inspirer du système canadien à points : une personne qui demande une régularisation doit remplir des critères qui donnent des points, et seule celle qui atteint le total suffisant peut être régularisée.",
+          "citation_courte": "Je n'ai pas les mêmes propositions que le gouvernement espagnol",
+          "reformulation_anonymisee": "Interrogé sur un plan étranger de régularisation d'environ 500 000 sans-papiers, [CANDIDAT] dit ne pas avoir les mêmes propositions. Il préconise de s'inspirer du système canadien à points : une personne qui demande une régularisation doit remplir des critères qui donnent des points, et seule celle qui atteint le total suffisant peut être régularisée.",
+          "citation_anonymisee": "Je n'ai pas les mêmes propositions que le gouvernement espagnol",
+          "source": {
+            "url": "https://www.lefigaro.fr/politique/aujourd-hui-on-ne-choisit-pas-notre-immigration-affirme-gabriel-attal-20260427",
+            "titre": "« Aujourd'hui, on ne choisit pas notre immigration », affirme Gabriel Attal",
+            "date_publication": "2026-04-27",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Admet la régularisation sous conditions d'un système à points, non une régularisation de masse.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Régularisation possible par système à points, pas de plan de masse.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "79db88a9"
     },
     {
       "question_id": "IMM-002",
@@ -2550,12 +2694,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Il propose que, tous les deux ans, les partenaires sociaux identifient les besoins économiques en matière d'immigration, que ces besoins soient transmis au Parlement, et que celui-ci vote des quotas limitatifs par métier, par secteur et par origine géographique. Il exclut en revanche une immigration zéro. Engagement de campagne annoncé comme proposition.",
+          "citation_courte": "le Parlement vote des quotas limitatifs en matière d'immigration",
+          "reformulation_anonymisee": "[CANDIDAT] propose que, tous les deux ans, les partenaires sociaux identifient les besoins économiques en matière d'immigration, que ces besoins soient transmis au Parlement, et que celui-ci vote des quotas limitatifs par métier, par secteur et par origine géographique. Il exclut en revanche une immigration zéro. Engagement de campagne annoncé comme proposition.",
+          "citation_anonymisee": "le Parlement vote des quotas limitatifs en matière d'immigration",
+          "source": {
+            "url": "https://www.lejdd.fr/politique/immigration-gabriel-attal-propose-des-quotas-par-metier-et-par-origine-geographique-180879",
+            "titre": "Immigration : Gabriel Attal propose des quotas « par métier » et « par origine géographique »",
+            "date_publication": "2026-08-10",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Le Parlement voterait des quotas limitatifs, mais tous les deux ans et par métier/secteur.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Quotas limitatifs votés par le Parlement.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Quotas limitatifs votés par le Parlement mais tous les deux ans et par métier/secteur/origine : même sens, modalités différentes de l'énoncé (annuel, nombre global) ; doute entre adjacents → +1. (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "25154b6e"
     },
     {
       "question_id": "IMM-017",
@@ -3164,12 +3348,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Lors d'un forum à Kiev, il défend une adhésion « immédiate » mais partielle de l'Ukraine à l'UE : plutôt que d'attendre que toutes les questions soient négociées, il estime qu'il faut faire l'inverse. Le passage accessible ne donne ni date ni échéance (2030) ni la liste des autres pays concernés.",
+          "citation_courte": "Plutôt que de devoir attendre que toutes les problématiques soient négociées",
+          "reformulation_anonymisee": "[CANDIDAT] défend une adhésion « immédiate » mais partielle de l'Ukraine à l'UE : plutôt que d'attendre que toutes les questions soient négociées, il estime qu'il faut faire l'inverse. Le passage accessible ne donne ni date ni échéance (2030) ni la liste des autres pays concernés.",
+          "citation_anonymisee": "Plutôt que de devoir attendre que toutes les problématiques soient négociées",
+          "source": {
+            "url": "https://www.lefigaro.fr/politique/a-kiev-gabriel-attal-propose-une-adhesion-rapide-mais-progressive-de-l-ukraine-a-l-ue-20260224",
+            "titre": "À Kiev, Gabriel Attal propose une adhésion rapide mais progressive de l'Ukraine à l'UE",
+            "date_publication": "2026-02-24",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Défend une adhésion immédiate mais partielle de l'Ukraine, sans échéance ni autres pays.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Adhésion immédiate partielle de l'Ukraine, sans échéance.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Adhésion immédiate mais partielle de la seule Ukraine : même sens, version partielle identifiable, sans échéance. (code retenu : celui du codeur B)"
+      },
+      "item_aveugle": "64be4ff0"
     },
     {
       "question_id": "EUR-006",
@@ -3886,12 +4110,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Selon Le JDD, le candidat veut exonérer de droits de donation et de succession jusqu'à 150 000 euros par enfant, y compris dans les familles recomposées, et jusqu'à 100 000 euros par petit-enfant. La source ne précise pas si ce montant s'entend par parent.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Selon un média national, [CANDIDAT] veut exonérer de droits de donation et de succession jusqu'à 150 000 euros par enfant, y compris dans les familles recomposées, et jusqu'à 100 000 euros par petit-enfant. La source ne précise pas si ce montant s'entend par parent.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.lejdd.fr/politique/heritage-ce-que-proposent-les-candidats-a-la-presidentielle-183564",
+            "titre": "Héritage : ce que proposent les candidats à la présidentielle",
+            "date_publication": "2026-09-16",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Veut exonérer jusqu'à 150 000 euros par enfant, valeur de l'énoncé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Exonération jusqu'à 150 000 euros par enfant, sans préciser par parent.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "150 000 euros par enfant, mais la source ne précise pas « par parent » : hésitation entre +2 et +1, on retient le plus proche de 0. (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "abe25052"
     },
     {
       "question_id": "FIS-014",
@@ -4018,12 +4282,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Lors du débat des candidats organisé par le Medef le 27 août 2026, le candidat a promis de ne pas toucher au pacte Dutreil (exonération partielle de droits pour les transmissions d'entreprises). Il s'agit d'un maintien du dispositif existant ; la source ne mentionne pas d'exonération totale.",
+          "citation_courte": "ont promis de ne pas y toucher",
+          "reformulation_anonymisee": "Lors d'un débat entre candidats organisé par une organisation patronale, [CANDIDAT] a promis de ne pas toucher au pacte Dutreil (exonération partielle de droits pour les transmissions d'entreprises). Il s'agit d'un maintien du dispositif existant ; la source ne mentionne pas d'exonération totale.",
+          "citation_anonymisee": "ont promis de ne pas y toucher",
+          "source": {
+            "url": "https://www.bfmtv.com/economie/dette-retraites-cout-du-travail-ce-qu-il-faut-retenir-du-premier-debat-des-candidats-a-l-election-presidentielle_AD-202608270772.html",
+            "titre": "Dette, retraites, coût du travail... Ce qu'il faut retenir du premier débat des candidats à l'élection présidentielle",
+            "date_publication": "2026-08-27",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Promet de ne pas toucher au pacte Dutreil (maintien à 75 %), sans se prononcer sur une exonération totale.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Maintien du Dutreil à 75 %, sans exonération totale.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "nuancee",
+        "motif": "Maintien explicite du Dutreil à 75 % : statu quo qui contredit l'exonération totale sans proposer l'inverse, position explicite et identifiable. (code retenu : celui du codeur B)"
+      },
+      "item_aveugle": "2072874b"
     },
     {
       "question_id": "FIS-019",
@@ -4186,12 +4490,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Devant les Jeunes agriculteurs en juin 2026, le candidat dit assumer d'avoir voté la réintroduction de l'acétamipride, au motif qu'il n'est pas cohérent d'interdire aux agriculteurs français, sans solution de remplacement, des produits autorisés dans d'autres pays de l'Union européenne. Son entourage précise à franceinfo qu'il est favorable à une réintroduction dérogatoire après avis de l'Anses.",
+          "citation_courte": "ce n'est pas cohérent, juste et logique d'interdire sans solution à nos agriculteurs",
+          "reformulation_anonymisee": "Devant les Jeunes agriculteurs en juin 2026, [CANDIDAT] dit assumer d'avoir voté la réintroduction de l'acétamipride, au motif qu'il n'est pas cohérent d'interdire aux agriculteurs français, sans solution de remplacement, des produits autorisés dans d'autres pays de l'Union européenne. Son entourage précise qu'il est favorable à une réintroduction dérogatoire après avis de l'Anses.",
+          "citation_anonymisee": "ce n'est pas cohérent, juste et logique d'interdire sans solution à nos agriculteurs",
+          "source": {
+            "url": "https://www.franceinfo.fr/environnement/loi-duplomb/autoriser-ou-interdire-l-acetamipride-on-a-demande-aux-principaux-candidats-a-la-presidentielle-leur-avis-sur-son-utilisation_8170565.html",
+            "titre": "Autoriser ou interdire l'acétamipride ? On a demandé aux principaux candidats à la présidentielle leur avis sur son utilisation",
+            "date_publication": "2026-09-03",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Assume la réintroduction dérogatoire après avis de l'Anses : maintien du droit actuel, contraire à la suppression.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Assume la réintroduction dérogatoire après avis de l'Anses.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "30d2e06e"
     },
     {
       "question_id": "ENV-005",
@@ -4546,12 +4884,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 2,
+      "nature": "nette",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Lors de sa conférence de presse du 23 septembre 2026 sur l'énergie (plan « Messmer 2 »), le candidat est présenté par une dépêche AFP reprise par un agrégateur comme confirmant la construction de 14 réacteurs nucléaires EPR. La source ne détaille pas la répartition entre réacteurs déjà décidés et réacteurs en option, ni de calendrier.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Lors d'une conférence de presse du 23 septembre 2026 sur l'énergie, [CANDIDAT] est présenté par une dépêche d'agence comme confirmant la construction de 14 réacteurs nucléaires EPR. La source ne détaille pas la répartition entre réacteurs déjà décidés et réacteurs en option, ni de calendrier.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.upday.com/fr/actualite/attal-devoile-deux-plans-chocs-pour-2027-150-milliards-deconomies-et-sortie-des/n1dxme7",
+            "titre": "Attal dévoile deux plans chocs pour 2027 : 150 milliards d'économies et sortie des fossiles (dépêche AFP, upday News)",
+            "date_publication": "2026-09-23",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Confirme la construction de 14 EPR, soit les 6 décidés plus les 8 en option.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Confirme 14 EPR, sans détail de la répartition entre décidés et en option.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 2,
+        "nature_retenue": "nette",
+        "motif": "Confirme 14 EPR, soit exactement les six décidés plus les huit en option de l'énoncé ; l'absence de calendrier n'est pas une réserve (R2). (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "d3efbbac"
     },
     {
       "question_id": "ENV-024",

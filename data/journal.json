@@ -39,6 +39,16 @@
       "description": "Import des codes de la phase 4 (vague 1) : 9 candidats, 11 thèmes, 206 positions chacun, grille 1.2. Les désaccords entre codeurs sont tranchés provisoirement par un troisième modèle ; validation humaine des arbitrages et contrôle humain d'échantillon encore en attente. Données de preuve de concept.",
       "auteur": "Claude (préparation du lot 5e), à la demande de Mathieu",
       "reference": "phase-4"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "recodage",
+      "objets": [
+        "data/positions/*.json"
+      ],
+      "description": "Vague 2 de la phase 4 : recherche complémentaire, pour 7 candidats (Arthaud, Attal, Le Pen, Lisnard, Philippe, Retailleau, Roussel), sur les 1 040 questions sans code publié. 78 nouveaux extraits (77 retenus) sur 71 couples, double codage aveugle (Opus 5.5, Sonnet 5.5 ; 53 accords sur 71), 18 désaccords arbitrés provisoirement par un troisième modèle (Fable 5.1). Une vérification indépendante sur échantillon a écarté 2 extraits contraires à la règle d'attribution (propos du parti ou de l'entourage, pas du candidat) : Le Pen × EDU-015 et Philippe × ENV-004, remis dans leur état antérieur. 64 nouveaux codes publiés. Contrôle humain : 8 codes tirés au sort, à faire. Données de preuve de concept.",
+      "auteur": "Claude, à la demande de Mathieu",
+      "reference": "phase-4, vague 2"
     }
   ]
 }

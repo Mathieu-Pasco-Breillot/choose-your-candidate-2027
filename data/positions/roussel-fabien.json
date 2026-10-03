@@ -1,6 +1,6 @@
 {
   "candidat_id": "roussel-fabien",
-  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication.",
+  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
   "grille_version": "1.2",
   "programme": {
     "officiel_disponible": false,
@@ -447,17 +447,51 @@
     },
     {
       "question_id": "RET-015",
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "À l'occasion des 90 ans du Front populaire, le candidat a rappelé son intention de rétablir l'âge légal de départ à la retraite à 60 ans, avec 40 annuités pour une pension complète, financé principalement par une taxation des revenus financiers. La source rapportée ne distingue pas les personnes ayant commencé à travailler avant 20 ans : l'âge de 60 ans est présenté comme règle générale.",
+          "citation_courte": "40 annuités pour une pension complète",
+          "reformulation_anonymisee": "[CANDIDAT] a rappelé son intention de rétablir l'âge légal de départ à la retraite à 60 ans, avec 40 annuités pour une pension complète, financé principalement par une taxation des revenus financiers. La source rapportée ne distingue pas les personnes ayant commencé à travailler avant 20 ans : l'âge de 60 ans est présenté comme règle générale.",
+          "citation_anonymisee": "40 annuités pour une pension complète",
+          "source": {
+            "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+            "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ?",
+            "date_publication": "2026-10-02",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Retraite à 60 ans pour tous : va plus loin que l'énoncé (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Retraite à 60 ans pour tous, plus loin que l'énoncé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
       },
       "contestations": [],
-      "version": 1
+      "version": 1,
+      "item_aveugle": "4a64ecac"
     },
     {
       "question_id": "RET-016",
@@ -585,17 +619,51 @@
     },
     {
       "question_id": "RET-022",
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Pour financer une retraite à 60 ans, le candidat propose d'élargir l'assiette des cotisations aux revenus financiers, dividendes compris (82 milliards de dividendes versés en 2022 sans prélèvement pour la Sécurité sociale, selon lui). Il évoque une cotisation au taux employeur de 11 % sur ces revenus, soit plus de 35 milliards d'euros de recettes.",
+          "citation_courte": "en élargissant l'assiette de cotisation pour y intégrer les revenus financiers",
+          "reformulation_anonymisee": "Pour financer une retraite à 60 ans, [CANDIDAT] propose d'élargir l'assiette des cotisations aux revenus financiers, dividendes compris (82 milliards de dividendes versés en 2022 sans prélèvement pour la Sécurité sociale, selon lui). Il évoque une cotisation au taux employeur de 11 % sur ces revenus, soit plus de 35 milliards d'euros de recettes.",
+          "citation_anonymisee": "en élargissant l'assiette de cotisation pour y intégrer les revenus financiers",
+          "source": {
+            "url": "https://www.lejdd.fr/Politique/fabien-roussel-sur-la-reforme-des-retraites-soyons-1-million-a-deferler-dans-la-rue-4160884",
+            "titre": "Fabien Roussel sur la réforme des retraites : « Soyons 1 million à déferler dans la rue »",
+            "date_publication": "2023-01-14",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Propose une cotisation chiffrée sur les dividendes pour financer les retraites.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Cotisation de 11 % sur les revenus financiers dont dividendes.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
       },
       "contestations": [],
-      "version": 1
+      "version": 1,
+      "item_aveugle": "8b1c3eb5"
     },
     {
       "question_id": "ECO-001",
@@ -666,12 +734,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans un entretien à L'Humanité, il dit exiger l'indexation des salaires sur l'inflation. Il demande aussi une revalorisation immédiate de 5 % pour les salaires et pensions inférieurs à 2 500 euros net, en notant que le Smic a augmenté mais pas les salaires juste au-dessus.",
+          "citation_courte": "Nous exigeons l'indexation des salaires sur l'inflation",
+          "reformulation_anonymisee": "[CANDIDAT] dit exiger l'indexation des salaires sur l'inflation. Il demande aussi une revalorisation immédiate de 5 % pour les salaires et pensions inférieurs à 2 500 euros net, en notant que le Smic a augmenté mais pas les salaires juste au-dessus.",
+          "citation_anonymisee": "Nous exigeons l'indexation des salaires sur l'inflation",
+          "source": {
+            "url": "https://www.humanite.fr/politique/40e-congres-du-pcf-2026/fabien-roussel-secretaire-national-du-pcf-5-immediatement-pour-les-salaires-et-pensions-inferieurs-a-2-500-euros-net",
+            "titre": "Fabien Roussel, secrétaire national du PCF : « nous demandons une revalorisation immédiate de 5 % pour les salaires et pensions inférieurs à 2 500 euros net »",
+            "date_publication": "2026-05-21",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Exige l'indexation des salaires sur l'inflation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Exige l'indexation des salaires sur l'inflation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "9d244931"
     },
     {
       "question_id": "ECO-003",
@@ -680,12 +782,60 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il affirme qu'il est possible de bloquer immédiatement les prix de l'essence pour les ramener à 1,50 euro, et demande aussi une baisse de 30 % du prix de l'électricité. La déclaration ne mentionne pas les produits alimentaires.",
+          "citation_courte": "Bloquer les prix de l'essence, pour les ramener à 1,50 euro",
+          "reformulation_anonymisee": "[CANDIDAT] affirme qu'il est possible de bloquer immédiatement les prix de l'essence pour les ramener à 1,50 euro, et demande aussi une baisse de 30 % du prix de l'électricité. La déclaration ne mentionne pas les produits alimentaires.",
+          "citation_anonymisee": "Bloquer les prix de l'essence, pour les ramener à 1,50 euro",
+          "source": {
+            "url": "https://www.humanite.fr/politique/40e-congres-du-pcf-2026/fabien-roussel-secretaire-national-du-pcf-5-immediatement-pour-les-salaires-et-pensions-inferieurs-a-2-500-euros-net",
+            "titre": "Fabien Roussel, secrétaire national du PCF : « nous demandons une revalorisation immédiate de 5 % pour les salaires et pensions inférieurs à 2 500 euros net »",
+            "date_publication": "2026-05-21",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Sur franceinfo, il propose un plafonnement des prix des carburants à 1,60 ou 1,70 euro, financé par un blocage des marges des pétroliers et des raffineurs, TotalEnergies notamment. Il n'est pas question de l'alimentaire dans ce passage.",
+          "citation_courte": "plafonnement des prix du carburant à 1,60 € ou 1,70 €",
+          "reformulation_anonymisee": "Sur une radio nationale, [CANDIDAT] propose un plafonnement des prix des carburants à 1,60 ou 1,70 euro, financé par un blocage des marges des pétroliers et des raffineurs. Il n'est pas question de l'alimentaire dans ce passage.",
+          "citation_anonymisee": "plafonnement des prix du carburant à 1,60 € ou 1,70 €",
+          "source": {
+            "url": "https://www.franceinfo.fr/replay-radio/8h30-fauvelle-dely/prix-des-carburants-travail-le-1er-mai-le-8h30-franceinfo-de-fabien-roussel_7905683.html",
+            "titre": "Prix des carburants, travail le 1er-Mai... Le \"8h30 franceinfo\" de Fabien Roussel",
+            "date_publication": "2026-04-14",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Blocage des prix des carburants et baisse de l'électricité, sans l'alimentation : version partielle.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Blocage des prix des carburants et baisse de l'électricité, alimentaire exclu.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "556267c7"
     },
     {
       "question_id": "ECO-004",
@@ -2198,14 +2348,50 @@
       "contestations": [],
       "version": 1,
       "controle_humain": {
-        "tire_au_sort": false
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Selon le titre de l'article du Quotidien du Médecin, Fabien Roussel veut rétablir l'obligation de participer aux gardes pour les médecins. Le chapeau visible ne détaille ni le périmètre, ni les modalités ; la suite de l'article est réservée aux abonnés.",
+          "citation_courte": "veut un retour de l'obligation de garde",
+          "reformulation_anonymisee": "Selon le titre de l'article d'un média médical, [CANDIDAT] veut rétablir l'obligation de participer aux gardes pour les médecins. Le chapeau visible ne détaille ni le périmètre, ni les modalités ; la suite de l'article est réservée aux abonnés.",
+          "citation_anonymisee": "veut un retour de l'obligation de garde",
+          "source": {
+            "url": "https://pneumologie.lequotidiendumedecin.fr/hopital/presidentielle-fabien-roussel-pcf-veut-un-retour-de-lobligation-de-garde-et-trouve-que-certaines-msp",
+            "titre": "Présidentielle : Fabien Roussel (PCF) veut un retour de l'obligation de garde et trouve que certaines MSP « coûtent une blinde »",
+            "date_publication": "2022-03-18",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut rétablir l'obligation de garde sans en préciser le périmètre ni les modalités.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut rétablir l'obligation de garde, périmètre inconnu.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "ce243284"
     },
     {
       "question_id": "SAN-007",
@@ -2652,12 +2838,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans une tribune du 18 janvier 2024 contre la loi asile-immigration, il dénonce la « remise en cause du droit du sol » contenue dans le texte, qu'il range parmi les thèses les plus dangereuses de l'extrême droite et qui, selon lui, vise à changer la conception de la nation. Il ne formule pas de proposition chiffrée sur la nationalité, mais son rejet de cette remise en cause s'oppose à la suppression du droit du sol.",
+          "citation_courte": "La remise en cause du droit du sol",
+          "reformulation_anonymisee": "Dans une tribune de janvier 2024 contre une loi sur l'asile et l'immigration, [CANDIDAT] dénonce la « remise en cause du droit du sol » contenue dans le texte, qu'il range parmi les thèses les plus dangereuses de l'extrême droite et qui, selon lui, vise à changer la conception de la nation. Il ne formule pas de proposition chiffrée sur la nationalité, mais son rejet de cette remise en cause s'oppose à la suppression du droit du sol.",
+          "citation_anonymisee": "La remise en cause du droit du sol",
+          "source": {
+            "url": "https://www.humanite.fr/politique/fabien-roussel/fabien-roussel-que-toute-la-nation-republicaine-se-leve",
+            "titre": "Fabien Roussel : « Que toute la nation républicaine se lève »",
+            "date_publication": "2024-01-18",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Dénonce toute remise en cause du droit du sol comme une thèse dangereuse.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Rejette toute remise en cause du droit du sol.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "2ffe3f50"
     },
     {
       "question_id": "IMM-012",
@@ -2666,12 +2886,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogé le 16 septembre 2026 sur la proposition de donner la priorité d'accès au logement social aux Français, il la rejette : selon lui la priorité est de construire des logements pour que tout le monde soit logé, et la préférence nationale reviendrait à faire de la ségrégation selon la nationalité, qu'il qualifie de forme d'apartheid.",
+          "citation_courte": "on va faire de la ségrégation en fonction de la nationalité ?",
+          "reformulation_anonymisee": "Interrogé en septembre 2026 sur la proposition de donner la priorité d'accès au logement social aux Français, [CANDIDAT] la rejette : selon lui la priorité est de construire des logements pour que tout le monde soit logé, et la préférence nationale reviendrait à faire de la ségrégation selon la nationalité, qu'il qualifie de forme d'apartheid.",
+          "citation_anonymisee": "on va faire de la ségrégation en fonction de la nationalité ?",
+          "source": {
+            "url": "https://www.leparisien.fr/politique/le-choix-de-la-barricade-fabien-roussel-appelle-a-de-grandes-mobilisations-si-le-gouvernement-nentend-pas-la-colere-des-francais-16-09-2026-SOCWATXZXJEEJNA3S6TXRIJ4C4.php",
+            "titre": "« Le choix de la barricade » : Fabien Roussel appelle à de « grandes mobilisations » si le gouvernement n'entend pas la colère des Français",
+            "date_publication": "2026-09-16",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Rejette la préférence nationale pour le logement social, assimilée à une ségrégation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Rejette la priorité nationale au logement social.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "20614d33"
     },
     {
       "question_id": "IMM-013",
@@ -3236,12 +3490,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans un entretien de mars 2024, il dit qu'il faut soutenir l'Ukraine, y compris par des livraisons d'armes, et précise qu'il refuse de fournir des armes permettant à l'Ukraine de frapper en territoire russe, dont les missiles de longue portée. Il invoque le refus que la France devienne cobelligérante.",
+          "citation_courte": "Je ne veux pas que la France devienne un cobélligérant.",
+          "reformulation_anonymisee": "Dans un entretien de mars 2024, [CANDIDAT] dit qu'il faut soutenir l'Ukraine, y compris par des livraisons d'armes, et précise qu'il refuse de fournir des armes permettant à l'Ukraine de frapper en territoire russe, dont les missiles de longue portée. Il invoque le refus que la France devienne cobelligérante.",
+          "citation_anonymisee": "Je ne veux pas que la France devienne un cobélligérant.",
+          "source": {
+            "url": "https://www.sudradio.fr/linvite-politique/ukraine-je-ne-veux-pas-que-la-france-entre-en-guerre-contre-la-russie-declare-fabien-roussel",
+            "titre": "Ukraine : « Je ne veux pas que la France entre en guerre contre la Russie », déclare Fabien Roussel",
+            "date_publication": "2024-03-07",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Soutient les livraisons d'armes mais exclut celles permettant de frapper en Russie : version partielle.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Refuse les armes frappant le territoire russe et les missiles longue portée.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "0596c3df"
     },
     {
       "question_id": "EUR-001",
@@ -3380,12 +3668,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Il est hostile à l'adhésion de l'Ukraine à l'Union européenne : il juge que son intégration pose un problème, au moins pour protéger les agriculteurs français, dont l'agriculture serait selon lui menacée en premier lieu par l'Ukraine. Il ne se prononce pas sur les autres pays candidats ni sur une échéance de 2030.",
+          "citation_courte": "L’intégration de l’Ukraine dans l’Union européenne pose un problème",
+          "reformulation_anonymisee": "[CANDIDAT] est hostile à l'adhésion de l'Ukraine à l'Union européenne : il juge que son intégration pose un problème, au moins pour protéger les agriculteurs français, dont l'agriculture serait selon lui menacée en premier lieu par l'Ukraine. Il ne se prononce pas sur les autres pays candidats ni sur une échéance de 2030.",
+          "citation_anonymisee": "L’intégration de l’Ukraine dans l’Union européenne pose un problème",
+          "source": {
+            "url": "https://www.publicsenat.fr/actualites/economie/pour-lagriculture-la-premiere-menace-cest-lukraine-affirme-fabien-roussel",
+            "titre": "« Pour l'agriculture, la première menace, c'est l'Ukraine », affirme Fabien Roussel",
+            "date_publication": "2025-02-25",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Hostile à l'adhésion de l'Ukraine, silencieux sur les autres pays et l'échéance.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Hostile à l'adhésion de l'Ukraine.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "imprecise",
+        "motif": "« L'intégration de l'Ukraine pose un problème » : direction hostile perceptible, mais refus non formulé comme mesure et rien sur les autres pays ni l'échéance. (code retenu : celui du codeur B)"
+      },
+      "item_aveugle": "dc41e920"
     },
     {
       "question_id": "EUR-006",
@@ -3982,12 +4310,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur la TVA sociale (hausse de la TVA compensée par une baisse des cotisations), le candidat la juge une très mauvaise idée. La source, une vidéo d'entretien, ne donne pas d'argumentaire détaillé ni de variante acceptable.",
+          "citation_courte": "Je dis que c'est une très mauvaise idée",
+          "reformulation_anonymisee": "Interrogé sur la TVA sociale (hausse de la TVA compensée par une baisse des cotisations), [CANDIDAT] la juge une très mauvaise idée. La source, une vidéo d'entretien, ne donne pas d'argumentaire détaillé ni de variante acceptable.",
+          "citation_anonymisee": "Je dis que c'est une très mauvaise idée",
+          "source": {
+            "url": "https://www.bfmtv.com/politique/video-tva-sociale-je-dis-que-c-est-une-tres-mauvaise-idee-reagit-fabien-roussel-candidat-pcf-a-l-election-presidentielle-apres-la-proposition-de-francois-hollande_VN-202609160275.html",
+            "titre": "TVA sociale: \"Je dis que c'est une très mauvaise idée\", réagit Fabien Roussel, candidat PCF à l'élection présidentielle, après la proposition de François Hollande",
+            "date_publication": "2026-09-16",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Juge la TVA sociale une très mauvaise idée.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Juge la TVA sociale très mauvaise idée.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "9759165c"
     },
     {
       "question_id": "FIS-016",
@@ -4114,12 +4476,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur l'objectif européen d'abolir la vente de moteurs thermiques d'ici 2035, il se dit favorable à la décarbonation la plus rapide possible de la mobilité, donc à une sortie du thermique dans le calendrier le plus rapide possible, et à l'encouragement des véhicules à énergies décarbonées (électricité, gaz vert, hydrogène). Il ne mentionne pas explicitement la date de 2035 ni l'absence d'exception.",
+          "citation_courte": "sortie du thermique dans le calendrier le plus rapide possible",
+          "reformulation_anonymisee": "Interrogé sur l'objectif européen d'abolir la vente de moteurs thermiques d'ici 2035, [CANDIDAT] se dit favorable à la décarbonation la plus rapide possible de la mobilité, donc à une sortie du thermique dans le calendrier le plus rapide possible, et à l'encouragement des véhicules à énergies décarbonées (électricité, gaz vert, hydrogène). Il ne mentionne pas explicitement la date de 2035 ni l'absence d'exception.",
+          "citation_anonymisee": "sortie du thermique dans le calendrier le plus rapide possible",
+          "source": {
+            "url": "https://journalauto.com/services/presidentielle-2022-fabien-roussel-pcf-lautomobile-de-demain-sera-moins-lourde-moins-polluante-et-electrique/",
+            "titre": "Présidentielle 2022 - Fabien Roussel (PCF) : \"L'automobile de demain sera moins lourde, moins polluante et électrique\" (Journal de l'Automobile)",
+            "date_publication": "2022-03-21",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Favorable à une sortie du thermique la plus rapide possible, sans date ni mention d'exception.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Sortie du thermique au plus vite, sans date ni absence d'exception.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "e5456e5f"
     },
     {
       "question_id": "ENV-002",
@@ -4190,12 +4586,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Lors d'un débat sur l'agriculture, il estime qu'il faut sortir du glyphosate et, à terme, arrêter les pesticides. D'ici là, il prône un investissement massif dans la recherche pour réunir les conditions du recours à des produits alternatifs, avec accompagnement des agriculteurs. Aucune date de sortie n'est donnée dans l'article, qui rapporte ses propos sans les citer mot à mot.",
+          "citation_courte": "sortir du glyphosate et à terme arrêter les pesticides",
+          "reformulation_anonymisee": "Lors d'un débat sur l'agriculture, [CANDIDAT] estime qu'il faut sortir du glyphosate et, à terme, arrêter les pesticides. D'ici là, il prône un investissement massif dans la recherche pour réunir les conditions du recours à des produits alternatifs, avec accompagnement des agriculteurs. Aucune date de sortie n'est donnée dans l'article, qui rapporte ses propos sans les citer mot à mot.",
+          "citation_anonymisee": "sortir du glyphosate et à terme arrêter les pesticides",
+          "source": {
+            "url": "https://www.reussir.fr/formats/videos/election-presidentielle-2022-le-programme-agricole-de-fabien-roussel",
+            "titre": "Controverses Election présidentielle 2022 : le programme agricole de Fabien Roussel (Réussir)",
+            "date_publication": "2022-02-16",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Sortir du glyphosate à terme, conditionné au développement d'alternatives.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Sortir du glyphosate à terme, sans date.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Sortie du glyphosate explicitement voulue, conditionnée à des alternatives issues de la recherche : condition identifiable, mesure reformulable, sans date (pas +2). (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "04829465"
     },
     {
       "question_id": "ENV-004",
@@ -5018,12 +5454,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Selon un article de presse résumant son programme de 2022, le candidat préfère les alternatives à l'incarcération à la construction de nouvelles prisons ; un plan de rénovation des lieux de privation de liberté serait néanmoins mis en œuvre. Aucun chiffre de places n'est donné.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Selon un article de presse résumant son programme, [CANDIDAT] préfère les alternatives à l'incarcération à la construction de nouvelles prisons ; un plan de rénovation des lieux de privation de liberté serait néanmoins mis en œuvre. Aucun chiffre de places n'est donné.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://jss.fr/post/Justice_en_crise_:_les_candidats_a_l%E2%80%99Elysee_exposent_leurs_solutions_pour_reparer_l%E2%80%99institution_judicaire-2822",
+            "titre": "Justice en crise : les candidats à l'Élysée exposent leurs solutions pour réparer l'institution judiciaire",
+            "date_publication": "2022-03-30",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Préfère les alternatives à l'incarcération à la construction de prisons, sans chiffre.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Préfère les alternatives à l'incarcération aux nouvelles prisons, sans chiffre.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "9bf2f8c4"
     },
     {
       "question_id": "SEC-015",

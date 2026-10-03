@@ -1,6 +1,6 @@
 {
   "candidat_id": "arthaud-nathalie",
-  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication.",
+  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
   "grille_version": "1.2",
   "programme": {
     "officiel_disponible": true,
@@ -880,12 +880,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogée en avril 2022 sur un RSA assorti d'une contrepartie (version portée alors par un autre candidat), la candidate la rejette : selon elle, cela revient à travailler pour un revenu inférieur au Smic. Elle ne mentionne ni les 15 heures ni la loi de 2023, et ne parle pas explicitement de suppression.",
+          "citation_courte": "c'est travailler pour un salaire inférieur au Smic",
+          "reformulation_anonymisee": "Interrogé(e) sur un RSA assorti d'une contrepartie (version portée par un autre candidat), [CANDIDAT] la rejette : selon [CANDIDAT], cela revient à travailler pour un revenu inférieur au Smic. [CANDIDAT] ne mentionne ni un nombre d'heures précis ni de loi, et ne parle pas explicitement de suppression.",
+          "citation_anonymisee": "c'est travailler pour un salaire inférieur au Smic",
+          "source": {
+            "url": "https://www.echoduberry.fr/actualite-7581-presidentielle-2022-nathalie-arthaud-repond-a-l-echo-du-berry",
+            "titre": "Présidentielle 2022. Nathalie Arthaud répond à L'Écho du Berry",
+            "date_publication": "2022-04-05",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Rejette le RSA avec contrepartie, sans parler explicitement de la suppression des 15 heures.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Rejette un RSA avec contrepartie, sans parler de suppression.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "0ddce92c"
     },
     {
       "question_id": "ECO-011",
@@ -1338,12 +1372,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans la liste de ses propositions pour la présidentielle de 2022, telle que la résume un média, la candidate propose de permettre aux électeurs de révoquer les élus. La source ne précise ni le mécanisme (référendum ou autre), ni les seuils de signatures.",
+          "citation_courte": "Permettre aux électeurs de révoquer les élus",
+          "reformulation_anonymisee": "Dans la liste de ses propositions pour la présidentielle de 2022, telle que la résume un média, [CANDIDAT] propose de permettre aux électeurs de révoquer les élus. La source ne précise ni le mécanisme (référendum ou autre), ni les seuils de signatures.",
+          "citation_anonymisee": "Permettre aux électeurs de révoquer les élus",
+          "source": {
+            "url": "https://chiche.makesense.org/media/societe/decryptage-express-des-programmes-le-bristol-de-nathalie-artaud",
+            "titre": "Décryptage express des programmes : le bristol de Nathalie Artaud - Chiche par makesense",
+            "date_publication": "2022-03-01",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Propose la révocation des élus sans préciser le mécanisme référendaire.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Révocation des élus proposée, mécanisme non précisé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "c12ba2e7"
     },
     {
       "question_id": "INS-004",
@@ -1944,10 +2012,44 @@
       },
       "code": null,
       "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogée sur une obligation d'installation, elle dit ne pas vouloir faire des médecins des boucs émissaires. Elle estime que l'installation de jeunes médecins dans des zones prioritaires ne la choque pas, comme pour les enseignants soumis à une obligation d'affectation, et souhaite un système de répartition selon les besoins des populations, avec une aide à l'installation. Elle ne se prononce pas sur une autorisation d'installation dans les zones bien dotées.",
+          "citation_courte": "l’installation de jeunes médecins dans des zones prioritaires ne me choque pas",
+          "reformulation_anonymisee": "Interrogé sur une obligation d'installation, [CANDIDAT] dit ne pas vouloir faire des médecins des boucs émissaires. [CANDIDAT] estime que l'installation de jeunes médecins dans des zones prioritaires ne le/la choque pas, comme pour les enseignants soumis à une obligation d'affectation, et souhaite un système de répartition selon les besoins des populations, avec une aide à l'installation. [CANDIDAT] ne se prononce pas sur une autorisation d'installation dans les zones bien dotées.",
+          "citation_anonymisee": "l'installation de jeunes médecins dans des zones prioritaires ne me choque pas",
+          "source": {
+            "url": "https://cardiologie.lequotidiendumedecin.fr/actus-medicales/politique-de-sante/nathalie-arthaud-lo-je-suis-pour-labolition-de-la-t2a",
+            "titre": "Nathalie Arthaud (LO) : « Je suis pour l'abolition de la T2A » (Le Quotidien du Médecin)",
+            "date_publication": "2022-03-04",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Évoque une répartition selon les besoins, sans se prononcer sur une autorisation en zone bien dotée.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Ne se prononce pas sur l'autorisation en zone bien dotée.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "4d82c616"
     },
     {
       "question_id": "SAN-002",
@@ -1970,12 +2072,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans le récapitulatif de son programme 2022 publié par La Dépêche, la candidate propose la gratuité totale des soins. La source ne précise ni le mécanisme (remboursement à 100 % par l'assurance maladie) ni le sort des mutuelles.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Dans le récapitulatif du programme de [CANDIDAT] publié par la presse, [CANDIDAT] propose la gratuité totale des soins. La source ne précise ni le mécanisme (remboursement à 100 % par l'assurance maladie) ni le sort des mutuelles.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.ladepeche.fr/2022/04/06/presidentielle-2022-pouvoir-dachat-sante-que-proposent-les-candidats-sur-les-themes-juges-prioritaires-par-les-francais-10216476.php",
+            "titre": "Présidentielle 2022 : pouvoir d'achat, santé... que proposent les candidats sur les thèmes jugés prioritaires par les Français (La Dépêche)",
+            "date_publication": "2022-04-06",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Propose la gratuité totale des soins sans préciser le mécanisme ni le sort des mutuelles.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Gratuité totale des soins, mécanisme et mutuelles non précisés.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "6491d4ce"
     },
     {
       "question_id": "SAN-004",
@@ -2026,12 +2162,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Elle se déclare pour l'abolition de la T2A, qu'elle accuse d'avoir étranglé les finances des hôpitaux publics, et pour un fonctionnement fondé sur l'évaluation du coût nécessaire pour répondre aux besoins de soins.",
+          "citation_courte": "je suis pour l’abolition de la T2A",
+          "reformulation_anonymisee": "[CANDIDAT] se déclare pour l'abolition de la T2A, qu'il/elle accuse d'avoir étranglé les finances des hôpitaux publics, et pour un fonctionnement fondé sur l'évaluation du coût nécessaire pour répondre aux besoins de soins.",
+          "citation_anonymisee": "je suis pour l'abolition de la T2A",
+          "source": {
+            "url": "https://cardiologie.lequotidiendumedecin.fr/actus-medicales/politique-de-sante/nathalie-arthaud-lo-je-suis-pour-labolition-de-la-t2a",
+            "titre": "Nathalie Arthaud (LO) : « Je suis pour l'abolition de la T2A » (Le Quotidien du Médecin)",
+            "date_publication": "2022-03-04",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Se déclare pour l'abolition de la T2A.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Pour l'abolition de la T2A.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "4640aba0"
     },
     {
       "question_id": "SAN-008",
@@ -3564,12 +3734,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogée sur l'entrée de l'Ukraine dans l'Union européenne, elle répond que l'enjeu n'est pas pour elle un combat politique, les travailleurs restant sous la domination du grand patronat qu'ils soient dans l'UE ou hors de l'UE, mais qu'elle ne voit aucune raison d'écarter l'Ukraine de l'Union. Elle ne se prononce pas sur un calendrier ni sur la procédure d'adhésion.",
+          "citation_courte": "on ne voit aucune raison d’écarter l’Ukraine de l’Union européenne",
+          "reformulation_anonymisee": "Interrogé sur l'entrée de l'Ukraine dans l'Union européenne, [CANDIDAT] répond que l'enjeu n'est pas pour [PARTI] un combat politique, les travailleurs restant sous la domination du grand patronat qu'ils soient dans l'UE ou hors de l'UE, mais qu'il n'y a aucune raison d'écarter l'Ukraine de l'Union. Aucun calendrier ni procédure d'adhésion n'est évoqué.",
+          "citation_anonymisee": "on ne voit aucune raison d’écarter l’Ukraine de l’Union européenne",
+          "source": {
+            "url": "https://www.sudouest.fr/elections/europeennes/elections-europeennes-la-politique-de-lfi-du-ps-ou-du-pcf-n-a-rien-a-voir-avec-nous-affirme-nathalie-arthaud-lo-18789100.php",
+            "titre": "Élections européennes : « La politique de LFI, du PS ou du PCF n’a rien à voir avec nous » affirme Nathalie Arthaud (LO)",
+            "date_publication": "2024-03-01",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Ne voit aucune raison d'écarter l'Ukraine, sans en faire un combat ni préciser de modalités.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Aucune raison d'écarter l'Ukraine, sans engagement ni calendrier.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "85ed1b46"
     },
     {
       "question_id": "EUR-002",
@@ -4390,14 +4594,56 @@
       "contestations": [],
       "version": 1,
       "controle_humain": {
-        "tire_au_sort": false
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 0,
+      "nature": "nette",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Interrogée sur le nucléaire, la candidate estime que la question ne se pose pas en termes de sortir ou non du nucléaire : elle dépend des conditions sociales et économiques, et ce sont selon elle l'appropriation de ces techniques par la bourgeoisie et la recherche du profit maximal, sans contrôle de la population, qui les rendent dangereuses. Elle refuse de confondre la lutte contre les usages avec la lutte contre les technologies. Aucune échéance ni objectif de sortie n'est donné.",
+          "citation_courte": "ne se pose pas en termes de \"sortir\" ou \"ne pas sortir\" du nucléaire",
+          "reformulation_anonymisee": "Interrogée sur le nucléaire, [CANDIDAT] estime que la question ne se pose pas en termes de sortir ou non du nucléaire : elle dépend des conditions sociales et économiques, et ce sont selon elle l'appropriation de ces techniques par une classe privilégiée et la recherche du profit maximal, sans contrôle de la population, qui les rendent dangereuses. [CANDIDAT] refuse de confondre la lutte contre les usages avec la lutte contre les technologies. Aucune échéance ni objectif de sortie n'est donné.",
+          "citation_anonymisee": "ne se pose pas en termes de \"sortir\" ou \"ne pas sortir\" du nucléaire",
+          "source": {
+            "url": "https://www.futura-sciences.com/planete/actualites/environnement-election-presidentielle-2022-nucleaire-pour-97585/",
+            "titre": "Élection présidentielle 2022 et nucléaire : qui est pour, qui est contre ?",
+            "date_publication": "2022-04-08",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 0,
+          "nature": "nette",
+          "justification": "Refuse explicitement de poser la question en termes de sortie ou non du nucléaire.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 0,
+          "nature": "nuancee",
+          "justification": "Refuse de poser la question en termes de sortie ou non du nucléaire.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 0,
+        "nature_retenue": "nette",
+        "motif": "Refus argumenté et explicite de trancher en termes de sortie ou non du nucléaire : 0 au sens de la grille, exprimé sans réserve. (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "2cb31a1d"
     },
     {
       "question_id": "ENV-003",

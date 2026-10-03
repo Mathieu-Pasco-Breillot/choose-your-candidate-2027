@@ -1,6 +1,6 @@
 {
   "candidat_id": "le-pen-marine",
-  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication.",
+  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
   "grille_version": "1.2",
   "programme": {
     "officiel_disponible": false,
@@ -375,17 +375,51 @@
     },
     {
       "question_id": "RET-008",
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Selon La Dépêche, la candidate promet de réindexer les pensions de retraite sur l'inflation (les prix), d'augmenter les petites pensions et de porter le minimum vieillesse à 1 000 euros par mois. Le journal précise que cette proposition vient d'un programme antérieur et devra être actualisée pour 2027 ; la source ne cite pas de propos directs de la candidate.",
+          "citation_courte": "promet ainsi de réindexer les retraites sur l'inflation",
+          "reformulation_anonymisee": "Selon un quotidien régional, [CANDIDAT] promet de réindexer les pensions de retraite sur l'inflation (les prix), d'augmenter les petites pensions et de porter le minimum vieillesse à 1 000 euros par mois. Le journal précise que cette proposition vient d'un programme antérieur et devra être actualisée pour 2027 ; la source ne cite pas de propos directs du candidat.",
+          "citation_anonymisee": "promet ainsi de réindexer les retraites sur l'inflation",
+          "source": {
+            "url": "https://www.ladepeche.fr/2026/09/21/presidentielle-2027-ce-que-les-candidats-proposent-pour-les-francais-a-la-retraite-13555269.php",
+            "titre": "Présidentielle 2027 : ce que les candidats proposent pour les Français à la retraite",
+            "date_publication": "2026-09-21",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Promet une indexation sur les prix, non sur les salaires : maintien du principe actuel.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Réindexation sur les prix, contraire à l'indexation sur les salaires.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
       },
       "contestations": [],
-      "version": 1
+      "version": 1,
+      "item_aveugle": "a42f573a"
     },
     {
       "question_id": "RET-009",
@@ -832,12 +866,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Réagissant au projet du gouvernement de supprimer deux jours fériés, elle écrit qu'elle craignait que le salaire correspondant soit « confisqué » par l'État pour financer des gaspillages publics. Elle juge cela « hors de question » : la suppression sans compensation salariale pour les salariés est refusée, au nom du principe que tout travail mérite salaire.",
+          "citation_courte": "tout travail mérite salaire",
+          "reformulation_anonymisee": "Réagissant au projet du gouvernement de supprimer deux jours fériés, [CANDIDAT] écrit avoir craint que le salaire correspondant soit « confisqué » par l'État pour financer des gaspillages publics. [CANDIDAT] juge cela « hors de question » : la suppression sans compensation salariale pour les salariés est refusée, au nom du principe que tout travail mérite salaire.",
+          "citation_anonymisee": "tout travail mérite salaire",
+          "source": {
+            "url": "https://www.lejdd.fr/politique/tout-travail-merite-salaire-marine-le-pen-sinsurge-contre-la-suppression-de-deux-jours-feries-sans-compensation-160953",
+            "titre": "« Tout travail mérite salaire ! » : Marine Le Pen s'insurge contre la suppression de deux jours fériés sans compensation",
+            "date_publication": "2025-08-12",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Refuse la suppression de jours fériés sans compensation salariale.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Refuse la suppression sans compensation salariale.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "5c067c5a"
     },
     {
       "question_id": "ECO-012",
@@ -1426,12 +1494,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Selon une synthèse de son programme de 2022, la candidate prévoyait un référendum sur une grande réforme institutionnelle incluant notamment une baisse du nombre de députés et de sénateurs. La synthèse ne donne aucun chiffre (ni 350 députés, ni 200 sénateurs).",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Selon une synthèse de son programme de 2022, [CANDIDAT] prévoyait un référendum sur une grande réforme institutionnelle incluant notamment une baisse du nombre de députés et de sénateurs. La synthèse ne donne aucun chiffre (ni 350 députés, ni 200 sénateurs).",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.linternaute.com/actualite/politique/1364508-programme-de-marine-le-pen-2022-pouvoir-d-achat-securite-immigration-le-resume-du-projet/",
+            "titre": "Programme de Marine Le Pen 2022 : le résumé du projet - Linternaute",
+            "date_publication": "2022-04-24",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Prévoit une baisse du nombre de parlementaires sans chiffres.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Baisse du nombre de parlementaires sans chiffre.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "308bc5fb"
     },
     {
       "question_id": "INS-013",
@@ -1578,12 +1680,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Au soir de sa condamnation en première instance, interrogée sur TF1, la candidate a jugé que l'exécution provisoire d'une peine d'inéligibilité, qui s'applique avant l'appel alors que l'appel est suspensif, empêche un recours effectif et ne remplit pas les conditions de l'État de droit. Elle a ajouté que cette exécution provisoire est normalement utilisée lorsque les faits ont été commis pendant un mandat encore détenu par la personne. Il s'agit d'une critique formulée à propos de son propre jugement, sans proposition de réforme précise.",
+          "citation_courte": "Elle empêche un recours effectif",
+          "reformulation_anonymisee": "Au soir d'une condamnation en première instance, interrogé(e) à la télévision, [CANDIDAT] a jugé que l'exécution provisoire d'une peine d'inéligibilité, qui s'applique avant l'appel alors que l'appel est suspensif, empêche un recours effectif et ne remplit pas les conditions de l'État de droit. [CANDIDAT] a ajouté que cette exécution provisoire est normalement utilisée lorsque les faits ont été commis pendant un mandat encore détenu par la personne. Il s'agit d'une critique formulée à propos de son propre jugement, sans proposition de réforme précise.",
+          "citation_anonymisee": "Elle empêche un recours effectif",
+          "source": {
+            "url": "https://lcp.fr/actualites/ineligibilite-marine-le-pen-fustige-une-decision-politique-de-la-justice-et-confirme-qu",
+            "titre": "Inéligibilité : Marine Le Pen fustige une \"décision politique\" de la justice et confirme qu'elle va faire appel de sa condamnation",
+            "date_publication": "2025-03-31",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Critique l'exécution provisoire de l'inéligibilité sans proposer de réforme précise.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Critique l'exécution provisoire avant appel, sans réforme précise.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "27b3a07b"
     },
     {
       "question_id": "INS-018",
@@ -1606,12 +1742,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogée sur France Inter pendant la campagne de 2022, la candidate se prononce pour la suppression de la plateforme Parcoursup, jugeant qu'elle n'a pas été un franc succès. Elle ne détaille pas le dispositif de remplacement et promet de prendre en compte l'avis des jeunes dans l'élaboration d'un nouveau système.",
+          "citation_courte": "n’a pas été un franc succès",
+          "reformulation_anonymisee": "Interrogé(e) à la radio pendant la campagne, [CANDIDAT] se prononce pour la suppression de la plateforme nationale d'admission post-bac, jugeant qu'elle n'a pas été un franc succès. [CANDIDAT] ne détaille pas le dispositif de remplacement et promet de prendre en compte l'avis des jeunes dans l'élaboration d'un nouveau système.",
+          "citation_anonymisee": "n’a pas été un franc succès",
+          "source": {
+            "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-duel-macron-le-pen-quelles-sont-les-propositions-des-candidats-en",
+            "titre": "Duel Macron-Le Pen : quelles sont les propositions des candidats en matière d'éducation ?",
+            "date_publication": "2022-04-12",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Se prononce pour la suppression de Parcoursup.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Pour la suppression de la plateforme.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "354a0946"
     },
     {
       "question_id": "EDU-002",
@@ -2564,14 +2734,50 @@
       "contestations": [],
       "version": 1,
       "controle_humain": {
-        "tire_au_sort": false
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le texte de révision constitutionnelle dont la candidate est première signataire prévoit que seuls les nationaux français ont le droit de vote et sont éligibles. L'exposé précise que cela est sans effet sur la dérogation existante (article 88-3) qui permet aux citoyens de l'Union européenne de participer aux élections municipales.",
+          "citation_courte": "seuls les nationaux français ont le droit de vote et sont éligibles",
+          "reformulation_anonymisee": "Un texte de révision constitutionnelle dont [CANDIDAT] est première signataire prévoit que seuls les nationaux français ont le droit de vote et sont éligibles. L'exposé précise que cela est sans effet sur la dérogation existante qui permet aux citoyens de l'Union européenne de participer aux élections municipales.",
+          "citation_anonymisee": "seuls les nationaux français ont le droit de vote et sont éligibles",
+          "source": {
+            "url": "https://www.assemblee-nationale.fr/dyn/16/textes/l16b2120_proposition-loi.pdf",
+            "titre": "Proposition de loi constitutionnelle n° 2120 « Citoyenneté-Identité-Immigration » (Assemblée nationale)",
+            "date_publication": "2024-01-25",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Réserve le droit de vote aux seuls nationaux, hors dérogation UE existante.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Seuls les nationaux votent, hors dérogation européenne existante.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "f730bc5e"
     },
     {
       "question_id": "IMM-004",
@@ -2894,12 +3100,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le texte de révision constitutionnelle dont la candidate est première signataire inscrirait dans la Constitution une priorité des Français dans l'accès à l'emploi, à égalité de mérites, dans le secteur privé et, le cas échéant, public ; la loi y limiterait l'accès des étrangers. La même disposition vise aussi l'accès aux services publics et au logement.",
+          "citation_courte": "une priorité dans l’accès à l’emploi, à égalité de mérites, dans le secteur privé",
+          "reformulation_anonymisee": "Un texte de révision constitutionnelle dont [CANDIDAT] est première signataire inscrirait dans la Constitution une priorité des Français dans l'accès à l'emploi, à égalité de mérites, dans le secteur privé et, le cas échéant, public ; la loi y limiterait l'accès des étrangers. La même disposition vise aussi l'accès aux services publics et au logement.",
+          "citation_anonymisee": "une priorité dans l’accès à l’emploi, à égalité de mérites, dans le secteur privé",
+          "source": {
+            "url": "https://www.assemblee-nationale.fr/dyn/16/textes/l16b2120_proposition-loi.pdf",
+            "titre": "Proposition de loi constitutionnelle n° 2120 « Citoyenneté-Identité-Immigration » (Assemblée nationale)",
+            "date_publication": "2024-01-25",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Inscrit une priorité des Français dans l'emploi, mais à égalité de mérites.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Priorité à l'emploi à égalité de mérites, par texte signé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "2de8de3a"
     },
     {
       "question_id": "IMM-014",
@@ -3018,12 +3258,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le texte de révision constitutionnelle dont la candidate est première signataire permet à la loi de prévoir que les demandes d'asile soient déposées exclusivement en dehors du territoire national, les demandeurs étant accueillis pendant l'examen sur le territoire d'États ayant conclu des accords avec la France. L'exposé évoque l'obligation de déposer dans les ambassades et consulats ; c'est une faculté ouverte à la loi, non une obligation posée par le texte.",
+          "citation_courte": "Elle peut prévoir qu’elles doivent être déposées exclusivement en dehors du territoire national",
+          "reformulation_anonymisee": "Un texte de révision constitutionnelle dont [CANDIDAT] est première signataire permet à la loi de prévoir que les demandes d'asile soient déposées exclusivement en dehors du territoire national, les demandeurs étant accueillis pendant l'examen sur le territoire d'États ayant conclu des accords avec la France. L'exposé évoque l'obligation de déposer dans les ambassades et consulats ; c'est une faculté ouverte à la loi, non une obligation posée par le texte.",
+          "citation_anonymisee": "Elle peut prévoir qu’elles doivent être déposées exclusivement en dehors du territoire national",
+          "source": {
+            "url": "https://www.assemblee-nationale.fr/dyn/16/textes/l16b2120_proposition-loi.pdf",
+            "titre": "Proposition de loi constitutionnelle n° 2120 « Citoyenneté-Identité-Immigration » (Assemblée nationale)",
+            "date_publication": "2024-01-25",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Ouvre à la loi la faculté d'imposer le dépôt hors du territoire, sans l'imposer directement.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Faculté pour la loi d'imposer un dépôt hors du territoire.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "44649438"
     },
     {
       "question_id": "IMM-018",
@@ -3112,14 +3386,50 @@
       "contestations": [],
       "version": 1,
       "controle_humain": {
-        "tire_au_sort": false
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "L'exposé des motifs du texte de révision constitutionnelle dont la candidate est première signataire annonce la levée des obstacles à l'éloignement des étrangers condamnés pour crimes ou délits graves ; le Parlement déterminerait librement les cas d'expulsion, sans les exigences de nécessité ou de proportionnalité appréciées par le juge. Le texte ne prévoit pas l'expulsion de tout étranger condamné pour un crime ou un délit.",
+          "citation_courte": "obstacles à l’éloignement des étrangers condamnés pour des crimes ou des délits graves",
+          "reformulation_anonymisee": "L'exposé des motifs d'un texte de révision constitutionnelle dont [CANDIDAT] est première signataire annonce la levée des obstacles à l'éloignement des étrangers condamnés pour crimes ou délits graves ; le Parlement déterminerait librement les cas d'expulsion, sans les exigences de nécessité ou de proportionnalité appréciées par le juge. Le texte ne prévoit pas l'expulsion de tout étranger condamné pour un crime ou un délit.",
+          "citation_anonymisee": "obstacles à l’éloignement des étrangers condamnés pour des crimes ou des délits graves",
+          "source": {
+            "url": "https://www.assemblee-nationale.fr/dyn/16/textes/l16b2120_proposition-loi.pdf",
+            "titre": "Proposition de loi constitutionnelle n° 2120 « Citoyenneté-Identité-Immigration » (Assemblée nationale)",
+            "date_publication": "2024-01-25",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Lever les obstacles à l'expulsion pour crimes ou délits graves seulement, pas tout condamné.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Lève les obstacles à l'éloignement pour crimes et délits graves seulement.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "65c6b8b8"
     },
     {
       "question_id": "IMM-021",
@@ -3128,12 +3438,66 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Lors d'un discours de campagne, la candidate dit qu'il faut donner la priorité d'accès aux logements sociaux aux Français et leur réserver le bénéfice des APL. Elle ne mentionne pas de condition de durée de résidence ou de travail.",
+          "citation_courte": "nous devons leur réserver le bénéfice des APL",
+          "reformulation_anonymisee": "Lors d'un discours de campagne, [CANDIDAT] dit qu'il faut donner la priorité d'accès aux logements sociaux aux Français et leur réserver le bénéfice des APL. [CANDIDAT] ne mentionne pas de condition de durée de résidence ou de travail.",
+          "citation_anonymisee": "nous devons leur réserver le bénéfice des APL",
+          "source": {
+            "url": "https://rmc.bfmtv.com/actualites/politique/elle-le-fera-passer-malgre-les-embuches-legales-marine-le-pen-promet-la-priorite-nationale-sur-le-logement_AV-202609140343.html",
+            "titre": "\"Elle le fera passer\": malgré les embûches légales, Marine Le Pen promet la \"priorité nationale\" sur le logement",
+            "date_publication": "2026-09-14",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "L'exposé des motifs du texte de révision constitutionnelle dont la candidate est première signataire indique que les prestations non assurancielles de solidarité (par exemple les allocations familiales) pourraient être réservées aux nationaux ou soumises à des conditions fixées par la loi, notamment de durée de travail. Aucune durée précise n'est donnée.",
+          "citation_courte": "être réservées aux nationaux ou soumises à des conditions fixées par loi",
+          "reformulation_anonymisee": "L'exposé des motifs d'un texte de révision constitutionnelle dont [CANDIDAT] est première signataire indique que les prestations non assurancielles de solidarité (par exemple les allocations familiales) pourraient être réservées aux nationaux ou soumises à des conditions fixées par la loi, notamment de durée de travail. Aucune durée précise n'est donnée.",
+          "citation_anonymisee": "être réservées aux nationaux ou soumises à des conditions fixées par loi",
+          "source": {
+            "url": "https://www.assemblee-nationale.fr/dyn/16/textes/l16b2120_proposition-loi.pdf",
+            "titre": "Proposition de loi constitutionnelle n° 2120 « Citoyenneté-Identité-Immigration » (Assemblée nationale)",
+            "date_publication": "2024-01-25",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut réserver certaines aides aux Français : va plus loin que la condition de cinq ans (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Aides réservées aux Français, sans durée précise.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Réserver APL et prestations non assurancielles aux nationaux va plus loin dans le même sens qu'une condition de cinq ans (R1), mesure identifiable mais périmètre partiel. (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "42d265a4"
     },
     {
       "question_id": "DEF-001",
@@ -3296,12 +3660,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Lors du débat à l'Assemblée nationale du 3 mars 2025, elle s'oppose à l'envoi de troupes françaises combattantes sur le sol ukrainien, qu'elle qualifie de folie. Elle estime que seule une participation à une opération sous mandat de Casques bleus pourrait être envisageable. La source ne mentionne pas de cessez-le-feu.",
+          "citation_courte": "l'envoi de troupes françaises combattantes sur le sol ukrainien",
+          "reformulation_anonymisee": "Lors d'un débat parlementaire, [CANDIDAT] s'oppose à l'envoi de troupes françaises combattantes sur le sol ukrainien, qu'[CANDIDAT] qualifie de folie. [CANDIDAT] estime que seule une participation à une opération sous mandat de Casques bleus pourrait être envisageable. La source ne mentionne pas de cessez-le-feu.",
+          "citation_anonymisee": "l'envoi de troupes françaises combattantes sur le sol ukrainien",
+          "source": {
+            "url": "https://www.bfmtv.com/politique/parlement/guerre-ukraine-marine-le-pen-ne-pourra-jamais-soutenir-une-chimerique-defense-europeenne_AD-202503030764.html",
+            "titre": "Guerre Ukraine: Marine Le Pen ne pourra \"jamais soutenir une chimérique défense européenne\"",
+            "date_publication": "2025-03-03",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "S'oppose à l'envoi de troupes françaises, n'envisageant qu'une participation sous mandat de Casques bleus.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Refuse les troupes combattantes, n'admet que des Casques bleus sous mandat.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "98d0d92c"
     },
     {
       "question_id": "DEF-007",
@@ -3552,12 +3950,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Interrogée sur l'entrée de l'Ukraine dans l'Union européenne, elle se déclare fondamentalement opposée à cette adhésion. Elle affirme qu'elle ne votera pas un texte demandant cette entrée, qu'elle juge ruineuse pour l'agriculture française, et dénonce une concurrence déloyale.",
+          "citation_courte": "J'y suis fondamentalement opposée.",
+          "reformulation_anonymisee": "Interrogé[e] sur l'entrée de l'Ukraine dans l'Union européenne, [CANDIDAT] se déclare fondamentalement opposé[e] à cette adhésion. [CANDIDAT] affirme ne pas voter un texte demandant cette entrée, jugée ruineuse pour l'agriculture, et dénonce une concurrence déloyale.",
+          "citation_anonymisee": "J'y suis fondamentalement opposée.",
+          "source": {
+            "url": "https://www.cnews.fr/france/2025-03-11/lentree-de-lukraine-dans-lunion-europeenne-cest-la-mort-de-lagriculture-francaise",
+            "titre": "« L'entrée de l'Ukraine dans l'Union Européenne, c'est la mort de l'agriculture française », prévient Marine Le Pen durant sa visite à Flamanville",
+            "date_publication": "2025-03-11",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Fondamentalement opposée à l'adhésion de l'Ukraine, sans se prononcer sur les autres candidats.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Fondamentalement opposée à l'adhésion de l'Ukraine.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "nuancee",
+        "motif": "Opposition fondamentale et explicite à l'adhésion de l'Ukraine, limite identifiable (un seul pays, silence sur les autres et sur 2030). (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "d52ee91c"
     },
     {
       "question_id": "EUR-006",
@@ -3628,12 +4066,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Lors d'un grand rassemblement avec des dirigeants d'extrême droite européens, elle déclare que son camp ne veut pas quitter l'Union européenne mais la conquérir : prendre le pouvoir en France et en Europe pour le rendre aux peuples. Elle attaque en même temps très durement la Commission et ses règles.",
+          "citation_courte": "Nous ne voulons pas quitter la table.",
+          "reformulation_anonymisee": "Lors d'un grand rassemblement avec des dirigeants européens de même sensibilité, [CANDIDAT] déclare que son camp ne veut pas quitter l'Union européenne mais la conquérir : prendre le pouvoir dans son pays et en Europe pour le rendre aux peuples. [CANDIDAT] attaque en même temps très durement la Commission et ses règles.",
+          "citation_anonymisee": "Nous ne voulons pas quitter la table.",
+          "source": {
+            "url": "https://www.20minutes.fr/politique/4157632-20250609-devant-extreme-droite-europeenne-marine-pen-charge-ue-empire-marchand-wokiste-ultraliberal",
+            "titre": "RN: Devant l'extrême droite européenne, Marine Le Pen charge l'UE, « empire marchand, wokiste, ultralibéral »",
+            "date_publication": "2025-06-09",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Déclare ne pas vouloir quitter l'Union européenne mais la conquérir.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Ne veut pas quitter l'Union européenne.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "12e4aa97"
     },
     {
       "question_id": "EUR-009",
@@ -3656,12 +4128,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans une proposition de loi constitutionnelle dont elle est première signataire, il est proposé d'inscrire en tête de la Constitution qu'elle est la norme suprême de l'ordre juridique, qu'aucun engagement international ni décision d'une juridiction internationale ne peut la remettre en cause, et que les juges doivent laisser inappliqués de tels textes. L'exposé des motifs ajoute que les juges pourraient écarter le droit européen lorsqu'il est manifestement contraire à la Constitution.",
+          "citation_courte": "La Constitution est la norme suprême de l'ordre juridique français.",
+          "reformulation_anonymisee": "Dans une proposition de loi constitutionnelle dont [CANDIDAT] est premier[ère] signataire, il est proposé d'inscrire en tête de la Constitution qu'elle est la norme suprême de l'ordre juridique, qu'aucun engagement international ni décision d'une juridiction internationale ne peut la remettre en cause, et que les juges doivent laisser inappliqués de tels textes. L'exposé des motifs ajoute que les juges pourraient écarter le droit européen lorsqu'il est manifestement contraire à la Constitution.",
+          "citation_anonymisee": "La Constitution est la norme suprême de l'ordre juridique français.",
+          "source": {
+            "url": "https://www.assemblee-nationale.fr/dyn/16/textes/l16b2120_proposition-loi.pdf",
+            "titre": "Proposition de loi constitutionnelle n° 2120 « Citoyenneté-Identité-Immigration » (Assemblée nationale)",
+            "date_publication": "2024-01-25",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Affirme la suprématie de la Constitution sur le droit international et européen, pas celle de toute loi française.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Constitution suprême, droit européen écarté s'il lui est manifestement contraire.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "25ebaaa5"
     },
     {
       "question_id": "EUR-011",
@@ -4014,12 +4520,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Lors du débat organisé par le Medef le 27 août 2026, elle a défendu le maintien du pacte Dutreil et promis de ne pas y toucher, aux côtés de plusieurs autres candidats. Aucun taux (75 % ou 50 %) n'est cité dans le compte rendu.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Lors d'un débat organisé par une organisation patronale en août 2026, [CANDIDAT] a défendu le maintien du pacte Dutreil et promis de ne pas y toucher, aux côtés de plusieurs autres candidats. Aucun taux (75 % ou 50 %) n'est cité dans le compte rendu.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.bfmtv.com/economie/dette-retraites-cout-du-travail-ce-qu-il-faut-retenir-du-premier-debat-des-candidats-a-l-election-presidentielle_AD-202608270772.html",
+            "titre": "Dette, retraites, coût du travail... Ce qu'il faut retenir du premier débat des candidats à l'élection présidentielle",
+            "date_publication": "2026-08-27",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Promet de ne pas toucher au pacte Dutreil : statu quo contraire à la baisse à 50 %.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Promet de ne pas toucher au pacte Dutreil.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "1834f2c1"
     },
     {
       "question_id": "FIS-008",
@@ -4200,12 +4740,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogée sur une éventuelle TVA sociale, elle s'y oppose : elle la décrit comme la hausse d'impôt qui frappe le plus injustement les plus modestes, et refuse toute augmentation d'impôts, directe ou indirecte, dans le budget 2026.",
+          "citation_courte": "l'augmentation de l'impôt qui frappe le plus injustement les plus modestes",
+          "reformulation_anonymisee": "Interrogé(e) sur une éventuelle TVA sociale, [CANDIDAT] s'y oppose : [CANDIDAT] la décrit comme la hausse d'impôt qui frappe le plus injustement les plus modestes, et refuse toute augmentation d'impôts, directe ou indirecte, dans le budget 2026.",
+          "citation_anonymisee": "l'augmentation de l'impôt qui frappe le plus injustement les plus modestes",
+          "source": {
+            "url": "https://www.tf1info.fr/politique/tva-sociale-marine-le-pen-menace-francois-bayrou-de-censure-2374051.html",
+            "titre": "TVA sociale : Marine Le Pen menace François Bayrou de censure",
+            "date_publication": "2025-05-30",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "S'oppose explicitement à la TVA sociale.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "S'oppose à la TVA sociale.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "3fba89a6"
     },
     {
       "question_id": "FIS-016",
@@ -5430,12 +6004,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Interrogée sur LCI, la candidate dit vouloir interdire le voile islamique progressivement si elle est élue. Après un référendum sur la lutte contre les idéologies islamistes, elle étendrait l'interdiction par décret, d'abord aux universités, aux sorties scolaires, aux fédérations sportives et aux bâtiments publics, ce qu'elle présente comme une première étape. Elle ne vise pas spécifiquement les compétitions sportives.",
+          "citation_courte": "dans les universités, les sorties scolaires, les fédérations sportives, les bâtiments publics",
+          "reformulation_anonymisee": "Interrogé(e) à la télévision, [CANDIDAT] dit vouloir interdire le voile islamique progressivement en cas d'élection. Après une consultation populaire sur la lutte contre les idéologies islamistes, l'interdiction serait étendue par décret, d'abord aux universités, aux sorties scolaires, aux fédérations sportives et aux bâtiments publics, présentés comme une première étape. Les compétitions sportives ne sont pas spécifiquement visées.",
+          "citation_anonymisee": "dans les universités, les sorties scolaires, les fédérations sportives, les bâtiments publics",
+          "source": {
+            "url": "https://www.leparisien.fr/politique/interdiction-du-voile-marine-le-pen-persiste-mais-veut-le-faire-de-maniere-progressive-16-09-2026-JKKSG2ISSRACRNFLFK7XKOKPGI.php",
+            "titre": "Interdiction du voile : Marine Le Pen persiste, mais veut « le faire de manière progressive »",
+            "date_publication": "2026-09-16",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut interdire le voile dans les fédérations sportives : version partielle (un seul signe).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Interdiction du voile dans les fédérations sportives, compétitions non visées précisément.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Interdiction du voile dans les fédérations sportives : version partielle identifiable (un seul signe, périmètre voisin), mesure reformulable. (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "3f688f70"
     },
     {
       "question_id": "SEC-020",

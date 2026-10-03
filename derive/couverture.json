@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "empreinte_donnees": "44cbec923709aacdf9753859fd0290d83b293a4e1a24aab2b680791c95a5e264",
+  "empreinte_donnees": "5b2e71c4478070082fbfc67d688a98b23f3b593dcd78e020396d1704bde41b38",
   "provisoire": true,
   "questions_actives": 206,
   "seuil_evalue": 0.4,
@@ -10,21 +10,21 @@
       "statut_evaluation": "codage_en_attente",
       "positions_disponibles": true,
       "questions_avec_position": 206,
-      "avec_extrait": 58,
-      "codes_publies": 52,
+      "avec_extrait": 65,
+      "codes_publies": 58,
       "arbitrages_en_attente": 0,
-      "non_connu_apres_accord": 4,
-      "taux_couverture": 0.252427,
+      "non_connu_apres_accord": 5,
+      "taux_couverture": 0.281553,
       "seuil_evalue_atteint": false,
       "natures": {
-        "nette": 12,
+        "nette": 14,
         "nuancee": 21,
-        "imprecise": 19
+        "imprecise": 23
       },
       "parts_natures": {
-        "nette": 0.230769,
-        "nuancee": 0.403846,
-        "imprecise": 0.365385
+        "nette": 0.241379,
+        "nuancee": 0.362069,
+        "imprecise": 0.396552
       },
       "par_theme": {
         "defense": {
@@ -34,13 +34,13 @@
         },
         "ecologie-energie": {
           "questions_actives": 23,
-          "codes_publies": 3,
-          "taux_couverture": 0.130435
+          "codes_publies": 4,
+          "taux_couverture": 0.173913
         },
         "economie-dette": {
           "questions_actives": 20,
-          "codes_publies": 10,
-          "taux_couverture": 0.5
+          "codes_publies": 11,
+          "taux_couverture": 0.55
         },
         "education": {
           "questions_actives": 18,
@@ -59,8 +59,8 @@
         },
         "institutions": {
           "questions_actives": 18,
-          "codes_publies": 1,
-          "taux_couverture": 0.055556
+          "codes_publies": 2,
+          "taux_couverture": 0.111111
         },
         "retraites": {
           "questions_actives": 19,
@@ -69,8 +69,8 @@
         },
         "sante": {
           "questions_actives": 19,
-          "codes_publies": 3,
-          "taux_couverture": 0.157895
+          "codes_publies": 5,
+          "taux_couverture": 0.263158
         },
         "securite": {
           "questions_actives": 20,
@@ -79,8 +79,8 @@
         },
         "union-europeenne": {
           "questions_actives": 15,
-          "codes_publies": 2,
-          "taux_couverture": 0.133333
+          "codes_publies": 3,
+          "taux_couverture": 0.2
         }
       }
     },
@@ -164,21 +164,21 @@
       "statut_evaluation": "codage_en_attente",
       "positions_disponibles": true,
       "questions_avec_position": 206,
-      "avec_extrait": 58,
-      "codes_publies": 54,
+      "avec_extrait": 68,
+      "codes_publies": 64,
       "arbitrages_en_attente": 0,
       "non_connu_apres_accord": 1,
-      "taux_couverture": 0.262136,
+      "taux_couverture": 0.31068,
       "seuil_evalue_atteint": false,
       "natures": {
-        "nette": 16,
-        "nuancee": 23,
-        "imprecise": 15
+        "nette": 18,
+        "nuancee": 30,
+        "imprecise": 16
       },
       "parts_natures": {
-        "nette": 0.296296,
-        "nuancee": 0.425926,
-        "imprecise": 0.277778
+        "nette": 0.28125,
+        "nuancee": 0.46875,
+        "imprecise": 0.25
       },
       "par_theme": {
         "defense": {
@@ -188,13 +188,13 @@
         },
         "ecologie-energie": {
           "questions_actives": 23,
-          "codes_publies": 6,
-          "taux_couverture": 0.26087
+          "codes_publies": 8,
+          "taux_couverture": 0.347826
         },
         "economie-dette": {
           "questions_actives": 20,
-          "codes_publies": 6,
-          "taux_couverture": 0.3
+          "codes_publies": 8,
+          "taux_couverture": 0.4
         },
         "education": {
           "questions_actives": 18,
@@ -203,13 +203,13 @@
         },
         "fiscalite": {
           "questions_actives": 19,
-          "codes_publies": 8,
-          "taux_couverture": 0.421053
+          "codes_publies": 10,
+          "taux_couverture": 0.526316
         },
         "immigration": {
           "questions_actives": 21,
-          "codes_publies": 1,
-          "taux_couverture": 0.047619
+          "codes_publies": 3,
+          "taux_couverture": 0.142857
         },
         "institutions": {
           "questions_actives": 18,
@@ -218,8 +218,8 @@
         },
         "retraites": {
           "questions_actives": 19,
-          "codes_publies": 6,
-          "taux_couverture": 0.315789
+          "codes_publies": 7,
+          "taux_couverture": 0.368421
         },
         "sante": {
           "questions_actives": 19,
@@ -233,8 +233,8 @@
         },
         "union-europeenne": {
           "questions_actives": 15,
-          "codes_publies": 6,
-          "taux_couverture": 0.4
+          "codes_publies": 7,
+          "taux_couverture": 0.466667
         }
       }
     },
@@ -697,27 +697,27 @@
       "statut_evaluation": "codage_en_attente",
       "positions_disponibles": true,
       "questions_avec_position": 206,
-      "avec_extrait": 66,
-      "codes_publies": 62,
+      "avec_extrait": 83,
+      "codes_publies": 79,
       "arbitrages_en_attente": 0,
       "non_connu_apres_accord": 2,
-      "taux_couverture": 0.300971,
+      "taux_couverture": 0.383495,
       "seuil_evalue_atteint": false,
       "natures": {
-        "nette": 30,
-        "nuancee": 25,
-        "imprecise": 7
+        "nette": 34,
+        "nuancee": 36,
+        "imprecise": 9
       },
       "parts_natures": {
-        "nette": 0.483871,
-        "nuancee": 0.403226,
-        "imprecise": 0.112903
+        "nette": 0.43038,
+        "nuancee": 0.455696,
+        "imprecise": 0.113924
       },
       "par_theme": {
         "defense": {
           "questions_actives": 14,
-          "codes_publies": 3,
-          "taux_couverture": 0.214286
+          "codes_publies": 4,
+          "taux_couverture": 0.285714
         },
         "ecologie-energie": {
           "questions_actives": 23,
@@ -726,33 +726,33 @@
         },
         "economie-dette": {
           "questions_actives": 20,
-          "codes_publies": 3,
-          "taux_couverture": 0.15
+          "codes_publies": 4,
+          "taux_couverture": 0.2
         },
         "education": {
           "questions_actives": 18,
-          "codes_publies": 8,
-          "taux_couverture": 0.444444
+          "codes_publies": 9,
+          "taux_couverture": 0.5
         },
         "fiscalite": {
           "questions_actives": 19,
-          "codes_publies": 6,
-          "taux_couverture": 0.315789
+          "codes_publies": 8,
+          "taux_couverture": 0.421053
         },
         "immigration": {
           "questions_actives": 21,
-          "codes_publies": 9,
-          "taux_couverture": 0.428571
+          "codes_publies": 14,
+          "taux_couverture": 0.666667
         },
         "institutions": {
           "questions_actives": 18,
-          "codes_publies": 7,
-          "taux_couverture": 0.388889
+          "codes_publies": 9,
+          "taux_couverture": 0.5
         },
         "retraites": {
           "questions_actives": 19,
-          "codes_publies": 8,
-          "taux_couverture": 0.421053
+          "codes_publies": 9,
+          "taux_couverture": 0.473684
         },
         "sante": {
           "questions_actives": 19,
@@ -761,13 +761,13 @@
         },
         "securite": {
           "questions_actives": 20,
-          "codes_publies": 6,
-          "taux_couverture": 0.3
+          "codes_publies": 7,
+          "taux_couverture": 0.35
         },
         "union-europeenne": {
           "questions_actives": 15,
-          "codes_publies": 4,
-          "taux_couverture": 0.266667
+          "codes_publies": 7,
+          "taux_couverture": 0.466667
         }
       }
     },
@@ -776,21 +776,21 @@
       "statut_evaluation": "codage_en_attente",
       "positions_disponibles": true,
       "questions_avec_position": 206,
-      "avec_extrait": 82,
-      "codes_publies": 77,
+      "avec_extrait": 84,
+      "codes_publies": 78,
       "arbitrages_en_attente": 0,
-      "non_connu_apres_accord": 4,
-      "taux_couverture": 0.373786,
+      "non_connu_apres_accord": 5,
+      "taux_couverture": 0.378641,
       "seuil_evalue_atteint": false,
       "natures": {
         "nette": 26,
-        "nuancee": 34,
+        "nuancee": 35,
         "imprecise": 17
       },
       "parts_natures": {
-        "nette": 0.337662,
-        "nuancee": 0.441558,
-        "imprecise": 0.220779
+        "nette": 0.333333,
+        "nuancee": 0.448718,
+        "imprecise": 0.217949
       },
       "par_theme": {
         "defense": {
@@ -835,8 +835,8 @@
         },
         "sante": {
           "questions_actives": 19,
-          "codes_publies": 6,
-          "taux_couverture": 0.315789
+          "codes_publies": 7,
+          "taux_couverture": 0.368421
         },
         "securite": {
           "questions_actives": 20,
@@ -1009,21 +1009,21 @@
       "statut_evaluation": "codage_en_attente",
       "positions_disponibles": true,
       "questions_avec_position": 206,
-      "avec_extrait": 50,
-      "codes_publies": 42,
+      "avec_extrait": 55,
+      "codes_publies": 46,
       "arbitrages_en_attente": 0,
       "non_connu_apres_accord": 3,
-      "taux_couverture": 0.203883,
+      "taux_couverture": 0.223301,
       "seuil_evalue_atteint": false,
       "natures": {
         "nette": 12,
-        "nuancee": 16,
-        "imprecise": 14
+        "nuancee": 19,
+        "imprecise": 15
       },
       "parts_natures": {
-        "nette": 0.285714,
-        "nuancee": 0.380952,
-        "imprecise": 0.333333
+        "nette": 0.26087,
+        "nuancee": 0.413043,
+        "imprecise": 0.326087
       },
       "par_theme": {
         "defense": {
@@ -1043,18 +1043,18 @@
         },
         "education": {
           "questions_actives": 18,
-          "codes_publies": 3,
-          "taux_couverture": 0.166667
+          "codes_publies": 4,
+          "taux_couverture": 0.222222
         },
         "fiscalite": {
           "questions_actives": 19,
-          "codes_publies": 3,
-          "taux_couverture": 0.157895
+          "codes_publies": 4,
+          "taux_couverture": 0.210526
         },
         "immigration": {
           "questions_actives": 21,
-          "codes_publies": 3,
-          "taux_couverture": 0.142857
+          "codes_publies": 5,
+          "taux_couverture": 0.238095
         },
         "institutions": {
           "questions_actives": 18,
@@ -1163,21 +1163,21 @@
       "statut_evaluation": "codage_en_attente",
       "positions_disponibles": true,
       "questions_avec_position": 206,
-      "avec_extrait": 67,
-      "codes_publies": 62,
+      "avec_extrait": 82,
+      "codes_publies": 75,
       "arbitrages_en_attente": 0,
-      "non_connu_apres_accord": 4,
-      "taux_couverture": 0.300971,
+      "non_connu_apres_accord": 5,
+      "taux_couverture": 0.364078,
       "seuil_evalue_atteint": false,
       "natures": {
-        "nette": 26,
-        "nuancee": 24,
-        "imprecise": 12
+        "nette": 31,
+        "nuancee": 31,
+        "imprecise": 13
       },
       "parts_natures": {
-        "nette": 0.419355,
-        "nuancee": 0.387097,
-        "imprecise": 0.193548
+        "nette": 0.413333,
+        "nuancee": 0.413333,
+        "imprecise": 0.173333
       },
       "par_theme": {
         "defense": {
@@ -1192,8 +1192,8 @@
         },
         "economie-dette": {
           "questions_actives": 20,
-          "codes_publies": 5,
-          "taux_couverture": 0.25
+          "codes_publies": 6,
+          "taux_couverture": 0.3
         },
         "education": {
           "questions_actives": 18,
@@ -1202,13 +1202,13 @@
         },
         "fiscalite": {
           "questions_actives": 19,
-          "codes_publies": 2,
-          "taux_couverture": 0.105263
+          "codes_publies": 9,
+          "taux_couverture": 0.473684
         },
         "immigration": {
           "questions_actives": 21,
-          "codes_publies": 6,
-          "taux_couverture": 0.285714
+          "codes_publies": 9,
+          "taux_couverture": 0.428571
         },
         "institutions": {
           "questions_actives": 18,
@@ -1217,13 +1217,13 @@
         },
         "retraites": {
           "questions_actives": 19,
-          "codes_publies": 6,
-          "taux_couverture": 0.315789
+          "codes_publies": 7,
+          "taux_couverture": 0.368421
         },
         "sante": {
           "questions_actives": 19,
-          "codes_publies": 2,
-          "taux_couverture": 0.105263
+          "codes_publies": 3,
+          "taux_couverture": 0.157895
         },
         "securite": {
           "questions_actives": 20,
@@ -1242,37 +1242,37 @@
       "statut_evaluation": "codage_en_attente",
       "positions_disponibles": true,
       "questions_avec_position": 206,
-      "avec_extrait": 58,
-      "codes_publies": 53,
+      "avec_extrait": 71,
+      "codes_publies": 66,
       "arbitrages_en_attente": 0,
       "non_connu_apres_accord": 2,
-      "taux_couverture": 0.257282,
+      "taux_couverture": 0.320388,
       "seuil_evalue_atteint": false,
       "natures": {
-        "nette": 21,
-        "nuancee": 25,
-        "imprecise": 7
+        "nette": 26,
+        "nuancee": 29,
+        "imprecise": 11
       },
       "parts_natures": {
-        "nette": 0.396226,
-        "nuancee": 0.471698,
-        "imprecise": 0.132075
+        "nette": 0.393939,
+        "nuancee": 0.439394,
+        "imprecise": 0.166667
       },
       "par_theme": {
         "defense": {
           "questions_actives": 14,
-          "codes_publies": 6,
-          "taux_couverture": 0.428571
+          "codes_publies": 7,
+          "taux_couverture": 0.5
         },
         "ecologie-energie": {
           "questions_actives": 23,
-          "codes_publies": 7,
-          "taux_couverture": 0.304348
+          "codes_publies": 9,
+          "taux_couverture": 0.391304
         },
         "economie-dette": {
           "questions_actives": 20,
-          "codes_publies": 5,
-          "taux_couverture": 0.25
+          "codes_publies": 7,
+          "taux_couverture": 0.35
         },
         "education": {
           "questions_actives": 18,
@@ -1281,13 +1281,13 @@
         },
         "fiscalite": {
           "questions_actives": 19,
-          "codes_publies": 7,
-          "taux_couverture": 0.368421
+          "codes_publies": 8,
+          "taux_couverture": 0.421053
         },
         "immigration": {
           "questions_actives": 21,
-          "codes_publies": 1,
-          "taux_couverture": 0.047619
+          "codes_publies": 3,
+          "taux_couverture": 0.142857
         },
         "institutions": {
           "questions_actives": 18,
@@ -1296,23 +1296,23 @@
         },
         "retraites": {
           "questions_actives": 19,
-          "codes_publies": 6,
-          "taux_couverture": 0.315789
+          "codes_publies": 8,
+          "taux_couverture": 0.421053
         },
         "sante": {
           "questions_actives": 19,
-          "codes_publies": 6,
-          "taux_couverture": 0.315789
+          "codes_publies": 7,
+          "taux_couverture": 0.368421
         },
         "securite": {
           "questions_actives": 20,
-          "codes_publies": 4,
-          "taux_couverture": 0.2
+          "codes_publies": 5,
+          "taux_couverture": 0.25
         },
         "union-europeenne": {
           "questions_actives": 15,
-          "codes_publies": 2,
-          "taux_couverture": 0.133333
+          "codes_publies": 3,
+          "taux_couverture": 0.2
         }
       }
     },

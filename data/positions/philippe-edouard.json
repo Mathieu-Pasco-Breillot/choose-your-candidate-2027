@@ -1,6 +1,6 @@
 {
   "candidat_id": "philippe-edouard",
-  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication.",
+  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
   "grille_version": "1.2",
   "programme": {
     "officiel_disponible": true,
@@ -1518,10 +1518,50 @@
       },
       "code": null,
       "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le candidat dit que la baisse attendue d'environ un million d'élèves permet de continuer à réduire les effectifs dans les classes là où c'est nécessaire, tout en payant mieux les professeurs, sans dégrader les finances publiques. Il vise une réduction ciblée, notamment en maternelle et au primaire ; aucune moyenne chiffrée (19 élèves) n'est donnée dans cette source.",
+          "citation_courte": "continuer à réduire les effectifs dans les classes là où c’est nécessaire",
+          "reformulation_anonymisee": "[CANDIDAT] dit que la baisse attendue d'environ un million d'élèves permet de continuer à réduire les effectifs dans les classes là où c'est nécessaire, tout en payant mieux les professeurs, sans dégrader les finances publiques. Il vise une réduction ciblée, notamment en maternelle et au primaire ; aucune moyenne chiffrée (19 élèves) n'est donnée dans cette source.",
+          "citation_anonymisee": "continuer à réduire les effectifs dans les classes là où c’est nécessaire",
+          "source": {
+            "url": "https://www.midilibre.fr/2026/08/25/presidentielle-2027-passe-darmes-entre-edouard-philippe-et-gabriel-attal-sur-leducation-que-proposent-vraiment-les-deux-candidats-13522371.php",
+            "titre": "Présidentielle 2027 : passe d'armes entre Édouard Philippe et Gabriel Attal sur l'éducation, que proposent vraiment les deux candidats ? (Midi Libre avec AFP, citant son entretien au Figaro du 24 août 2026)",
+            "date_publication": "2026-08-25",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Réduction ciblée des effectifs sans reprendre la moyenne de 19 élèves (R4).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Baisse ciblée des effectifs, sans moyenne chiffrée.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": null,
+        "nature_retenue": "non_connu",
+        "motif": "Réduction ciblée « là où c'est nécessaire » sans aucun seuil ni moyenne : position générale face à un énoncé chiffré (R4). (code retenu : celui du codeur B)"
+      },
+      "item_aveugle": "5e8e5e3c"
     },
     {
       "question_id": "EDU-004",
@@ -1634,12 +1674,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "D'après L'Opinion, qui rapporte son entretien au Figaro, le candidat ne prévoit pas d'embaucher davantage de professeurs, en raison de la baisse programmée du nombre d'élèves ; il propose à la place d'augmenter de 20 % la rémunération moyenne des enseignants sur le quinquennat. Aucun chiffre de recrutement n'est donné dans cette source.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "D'après un quotidien national qui rapporte un entretien de [CANDIDAT], celui-ci ne prévoit pas d'embaucher davantage de professeurs, en raison de la baisse programmée du nombre d'élèves ; il propose à la place d'augmenter de 20 % la rémunération moyenne des enseignants sur le quinquennat. Aucun chiffre de recrutement n'est donné dans cette source.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.lopinion.fr/politique/immigration-education-talonne-par-jean-luc-melenchon-edouard-philippe-devoile-ses-cartes",
+            "titre": "Immigration, éducation : talonné par Jean-Luc Mélenchon, Edouard Philippe dévoile ses cartes (L'Opinion)",
+            "date_publication": "2026-08-24",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Ne prévoit pas d'embaucher davantage de professeurs, préférant les revaloriser.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Ne prévoit pas d'embauche d'enseignants.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "nuancee",
+        "motif": "Refus explicite d'embaucher davantage de professeurs au profit d'une revalorisation : statu quo contredisant l'énoncé sans proposer de réduction, et périmètre (professeurs) plus étroit que « personnes » ; doute → −1. (code retenu : celui du codeur B)"
+      },
+      "item_aveugle": "eefeb6f5"
     },
     {
       "question_id": "EDU-010",
@@ -2232,12 +2312,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur l'article du projet de loi immigration relatif aux métiers en tension, il le défend comme une solution pour un certain nombre d'étrangers en situation irrégulière qui exercent des métiers dont le pays a besoin et ne posent pas de problème d'ordre public. Pour répondre aux craintes d'appel d'air, il propose d'envisager des quotas et une limite au nombre de régularisations ; il ne s'agit pas d'une régularisation générale.",
+          "citation_courte": "Nous pouvons fixer une limite au nombre de régularisations.",
+          "reformulation_anonymisee": "Interrogé sur l'article du projet de loi immigration relatif aux métiers en tension, [CANDIDAT] le défend comme une solution pour un certain nombre d'étrangers en situation irrégulière qui exercent des métiers dont le pays a besoin et ne posent pas de problème d'ordre public. Pour répondre aux craintes d'appel d'air, il propose d'envisager des quotas et une limite au nombre de régularisations ; il ne s'agit pas d'une régularisation générale.",
+          "citation_anonymisee": "Nous pouvons fixer une limite au nombre de régularisations.",
+          "source": {
+            "url": "https://www.lejdd.fr/politique/edouard-philippe-au-jdd-nous-devons-lutter-contre-limmigration-du-fait-accompli-140270",
+            "titre": "Édouard Philippe au JDD : « Nous devons lutter contre l'immigration du fait accompli »",
+            "date_publication": "2023-12-10",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Soutient la régularisation dans les métiers en tension avec quotas, pas une régularisation générale.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Défend la régularisation par métiers en tension avec quotas et limite.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "3a9b9c0c"
     },
     {
       "question_id": "IMM-002",
@@ -2426,14 +2540,50 @@
       "contestations": [],
       "version": 1,
       "controle_humain": {
-        "tire_au_sort": false
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il indique que son groupe parlementaire soutient la proposition de réintroduire un délit de séjour irrégulier, existant jusqu'en 2012. Il estime qu'une peine de prison n'est plus envisageable pour des raisons de droit international mais qu'une amende peut être imaginée, et qu'il y a un espace de discussion sur ce délit.",
+          "citation_courte": "Il soutient en effet cette proposition de réintroduction d'un délit de séjour irrégulier",
+          "reformulation_anonymisee": "[CANDIDAT] indique que son groupe parlementaire soutient la proposition de réintroduire un délit de séjour irrégulier, existant jusqu'en 2012. Il estime qu'une peine de prison n'est plus envisageable pour des raisons de droit international mais qu'une amende peut être imaginée, et qu'il y a un espace de discussion sur ce délit.",
+          "citation_anonymisee": "Il soutient en effet cette proposition de réintroduction d'un délit de séjour irrégulier",
+          "source": {
+            "url": "https://www.lejdd.fr/politique/edouard-philippe-au-jdd-nous-devons-lutter-contre-limmigration-du-fait-accompli-140270",
+            "titre": "Édouard Philippe au JDD : « Nous devons lutter contre l'immigration du fait accompli »",
+            "date_publication": "2023-12-10",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Soutient la réintroduction du délit, mais limité à une amende, sans prison.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Soutient le délit, avec amende plutôt que prison.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "475e3f00"
     },
     {
       "question_id": "IMM-016",
@@ -3558,12 +3708,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le candidat dit vouloir défendre le pacte Dutreil et estime qu'il faut cesser de remettre périodiquement en cause son existence, car il apporte aux entreprises familiales une sécurité pour la transmission. Il ne mentionne aucun taux d'exonération (ni 75 % ni 50 %).",
+          "citation_courte": "Il faut arrêter à intervalles réguliers de remettre en cause l'existence du pacte Dutreil",
+          "reformulation_anonymisee": "[CANDIDAT] dit vouloir défendre le pacte Dutreil et estime qu'il faut cesser de remettre périodiquement en cause son existence, car il apporte aux entreprises familiales une sécurité pour la transmission. [CANDIDAT] ne mentionne aucun taux d'exonération (ni 75 % ni 50 %).",
+          "citation_anonymisee": "Il faut arrêter à intervalles réguliers de remettre en cause l'existence du pacte Dutreil",
+          "source": {
+            "url": "https://lcp.fr/actualites/chomage-edouard-philippe-veut-abaisser-la-duree-d-indemnisation-a-douze-mois-maximum",
+            "titre": "Chômage: Édouard Philippe veut abaisser la durée d'indemnisation à douze mois maximum (LCP-Assemblée nationale, dépêche AFP)",
+            "date_publication": "2026-08-27",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Défend le pacte Dutreil contre les remises en cause, sans mentionner de taux.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Défend le pacte Dutreil sans mentionner de taux.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "0f9d145b"
     },
     {
       "question_id": "FIS-008",

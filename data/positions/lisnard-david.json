@@ -1,6 +1,6 @@
 {
   "candidat_id": "lisnard-david",
-  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication.",
+  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
   "grille_version": "1.2",
   "programme": {
     "officiel_disponible": true,
@@ -2752,14 +2752,50 @@
       "contestations": [],
       "version": 1,
       "controle_humain": {
-        "tire_au_sort": false
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme du candidat prévoit de supprimer l'aide médicale d'État et de la remplacer par une aide d'urgence, avec 700 millions d'euros d'économies attendues. La source ne mentionne pas d'accord préalable de l'assurance maladie pour les soins non urgents.",
+          "citation_courte": "Supprimer l’Aide Médicale d’État (AME) et la remplacer par une aide d’urgence",
+          "reformulation_anonymisee": "Le programme du [CANDIDAT] prévoit de supprimer l'aide médicale d'État et de la remplacer par une aide d'urgence, avec 700 millions d'euros d'économies attendues. La source ne mentionne pas d'accord préalable de l'assurance maladie pour les soins non urgents.",
+          "citation_anonymisee": "Supprimer l’Aide Médicale d’État (AME) et la remplacer par une aide d’urgence",
+          "source": {
+            "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+            "titre": "Immigration - Programme (site de campagne)",
+            "date_publication": null,
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Remplace l'AME par une aide d'urgence : va plus loin que l'accord préalable (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Supprime l'AME au profit d'une aide d'urgence, plus loin que l'accord préalable.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "6d6caa71"
     },
     {
       "question_id": "SAN-020",
@@ -3540,10 +3576,44 @@
       },
       "code": null,
       "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans un entretien de mars 2025, il affirme que pour peser dans les discussions sur l'Ukraine la France doit porter son budget de la défense à 3,5 % du PIB, en accélérant la production d'armements. Il ne se prononce pas sur l'inscription ou non d'un objectif chiffré dans la loi.",
+          "citation_courte": "en portant son budget de la défense à 3,5 % du PIB",
+          "reformulation_anonymisee": "Dans un entretien de mars 2025, [CANDIDAT] affirme que pour peser dans les discussions sur l'Ukraine la France doit porter son budget de la défense à 3,5 % du PIB, en accélérant la production d'armements. Il ne se prononce pas sur l'inscription ou non d'un objectif chiffré dans la loi.",
+          "citation_anonymisee": "en portant son budget de la défense à 3,5 % du PIB",
+          "source": {
+            "url": "https://lediplomate.media/david-lisnard-souverainete-europeenne/",
+            "titre": "Le Grand Entretien du Diplomate avec David Lisnard : « La souveraineté européenne n'existe pas ! »",
+            "date_publication": "2025-03-22",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Veut 3,5 % du PIB pour la défense, sans se prononcer sur l'inscription d'un objectif dans la loi.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Fixe un objectif de 3,5 % sans se prononcer sur l'inscription dans la loi.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "6bba6171"
     },
     {
       "question_id": "DEF-003",

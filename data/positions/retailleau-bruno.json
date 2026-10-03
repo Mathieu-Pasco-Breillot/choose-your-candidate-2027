@@ -1,6 +1,6 @@
 {
   "candidat_id": "retailleau-bruno",
-  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication.",
+  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
   "grille_version": "1.2",
   "programme": {
     "officiel_disponible": false,
@@ -341,17 +341,51 @@
     },
     {
       "question_id": "RET-014",
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Pour un salarié qui a tous ses trimestres et qui a 62 ans, le candidat dit qu'il supprimerait les cotisations retraite et la cotisation chômage, pour le salarié comme pour l'employeur, ce qui représenterait selon lui 14 à 15 % de salaire net en plus pour le salarié. La mesure vise donc ce public précis et non l'ensemble des salariés.",
+          "citation_courte": "je supprime les cotisations retraite, la cotisation chômage pour lui et l'employeur",
+          "reformulation_anonymisee": "Pour un salarié qui a tous ses trimestres et qui a 62 ans, [CANDIDAT] dit qu'il supprimerait les cotisations retraite et la cotisation chômage, pour le salarié comme pour l'employeur, ce qui représenterait selon lui 14 à 15 % de salaire net en plus pour le salarié. La mesure vise donc ce public précis et non l'ensemble des salariés.",
+          "citation_anonymisee": "je supprime les cotisations retraite, la cotisation chômage pour lui et l'employeur",
+          "source": {
+            "url": "https://www.tf1info.fr/politique/presidentielle-2027-age-minimal-de-depart-a-63-ans-a-taux-plein-a-65-ans-bruno-retailleau-devoile-sur-lci-ses-propositions-pour-les-retraites-2465712.html",
+            "titre": "Âge minimal de départ à 63 ans, à taux plein à 65 ans... Bruno Retailleau dévoile sur LCI ses propositions pour les retraites",
+            "date_publication": "2026-09-22",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Supprime les cotisations retraite pour les seuls salariés de 62 ans ayant tous leurs trimestres.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Suppression des cotisations retraite pour un public précis.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
       },
       "contestations": [],
-      "version": 1
+      "version": 1,
+      "item_aveugle": "ad521b83"
     },
     {
       "question_id": "RET-015",
@@ -812,12 +846,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 2,
+      "nature": "nette",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le candidat demande l'organisation d'un référendum sur la règle d'or budgétaire « avant la fin de l'année », sur la base du projet de révision constitutionnelle voté en 2011 par l'Assemblée et le Sénat. Il y voit le seul moyen d'éviter une crise financière avant l'élection présidentielle et de calmer les marchés. La source ne détaille ni le seuil de déficit ni le contenu exact de la règle.",
+          "citation_courte": "le seul bouclier, c’est le référendum, une règle d’or",
+          "reformulation_anonymisee": "Le candidat demande un référendum sur la règle d'or budgétaire « avant la fin de l'année », sur la base d'un projet de révision constitutionnelle voté par les deux assemblées en 2011. Il y voit le seul moyen d'éviter une crise financière avant l'élection présidentielle et de calmer les marchés. La source ne détaille ni le seuil de déficit ni le contenu exact de la règle.",
+          "citation_anonymisee": "le seul bouclier, c’est le référendum, une règle d’or",
+          "source": {
+            "url": "https://www.lopinion.fr/politique/la-regle-dor-budgetaire-une-proposition-consensuelle-a-lefficacite-discutee",
+            "titre": "La « règle d’or budgétaire », une proposition consensuelle à l’efficacité discutée (L'Opinion)",
+            "date_publication": "2026-10-01",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Demande un référendum pour inscrire la règle d'or dans la Constitution.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Réclame un référendum sur la règle d'or, contenu non détaillé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 2,
+        "nature_retenue": "nette",
+        "motif": "Demande datée d'un référendum constitutionnel sur la règle d'or budgétaire, mesure que la précision identifie à l'énoncé ; le référendum est un moyen, pas une réserve. (code retenu : celui du codeur B)"
+      },
+      "item_aveugle": "6300f09a"
     },
     {
       "question_id": "ECO-014",
@@ -2220,12 +2294,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur la légalisation du cannabis proposée par deux députés, il se déclare totalement opposé à la légalisation, y compris des drogues dites douces, et affirme que, dans les pays qui l'ont adoptée, elle ne marche pas.",
+          "citation_courte": "Je suis contre. Totalement contre.",
+          "reformulation_anonymisee": "Interrogé sur la légalisation du cannabis proposée par deux députés, [CANDIDAT] se déclare totalement opposé à la légalisation, y compris des drogues dites douces, et affirme que, dans les pays qui l'ont adoptée, elle ne marche pas.",
+          "citation_anonymisee": "Je suis contre. Totalement contre.",
+          "source": {
+            "url": "https://www.leparisien.fr/societe/sante/la-legalisation-du-cannabis-ca-ne-marche-pas-estime-bruno-retailleau-18-02-2025-IY5JHF75WJFZ3JHSX33CGBFT2U.php",
+            "titre": "La légalisation du cannabis, « ça ne marche pas », estime Bruno Retailleau (Le Parisien/AFP)",
+            "date_publication": "2025-02-18",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Totalement opposé à la légalisation du cannabis.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Totalement contre la légalisation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "e4fef32c"
     },
     {
       "question_id": "SAN-011",
@@ -2432,12 +2540,60 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il juge que l'idée de régulariser des clandestins qui ont fraudé les lois est une capitulation. Il refuse l'argument des secteurs en manque de main-d'oeuvre : on peut selon lui former des Français ou des étrangers déjà présents légalement. Il s'oppose à l'assouplissement des critères de régularisation en vigueur, qui créerait un appel d'air.",
+          "citation_courte": "l’idée de régulariser des clandestins qui ont fraudé nos lois est une capitulation",
+          "reformulation_anonymisee": "[CANDIDAT] juge que l'idée de régulariser des clandestins qui ont fraudé les lois est une capitulation. Il refuse l'argument des secteurs en manque de main-d'oeuvre : on peut selon lui former des Français ou des étrangers déjà présents légalement. Il s'oppose à l'assouplissement des critères de régularisation en vigueur, qui créerait un appel d'air.",
+          "citation_anonymisee": "l’idée de régulariser des clandestins qui ont fraudé nos lois est une capitulation",
+          "source": {
+            "url": "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/",
+            "titre": "Ma candidature ira jusqu’au bout (entretien au JDD, repris sur republicains.fr)",
+            "date_publication": "2026-05-31",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Interrogé sur les critères de régularisation par le travail, il met en garde contre tout assouplissement et accuse le gouvernement de chercher une occasion d'ouvrir les vannes. Il défend le durcissement actuel des régularisations par le travail et y voit un risque d'appel d'air et de main-d'oeuvre bon marché.",
+          "citation_courte": "Il ne cherche qu’une occasion d’ouvrir les vannes",
+          "reformulation_anonymisee": "[CANDIDAT] met en garde contre tout assouplissement des critères de régularisation par le travail et accuse le gouvernement de chercher une occasion d'ouvrir les vannes. Il défend le durcissement actuel et y voit un risque d'appel d'air et de main-d'oeuvre bon marché.",
+          "citation_anonymisee": "Il ne cherche qu’une occasion d’ouvrir les vannes",
+          "source": {
+            "url": "https://www.lopinion.fr/politique/cest-une-capitulation-la-mise-en-garde-de-bruno-retailleau-au-gouvernement-sur-limmigration-de-travail",
+            "titre": "« C’est une capitulation » : la mise en garde de Bruno Retailleau au gouvernement sur l’immigration de travail (L'Opinion)",
+            "date_publication": "2026-05-27",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Juge la régularisation des clandestins une capitulation et refuse tout assouplissement.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Régularisation jugée capitulation, refuse tout assouplissement.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "e5bb73c4"
     },
     {
       "question_id": "IMM-002",
@@ -2854,12 +3010,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Invité de la matinale de TF1, il approuve le maire qui a refusé de célébrer le mariage d'un étranger sous OQTF et juge cette loi incompréhensible. Il reconnaît les contraintes constitutionnelles mais affirme qu'il faudra changer la loi en 2027. (TF1 Info rappelle qu'il avait soutenu en 2025 une proposition de loi sénatoriale interdisant le mariage en situation irrégulière.)",
+          "citation_courte": "en 2027, il faudra changer cette loi-là",
+          "reformulation_anonymisee": "[CANDIDAT] approuve le maire qui a refusé de célébrer le mariage d'un étranger sous OQTF et juge cette loi incompréhensible. Il reconnaît les contraintes constitutionnelles mais affirme qu'il faudra changer la loi. (Le média rappelle qu'il avait soutenu une proposition de loi interdisant le mariage en situation irrégulière.)",
+          "citation_anonymisee": "il faudra changer cette loi-là",
+          "source": {
+            "url": "https://www.tf1info.fr/politique/refus-d-un-maire-de-marier-un-etranger-sous-oqtf-peut-on-vraiment-changer-la-loi-comme-le-veut-bruno-retailleau-2413396.html",
+            "titre": "Refus d'un maire de marier un étranger sous OQTF : peut-on vraiment « changer la loi », comme le veut Bruno Retailleau ? (TF1 Info)",
+            "date_publication": "2025-12-17",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut changer la loi pour empêcher ce mariage, tout en reconnaissant des contraintes constitutionnelles.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Il faudra changer la loi pour empêcher ce mariage.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Veut changer la loi pour empêcher le mariage d'un étranger sous OQTF : sens de l'énoncé, mais public (OQTF) et modalités non précisés et contraintes constitutionnelles reconnues ; doute → +1. (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "98891934"
     },
     {
       "question_id": "IMM-020",
@@ -2922,12 +3118,60 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il veut conditionner l'accès des étrangers aux aides sociales à cinq ans de résidence légale et de travail, car une aide n'est pas un dû quand on n'a pas cotisé. Engagement présenté comme un projet s'il est élu.",
+          "citation_courte": "conditionner l’accès aux aides sociales, pour les étrangers, à cinq ans de résidence légale",
+          "reformulation_anonymisee": "[CANDIDAT] veut conditionner l'accès des étrangers aux aides sociales à cinq ans de résidence légale et de travail, car une aide n'est pas un dû quand on n'a pas cotisé. Engagement présenté comme un projet s'il est élu.",
+          "citation_anonymisee": "conditionner l’accès aux aides sociales, pour les étrangers, à cinq ans de résidence légale",
+          "source": {
+            "url": "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/",
+            "titre": "Ma candidature ira jusqu’au bout (entretien au JDD, repris sur republicains.fr)",
+            "date_publication": "2026-05-31",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Dans une tribune, il propose qu'un étranger qui vient d'obtenir un titre de séjour mais n'a pas encore cotisé attende avant de toucher des aides : les nouveaux venus devront justifier de cinq ans d'activité, correspondant à cinq années de résidence légale en France.",
+          "citation_courte": "La solidarité nationale se mérite.",
+          "reformulation_anonymisee": "[CANDIDAT] propose qu'un étranger qui vient d'obtenir un titre de séjour mais n'a pas encore cotisé attende avant de toucher des aides : les nouveaux venus devront justifier de cinq ans d'activité, correspondant à cinq années de résidence légale.",
+          "citation_anonymisee": "La solidarité nationale se mérite.",
+          "source": {
+            "url": "https://www.latribune.fr/article/la-tribune-dimanche/opinions/1253976204284314/opinion-instaurons-la-priorite-travail-par-bruno-retailleau-president-des-lr-et-candidat-a-la-presidentielle",
+            "titre": "« Instaurons la priorité travail », par Bruno Retailleau (La Tribune Dimanche)",
+            "date_publication": "2026-05-02",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Conditionne les aides sociales des étrangers à cinq ans de résidence légale et de travail.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Cinq ans de résidence légale pour les aides.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "53e4ea29"
     },
     {
       "question_id": "DEF-001",
@@ -3016,10 +3260,44 @@
       },
       "code": null,
       "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il rejette l'idée de sortir de l'OTAN, qu'il juge être un cadeau fait aux adversaires stratégiques de la France. Il propose plutôt d'européaniser l'OTAN et de bâtir un réseau d'alliances bilatérales de défense entre Européens. Le texte parle de sortie de l'OTAN et ne mentionne pas spécifiquement le commandement militaire intégré.",
+          "citation_courte": "Pas en sortant de l’OTAN comme le proposent certains",
+          "reformulation_anonymisee": "[CANDIDAT] rejette l'idée de sortir de l'OTAN, qu'il juge être un cadeau fait aux adversaires stratégiques de la France. Il propose plutôt d'européaniser l'OTAN et de bâtir un réseau d'alliances bilatérales de défense entre Européens. Le texte parle de sortie de l'OTAN et ne mentionne pas spécifiquement le commandement militaire intégré.",
+          "citation_anonymisee": "Pas en sortant de l’OTAN comme le proposent certains",
+          "source": {
+            "url": "https://republicains.fr/actualites/2026/07/14/lunite-nationale-premiere-de-nos-armes/",
+            "titre": "L'unité nationale, première de nos armes (tribune de Bruno Retailleau, republicains.fr)",
+            "date_publication": "2026-07-14",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Rejette la sortie de l'OTAN, sujet voisin du commandement intégré non abordé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Rejette la sortie de l'OTAN, sans mention du commandement intégré.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "d818a332"
     },
     {
       "question_id": "DEF-005",
@@ -3632,12 +3910,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le 14 septembre 2025, il a averti que, si l'on instituait la taxe Zucman (impôt plancher de 2 % sur les patrimoines de plus de 100 millions d'euros) pour satisfaire la gauche, des entreprises françaises pourraient s'enfuir et délocaliser. Il l'a cité parmi les conditions de la participation de son parti à un gouvernement ; il s'agit d'une mise en garde, sans engagement chiffré.",
+          "citation_courte": "nos propres entreprises pourraient s’enfuir",
+          "reformulation_anonymisee": "[CANDIDAT] a averti que l'instauration d'un impôt plancher sur les très grands patrimoines, pour satisfaire la gauche, pourrait pousser des entreprises françaises à s'enfuir et à délocaliser. Il en fait l'une des conditions de la participation de [PARTI] à un gouvernement ; c'est une mise en garde, sans engagement chiffré.",
+          "citation_anonymisee": "nos propres entreprises pourraient s’enfuir",
+          "source": {
+            "url": "https://www.20minutes.fr/politique/4172990-20250914-devrions-faire-trahir-bruno-retailleau-pose-limites-participer-gouvernement",
+            "titre": "Taxe Zucman, « assistanat »… LR prévient Sébastien Lecornu",
+            "date_publication": "2025-09-14",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Met en garde contre l'impôt plancher sur les grands patrimoines et en fait une condition de participation au gouvernement.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Met en garde contre l'impôt plancher, sans engagement chiffré.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "nuancee",
+        "motif": "Mise en garde contre l'impôt plancher érigée en condition de participation au gouvernement : opposition explicite et identifiable, mais sans rejet formel de la mesure chiffrée. (code retenu : celui du codeur B)"
+      },
+      "item_aveugle": "f438eb54"
     },
     {
       "question_id": "FIS-003",
@@ -3736,12 +4054,60 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Aux Assises de l'AFER, il promet de préserver le pacte Dutreil (compte rendu de presse spécialisée, sans citation directe).",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Devant une association d'épargnants, [CANDIDAT] promet de préserver le pacte Dutreil (compte rendu de presse spécialisée).",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://zoominvest.fr/actualites/assurance-vie-les-candidats-reunis-par-lafer-promettent-la-stabilite-fiscale/w3jyamst9fb23vq3n8vmheuf",
+            "titre": "Assurance-vie : les candidats réunis par l'AFER promettent la stabilité fiscale",
+            "date_publication": "2026-09-30",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        },
+        {
+          "reformulation": "Lors du débat des candidats devant le Medef (27 août 2026), il a tenu la même ligne que Philippe qui promettait de ne « pas toucher à un cheveu du pacte Dutreil », c'est-à-dire de le maintenir. Le 30 septembre 2026, aux Assises de l'AFER, il a promis de préserver le pacte Dutreil.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Lors d'un débat entre candidats devant des chefs d'entreprise (27 août 2026), [CANDIDAT] a tenu la même ligne qu'un autre candidat promettant de ne « pas toucher à un cheveu » du pacte Dutreil, c'est-à-dire de le maintenir. Fin septembre 2026, devant une association d'épargnants, il a promis de préserver le pacte Dutreil.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.franceinfo.fr/elections/presidentielle/dette-publique-retraites-reindustrialisation-ce-qu-il-faut-retenir-du-premier-debat-des-principaux-candidats-a-la-presidentielle_8165342.html",
+            "titre": "Dette publique, retraites, réindustrialisation… Ce qu'il faut retenir du premier débat des principaux candidats à la présidentielle, organisé par le Medef",
+            "date_publication": "2026-08-27",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Promet de préserver le pacte Dutreil sans y toucher : statu quo contraire à la baisse à 50 %.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Promet de préserver le pacte Dutreil.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "b10423f3"
     },
     {
       "question_id": "FIS-008",
@@ -3790,14 +4156,64 @@
       "contestations": [],
       "version": 1,
       "controle_humain": {
-        "tire_au_sort": false
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Lors du débat devant le Medef (27 août 2026), il veut réduire de 40 milliards d'euros les impôts de production (C3S, CVAE, CFE sur les outils de production, forfait social), puis geler la fiscalité pendant cinq ans (reformulation par l'Opinion).",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Lors d'un débat devant des chefs d'entreprise (27 août 2026), [CANDIDAT] veut réduire de 40 milliards d'euros les impôts de production (C3S, CVAE, CFE sur les outils de production, forfait social), puis geler la fiscalité pendant cinq ans.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.lopinion.fr/politique/fiscalite-dette-et-salaires-les-points-cles-du-premier-debat-presidentiel",
+            "titre": "Fiscalité, dette et salaires : les points clés du premier débat présidentiel",
+            "date_publication": "2026-08-27",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        },
+        {
+          "reformulation": "Il propose de rendre 40 milliards d'euros de compétitivité aux entreprises dès 2027, dont 15 milliards d'impôts de production restitués, avec la suppression définitive de la CVAE, la suppression de la C3S et l'exonération de la composante industrielle de la CFE. Il ne fixe pas de date précise pour la CVAE au-delà de ce « dès 2027 » global.",
+          "citation_courte": "la suppression définitive de la CVAE",
+          "reformulation_anonymisee": "Il propose de rendre 40 milliards d'euros de compétitivité aux entreprises dès 2027, dont 15 milliards d'impôts de production restitués, avec la suppression définitive de la CVAE, de la C3S et l'exonération de la composante industrielle de la CFE. Aucune date précise n'est donnée pour la CVAE au-delà de ce « dès 2027 » global.",
+          "citation_anonymisee": "la suppression définitive de la CVAE",
+          "source": {
+            "url": "https://contrepoints.org/flat-tax-aides-aux-entreprises-assurances-sociales-calendrier-des-reformes-bruno-retailleau-repond-a-nos-questions/",
+            "titre": "Flat tax, aides aux entreprises, assurances sociales, calendrier des réformes… Bruno Retailleau répond à nos questions.",
+            "date_publication": "2026-04-15",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Suppression définitive de la CVAE annoncée dans un paquet « dès 2027 », la source la plus récente parlant seulement de réduction.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Suppression définitive de la CVAE dès 2027 dans un paquet global, sans date propre.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "5e7005ab"
     },
     {
       "question_id": "FIS-013",
@@ -3854,12 +4270,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il veut raccourcir de 15 à 10 ans le délai de rappel des donations (délai au terme duquel l'abattement de 100 000 euros par parent et par enfant se reconstitue). Le compte rendu n'indique pas de changement du montant de 100 000 euros.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "[CANDIDAT] veut raccourcir de 15 à 10 ans le délai de rappel des donations, délai au terme duquel l'abattement par parent et par enfant se reconstitue. Le compte rendu ne mentionne pas de changement du montant de l'abattement.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.lejdd.fr/politique/heritage-ce-que-proposent-les-candidats-a-la-presidentielle-183564",
+            "titre": "Héritage : ce que proposent les candidats à la présidentielle",
+            "date_publication": "2026-09-15",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Veut ramener le délai de rappel des donations de 15 à 10 ans.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Délai de rappel ramené de 15 à 10 ans.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "da72184a"
     },
     {
       "question_id": "FIS-015",
@@ -3868,12 +4318,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il propose une exonération totale de cotisations salariales et patronales au-delà de la 36e heure travaillée, financée par 30 milliards d'euros d'économies budgétaires ; selon La Provence, la baisse de cotisations y figure sans aucune hausse de TVA pour la financer. Pas de déclaration directe de lui sur la TVA sociale dans cette source.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "[CANDIDAT] propose une exonération totale de cotisations salariales et patronales au-delà de la 36e heure travaillée, financée par 30 milliards d'euros d'économies budgétaires ; selon le journal, cette baisse de cotisations est prévue sans aucune hausse de TVA pour la financer. Pas de déclaration directe du candidat sur la TVA sociale dans cette source.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.laprovence.com/article/politique/25824363893349/tva-sociale-plusieurs-candidats-a-la-presidentielle-ladopteraient-comment-fonctionne-t-elle",
+            "titre": "TVA sociale : plusieurs candidats à la présidentielle l'adopteraient, comment fonctionne-t-elle ?",
+            "date_publication": "2026-09-10",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Baisse de cotisations financée par des économies, sans hausse de TVA, selon le journal.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Baisse de cotisations prévue sans hausse de TVA.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "411e8b3e"
     },
     {
       "question_id": "FIS-016",
@@ -3882,12 +4366,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il propose un seuil négocié de deux jours de travail supplémentaires rémunérés (1 623 heures par an au lieu de 1 607). Sous ce seuil, impôts et cotisations s'appliquent normalement ; au-delà, le salarié serait totalement exonéré de cotisations et d'impôt sur le revenu. Les modalités de déclenchement des heures supplémentaires relèveraient de la négociation collective.",
+          "citation_courte": "le salarié sera totalement exonéré de cotisations et d’impôt sur le revenu",
+          "reformulation_anonymisee": "[CANDIDAT] propose un seuil négocié de deux jours de travail supplémentaires rémunérés (1 623 heures par an au lieu de 1 607). Sous ce seuil, impôts et cotisations s'appliquent normalement ; au-delà, le salarié serait totalement exonéré de cotisations et d'impôt sur le revenu. Les modalités de déclenchement relèveraient de la négociation collective.",
+          "citation_anonymisee": "le salarié sera totalement exonéré de cotisations et d’impôt sur le revenu",
+          "source": {
+            "url": "https://www.lefigaro.fr/politique/sortir-des-35-heures-remplacer-le-rsa-par-un-ria-durcir-l-assurance-chomage-bruno-retailleau-devoile-ses-propositions-economiques-20260107",
+            "titre": "Sortir des 35 heures, remplacer le RSA par un RIA, durcir l'assurance-chômage... Bruno Retailleau dévoile ses propositions économiques",
+            "date_publication": "2026-01-07",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Exonération totale seulement au-delà d'un seuil négocié de 1 623 heures.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Exonération totale au-delà d'un seuil négocié.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "d3a256c0"
     },
     {
       "question_id": "FIS-017",
@@ -3972,12 +4490,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le 15 septembre 2026, il défend la suppression des certificats d'économie d'énergie pour baisser le litre d'essence de 15 à 17 centimes, mais sans toucher à la TVA, pour ne pas détériorer davantage les finances de l'État. Le passage vise les carburants ; l'électricité et le gaz ne sont pas traités dans cet extrait.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Le 15 septembre 2026, [CANDIDAT] défend la suppression des certificats d'économie d'énergie pour baisser le litre d'essence de 15 à 17 centimes, mais sans toucher à la TVA, pour ne pas détériorer davantage les finances de l'État. Le passage vise les carburants ; l'électricité et le gaz ne sont pas traités dans cet extrait.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.lefigaro.fr/conjoncture/bruno-retailleau-veut-faire-baisser-les-prix-a-la-pompe-de-15-a-17-centimes-en-supprimant-les-certificats-d-energie-20260915",
+            "titre": "Bruno Retailleau veut faire baisser les prix à la pompe de 15 à 17 centimes en supprimant les certificats d'énergie",
+            "date_publication": "2026-09-15",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Refuse de toucher à la TVA sur les carburants ; électricité et gaz non traités.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Refuse de toucher à la TVA sur les carburants, électricité et gaz non traités.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "47e05d2e"
     },
     {
       "question_id": "ENV-001",
@@ -4688,10 +5240,50 @@
       },
       "code": null,
       "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Lors d'un colloque de l'UFE, il déclare qu'il poursuivra le programme EPR2, en commençant par la première tranche de six réacteurs. L'extrait ne mentionne pas les huit réacteurs supplémentaires en option.",
+          "citation_courte": "Je poursuis le programme EPR2, déjà avec la première tranche de 6 réacteurs.",
+          "reformulation_anonymisee": "Lors d'un colloque professionnel du secteur électrique, [CANDIDAT] déclare qu'il poursuivra le programme EPR2, en commençant par la première tranche de six réacteurs. L'extrait ne mentionne pas les huit réacteurs supplémentaires en option.",
+          "citation_anonymisee": "Je poursuis le programme EPR2, déjà avec la première tranche de 6 réacteurs.",
+          "source": {
+            "url": "https://www.sfen.org/rgn/presidentielle-2027-au-colloque-de-lufe-les-grands-partis-listent-leurs-positions-sur-le-nucleaire/",
+            "titre": "[Présidentielle 2027] Au colloque de l'UFE, les grands partis listent leurs positions sur le nucléaire - Sfen",
+            "date_publication": "2026-07-02",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Poursuit le programme EPR2 « déjà » avec six réacteurs, sans mention des huit suivants.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Parle de la première tranche de six, rien sur les huit.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": null,
+        "nature_retenue": "non_connu",
+        "motif": "Engagement sur la première tranche de six réacteurs seulement ; rien sur les huit en option, « déjà » ne constitue pas une position (sujet voisin). (code retenu : celui du codeur B)"
+      },
+      "item_aveugle": "ba1f9e3b"
     },
     {
       "question_id": "ENV-024",
