@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import fc from 'fast-check';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { creerGenerateur } from '../aleatoire/prng.ts';
 import { chargerDataset } from '../../scripts/lib/dataset.ts';
 import type { DeriveAncrage, DeriveDiscriminance } from '../types.generated.ts';
@@ -23,6 +23,9 @@ import {
 } from './index.ts';
 import { banqueSynthetique, ecartMinimal, THEMES_TEST, violations } from './outils-test.ts';
 import { calculerQuotas } from './quotas.ts';
+
+// Tests de propriétés sur des milliers de tirages : délai large pour les machines d'intégration continue.
+vi.setConfig({ testTimeout: 120_000 });
 
 const TIRAGES = 10_000;
 

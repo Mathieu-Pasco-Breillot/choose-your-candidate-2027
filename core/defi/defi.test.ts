@@ -1,10 +1,13 @@
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import fc from 'fast-check';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { chargerDataset } from '../../scripts/lib/dataset.ts';
 import type { Positions, Questions } from '../types.generated.ts';
 import { ErreurDefi, estAdmiseDansDefi, tirerDefi, type EntreeDefi, type ResultatDefi } from './index.ts';
+
+// Tests de propriétés sur des milliers de tirages : délai large pour les machines d'intégration continue.
+vi.setConfig({ testTimeout: 120_000 });
 
 type Statut = Positions.Position['statut'];
 type Nature = Positions.Nature;

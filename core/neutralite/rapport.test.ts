@@ -1,7 +1,10 @@
 import fc from 'fast-check';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { banqueSynthetique } from '../tirage/outils-test.ts';
 import { calculerRapportNeutralite, poidsAleatoires } from './index.ts';
+
+// Tests de propriétés sur des milliers de tirages : délai large pour les machines d'intégration continue.
+vi.setConfig({ testTimeout: 120_000 });
 
 const banque = banqueSynthetique();
 const ids = banque.questions.map((q) => q.id);

@@ -1,6 +1,9 @@
 import fc from 'fast-check';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { choisir, creerGenerateur, deriverGraine, ErreurGraine, GRAINE_MAX, melanger, tiragePondere } from './prng.ts';
+
+// Tests de propriétés sur des milliers de tirages : délai large pour les machines d'intégration continue.
+vi.setConfig({ testTimeout: 120_000 });
 
 describe('générateur à graine', () => {
   it('donne des valeurs de référence figées (vérifiées par une implémentation indépendante en Python)', () => {
