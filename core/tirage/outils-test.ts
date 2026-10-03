@@ -170,7 +170,16 @@ export function violations(
   if (options.equilibreGlobal) {
     const plus = r.questions.filter((id) => parId.get(id)!.sens === 1).length;
     const ecart = Math.abs(2 * plus - r.questions.length);
-    if (ecart > 0.1 * N) v.push(`écart global de sens ${ecart} > 10 % de ${N}`);
+    // Le stock peut imposer un écart : en piochant n questions parmi s+ « pour » et s- « contre », le nombre
+    // de « pour » est au moins n - s- et au plus s+. On n'exige que le meilleur écart atteignable.
+    const n = r.questions.length;
+    const actifs = banque.questions.filter((q) => poids(q.theme) > 0);
+    const sPlus = actifs.filter((q) => q.sens === 1).length;
+    const sMoins = actifs.length - sPlus;
+    const plusMin = Math.max(0, n - sMoins);
+    const plusMax = Math.min(n, sPlus);
+    const meilleur = Math.min(...[plusMin, plusMax, Math.min(Math.max(n / 2, plusMin), plusMax)].map((x) => Math.abs(2 * x - n)));
+    if (ecart > Math.max(0.1 * N, meilleur)) v.push(`écart global de sens ${ecart} > 10 % de ${N}`);
   }
   return v;
 }
