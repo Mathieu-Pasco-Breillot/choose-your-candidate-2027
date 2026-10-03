@@ -5,6 +5,7 @@ Fonctions pures du comparateur (aucune dépendance à l'interface, au DOM ou au 
 | Dossier | Lot | Contenu |
 |---|---|---|
 | `core/score/` | 5c | calcul du score, fiabilité, détails, accords et désaccords |
+| `core/aleatoire/` | 5d | générateur pseudo-aléatoire à graine (sfc32), mélange, tirage pondéré |
 | `core/tirage/` | 5d | tirage stratifié |
 | `core/defi/` | 5d | défi « Qui a dit ça ? » |
 | `core/neutralite/` | 5d | rapport de neutralité du tirage |
