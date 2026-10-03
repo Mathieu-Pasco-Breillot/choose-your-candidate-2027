@@ -236,6 +236,53 @@ export namespace DeriveDiscriminance {
   }
 }
 
+// ── derive-rapport-neutralite.schema.json
+export namespace DeriveRapportNeutralite {
+  export type Identifiant = string;
+  export type Part = number;
+
+  /**
+   * derive/rapport-neutralite.json — rapport de neutralité du tirage (spécification de l'application, § 7.4 et § 10). Sur `tirages_par_mode` tirages simulés par mode, avec des poids de thème aléatoires et un utilisateur qui répond à toutes les questions, part des tirages où chaque candidat atteint les seuils de classement et couverture moyenne. Rend visible un déséquilibre entre candidats sans le corriger ; non bloquant. Généré par `npm run derive`, jamais édité à la main.
+   */
+  export interface DeriveRapportNeutralite {
+    version: 1;
+    empreinte_donnees: string;
+    provisoire: boolean;
+    parametres: {
+      tirages_par_mode: number;
+      graine: number;
+      seuil_questions_codees: 10;
+      seuil_part_codee: 0.5;
+      poids_themes: 'uniforme_0_a_3_au_moins_un_non_nul';
+      reponses: 'toutes_les_questions_tirees';
+      questions_deja_vues: 'aucune';
+    };
+    candidats: Identifiant[];
+    couverture_banque: {
+      [k: string]: Part;
+    };
+    modes: {
+      express: Mode;
+      debat: Mode;
+      campagne: Mode;
+    };
+  }
+  export interface Mode {
+    N: 20 | 40 | 60;
+    questions_tirees_moyenne: number;
+    ecart_parts_atteint_seuils: Part;
+    candidats: {
+      [k: string]: {
+        part_atteint_seuils: Part;
+        couverture_moyenne: Part;
+        questions_codees_moyenne: number;
+        questions_codees_min: number;
+        questions_codees_max: number;
+      };
+    };
+  }
+}
+
 // ── journal.schema.json
 export namespace Journal {
   /**

@@ -44,6 +44,7 @@ export function validateurs(): Record<string, ValidateFunction> {
     'derive-ancrage',
     'derive-couverture',
     'derive-accord-codeurs',
+    'derive-rapport-neutralite',
   ];
   const out: Record<string, ValidateFunction> = {};
   for (const nom of noms) {

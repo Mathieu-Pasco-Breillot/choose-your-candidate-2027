@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DeriveRapportNeutralite",
+  "description": "derive/rapport-neutralite.json — rapport de neutralité du tirage (spécification de l'application, § 7.4 et § 10). Sur `tirages_par_mode` tirages simulés par mode, avec des poids de thème aléatoires et un utilisateur qui répond à toutes les questions, part des tirages où chaque candidat atteint les seuils de classement et couverture moyenne. Rend visible un déséquilibre entre candidats sans le corriger ; non bloquant. Généré par `npm run derive`, jamais édité à la main.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "empreinte_donnees", "provisoire", "parametres", "candidats", "couverture_banque", "modes"],
+  "properties": {
+    "version": { "const": 1 },
+    "empreinte_donnees": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "provisoire": { "type": "boolean" },
+    "parametres": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tirages_par_mode", "graine", "seuil_questions_codees", "seuil_part_codee", "poids_themes", "reponses", "questions_deja_vues"],
+      "properties": {
+        "tirages_par_mode": { "type": "integer", "minimum": 1 },
+        "graine": { "type": "integer", "minimum": 0, "maximum": 4294967295 },
+        "seuil_questions_codees": { "const": 10 },
+        "seuil_part_codee": { "const": 0.5 },
+        "poids_themes": { "const": "uniforme_0_a_3_au_moins_un_non_nul" },
+        "reponses": { "const": "toutes_les_questions_tirees" },
+        "questions_deja_vues": { "const": "aucune" }
+      }
+    },
+    "candidats": { "type": "array", "items": { "$ref": "#/$defs/identifiant" } },
+    "couverture_banque": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/$defs/identifiant" },
+      "additionalProperties": { "$ref": "#/$defs/part" }
+    },
+    "modes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["express", "debat", "campagne"],
+      "properties": {
+        "express": { "$ref": "#/$defs/mode" },
+        "debat": { "$ref": "#/$defs/mode" },
+        "campagne": { "$ref": "#/$defs/mode" }
+      }
+    }
+  },
+  "$defs": {
+    "identifiant": { "type": "string", "pattern": "^[a-z]+(-[a-z]+)*$" },
+    "part": { "type": "number", "minimum": 0, "maximum": 1 },
+    "mode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["N", "questions_tirees_moyenne", "candidats", "ecart_parts_atteint_seuils"],
+      "properties": {
+        "N": { "enum": [20, 40, 60] },
+        "questions_tirees_moyenne": { "type": "number", "minimum": 0 },
+        "ecart_parts_atteint_seuils": { "$ref": "#/$defs/part" },
+        "candidats": {
+          "type": "object",
+          "propertyNames": { "$ref": "#/$defs/identifiant" },
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["part_atteint_seuils", "couverture_moyenne", "questions_codees_moyenne", "questions_codees_min", "questions_codees_max"],
+            "properties": {
+              "part_atteint_seuils": { "$ref": "#/$defs/part" },
+              "couverture_moyenne": { "$ref": "#/$defs/part" },
+              "questions_codees_moyenne": { "type": "number", "minimum": 0 },
+              "questions_codees_min": { "type": "integer", "minimum": 0 },
+              "questions_codees_max": { "type": "integer", "minimum": 0 }
+            }
+          }
+        }
+      }
+    }
+  }
+}
