@@ -13,8 +13,8 @@ export default defineConfig({
       injectRegister: 'script',
       includeAssets: ['favicon.svg'],
       manifest: {
-        name: 'Choisir mon candidat 2027',
-        short_name: 'Candidat 2027',
+        name: 'Mon Isoloir',
+        short_name: 'Mon Isoloir',
         description: "Comparateur des positions des candidats à l'élection présidentielle de 2027.",
         lang: 'fr',
         theme_color: '#1f2a44',

@@ -1,4 +1,6 @@
-# Choisir mon candidat 2027
+# Mon Isoloir
+
+*Comparez les candidats à la présidentielle 2027, à l'abri des regards : vos réponses ne quittent jamais votre téléphone.*
 
 Comparateur des positions des candidats à l'élection présidentielle de 2027. L'utilisateur répond à une série de
 questions ; le site classe les candidats selon la proximité de leurs positions publiques avec ses réponses.

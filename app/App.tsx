@@ -8,9 +8,9 @@ export function App() {
     <main className="mx-auto flex min-h-dvh max-w-2xl flex-col justify-center px-6 py-16">
       <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
         <p className="text-sm tracking-wide text-sourdine uppercase">Présidentielle 2027</p>
-        <h1 className="mt-3 font-serif text-4xl font-semibold">Choisir mon candidat</h1>
+        <h1 className="mt-3 font-serif text-4xl font-semibold">Mon Isoloir</h1>
         <p className="mt-6 text-lg leading-relaxed">
-          Le comparateur est en construction. Il confrontera vos opinions aux positions publiques des candidats,
+          Le comparateur de la présidentielle 2027 est en construction. Il confrontera vos opinions aux positions publiques des candidats,
           chaque position étant adossée à une source vérifiable.
         </p>
         <p className="mt-4 text-sourdine">

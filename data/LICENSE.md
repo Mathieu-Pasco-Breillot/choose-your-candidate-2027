@@ -1,6 +1,6 @@
 # Licence
 
-Le contenu de ce dossier est publié sous licence **Creative Commons Attribution 4.0 International (CC BY 4.0)** : réutilisation libre, y compris commerciale, à condition de citer le projet « Choisir mon candidat 2027 » (https://github.com/Mathieu-Pasco-Breillot/choose-your-candidate-2027) et d'indiquer les modifications.
+Le contenu de ce dossier est publié sous licence **Creative Commons Attribution 4.0 International (CC BY 4.0)** : réutilisation libre, y compris commerciale, à condition de citer le projet « Mon Isoloir » (https://github.com/Mathieu-Pasco-Breillot/choose-your-candidate-2027) et d'indiquer les modifications.
 
 Texte complet : `LICENSE-DONNEES` à la racine du dépôt.
 
