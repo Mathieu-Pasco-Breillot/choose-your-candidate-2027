@@ -7,6 +7,7 @@ interface Props {
   onCommencer: (mode: ModeJeu) => void;
   onDefi: () => void;
   onVieprivee: () => void;
+  onNaviguer: (ecran: 'methode' | 'banque' | 'candidats') => void;
   onReprendre: () => void;
   onVoirResultats: () => void;
   onToutEffacer: () => void;
@@ -21,7 +22,7 @@ function Carte({ titre, children }: { titre: string; children: React.ReactNode }
   );
 }
 
-export function Accueil({ enCours, terminee, onCommencer, onDefi, onVieprivee, onReprendre, onVoirResultats, onToutEffacer }: Props) {
+export function Accueil({ enCours, terminee, onCommencer, onDefi, onVieprivee, onNaviguer, onReprendre, onVoirResultats, onToutEffacer }: Props) {
   return (
     <main className="mx-auto flex max-w-xl flex-col gap-4 px-5 py-10">
       <header className="mb-2">
@@ -92,11 +93,20 @@ export function Accueil({ enCours, terminee, onCommencer, onDefi, onVieprivee, o
           Version de démonstration : les positions des candidats sont codées au fil de l'eau, thème par thème. Pour
           l'instant, le codage est partiel : les résultats sont à lire avec prudence.
         </p>
-        <p>
+        <nav aria-label="Informations" className="flex flex-wrap gap-x-5">
+          <button type="button" onClick={() => onNaviguer('methode')} className="min-h-11 underline">
+            Méthode
+          </button>
+          <button type="button" onClick={() => onNaviguer('candidats')} className="min-h-11 underline">
+            Candidats
+          </button>
+          <button type="button" onClick={() => onNaviguer('banque')} className="min-h-11 underline">
+            Questions
+          </button>
           <button type="button" onClick={onVieprivee} className="min-h-11 underline">
             Vie privée
           </button>
-        </p>
+        </nav>
         <p>
           <a className="underline" href="https://github.com/Mathieu-Pasco-Breillot/choose-your-candidate-2027" rel="noopener noreferrer">
             Méthode, données et code source

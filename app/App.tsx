@@ -1,5 +1,5 @@
 import { MotionConfig } from 'motion/react';
-import { useCallback, useState } from 'react';
+import { lazy, Suspense, useCallback, useState } from 'react';
 import type { Valeur } from '../core/score/types.ts';
 import type { ModeJeu, Partie, Preparation as PreparationChoisie } from './jeu.ts';
 import { estTerminee, marquerVues, nouvelleGraine, nouvellePartie, reculer, repondre } from './jeu.ts';
@@ -11,7 +11,13 @@ import { Preparation } from './ecrans/Preparation.tsx';
 import { Quiz } from './ecrans/Quiz.tsx';
 import { Resultats } from './ecrans/Resultats.tsx';
 
-type Ecran = 'accueil' | 'preparation' | 'quiz' | 'resultats' | 'defi' | 'vieprivee';
+type Ecran = 'accueil' | 'preparation' | 'quiz' | 'resultats' | 'defi' | 'vieprivee' | 'methode' | 'banque' | 'candidats' | 'fiche';
+
+// Pages d'information : chargées à la demande, pour garder léger ce que télécharge le quiz.
+const Methode = lazy(() => import('./pages/Methode.tsx').then((m) => ({ default: m.Methode })));
+const Banque = lazy(() => import('./pages/Banque.tsx').then((m) => ({ default: m.Banque })));
+const Candidats = lazy(() => import('./pages/Candidats.tsx').then((m) => ({ default: m.Candidats })));
+const FicheCandidat = lazy(() => import('./pages/FicheCandidat.tsx').then((m) => ({ default: m.FicheCandidat })));
 
 const aujourdhui = (): string => new Date().toISOString().slice(0, 10);
 
@@ -24,6 +30,7 @@ export function App() {
     ecrirePartie(p);
   }, []);
 
+  const [fiche, setFiche] = useState('');
   const [mode, setMode] = useState<ModeJeu>('express');
   const [graineDefi, setGraineDefi] = useState<number>(() => nouvelleGraine());
 
@@ -69,6 +76,22 @@ export function App() {
         />
       ) : ecran === 'preparation' ? (
         <Preparation mode={mode} onLancer={lancer} onRetour={() => setEcran('accueil')} />
+      ) : ecran === 'methode' ? (
+        <Suspense fallback={<p className="p-5">Chargement…</p>}>
+          <Methode onRetour={() => setEcran('accueil')} graine={partie?.graine ?? null} journal={partie?.journal ?? null} />
+        </Suspense>
+      ) : ecran === 'banque' ? (
+        <Suspense fallback={<p className="p-5">Chargement…</p>}>
+          <Banque onRetour={() => setEcran('accueil')} />
+        </Suspense>
+      ) : ecran === 'candidats' ? (
+        <Suspense fallback={<p className="p-5">Chargement…</p>}>
+          <Candidats onRetour={() => setEcran('accueil')} onFiche={(id) => { setFiche(id); setEcran('fiche'); }} />
+        </Suspense>
+      ) : ecran === 'fiche' ? (
+        <Suspense fallback={<p className="p-5">Chargement…</p>}>
+          <FicheCandidat id={fiche} onRetour={() => setEcran('candidats')} />
+        </Suspense>
       ) : ecran === 'vieprivee' ? (
         <Vieprivee onRetour={() => setEcran('accueil')} onToutEffacer={effacer} />
       ) : ecran === 'defi' ? (
@@ -82,6 +105,7 @@ export function App() {
           onCommencer={choisirMode}
           onDefi={jouerDefi}
           onVieprivee={() => setEcran('vieprivee')}
+          onNaviguer={(e) => setEcran(e)}
           onReprendre={() => setEcran('quiz')}
           onVoirResultats={() => setEcran('resultats')}
           onToutEffacer={effacer}

@@ -5,7 +5,7 @@
 import { creerGenerateur, deriverGraine, melanger } from '../core/aleatoire/prng.ts';
 import { calculerResultats } from '../core/score/index.ts';
 import type { Resultats, Valeur } from '../core/score/index.ts';
-import { construireBanqueTirage, tirer } from '../core/tirage/index.ts';
+import { construireBanqueTirage, decrireTirage, tirer } from '../core/tirage/index.ts';
 import type { BanqueTirage, PoidsTheme, QuestionVue } from '../core/tirage/index.ts';
 import type { QuestionPaquet } from './paquet.ts';
 import { paquet } from './paquet.ts';
@@ -32,6 +32,8 @@ export interface Partie {
   poids: Record<string, PoidsTheme>;
   /** Candidats cochés comme « affinités » : ils servent seulement à situer ces candidats dans les résultats. */
   affinites: string[];
+  /** Explication du tirage (page Méthode). Absente des parties enregistrées avant son ajout. */
+  journal?: string[];
   /** Ordre des boutons de l'échelle, inversé une partie sur deux (spécification § 5.4). */
   echelleInversee: boolean;
 }
@@ -75,6 +77,7 @@ export function nouvellePartie(
     position: 0,
     poids: { ...preparation.poids },
     affinites: [...preparation.affinites],
+    journal: decrireTirage(tirage.journal),
     echelleInversee: graine % 2 === 1,
   };
 }

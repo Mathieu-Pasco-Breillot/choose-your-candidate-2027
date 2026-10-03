@@ -18,6 +18,7 @@ import { validerDataset } from './lib/validate.ts';
 
 const racine = join(dirname(fileURLToPath(import.meta.url)), '..');
 const cible = join(racine, 'app', 'donnees', 'paquet.json');
+const ciblePages = join(racine, 'app', 'donnees', 'pages.json');
 
 export function construirePaquet() {
   const ds = chargerDataset(racine);
@@ -123,16 +124,50 @@ export function construirePaquet() {
   };
 }
 
+/**
+ * Contenu des pages d'information (méthode, banque de questions, journal, rapport de neutralité) :
+ * fichier séparé, chargé à la demande, pour garder léger ce que le quiz télécharge.
+ */
+export function construirePages() {
+  const ds = chargerDataset(racine);
+  const lireTexte = (...chemin: string[]) => readFileSync(join(racine, ...chemin), 'utf8');
+  const rapportNeutralite = JSON.parse(lireTexte('derive', 'rapport-neutralite.json'));
+  if (rapportNeutralite.empreinte_donnees !== ds.empreinte) throw new Error("derive/ n'est pas à jour : lancer npm run derive");
+  const journal = JSON.parse(lireTexte('data', 'journal.json'));
+  const horsJeu = Object.values(ds.questions)
+    .flatMap((f) => f.questions)
+    .filter((q) => q.statut !== 'active')
+    .map((q) => ({ id: q.id, theme: q.theme, statut: q.statut, enonce: q.enonce }));
+  return {
+    empreinte: ds.empreinte,
+    docs: {
+      methodologie: lireTexte('docs', 'methodologie.md'),
+      grille: lireTexte('docs', 'grille-codage.md'),
+      critere: lireTexte('docs', 'critere-inclusion.md'),
+    },
+    journal: journal.entrees,
+    horsJeu,
+    neutralite: rapportNeutralite,
+  };
+}
+
 const texte = `${JSON.stringify(construirePaquet())}\n`;
+const textePages = `${JSON.stringify(construirePages())}\n`;
 if (process.argv.includes('--check')) {
-  const actuel = existsSync(cible) ? readFileSync(cible, 'utf8') : '';
-  if (actuel !== texte) {
-    console.error('app/donnees/paquet.json n\'est pas à jour : lancer `npm run bundle`.');
-    process.exit(1);
-  }
-  console.log('app/donnees/paquet.json à jour.');
+  const verifier = (chemin: string, attendu: string, nom: string): boolean => {
+    const actuel = existsSync(chemin) ? readFileSync(chemin, 'utf8') : '';
+    if (actuel !== attendu) {
+      console.error(`app/donnees/${nom} n'est pas à jour : lancer \`npm run bundle\`.`);
+      return false;
+    }
+    console.log(`app/donnees/${nom} à jour.`);
+    return true;
+  };
+  const ok = [verifier(cible, texte, 'paquet.json'), verifier(ciblePages, textePages, 'pages.json')];
+  if (ok.includes(false)) process.exit(1);
 } else {
   mkdirSync(dirname(cible), { recursive: true });
   writeFileSync(cible, texte);
-  console.log(`app/donnees/paquet.json écrit (${(texte.length / 1024).toFixed(0)} Ko).`);
+  writeFileSync(ciblePages, textePages);
+  console.log(`app/donnees/paquet.json écrit (${(texte.length / 1024).toFixed(0)} Ko), pages.json (${(textePages.length / 1024).toFixed(0)} Ko).`);
 }

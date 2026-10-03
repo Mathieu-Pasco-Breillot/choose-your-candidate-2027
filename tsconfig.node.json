@@ -16,5 +16,5 @@
     "skipLibCheck": true,
     "noEmit": true
   },
-  "include": ["scripts", "core", "app/jeu.ts", "app/defi.ts", "app/defi.test.ts", "app/stockage.ts", "app/paquet.ts", "app/libelles.ts", "app/jeu.test.ts", "app/donnees", "vite.config.ts", "vitest.config.ts"]
+  "include": ["scripts", "core", "app/jeu.ts", "app/defi.ts", "app/pages/donnees.ts", "app/defi.test.ts", "app/stockage.ts", "app/paquet.ts", "app/libelles.ts", "app/jeu.test.ts", "app/donnees", "vite.config.ts", "vitest.config.ts"]
 }
