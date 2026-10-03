@@ -22,6 +22,8 @@ jobs:
         run: npm run data:validate
       - name: Les fichiers de derive/ sont à jour
         run: npm run derive:check
+      - name: Le paquet de données de l'application est à jour
+        run: npm run bundle:check
       - name: Les types générés sont à jour
         run: npm run types:check
       - name: Vérification des types

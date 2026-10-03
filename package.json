@@ -18,7 +18,9 @@
     "derive:check": "tsx scripts/derive.ts --check && tsx scripts/rapport-neutralite.ts --check",
     "types:generate": "tsx scripts/generate-types.ts",
     "types:check": "tsx scripts/generate-types.ts --check",
-    "check": "npm run data:validate && npm run derive:check && npm run types:check && npm run typecheck && npm test && vite build"
+    "check": "npm run data:validate && npm run derive:check && npm run bundle:check && npm run types:check && npm run typecheck && npm test && vite build",
+    "bundle": "tsx scripts/bundle.ts",
+    "bundle:check": "tsx scripts/bundle.ts --check"
   },
   "dependencies": {
     "@fontsource-variable/source-sans-3": "^5.3.0",
