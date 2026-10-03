@@ -1,0 +1,5 @@
+# Fins de ligne identiques partout : l'empreinte des données (derive/) en dépend.
+* text=auto eol=lf
+*.png binary
+*.ico binary
+*.woff2 binary

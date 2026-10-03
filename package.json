@@ -1,0 +1,48 @@
+{
+  "name": "choose-your-candidate-2027",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Comparateur indépendant des programmes pour la présidentielle de 2027 : données ouvertes, méthode publique, calcul dans le navigateur.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run data:validate && npm run typecheck && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "data:validate": "tsx scripts/validate.ts",
+    "derive": "tsx scripts/derive.ts",
+    "derive:check": "tsx scripts/derive.ts --check",
+    "types:generate": "tsx scripts/generate-types.ts",
+    "types:check": "tsx scripts/generate-types.ts --check",
+    "check": "npm run data:validate && npm run derive:check && npm run types:check && npm run typecheck && npm test && vite build"
+  },
+  "dependencies": {
+    "@fontsource-variable/source-sans-3": "^5.3.0",
+    "@fontsource-variable/source-serif-4": "^5.3.0",
+    "motion": "^14.0.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "json-schema-to-typescript": "^16.0.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.0.3",
+    "workbox-build": "^7.4.1",
+    "workbox-window": "^7.4.1"
+  }
+}
