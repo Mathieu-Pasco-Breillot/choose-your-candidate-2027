@@ -56,5 +56,5 @@ sécurité de contenu stricte. L'hébergeur (Railway) conserve ses propres journ
 
 ## Licences
 
-À définir : aucune licence n'est encore ajoutée au dépôt. En l'absence de licence, tous droits sont réservés
-par défaut.
+- **Code** (`app/`, `core/`, `scripts/`, `schemas/`, configuration) : [GNU AGPL-3.0](LICENSE). Quiconque propose une version modifiée du comparateur en ligne doit en publier le code source.
+- **Données et documentation** (`data/`, `docs/`, `derive/`) : [CC BY 4.0](LICENSE-DONNEES), avec mention du projet. Les citations de tiers restent la propriété de leurs auteurs.
