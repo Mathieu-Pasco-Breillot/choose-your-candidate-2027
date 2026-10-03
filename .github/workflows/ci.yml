@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [develop, main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - name: Validation des données (schémas, sources, identifiants)
+        run: npm run data:validate
+      - name: Les fichiers de derive/ sont à jour
+        run: npm run derive:check
+      - name: Les types générés sont à jour
+        run: npm run types:check
+      - name: Vérification des types
+        run: npm run typecheck
+      - name: Tests
+        run: npm test
+      - name: Compilation
+        run: npm run build

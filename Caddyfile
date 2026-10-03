@@ -1,0 +1,38 @@
+# Serveur de fichiers statiques pour le site compilé (dist/). Railway fournit $PORT.
+{
+	admin off
+	auto_https off
+}
+
+:{$PORT:8080} {
+	root * /srv
+	encode zstd gzip
+
+	header {
+		# CSP stricte : uniquement des ressources du même domaine, aucun script ni style inline.
+		Content-Security-Policy "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'"
+		Referrer-Policy "no-referrer"
+		X-Content-Type-Options "nosniff"
+		Permissions-Policy "accelerometer=(), camera=(), geolocation=(), gyroscope=(), microphone=(), payment=(), usb=(), interest-cohort=()"
+		Cross-Origin-Opener-Policy "same-origin"
+		Cross-Origin-Resource-Policy "same-origin"
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		-Server
+	}
+
+	# Fichiers au nom haché : cache longue durée.
+	@assets path /assets/*
+	header @assets Cache-Control "public, max-age=31536000, immutable"
+
+	# Fichiers qui doivent toujours être revalidés (mise à jour de l'application et du service worker).
+	@revalider path / /index.html /sw.js /registerSW.js /manifest.webmanifest
+	header @revalider Cache-Control "no-cache"
+
+	# Pas de journal d'accès applicatif : aucune donnée de visite n'est écrite par Caddy.
+	log {
+		output discard
+	}
+
+	try_files {path} /index.html
+	file_server
+}

@@ -1,0 +1,33 @@
+name: Contester ou corriger une position
+description: Signaler un code erroné, un extrait mal compris ou une position manquante. Une source est obligatoire.
+title: "[Position] <candidat> × <identifiant de la question>"
+labels: ["contestation"]
+body:
+  - type: input
+    id: candidat
+    attributes:
+      label: Candidat
+    validations: { required: true }
+  - type: input
+    id: question
+    attributes:
+      label: Identifiant de la question (ex. RET-003)
+    validations: { required: true }
+  - type: textarea
+    id: probleme
+    attributes:
+      label: Ce qui est contesté
+      description: Le code attribué, l'extrait retenu, ou l'absence de position.
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes:
+      label: Source (URL)
+      description: Obligatoire. Une contestation sans source ne peut pas être traitée. Préférer une source primaire (programme, déclaration, vote).
+    validations: { required: true }
+  - type: textarea
+    id: passage
+    attributes:
+      label: Passage de la source qui fonde la contestation
+      description: Reformulation ou citation courte (14 mots maximum).
+    validations: { required: true }
