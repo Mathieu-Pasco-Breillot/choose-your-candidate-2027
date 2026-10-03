@@ -1,6 +1,12 @@
-# Méthodologie — version 1.1
+# Méthodologie — version 1.2
 
-Statut : **VALIDÉ le 3 octobre 2026** (v1 validée le 2 octobre 2026).
+Statut : **VALIDÉ le 3 octobre 2026** (v1 validée le 2 octobre 2026, v1.1 et v1.2 le 3 octobre 2026).
+
+## Modifications de la version 1.2
+
+Issues de l'implémentation du tirage (phase 5, lot 5d), validées par Mathieu le 3 octobre 2026 :
+
+- § 7.3 : deux règles complémentaires du tirage, nécessaires pour tenir les garanties d'équilibre des sens (D12).
 
 ## Modifications de la version 1.1
 
@@ -125,6 +131,10 @@ Stabilité : une question d'ancrage n'est remplacée que si elle sort des 20 pre
 
 Quotas par thème proportionnels aux poids, équilibre des axes et des sens, priorité aux D élevés, ancres incluses, questions déjà vues évitées. L'algorithme exact est spécifié dans `phase-5/specification-application.md` (§ 7) et couvert par des tests.
 
+Deux règles complètent l'équilibre des sens (v1.2) :
+- quand un thème est à égalité de sens, la question suivante est prise, si possible, dans le sens en déficit sur l'ensemble du tirage ; sans cette règle, chaque thème pourrait pencher d'une question du même côté et l'écart global dépasser 10 % du nombre de questions ;
+- quand la contrainte « une ancre par thème » doit être levée pour remplacer une ancre, une seconde ancre n'est posée dans un thème que si l'équilibre des sens de ce thème reste atteignable.
+
 ## 8. Cohérence avec les votes
 
 Indicateur **séparé du score**. Chaque question est reliée aux scrutins pertinents (Assemblée nationale depuis 2022, puis Sénat et Parlement européen). On affiche le vote personnel du candidat s'il siégeait, sinon celui de son groupe avec la répartition. Sans rattachement parlementaire : « pas d'historique », jamais une pénalité.
@@ -161,3 +171,4 @@ Indicateur **séparé du score**. Chaque question est reliée aux scrutins perti
 | D9 | 3 oct. 2026 | Position `imprecise` : compte pour une question codée dans les seuils |
 | D10 | 3 oct. 2026 | Variance de population dans `D` |
 | D11 | 3 oct. 2026 | Cinq ancres en mode court, dix en mode long et campagne |
+| D12 | 3 oct. 2026 | Tirage : départage global des sens quand un thème est à égalité ; seconde ancre dans un thème seulement si l'équilibre des sens du thème reste atteignable |
