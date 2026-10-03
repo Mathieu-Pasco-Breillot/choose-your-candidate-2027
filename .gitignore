@@ -10,3 +10,5 @@ coverage/
 dev-dist/
 tsconfig*.tsbuildinfo
 *.tsbuildinfo
+test-results/
+playwright-report/

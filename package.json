@@ -20,7 +20,8 @@
     "types:check": "tsx scripts/generate-types.ts --check",
     "check": "npm run data:validate && npm run derive:check && npm run bundle:check && npm run types:check && npm run typecheck && npm test && vite build",
     "bundle": "tsx scripts/bundle.ts",
-    "bundle:check": "tsx scripts/bundle.ts --check"
+    "bundle:check": "tsx scripts/bundle.ts --check",
+    "e2e": "playwright test"
   },
   "dependencies": {
     "@fontsource-variable/source-sans-3": "^5.3.0",

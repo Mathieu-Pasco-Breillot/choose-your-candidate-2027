@@ -55,7 +55,7 @@ export function Quiz({ partie, onRepondre, onReculer, onQuitter }: Props) {
         <div className="h-full bg-or transition-[width]" style={{ width: `${(partie.position / total) * 100}%` }} />
       </div>
 
-      <ol className="mt-3 flex gap-2 overflow-x-auto pb-1" aria-label="Chapitres">
+      <ol className="mt-3 flex gap-2 overflow-x-auto pb-1" aria-label="Chapitres" tabIndex={0}>
         {partie.chapitres.map((c, i) => (
           <li
             key={c.theme}

@@ -32,3 +32,7 @@ jobs:
         run: npm test
       - name: Compilation
         run: npm run build
+      - name: Navigateur pour les tests de bout en bout
+        run: npx playwright install --with-deps chromium
+      - name: Tests de bout en bout et accessibilité (site construit, écran de téléphone)
+        run: npm run e2e
