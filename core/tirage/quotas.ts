@@ -8,6 +8,9 @@
  *     par la même règle (on recalcule les parts sur les places et les poids restants).
  *  3. Minimum : quand N le permet (N au moins égal au nombre de thèmes de poids non nul), un thème dont la
  *     part est inférieure à 1 reçoit 1 ; les autres se partagent les places restantes.
+ *  Les étapes 2 et 3 sont répétées jusqu'à stabilité. Quand un même tour trouve des thèmes au-dessus du
+ *  plafond et d'autres sous 1, le côté au plus grand dépassement total est fixé en premier (voir la boucle) :
+ *  la somme des quotas vaut toujours exactement le nombre de places.
  *  4. Chaque thème restant reçoit la partie entière de sa part ; les places qui restent vont aux plus grands
  *     restes. Deux restes égaux sont départagés par un ordre tiré au sort avec la graine.
  *
@@ -48,20 +51,23 @@ export function calculerQuotas(N: number, entrees: readonly EntreeQuota[], g: Ge
     if (libres.length === 0) break;
     const reste = places - [...fixes.values()].reduce((s, f) => s + f.quota, 0);
     const poidsLibres = libres.reduce((s, e) => s + e.poids, 0);
-    // Part du thème = reste × poids / poidsLibres. Comparaisons en entiers.
+    // Part du thème = reste × poids / poidsLibres. Comparaisons en entiers (numérateurs sur poidsLibres).
+    // Plafond et minimum sont deux bornes ; quand des thèmes dépassent l'une et d'autres l'autre au même tour,
+    // on fixe le côté dont le dépassement total est le plus grand : c'est celui qui reste borné une fois les
+    // places redistribuées. Si les plafonds libèrent plus de places que les minimums n'en demandent, les parts
+    // des autres thèmes augmentent et les plafonnés restent au-dessus de leur stock ; sinon elles diminuent et
+    // les thèmes sous 1 y restent. Fixer toujours le plafond d'abord peut faire dépasser N (minimums
+    // distribués sans places) ; fixer toujours le minimum d'abord peut laisser des places vides.
     const auDessusDuPlafond = libres.filter((e) => reste * e.poids > e.stock * poidsLibres);
-    if (auDessusDuPlafond.length > 0) {
+    const sousUn = minimumApplicable ? libres.filter((e) => reste * e.poids < poidsLibres) : [];
+    if (auDessusDuPlafond.length === 0 && sousUn.length === 0) break;
+    const excedent = auDessusDuPlafond.reduce((s, e) => s + reste * e.poids - e.stock * poidsLibres, 0);
+    const manque = sousUn.reduce((s, e) => s + poidsLibres - reste * e.poids, 0);
+    if (excedent >= manque) {
       for (const e of auDessusDuPlafond) fixes.set(e.theme, { quota: e.stock, plafonne: true, minimum: false });
-      continue;
+    } else {
+      for (const e of sousUn) fixes.set(e.theme, { quota: 1, plafonne: false, minimum: true });
     }
-    if (minimumApplicable) {
-      const sousUn = libres.filter((e) => reste * e.poids < poidsLibres);
-      if (sousUn.length > 0) {
-        for (const e of sousUn) fixes.set(e.theme, { quota: 1, plafonne: false, minimum: true });
-        continue;
-      }
-    }
-    break;
   }
 
   const quotas = new Map<string, number>();

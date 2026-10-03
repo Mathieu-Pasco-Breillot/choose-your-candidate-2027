@@ -441,3 +441,28 @@ describe('sur les données réelles (data/ et derive/)', () => {
     expect(() => construireBanqueTirage([], d, { ...a, empreinte_donnees: '0'.repeat(64) })).toThrow(ErreurBanque);
   });
 });
+
+describe('quotas : cas limite plafond puis minimum', () => {
+  it('N = 5, poids 1, 1, 1, 3 (stock 2), 1 : la somme des quotas vaut 5, chaque thème en reçoit au moins 1', () => {
+    const entrees = [1, 1, 1, 3, 1].map((poids, i) => ({ theme: `t${i}`, poids: poids as PoidsTheme, stock: poids === 3 ? 2 : 1 }));
+    for (const graine of [0, 1, 2, 3]) {
+      const { quotas, places } = calculerQuotas(5, entrees, creerGenerateur(graine));
+      expect(places).toBe(5);
+      expect([...quotas.values()].reduce((s, q) => s + q, 0)).toBe(5);
+      for (const e of entrees) expect(quotas.get(e.theme)!).toBeGreaterThanOrEqual(1);
+    }
+  });
+});
+
+describe('quotas : cas limite minimum puis plafond', () => {
+  it('N = 20, poids 2 (stock 1), 2 (stock 1), 1 (stock 2) : tout le stock est tiré (4 places)', () => {
+    const entrees = [
+      { theme: 't0', poids: 2 as PoidsTheme, stock: 1 },
+      { theme: 't1', poids: 2 as PoidsTheme, stock: 1 },
+      { theme: 't2', poids: 1 as PoidsTheme, stock: 2 },
+    ];
+    const { quotas, places } = calculerQuotas(20, entrees, creerGenerateur(0));
+    expect(places).toBe(4);
+    expect(Object.fromEntries(quotas)).toEqual({ t0: 1, t1: 1, t2: 2 });
+  });
+});
