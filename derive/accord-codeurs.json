@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "empreinte_donnees": "1437d2d2cab20359842b5b4c10c3333d4e1da76fad4c896ccad99812ac09866a",
+  "empreinte_donnees": "5f70ebc3df013869651232ae6d5c2104c3d09ab664fb6b9ecd365ad8c88c0707",
   "provisoire": true,
   "codeurs": {
     "codeur_1": [
@@ -11,24 +11,24 @@
     ]
   },
   "global": {
-    "couples_codes": 697,
-    "accord_code_et_nature": 546,
-    "taux_accord": 0.783357,
-    "accord_code_seul": 582,
-    "taux_accord_code_seul": 0.835007,
-    "couples_pour_kappa": 633,
-    "kappa_pondere_quadratique": 0.943176,
+    "couples_codes": 693,
+    "accord_code_et_nature": 543,
+    "taux_accord": 0.78355,
+    "accord_code_seul": 579,
+    "taux_accord_code_seul": 0.835498,
+    "couples_pour_kappa": 629,
+    "kappa_pondere_quadratique": 0.943108,
     "arbitrages_en_attente": 0
   },
   "par_vague": {
     "1": {
-      "couples_codes": 697,
-      "accord_code_et_nature": 546,
-      "taux_accord": 0.783357,
-      "accord_code_seul": 582,
-      "taux_accord_code_seul": 0.835007,
-      "couples_pour_kappa": 633,
-      "kappa_pondere_quadratique": 0.943176,
+      "couples_codes": 693,
+      "accord_code_et_nature": 543,
+      "taux_accord": 0.78355,
+      "accord_code_seul": 579,
+      "taux_accord_code_seul": 0.835498,
+      "couples_pour_kappa": 629,
+      "kappa_pondere_quadratique": 0.943108,
       "arbitrages_en_attente": 0
     }
   },
@@ -44,23 +44,23 @@
       "arbitrages_en_attente": 0
     },
     "attal-gabriel": {
-      "couples_codes": 68,
+      "couples_codes": 67,
       "accord_code_et_nature": 51,
-      "taux_accord": 0.75,
+      "taux_accord": 0.761194,
       "accord_code_seul": 54,
-      "taux_accord_code_seul": 0.794118,
-      "couples_pour_kappa": 61,
-      "kappa_pondere_quadratique": 0.952388,
+      "taux_accord_code_seul": 0.80597,
+      "couples_pour_kappa": 60,
+      "kappa_pondere_quadratique": 0.955986,
       "arbitrages_en_attente": 0
     },
     "dupont-aignan-nicolas": {
-      "couples_codes": 84,
-      "accord_code_et_nature": 68,
-      "taux_accord": 0.809524,
-      "accord_code_seul": 72,
-      "taux_accord_code_seul": 0.857143,
-      "couples_pour_kappa": 80,
-      "kappa_pondere_quadratique": 0.937923,
+      "couples_codes": 83,
+      "accord_code_et_nature": 67,
+      "taux_accord": 0.807229,
+      "accord_code_seul": 71,
+      "taux_accord_code_seul": 0.855422,
+      "couples_pour_kappa": 79,
+      "kappa_pondere_quadratique": 0.935966,
       "arbitrages_en_attente": 0
     },
     "le-pen-marine": {
@@ -84,13 +84,13 @@
       "arbitrages_en_attente": 0
     },
     "melenchon-jean-luc": {
-      "couples_codes": 105,
-      "accord_code_et_nature": 80,
-      "taux_accord": 0.761905,
-      "accord_code_seul": 88,
-      "taux_accord_code_seul": 0.838095,
-      "couples_pour_kappa": 96,
-      "kappa_pondere_quadratique": 0.959417,
+      "couples_codes": 104,
+      "accord_code_et_nature": 79,
+      "taux_accord": 0.759615,
+      "accord_code_seul": 87,
+      "taux_accord_code_seul": 0.836538,
+      "couples_pour_kappa": 95,
+      "kappa_pondere_quadratique": 0.959008,
       "arbitrages_en_attente": 0
     },
     "philippe-edouard": {
@@ -114,19 +114,19 @@
       "arbitrages_en_attente": 0
     },
     "roussel-fabien": {
-      "couples_codes": 71,
-      "accord_code_et_nature": 57,
-      "taux_accord": 0.802817,
-      "accord_code_seul": 62,
-      "taux_accord_code_seul": 0.873239,
-      "couples_pour_kappa": 65,
-      "kappa_pondere_quadratique": 0.968297,
+      "couples_codes": 70,
+      "accord_code_et_nature": 56,
+      "taux_accord": 0.8,
+      "accord_code_seul": 61,
+      "taux_accord_code_seul": 0.871429,
+      "couples_pour_kappa": 64,
+      "kappa_pondere_quadratique": 0.968242,
       "arbitrages_en_attente": 0
     }
   },
   "arbitrages": {
     "en_attente": 0,
-    "rendus": 151
+    "rendus": 150
   },
   "controle_humain": {
     "tires_au_sort": 64,

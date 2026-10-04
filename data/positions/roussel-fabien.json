@@ -1,7 +1,7 @@
 {
   "candidat_id": "roussel-fabien",
   "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
-  "grille_version": "1.2",
+  "grille_version": "1.3",
   "programme": {
     "officiel_disponible": false,
     "date_publication": null,
@@ -70,6 +70,12 @@
         "date": "2026-10-03",
         "resultat": "correction acceptée par Mathieu (+1 imprecise) mais non appliquée : le schéma ne prévoit pas encore de code corrigé au contrôle humain"
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il réclame l'abrogation de la réforme de 2023 et promettait en 2022 la retraite à 60 ans, plus loin que 62 ans dans le même sens : R1, +1 nuancee défendable."
+      },
       "contestations": [],
       "version": 1
     },
@@ -132,6 +138,12 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Les deux sources rapportent l'engagement du programme 2022 : « Une loi rétablira la retraite à 60 ans, à taux plein » ; soutien sans réserve. Sources de 2022, recevables mais anciennes."
+      },
       "contestations": [],
       "version": 1
     },
@@ -180,6 +192,12 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il défend le retour à 60 ans, une valeur qui va dans la direction opposée à l'énoncé (65 ans) par rapport au droit en vigueur : -2 nette."
+      },
       "contestations": [],
       "version": 1
     },
@@ -227,6 +245,12 @@
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
+      },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La source lui attribue 40 annuités, valeur dans la direction opposée à un allongement à 45 ans par rapport au droit en vigueur (43 ans) : −2 nette selon R5."
       },
       "contestations": [],
       "version": 1
@@ -290,6 +314,12 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La Finance pour tous écrit qu'il voudrait réduire la durée de cotisation à 160 trimestres (40 annuités) ; Public Sénat rapporte un retour à 60 ans et 40 annuités. C'est la cible exacte de l'énoncé."
+      },
       "contestations": [],
       "version": 1
     },
@@ -337,7 +367,7 @@
     },
     {
       "question_id": "RET-010",
-      "code": 1,
+      "code": -1,
       "nature": "nuancee",
       "statut": "arbitre",
       "item_aveugle": "efae002e",
@@ -386,8 +416,22 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "corrige",
+        "motif": "Vérificateur : Le candidat retient un plancher chiffré de 1 200 euros net, inférieur au SMIC net de 2022 (environ 1 270 euros) tout en dépassant 85 % du SMIC : valeur explicite qui va moins loin que l'énoncé, dans le même sens que le droit en vigueur, d'où R5 (−1 nuancee) plutôt qu'une « version partielle » à +1. Le plancher couvre toutes les pensions, mais la conversion en part du SMIC reste approximative. Second arbitre : La fiche reprend le programme 2022 : « Aucune pension ne pourra être inférieure à 1 200 euros net », sans référence au SMIC. 1 200 € net est inférieur au SMIC net de 2022 (~1 270 €) : valeur chiffrée explicite qui va moins loin que l'énoncé, dans le sens du droit en vigueur (85 % du SMIC), donc R5 → −1 nuancee.",
+        "code_avant": 1,
+        "nature_avant": "nuancee",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": -1,
+          "nature_retenue": "nuancee",
+          "motif": "La fiche reprend le programme 2022 : « Aucune pension ne pourra être inférieure à 1 200 euros net », sans référence au SMIC. 1 200 € net est inférieur au SMIC net de 2022 (~1 270 €) : valeur chiffrée explicite qui va moins loin que l'énoncé, dans le sens du droit en vigueur (85 % du SMIC), donc R5 → −1 nuancee."
+        }
+      },
       "contestations": [],
-      "version": 1
+      "version": 2
     },
     {
       "question_id": "RET-011",
@@ -447,8 +491,8 @@
     },
     {
       "question_id": "RET-015",
-      "code": 1,
-      "nature": "nuancee",
+      "code": 2,
+      "nature": "nette",
       "statut": "accord",
       "extraits": [
         {
@@ -489,8 +533,22 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "corrige",
+        "motif": "Vérificateur : L'âge légal de 60 ans pour tous contient entièrement le départ à 60 ans des personnes ayant commencé avant 20 ans : c'est un périmètre plus large, pas une valeur plus poussée sur une échelle, donc R6 (+2 nette) et non R1. Les 40 annuités ne restreignent pas le droit de partir à 60 ans (et un départ avant 20 ans les assure). Second arbitre : CNEWS (2/10/2026) : il rappelle « son intention de rétablir l'âge légal de départ à la retraite à 60 ans avec 40 annuités pour une pension complète ». L'âge légal à 60 ans pour tous contient le départ à 60 ans de ceux qui ont commencé avant 20 ans (qui ont alors leurs 40 annuités) : R6, +2 nette.",
+        "code_avant": 1,
+        "nature_avant": "nuancee",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": 2,
+          "nature_retenue": "nette",
+          "motif": "CNEWS (2/10/2026) : il rappelle « son intention de rétablir l'âge légal de départ à la retraite à 60 ans avec 40 annuités pour une pension complète ». L'âge légal à 60 ans pour tous contient le départ à 60 ans de ceux qui ont commencé avant 20 ans (qui ont alors leurs 40 annuités) : R6, +2 nette."
+        }
+      },
       "contestations": [],
-      "version": 1,
+      "version": 2,
       "item_aveugle": "4a64ecac"
     },
     {
@@ -661,12 +719,24 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il propose d'intégrer les revenus financiers, dividendes compris, dans l'assiette des cotisations avec un taux de 11 % chiffré : soutien sans réserve à la mesure, +2 nette."
+      },
       "contestations": [],
       "version": 1,
       "item_aveugle": "8b1c3eb5"
     },
     {
       "question_id": "ECO-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il retient 1 500 euros net, une valeur moins élevée que les 1 600 euros de l'énoncé, dans le même sens (R5). L'extrait 1 est typé programme_officiel alors qu'il s'agit de la profession de foi 2022 : à requalifier ; les deux sources datent de 2022."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -683,7 +753,7 @@
             "url": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-11-fabien-roussel-declaration-accessible.pdf",
             "titre": "Fabien Roussel, La France des Jours heureux (profession de foi, présidentielle 2022; programme 2022, pas 2027) (date de publication : 2022-04)",
             "date_publication": null,
-            "type": "programme_officiel"
+            "type": "texte_signe"
           },
           "date_consultation": "2026-10-03",
           "citation_verifiee_mot_a_mot": true
@@ -729,6 +799,12 @@
     },
     {
       "question_id": "ECO-002",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Roussel exige l'indexation des salaires sur l'inflation, en visant l'ensemble des salaires : +2 nette conforme."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -777,6 +853,12 @@
     },
     {
       "question_id": "ECO-003",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Blocage/plafonnement des prix des carburants et baisse de l'électricité, sans l'alimentation : version partielle de l'énoncé, +1 nuancee."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -839,8 +921,22 @@
     },
     {
       "question_id": "ECO-004",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "corrige",
+        "motif": "Vérificateur : Il promet la semaine de 32 heures pour tous : sa mesure contient entièrement celle de l'énoncé (32 heures dans les métiers pénibles ou de nuit) par un périmètre plus large, non par une valeur plus forte ; R6 provisoire donne +2 nette, et non R1 (+1). Source ancienne (2022). Second arbitre : Public Sénat (2022) : « Fabien Roussel promet [...] le passage à la semaine des 32 heures », sans restriction. Même valeur (32 h) sur un périmètre plus large (tous) qui contient les métiers pénibles ou de nuit : R6, +2 nette. Source de 2022.",
+        "code_avant": 1,
+        "nature_avant": "nuancee",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": 2,
+          "nature_retenue": "nette",
+          "motif": "Public Sénat (2022) : « Fabien Roussel promet [...] le passage à la semaine des 32 heures », sans restriction. Même valeur (32 h) sur un périmètre plus large (tous) qui contient les métiers pénibles ou de nuit : R6, +2 nette. Source de 2022."
+        }
+      },
       "contestations": [],
-      "version": 1,
+      "version": 2,
       "controle_humain": {
         "tire_au_sort": true,
         "date": null,
@@ -882,8 +978,8 @@
         },
         "accord": true
       },
-      "code": 1,
-      "nature": "nuancee",
+      "code": 2,
+      "nature": "nette",
       "statut": "accord",
       "arbitrage": null
     },
@@ -903,6 +999,12 @@
     },
     {
       "question_id": "ECO-006",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Nationalisation conditionnelle et alternative à une entrée au capital : +1 nuancee."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -979,6 +1081,12 @@
     },
     {
       "question_id": "ECO-009",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Hausse de 30 % du point d'indice promise en 2022, plus forte que les 10 % de l'énoncé dans le même sens : R1, +1 nuancee. Il faut retyper l'extrait 2 (profession de foi 2022, pas un programme 2027)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1009,7 +1117,7 @@
             "url": "https://www.macommune.info/wp-content/uploads/2022/04/candidat-11-fabien-roussel-declaration-accessible.pdf",
             "titre": "Fabien Roussel, La France des Jours heureux (profession de foi, présidentielle 2022; programme 2022, pas 2027) (date de publication : 2022-04)",
             "date_publication": null,
-            "type": "programme_officiel"
+            "type": "texte_signe"
           },
           "date_consultation": "2026-10-03",
           "citation_verifiee_mot_a_mot": true
@@ -1111,6 +1219,12 @@
     },
     {
       "question_id": "ECO-015",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La semaine de 32 heures est une valeur sur la même échelle (la précision assimile 1 607 h aux 35 h) dans la direction opposée au droit en vigueur : R5, -2 nette défendable. Source de janvier 2022, recevable mais ancienne."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1289,6 +1403,12 @@
     },
     {
       "question_id": "INS-002",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Initiative citoyenne de référendum à un million de signatures (proche de 2 % des électeurs) sans préciser qu'elle vise à proposer ou abroger une loi : version partielle de l'énoncé."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1365,6 +1485,12 @@
     },
     {
       "question_id": "INS-005",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il demande explicitement d'abroger le 49.3 et en fait une urgence : soutien sans réserve."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1455,6 +1581,12 @@
     },
     {
       "question_id": "INS-009",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il juge l'inscription constitutionnelle inutile (« se font plaisir », « ne changera rien ») sans s'y opposer formellement ni proposer d'alternative : scepticisme contraire à l'énoncé, imprecise."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1629,6 +1761,12 @@
     },
     {
       "question_id": "EDU-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Interrogé par L'Etudiant, il répond « Supprimer Parcoursup et le numerus clausus » ; Le Parisien rapporte que son programme prévoit de « supprimer Parcoursup ». Engagement net (campagne 2022, date recevable)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1705,6 +1843,12 @@
     },
     {
       "question_id": "EDU-003",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il retient explicitement des plafonds (24, ou 20 et 25) qui, comme moyennes, vont moins loin que 19 élèves en moyenne : R5 défendable, bien que l'indicateur (plafond vs moyenne) diffère."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1787,6 +1931,12 @@
     },
     {
       "question_id": "EDU-005",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le candidat retient explicitement 850 euros (plus une part variable selon les besoins), montant inférieur aux 1 078 euros de l'énoncé : R5, −1 nuancee."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1835,6 +1985,12 @@
     },
     {
       "question_id": "EDU-006",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il propose « des AESH formées, valorisées et intégrées à la fonction publique (en catégorie B ...) » : soutien explicite et précis à la titularisation des AESH."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1883,6 +2039,12 @@
     },
     {
       "question_id": "EDU-007",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Hausse de 30 % des salaires enseignants, plus que les 20 % de l'énoncé dans le même sens : R1 ; sources de la campagne 2022."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1959,6 +2121,18 @@
     },
     {
       "question_id": "EDU-009",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "maintenu",
+        "motif": "Vérificateur : Le total de 180 000 recrutements retenu à l'arbitrage repose sur « 90 000 AESH » absents de la source ; celle-ci ne donne que 90 000 enseignants plus des psyEN non chiffrés, donc l'ampleur totale reste non spécifiée : R1 inapplicable, +1 imprecise (−1 par R5 n'est pas fondé car 90 000 ne vise que les enseignants). Second arbitre : La source dit seulement « je souhaite recruter 90.000 enseignants en plus dans les cinq prochaines années » et des psyEN « au moins un dans chaque établissement » sans chiffre ; aucune mention d'AESH, donc l'argument des 180 000 (R1) est infondé. Le candidat va dans le sens d'un recrutement massif dans l'Éducation nationale avec une mesure concrète mais partielle (90 000 enseignants, sous-ensemble non comparable au total de 160 000, donc R5 inapplicable) : +1 nuancee.",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": 1,
+          "nature_retenue": "nuancee",
+          "motif": "La source dit seulement « je souhaite recruter 90.000 enseignants en plus dans les cinq prochaines années » et des psyEN « au moins un dans chaque établissement » sans chiffre ; aucune mention d'AESH, donc l'argument des 180 000 (R1) est infondé. Le candidat va dans le sens d'un recrutement massif dans l'Éducation nationale avec une mesure concrète mais partielle (90 000 enseignants, sous-ensemble non comparable au total de 160 000, donc R5 inapplicable) : +1 nuancee."
+        }
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1967,9 +2141,9 @@
       "item_aveugle": "1cf43212",
       "extraits": [
         {
-          "reformulation": "Le candidat souhaite recruter 90 000 enseignants supplémentaires dans les cinq prochaines années, accompagnés d'une réduction des effectifs par classe (chiffre de 90 000, non de 160 000 ; il annonce aussi 90 000 AESH).",
+          "reformulation": "Le candidat souhaite recruter 90 000 enseignants supplémentaires en cinq ans, avec une réduction des effectifs par classe, ainsi que des psychologues de l'Éducation nationale dans chaque établissement, sans chiffre global de recrutements.",
           "citation_courte": "recruter 90.000 enseignants en plus dans les cinq prochaines années",
-          "reformulation_anonymisee": "Le candidat souhaite recruter 90 000 enseignants supplémentaires dans les cinq prochaines années, accompagnés d'une réduction des effectifs par classe (chiffre de 90 000, non de 160 000 ; il annonce aussi 90 000 AESH).",
+          "reformulation_anonymisee": "Le candidat souhaite recruter 90 000 enseignants supplémentaires en cinq ans, avec une réduction des effectifs par classe, ainsi que des psychologues de l'Éducation nationale dans chaque établissement, sans chiffre global de recrutements.",
           "citation_anonymisee": "recruter 90.000 enseignants en plus dans les cinq prochaines années",
           "source": {
             "url": "https://www.letudiant.fr/lifestyle/presidentielle-2022-fabien-roussel-un-pays-qui-maltraite-sa-jeunesse-est-un-pays-qui-n-a-pas-d-avenir.html",
@@ -2139,6 +2313,12 @@
     },
     {
       "question_id": "SAN-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La règle rapportée (installation en zone dense seulement pour remplacer un départ) est une régulation proche de l'autorisation de l'énoncé, voire équivalente. La source est secondaire et date de 2022 : +1 nuancee est défendable, même si +2 pouvait se discuter."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2201,6 +2381,12 @@
     },
     {
       "question_id": "SAN-003",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il demande d'aller vers le remboursement à 100 % des soins prescrits par la Sécurité sociale sans évoquer l'intégration des mutuelles : version partielle de l'énoncé."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2249,6 +2435,12 @@
     },
     {
       "question_id": "SAN-004",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "source_inaccessible",
+        "motif": "Selon la reformulation et la citation « supprimer les franchises médicales et les participations forfaitaires », la position reprend exactement l'énoncé : +2 nette, non vérifié contre la page."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2297,6 +2489,12 @@
     },
     {
       "question_id": "SAN-005",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La page attribue au candidat la création d'un pôle public gérant la production et la distribution des médicaments, ce qui correspond à l'énoncé ; le conditionnel décrit la proposition, il ne la met pas en doute."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2345,6 +2543,12 @@
     },
     {
       "question_id": "SAN-006",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le titre du Quotidien du Médecin rapporte qu'il veut un retour de l'obligation de garde, sans périmètre ni modalités visibles ; +1 imprecise est prudent et défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2437,6 +2641,12 @@
     },
     {
       "question_id": "SAN-010",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Refus argumenté de trancher sur la légalisation, renvoyée à un débat démocratique : 0 nuancee ; la source date de la campagne 2022 (recevable, mais ancienne)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2555,6 +2765,12 @@
     },
     {
       "question_id": "SAN-017",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Roussel dénonce le doublement des plafonds et propose de supprimer les franchises médicales : il rejette la mesure et propose son contraire."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2645,6 +2861,12 @@
     },
     {
       "question_id": "IMM-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Public Sénat (2022) : il propose de régulariser « tous les sans-papiers qui travaillent », position réitérée en 2023 sur Sud Radio ; c'est la mesure de l'énoncé sans réserve."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2833,6 +3055,12 @@
     },
     {
       "question_id": "IMM-011",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il rejette toute « remise en cause du droit du sol » comme une atteinte à la conception de la nation ; a fortiori sa suppression, −2 nette défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2881,6 +3109,12 @@
     },
     {
       "question_id": "IMM-012",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Interrogé précisément sur la priorité d'accès au logement social pour les Français, il la rejette sans réserve."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3055,6 +3289,12 @@
     },
     {
       "question_id": "DEF-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Opposition au surarmement, direction contraire à une hausse à 3 % du PIB, sans mesure chiffrée : −1 imprecise."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3131,6 +3371,12 @@
     },
     {
       "question_id": "DEF-004",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il demande explicitement la sortie du commandement intégré, et plus largement de l'OTAN, mesure qui contient entièrement l'énoncé : +2 nette."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3161,7 +3407,7 @@
             "url": "https://www.pcf.fr/l_otan_c_est_la_guerre_et_la_corruption",
             "titre": "L'OTAN, c'est la guerre… et la corruption (texte signé Fabien Roussel, site du PCF)",
             "date_publication": "2025-10-24",
-            "type": "declaration_publique"
+            "type": "texte_signe"
           },
           "date_consultation": "2026-10-03",
           "citation_verifiee_mot_a_mot": true
@@ -3193,6 +3439,12 @@
     },
     {
       "question_id": "DEF-005",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "source_inaccessible",
+        "motif": "Selon la reformulation et la citation, il présente la sortie du commandement intégré comme « première étape vers la sortie et la dissolution de l'OTAN » : engagement sur la cible avec étapes (R2), code non contestable sur cette base."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3211,7 +3463,7 @@
             "url": "https://www.pcf.fr/l_otan_c_est_la_guerre_et_la_corruption",
             "titre": "L'OTAN, c'est la guerre… et la corruption (texte signé Fabien Roussel, site du PCF)",
             "date_publication": "2025-10-24",
-            "type": "declaration_publique"
+            "type": "texte_signe"
           },
           "date_consultation": "2026-10-03",
           "citation_verifiee_mot_a_mot": true
@@ -3243,6 +3495,12 @@
     },
     {
       "question_id": "DEF-006",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Opposition au déploiement de troupes au sol assortie d'une condition explicite (absence de mandat de l'ONU) : -1 nuancee conforme à la grille."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3335,6 +3593,12 @@
     },
     {
       "question_id": "DEF-009",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il exige l'interdiction de « toute livraison d'armes » ; l'énoncé vise tout matériel militaire, composants compris, que la source ne couvre pas explicitement : +1 nuancee défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3417,6 +3681,12 @@
     },
     {
       "question_id": "DEF-012",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut reconstruire un pôle public de défense sous contrôle de la nation, sans préciser qu'il produirait tous les équipements, des munitions aux matériels complexes : +1 nuancee."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3433,7 +3703,7 @@
             "url": "https://www.pcf.fr/l_otan_c_est_la_guerre_et_la_corruption",
             "titre": "L'OTAN, c'est la guerre… et la corruption (texte signé Fabien Roussel, site du PCF)",
             "date_publication": "2025-10-24",
-            "type": "declaration_publique"
+            "type": "texte_signe"
           },
           "date_consultation": "2026-10-03",
           "citation_verifiee_mot_a_mot": true
@@ -3485,6 +3755,12 @@
     },
     {
       "question_id": "DEF-014",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut soutenir l'Ukraine « avec des armes de défense » et refuse les armes frappant en Russie, dont les missiles longue portée : va dans le sens de l'énoncé avec une ligne identifiable, +1 nuancee défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3533,6 +3809,12 @@
     },
     {
       "question_id": "EUR-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Réserve hostile formulée pour la défense des agriculteurs, sans refus explicite de l'adhésion : −1 imprecise."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3663,6 +3945,12 @@
     },
     {
       "question_id": "EUR-005",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Seule l'adhésion de l'Ukraine est visée, avec une réserve (« au moins pour protéger nos agriculteurs ») et sans rien sur les autres pays ni l'échéance 2030 : direction défavorable perceptible, −1 imprecise défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3843,6 +4131,12 @@
     },
     {
       "question_id": "EUR-016",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "source_inaccessible",
+        "motif": "La reformulation rapporte « nous déciderons de ne pas appliquer » le CETA et le Mercosur, engagement explicite ; les vœux 2026 vont dans le même sens sans le contredire : +2 nette justifiée par les reformulations."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3905,6 +4199,12 @@
     },
     {
       "question_id": "FIS-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le média rapporte que son programme prévoit de rétablir l'ISF et d'en tripler le montant : soutien sans réserve, +2 nette."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3953,6 +4253,12 @@
     },
     {
       "question_id": "FIS-002",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "source_inaccessible",
+        "motif": "Franceinfo (21/09/2025) cite « Cette taxe c'est une bonne proposition que nous soutenons » à propos de la taxe Zucman ; le rapport du 11/10/2025 n'a pu être consulté (WebFetch refusé), et sa reformulation, qui fait état d'une réserve « pas une position que nous défendons », suffit à justifier +1 imprecise (sources contradictoires à moins de six mois)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4015,6 +4321,12 @@
     },
     {
       "question_id": "FIS-003",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Abolir le PFU ramène les revenus du capital au barème de l'impôt sur le revenu : engagement explicite sur la mesure de l'énoncé."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4063,50 +4375,36 @@
     },
     {
       "question_id": "FIS-004",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "corrige",
+        "motif": "Vérificateur : Seul extrait = analyse Oxfam du programme 2022 (agrégateur, type « declaration_publique » erroné) ; sans lui, aucun extrait recevable, donc null. Si l'extrait était retenu, +1 nuancee (R1) serait correct. Second arbitre : Le passage « 15 tranches au lieu des 4 actuelles » figure dans une fiche d'analyse Oxfam du programme 2022 : source secondaire, ni propos du candidat ni déclaration rapportée par un média ; constat du vérificateur fondé, extrait écarté, rien d'autre à coder.",
+        "code_avant": 1,
+        "nature_avant": "nuancee",
+        "extraits_ecartes": [
+          {
+            "url": "https://www.oxfamfrance.org/app/uploads/2022/03/Fiche-Fabien-Roussel-PCF.pdf",
+            "motif": "Le passage (« 15 tranches au lieu des 4 actuelles ») figure dans une fiche d'analyse d'Oxfam sur le programme 2022 : source secondaire de type agrégateur, ni propos du candidat ni déclaration rapportée par un média."
+          }
+        ],
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": null,
+          "nature_retenue": "non_connu",
+          "motif": "Le passage « 15 tranches au lieu des 4 actuelles » figure dans une fiche d'analyse Oxfam du programme 2022 : source secondaire, ni propos du candidat ni déclaration rapportée par un média ; constat du vérificateur fondé, extrait écarté, rien d'autre à coder."
+        }
+      },
       "contestations": [],
-      "version": 1,
+      "version": 2,
       "controle_humain": {
         "tire_au_sort": false
       },
-      "item_aveugle": "b8d812ae",
-      "extraits": [
-        {
-          "reformulation": "Selon l'analyse d'Oxfam de son programme, il veut rendre l'impôt sur le revenu plus progressif en mettant en place 15 tranches. Le chiffre est de 15, et non de 14 comme dans l'énoncé.",
-          "citation_courte": "en mettant en place 15 tranches",
-          "reformulation_anonymisee": "Selon l'analyse d'une ONG du programme de [CANDIDAT], il veut rendre l'impôt sur le revenu plus progressif en mettant en place 15 tranches. Le chiffre est de 15, et non de 14 comme dans l'énoncé.",
-          "citation_anonymisee": "en mettant en place 15 tranches",
-          "source": {
-            "url": "https://www.oxfamfrance.org/app/uploads/2022/03/Fiche-Fabien-Roussel-PCF.pdf",
-            "titre": "Fiche Fabien Roussel – Parti communiste français (analyse Oxfam France du programme de la présidentielle 2022 ; source secondaire hors liste, date = métadonnées du PDF)",
-            "date_publication": "2022-03-31",
-            "type": "declaration_publique"
-          },
-          "date_consultation": "2026-10-03",
-          "citation_verifiee_mot_a_mot": true
-        }
-      ],
-      "codage": {
-        "codeur_1": {
-          "modele": "claude-opus-5-5",
-          "code": 1,
-          "nature": "nuancee",
-          "justification": "Propose 15 tranches, plus que les 14 de l'énoncé dans le même sens (R1).",
-          "date": "2026-10-03",
-          "aveugle": true
-        },
-        "codeur_2": {
-          "modele": "claude-sonnet-5-5",
-          "code": 1,
-          "nature": "nuancee",
-          "justification": "Il propose 15 tranches, soit plus que les 14 de l'énoncé, dans le même sens (R1).",
-          "date": "2026-10-03",
-          "aveugle": true
-        },
-        "accord": true
-      },
-      "code": 1,
-      "nature": "nuancee",
-      "statut": "accord",
+      "extraits": [],
+      "codage": null,
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
       "arbitrage": null
     },
     {
@@ -4153,6 +4451,12 @@
     },
     {
       "question_id": "FIS-008",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il écarte la CSG elle-même au profit des cotisations sociales, un autre mécanisme identifiable (« disparition progressive de la CSG ») : R3, -1 nuancee. Réserve : la source est une analyse Oxfam de second rang."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4243,6 +4547,12 @@
     },
     {
       "question_id": "FIS-013",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Abattement unique de 170 000 euros par héritier : plus que les 150 000 euros de l'énoncé, dans le même sens, donc R1, +1 nuancee. Source secondaire Oxfam."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4305,6 +4615,12 @@
     },
     {
       "question_id": "FIS-015",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Interrogé sur la TVA sociale proposée par F. Hollande, il déclare « Je dis que c'est une très mauvaise idée » : rejet sans réserve."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4409,6 +4725,18 @@
     },
     {
       "question_id": "FIS-020",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La fiche Oxfam est une analyse d'un tiers et n'est pas recevable ; l'extrait restant (TVA de 20 % à 5,5 % sur les seuls carburants) est une version partielle de l'énoncé : +1 nuancee inchangé.",
+        "extraits_ecartes": [
+          {
+            "url": "https://www.oxfamfrance.org/app/uploads/2022/03/Fiche-Fabien-Roussel-PCF.pdf",
+            "motif": "Le passage existe mais c'est l'analyse d'Oxfam de son programme 2022 (tiers commentateur, source secondaire), pas un propos du candidat."
+          }
+        ]
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4425,20 +4753,6 @@
             "url": "https://www.lagazettefrance.fr/article/prix-de-l-energie-roussel-pcf-appelle-a-se-mobiliser-sur-les-ronds-points",
             "titre": "Prix de l'énergie : Roussel (PCF) appelle à « se mobiliser sur les ronds-points » (AFP, repris par La Gazette France)",
             "date_publication": "2026-09-11",
-            "type": "declaration_publique"
-          },
-          "date_consultation": "2026-10-03",
-          "citation_verifiee_mot_a_mot": true
-        },
-        {
-          "reformulation": "Selon l'analyse d'Oxfam de son programme, il veut baisser définitivement la TVA sur les consommations énergétiques (électricité, gaz, essence), sans taux chiffré dans ce passage.",
-          "citation_courte": "baisser définitivement la TVA sur les consommations énergétiques",
-          "reformulation_anonymisee": "Selon l'analyse d'une ONG du programme de [CANDIDAT], il veut baisser définitivement la TVA sur les consommations énergétiques (électricité, gaz, essence), sans taux chiffré dans ce passage.",
-          "citation_anonymisee": "baisser définitivement la TVA sur les consommations énergétiques",
-          "source": {
-            "url": "https://www.oxfamfrance.org/app/uploads/2022/03/Fiche-Fabien-Roussel-PCF.pdf",
-            "titre": "Fiche Fabien Roussel – Parti communiste français (analyse Oxfam France du programme de la présidentielle 2022 ; source secondaire hors liste, date = métadonnées du PDF)",
-            "date_publication": "2022-03-31",
             "type": "declaration_publique"
           },
           "date_consultation": "2026-10-03",
@@ -4471,6 +4785,12 @@
     },
     {
       "question_id": "ENV-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Interrogé sur l'objectif 2035, il se dit favorable à « la sortie du thermique dans le calendrier le plus rapide possible », sans retenir la date ni l'absence d'exception."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4519,6 +4839,12 @@
     },
     {
       "question_id": "ENV-002",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Propose de développer le nucléaire d'ici 2050, soit le contraire d'une sortie."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4581,6 +4907,12 @@
     },
     {
       "question_id": "ENV-003",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Sortie du glyphosate voulue, sans date et conditionnée au développement d'alternatives : +1 nuancee défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4773,6 +5105,12 @@
     },
     {
       "question_id": "ENV-011",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut développer l'éolien, à l'opposé de la fin des soutiens, mais ne dit rien du soutien financier lui-même : -1 imprecise."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4835,6 +5173,12 @@
     },
     {
       "question_id": "ENV-012",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Sur Franceinfo (27 février 2023) il qualifie les ZFE de « bombe sociale » et demande « un moratoire » pour « les décaler dans le temps » : version partielle de la suppression, +1 nuancee."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4953,6 +5297,12 @@
     },
     {
       "question_id": "ENV-018",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Sortir de la « logique spéculative » du marché européen va dans le sens de l'énoncé sans dire explicitement qu'il quitterait les règles du marché pour fixer les prix ; +1 imprecise défendable, inchangé que l'extrait 2 soit retenu ou non."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5021,6 +5371,12 @@
     },
     {
       "question_id": "ENV-022",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le candidat veut développer le solaire et doubler la production décarbonée incluant les renouvelables, ce qui va contre l'arrêt du soutien sans traiter explicitement des aides : −1 imprecise défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5083,6 +5439,12 @@
     },
     {
       "question_id": "ENV-023",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Vingt EPR2 et douze SMR dépassent les 6+8 réacteurs de l'énoncé dans le même sens : valeur chiffrée plus élevée, R1, +1 nuancee."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5145,6 +5507,12 @@
     },
     {
       "question_id": "ENV-025",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "TF1 Info rapporte qu'il « réclame également le \"blocage\" des prix des carburants » face à la flambée, en citant « Le code du commerce nous le permet » : demande sans réserve."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5263,6 +5631,12 @@
     },
     {
       "question_id": "SEC-005",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le Parisien résume son programme 2022 : « Les actions des forces de l'ordre seront contrôlées par une instance indépendante » ; version partielle de l'énoncé (ni remplacement explicite de l'IGPN/IGGN, ni rattachement au Défenseur des droits)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5331,6 +5705,12 @@
     },
     {
       "question_id": "SEC-008",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il appelle à rétablir la police de proximité, avec un chiffrage de 30 000 agents (le conditionnel ne porte que sur leur affectation) : +2 nette."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5449,6 +5829,12 @@
     },
     {
       "question_id": "SEC-014",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Préférence pour les alternatives à l'incarcération plutôt que pour de nouvelles places, sans chiffre : -1 défendable ; source ancienne (programme 2022) et indirecte."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5511,6 +5897,12 @@
     },
     {
       "question_id": "SEC-016",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Roussel juge le désarmement « hors sol », dit que l'armement relève de la décision des maires et s'oppose à l'extension des compétences des polices municipales ; −1 nuancee défendable, un 0 (statu quo refusant aussi le désarmement) serait aussi soutenable mais la position sur l'armement par défaut n'est pas explicitement formulée."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5593,6 +5985,12 @@
     },
     {
       "question_id": "SEC-019",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il soutient une loi interdisant les démonstrations religieuses dans le sport, dans le débat sur l'interdiction du voile en compétition : +2 nette est défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {

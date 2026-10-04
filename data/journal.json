@@ -71,6 +71,29 @@
       "description": "Application de la règle de la méthodologie (§ 6.3, « Dans la banque ») : un candidat passe de « codage_en_attente » à « evalue » quand il est codé sur au moins 40 % des 206 questions actives (une position imprécise compte, D9). Passent à « evalue » : Jean-Luc Mélenchon (98 questions, 47,6 %) et Nicolas Dupont-Aignan (84, 40,8 %). Restent « codage_en_attente » : Le Pen (38,3 %), Lisnard (37,9 %), Retailleau (36,4 %), Roussel (32,0 %), Attal (31,1 %), Arthaud (28,2 %), Philippe (22,3 %). Le calcul de l'application est inchangé : tout candidat disposant de positions publiées reste comparé (règle du lot 5c).",
       "auteur": "Claude (lot 5g), à la demande de Mathieu",
       "reference": "phase-5, lot 5g"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "recodage",
+      "objets": [
+        "data/positions/*.json",
+        "docs/grille-codage.md",
+        "schemas/positions.schema.json",
+        "docs/protocole/README.md"
+      ],
+      "description": "Vérification indépendante des 648 codes publiés, contre la page source téléchargée (426 pages sur 443 ouvertes par script, les autres par WebFetch quand c'était possible). Vérificateur Opus 5.5 n'ayant pas participé au codage ; second arbitre Fable 5.1 sur chaque proposition de changement, sans savoir quelle option venait du vérificateur. Résultat : 597 confirmés, 36 corrigés (vérificateur et second arbitre d'accord), 3 maintenus par le second arbitre, 3 à revoir par un humain, 9 dont la source est restée inaccessible. 9 extraits irrecevables retirés (agrégateurs Votons, Selexium, upday, analyse Oxfam, commentaire de journaliste) ; 4 questions repassent en « non connu ». 20 reformulations corrigées, 10 types de source corrigés. Grille v1.3 : règle R6 (proposition englobante) proposée et appliquée à titre provisoire, à valider par Mathieu ; elle explique 20 des 36 corrections. Codes corrigés : arthaud-nathalie × IMM-001 : 1/nuancee → 2/nette ; arthaud-nathalie × IMM-009 : 1/nuancee → 2/nette ; arthaud-nathalie × IMM-010 : 1/nuancee → 2/nette ; arthaud-nathalie × IMM-016 : -1/imprecise → -2/nette ; arthaud-nathalie × IMM-020 : -1/imprecise → -2/nette ; arthaud-nathalie × FIS-019 : 1/nuancee → 2/nette ; attal-gabriel × EUR-016 : 1/imprecise → None/non_connu ; attal-gabriel × ENV-023 : 2/nette → None/non_connu ; dupont-aignan-nicolas × INS-010 : 1/nuancee → 2/nette ; dupont-aignan-nicolas × EUR-012 : 1/nuancee → 2/nette ; dupont-aignan-nicolas × EUR-014 : 1/nuancee → 2/nette ; dupont-aignan-nicolas × EUR-016 : 1/imprecise → 2/nette ; dupont-aignan-nicolas × FIS-007 : -2/nette → None/non_connu ; dupont-aignan-nicolas × ENV-023 : 1/imprecise → None/non_connu ; dupont-aignan-nicolas × SEC-012 : 1/nuancee → 2/nette ; le-pen-marine × RET-002 : 1/nuancee → -1/nuancee ; le-pen-marine × IMM-001 : -2/nette → -1/nuancee ; le-pen-marine × IMM-008 : -2/nette → -1/nuancee ; le-pen-marine × SEC-013 : 1/nuancee → 2/nette ; lisnard-david × EDU-015 : 1/nuancee → 2/nette ; lisnard-david × ENV-017 : 1/nuancee → 2/nette ; lisnard-david × SEC-012 : 1/nuancee → 2/nette ; melenchon-jean-luc × RET-008 : 2/nette → None/non_connu ; melenchon-jean-luc × IMM-002 : 1/nuancee → 2/nette ; melenchon-jean-luc × IMM-003 : 1/nuancee → 2/nette ; melenchon-jean-luc × EUR-003 : -1/nuancee → -1/imprecise ; melenchon-jean-luc × ENV-015 : -1/imprecise → -2/nette ; melenchon-jean-luc × SEC-002 : 1/nuancee → 2/nette ; philippe-edouard × RET-017 : -1/nuancee → 0/nuancee ; retailleau-bruno × ECO-016 : 1/nuancee → 2/nette ; retailleau-bruno × FIS-015 : -1/imprecise → None/non_connu ; retailleau-bruno × FIS-020 : -1/nuancee → -2/nette ; roussel-fabien × RET-010 : 1/nuancee → -1/nuancee ; roussel-fabien × RET-015 : 1/nuancee → 2/nette ; roussel-fabien × ECO-004 : 1/nuancee → 2/nette ; roussel-fabien × FIS-004 : 1/nuancee → None/non_connu. Aucune de ces étapes n'est validée par un humain (mode POC).",
+      "auteur": "Claude (fiabilisation des codages), à la demande de Mathieu",
+      "reference": "phase-4, fiabilisation du 4 octobre 2026"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "changement_statut",
+      "objets": [
+        "data/candidats.json"
+      ],
+      "description": "Application de la règle de la méthodologie (§ 6.3) après la vérification indépendante du même jour : Nicolas Dupont-Aignan perd deux codes (un extrait d'agrégateur retiré sur FIS-007, une position sur un sujet voisin sur ENV-023) et passe à 82 questions codées sur 206 (39,8 %), sous le seuil de 40 % ; il repasse de « evalue » à « codage_en_attente ». Le calcul de l'application est inchangé : il reste comparé.",
+      "auteur": "Claude (fiabilisation des codages), à la demande de Mathieu",
+      "reference": "phase-4, fiabilisation du 4 octobre 2026"
     }
   ]
 }

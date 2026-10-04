@@ -253,7 +253,17 @@ export function validerDataset(ds: Dataset): Rapport {
       // Cohérence entre le code publié, les deux codeurs et l'arbitrage.
       const c1 = p.codage?.codeur_1;
       const c2 = p.codage?.codeur_2;
-      if (p.statut === 'accord' && c1 && c2) {
+      // Un code corrigé par la vérification indépendante remplace celui des codeurs ou de l'arbitre :
+      // il doit alors être exactement celui retenu par le second arbitrage.
+      const verif = p.verification;
+      if (verif?.verdict === 'corrige') {
+        const sa = verif.second_arbitrage;
+        if (!sa) {
+          erreur('position-incoherente', fichier, `${id} : code corrigé par la vérification sans second arbitrage`);
+        } else if (p.code !== sa.code_retenu || p.nature !== sa.nature_retenue) {
+          erreur('position-incoherente', fichier, `${id} : le code publié ne correspond pas au code retenu par le second arbitrage`);
+        }
+      } else if (p.statut === 'accord' && c1 && c2) {
         const memeCode = c1.code === c2.code;
         const memeNature = c1.nature === c2.nature;
         if (!memeCode || !memeNature) {
@@ -265,7 +275,7 @@ export function validerDataset(ds: Dataset): Rapport {
       if (p.statut === 'arbitrage_en_attente' && c1 && c2 && c1.code === c2.code && c1.nature === c2.nature) {
         erreur('position-incoherente', fichier, `${id} : arbitrage en attente alors que les deux codeurs sont d'accord`);
       }
-      if (p.statut === 'arbitre' && p.arbitrage) {
+      if (p.statut === 'arbitre' && p.arbitrage && verif?.verdict !== 'corrige') {
         if (p.code !== p.arbitrage.code_retenu || p.nature !== p.arbitrage.nature_retenue) {
           erreur('position-incoherente', fichier, `${id} : le code publié ne correspond pas au code retenu par l'arbitrage`);
         }

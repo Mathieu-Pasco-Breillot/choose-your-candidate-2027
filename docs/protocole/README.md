@@ -1,12 +1,14 @@
 # Protocole de codage des positions
 
-Ce dossier décrit comment les positions des candidats (`data/positions/*.json`) sont recherchées, codées et vérifiées. La grille est dans `docs/grille-codage.md` (v1.2), la méthodologie dans `docs/methodologie.md`. Les vagues passées sont décrites dans le journal (`data/journal.json`).
+Ce dossier décrit comment les positions des candidats (`data/positions/*.json`) sont recherchées, codées et vérifiées. La grille est dans `docs/grille-codage.md` (v1.3), la méthodologie dans `docs/methodologie.md`. Les vagues passées sont décrites dans le journal (`data/journal.json`).
 
 | Fichier | Rôle |
 |---|---|
 | `consigne-extraction-complementaire.md` | Consigne des extracteurs (modèle à compléter : date, contexte, chemin du dépôt). |
 | `consigne-codage-aveugle.md` | Consigne des deux codeurs, identique à la lettre pour les deux. |
 | `consigne-arbitrage-provisoire.md` | Consigne de l'arbitre des désaccords. |
+| `consigne-verification-independante.md` | Consigne du vérificateur, qui contrôle chaque code publié contre la page source. |
+| `consigne-second-arbitrage.md` | Consigne du second arbitre, qui tranche quand le vérificateur propose un autre code. |
 | `outils/gnews.py` | Recherche dans Google Actualités avec des liens d'articles directs (`--rss "<mots clés>"`). |
 
 ## Principes
@@ -33,7 +35,13 @@ Ce dossier décrit comment les positions des candidats (`data/positions/*.json`)
    - pour un arbitrage : `par` = « arbitrage provisoire par un troisième modèle (claude-fable-…), aveugle, non validé par un humain (mode POC) » ;
    - nouvel `item_aveugle` ; `version` + 1 si la question avait déjà été codée ;
    - **contrôle humain** : tirer au sort 10 % des nouveaux codes publiés, stratifiés par candidat (au moins un par candidat), `{"tire_au_sort": true, "date": null, "resultat": null}`.
-8. **Vérification indépendante.** Un agent qui n'a pas participé rouvre les sources d'environ 30 % des nouveaux codes : existence du passage, fidélité, attribution, date, code défendable. Ses constats d'**attribution** ou de **source** font écarter l'extrait (on remet la question dans son état antérieur avec `git show HEAD:…`). Ses avis sur les **codes** ne modifient rien : ils sont listés pour l'humain.
+8. **Vérification indépendante** (depuis le 4 octobre 2026, sur **tous** les codes publiés) :
+   - télécharger chaque page source par script (`curl`, puis `trafilatura` + texte brut complet ; `pdftotext` pour un PDF) et refaire le contrôle mécanique de la citation ;
+   - lots mélangés d'environ 16 items, un vérificateur Opus par lot (`consigne-verification-independante.md`) : il lit la **page** et non la seule reformulation, contrôle passage, attribution, date, type, fidélité et code, et rend `confirme`, `modifier_code`, `ecarter_extrait` ou `source_inaccessible` ;
+   - chaque proposition de changement, et chaque cas où il signale R6 sans l'appliquer, passe devant un **second arbitre** Fable (`consigne-second-arbitrage.md`), qui voit le code publié et la proposition sous les lettres A et B dans un ordre aléatoire noté à part, et tranche sur la page source ;
+   - un code n'est changé que si le vérificateur et le second arbitre retiennent **le même** code et la même nature (`verification.verdict = "corrige"`, ancien code dans `code_avant`, `version` + 1) ; le second arbitre garde le code publié → `maintenu` ; ils divergent tous deux → `a_revoir`, code inchangé, listé pour un humain ;
+   - extrait retiré si le vérificateur le juge irrecevable et que le second arbitre le confirme, ou, sans second arbitrage, s'il s'agit d'un agrégateur ou d'une analyse tierce (Votons, Selexium, Oxfam, upday…) ou d'un commentaire de journaliste ; s'il ne reste aucun extrait, la question passe en `sans_extrait` ;
+   - reformulation remplacée par la version corrigée du vérificateur quand elle était partielle ou infidèle (la version anonymisée est refaite) ; type de source corrigé.
 9. **Dépôt.**
    - Ajouter une entrée au journal (`type: "recodage"`, chiffres de la vague).
    - Lancer `npm run data:validate`, `npm run derive`, `npm run bundle`.

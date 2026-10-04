@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "empreinte_donnees": "1437d2d2cab20359842b5b4c10c3333d4e1da76fad4c896ccad99812ac09866a",
+  "empreinte_donnees": "5f70ebc3df013869651232ae6d5c2104c3d09ab664fb6b9ecd365ad8c88c0707",
   "provisoire": true,
   "parametres": {
     "nombre_ancres": 10,
@@ -19,7 +19,7 @@
       "theme": "retraites",
       "axe": "economie",
       "sens": 1,
-      "D": 2.666667,
+      "D": 2.617284,
       "couverture": 1,
       "candidats_codes": 9
     },
@@ -39,7 +39,7 @@
       "theme": "immigration",
       "axe": "frontieres",
       "sens": 1,
-      "D": 2.541667,
+      "D": 2.430556,
       "couverture": 0.888889,
       "candidats_codes": 8
     },

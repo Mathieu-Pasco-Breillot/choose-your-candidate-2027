@@ -363,6 +363,30 @@ export namespace Positions {
       resultat?: string | null;
     };
     /**
+     * Vérification indépendante contre la page source (4 octobre 2026). verdict « confirme » : code jugé défendable ; « corrige » : le vérificateur et un second arbitre, indépendants l'un de l'autre, ont retenu le même autre code, qui devient le code publié (code_avant garde l'ancien) ; « maintenu » : le second arbitre a gardé le code publié ; « a_revoir » : désaccord non tranché, le code publié est inchangé et l'item est listé pour un humain ; « source_inaccessible » : page impossible à consulter, code inchangé. Aucune de ces étapes n'est validée par un humain.
+     */
+    verification?: {
+      par: string;
+      date: DateIso;
+      verdict: 'confirme' | 'corrige' | 'maintenu' | 'a_revoir' | 'source_inaccessible';
+      motif: string;
+      code_avant?: Code;
+      nature_avant?: Nature | null;
+      /**
+       * Extraits retirés comme irrecevables (agrégateur, propos qui ne sont pas du candidat) : url et motif.
+       */
+      extraits_ecartes?: {
+        url: string;
+        motif: string;
+      }[];
+      second_arbitrage?: null | {
+        par: string;
+        code_retenu: Code;
+        nature_retenue: Nature;
+        motif: string;
+      };
+    };
+    /**
      * Vide dans tous les fichiers ; forme à préciser à la première contestation (issue GitHub, état, issue).
      */
     contestations: {}[];

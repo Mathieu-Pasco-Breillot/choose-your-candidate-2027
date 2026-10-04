@@ -134,6 +134,46 @@
             }
           }
         },
+        "verification": {
+          "description": "Vérification indépendante contre la page source (4 octobre 2026). verdict « confirme » : code jugé défendable ; « corrige » : le vérificateur et un second arbitre, indépendants l'un de l'autre, ont retenu le même autre code, qui devient le code publié (code_avant garde l'ancien) ; « maintenu » : le second arbitre a gardé le code publié ; « a_revoir » : désaccord non tranché, le code publié est inchangé et l'item est listé pour un humain ; « source_inaccessible » : page impossible à consulter, code inchangé. Aucune de ces étapes n'est validée par un humain.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["par", "date", "verdict", "motif"],
+          "properties": {
+            "par": { "type": "string", "minLength": 1 },
+            "date": { "$ref": "#/$defs/dateIso" },
+            "verdict": { "enum": ["confirme", "corrige", "maintenu", "a_revoir", "source_inaccessible"] },
+            "motif": { "type": "string", "minLength": 1 },
+            "code_avant": { "$ref": "#/$defs/code" },
+            "nature_avant": { "anyOf": [{ "$ref": "#/$defs/nature" }, { "type": "null" }] },
+            "extraits_ecartes": {
+              "description": "Extraits retirés comme irrecevables (agrégateur, propos qui ne sont pas du candidat) : url et motif.",
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["url", "motif"],
+                "properties": { "url": { "type": "string", "minLength": 1 }, "motif": { "type": "string", "minLength": 1 } }
+              }
+            },
+            "second_arbitrage": {
+              "anyOf": [
+                { "type": "null" },
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["par", "code_retenu", "nature_retenue", "motif"],
+                  "properties": {
+                    "par": { "type": "string", "minLength": 1 },
+                    "code_retenu": { "$ref": "#/$defs/code" },
+                    "nature_retenue": { "$ref": "#/$defs/nature" },
+                    "motif": { "type": "string", "minLength": 1 }
+                  }
+                }
+              ]
+            }
+          }
+        },
         "contestations": {
           "description": "Vide dans tous les fichiers ; forme à préciser à la première contestation (issue GitHub, état, issue).",
           "type": "array",

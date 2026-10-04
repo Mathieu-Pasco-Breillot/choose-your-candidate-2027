@@ -55,11 +55,11 @@ describe('désaccord non arbitré = « non connu » (D8)', () => {
     expect(estPublie({ ...(position('candidat-a', 'RET-001', 1) as object), code: 1 } as never)).toBe(true);
   });
 
-  it('sur les données réelles (phase 4, vagues 1 et 2) : 648 codes publiés, aucun arbitrage en attente', () => {
+  it('sur les données réelles (phase 4, vagues 1 et 2) : 641 codes publiés, aucun arbitrage en attente', () => {
     const couverture = calculerCouverture(reel) as { candidats: Record<string, { codes_publies: number; arbitrages_en_attente: number }> };
     const total = Object.values(couverture.candidats).reduce((s, c) => s + c.codes_publies, 0);
     const attente = Object.values(couverture.candidats).reduce((s, c) => s + c.arbitrages_en_attente, 0);
-    expect(total).toBe(648);
+    expect(total).toBe(641);
     expect(attente).toBe(0);
   });
 });
@@ -89,29 +89,30 @@ describe('kappa pondéré quadratique', () => {
 describe('reproduit les chiffres publiés de la phase 4 (vagues 1 et 2, 11 thèmes, 4 octobre 2026)', () => {
   const accord = calculerAccordCodeurs(reel);
 
-  it('accord global : 697 couples, 546 accords (78,3 %), code seul 83,5 %, kappa 0,943', () => {
-    expect(accord.global.couples_codes).toBe(697);
-    expect(accord.global.accord_code_et_nature).toBe(546);
-    expect(arrondi3(accord.global.taux_accord)).toBe(0.783);
+  it('accord global : 693 couples, 543 accords (78,4 %), code seul 83,5 %, kappa 0,943', () => {
+    expect(accord.global.couples_codes).toBe(693);
+    expect(accord.global.accord_code_et_nature).toBe(543);
+    expect(arrondi3(accord.global.taux_accord)).toBe(0.784);
     expect(arrondi3(accord.global.taux_accord_code_seul)).toBe(0.835);
     expect(arrondi3(accord.global.kappa_pondere_quadratique)).toBe(0.943);
-    // 12 arbitrages du pilote + 121 (vague 1) + 18 (vague 2) arbitrages provisoires par un troisième modèle, validation humaine en attente.
+    // 12 arbitrages du pilote + 121 (vague 1) + 18 (vague 2) arbitrages provisoires par un troisième modèle, validation humaine en attente ;
+    // un arbitrage disparaît le 4 octobre 2026 avec son extrait, retiré par la vérification indépendante (agrégateur).
     expect(accord.arbitrages.en_attente).toBe(0);
-    expect(accord.arbitrages.rendus).toBe(151);
+    expect(accord.arbitrages.rendus).toBe(150);
     expect(accord.controle_humain.tires_au_sort).toBe(64);
     expect(accord.controle_humain.effectues).toBe(9);
   });
 
   it.each([
     ['arthaud-nathalie', 65, 48, 0.889, 0],
-    ['attal-gabriel', 68, 51, 0.952, 0],
-    ['dupont-aignan-nicolas', 84, 68, 0.938, 0],
+    ['attal-gabriel', 67, 51, 0.956, 0],
+    ['dupont-aignan-nicolas', 83, 67, 0.936, 0],
     ['le-pen-marine', 83, 67, 0.947, 0],
     ['lisnard-david', 84, 68, 0.899, 0],
-    ['melenchon-jean-luc', 105, 80, 0.959, 0],
+    ['melenchon-jean-luc', 104, 79, 0.959, 0],
     ['philippe-edouard', 55, 41, 0.982, 0],
     ['retailleau-bruno', 82, 66, 0.94, 0],
-    ['roussel-fabien', 71, 57, 0.968, 0],
+    ['roussel-fabien', 70, 56, 0.968, 0],
   ])('%s : %i couples, %i accords, kappa %f, %i arbitrage(s) en attente', (id, couples, accords, kappa, attente) => {
     const b = accord.par_candidat[id]!;
     expect(b.couples_codes).toBe(couples);
@@ -122,15 +123,15 @@ describe('reproduit les chiffres publiés de la phase 4 (vagues 1 et 2, 11 thèm
 
   it.each([
     // candidat, avec extrait, codes publiés, nette, nuancée, imprécise, « non connu » malgré un extrait (règle R4)
-    ['arthaud-nathalie', 65, 58, 14, 21, 23, 5],
-    ['attal-gabriel', 68, 64, 18, 30, 16, 1],
-    ['dupont-aignan-nicolas', 84, 84, 36, 35, 13, 0],
-    ['le-pen-marine', 83, 79, 34, 36, 9, 2],
-    ['lisnard-david', 84, 78, 26, 35, 17, 5],
-    ['melenchon-jean-luc', 105, 98, 45, 28, 25, 5],
+    ['arthaud-nathalie', 65, 58, 20, 17, 21, 5],
+    ['attal-gabriel', 67, 62, 17, 30, 15, 1],
+    ['dupont-aignan-nicolas', 83, 82, 40, 31, 11, 1],
+    ['le-pen-marine', 83, 79, 33, 37, 9, 2],
+    ['lisnard-david', 84, 78, 29, 32, 17, 5],
+    ['melenchon-jean-luc', 104, 97, 48, 24, 25, 5],
     ['philippe-edouard', 55, 46, 12, 19, 15, 3],
-    ['retailleau-bruno', 82, 75, 31, 31, 13, 5],
-    ['roussel-fabien', 71, 66, 26, 29, 11, 2],
+    ['retailleau-bruno', 82, 74, 33, 29, 12, 6],
+    ['roussel-fabien', 70, 65, 28, 26, 11, 2],
   ])('couverture de %s : %i extraits, %i codes, natures %i/%i/%i, %i R4', (id, extraits, codes, nette, nuancee, imprecise, r4) => {
     const c = (calculerCouverture(reel).candidats as Record<string, never>)[id] as {
       avec_extrait: number;

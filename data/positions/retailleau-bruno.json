@@ -1,7 +1,7 @@
 {
   "candidat_id": "retailleau-bruno",
   "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
-  "grille_version": "1.2",
+  "grille_version": "1.3",
   "programme": {
     "officiel_disponible": false,
     "date_publication": null,
@@ -60,6 +60,12 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il retient explicitement 63 ans comme âge minimal (avec décote), valeur qui va moins loin que les 62 ans de l'énoncé tout en étant en dessous de la cible de 64 ans de la loi : R5, -1 nuancee."
+      },
       "contestations": [],
       "version": 1
     },
@@ -114,6 +120,12 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il retient 63 ans, valeur qui va moins loin que les 60 ans de l'énoncé mais dans le même sens par rapport aux 64 ans en vigueur : R5, -1 nuancee."
+      },
       "contestations": [],
       "version": 1
     },
@@ -162,6 +174,12 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il retient un âge minimal de 63 ans, moins que les 65 ans de l'énoncé (65 ans n'étant que l'âge du taux plein) : R5, −1 nuancee."
+      },
       "contestations": [],
       "version": 1
     },
@@ -201,9 +219,9 @@
       "item_aveugle": "f73b104b",
       "extraits": [
         {
-          "reformulation": "Bruno Retailleau veut introduire une part de retraite par capitalisation pour les jeunes, avec un rendement minimum de 4 %, qui représenterait 25 à 30 % de leurs retraites. Elle serait financée par une cotisation de 1 % du salaire brut répartie entre salarié et employeur ; elle ne concernerait pas les retraités actuels.",
+          "reformulation": "Bruno Retailleau propose une part de retraite par capitalisation pour les jeunes entrant sur le marché du travail, avec un rendement d'au moins 4 %, qui représenterait dans un premier temps 25 à 30 % de leurs retraites. Une des pistes de financement est une cotisation de 1 % du salaire brut partagée entre salarié et employeur ; elle ne concerne pas les retraités actuels.",
           "citation_courte": "C'est fondamental pour les jeunes, mais aussi pour nos entreprises",
-          "reformulation_anonymisee": "[CANDIDAT] veut introduire une part de retraite par capitalisation pour les jeunes, avec un rendement minimum de 4 %, qui représenterait 25 à 30 % de leurs retraites. Elle serait financée par une cotisation de 1 % du salaire brut répartie entre salarié et employeur ; elle ne concernerait pas les retraités actuels.",
+          "reformulation_anonymisee": "[CANDIDAT] propose une part de retraite par capitalisation pour les jeunes entrant sur le marché du travail, avec un rendement d'au moins 4 %, qui représenterait dans un premier temps 25 à 30 % de leurs retraites. Une des pistes de financement est une cotisation de 1 % du salaire brut partagée entre salarié et employeur ; elle ne concerne pas les retraités actuels.",
           "citation_anonymisee": "C'est fondamental pour les jeunes, mais aussi pour nos entreprises",
           "source": {
             "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65",
@@ -251,6 +269,12 @@
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
+      },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il propose une part de capitalisation financée par cotisation, mais limitée aux nouveaux entrants et sans que l'obligation pour tous les salariés du privé soit explicitée : version partielle de l'énoncé."
       },
       "contestations": [],
       "version": 1
@@ -383,6 +407,12 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Suppression des cotisations retraite limitée aux salariés de 62 ans ayant toutes leurs annuités : version partielle dans le sens de l'énoncé."
+      },
       "contestations": [],
       "version": 1,
       "item_aveugle": "ad521b83"
@@ -431,6 +461,12 @@
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
+      },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Âge minimal de 63 ans, y compris pour les carrières longues, alors que le droit actuel permet 60-62 ans : valeur dans la direction opposée au droit en vigueur, -2 (R5). La partie sur les carrières longues repose sur une paraphrase journalistique, d'où une confiance moyenne."
       },
       "contestations": [],
       "version": 1
@@ -557,6 +593,12 @@
         "tire_au_sort": true,
         "date": "2026-10-03",
         "resultat": "confirme"
+      },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il fixe l'âge du taux plein automatique à 65 ans au lieu de 67, plus loin que 66 ans et demi dans le même sens, avec indexation sur l'espérance de vie : R1, +1 nuancee."
       },
       "contestations": [],
       "version": 1
@@ -731,6 +773,12 @@
     },
     {
       "question_id": "ECO-010",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il défend la contrepartie des 15 heures au RSA et reproche à une adversaire de l'avoir refusée, ce qui rejette sa suppression : −2 nette défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -779,6 +827,12 @@
     },
     {
       "question_id": "ECO-011",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il demande le retrait pur et simple de la suppression de deux jours fériés et dit que ce n'est pas sa ligne politique : rejet sans réserve."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -841,6 +895,12 @@
     },
     {
       "question_id": "ECO-013",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Demande ferme et datée d'un référendum constitutionnel sur la règle d'or, que la précision identifie à l'énoncé ; +2 nette défendable. Note : le motif d'arbitrage dit retenir le code du codeur B alors que +2 nette est le code du codeur A."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -895,6 +955,12 @@
     },
     {
       "question_id": "ECO-014",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le programme retient le non-remplacement de moins d'un départ sur cinq, valeur moins ambitieuse qu'un sur trois (R5)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -957,6 +1023,12 @@
     },
     {
       "question_id": "ECO-015",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La tribune veut « sortir des 35 heures par le haut », renvoyer l'organisation du temps de travail à la négociation et exonérer de cotisations les heures « passé 1 623 heures par an » ; l'entretien évoque trente minutes de plus par jour : même sens que l'énoncé, sans reprise explicite d'un relèvement de la durée légale, +1 défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1019,8 +1091,22 @@
     },
     {
       "question_id": "ECO-016",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "corrige",
+        "motif": "Vérificateur : Même seuil de 70 % du Smic appliqué à l'ensemble des aides sociales : périmètre plus large qui contient entièrement le cumul RSA + aides au logement, sans écart de valeur. L'arbitrage a appliqué R1 (réservée aux valeurs chiffrées qui vont plus loin) ; R6 provisoire donne +2 nette. Second arbitre : La source dit : financer la baisse de cotisations « notamment par le plafonnement des aides sociales à 70 % du Smic ». Même seuil que l'énoncé, périmètre plus large (toutes les aides sociales) qui contient entièrement le cumul RSA + aides au logement : R6, pas de valeur plus poussée donc pas R1.",
+        "code_avant": 1,
+        "nature_avant": "nuancee",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": 2,
+          "nature_retenue": "nette",
+          "motif": "La source dit : financer la baisse de cotisations « notamment par le plafonnement des aides sociales à 70 % du Smic ». Même seuil que l'énoncé, périmètre plus large (toutes les aides sociales) qui contient entièrement le cumul RSA + aides au logement : R6, pas de valeur plus poussée donc pas R1."
+        }
+      },
       "contestations": [],
-      "version": 1,
+      "version": 2,
       "controle_humain": {
         "tire_au_sort": false
       },
@@ -1060,8 +1146,8 @@
         },
         "accord": false
       },
-      "code": 1,
-      "nature": "nuancee",
+      "code": 2,
+      "nature": "nette",
       "statut": "arbitre",
       "arbitrage": {
         "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
@@ -1129,6 +1215,12 @@
     },
     {
       "question_id": "INS-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Rejet sans réserve du scrutin proportionnel pour les législatives, qui inclut la proportionnelle départementale : -2 nette."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1177,6 +1269,12 @@
     },
     {
       "question_id": "INS-002",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il retient environ 2,5 millions de signatures (~5 % des électeurs), valeur qui va moins loin que 2 % dans le même sens : R5, −1 nuancée."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1239,6 +1337,12 @@
     },
     {
       "question_id": "INS-004",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut un pacte constitutionnel (révision et charte) pour « restaurer le régime fondé par le général de Gaulle » et affirme « Les institutions de la Ve République sont bonnes » : il propose le contraire d'une nouvelle Constitution."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1329,6 +1433,12 @@
     },
     {
       "question_id": "INS-008",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il rejette explicitement l'indépendance du parquet, dont l'avis conforme du CSM est un instrument, sans se prononcer sur cette règle de nomination : direction contraire perceptible, mesure non spécifiée (un null au titre de R4 serait aussi plaidable, mais le code publié est défendable)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1377,6 +1487,12 @@
     },
     {
       "question_id": "INS-009",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il s'oppose au projet de loi constitutionnelle d'autonomie de la Corse qu'il juge contraire à l'indivisibilité de la République : rejet du texte, rapporté de seconde main mais entre guillemets."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1509,6 +1625,12 @@
     },
     {
       "question_id": "INS-016",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut une révision constitutionnelle pour que le peuple décide par référendum « de toute question législative », citant parmi les questions aujourd'hui interdites « la politique migratoire », et soumettre ce pacte à référendum dès la rentrée 2027 : mesure englobante contenant l'énoncé."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1669,6 +1791,12 @@
     },
     {
       "question_id": "EDU-007",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Revalorisation chiffrée moindre (135 à 300 € nets par mois) et refus explicite de la surenchère des 20 % : R5."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1787,6 +1915,12 @@
     },
     {
       "question_id": "EDU-012",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Fin du collège unique, parcours adaptés et apprentissage dès 14 ans vont dans le sens de l'énoncé, sans fixer la classe de quatrième ni viser explicitement les élèves en difficulté."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1849,6 +1983,12 @@
     },
     {
       "question_id": "EDU-013",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Dans sa tribune signée : « Un examen d'entrée en sixième permettra de constituer des groupes de niveau évolutifs » ; l'examen existe mais sert à répartir les élèves, pas à conditionner l'entrée : version partielle, +1 nuancee défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1897,6 +2037,12 @@
     },
     {
       "question_id": "EDU-014",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Supprimer la règle 80-20, qui plafonne les postes d'enseignants payés par l'État dans le privé, va dans le sens d'un financement égal sans le reprendre : +1 nuancee défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1905,9 +2051,9 @@
       "item_aveugle": "6f8a1343",
       "extraits": [
         {
-          "reformulation": "Il écrit qu'il rendra une liberté totale de choix aux familles et qu'il supprimera la règle dite « 80-20 » (non votée par le Parlement), qui attribue d'avance quatre postes d'enseignants sur cinq au public et un sur cinq au privé et bride le développement de ce dernier. Il parle de « plus de liberté dans l'école privée » mais la tribune n'évoque pas explicitement un financement à parité des deux écoles.",
+          "reformulation": "Dans une tribune, il promet une liberté totale de choix aux familles, la suppression de la carte scolaire et de la règle « 80-20 » qui réserve d'avance quatre postes d'enseignants sur cinq au public. Il ne parle pas de financement à parité des deux écoles.",
           "citation_courte": "Nous rendrons une liberté totale de choix aux familles.",
-          "reformulation_anonymisee": "Le candidat écrit qu'il rendra une liberté totale de choix aux familles et qu'il supprimera la règle dite « 80-20 » (non votée par le Parlement), qui attribue d'avance quatre postes d'enseignants sur cinq au public et un sur cinq au privé et bride le développement de ce dernier. Le texte n'évoque pas explicitement un financement à parité des deux écoles.",
+          "reformulation_anonymisee": "Dans une tribune, il promet une liberté totale de choix aux familles, la suppression de la carte scolaire et de la règle « 80-20 » qui réserve d'avance quatre postes d'enseignants sur cinq au public. Il ne parle pas de financement à parité des deux écoles.",
           "citation_anonymisee": "Nous rendrons une liberté totale de choix aux familles.",
           "source": {
             "url": "https://www.valeursactuelles.com/societe/bruno-retailleau-nos-enfants-ne-seront-plus-les-cobayes-du-pedagogisme",
@@ -1951,6 +2097,12 @@
     },
     {
       "question_id": "EDU-015",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Engagement ferme au futur de supprimer la carte scolaire, dans une tribune signée de septembre 2026."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2013,6 +2165,12 @@
     },
     {
       "question_id": "EDU-016",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut appliquer aux sorties scolaires la loi de 2004 sur les signes religieux et souhaite une loi en ce sens : soutien explicite."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2061,6 +2219,12 @@
     },
     {
       "question_id": "EDU-017",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Mesure concrète (groupes de niveau constitués par examen d'entrée en sixième) dans le sens de l'énoncé, sans reprise de l'obligation ni des matières : +1 nuancee défendable. Note : le motif d'arbitrage indique « code du codeur B » alors que la nature publiée (nuancee) est celle du codeur A."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2115,6 +2279,12 @@
     },
     {
       "question_id": "EDU-018",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Recrutement par l'établissement limité à 1 000 établissements, généralisation conditionnée au succès : version partielle et conditionnelle, +1 nuancee conforme."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2289,6 +2459,12 @@
     },
     {
       "question_id": "SAN-010",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Rejet explicite et sans réserve de la légalisation du cannabis (« Totalement contre »)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2337,6 +2513,12 @@
     },
     {
       "question_id": "SAN-011",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut restreindre l'AME sans préciser la limitation aux soins urgents : direction perceptible, mesure non spécifiée, +1 imprecise défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2457,6 +2639,12 @@
     },
     {
       "question_id": "SAN-018",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "BFMTV rapporte qu'il qualifie le texte de « loi d'abandon » et prévoit, s'il est élu, de « faire un bilan au bout d'un an » et « potentiellement » un référendum : opposition sans engagement ferme d'abrogation."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2535,6 +2723,12 @@
     },
     {
       "question_id": "IMM-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il rejette sans réserve la régularisation des travailleurs sans papiers, qu'il qualifie de « capitulation »."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2597,6 +2791,12 @@
     },
     {
       "question_id": "IMM-002",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il se félicite des victoires obtenues dans le texte et en défend le temps de carence, sans se prononcer sur une abrogation : direction contraire à l'énoncé, imprecise."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2715,6 +2915,12 @@
     },
     {
       "question_id": "IMM-008",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut « mettre fin au droit du sol » (« On ne doit plus devenir Français par hasard ») : direction opposée à l'énoncé et au droit en vigueur, -2 nette."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2791,6 +2997,12 @@
     },
     {
       "question_id": "IMM-011",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Engagement ferme de supprimer le droit du sol, le référendum n'étant qu'une modalité ; la nationalité « fruit d'une volonté » correspond à l'énoncé."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2867,6 +3079,12 @@
     },
     {
       "question_id": "IMM-014",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il défend un « temps de carence » pour les étrangers sur certaines allocations, sans durée ni périmètre précisés dans le passage : direction conforme, ampleur non spécifiée, +1 imprecise."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2957,6 +3175,12 @@
     },
     {
       "question_id": "IMM-018",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il revendique avoir plaidé pour la dénonciation et juge ces privilèges sans fondement aujourd'hui : soutien sans réserve."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3005,6 +3229,12 @@
     },
     {
       "question_id": "IMM-019",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut changer la loi qui oblige à marier un étranger sous OQTF, en reconnaissant les contraintes constitutionnelles et sans préciser le dispositif ; le public visé (OQTF) est plus étroit que « situation irrégulière » : +1 nuancee défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3059,6 +3289,12 @@
     },
     {
       "question_id": "IMM-020",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Supprimer les exceptions aux expulsions judiciaires et rétablir la double peine va dans le sens de l'énoncé, mais l'expulsion reste une peine prononcée par le juge ; il n'affirme pas l'expulsion de tout condamné. +1 nuancee défendable. NB : le motif d'arbitrage dit « code du codeur A », ce qui est cohérent (A = +1)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3113,6 +3349,12 @@
     },
     {
       "question_id": "IMM-021",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il reprend exactement la mesure : cinq ans de résidence légale et de travail pour accéder aux aides."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3301,6 +3543,12 @@
     },
     {
       "question_id": "DEF-005",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il rejette explicitement la sortie de l'OTAN (« un cadeau inespéré fait à nos adversaires stratégiques ») et propose d'européaniser l'OTAN."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3379,6 +3627,12 @@
     },
     {
       "question_id": "DEF-008",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il rejette explicitement tout élargissement de la dissuasion aux partenaires européens ; les coopérations admises excluent le cœur de la dissuasion."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3483,6 +3737,12 @@
     },
     {
       "question_id": "DEF-013",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut adosser les traités de défense à des contreparties industrielles : « produire en France et en Europe les armes dont nous avons besoin » ; priorité franco-européenne, pas strictement française."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3615,6 +3875,12 @@
     },
     {
       "question_id": "EUR-006",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il défend un « Buy European First » appuyé sur la commande publique, sans préciser la priorité aux produits fabriqués dans l'UE : direction claire, mesure imprécise."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3705,6 +3971,12 @@
     },
     {
       "question_id": "EUR-010",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut inscrire dans la Constitution la supériorité de celle-ci sur le droit européen, mais maintient la primauté européenne sur la loi sous conditions et refuse un « Frexit juridique » : version partielle de l'énoncé."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3767,6 +4039,12 @@
     },
     {
       "question_id": "EUR-012",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut restreindre la libre circulation Schengen des extra-Européens via des visas territorialisés et reprendre le contrôle des frontières nationales, sans énoncer précisément le contrôle aux frontières intérieures : +1 nuancee défendable (un +2 serait aussi soutenable)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3815,6 +4093,12 @@
     },
     {
       "question_id": "EUR-014",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut que la France « tienne ses engagements » et refuse un « Frexit juridique », tout en plaçant la Constitution au-dessus du droit de l'UE et en ouvrant une dérogation par loi organique : opposition avec réserve, −1 nuancee défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3905,6 +4189,12 @@
     },
     {
       "question_id": "FIS-002",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il avertit que si l'on instituait la taxe Zucman « nos propres entreprises pourraient s'enfuir », dans la liste de ses lignes rouges : opposition explicite mais formulée en mise en garde, -1 défendable. Remarque : le motif d'arbitrage dit retenir le code du codeur B (imprecise) alors que la nature publiée est nuancee ; nuancee reste défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3987,6 +4277,12 @@
     },
     {
       "question_id": "FIS-005",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il s'engage à baisser les droits de succession et rejette toute hausse des héritages élevés (barème déjà à 45 % au-delà de 1,8 million) : il propose le contraire d'un prélèvement intégral au-delà de 12 millions."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4049,6 +4345,12 @@
     },
     {
       "question_id": "FIS-007",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Les deux comptes rendus indiquent qu'il promet de préserver le pacte Dutreil (« Bruno Retailleau a tenu la même ligne » que Philippe, qui ne veut « pas toucher à un cheveu » du dispositif) : statu quo contraire à la baisse à 50 % ; −1 défendable (−2 également envisageable, la grille retient le plus proche de 0)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4073,9 +4375,9 @@
           "citation_verifiee_mot_a_mot": null
         },
         {
-          "reformulation": "Lors du débat des candidats devant le Medef (27 août 2026), il a tenu la même ligne que Philippe qui promettait de ne « pas toucher à un cheveu du pacte Dutreil », c'est-à-dire de le maintenir. Le 30 septembre 2026, aux Assises de l'AFER, il a promis de préserver le pacte Dutreil.",
+          "reformulation": "Lors du débat des candidats organisé par le Medef, Édouard Philippe a promis de ne pas toucher au pacte Dutreil ; selon franceinfo, Bruno Retailleau a tenu la même ligne, c'est-à-dire le maintien du dispositif.",
           "citation_courte": null,
-          "reformulation_anonymisee": "Lors d'un débat entre candidats devant des chefs d'entreprise (27 août 2026), [CANDIDAT] a tenu la même ligne qu'un autre candidat promettant de ne « pas toucher à un cheveu » du pacte Dutreil, c'est-à-dire de le maintenir. Fin septembre 2026, devant une association d'épargnants, il a promis de préserver le pacte Dutreil.",
+          "reformulation_anonymisee": "Lors du débat des candidats organisé par une organisation patronale, un autre candidat a promis de ne pas toucher au pacte Dutreil ; selon franceinfo, [CANDIDAT] a tenu la même ligne, c'est-à-dire le maintien du dispositif.",
           "citation_anonymisee": null,
           "source": {
             "url": "https://www.franceinfo.fr/elections/presidentielle/dette-publique-retraites-reindustrialisation-ce-qu-il-faut-retenir-du-premier-debat-des-principaux-candidats-a-la-presidentielle_8165342.html",
@@ -4153,6 +4455,12 @@
     },
     {
       "question_id": "FIS-011",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le candidat propose la suppression définitive de la CVAE au sein d'un paquet présenté « dès 2027 », sans date propre à la CVAE ; la source la plus récente ne parle que de réduction : +1 nuancee défendable (+2 aurait été soutenable)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4265,6 +4573,12 @@
     },
     {
       "question_id": "FIS-014",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le JDD écrit qu'il souhaite « raccourcir le délai de rappel des donations à 10 ans contre 15 ans aujourd'hui » : mesure exacte de l'énoncé."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4313,19 +4627,33 @@
     },
     {
       "question_id": "FIS-015",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "corrige",
+        "motif": "Vérificateur : La seule position du candidat rapportée est une baisse ciblée de cotisations financée par des économies ; il ne dit rien de la TVA, et le rejet implicite de la TVA sociale est une déduction du journal (non recevable) : aucun extrait ne permet de coder l'énoncé. Second arbitre : La Provence rapporte seulement une « exonération totale de cotisations, salariales et patronales, au-delà de la 36e heure travaillée, financée par 30 milliards d'euros d'économies budgétaires » ; la phrase « sans aucune hausse de TVA pour la financer » est un constat du journal, pas un propos du candidat. Il ne se prononce pas sur une hausse de TVA : sujet voisin, aucun extrait ne permet de coder.",
+        "code_avant": -1,
+        "nature_avant": "imprecise",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": null,
+          "nature_retenue": "non_connu",
+          "motif": "La Provence rapporte seulement une « exonération totale de cotisations, salariales et patronales, au-delà de la 36e heure travaillée, financée par 30 milliards d'euros d'économies budgétaires » ; la phrase « sans aucune hausse de TVA pour la financer » est un constat du journal, pas un propos du candidat. Il ne se prononce pas sur une hausse de TVA : sujet voisin, aucun extrait ne permet de coder."
+        }
+      },
       "contestations": [],
-      "version": 1,
+      "version": 2,
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": -1,
-      "nature": "imprecise",
+      "code": null,
+      "nature": "non_connu",
       "statut": "accord",
       "extraits": [
         {
-          "reformulation": "Il propose une exonération totale de cotisations salariales et patronales au-delà de la 36e heure travaillée, financée par 30 milliards d'euros d'économies budgétaires ; selon La Provence, la baisse de cotisations y figure sans aucune hausse de TVA pour la financer. Pas de déclaration directe de lui sur la TVA sociale dans cette source.",
+          "reformulation": "Selon La Provence, il propose une exonération totale de cotisations salariales et patronales au-delà de la 36e heure, financée par 30 milliards d'euros d'économies budgétaires. Il ne se prononce pas sur la TVA ; l'absence de hausse de TVA est un constat du journal.",
           "citation_courte": null,
-          "reformulation_anonymisee": "[CANDIDAT] propose une exonération totale de cotisations salariales et patronales au-delà de la 36e heure travaillée, financée par 30 milliards d'euros d'économies budgétaires ; selon le journal, cette baisse de cotisations est prévue sans aucune hausse de TVA pour la financer. Pas de déclaration directe du candidat sur la TVA sociale dans cette source.",
+          "reformulation_anonymisee": "Selon La Provence, il propose une exonération totale de cotisations salariales et patronales au-delà de la 36e heure, financée par 30 milliards d'euros d'économies budgétaires. Il ne se prononce pas sur la TVA ; l'absence de hausse de TVA est un constat du journal.",
           "citation_anonymisee": null,
           "source": {
             "url": "https://www.laprovence.com/article/politique/25824363893349/tva-sociale-plusieurs-candidats-a-la-presidentielle-ladopteraient-comment-fonctionne-t-elle",
@@ -4361,6 +4689,12 @@
     },
     {
       "question_id": "FIS-016",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Exonération totale d'IR, mais seulement au-delà d'un nouveau seuil de 1 623 h, les heures entre 1 607 et 1 623 restant imposées : version partielle avec condition identifiable, +1 nuancee."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4423,6 +4757,12 @@
     },
     {
       "question_id": "FIS-018",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "« Tant que les enfants ne vendront pas, ils ne paieront pas d'impôt de succession » : exonération totale des successions mais sous condition de conservation, et rien sur les donations ; +1 nuancee défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4485,19 +4825,33 @@
     },
     {
       "question_id": "FIS-020",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "corrige",
+        "motif": "Vérificateur : La source rapporte qu'il rejette la mesure même de l'énoncé, telle que portée par Le Pen (TVA de 20 à 5,5 % « pour l'énergie »), avec « On n'a pas les moyens de le faire » ; l'idée que l'électricité et le gaz ne sont pas traités est contredite par la page, donc rejet sans réserve : -2 nette. Second arbitre : Le Figaro (15 septembre 2026) : il baisse les carburants via la suppression des CEE « sans toucher à la TVA », et écarte « d'un revers de main » la proposition de Marine Le Pen « de diminuer cette taxe de 20 à 5,5% pour l'énergie », qui coûterait « 15 milliards sans un euro de financement en face » : « On n'a pas les moyens de le faire ». Rejet de la mesure même de l'énoncé, sans réserve.",
+        "code_avant": -1,
+        "nature_avant": "nuancee",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": -2,
+          "nature_retenue": "nette",
+          "motif": "Le Figaro (15 septembre 2026) : il baisse les carburants via la suppression des CEE « sans toucher à la TVA », et écarte « d'un revers de main » la proposition de Marine Le Pen « de diminuer cette taxe de 20 à 5,5% pour l'énergie », qui coûterait « 15 milliards sans un euro de financement en face » : « On n'a pas les moyens de le faire ». Rejet de la mesure même de l'énoncé, sans réserve."
+        }
+      },
       "contestations": [],
-      "version": 1,
+      "version": 2,
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": -1,
-      "nature": "nuancee",
+      "code": -2,
+      "nature": "nette",
       "statut": "accord",
       "extraits": [
         {
-          "reformulation": "Le 15 septembre 2026, il défend la suppression des certificats d'économie d'énergie pour baisser le litre d'essence de 15 à 17 centimes, mais sans toucher à la TVA, pour ne pas détériorer davantage les finances de l'État. Le passage vise les carburants ; l'électricité et le gaz ne sont pas traités dans cet extrait.",
+          "reformulation": "Le 15 septembre 2026, il propose de supprimer les CEE pour baisser l'essence, sans toucher à la TVA. Il écarte la proposition de Marine Le Pen de ramener la TVA sur l'énergie de 20 à 5,5 %, chiffrée à 15 milliards : « On n'a pas les moyens de le faire ».",
           "citation_courte": null,
-          "reformulation_anonymisee": "Le 15 septembre 2026, [CANDIDAT] défend la suppression des certificats d'économie d'énergie pour baisser le litre d'essence de 15 à 17 centimes, mais sans toucher à la TVA, pour ne pas détériorer davantage les finances de l'État. Le passage vise les carburants ; l'électricité et le gaz ne sont pas traités dans cet extrait.",
+          "reformulation_anonymisee": "Le 15 septembre 2026, il propose de supprimer les CEE pour baisser l'essence, sans toucher à la TVA. Il écarte la proposition d'un autre responsable politique de ramener la TVA sur l'énergie de 20 à 5,5 %, chiffrée à 15 milliards : « On n'a pas les moyens de le faire ».",
           "citation_anonymisee": null,
           "source": {
             "url": "https://www.lefigaro.fr/conjoncture/bruno-retailleau-veut-faire-baisser-les-prix-a-la-pompe-de-15-a-17-centimes-en-supprimant-les-certificats-d-energie-20260915",
@@ -4533,6 +4887,12 @@
     },
     {
       "question_id": "ENV-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La tribune juge la règle 2035 « aberrante », réclame la neutralité technologique et demande qu'elle soit « entièrement remise à plat » : rejet de l'interdiction sans exception, -2 défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4581,6 +4941,12 @@
     },
     {
       "question_id": "ENV-002",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La tribune appelle à relancer l'atome, soit le contraire d'une sortie du nucléaire d'ici 2050."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4677,6 +5043,12 @@
     },
     {
       "question_id": "ENV-004",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il juge incompréhensible l'interdiction de l'acétamipride en France, ce qui va à l'encontre de la suppression de la dérogation, mais en juin 2026 (avant la loi d'août) et sans viser la dérogation elle-même. Le -1 retenu par l'arbitrage reste défendable (doute entre adjacents, on retient le plus proche de 0), même si -2 se plaiderait."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4731,6 +5103,12 @@
     },
     {
       "question_id": "ENV-005",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il propose de déclarer les retenues projets d'intérêt public majeur et d'encourager le stockage, le contraire d'une suspension."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4863,6 +5241,12 @@
     },
     {
       "question_id": "ENV-011",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La tribune dénonce le soutien financier à l'éolien sans formuler de mesure précise (arrêt total, nouvelles installations, moratoire) : direction claire, ampleur non spécifiée, +1 imprecise défendable ; la formule rhétorique ne constitue pas une mesure englobante identifiable (R6 non retenue)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4917,6 +5301,12 @@
     },
     {
       "question_id": "ENV-012",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La tribune qu'il cosigne juge nécessaire « d'abroger enfin les ZFE » : soutien explicite et sans réserve à leur suppression."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4965,6 +5355,12 @@
     },
     {
       "question_id": "ENV-013",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il supprime le ZAN, mais le remplace par des objectifs contractuels de sobriété foncière : il va dans le sens de l'énoncé avec une contrepartie, donc +1 nuancee est défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5041,6 +5437,12 @@
     },
     {
       "question_id": "ENV-016",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il déclare vouloir supprimer l'OFB : +2 nette."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5089,6 +5491,12 @@
     },
     {
       "question_id": "ENV-017",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Capital rapporte ses propos : « Le DPE, je l'abroge. Il restera comme une sorte de thermomètre, mais ce ne sera plus un motif d'exclusion » du marché locatif, ce qui supprime l'interdiction de louer les logements G."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5137,6 +5545,12 @@
     },
     {
       "question_id": "ENV-018",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le résumé en tête de l'article indique que, face à la proposition de sortir des règles européennes de tarification, « Bruno Retailleau s'y oppose », en soulignant que la France est le premier exportateur mondial d'électricité ; opposition explicite mais connue par un résumé, sans citation directe."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5185,6 +5599,12 @@
     },
     {
       "question_id": "ENV-022",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Supprimer toutes les subventions au photovoltaïque (et à l'éolien) contient entièrement l'arrêt du soutien aux nouvelles installations solaires : proposition englobante, +2 nette."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5301,6 +5721,12 @@
     },
     {
       "question_id": "ENV-025",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il rejette explicitement le blocage du prix des carburants (pénurie) et propose un autre levier."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5435,6 +5861,18 @@
     },
     {
       "question_id": "SEC-006",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "maintenu",
+        "motif": "Vérificateur : Il veut supprimer l'ensemble des mesures d'aménagement des peines, interdiction plus large qui couvre la libération sous contrainte de fin de peine (exécutée sous forme d'aménagement) : R6 symétrique, −2 nette ; la mesure est concrète, la nature imprécise ne convient pas. Second arbitre : CNEWS : il veut « la suppression [...] de l'ensemble des mesures d'aménagement des peines » et « Une fois qu'une sanction est prise, elle doit être appliquée ». L'opposition à une libération anticipée est perceptible, mais la libération sous contrainte liée à la surpopulation n'est pas abordée : l'englobement serait une déduction, R6 exclu, −1 imprecise.",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": -1,
+          "nature_retenue": "imprecise",
+          "motif": "CNEWS : il veut « la suppression [...] de l'ensemble des mesures d'aménagement des peines » et « Une fois qu'une sanction est prise, elle doit être appliquée ». L'opposition à une libération anticipée est perceptible, mais la libération sous contrainte liée à la surpopulation n'est pas abordée : l'englobement serait une déduction, R6 exclu, −1 imprecise."
+        }
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5579,6 +6017,18 @@
     },
     {
       "question_id": "SEC-012",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Abaisser la majorité pénale à 15 ans couvre un périmètre plus large que les récidivistes de 16 ans et plus (situation R6), mais les courtes peines en établissements adaptés indiquent un régime spécifique, pas exactement les peines des majeurs : +1 nuancee reste défendable.",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": 1,
+          "nature_retenue": "nuancee",
+          "motif": "CNews rapporte « l'abaissement de la majorité pénale à 15 ans, avec notamment des courtes peines de prison (parfois seulement 15 jours) dans des établissements adaptés ». La mesure va dans le sens de l'énoncé mais le régime décrit (courtes peines, établissements adaptés) n'est pas exactement « les mêmes peines que les majeurs » ; l'englobement total n'est pas ce que dit la source → +1 nuancee."
+        }
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5633,6 +6083,12 @@
     },
     {
       "question_id": "SEC-013",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le 1er juin 2026 il demande d'abolir la règle même visée par l'énoncé (aménageabilité des peines de moins d'un an) et, le 8 septembre, de supprimer tous les aménagements : mesure englobante dans le même sens, +2 nette conforme."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5701,6 +6157,12 @@
     },
     {
       "question_id": "SEC-014",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut créer des prisons, donc plus de places, sans objectif chiffré : direction perceptible, ampleur non spécifiée, +1 imprecise."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5763,6 +6225,12 @@
     },
     {
       "question_id": "SEC-016",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il est favorable à l'armement des policiers municipaux sans préciser la règle par défaut ni le refus du maire : direction conforme, mesure non spécifiée, +1 imprecise."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5811,6 +6279,12 @@
     },
     {
       "question_id": "SEC-017",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut faire payer les familles de mineurs casseurs via leurs allocations, sans préciser suspension ni condition de condamnation."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5873,6 +6347,12 @@
     },
     {
       "question_id": "SEC-019",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "L'interdiction n'est préconisée que pour le voile, avec la réserve « juridiquement réalisable » ; les autres signes ne relèvent que d'une opinion : +1 nuancee. Le motif d'arbitrage dit « codeur B » (+2) alors que le code publié est celui du codeur A : étiquette à corriger."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5927,6 +6407,12 @@
     },
     {
       "question_id": "SEC-020",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Propose explicitement une castration chimique obligatoire pour les auteurs les plus dangereux : mesure de l'énoncé, +2 nette."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {

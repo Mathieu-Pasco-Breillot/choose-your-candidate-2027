@@ -1,7 +1,7 @@
 {
   "candidat_id": "arthaud-nathalie",
   "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
-  "grille_version": "1.2",
+  "grille_version": "1.3",
   "programme": {
     "officiel_disponible": true,
     "date_publication": "2026-06-26",
@@ -56,6 +56,12 @@
         "date": "2026-10-03",
         "resultat": "confirme"
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle veut ramener l'âge légal à 60 ans, plus loin que les 62 ans de l'énoncé dans le même sens : R1, +1 nuancee."
+      },
       "contestations": [],
       "version": 1
     },
@@ -104,6 +110,12 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La source indique qu'elle veut ramener l'âge légal à 60 ans, valeur exacte de l'énoncé : +2 nette."
+      },
       "contestations": [],
       "version": 1
     },
@@ -123,7 +135,7 @@
             "url": "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf",
             "titre": "Nathalie Arthaud - Présidentielle 2027 (brochure de campagne, été 2026)",
             "date_publication": "2026-06-26",
-            "type": "programme_officiel"
+            "type": "declaration_publique"
           },
           "date_consultation": "2026-10-03",
           "citation_verifiee_mot_a_mot": true
@@ -165,6 +177,12 @@
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
+      },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle veut ramener l'âge légal à 60 ans (2022) et dénonce en 2026 le recul de l'âge : valeur dans la direction opposée au relèvement à 65 ans, -2 nette conforme."
       },
       "contestations": [],
       "version": 1
@@ -227,6 +245,12 @@
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
+      },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "37,5 annuités va plus loin que 40 ans dans le même sens : R1, +1 nuancee."
       },
       "contestations": [],
       "version": 1
@@ -304,6 +328,12 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La source la plus récente (brochure 2027) retient l'indexation sur les prix (hausse réelle) assortie d'une hausse massive, au lieu des salaires ; elle l'emporte sur la position de 2022 : −1 nuancee défendable."
+      },
       "contestations": [],
       "version": 1
     },
@@ -352,6 +382,12 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Exiger une hausse massive des pensions et leur indexation sur les prix est le contraire d'un gel : -2 nette."
+      },
       "contestations": [],
       "version": 1
     },
@@ -399,6 +435,12 @@
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
+      },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Plancher de 2 000 euros nets pour toutes les pensions, au-delà du SMIC net : valeur qui va plus loin dans le même sens (R1)."
       },
       "contestations": [],
       "version": 1
@@ -545,6 +587,12 @@
     },
     {
       "question_id": "ECO-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Dans son discours du 26 septembre 2026 : « Nous défendrons le SMIC à 2 200 € nets », valeur supérieure aux 1 600 euros de l'énoncé dans le même sens (R1)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -607,6 +655,12 @@
     },
     {
       "question_id": "ECO-002",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Programme et éditorial demandent l'indexation des salaires sur les prix sans réserve ; la référence aux prix réels est une modalité. Le motif d'arbitrage dit « codeur A » alors que +2 nette est le code du codeur 2 : étiquette à corriger, code inchangé."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -675,6 +729,12 @@
     },
     {
       "question_id": "ECO-003",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle écarte le blocage gouvernemental des prix au profit de l'indexation des salaires et de la confiscation des profits ; le prix coûtant imposé à Total n'est pas un blocage général : R3 défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -771,6 +831,12 @@
     },
     {
       "question_id": "ECO-006",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle écarte la nationalisation présentée comme solution (souvenir de 1982 dans la sidérurgie) et préconise d'exproprier les capitalistes et de mettre l'économie sous contrôle des travailleurs."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -875,6 +941,12 @@
     },
     {
       "question_id": "ECO-010",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle rejette en 2022 le RSA avec contrepartie proposé par Macron, sans viser l'obligation de 15 heures issue de la loi de 2023 ni sa suppression : direction perceptible seulement."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -923,6 +995,12 @@
     },
     {
       "question_id": "ECO-011",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La brochure de campagne range « supprimer des jours fériés » parmi les moyens du patronat pour « nous faire travailler plus », et l'éditorial signé Nathalie Arthaud (24/08/2026) l'inscrit dans « le programme exigé par la bourgeoisie » : rejet net."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -985,6 +1063,12 @@
     },
     {
       "question_id": "ECO-012",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle exige l'indexation des allocations sur les prix et dénonce le gel des APL : contraire d'un gel d'un an."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1063,6 +1147,12 @@
     },
     {
       "question_id": "ECO-014",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle dénonce le non-remplacement des départs en retraite et réclame des centaines de milliers d'embauches publiques, soit le contraire de l'énoncé : -2 nette."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1125,6 +1215,12 @@
     },
     {
       "question_id": "ECO-015",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La brochure affirme « Il faut baisser le temps et la charge de travail sans perte de salaire » et l'éditorial signé que « L'objectif ne doit pas être de travailler plus, mais de travailler tous » : elle propose le contraire de l'allongement."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1215,6 +1311,12 @@
     },
     {
       "question_id": "ECO-018",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La brochure range « restreindre les arrêts-maladie en ajoutant de nouveaux jours de carence » parmi les moyens du patronat pour « nous faire travailler plus » : opposition perceptible mais non formulée en engagement, sans viser les fonctionnaires."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1263,6 +1365,12 @@
     },
     {
       "question_id": "ECO-019",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La brochure range « monnayer la 5e semaine de congés en versant une prime » parmi les moyens du patronat pour faire « travailler plus en gagnant moins », et l'éditorial du 24/08/2026 la classe parmi les mesures réclamées par le Medef : rejet sans réserve."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1367,6 +1475,12 @@
     },
     {
       "question_id": "INS-003",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La candidate propose la révocation des élus sans préciser le recours au référendum ni les seuils : direction de l'énoncé, mécanisme non spécifié, +1 imprecise."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1485,6 +1599,12 @@
     },
     {
       "question_id": "INS-009",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Refus argumenté de trancher, explicitement exprimé : 0 nuancee conforme à la grille."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1743,6 +1863,12 @@
     },
     {
       "question_id": "EDU-007",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle écarte une hausse propre aux enseignants au profit d'une revalorisation générale des salaires obtenue par les luttes, autre mécanisme identifiable : R3, -1 nuancee. Note : le motif d'arbitrage dit retenir le codeur A alors que -1 est le code du codeur 2 ; source de 2022 seulement."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1811,6 +1937,12 @@
     },
     {
       "question_id": "EDU-009",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Embauche massive de personnels de l'Éducation nationale sans chiffre : direction perceptible, ampleur non spécifiée, +1 imprecise défendable. Note : le motif d'arbitrage indique « code du codeur A » (null) alors que le code publié est celui du codeur B."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1819,9 +1951,9 @@
       "item_aveugle": "35591691",
       "extraits": [
         {
-          "reformulation": "Interrogée sur la jeunesse et l'éducation, la candidate dit que l'éducation souffre d'un manque d'enseignants et d'assistants d'éducation, d'où des classes surchargées, et qu'il faut y consacrer de l'argent, du temps et des enseignants plutôt que de réduire les moyens. Aucun chiffre de recrutement n'est donné.",
+          "reformulation": "Interrogée sur la mixité sociale et la réussite scolaire, la candidate dit qu'il faut consacrer de l'argent, du temps et des enseignants à l'éducation plutôt que réduire les moyens. Aucun chiffre de recrutement n'est donné.",
           "citation_courte": "y consacrer de l’argent, y consacrer du temps, des enseignants",
-          "reformulation_anonymisee": "Interrogé[e] sur la jeunesse et l'éducation, [CANDIDAT] dit que l'éducation souffre d'un manque d'enseignants et d'assistants d'éducation, d'où des classes surchargées, et qu'il faut y consacrer de l'argent, du temps et des enseignants plutôt que de réduire les moyens. Aucun chiffre de recrutement n'est donné.",
+          "reformulation_anonymisee": "Interrogée sur la mixité sociale et la réussite scolaire, la candidate dit qu'il faut consacrer de l'argent, du temps et des enseignants à l'éducation plutôt que réduire les moyens. Aucun chiffre de recrutement n'est donné.",
           "citation_anonymisee": "y consacrer de l’argent, y consacrer du temps, des enseignants",
           "source": {
             "url": "https://www.letudiant.fr/lifestyle/engagement-et-vie-associative/article/presidentielle-2022-nathalie-arthaud-il-faut-consacrer-de-l-argent-du-temps-des-enseignants-en-faveur-de-l-education.html",
@@ -2067,6 +2199,12 @@
     },
     {
       "question_id": "SAN-003",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La source indique seulement « Gratuité totale des soins » : direction conforme à l'énoncé, mais ni le remboursement par l'assurance maladie ni l'intégration des mutuelles ne sont précisés ; +1 imprecise défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2157,6 +2295,12 @@
     },
     {
       "question_id": "SAN-007",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Engagement explicite et sans réserve : « je suis pour l'abolition de la T2A »."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2233,6 +2377,12 @@
     },
     {
       "question_id": "SAN-010",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle retient la dépénalisation, palier situé entre l'interdiction actuelle et la légalisation, sans parler de légalisation : application de R5 défendable (un +1 « version partielle » l'aurait été aussi). Source : synthèse journalistique du programme 2022, avec citation entre guillemets."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2287,6 +2437,12 @@
     },
     {
       "question_id": "SAN-011",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle critique la volonté de priver les étrangers de soins hospitaliers, sans citer l'AME ni formuler de mesure : opposition perceptible au sens de l'énoncé, mesure non traitée."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2405,6 +2561,12 @@
     },
     {
       "question_id": "SAN-018",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "En 2022, elle déclare à franceinfo vouloir « aller plus loin que la loi Leonetti et autoriser le suicide assisté, l'euthanasie », avec des garde-fous : direction contraire à l'abrogation, mais la loi de 2026 n'est pas évoquée, −1 imprecise défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2481,8 +2643,22 @@
     },
     {
       "question_id": "IMM-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "corrige",
+        "motif": "Vérificateur : Elle réclame sans condition la « régularisation de tous les sans-papiers », mesure qui contient entièrement celle de l'énoncé (les travailleurs sans papiers) par un périmètre plus large et non par une valeur : R6 donne +2 nette, R1 ne s'applique pas. Second arbitre : Discours : « Aujourd'hui comme hier, régularisation de tous les sans-papiers, liberté de circulation et d'installation ». Revendication sans condition dont le périmètre (tous) contient entièrement les travailleurs sans papiers : R6, +2 nette.",
+        "code_avant": 1,
+        "nature_avant": "nuancee",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": 2,
+          "nature_retenue": "nette",
+          "motif": "Discours : « Aujourd'hui comme hier, régularisation de tous les sans-papiers, liberté de circulation et d'installation ». Revendication sans condition dont le périmètre (tous) contient entièrement les travailleurs sans papiers : R6, +2 nette."
+        }
+      },
       "contestations": [],
-      "version": 1,
+      "version": 2,
       "controle_humain": {
         "tire_au_sort": false
       },
@@ -2522,8 +2698,8 @@
         },
         "accord": false
       },
-      "code": 1,
-      "nature": "nuancee",
+      "code": 2,
+      "nature": "nette",
       "statut": "arbitre",
       "arbitrage": {
         "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
@@ -2535,6 +2711,12 @@
     },
     {
       "question_id": "IMM-002",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le communiqué condamne la loi (« Retirer des droits aux travailleurs étrangers n'en donne pas aux travailleurs français ») sans réclamer son abrogation : direction perceptible, mesure non énoncée, +1 imprecise."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2585,6 +2767,12 @@
     },
     {
       "question_id": "IMM-003",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Soutien de principe au droit de vote des étrangers, exprimé comme campagne symbolique sans engagement sur la réforme constitutionnelle : +1 nuancee défendable. Le motif d'arbitrage indique « codeur A » alors que +1 nuancee est le code du codeur B."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2743,8 +2931,22 @@
     },
     {
       "question_id": "IMM-009",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "corrige",
+        "motif": "Vérificateur : La régularisation de tous les sans-papiers contient entièrement celle des parents d'enfants scolarisés, dans le même sens et par un périmètre plus large : R6 donne +2 nette. Second arbitre : Discours du 24 mai 2026 : « régularisation de tous les sans-papiers », sans condition. Les parents sans papiers d'enfants scolarisés sont entièrement contenus dans « tous les sans-papiers », même sens, périmètre plus large, non chiffré : R6, +2 nette.",
+        "code_avant": 1,
+        "nature_avant": "nuancee",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": 2,
+          "nature_retenue": "nette",
+          "motif": "Discours du 24 mai 2026 : « régularisation de tous les sans-papiers », sans condition. Les parents sans papiers d'enfants scolarisés sont entièrement contenus dans « tous les sans-papiers », même sens, périmètre plus large, non chiffré : R6, +2 nette."
+        }
+      },
       "contestations": [],
-      "version": 1,
+      "version": 2,
       "controle_humain": {
         "tire_au_sort": false
       },
@@ -2784,15 +2986,29 @@
         },
         "accord": true
       },
-      "code": 1,
-      "nature": "nuancee",
+      "code": 2,
+      "nature": "nette",
       "statut": "accord",
       "arbitrage": null
     },
     {
       "question_id": "IMM-010",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "corrige",
+        "motif": "Vérificateur : Elle réclame la « régularisation de tous les sans-papiers », sans condition : mesure qui contient entièrement celle de l'énoncé (étudiants sans papiers) par un périmètre plus large, ce qui relève de R6 (+2 nette) et non de R1 (réservée aux valeurs chiffrées). Le motif d'arbitrage attribue en outre à tort le +1 au codeur B. Second arbitre : Discours du 24 mai 2026 : « Aujourd'hui comme hier, régularisation de tous les sans-papiers, liberté de circulation et d'installation ». Les étudiants sans papiers sont entièrement contenus dans « tous les sans-papiers », même sens, périmètre plus large, sans valeur chiffrée : R6, +2 nette.",
+        "code_avant": 1,
+        "nature_avant": "nuancee",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": 2,
+          "nature_retenue": "nette",
+          "motif": "Discours du 24 mai 2026 : « Aujourd'hui comme hier, régularisation de tous les sans-papiers, liberté de circulation et d'installation ». Les étudiants sans papiers sont entièrement contenus dans « tous les sans-papiers », même sens, périmètre plus large, sans valeur chiffrée : R6, +2 nette."
+        }
+      },
       "contestations": [],
-      "version": 1,
+      "version": 2,
       "controle_humain": {
         "tire_au_sort": false
       },
@@ -2832,8 +3048,8 @@
         },
         "accord": false
       },
-      "code": 1,
-      "nature": "nuancee",
+      "code": 2,
+      "nature": "nette",
       "statut": "arbitre",
       "arbitrage": {
         "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
@@ -2845,6 +3061,12 @@
     },
     {
       "question_id": "IMM-011",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle dénonce la restriction de l'acquisition automatique de la nationalité pour les enfants nés en France, sans proposition explicite sur le droit du sol : opposition perceptible à sa suppression."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2893,6 +3115,12 @@
     },
     {
       "question_id": "IMM-012",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle juge révoltante la préférence nationale, dont la priorité au logement social est une application : un rejet sans réserve de la mesure générale couvre l'énoncé, -2 nette défendable bien que le logement social ne soit pas nommé."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2947,6 +3175,12 @@
     },
     {
       "question_id": "IMM-013",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle condamne la préférence nationale en général, avec un argument lié aux salaires et conditions de travail, sans viser précisément l'accès à l'emploi : -1 imprecise défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2995,6 +3229,12 @@
     },
     {
       "question_id": "IMM-014",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle dénonce le délai imposé aux étrangers en règle pour les allocations familiales, sans se prononcer sur une condition de deux ans en tant que telle : opposition perceptible, -1 imprecise défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3057,8 +3297,22 @@
     },
     {
       "question_id": "IMM-016",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "corrige",
+        "motif": "Vérificateur : Réclamer la liberté d'installation pour tout être humain, c'est proposer le contraire de tout plafond d'installation : la position est explicite et formulable en mesure concrète (aucune limite), donc ni imprecise ni −1 ; −2 nette. Second arbitre : Discours du 24 mai 2026 : « à bas les barbelés, les traques, les expulsions ! A bas l'Europe-forteresse ! [...] régularisation de tous les sans-papiers, liberté de circulation et d'installation pour chaque être humain de cette planète ! ». Une liberté d'installation sans limite pour tous est le contraire explicite de tout plafond annuel d'admissions ; position formulable en mesure concrète, donc nette et non imprecise.",
+        "code_avant": -1,
+        "nature_avant": "imprecise",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": -2,
+          "nature_retenue": "nette",
+          "motif": "Discours du 24 mai 2026 : « à bas les barbelés, les traques, les expulsions ! A bas l'Europe-forteresse ! [...] régularisation de tous les sans-papiers, liberté de circulation et d'installation pour chaque être humain de cette planète ! ». Une liberté d'installation sans limite pour tous est le contraire explicite de tout plafond annuel d'admissions ; position formulable en mesure concrète, donc nette et non imprecise."
+        }
+      },
       "contestations": [],
-      "version": 1,
+      "version": 2,
       "controle_humain": {
         "tire_au_sort": false
       },
@@ -3098,8 +3352,8 @@
         },
         "accord": true
       },
-      "code": -1,
-      "nature": "imprecise",
+      "code": -2,
+      "nature": "nette",
       "statut": "accord",
       "arbitrage": null
     },
@@ -3147,17 +3401,31 @@
     },
     {
       "question_id": "IMM-020",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "corrige",
+        "motif": "Vérificateur : Elle rejette les expulsions en bloc et revendique la liberté d'installation pour tout être humain : ce refus général couvre entièrement l'expulsion des étrangers condamnés, cas symétrique de R6 (-2 nette) ; -1 imprecise ne vaut que si l'on écarte R6 provisoire. Second arbitre : Discours du 24 mai 2026 : « à bas les barbelés, les traques, les expulsions ! […] régularisation de tous les sans-papiers, liberté de circulation et d'installation pour chaque être humain ». Le rejet de toutes les expulsions, assorti de la liberté d'installation pour tous, couvre entièrement l'expulsion des étrangers condamnés : R6 symétrique → −2 nette.",
+        "code_avant": -1,
+        "nature_avant": "imprecise",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": -2,
+          "nature_retenue": "nette",
+          "motif": "Discours du 24 mai 2026 : « à bas les barbelés, les traques, les expulsions ! […] régularisation de tous les sans-papiers, liberté de circulation et d'installation pour chaque être humain ». Le rejet de toutes les expulsions, assorti de la liberté d'installation pour tous, couvre entièrement l'expulsion des étrangers condamnés : R6 symétrique → −2 nette."
+        }
+      },
       "contestations": [],
-      "version": 1,
+      "version": 2,
       "controle_humain": {
         "tire_au_sort": false
       },
       "item_aveugle": "00e755f1",
       "extraits": [
         {
-          "reformulation": "Dans un discours public, à propos de l'immigration, elle lance « à bas les barbelés, les traques, les expulsions ! » et « à bas l'Europe-forteresse ». Elle ne parle pas spécifiquement des étrangers condamnés pour crime ou délit.",
+          "reformulation": "Dans son discours, elle rejette les barbelés, les traques et les expulsions, dénonce l'Europe-forteresse et réclame la régularisation de tous les sans-papiers et la liberté de circulation et d'installation pour chaque être humain. Elle ne parle pas spécifiquement des étrangers condamnés.",
           "citation_courte": "à bas les barbelés, les traques, les expulsions",
-          "reformulation_anonymisee": "Dans un discours public, à propos de l'immigration, [CANDIDAT] lance « à bas les barbelés, les traques, les expulsions ! » et « à bas l'Europe-forteresse ». [CANDIDAT] ne parle pas spécifiquement des étrangers condamnés pour crime ou délit.",
+          "reformulation_anonymisee": "Dans son discours, elle rejette les barbelés, les traques et les expulsions, dénonce l'Europe-forteresse et réclame la régularisation de tous les sans-papiers et la liberté de circulation et d'installation pour chaque être humain. Elle ne parle pas spécifiquement des étrangers condamnés.",
           "citation_anonymisee": "à bas les barbelés, les traques, les expulsions",
           "source": {
             "url": "https://www.lutte-ouvriere.org/portail/brochures/fete-lutte-ouvriere-2026-discours-nathalie-arthaud-dimanche-194655.html",
@@ -3188,13 +3456,19 @@
         },
         "accord": true
       },
-      "code": -1,
-      "nature": "imprecise",
+      "code": -2,
+      "nature": "nette",
       "statut": "accord",
       "arbitrage": null
     },
     {
       "question_id": "IMM-021",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle s'oppose à une condition de durée (2 ans et demi) pour les allocations familiales, sans traiter la condition de cinq ans pour l'ensemble des aides : direction contraire perceptible, -1 imprecise défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3245,6 +3519,12 @@
     },
     {
       "question_id": "DEF-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle conclut par « pas un sou de plus pour l'armée, pas un homme pour la guerre » et dénonce le passage du budget de 32 à 63 milliards : rejet de toute hausse, contraire de l'énoncé."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3307,6 +3587,12 @@
     },
     {
       "question_id": "DEF-002",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle s'oppose à l'objectif de hausse des dépenses militaires imposé aux membres de l'OTAN sans évoquer sa suppression de la loi : direction perceptible, mesure non spécifiée."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3355,6 +3641,12 @@
     },
     {
       "question_id": "DEF-003",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle range « rétablir le service militaire » parmi le discours guerrier qu'elle dénonce (fév. 2026) et cite le nouveau « service national » parmi la préparation de la jeunesse à la guerre (sept. 2026) : opposition perceptible sans position formulée. Note : le motif d'arbitrage dit retenir le code du codeur A (-2) alors que le code publié (-1 imprecise) est celui du codeur B."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3451,6 +3743,12 @@
     },
     {
       "question_id": "DEF-006",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle dénonce l'envoi de soldats en Ukraine et la coalition des volontaires (vecteur de la force post-cessez-le-feu) sans viser explicitement le cas de l'énoncé : direction perceptible, −1 imprecise défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3541,6 +3839,12 @@
     },
     {
       "question_id": "DEF-009",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le reproche de ne pas stopper le soutien militaire va dans le sens de l'énoncé sans mesure formulée sur les exportations : +1 imprecise."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3631,6 +3935,12 @@
     },
     {
       "question_id": "DEF-013",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle condamne le protectionnisme appliqué à la défense, y compris le soutien à l'industriel français face au concurrent allemand : direction contraire à une préférence nationale d'équipement, sans mesure précise."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3729,6 +4039,12 @@
     },
     {
       "question_id": "EUR-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle ne voit aucune raison d'écarter l'Ukraine, sans s'engager ni en faire un combat : la direction est favorable mais sans mesure, +1 imprecise."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3895,6 +4211,12 @@
     },
     {
       "question_id": "EUR-008",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La source dit « nous ne perdrons pas notre temps à discuter s'il faut sortir de l'Europe capitaliste », car rien ne changera tant que la grande bourgeoisie sera aux commandes : refus argumenté de trancher, 0 nuancee conforme."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3999,6 +4321,12 @@
     },
     {
       "question_id": "EUR-012",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La revendication de liberté de circulation et d'installation pour tous va contre des contrôles visant les étrangers non européens, mais c'est un mot d'ordre général sans mesure sur Schengen ni sur la double frontière : -1 imprecise défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4123,6 +4451,12 @@
     },
     {
       "question_id": "FIS-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle ne chiffre pas l'ISF mais propose l'expropriation des grandes fortunes, mesure identifiable allant plus loin dans le même sens ; l'article la classe d'ailleurs dans le camp favorable. +1 nuancee défendable (pas d'inclusion stricte relevant de R6)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4131,9 +4465,9 @@
       "item_aveugle": "025c12e7",
       "extraits": [
         {
-          "reformulation": "Selon l'article (campagne 2022), interrogée par Les Echos sur l'ISF, Nathalie Arthaud ne veut pas discuter de taux ni d'assiette ; elle annonce à la place une « mesure de salut public » : l'expropriation pure et simple des grandes fortunes et des grandes sociétés qu'elles possèdent. L'article ne rapporte ni engagement de rétablir l'ISF ni refus de le faire.",
+          "reformulation": "Selon l'article (campagne 2022), classée parmi les candidats favorables à un impôt sur la fortune, Nathalie Arthaud refuse de discuter taux ou assiette et annonce à la place l'expropriation pure et simple des grandes fortunes et des grandes sociétés qu'elles possèdent.",
           "citation_courte": "ne veut pas discuter taux ou assiette",
-          "reformulation_anonymisee": "Selon l'article (campagne 2022), interrogé(e) sur l'ISF, [CANDIDAT] ne veut pas discuter de taux ni d'assiette ; il ou elle annonce à la place l'expropriation pure et simple des grandes fortunes et des grandes sociétés qu'elles possèdent. L'article ne rapporte ni engagement de rétablir l'ISF ni refus de le faire.",
+          "reformulation_anonymisee": "Selon l'article (campagne 2022), classée parmi les candidats favorables à un impôt sur la fortune, [CANDIDAT] refuse de discuter taux ou assiette et annonce à la place l'expropriation pure et simple des grandes fortunes et des grandes sociétés qu'elles possèdent.",
           "citation_anonymisee": "ne veut pas discuter taux ou assiette",
           "source": {
             "url": "https://www.moneyvox.fr/actu/87996/impot-quel-candidat-a-la-presidentielle-veut-le-retour-de-isf",
@@ -4385,6 +4719,12 @@
     },
     {
       "question_id": "FIS-015",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Supprimer la TVA sauf sur le luxe est le contraire d'une hausse de TVA : -2 nette défendable. Le motif d'arbitrage indique « codeur B » alors que -2 nette est le code du codeur A : libellé à corriger."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4481,8 +4821,22 @@
     },
     {
       "question_id": "FIS-019",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "corrige",
+        "motif": "Vérificateur : Supprimer la TVA sur tout sauf le luxe met à 0 % l'ensemble des produits de première nécessité : la mesure contient entièrement celle de l'énoncé par un périmètre plus large (même valeur 0 %), donc R6 et non R1. Second arbitre : Synthèse La Finance pour tous (2022) : « Nathalie Arthaud souhaite supprimer la TVA, excepté sur les produits de luxe ». Une TVA à 0 % sur tout sauf le luxe met à 0 % l'ensemble des produits de première nécessité : même valeur, périmètre plus large, R6 → +2 nette.",
+        "code_avant": 1,
+        "nature_avant": "nuancee",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": 2,
+          "nature_retenue": "nette",
+          "motif": "Synthèse La Finance pour tous (2022) : « Nathalie Arthaud souhaite supprimer la TVA, excepté sur les produits de luxe ». Une TVA à 0 % sur tout sauf le luxe met à 0 % l'ensemble des produits de première nécessité : même valeur, périmètre plus large, R6 → +2 nette."
+        }
+      },
       "contestations": [],
-      "version": 1,
+      "version": 2,
       "controle_humain": {
         "tire_au_sort": false
       },
@@ -4522,13 +4876,19 @@
         },
         "accord": true
       },
-      "code": 1,
-      "nature": "nuancee",
+      "code": 2,
+      "nature": "nette",
       "statut": "accord",
       "arbitrage": null
     },
     {
       "question_id": "FIS-020",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Supprimer la TVA (hors luxe) revient à un taux de 0 % sur l'énergie, une valeur qui va plus loin que 5,5 % dans le même sens (R1)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4591,6 +4951,12 @@
     },
     {
       "question_id": "ENV-002",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle déclare que « le problème ne se pose pas en termes de \"sortir\" ou \"ne pas sortir\" du nucléaire » et argumente sur l'appropriation des techniques par la bourgeoisie : refus argumenté et explicite de trancher, 0 au sens de la grille."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4661,6 +5027,12 @@
     },
     {
       "question_id": "ENV-004",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Critique du projet de loi dans son ensemble, avant son adoption, sans demande explicite de supprimer la dérogation : direction favorable perceptible, +1 imprecise."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4709,6 +5081,12 @@
     },
     {
       "question_id": "ENV-005",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle dénonce le droit de construire des méga-bassines et leur doublement d'ici 2035 (« une privatisation de l'eau par les plus gros producteurs ») sans demander de moratoire ni de durée : direction perceptible, mesure non spécifiée."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4995,6 +5373,12 @@
     },
     {
       "question_id": "ENV-025",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle écarte le blocage par l'État (coût reporté sur les travailleurs) au profit d'un autre mécanisme identifiable (prix coûtant imposé à Total, réquisition des surprofits) : R3, −1 nuancee."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5189,6 +5573,12 @@
     },
     {
       "question_id": "SEC-009",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Dépénalisation limitée au cannabis : version partielle de la fin de l'infraction pour toute consommation de drogue."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5307,6 +5697,12 @@
     },
     {
       "question_id": "SEC-014",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle écarte la construction de prisons au profit de l'école et de peines « effectuées autrement », sans chiffre : R3, -1 nuancee défendable (-2 aussi envisageable). Le motif d'arbitrage attribue à tort le code retenu au codeur B (qui avait -2)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {

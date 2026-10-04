@@ -12,7 +12,7 @@
     {"id": "tondelier-marine", "prenom": "Marine", "nom": "Tondelier", "parti": "Les Écologistes", "statut_candidature": "declare", "date_declaration": "à vérifier", "statut_evaluation": "codage_en_attente", "vague": 2},
     {"id": "roussel-fabien", "prenom": "Fabien", "nom": "Roussel", "parti": "Parti communiste français", "statut_candidature": "investi", "date_declaration": "2026-09", "statut_evaluation": "codage_en_attente", "vague": 1},
     {"id": "ruffin-francois", "prenom": "François", "nom": "Ruffin", "parti": "Debout", "statut_candidature": "declare", "date_declaration": "à vérifier", "statut_evaluation": "codage_en_attente", "vague": 2, "a_verifier": "statut exact depuis l'abandon de la primaire unitaire"},
-    {"id": "dupont-aignan-nicolas", "prenom": "Nicolas", "nom": "Dupont-Aignan", "parti": "Debout la France", "statut_candidature": "declare", "date_declaration": "2025-03", "statut_evaluation": "evalue", "vague": 1},
+    {"id": "dupont-aignan-nicolas", "prenom": "Nicolas", "nom": "Dupont-Aignan", "parti": "Debout la France", "statut_candidature": "declare", "date_declaration": "2025-03", "statut_evaluation": "codage_en_attente", "vague": 1},
     {"id": "arthaud-nathalie", "prenom": "Nathalie", "nom": "Arthaud", "parti": "Lutte ouvrière", "statut_candidature": "declare", "date_declaration": "2025-12", "statut_evaluation": "codage_en_attente", "vague": 1},
 
     {"id": "asselineau-francois", "prenom": "François", "nom": "Asselineau", "parti": "Union populaire républicaine", "statut_candidature": "declare", "statut_evaluation": "codage_en_attente", "vague": 2, "a_verifier": "source R1"},

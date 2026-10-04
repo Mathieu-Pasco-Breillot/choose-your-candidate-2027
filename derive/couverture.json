@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "empreinte_donnees": "1437d2d2cab20359842b5b4c10c3333d4e1da76fad4c896ccad99812ac09866a",
+  "empreinte_donnees": "5f70ebc3df013869651232ae6d5c2104c3d09ab664fb6b9ecd365ad8c88c0707",
   "provisoire": true,
   "questions_actives": 206,
   "seuil_evalue": 0.4,
@@ -17,14 +17,14 @@
       "taux_couverture": 0.281553,
       "seuil_evalue_atteint": false,
       "natures": {
-        "nette": 14,
-        "nuancee": 21,
-        "imprecise": 23
+        "nette": 20,
+        "nuancee": 17,
+        "imprecise": 21
       },
       "parts_natures": {
-        "nette": 0.241379,
-        "nuancee": 0.362069,
-        "imprecise": 0.396552
+        "nette": 0.344828,
+        "nuancee": 0.293103,
+        "imprecise": 0.362069
       },
       "par_theme": {
         "defense": {
@@ -164,21 +164,21 @@
       "statut_evaluation": "codage_en_attente",
       "positions_disponibles": true,
       "questions_avec_position": 206,
-      "avec_extrait": 68,
-      "codes_publies": 64,
+      "avec_extrait": 67,
+      "codes_publies": 62,
       "arbitrages_en_attente": 0,
       "non_connu_apres_accord": 1,
-      "taux_couverture": 0.31068,
+      "taux_couverture": 0.300971,
       "seuil_evalue_atteint": false,
       "natures": {
-        "nette": 18,
+        "nette": 17,
         "nuancee": 30,
-        "imprecise": 16
+        "imprecise": 15
       },
       "parts_natures": {
-        "nette": 0.28125,
-        "nuancee": 0.46875,
-        "imprecise": 0.25
+        "nette": 0.274194,
+        "nuancee": 0.483871,
+        "imprecise": 0.241935
       },
       "par_theme": {
         "defense": {
@@ -188,8 +188,8 @@
         },
         "ecologie-energie": {
           "questions_actives": 23,
-          "codes_publies": 8,
-          "taux_couverture": 0.347826
+          "codes_publies": 7,
+          "taux_couverture": 0.304348
         },
         "economie-dette": {
           "questions_actives": 20,
@@ -233,8 +233,8 @@
         },
         "union-europeenne": {
           "questions_actives": 15,
-          "codes_publies": 7,
-          "taux_couverture": 0.466667
+          "codes_publies": 6,
+          "taux_couverture": 0.4
         }
       }
     },
@@ -465,24 +465,24 @@
     },
     "dupont-aignan-nicolas": {
       "vague": 1,
-      "statut_evaluation": "evalue",
+      "statut_evaluation": "codage_en_attente",
       "positions_disponibles": true,
       "questions_avec_position": 206,
-      "avec_extrait": 84,
-      "codes_publies": 84,
+      "avec_extrait": 83,
+      "codes_publies": 82,
       "arbitrages_en_attente": 0,
-      "non_connu_apres_accord": 0,
-      "taux_couverture": 0.407767,
-      "seuil_evalue_atteint": true,
+      "non_connu_apres_accord": 1,
+      "taux_couverture": 0.398058,
+      "seuil_evalue_atteint": false,
       "natures": {
-        "nette": 36,
-        "nuancee": 35,
-        "imprecise": 13
+        "nette": 40,
+        "nuancee": 31,
+        "imprecise": 11
       },
       "parts_natures": {
-        "nette": 0.428571,
-        "nuancee": 0.416667,
-        "imprecise": 0.154762
+        "nette": 0.487805,
+        "nuancee": 0.378049,
+        "imprecise": 0.134146
       },
       "par_theme": {
         "defense": {
@@ -492,8 +492,8 @@
         },
         "ecologie-energie": {
           "questions_actives": 23,
-          "codes_publies": 7,
-          "taux_couverture": 0.304348
+          "codes_publies": 6,
+          "taux_couverture": 0.26087
         },
         "economie-dette": {
           "questions_actives": 20,
@@ -507,8 +507,8 @@
         },
         "fiscalite": {
           "questions_actives": 19,
-          "codes_publies": 4,
-          "taux_couverture": 0.210526
+          "codes_publies": 3,
+          "taux_couverture": 0.157895
         },
         "immigration": {
           "questions_actives": 21,
@@ -704,13 +704,13 @@
       "taux_couverture": 0.383495,
       "seuil_evalue_atteint": false,
       "natures": {
-        "nette": 34,
-        "nuancee": 36,
+        "nette": 33,
+        "nuancee": 37,
         "imprecise": 9
       },
       "parts_natures": {
-        "nette": 0.43038,
-        "nuancee": 0.455696,
+        "nette": 0.417722,
+        "nuancee": 0.468354,
         "imprecise": 0.113924
       },
       "par_theme": {
@@ -783,13 +783,13 @@
       "taux_couverture": 0.378641,
       "seuil_evalue_atteint": false,
       "natures": {
-        "nette": 26,
-        "nuancee": 35,
+        "nette": 29,
+        "nuancee": 32,
         "imprecise": 17
       },
       "parts_natures": {
-        "nette": 0.333333,
-        "nuancee": 0.448718,
+        "nette": 0.371795,
+        "nuancee": 0.410256,
         "imprecise": 0.217949
       },
       "par_theme": {
@@ -855,21 +855,21 @@
       "statut_evaluation": "evalue",
       "positions_disponibles": true,
       "questions_avec_position": 206,
-      "avec_extrait": 105,
-      "codes_publies": 98,
+      "avec_extrait": 104,
+      "codes_publies": 97,
       "arbitrages_en_attente": 0,
       "non_connu_apres_accord": 5,
-      "taux_couverture": 0.475728,
+      "taux_couverture": 0.470874,
       "seuil_evalue_atteint": true,
       "natures": {
-        "nette": 45,
-        "nuancee": 28,
+        "nette": 48,
+        "nuancee": 24,
         "imprecise": 25
       },
       "parts_natures": {
-        "nette": 0.459184,
-        "nuancee": 0.285714,
-        "imprecise": 0.255102
+        "nette": 0.494845,
+        "nuancee": 0.247423,
+        "imprecise": 0.257732
       },
       "par_theme": {
         "defense": {
@@ -909,8 +909,8 @@
         },
         "retraites": {
           "questions_actives": 19,
-          "codes_publies": 10,
-          "taux_couverture": 0.526316
+          "codes_publies": 9,
+          "taux_couverture": 0.473684
         },
         "sante": {
           "questions_actives": 19,
@@ -1164,20 +1164,20 @@
       "positions_disponibles": true,
       "questions_avec_position": 206,
       "avec_extrait": 82,
-      "codes_publies": 75,
+      "codes_publies": 74,
       "arbitrages_en_attente": 0,
-      "non_connu_apres_accord": 5,
-      "taux_couverture": 0.364078,
+      "non_connu_apres_accord": 6,
+      "taux_couverture": 0.359223,
       "seuil_evalue_atteint": false,
       "natures": {
-        "nette": 31,
-        "nuancee": 31,
-        "imprecise": 13
+        "nette": 33,
+        "nuancee": 29,
+        "imprecise": 12
       },
       "parts_natures": {
-        "nette": 0.413333,
-        "nuancee": 0.413333,
-        "imprecise": 0.173333
+        "nette": 0.445946,
+        "nuancee": 0.391892,
+        "imprecise": 0.162162
       },
       "par_theme": {
         "defense": {
@@ -1202,8 +1202,8 @@
         },
         "fiscalite": {
           "questions_actives": 19,
-          "codes_publies": 9,
-          "taux_couverture": 0.473684
+          "codes_publies": 8,
+          "taux_couverture": 0.421053
         },
         "immigration": {
           "questions_actives": 21,
@@ -1242,21 +1242,21 @@
       "statut_evaluation": "codage_en_attente",
       "positions_disponibles": true,
       "questions_avec_position": 206,
-      "avec_extrait": 71,
-      "codes_publies": 66,
+      "avec_extrait": 70,
+      "codes_publies": 65,
       "arbitrages_en_attente": 0,
       "non_connu_apres_accord": 2,
-      "taux_couverture": 0.320388,
+      "taux_couverture": 0.315534,
       "seuil_evalue_atteint": false,
       "natures": {
-        "nette": 26,
-        "nuancee": 29,
+        "nette": 28,
+        "nuancee": 26,
         "imprecise": 11
       },
       "parts_natures": {
-        "nette": 0.393939,
-        "nuancee": 0.439394,
-        "imprecise": 0.166667
+        "nette": 0.430769,
+        "nuancee": 0.4,
+        "imprecise": 0.169231
       },
       "par_theme": {
         "defense": {
@@ -1281,8 +1281,8 @@
         },
         "fiscalite": {
           "questions_actives": 19,
-          "codes_publies": 8,
-          "taux_couverture": 0.421053
+          "codes_publies": 7,
+          "taux_couverture": 0.368421
         },
         "immigration": {
           "questions_actives": 21,

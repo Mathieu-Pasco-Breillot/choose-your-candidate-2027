@@ -1,4 +1,4 @@
-# Grille de codage — version 1.2
+# Grille de codage — version 1.3
 
 Statut : **VALIDÉ le 3 octobre 2026** (v1 validée le 2 octobre 2026). Cette grille est publiée avant tout codage. Toute modification ultérieure incrémente la version et entraîne un recodage des codes concernés, consigné au journal.
 
@@ -14,6 +14,11 @@ Issues du pilote retraites (phase 4), validées par Mathieu le 3 octobre 2026 :
 ## Modifications de la version 1.2
 
 - § 2 : règle R5 ajoutée (valeur qui ne va pas jusqu'à celle de l'énoncé), validée par Mathieu le 3 octobre 2026. Les codes concernés du pilote retraites ont été fixés par arbitrage selon cette règle.
+
+## Modifications de la version 1.3
+
+- § 2 : règle R6 ajoutée (proposition englobante), **proposée par l'assistant le 4 octobre 2026 et appliquée à titre provisoire, à valider par Mathieu**. Elle tranche une incohérence relevée entre les deux lots d'arbitrage de la vague 1 (bilan de la phase 4, § 3).
+- § 6 : étape de vérification indépendante contre la page source ajoutée (point 7).
 
 ## 1. Ce qui est codé
 
@@ -43,6 +48,7 @@ Règles d'application (v1.1) :
 - **R5 — Le candidat ne va pas jusqu'à la valeur de l'énoncé (v1.2).** Quand le candidat retient explicitement une autre valeur, qui va moins loin que celle de l'énoncé, le code est **−1 `nuancee`** : il refuse la mesure énoncée et sa contre-proposition est identifiable. Exemple : énoncé « âge légal fixé à 60 ans », candidat qui veut 62 ou 63 ans. Celui qui veut aller plus loin accepterait l'énoncé comme étape (R1, +1) ; celui qui veut aller moins loin le refuse. Si sa valeur va dans la direction opposée à l'énoncé par rapport au droit en vigueur, le code est −2.
 - **R2 — Calendrier de mise en œuvre.** Un engagement ferme sur la cible exacte de l'énoncé, assorti d'un calendrier d'étalement (« progressivement », « en dix ans », « dans un premier temps… puis »), est **+2 `nette`** : un calendrier n'est pas une réserve. « Progressivement » ne conduit à +1 que si la cible ou le périmètre sont réduits ou non précisés.
 - **R3 — Rejet du principe même de l'énoncé.** Quand le candidat écarte explicitement le paramètre sur lequel porte l'énoncé au profit d'un autre mécanisme identifiable, sans donner de chiffre, le code est **−1 `nuancee`** : on sait ce qu'il veut. Exemple : énoncé sur un âge légal, candidat qui veut supprimer tout âge légal au profit de la seule durée de cotisation.
+- **R6 — Proposition englobante (v1.3, provisoire).** Quand la mesure du candidat **contient entièrement** celle de l'énoncé, dans le même sens, par un **périmètre** plus large et non par une valeur sur une échelle, le code est **+2 `nette`** : appliquer sa mesure, c'est appliquer l'énoncé en entier. Exemple : énoncé « supprimer les aides aux nouvelles installations », candidat « supprimer toutes les aides ». Symétriquement, une suppression ou une interdiction plus large qui couvre entièrement l'objet d'un énoncé proposant de l'autoriser ou de le développer est **−2 `nette`**. R6 ne s'applique pas si la mesure du candidat ne couvre qu'une partie de l'énoncé, si l'écart porte sur une valeur chiffrée (R1), ou si l'englobement est une déduction et non ce que dit le candidat.
 - **R4 — Position générale face à un énoncé précis.** Une position de principe sur le thème, qui ne reprend pas la mesure précise de l'énoncé (ses critères, son seuil, son public), est **« non connu »**, par application de la règle du sujet voisin. Exemple : « il faut prendre en compte la pénibilité » face à un énoncé qui cite trois critères précis.
 
 ## 3. Nature de la position
@@ -102,6 +108,7 @@ Règles :
 4. **Accord** = même code **et** même nature. Tout désaccord est arbitré par un humain, qui voit l'extrait anonymisé et les deux justifications ; sa décision et son motif sont consignés.
 5. **Contrôle humain** : tirage aléatoire de 10 % des codes en accord, stratifié par candidat, graine publiée. Si plus de 10 % des codes contrôlés d'un candidat sont corrigés, tous ses codes sont revus.
 6. **Contestation** : issue GitHub avec source. Un code n'est modifié que sur présentation d'un extrait admissible au sens du § 5.
+7. **Vérification indépendante (v1.3)** : chaque code publié est contrôlé contre la page source elle-même (et non la seule reformulation) par un modèle qui n'a participé ni à l'extraction ni au codage : passage retrouvé, attribution au candidat, date, type de source, fidélité de la reformulation, code. Un extrait irrecevable est retiré. Un code n'est changé que si un **second arbitre**, qui ne sait pas quelle option vient du vérificateur, retient le même code ; sinon le code est maintenu ou listé « à revoir » pour un humain. La trace est publiée dans le champ `verification` de chaque position.
 
 ## 7. Mesures publiées
 
