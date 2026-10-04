@@ -2,6 +2,7 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
+import { lireEntetesCaddy } from './scripts/lib/entetes-caddy.ts';
 
 export default defineConfig({
   plugins: [
@@ -43,4 +44,7 @@ export default defineConfig({
     }),
   ],
   build: { target: 'es2023' },
+  // Les tests de bout en bout tournent sur `vite preview` : il sert les mêmes en-têtes que le site en ligne (CSP
+  // comprise), lus dans le Caddyfile, pour qu'une violation de la CSP fasse échouer la CI (e2e/csp.spec.ts).
+  preview: { headers: lireEntetesCaddy() },
 });
