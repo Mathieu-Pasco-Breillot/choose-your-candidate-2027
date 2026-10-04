@@ -1,0 +1,4743 @@
+{
+  "candidat_id": "tondelier-marine",
+  "_statut": "POC — vague 3 du codage (4 octobre 2026) : première recherche pour ce candidat, sur les 206 questions actives. Double codage aveugle (Opus 5.5, Sonnet 5.5), désaccords arbitrés provisoirement par un 3e modèle (Fable 5.1), contrôle humain de 10 % à faire. Aucun programme 2027 complet publié à cette date. À revoir avant publication.",
+  "grille_version": "1.2",
+  "programme": {
+    "officiel_disponible": true,
+    "date_publication": "2026-07-13",
+    "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+    "note": "Programme 2027 des Écologistes présenté le 13 juillet 2026, publié comme programme présidentiel sur le site de campagne de la candidate (investiture annoncée pour le 11 octobre 2026)."
+  },
+  "positions": [
+    {
+      "question_id": "DEF-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-007",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Invitée de la matinale de Public Sénat, elle fait de la mobilisation des avoirs russes une piste privilégiée pour financer la défense, en lien avec une résolution de l'Assemblée proposant de les utiliser pour la défense ukrainienne. Elle se dit choquée que des responsables s'opposent à cette option et les qualifie de « patriotes de pacotille ». La source ne précise ni montant ni modalités.",
+          "citation_courte": "Ce sont des patriotes de pacotille",
+          "reformulation_anonymisee": "Invité(e) d'une matinale radio-télévisée, [CANDIDAT] fait de la mobilisation des avoirs russes une piste privilégiée pour financer la défense, en lien avec une résolution parlementaire proposant de les utiliser pour la défense ukrainienne. [CANDIDAT] se dit choqué(e) que des responsables s'opposent à cette option et les qualifie de « patriotes de pacotille ». La source ne précise ni montant ni modalités.",
+          "citation_anonymisee": "Ce sont des patriotes de pacotille",
+          "source": {
+            "url": "https://www.publicsenat.fr/actualites/politique/augmentation-du-budget-de-la-defense-quand-on-a-des-defis-pareils-cest-la-solidarite-nationale-qui-doit-jouer-affirme-marine-tondelier",
+            "titre": "Augmentation du budget de la défense : « Quand on a des défis pareils, c'est la solidarité nationale qui doit jouer », affirme Marine Tondelier",
+            "date_publication": "2025-03-14",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Voit les avoirs russes comme une piste privilégiée pour financer la défense ukrainienne, sans modalités.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Piste privilégiée d'utiliser les avoirs russes pour la défense ukrainienne.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "46de2400"
+    },
+    {
+      "question_id": "DEF-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-001",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme (prop. 3.1) prévoit de maintenir l'objectif de 100 % de véhicules zéro émission pour les ventes de véhicules neufs en 2035. Le passage ne mentionne ni exception ni dérogation.",
+          "citation_courte": "Maintenir l'objectif de 100 % de véhicules zéro émission en 2035",
+          "reformulation_anonymisee": "Le programme [PARTI] (prop. 3.1) prévoit de maintenir l'objectif de 100 % de véhicules zéro émission pour les ventes de véhicules neufs en 2035. Le passage ne mentionne ni exception ni dérogation.",
+          "citation_anonymisee": "Maintenir l'objectif de 100 % de véhicules zéro émission en 2035",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 – Pour une prospérité écologique",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Maintient l'objectif de 100 % de véhicules zéro émission en 2035.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Maintient l'objectif 100 % zéro émission en 2035.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "8bb1cc42"
+    },
+    {
+      "question_id": "ENV-002",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme (prop. 1.7) prévoit de planifier la sortie du nucléaire : arrêt des nouveaux programmes EPR-2 et SMR, et arrêt progressif du parc de centrales vieillissantes, mises hors service étalées sur une vingtaine d'années. Des études sur la prolongation de certaines centrales sont prévues, sous condition stricte de sûreté, pour éviter un arrêt brutal. Aucune date butoir (2050) n'est citée dans le passage.",
+          "citation_courte": "Planifier l'arrêt progressif du parc constitué de centrales vieillissantes",
+          "reformulation_anonymisee": "Le programme [PARTI] (prop. 1.7) prévoit de planifier la sortie du nucléaire : arrêt des nouveaux programmes EPR-2 et SMR, et arrêt progressif du parc de centrales vieillissantes, mises hors service étalées sur une vingtaine d'années. Des études sur la prolongation de certaines centrales sont prévues, sous condition stricte de sûreté, pour éviter un arrêt brutal. Aucune date butoir (2050) n'est citée dans le passage.",
+          "citation_anonymisee": "Planifier l'arrêt progressif du parc constitué de centrales vieillissantes",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 – Pour une prospérité écologique",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Planifie la sortie du nucléaire sur une vingtaine d'années, sans date butoir 2050 et avec prolongations possibles.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Planifie l'arrêt du parc sur une vingtaine d'années, sans date 2050.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "4bdc4164"
+    },
+    {
+      "question_id": "ENV-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-004",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le programme (prop. 5.1) prévoit d'empêcher toute tentative de réintroduction des néonicotinoïdes. L'acétamipride n'est pas nommé dans ce passage.",
+          "citation_courte": "Empêcher toute tentative de réintroduction des néonicotinoïdes",
+          "reformulation_anonymisee": "Le programme [PARTI] (prop. 5.1) prévoit d'empêcher toute tentative de réintroduction des néonicotinoïdes. L'acétamipride n'est pas nommé dans ce passage.",
+          "citation_anonymisee": "Empêcher toute tentative de réintroduction des néonicotinoïdes",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 – Pour une prospérité écologique",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Après l'adoption par l'Assemblée de la loi d'urgence agricole rendant possible la réintroduction dérogatoire de l'acétamipride et du flupyradifurone, elle dénonce une mesure anachronique qui fera des morts et des malades, et estime incompréhensible de remettre sur le marché des substances dangereuses sans avoir démontré leur innocuité. Elle appelle la ministre de l'Agriculture à démissionner. Elle ne formule pas dans cet extrait d'engagement chiffré d'abrogation.",
+          "citation_courte": "une mesure anachronique, qui fera des morts et des malades",
+          "reformulation_anonymisee": "Après l'adoption par l'Assemblée de la loi d'urgence agricole rendant possible la réintroduction dérogatoire de l'acétamipride et du flupyradifurone, [CANDIDAT] dénonce une mesure anachronique qui fera des morts et des malades, et estime incompréhensible de remettre sur le marché des substances dangereuses sans avoir démontré leur innocuité. [CANDIDAT] appelle la ministre de l'Agriculture à démissionner. Aucun engagement chiffré d'abrogation n'est formulé dans cet extrait.",
+          "citation_anonymisee": "une mesure anachronique, qui fera des morts et des malades",
+          "source": {
+            "url": "https://www.bfmtv.com/politique/europe-ecologie-les-verts/marine-tondelier-appelle-annie-genevard-a-demissionner-apres-l-adoption-de-la-loi-d-urgence-agricole-par-l-assemblee_AV-202607210391.html",
+            "titre": "Marine Tondelier appelle Annie Genevard à démissionner après l'adoption de la loi d'urgence agricole par l'Assemblée - BFM",
+            "date_publication": "2026-07-21",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Dénonce la réintroduction et veut empêcher toute réintroduction des néonicotinoïdes, sans engagement explicite d'abroger la dérogation à l'acétamipride.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Dénonce la réintroduction, sans engagement d'abrogation précis.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Le programme veut empêcher toute réintroduction des néonicotinoïdes, dont relève l'acétamipride, sans engagement explicite d'abroger la dérogation. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "665bce74"
+    },
+    {
+      "question_id": "ENV-005",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme (prop. 9.1) prévoit de décréter un moratoire sur tous les projets de mégabassines, et de conditionner tout projet de retenue artificielle alimentée par pompage dans les nappes et cours d'eau à une trajectoire de réduction de la consommation d'eau ou à un projet agroécologique maîtrisé. La durée du moratoire (dix ans) n'est pas précisée.",
+          "citation_courte": "Décréter un moratoire sur tous les projets de méga-bassines",
+          "reformulation_anonymisee": "Le programme [PARTI] (prop. 9.1) prévoit de décréter un moratoire sur tous les projets de mégabassines, et de conditionner tout projet de retenue artificielle alimentée par pompage dans les nappes et cours d'eau à une trajectoire de réduction de la consommation d'eau ou à un projet agroécologique maîtrisé. La durée du moratoire (dix ans) n'est pas précisée.",
+          "citation_anonymisee": "Décréter un moratoire sur tous les projets de méga-bassines",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 – Pour une prospérité écologique",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Moratoire sur toutes les méga-bassines, durée non précisée.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Moratoire sur les méga-bassines, durée non précisée.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "278ceafa"
+    },
+    {
+      "question_id": "ENV-006",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme (prop. 3.4) prévoit un moratoire sur les grands projets jugés inutiles et imposés (canal Seine-Nord Europe, autoroute A69, TGV Lyon-Turin, extensions d'aéroport) et un moratoire sur la création de capacités routières nouvelles, avec certaines exceptions dans les territoires d'Outre-mer. Les autoroutes en général ne sont pas nommées en tant que telles.",
+          "citation_courte": "Adopter un moratoire sur la création de capacités routières nouvelles",
+          "reformulation_anonymisee": "Le programme [PARTI] (prop. 3.4) prévoit un moratoire sur les grands projets jugés inutiles et imposés (canal, autoroute, ligne ferroviaire transalpine, extensions d'aéroport) et un moratoire sur la création de capacités routières nouvelles, avec certaines exceptions dans les territoires d'Outre-mer. Les autoroutes en général ne sont pas nommées en tant que telles.",
+          "citation_anonymisee": "Adopter un moratoire sur la création de capacités routières nouvelles",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 – Pour une prospérité écologique",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Moratoire sur toute capacité routière nouvelle, avec exceptions outre-mer.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Moratoire sur les capacités routières nouvelles et grands projets dont autoroute, sans nommer les autoroutes.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "1848f9d0"
+    },
+    {
+      "question_id": "ENV-007",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme (prop. 3.9) prévoit d'interdire les vols intra-européens lorsqu'une alternative en train de moins de 4h30 existe. Le seuil est de 4h30 (et non 4 h) et vise les vols intra-européens, pas seulement intérieurs.",
+          "citation_courte": "Interdire les vols intra-européens lorsqu'une alternative de moins de 4h30 en train existe",
+          "reformulation_anonymisee": "Le programme [PARTI] (prop. 3.9) prévoit d'interdire les vols intra-européens lorsqu'une alternative en train de moins de 4h30 existe. Le seuil est de 4h30 (et non 4 h) et vise les vols intra-européens, pas seulement intérieurs.",
+          "citation_anonymisee": "Interdire les vols intra-européens lorsqu'une alternative de moins de 4h30 en train existe",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 – Pour une prospérité écologique",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Interdiction des vols intra-européens sous 4h30 de train, plus loin que l'énoncé (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Interdiction avec seuil 4h30, va plus loin (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "8dabb577"
+    },
+    {
+      "question_id": "ENV-008",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme (prop. 8.2) prévoit d'interdire les fermes-usines et l'élevage en cage.",
+          "citation_courte": "Interdire les fermes usines et l'élevage en cage",
+          "reformulation_anonymisee": "Le programme [PARTI] (prop. 8.2) prévoit d'interdire les fermes-usines et l'élevage en cage.",
+          "citation_anonymisee": "Interdire les fermes usines et l'élevage en cage",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 – Pour une prospérité écologique",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Le programme prévoit d'interdire l'élevage en cage.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Programme interdisant l'élevage en cage.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "859b0f5e"
+    },
+    {
+      "question_id": "ENV-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-010",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme (prop. 9.2) prévoit d'imposer aux collectivités l'adoption de régies publiques de l'eau et la gratuité des premiers mètres cubes d'eau. Le volume gratuit n'est pas chiffré dans le passage.",
+          "citation_courte": "la gratuité des premiers mètres cubes d'eau",
+          "reformulation_anonymisee": "Le programme [PARTI] (prop. 9.2) prévoit d'imposer aux collectivités l'adoption de régies publiques de l'eau et la gratuité des premiers mètres cubes d'eau. Le volume gratuit n'est pas chiffré dans le passage.",
+          "citation_anonymisee": "la gratuité des premiers mètres cubes d'eau",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 – Pour une prospérité écologique",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Prévoit la gratuité des premiers mètres cubes d'eau.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Prévoit la gratuité des premiers mètres cubes.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "059d330a"
+    },
+    {
+      "question_id": "ENV-011",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme (prop. 1.6) prévoit de soutenir fiscalement et réglementairement les entreprises des secteurs stratégiques, dont les parcs éoliens offshore et terrestres et le solaire au sol et en toiture.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Le programme [PARTI] (prop. 1.6) prévoit de soutenir fiscalement et réglementairement les entreprises des secteurs stratégiques, dont les parcs éoliens offshore et terrestres et le solaire au sol et en toiture.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 – Pour une prospérité écologique",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        },
+        {
+          "reformulation": "Elle défend un basculement progressif vers un mix 100 % renouvelable plutôt qu'une relance du nucléaire, qu'elle juge la solution la moins coûteuse et la plus résiliente. Elle propose un prêt à taux zéro de la Caisse des dépôts couvrant jusqu'à 60 % du coût des nouveaux projets d'énergies renouvelables, des objectifs territorialisés et des objectifs annuels de capacités installées et de stockage.",
+          "citation_courte": "la solution la moins coûteuse et la plus résiliente",
+          "reformulation_anonymisee": "[CANDIDAT] défend un basculement progressif vers un mix 100 % renouvelable plutôt qu'une relance du nucléaire, qu'elle juge la solution la moins coûteuse et la plus résiliente. [CANDIDAT] propose un prêt à taux zéro d'un établissement public couvrant jusqu'à 60 % du coût des nouveaux projets d'énergies renouvelables, des objectifs territorialisés et des objectifs annuels de capacités installées et de stockage.",
+          "citation_anonymisee": "la solution la moins coûteuse et la plus résiliente",
+          "source": {
+            "url": "https://tecsol-quotidien.fr/marine-tondelier-defend-une-souverainete-energetique-fondee-sur-le-100-renouvelable/",
+            "titre": "Marine Tondelier défend une souveraineté énergétique fondée sur le 100 % renouvelable - tecsol-quotidien.fr",
+            "date_publication": "2026-07-02",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Programme de soutien fiscal aux parcs éoliens et prêt à taux zéro pour les nouveaux projets renouvelables : contraire de l'énoncé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Soutient fiscalement et financièrement l'éolien, contraire à l'énoncé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "176c645e"
+    },
+    {
+      "question_id": "ENV-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-013",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme (prop. 10.1) prévoit de renforcer la trajectoire de zéro artificialisation nette (ZAN) pour préserver les sols.",
+          "citation_courte": "Renforcer la trajectoire de la Zéro Artificialisation Nette (ZAN)",
+          "reformulation_anonymisee": "Le programme [PARTI] (prop. 10.1) prévoit de renforcer la trajectoire de zéro artificialisation nette (ZAN) pour préserver les sols.",
+          "citation_anonymisee": "Renforcer la trajectoire de la Zéro Artificialisation Nette (ZAN)",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 – Pour une prospérité écologique",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut renforcer la trajectoire ZAN, contraire de sa suppression.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut renforcer la trajectoire ZAN.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "1c9b4737"
+    },
+    {
+      "question_id": "ENV-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-015",
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le programme (prop. 5.4) prévoit de donner les moyens aux services et agences de l'État, en particulier l'Office français de la biodiversité (OFB) et l'ADEME, pour exercer leurs missions. Le passage n'aborde pas leur suppression.",
+          "citation_courte": "Donner les moyens aux services et aux agences de l'État",
+          "reformulation_anonymisee": "Le programme [PARTI] (prop. 5.4) prévoit de donner les moyens aux services et agences de l'État, en particulier l'Office français de la biodiversité (OFB) et l'ADEME, pour exercer leurs missions. Le passage n'aborde pas leur suppression.",
+          "citation_anonymisee": "Donner les moyens aux services et aux agences de l'État",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 – Pour une prospérité écologique",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut donner des moyens à l'ADEME, soit le contraire de sa suppression.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Le passage n'aborde pas la suppression de l'Ademe.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "nuancee",
+        "motif": "Donner des moyens à l'Ademe pour ses missions est une mesure explicite incompatible avec sa suppression, sans que la suppression soit abordée : hésitation -2/-1 tranchée vers 0. (code retenu : troisième code)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "b77f62e4"
+    },
+    {
+      "question_id": "ENV-016",
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le programme (prop. 5.4) prévoit de donner les moyens aux services et agences de l'État, en particulier l'Office français de la biodiversité (OFB) et l'ADEME, pour exercer leurs missions. Le passage n'aborde pas leur suppression.",
+          "citation_courte": "Donner les moyens aux services et aux agences de l'État",
+          "reformulation_anonymisee": "Le programme [PARTI] (prop. 5.4) prévoit de donner les moyens aux services et agences de l'État, en particulier l'Office français de la biodiversité (OFB) et l'ADEME, pour exercer leurs missions. Le passage n'aborde pas leur suppression.",
+          "citation_anonymisee": "Donner les moyens aux services et aux agences de l'État",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 – Pour une prospérité écologique",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut donner des moyens à l'OFB, soit le contraire de sa suppression.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Le passage n'aborde pas la suppression de l'OFB.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "nuancee",
+        "motif": "Donner des moyens à l'OFB pour ses missions est une mesure explicite incompatible avec sa suppression, sans que la suppression soit abordée : hésitation -2/-1 tranchée vers 0. (code retenu : troisième code)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "49853c6b"
+    },
+    {
+      "question_id": "ENV-017",
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme (prop. 2.8) prévoit de maintenir l'interdiction de remise en location des logements classés F en 2028 et E en 2034, avec d'éventuelles exceptions pour les petits propriétaires seulement en contrepartie d'une baisse temporaire de loyer de 30 % et d'un engagement de travaux dans les deux ans. Le passage ne mentionne pas explicitement les logements classés G.",
+          "citation_courte": "Maintenir l'interdiction de la remise en location des logements classés F en 2028",
+          "reformulation_anonymisee": "Le programme [PARTI] (prop. 2.8) prévoit de maintenir l'interdiction de remise en location des logements classés F en 2028 et E en 2034, avec d'éventuelles exceptions pour les petits propriétaires seulement en contrepartie d'une baisse temporaire de loyer de 30 % et d'un engagement de travaux dans les deux ans. Le passage ne mentionne pas explicitement les logements classés G.",
+          "citation_anonymisee": "Maintenir l'interdiction de la remise en location des logements classés F en 2028",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 – Pour une prospérité écologique",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Maintient l'interdiction de louer (avec des exceptions encadrées) : statu quo contraire à l'énoncé, sans proposer l'inverse.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Maintient l'interdiction de location pour F et E, exceptions limitées.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "892b360e"
+    },
+    {
+      "question_id": "ENV-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-022",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme (prop. 1.6) prévoit de soutenir fiscalement et réglementairement les entreprises des secteurs stratégiques, dont les parcs éoliens offshore et terrestres et le solaire au sol et en toiture.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Le programme [PARTI] (prop. 1.6) prévoit de soutenir fiscalement et réglementairement les entreprises des secteurs stratégiques, dont les parcs éoliens offshore et terrestres et le solaire au sol et en toiture.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 – Pour une prospérité écologique",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        },
+        {
+          "reformulation": "Elle défend un basculement progressif vers un mix 100 % renouvelable plutôt qu'une relance du nucléaire, qu'elle juge la solution la moins coûteuse et la plus résiliente. Elle propose un prêt à taux zéro de la Caisse des dépôts couvrant jusqu'à 60 % du coût des nouveaux projets d'énergies renouvelables, des objectifs territorialisés et des objectifs annuels de capacités installées et de stockage.",
+          "citation_courte": "la solution la moins coûteuse et la plus résiliente",
+          "reformulation_anonymisee": "[CANDIDAT] défend un basculement progressif vers un mix 100 % renouvelable plutôt qu'une relance du nucléaire, qu'elle juge la solution la moins coûteuse et la plus résiliente. [CANDIDAT] propose un prêt à taux zéro d'un établissement public couvrant jusqu'à 60 % du coût des nouveaux projets d'énergies renouvelables, des objectifs territorialisés et des objectifs annuels de capacités installées et de stockage.",
+          "citation_anonymisee": "la solution la moins coûteuse et la plus résiliente",
+          "source": {
+            "url": "https://tecsol-quotidien.fr/marine-tondelier-defend-une-souverainete-energetique-fondee-sur-le-100-renouvelable/",
+            "titre": "Marine Tondelier défend une souveraineté énergétique fondée sur le 100 % renouvelable - tecsol-quotidien.fr",
+            "date_publication": "2026-07-02",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut soutenir le solaire (aides, prêt à taux zéro) : le contraire de l'énoncé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Soutient fiscalement le solaire et finance les renouvelables.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "48d14de2"
+    },
+    {
+      "question_id": "ENV-023",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme (prop. 1.7) prévoit de mettre fin aux nouveaux programmes EPR-2 et SMR, jugés extrêmement dispendieux, et de planifier la sortie du nucléaire.",
+          "citation_courte": "Mettre fin aux nouveaux programmes EPR-2 et SMR",
+          "reformulation_anonymisee": "Le programme [PARTI] (prop. 1.7) prévoit de mettre fin aux nouveaux programmes EPR-2 et SMR, jugés extrêmement dispendieux, et de planifier la sortie du nucléaire.",
+          "citation_anonymisee": "Mettre fin aux nouveaux programmes EPR-2 et SMR",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 – Pour une prospérité écologique",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut mettre fin aux programmes EPR-2 et sortir du nucléaire.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut mettre fin aux nouveaux programmes EPR-2 et sortir du nucléaire.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "bcb88634"
+    },
+    {
+      "question_id": "ENV-024",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-025",
+      "code": -2,
+      "nature": "nette",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Invitée de France Inter, elle se dit opposée à un blocage des prix des carburants, car cela coûte de l'argent public, et préfère une aide ciblée selon les revenus et le besoin, financée par les recettes fiscales supplémentaires imprévues, réallouées à des chèques énergie ciblés.",
+          "citation_courte": "pas pour un blocage des prix",
+          "reformulation_anonymisee": "Invité(e) d'une radio nationale, [CANDIDAT] se dit opposé(e) à un blocage des prix des carburants, car cela coûte de l'argent public, et préfère une aide ciblée selon les revenus et le besoin, financée par les recettes fiscales supplémentaires imprévues, réallouées à des chèques énergie ciblés.",
+          "citation_anonymisee": "pas pour un blocage des prix",
+          "source": {
+            "url": "https://www.franceinfo.fr/economie/automobile/essence/prix-des-carburants-la-patronne-des-ecologistes-marine-tondelier-reclame-une-aide-ciblee-selon-les-revenus-pour-aider-les-particuliers_7900238.html",
+            "titre": "Prix des carburants : la patronne des Écologistes, Marine Tondelier, réclame \"une aide ciblée selon les revenus\" pour aider les particuliers - franceinfo",
+            "date_publication": "2026-03-28",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Le candidat se dit opposé au blocage des prix des carburants et lui préfère un autre mécanisme identifiable (chèques énergie ciblés selon les revenus, financés par les recettes fiscales imprévues) : rejet du principe au profit d'un autre mécanisme (R3), et en cas d'hésitation avec -2 on retient le code le plus proche de 0.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Le candidat se dit explicitement opposé à un blocage des prix des carburants et lui préfère une aide ciblée.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -2,
+        "nature_retenue": "nette",
+        "motif": "L'énoncé porte sur le mécanisme lui-même (bloquer ou non les prix), pas sur un paramètre chiffré : le candidat rejette explicitement et sans réserve ce mécanisme (« pas pour un blocage des prix ») ; préférer une aide ciblée est une alternative, pas une réserve, et R3 ne s'applique pas faute de paramètre écarté au profit d'un autre. (code retenu : celui du codeur A ; recodage après retrait d'un extrait mal attribué par la vérification indépendante)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "5e0c71a2"
+    },
+    {
+      "question_id": "ENV-026",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-001",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le programme prévoit de porter le salaire minimum à 2 000 euros brut par mois dès 2027, avec des dispositifs de soutien ciblés pour les TPE, PME et associations (baisse du taux réduit d'impôt sur les sociétés et de la taxe sur les salaires). Il ne donne pas de montant en net.",
+          "citation_courte": "Passer le salaire minimum à 2000€ brut par mois dès 2027.",
+          "reformulation_anonymisee": "Le programme prévoit de porter le salaire minimum à 2 000 euros brut par mois dès 2027, avec des dispositifs de soutien ciblés pour les TPE, PME et associations (baisse du taux réduit d'impôt sur les sociétés et de la taxe sur les salaires). Il ne donne pas de montant en net.",
+          "citation_anonymisee": "Passer le salaire minimum à 2000€ brut par mois dès 2027.",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 - Pour une prospérité écologique (site de campagne de Marine Tondelier)",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut un salaire minimum à 2 000 euros brut, montant voisin non exprimé en net.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "SMIC à 2000 brut, pas de montant net.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Valeur précise (2 000 euros brut dès 2027) exprimée dans une autre unité que l'énoncé : on sait ce que le candidat veut. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "a40bdac8"
+    },
+    {
+      "question_id": "ECO-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-003",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme propose d'encadrer les prix d'un panier de biens essentiels (logement, énergie, eau, transport, alimentation de qualité, biens culturels), en étudiant plusieurs options (prix unique, encadrement des marges, limitation des hausses). Le blocage des prix n'est qu'« envisagé » pour certains produits alimentaires, en cas d'inflation anormale ; rien n'est dit sur un blocage dans l'énergie ou les carburants.",
+          "citation_courte": "Envisager le blocage des prix sur certains produits alimentaires qui souffriraient d’une inflation anormale.",
+          "reformulation_anonymisee": "Le programme propose d'encadrer les prix d'un panier de biens essentiels (logement, énergie, eau, transport, alimentation de qualité, biens culturels), en étudiant plusieurs options (prix unique, encadrement des marges, limitation des hausses). Le blocage des prix n'est qu'« envisagé » pour certains produits alimentaires, en cas d'inflation anormale ; rien n'est dit sur un blocage dans l'énergie ou les carburants.",
+          "citation_anonymisee": "Envisager le blocage des prix sur certains produits alimentaires qui souffriraient d’une inflation anormale.",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 - Pour une prospérité écologique (site de campagne de Marine Tondelier)",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Encadrement des prix d'un panier essentiel ; blocage seulement envisagé pour certains produits alimentaires.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Encadrement des prix, blocage seulement envisagé pour certains produits alimentaires en inflation anormale.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "69cbe66c"
+    },
+    {
+      "question_id": "ECO-004",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme prévoit de passer aux 32 heures hebdomadaires sans perte de salaire dans les métiers pénibles ou de nuit, en conditionnant les aides aux entreprises à cette mesure.",
+          "citation_courte": "Passer aux 32 heures sans perte de salaire dans les métiers pénibles",
+          "reformulation_anonymisee": "Le programme prévoit de passer aux 32 heures hebdomadaires sans perte de salaire dans les métiers pénibles ou de nuit, en conditionnant les aides aux entreprises à cette mesure.",
+          "citation_anonymisee": "Passer aux 32 heures sans perte de salaire dans les métiers pénibles",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 - Pour une prospérité écologique (site de campagne de Marine Tondelier)",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Le programme prévoit les 32 heures dans les métiers pénibles ou de nuit.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Programme prévoyant les 32 heures dans les métiers pénibles.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "963078a8"
+    },
+    {
+      "question_id": "ECO-005",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme prévoit, dans le cadre des aides à l'électrification des procédés industriels, des clauses de remboursement en cas de délocalisation. Il ne précise ni délai de deux ans ni remboursement intégral, et la mesure vise ces aides-là, pas toutes les aides publiques.",
+          "citation_courte": "Prévoir des clauses de remboursement en cas de délocalisation.",
+          "reformulation_anonymisee": "Le programme prévoit, dans le cadre des aides à l'électrification des procédés industriels, des clauses de remboursement en cas de délocalisation. Il ne précise ni délai de deux ans ni remboursement intégral, et la mesure vise ces aides-là, pas toutes les aides publiques.",
+          "citation_anonymisee": "Prévoir des clauses de remboursement en cas de délocalisation.",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 - Pour une prospérité écologique (site de campagne de Marine Tondelier)",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Clauses de remboursement limitées aux aides à l'électrification, sans délai ni remboursement intégral.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Clauses de remboursement limitées aux aides à l'électrification.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "b4cb70b3"
+    },
+    {
+      "question_id": "ECO-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-007",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme vise un écart de 1 à 20 dans les entreprises entre la rémunération des dirigeants et le salaire médian de l'entreprise (et non le plus bas salaire), en conditionnant toute aide publique à cet objectif ; un objectif serait fixé par branche et pour les entreprises de plus de 1 000 salariés.",
+          "citation_courte": "Réduire les écarts de rémunération pour atteindre un écart de 1 à 20",
+          "reformulation_anonymisee": "Le programme vise un écart de 1 à 20 dans les entreprises entre la rémunération des dirigeants et le salaire médian de l'entreprise (et non le plus bas salaire), en conditionnant toute aide publique à cet objectif ; un objectif serait fixé par branche et pour les entreprises de plus de 1 000 salariés.",
+          "citation_anonymisee": "Réduire les écarts de rémunération pour atteindre un écart de 1 à 20",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 - Pour une prospérité écologique (site de campagne de Marine Tondelier)",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Vise un écart de 1 à 20 rapporté au salaire médian, conditionnant les aides publiques : version partielle.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Écart 1 à 20 mais dirigeants/médian, avec conditions.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "db36c31c"
+    },
+    {
+      "question_id": "ECO-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-009",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme prévoit d'indexer le point d'indice des fonctionnaires sur l'inflation et d'augmenter de 10 % la rémunération des catégories C et B, ainsi que des catégories A ayant perdu du pouvoir d'achat (15 % pour les enseignants sur le quinquennat, 10 % pour les chercheurs). La hausse n'est pas formulée comme un relèvement de 10 % du point d'indice lui-même.",
+          "citation_courte": "Augmenter de 10 % la rémunération des catégories C et B",
+          "reformulation_anonymisee": "Le programme prévoit d'indexer le point d'indice des fonctionnaires sur l'inflation et d'augmenter de 10 % la rémunération des catégories C et B, ainsi que des catégories A ayant perdu du pouvoir d'achat (15 % pour les enseignants sur le quinquennat, 10 % pour les chercheurs). La hausse n'est pas formulée comme un relèvement de 10 % du point d'indice lui-même.",
+          "citation_anonymisee": "Augmenter de 10 % la rémunération des catégories C et B",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 - Pour une prospérité écologique (site de campagne de Marine Tondelier)",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Indexation du point et hausse de 10 % de certaines rémunérations, pas une hausse de 10 % du point lui-même : version partielle.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Indexation du point et +10 % de rémunération pour B et C, pas +10 % du point.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "61345fcc"
+    },
+    {
+      "question_id": "ECO-010",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme remplace le RSA par une « garantie d'autonomie » (50 % du Smic net, accessible dès 18 ans pour les personnes fiscalement indépendantes) et supprime la contrepartie de 15 heures d'activité hebdomadaire, jugée stigmatisante ; seules les fraudes avérées seraient sanctionnées.",
+          "citation_courte": "supprimant la contrepartie de 15 heures d’activités hebdomadaires",
+          "reformulation_anonymisee": "Le programme remplace le RSA par une « garantie d'autonomie » (50 % du Smic net, accessible dès 18 ans pour les personnes fiscalement indépendantes) et supprime la contrepartie de 15 heures d'activité hebdomadaire, jugée stigmatisante ; seules les fraudes avérées seraient sanctionnées.",
+          "citation_anonymisee": "supprimant la contrepartie de 15 heures d’activités hebdomadaires",
+          "source": {
+            "url": "https://marinetondelier.fr/s/Programme-2027.pdf",
+            "titre": "Programme 2027 - Pour une prospérité écologique (site de campagne de Marine Tondelier)",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Le programme supprime la contrepartie de 15 heures d'activité.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Supprime la contrepartie de 15 heures.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "3a32da3c"
+    },
+    {
+      "question_id": "ECO-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-003",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Propose de limiter à 19 le nombre d'élèves par classe en maternelle et en élémentaire d'ici 2032 (fin du quinquennat), en maintenant le nombre de professeurs et en gelant les fermetures de classes. La mesure vise le primaire ; rien n'est précisé pour collège et lycée.",
+          "citation_courte": "Dans le primaire à 19 élèves d'ici 2032",
+          "reformulation_anonymisee": "Propose de limiter à 19 le nombre d'élèves par classe en maternelle et en élémentaire d'ici 2032 (fin du quinquennat), en maintenant le nombre de professeurs et en gelant les fermetures de classes. La mesure vise le primaire ; rien n'est précisé pour collège et lycée.",
+          "citation_anonymisee": "Dans le primaire à 19 élèves d'ici 2032",
+          "source": {
+            "url": "https://www.lefigaro.fr/elections/presidentielles/education-nationale-les-ecologistes-veulent-augmenter-les-enseignants-de-15-20260831",
+            "titre": "Éducation nationale: les Écologistes veulent augmenter les enseignants de 15% - Le Figaro",
+            "date_publication": "2026-08-31",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "19 élèves par classe limité au primaire d'ici 2032.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Classes à 19 élèves d'ici 2032 mais limité au primaire.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "027b9df7"
+    },
+    {
+      "question_id": "EDU-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-006",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Propose la création d'une filière de catégorie B pour les accompagnants d'élèves en situation de handicap, selon Sud Radio. La source ne parle pas explicitement de titularisation ni de statut de fonctionnaire.",
+          "citation_courte": "filière de catégorie B pour les accompagnants d'élèves en situation de handicap",
+          "reformulation_anonymisee": "Propose la création d'une filière de catégorie B pour les accompagnants d'élèves en situation de handicap, selon le média. La source ne parle pas explicitement de titularisation ni de statut de fonctionnaire.",
+          "citation_anonymisee": "filière de catégorie B pour les accompagnants d'élèves en situation de handicap",
+          "source": {
+            "url": "https://www.sudradio.fr/sud-radio/presidentielle-2027-comment-les-candidats-draguent-les-professeurs-et-lecole",
+            "titre": "Présidentielle 2027 : comment les candidats draguent les professeurs et l'école - Sud Radio",
+            "date_publication": "2026-09-03",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut créer une filière de catégorie B pour les AESH, sans parler explicitement de titularisation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Filière de catégorie B sans titularisation explicite.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Création d'une filière de catégorie B pour les AESH est une mesure concrète dans le sens de l'énoncé, sans titularisation explicite. (code retenu : celui du codeur A)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "e3fc6dfd"
+    },
+    {
+      "question_id": "EDU-007",
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le parti annonce vouloir augmenter les salaires des enseignants de 15 % en cinq ans, en plus de l'inflation (engagement de programme présenté à la rentrée 2026).",
+          "citation_courte": "augmentant les salaires des enseignants de 15% en 5 ans",
+          "reformulation_anonymisee": "[PARTI] annonce vouloir augmenter les salaires des enseignants de 15 % en cinq ans, en plus de l'inflation (engagement de programme présenté à la rentrée).",
+          "citation_anonymisee": "augmentant les salaires des enseignants de 15% en 5 ans",
+          "source": {
+            "url": "https://www.lefigaro.fr/elections/presidentielles/education-nationale-les-ecologistes-veulent-augmenter-les-enseignants-de-15-20260831",
+            "titre": "Éducation nationale: les Écologistes veulent augmenter les enseignants de 15% - Le Figaro",
+            "date_publication": "2026-08-31",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Propose 15 % en cinq ans en plus de l'inflation, une autre valeur que les 20 % de l'énoncé (R5).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Propose 15 % au lieu de 20 % (R5).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "264b5e5d"
+    },
+    {
+      "question_id": "EDU-008",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Propose de généraliser le seuil de 12 élèves par classe en établissements REP et REP+, de la petite section au CM2 (dédoublement étendu). Les collèges ne sont pas mentionnés par la source.",
+          "citation_courte": "généraliser le seuil de 12 élèves de la petite section au CM2",
+          "reformulation_anonymisee": "Propose de généraliser le seuil de 12 élèves par classe dans les établissements d'éducation prioritaire, de la petite section au CM2 (dédoublement étendu). Les collèges ne sont pas mentionnés par la source.",
+          "citation_anonymisee": "généraliser le seuil de 12 élèves de la petite section au CM2",
+          "source": {
+            "url": "https://rmc.bfmtv.com/actualites/societe/education/marine-tondelier-et-les-ecologistes-veulent-limiter-les-classes-de-primaire-a-19-eleves_AV-202609020701.html",
+            "titre": "Marine Tondelier et les écologistes veulent limiter les classes de primaire à 19 élèves - RMC",
+            "date_publication": "2026-09-02",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Classes de 12 élèves en éducation prioritaire de la petite section au CM2 seulement, sans les collèges.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Seuil de 12 en éducation prioritaire, collèges non mentionnés.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "5deb2534"
+    },
+    {
+      "question_id": "EDU-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-001",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme présidentiel des Écologistes prévoit de mettre en place un « ISF vert » (ou « ISF climatique »), impôt sur le patrimoine modulé selon l'impact environnemental. La source ne dit pas s'il rétablit l'ISF tel qu'il existait avant 2018 ni ce qu'il devient de l'IFI.",
+          "citation_courte": "un ISF climatique, une TVA verte ou une transformation de la fiscalité des transports",
+          "reformulation_anonymisee": "Le programme de [PARTI] prévoit de mettre en place un « ISF vert » (ou « ISF climatique »), impôt sur le patrimoine modulé selon l'impact environnemental. La source ne dit pas s'il rétablit l'ISF tel qu'il existait avant 2018 ni ce qu'il devient de l'IFI.",
+          "citation_anonymisee": "un ISF climatique, une TVA verte ou une transformation de la fiscalité des transports",
+          "source": {
+            "url": "https://www.ledauphine.com/elections/2026/07/13/nouvelle-republique-isf-climatique-tva-verte-marine-tondelier-devoile-son-programme",
+            "titre": "Nouvelle République, ISF climatique, TVA verte : Marine Tondelier dévoile son programme (Le Dauphiné Libéré, AFP)",
+            "date_publication": "2026-07-13",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Propose un ISF vert/climatique sans préciser le rétablissement de l'ISF d'avant 2018.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Prévoit un ISF climatique, sans dire s'il rétablit l'ISF.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "67e83377"
+    },
+    {
+      "question_id": "FIS-002",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme des Écologistes prévoit d'instaurer la taxe sur les très hauts patrimoines à hauteur de 2 % au-delà de 100 millions d'euros de patrimoine.",
+          "citation_courte": "à hauteur de 2 % au-delà de 100 millions d'euros de patrimoine",
+          "reformulation_anonymisee": "Le programme de [PARTI] prévoit d'instaurer un impôt de 2 % sur les patrimoines au-delà de 100 millions d'euros.",
+          "citation_anonymisee": "à hauteur de 2 % au-delà de 100 millions d'euros de patrimoine",
+          "source": {
+            "url": "https://www.lopinion.fr/economie/smic-a-2-000-euros-taxe-zucman-retraite-a-60-ans-tout-savoir-du-programme-economique-des-ecologistes",
+            "titre": "Smic à 2 000 euros, taxe Zucman, retraite à 62 ans… Tout savoir du programme économique des Écologistes (L'Opinion, AFP)",
+            "date_publication": "2026-07-13",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Selon BFM, la candidate défend la taxe sur les très riches, qui n'apparaissait pas mot pour mot dans le programme du NFP de 2024.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "[CANDIDAT] défend un impôt sur les très riches, que ne mentionnait pas mot pour mot le programme de l'alliance de gauche de 2024.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.bfmtv.com/politique/elections/presidentielle/nucleaire-hausse-du-smic-gaza-taxe-zucman-le-programme-presidentiel-de-marine-tondelier-est-il-different-de-celui-du-nfp_AN-202607130506.html",
+            "titre": "Nucléaire, hausse du Smic, Gaza, taxe Zucman... Le programme présidentiel de Marine Tondelier est-il différent de celui du NFP? (BFM)",
+            "date_publication": "2026-07-13",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Programme : impôt de 2 % au-delà de 100 millions de patrimoine.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Programme prévoyant 2 % au-delà de 100 millions.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "5e1c1561"
+    },
+    {
+      "question_id": "FIS-003",
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le programme des Écologistes prévoit d'augmenter le taux de la flat tax, donc de la conserver. Il ne mentionne pas, dans le passage rapporté, de soumission des revenus du capital au barème.",
+          "citation_courte": "d'augmenter le taux de la flat tax",
+          "reformulation_anonymisee": "Le programme de [PARTI] prévoit d'augmenter le taux du prélèvement forfaitaire, donc de le conserver. Il ne mentionne pas, dans le passage rapporté, de soumission des revenus du capital au barème.",
+          "citation_anonymisee": "d'augmenter le taux de la flat tax",
+          "source": {
+            "url": "https://www.lopinion.fr/economie/smic-a-2-000-euros-taxe-zucman-retraite-a-60-ans-tout-savoir-du-programme-economique-des-ecologistes",
+            "titre": "Smic à 2 000 euros, taxe Zucman, retraite à 62 ans… Tout savoir du programme économique des Écologistes (L'Opinion, AFP)",
+            "date_publication": "2026-07-13",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Conserve le prélèvement forfaitaire en augmentant son taux au lieu de passer au barème (R3).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut augmenter le taux de la flat tax, donc la conserver.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "nuancee",
+        "motif": "Conserve le prélèvement forfaitaire en augmentant son taux au lieu de le supprimer au profit du barème : autre mécanisme identifiable, R3. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "4b20ff6b"
+    },
+    {
+      "question_id": "FIS-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-005",
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Les Écologistes proposent une contribution de 10 % sur les héritages de plus de 4 millions d'euros et de 10 % supplémentaires sur ceux dépassant 13 millions, soit 20 % au-delà. La proposition ne prévoit pas de prélever la totalité de la part dépassant 12 millions.",
+          "citation_courte": "une contribution de 10% sur les héritages de plus de 4 millions d'euros",
+          "reformulation_anonymisee": "[PARTI] propose une contribution de 10 % sur les héritages de plus de 4 millions d'euros et de 10 % supplémentaires sur ceux dépassant 13 millions, soit 20 % au-delà. La proposition ne prévoit pas de prélever la totalité de la part dépassant 12 millions.",
+          "citation_anonymisee": "une contribution de 10% sur les héritages de plus de 4 millions d'euros",
+          "source": {
+            "url": "https://www.bfmtv.com/economie/patrimoine/10-sur-les-heritages-de-plus-de-4-millions-d-euros-et-20-sur-ceux-superieurs-a-13-millions-les-ecologistes-veulent-puiser-15-milliards-d-euros-dans-les-grosses-successions-pour-financer-la-transition-ecologique_AD-202608260672.html",
+            "titre": "10% sur les héritages de plus de 4 millions d'euros et 20% sur ceux supérieurs à 13 millions : les Écologistes veulent puiser 15 milliards d'euros dans les grosses successions (BFM Business, AFP)",
+            "date_publication": "2026-08-26",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Propose 10 à 20 % sur les gros héritages, loin d'un prélèvement total au-delà de 12 millions (R5).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Propose 10 à 20 % au-delà de 4 ou 13 millions, pas un prélèvement total.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "600f136b"
+    },
+    {
+      "question_id": "FIS-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-007",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Les Écologistes veulent raboter le pacte Dutreil, dont l'exonération de 75 % serait abaissée à 50 %, ainsi que supprimer les avantages fiscaux liés au démembrement de propriété. Mesure présentée comme une source de recettes (15 milliards d'euros par an avec la surtaxe des gros héritages).",
+          "citation_courte": "dont le taux serait abaissé à 50%",
+          "reformulation_anonymisee": "[PARTI] veut raboter le pacte sur les transmissions d'entreprises, dont l'exonération de 75 % serait abaissée à 50 %, ainsi que supprimer les avantages fiscaux liés au démembrement de propriété. Mesure présentée comme une source de recettes (15 milliards d'euros par an avec la surtaxe des gros héritages).",
+          "citation_anonymisee": "dont le taux serait abaissé à 50%",
+          "source": {
+            "url": "https://lcp.fr/actualites/heritages-et-droits-de-succession-que-proposent-les-candidats-a-l-election",
+            "titre": "Héritages et droits de succession: que proposent les candidats à l'élection présidentielle? (LCP-Assemblée nationale)",
+            "date_publication": "2026-08-27",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Veut abaisser l'exonération Dutreil de 75 % à 50 %.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Exonération abaissée de 75 % à 50 %.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "461e2ef5"
+    },
+    {
+      "question_id": "FIS-008",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Pour rééquilibrer le budget de la Sécurité sociale, le programme des Écologistes prévoit de rendre la CSG progressive et de l'augmenter d'un point. Les taux par niveau de revenu ne sont pas donnés dans la source.",
+          "citation_courte": "rendre la CSG progressive et de l'augmenter d'un point",
+          "reformulation_anonymisee": "Pour rééquilibrer le budget de la Sécurité sociale, le programme de [PARTI] prévoit de rendre la CSG progressive et de l'augmenter d'un point. Les taux par niveau de revenu ne sont pas donnés dans la source.",
+          "citation_anonymisee": "rendre la CSG progressive et de l'augmenter d'un point",
+          "source": {
+            "url": "https://www.lopinion.fr/economie/smic-a-2-000-euros-taxe-zucman-retraite-a-60-ans-tout-savoir-du-programme-economique-des-ecologistes",
+            "titre": "Smic à 2 000 euros, taxe Zucman, retraite à 62 ans… Tout savoir du programme économique des Écologistes (L'Opinion, AFP)",
+            "date_publication": "2026-07-13",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Le programme prévoit de rendre la CSG progressive.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Programme rendant la CSG progressive.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "4bd246ad"
+    },
+    {
+      "question_id": "FIS-009",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme des Écologistes prévoit d'étendre les conditions de l'exit tax pour maintenir une contribution fiscale des émigrés fiscaux. La source ne précise pas s'il s'agit de revenir à la version de 2011 (délai de 15 ans).",
+          "citation_courte": "les conditions de l'exit tax afin de maintenir une contribution fiscale des émigrés fiscaux",
+          "reformulation_anonymisee": "Le programme de [PARTI] prévoit d'étendre les conditions de l'exit tax pour maintenir une contribution fiscale des émigrés fiscaux. La source ne précise pas s'il s'agit de revenir à la version de 2011 (délai de 15 ans).",
+          "citation_anonymisee": "les conditions de l'exit tax afin de maintenir une contribution fiscale des émigrés fiscaux",
+          "source": {
+            "url": "https://www.lopinion.fr/economie/smic-a-2-000-euros-taxe-zucman-retraite-a-60-ans-tout-savoir-du-programme-economique-des-ecologistes",
+            "titre": "Smic à 2 000 euros, taxe Zucman, retraite à 62 ans… Tout savoir du programme économique des Écologistes (L'Opinion, AFP)",
+            "date_publication": "2026-07-13",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut étendre l'exit tax sans préciser le retour à la version de 2011.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut étendre l'exit tax, sans préciser la version de 2011.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "26892966"
+    },
+    {
+      "question_id": "FIS-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-018",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Les Écologistes veulent au contraire abaisser de 75 % à 50 % l'exonération du pacte Dutreil sur les transmissions d'entreprises familiales, et non l'étendre à 100 %.",
+          "citation_courte": "dont le taux serait abaissé à 50%",
+          "reformulation_anonymisee": "[PARTI] veut au contraire abaisser de 75 % à 50 % l'exonération du pacte sur les transmissions d'entreprises familiales, et non l'étendre à 100 %.",
+          "citation_anonymisee": "dont le taux serait abaissé à 50%",
+          "source": {
+            "url": "https://lcp.fr/actualites/heritages-et-droits-de-succession-que-proposent-les-candidats-a-l-election",
+            "titre": "Héritages et droits de succession: que proposent les candidats à l'élection présidentielle? (LCP-Assemblée nationale)",
+            "date_publication": "2026-08-27",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut abaisser l'exonération Dutreil à 50 %, contraire d'une exonération totale.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut abaisser l'exonération à 50 %, contraire de l'énoncé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "0da233b8"
+    },
+    {
+      "question_id": "FIS-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-001",
+      "code": 2,
+      "nature": "nette",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Dans une lettre adressée aux partis de gauche proposant un socle programmatique de 21 priorités, la candidate cite la régularisation des travailleurs sans-papiers parmi les mesures. Le texte rapporté par le journal ne précise ni critères ni durée de présence.",
+          "citation_courte": "la régularisation des travailleurs sans-papiers",
+          "reformulation_anonymisee": "Dans une lettre adressée aux partis de gauche proposant un socle programmatique de 21 priorités, [CANDIDAT] cite la régularisation des travailleurs sans-papiers parmi les mesures. Le texte rapporté ne précise ni critères ni durée de présence.",
+          "citation_anonymisee": "la régularisation des travailleurs sans-papiers",
+          "source": {
+            "url": "https://www.sudouest.fr/elections/presidentielle/presidentielle-2027-marine-tondelier-propose-un-socle-programmatique-aux-partis-de-gauche-28726376.php",
+            "titre": "Présidentielle 2027 : Marine Tondelier propose un socle programmatique aux partis de gauche",
+            "date_publication": "2026-04-17",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Cite la régularisation des travailleurs sans-papiers parmi ses priorités, ce qui reprend la mesure énoncée.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Cite la régularisation des travailleurs sans-papiers sans critères.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 2,
+        "nature_retenue": "nette",
+        "motif": "La régularisation des travailleurs sans-papiers figure parmi les priorités, ce qui reprend l'énoncé tel qu'il est écrit, lui-même sans critères. (code retenu : celui du codeur A)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "c5370656"
+    },
+    {
+      "question_id": "IMM-002",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogée sur CNews sur l'abrogation de la loi immigration du 26 janvier 2024, elle répond par l'affirmative et ajoute qu'une autre loi serait faite à la place.",
+          "citation_courte": "Oui et nous allons en faire une autre",
+          "reformulation_anonymisee": "Interrogé(e) à la télévision sur l'abrogation de la loi immigration du 26 janvier 2024, [CANDIDAT] répond par l'affirmative et ajoute qu'une autre loi serait faite à la place.",
+          "citation_anonymisee": "Oui et nous allons en faire une autre",
+          "source": {
+            "url": "https://www.cnews.fr/france/2024-07-04/marine-tondelier-fait-de-la-mer-mediterranee-le-plus-grand-cimetiere-du-monde",
+            "titre": "Marine Tondelier : «On a fait de la mer Méditerranée le plus grand cimetière du monde»",
+            "date_publication": "2024-07-04",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Répond oui à l'abrogation de la loi immigration de 2024.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Répond oui à l'abrogation de la loi.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "37df842b"
+    },
+    {
+      "question_id": "IMM-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-021",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-004",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Appelle le président de la République à organiser un référendum dont la seule question serait d'approuver ou non la mise en place d'une assemblée constituante chargée de proposer une nouvelle Constitution, jugeant les institutions de la Ve République fatiguées. La source ne précise pas la composition de l'assemblée (élue ou tirée au sort).",
+          "citation_courte": "les institutions de la Ve République sont fatiguées",
+          "reformulation_anonymisee": "Appelle le chef de l'État à organiser un référendum dont la seule question serait d'approuver ou non la mise en place d'une assemblée constituante chargée de proposer une nouvelle Constitution, jugeant les institutions de la République actuelle fatiguées. La source ne précise pas la composition de l'assemblée (élue ou tirée au sort).",
+          "citation_anonymisee": "les institutions de la République actuelle sont fatiguées",
+          "source": {
+            "url": "https://www.bfmtv.com/politique/europe-ecologie-les-verts/proposer-une-nouvelle-constitution-marine-tondelier-appelle-a-un-referendum-pour-mettre-en-place-une-assemblee-constituante_AD-202502080318.html",
+            "titre": "\"Proposer une nouvelle Constitution\": Marine Tondelier appelle à un référendum pour mettre en place une assemblée constituante",
+            "date_publication": "2025-02-08",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Demande un référendum pour créer une assemblée constituante chargée d'écrire une nouvelle Constitution.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Appelle à un référendum sur une assemblée constituante.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "f59f29d1"
+    },
+    {
+      "question_id": "INS-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-006",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Rappelle vouloir abaisser le droit de vote à 16 ans, en voulant aussi faire participer les enfants à la vie politique encore plus tôt. Propos rapportés par la presse à l'occasion d'une réunion avec des enfants ; la source ne donne pas de détail de mise en oeuvre.",
+          "citation_courte": "abaisser le droit de vote à 16 ans",
+          "reformulation_anonymisee": "Rappelle vouloir abaisser le droit de vote à 16 ans, en voulant aussi faire participer les enfants à la vie politique encore plus tôt. Propos rapportés par la presse à l'occasion d'une réunion avec des enfants ; la source ne donne pas de détail de mise en oeuvre.",
+          "citation_anonymisee": "abaisser le droit de vote à 16 ans",
+          "source": {
+            "url": "https://www.bfmtv.com/politique/faire-entendre-votre-voix-marine-tondelier-propose-de-creer-une-assemblee-nationale-des-enfants_AN-202605270294.html",
+            "titre": "\"Faire entendre votre voix\": Marine Tondelier propose de créer une \"Assemblée nationale des enfants\"",
+            "date_publication": "2026-05-27",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Veut abaisser le droit de vote à 16 ans.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Veut abaisser le droit de vote à 16 ans.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "c2638f92"
+    },
+    {
+      "question_id": "INS-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-001",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "La candidate veut abroger la dernière réforme des retraites, ce qui ramène mécaniquement l'âge légal à 62 ans, d'après ses propos sur franceinfo début septembre 2026.",
+          "citation_courte": "On revient mécaniquement à 62 ans en un trait de plume",
+          "reformulation_anonymisee": "[CANDIDAT] veut abroger la dernière réforme des retraites, ce qui ramène mécaniquement l'âge légal à 62 ans, d'après ses propos tenus lors d'un entretien radiophonique récent.",
+          "citation_anonymisee": "On revient mécaniquement à 62 ans en un trait de plume",
+          "source": {
+            "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+            "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites",
+            "date_publication": "2026-09-30",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Veut abroger la réforme, ce qui ramène l'âge légal à 62 ans.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Abrogation de la réforme ramenant à 62 ans.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "280ced30"
+    },
+    {
+      "question_id": "RET-002",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Au-delà du retour à 62 ans, la candidate garde un objectif plus ambitieux de retour à 60 ans, en priorité pour les personnes ayant commencé à travailler tôt ou exercé un métier pénible. Elle indique que cela demande plus de temps car de nouvelles mesures sont nécessaires ; aucun calendrier n'est donné.",
+          "citation_courte": "Cela prend un peu plus de temps",
+          "reformulation_anonymisee": "[CANDIDAT] garde un objectif plus ambitieux de retour à 60 ans, en priorité pour les personnes ayant commencé à travailler tôt ou exercé un métier pénible. [CANDIDAT] indique que cela demande plus de temps car de nouvelles mesures sont nécessaires ; aucun calendrier n'est donné.",
+          "citation_anonymisee": "Cela prend un peu plus de temps",
+          "source": {
+            "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+            "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites",
+            "date_publication": "2026-09-30",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Retour à 60 ans en priorité pour les carrières longues et pénibles, sans calendrier : périmètre réduit.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Retour à 60 ans en priorité pour carrières longues ou pénibles.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "f8206796"
+    },
+    {
+      "question_id": "RET-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-015",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Objectif de retour à 60 ans en priorité pour les personnes ayant commencé à travailler tôt (ou exercé un métier pénible), sans que la source précise un seuil d'âge de début de carrière ; il s'agit d'un objectif plus lointain que le retour à 62 ans, qui demande de nouvelles mesures.",
+          "citation_courte": "Cela prend un peu plus de temps",
+          "reformulation_anonymisee": "[CANDIDAT] garde un objectif de retour à 60 ans en priorité pour les personnes ayant commencé à travailler tôt (ou exercé un métier pénible), sans seuil d'âge de début de carrière précisé ; objectif plus lointain que le retour à 62 ans, qui demande de nouvelles mesures.",
+          "citation_anonymisee": "Cela prend un peu plus de temps",
+          "source": {
+            "url": "https://www.franceinfo.fr/economie/retraite/reforme-des-retraites/changement-de-systeme-passage-a-60-ou-a-65-ans-capitalisation-que-proposent-les-principaux-candidats-a-l-election-presidentielle-pour-les-retraites_8215784.html",
+            "titre": "Changement de système, passage à 60 ou à 65 ans, capitalisation... Que proposent les principaux candidats à l'élection présidentielle pour les retraites",
+            "date_publication": "2026-09-30",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Objectif de retour à 60 ans pour les carrières commencées tôt, sans seuil de début de carrière ni échéance.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Retour à 60 ans en priorité pour carrières précoces/pénibles, sans seuil précis ni calendrier proche.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "42dfe9d0"
+    },
+    {
+      "question_id": "RET-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-022",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-001",
+      "code": 2,
+      "nature": "nette",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Elle soutient la présentation d'un récépissé lors des contrôles d'identité, demande portée de longue date par des associations. Elle juge qu'il faut de telles évolutions législatives pour améliorer la relation entre population et police, tout en précisant que ce ne serait pas à faire sur le moment mais une fois le calme revenu.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "[CANDIDAT] soutient la remise d'un récépissé lors des contrôles d'identité, demande portée de longue date par des associations. [CANDIDAT] juge qu'il faut de telles évolutions législatives pour améliorer la relation entre population et police, tout en précisant que ce ne serait pas à faire sur le moment mais une fois le calme revenu.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.publicsenat.fr/actualites/societe/il-y-a-un-probleme-systemique-dans-la-police-declare-lecologiste-marine-tondelier",
+            "titre": "« Il y a un problème systémique dans la police », déclare l’écologiste Marine Tondelier - Public Sénat",
+            "date_publication": "2023-07-03",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Soutient la remise d'un récépissé ; le report après le retour au calme est un calendrier, pas une réserve (R2).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Soutient le récépissé mais pas tout de suite.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 2,
+        "nature_retenue": "nette",
+        "motif": "Soutient la remise du récépissé telle qu'énoncée ; le report après le retour au calme est un calendrier, pas une réserve (R2). (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "4f8f85c8"
+    },
+    {
+      "question_id": "SEC-002",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Selon BFM, le programme présenté prévoit l'interdiction des lanceurs de balles de défense (LBD40) pour le maintien de l'ordre, dans une ligne très proche de celle du programme du NFP. L'article ne cite pas le texte du programme.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Selon le média, le programme présenté prévoit l'interdiction des lanceurs de balles de défense (LBD40) pour le maintien de l'ordre. L'article ne cite pas le texte du programme.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.bfmtv.com/politique/elections/presidentielle/nucleaire-hausse-du-smic-gaza-taxe-zucman-le-programme-presidentiel-de-marine-tondelier-est-il-different-de-celui-du-nfp_AN-202607130506.html",
+            "titre": "Nucléaire, hausse du Smic, Gaza, taxe Zucman... Le programme présidentiel de Marine Tondelier est-il différent de celui du NFP? - BFM",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Le programme prévoit l'interdiction des LBD pour le maintien de l'ordre.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Programme prévoyant l'interdiction des LBD.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "fcd40acc"
+    },
+    {
+      "question_id": "SEC-003",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Selon BFM, le programme présenté prévoit le démantèlement des Brav-M, unités chargées du maintien de l'ordre, dans une ligne très proche de celle du programme du NFP. L'article ne cite pas le texte du programme.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Selon le média, le programme présenté prévoit le démantèlement des Brav-M, unités chargées du maintien de l'ordre. L'article ne cite pas le texte du programme.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.bfmtv.com/politique/elections/presidentielle/nucleaire-hausse-du-smic-gaza-taxe-zucman-le-programme-presidentiel-de-marine-tondelier-est-il-different-de-celui-du-nfp_AN-202607130506.html",
+            "titre": "Nucléaire, hausse du Smic, Gaza, taxe Zucman... Le programme présidentiel de Marine Tondelier est-il différent de celui du NFP? - BFM",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Son programme prévoit de démanteler les BRAV-M.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Prévoit le démantèlement des Brav-M.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "9de78803"
+    },
+    {
+      "question_id": "SEC-004",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Elle rappelle que sa famille politique réclame depuis plusieurs années l'abrogation de la loi de 2017 sur l'usage des armes à feu par les policiers, notamment en cas de refus d'obtempérer, et juge évident que cette loi va devoir changer.",
+          "citation_courte": "Ça me paraît évident que la loi va devoir changer",
+          "reformulation_anonymisee": "[CANDIDAT] rappelle que son camp réclame depuis plusieurs années l'abrogation de la loi de 2017 sur l'usage des armes à feu par les policiers, notamment en cas de refus d'obtempérer, et juge évident que cette loi va devoir changer.",
+          "citation_anonymisee": "Ça me paraît évident que la loi va devoir changer",
+          "source": {
+            "url": "https://www.publicsenat.fr/actualites/societe/il-y-a-un-probleme-systemique-dans-la-police-declare-lecologiste-marine-tondelier",
+            "titre": "« Il y a un problème systémique dans la police », déclare l’écologiste Marine Tondelier - Public Sénat",
+            "date_publication": "2023-07-03",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Son camp réclame l'abrogation ; lui juge que la loi va devoir changer, sans s'engager sur l'abrogation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Dit que la loi va devoir changer, son camp demandant l'abrogation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "b6c0c265"
+    },
+    {
+      "question_id": "SEC-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-008",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Selon BFM, le programme présenté défend le retour de la police de proximité, démantelée en 2003, comme le programme du NFP. L'article ne précise pas le détail du dispositif.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Selon le média, le programme présenté défend le retour de la police de proximité, démantelée en 2003. L'article ne précise pas le détail du dispositif.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.bfmtv.com/politique/elections/presidentielle/nucleaire-hausse-du-smic-gaza-taxe-zucman-le-programme-presidentiel-de-marine-tondelier-est-il-different-de-celui-du-nfp_AN-202607130506.html",
+            "titre": "Nucléaire, hausse du Smic, Gaza, taxe Zucman... Le programme présidentiel de Marine Tondelier est-il différent de celui du NFP? - BFM",
+            "date_publication": "2026-07-13",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Le programme défend le retour de la police de proximité.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Le programme défend le retour de la police de proximité.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "c51ddcfd"
+    },
+    {
+      "question_id": "SEC-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-016",
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Elle affirme que tous les policiers municipaux n'ont pas besoin d'être armés et fait confiance aux maires, qui savent ce dont leur territoire a besoin : s'ils estiment l'armement nécessaire, ils le décident, à condition de former les agents.",
+          "citation_courte": "tous les policiers n'ont pas besoin d'être armés",
+          "reformulation_anonymisee": "[CANDIDAT] affirme que tous les policiers municipaux n'ont pas besoin d'être armés et fait confiance aux maires, qui savent ce dont leur territoire a besoin : s'ils estiment l'armement nécessaire, ils le décident, à condition de former les agents.",
+          "citation_anonymisee": "tous les policiers n'ont pas besoin d'être armés",
+          "source": {
+            "url": "https://www.aefinfo.fr/depeche/714963-non-on-ne-va-pas-desarmer-tous-les-policiers-marine-tondelier-nfp-eelv",
+            "titre": "\"Non, on ne va pas désarmer tous les policiers\" (Marine Tondelier, NFP-EELV) - AEF info",
+            "date_publication": "2024-07-04",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Défend le statu quo (décision du maire, tous n'ont pas besoin d'être armés), contraire à l'armement par défaut.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Laisse le choix aux maires sans généraliser l'armement.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "8591e4a3"
+    },
+    {
+      "question_id": "SEC-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogée sur la castration chimique des pédocriminels, elle estime qu'elle n'est pas efficace seule : qu'elle soit à la demande de la personne ou obligatoire, elle ne marche pas sans traitement psychologique et accompagnement. Elle ne se prononce pas pour ou contre le caractère obligatoire.",
+          "citation_courte": "sans traitement psychologique et accompagnement de cette nature, ça ne marche pas",
+          "reformulation_anonymisee": "Interrogé sur la castration chimique des pédocriminels, [CANDIDAT] estime qu'elle n'est pas efficace seule : qu'elle soit à la demande de la personne ou obligatoire, elle ne marche pas sans traitement psychologique et accompagnement. [CANDIDAT] ne se prononce pas pour ou contre le caractère obligatoire.",
+          "citation_anonymisee": "sans traitement psychologique et accompagnement de cette nature, ça ne marche pas",
+          "source": {
+            "url": "https://www.bfmtv.com/politique/bruno-retailleau-gabriel-attal-mathilde-panot-ce-qu-il-faut-retenir-des-propositions-politiques-sur-bfmtv-apres-la-mort-de-lyhanna_AN-202606100940.html",
+            "titre": "Bruno Retailleau, Gabriel Attal, Mathilde Panot… Ce qu’il faut retenir des propositions des politiques sur BFMTV après la mort de Lyhanna - BFM",
+            "date_publication": "2026-06-10",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Juge la castration chimique inefficace seule sans se prononcer sur son caractère obligatoire.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Ne se prononce pas sur le caractère obligatoire.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "b6373a46"
+    },
+    {
+      "question_id": "SEC-021",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-002",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogée sur le blocage possible de l'agenda écologiste par les règles de décision européennes (majorité qualifiée ou unanimité), elle déclare s'opposer à la règle de l'unanimité, qui permet le blocage par un seul État, et vouloir passer à la majorité qualifiée. Elle parle de la règle de l'unanimité en général, sans viser spécifiquement la politique étrangère.",
+          "citation_courte": "la règle de l'unanimité, qui permet le blocage par la volonté d'un seul",
+          "reformulation_anonymisee": "Interrogé sur le blocage possible de l'agenda écologiste par les règles de décision européennes (majorité qualifiée ou unanimité), [CANDIDAT] déclare s'opposer à la règle de l'unanimité, qui permet le blocage par un seul État, et vouloir passer à la majorité qualifiée. [CANDIDAT] parle de la règle de l'unanimité en général, sans viser spécifiquement la politique étrangère.",
+          "citation_anonymisee": "la règle de l'unanimité, qui permet le blocage par la volonté d'un seul",
+          "source": {
+            "url": "https://lvsl.fr/marine-tondelier-nous-voulons-depasser-letat-nation/",
+            "titre": "Marine Tondelier : « Nous voulons dépasser l'État-nation »",
+            "date_publication": "2023-06-02",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "S'oppose à l'unanimité en général, sans viser précisément la politique étrangère.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut la majorité qualifiée plutôt que l'unanimité, sans viser la politique étrangère.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "c67e0871"
+    },
+    {
+      "question_id": "EUR-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    }
+  ]
+}

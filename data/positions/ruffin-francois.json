@@ -1,0 +1,4493 @@
+{
+  "candidat_id": "ruffin-francois",
+  "_statut": "POC — vague 3 du codage (4 octobre 2026) : première recherche pour ce candidat, sur les 206 questions actives. Double codage aveugle (Opus 5.5, Sonnet 5.5), désaccords arbitrés provisoirement par un 3e modèle (Fable 5.1), contrôle humain de 10 % à faire. Aucun programme 2027 complet publié à cette date. À revoir avant publication.",
+  "grille_version": "1.2",
+  "programme": {
+    "officiel_disponible": false,
+    "date_publication": null,
+    "url": null,
+    "note": "Aucun programme officiel 2027 complet trouvé au 4 octobre 2026."
+  },
+  "positions": [
+    {
+      "question_id": "DEF-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-008",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans un texte signé sur l'Europe, il écrit que la France, seul pays de l'Union à détenir l'arme nucléaire et un siège permanent à l'ONU, doit être la locomotive d'une indépendance européenne et entraîner des alliés pour bâtir en Europe une sécurité et une dissuasion propres. Le texte ne précise ni le mécanisme, ni les pays concernés, ni la décision d'emploi.",
+          "citation_courte": "bâtir, en Europe, notre propre sécurité, notre propre dissuasion",
+          "reformulation_anonymisee": "Dans un texte signé sur l'Europe, [CANDIDAT] écrit que le pays, seul de l'Union à détenir l'arme nucléaire et un siège permanent à l'ONU, doit être la locomotive d'une indépendance européenne et entraîner des alliés pour bâtir en Europe une sécurité et une dissuasion propres. Le texte ne précise ni le mécanisme, ni les pays concernés, ni la décision d'emploi.",
+          "citation_anonymisee": "bâtir, en Europe, notre propre sécurité, notre propre dissuasion",
+          "source": {
+            "url": "https://legrandcontinent.eu/fr/2026/02/25/pour-une-declaration-dindependance-la-doctrine-ruffin-sur-leurope/",
+            "titre": "Pour une déclaration d'indépendance : la doctrine Ruffin sur l'Europe (Le Grand Continent)",
+            "date_publication": "2026-02-25",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut bâtir une dissuasion européenne sous impulsion française, sans mécanisme précisé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut une dissuasion européenne, sans mécanisme précis.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "7fc1944b"
+    },
+    {
+      "question_id": "DEF-009",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il évoque, parmi des initiatives que la France pourrait mettre en débat avec ses partenaires et non prendre seule, la suspension par l'Union européenne de son accord d'association avec Israël, « à commencer par la livraison d'armes ». Il note que, selon le Sipri, la France ne livre presque aucun matériel militaire au sens strict, mais environ 20 millions d'euros par an de composants militaires. Il s'agit d'une piste évoquée en novembre 2023, non d'un engagement chiffré.",
+          "citation_courte": "A commencer par la livraison d'armes.",
+          "reformulation_anonymisee": "[CANDIDAT] évoque, parmi des initiatives que le pays pourrait mettre en débat avec ses partenaires et non prendre seul, la suspension par l'Union européenne de son accord d'association avec Israël, « à commencer par la livraison d'armes ». Il note que, selon un institut de recherche, le pays ne livre presque aucun matériel militaire au sens strict, mais environ 20 millions d'euros par an de composants militaires. Il s'agit d'une piste évoquée, non d'un engagement chiffré.",
+          "citation_anonymisee": "A commencer par la livraison d'armes.",
+          "source": {
+            "url": "https://francoisruffin.fr/gaza-que-pourrait-faire-la-france/",
+            "titre": "Gaza : que pourrait faire la France ? (francoisruffin.fr)",
+            "date_publication": "2023-11-14",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Évoque, comme piste à débattre avec les partenaires, l'arrêt des livraisons d'armes ; ce n'est pas un engagement.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Évoque une suspension européenne à commencer par les armes, piste non engagée.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "3b1a1cd9"
+    },
+    {
+      "question_id": "DEF-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-013",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Dans un texte signé, il relève que l'industrie de défense française a été préservée parce que la commande publique des armées a été orientée vers l'achat national, avec protection des entreprises et planification par la DGA, hors règles européennes de concurrence. Il juge qu'il faut renforcer cette industrie dès aujourd'hui. Il ne formule pas expressément de règle de préférence nationale pour les achats futurs.",
+          "citation_courte": "Nous avons orienté la commande publique de nos armées vers l'achat national.",
+          "reformulation_anonymisee": "Dans un texte signé, [CANDIDAT] relève que l'industrie de défense nationale a été préservée parce que la commande publique des armées a été orientée vers l'achat national, avec protection des entreprises et planification par l'agence d'armement, hors règles européennes de concurrence. Il juge qu'il faut renforcer cette industrie dès aujourd'hui. Il ne formule pas expressément de règle de préférence nationale pour les achats futurs.",
+          "citation_anonymisee": "Nous avons orienté la commande publique de nos armées vers l'achat national.",
+          "source": {
+            "url": "https://legrandcontinent.eu/fr/2026/02/25/pour-une-declaration-dindependance-la-doctrine-ruffin-sur-leurope/",
+            "titre": "Pour une déclaration d'indépendance : la doctrine Ruffin sur l'Europe (Le Grand Continent)",
+            "date_publication": "2026-02-25",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Approuve l'orientation passée de la commande des armées vers l'achat national sans formuler de règle pour l'avenir.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Pas de règle de préférence nationale formulée.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "imprecise",
+        "motif": "Approuve l'orientation de la commande des armées vers l'achat national et veut renforcer l'industrie : direction perceptible, sans règle formulée pour l'avenir. (code retenu : celui du codeur A)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "038e59ae"
+    },
+    {
+      "question_id": "DEF-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-002",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme prévoit de prolonger la durée de vie des centrales nucléaires existantes tant que l'autorité de sûreté valide leur sûreté, de poursuivre la construction des six EPR2 et d'étudier la construction de huit autres ; il ne prévoit aucune sortie du nucléaire.",
+          "citation_courte": "Nous poursuivrons aussi la construction des six réacteurs EPR2",
+          "reformulation_anonymisee": "Le programme prévoit de prolonger la durée de vie des centrales nucléaires existantes tant que l'autorité de sûreté valide leur sûreté, de poursuivre la construction des six EPR2 et d'étudier la construction de huit autres ; il ne prévoit aucune sortie du nucléaire.",
+          "citation_anonymisee": "Nous poursuivrons aussi la construction des six réacteurs EPR2",
+          "source": {
+            "url": "https://nouspresident.fr/travaillisme-ecologique/",
+            "titre": "Face au chantier du siècle : Pour un travaillisme écologique (cahier de campagne, site de campagne)",
+            "date_publication": "2026-09-09",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Prolonge les centrales et construit de nouveaux réacteurs : aucune sortie du nucléaire.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Prolonge les centrales et poursuit les EPR2.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "c122ed4c"
+    },
+    {
+      "question_id": "ENV-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-011",
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le programme annonce que le développement de l'énergie éolienne sera poursuivi, car elle produit davantage en hiver quand les besoins électriques sont les plus forts, avec un rôle accru des collectivités dans la gouvernance des projets et la relocalisation d'une industrie de l'éolien en France.",
+          "citation_courte": "nous poursuivrons le développement de l'énergie éolienne",
+          "reformulation_anonymisee": "Le programme annonce que le développement de l'énergie éolienne sera poursuivi, car elle produit davantage en hiver quand les besoins électriques sont les plus forts, avec un rôle accru des collectivités dans la gouvernance des projets et la relocalisation d'une industrie de l'éolien en France.",
+          "citation_anonymisee": "nous poursuivrons le développement de l'énergie éolienne",
+          "source": {
+            "url": "https://nouspresident.fr/travaillisme-ecologique/",
+            "titre": "Face au chantier du siècle : Pour un travaillisme écologique (cahier de campagne, site de campagne)",
+            "date_publication": "2026-09-09",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Veut poursuivre le développement de l'éolien, sans évoquer explicitement le soutien financier.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Poursuit le développement de l'éolien.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "nuancee",
+        "motif": "Poursuivre le développement de l'éolien est une mesure identifiable contraire à l'énoncé, sans évoquer le soutien financier : hésitation -2/-1 tranchée vers 0. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "be5e15ee"
+    },
+    {
+      "question_id": "ENV-012",
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme prévoit que toutes les métropoles organisent des assises de la qualité de l'air et que les mesures de protection de l'air, comme les ZFE, émanent des citoyens au plus près des besoins plutôt que d'en haut. Il ne propose pas de supprimer les ZFE mais de les décider localement.",
+          "citation_courte": "Les mesures de protection de l'air comme les ZFE",
+          "reformulation_anonymisee": "Le programme prévoit que toutes les métropoles organisent des assises de la qualité de l'air et que les mesures de protection de l'air, comme les ZFE, émanent des citoyens au plus près des besoins plutôt que d'en haut. Il ne propose pas de supprimer les ZFE mais de les décider localement.",
+          "citation_anonymisee": "Les mesures de protection de l'air comme les ZFE",
+          "source": {
+            "url": "https://nouspresident.fr/travaillisme-ecologique/",
+            "titre": "Face au chantier du siècle : Pour un travaillisme écologique (cahier de campagne, site de campagne)",
+            "date_publication": "2026-09-09",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Ne supprime pas les ZFE mais veut qu'elles soient décidées localement (autre mécanisme, R3).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Ne supprime pas les ZFE mais les fait décider localement.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "2c00434b"
+    },
+    {
+      "question_id": "ENV-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-018",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le programme prévoit une sortie progressive du marché de l'électricité : suppression de la concurrence sur la vente aux consommateurs, avec un service public dont les prix de vente reposent sur les coûts réels de production, et retour progressif à une production 100 % publique par EDF. La source ne mentionne pas explicitement les règles européennes du marché.",
+          "citation_courte": "organiserons une sortie progressive du marché de l'électricité",
+          "reformulation_anonymisee": "Le programme prévoit une sortie progressive du marché de l'électricité : suppression de la concurrence sur la vente aux consommateurs, avec un service public dont les prix de vente reposent sur les coûts réels de production, et retour progressif à une production 100 % publique par EDF. La source ne mentionne pas explicitement les règles européennes du marché.",
+          "citation_anonymisee": "organiserons une sortie progressive du marché de l'électricité",
+          "source": {
+            "url": "https://nouspresident.fr/travaillisme-ecologique/",
+            "titre": "Face au chantier du siècle : Pour un travaillisme écologique (cahier de campagne, site de campagne)",
+            "date_publication": "2026-09-09",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Sortie progressive du marché de l'électricité avec prix fondés sur les coûts de production (R2).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Sortie progressive du marché avec prix fondés sur les coûts, sans mention des règles européennes.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Sortie progressive du marché avec prix publics fondés sur les coûts, sans viser explicitement les règles européennes : hésitation +2/+1 tranchée vers 0. (code retenu : celui du codeur A)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "8554749b"
+    },
+    {
+      "question_id": "ENV-022",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-023",
+      "code": 0,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme prévoit de poursuivre la construction des six EPR2. Pour les huit EPR2 supplémentaires, il ne s'engage pas : la décision sera prise selon le devis d'EDF, d'autres solutions étant étudiées si le devis est trop élevé.",
+          "citation_courte": "sera prise en fonction du devis proposé par EDF",
+          "reformulation_anonymisee": "Le programme prévoit de poursuivre la construction des six EPR2. Pour les huit EPR2 supplémentaires, il ne s'engage pas : la décision sera prise selon le devis d'EDF, d'autres solutions étant étudiées si le devis est trop élevé.",
+          "citation_anonymisee": "sera prise en fonction du devis proposé par EDF",
+          "source": {
+            "url": "https://nouspresident.fr/travaillisme-ecologique/",
+            "titre": "Face au chantier du siècle : Pour un travaillisme écologique (cahier de campagne, site de campagne)",
+            "date_publication": "2026-09-09",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 0,
+          "nature": "nuancee",
+          "justification": "Refus argumenté de trancher : décision sur les huit réacteurs selon le devis d'EDF.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 0,
+          "nature": "nuancee",
+          "justification": "Refuse de trancher, décision selon le devis d'EDF.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "7911dc02"
+    },
+    {
+      "question_id": "ENV-024",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-025",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Face à la hausse des prix à la pompe, il réclame un blocage des prix des carburants, présenté comme moyen d'empêcher les pétroliers de profiter de la situation (message publié sur les réseaux sociaux, rapporté par un média).",
+          "citation_courte": "Blocage des prix à la pompe",
+          "reformulation_anonymisee": "Face à la hausse des prix à la pompe, [CANDIDAT] réclame un blocage des prix des carburants, présenté comme moyen d'empêcher les pétroliers de profiter de la situation (message publié sur les réseaux sociaux, rapporté par un média).",
+          "citation_anonymisee": "Blocage des prix à la pompe",
+          "source": {
+            "url": "https://www.auto-moto.com/carburant/bloquer-prix-hausse-carbu",
+            "titre": "\"Bloquer les prix\", la solution magique de ce politique pour limiter la hausse des carburants",
+            "date_publication": "2026-03-05",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Il demande de contrôler les prix et les marges pour empêcher les surprofits, de remettre une taxe flottante pour lisser les hausses et d'indexer les salaires sur l'inflation ; il juge insuffisants les chèques carburant et veut faire baisser et stabiliser le prix de l'essence. Il ne parle pas explicitement de blocage dans cet entretien.",
+          "citation_courte": "remettre une taxe flottante pour lisser les hausses",
+          "reformulation_anonymisee": "[CANDIDAT] demande de contrôler les prix et les marges pour empêcher les surprofits, de remettre une taxe flottante pour lisser les hausses et d'indexer les salaires sur l'inflation ; il juge insuffisants les chèques carburant et veut faire baisser et stabiliser le prix de l'essence. Il ne parle pas explicitement de blocage dans cet entretien.",
+          "citation_anonymisee": "remettre une taxe flottante pour lisser les hausses",
+          "source": {
+            "url": "https://www.sudradio.fr/linvite-politique/carburants-francois-ruffin-denonce-des-profiteurs-de-guerre",
+            "titre": "Prix des carburants : François Ruffin dénonce \"des profiteurs de la guerre\"",
+            "date_publication": "2026-04-10",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Lors d'un forum télévisé consacré à la crise des carburants, il se prononce pour une taxe flottante (selon le titre de la page ; le contenu de la vidéo n'a pas pu être consulté).",
+          "citation_courte": "une taxe flottante",
+          "reformulation_anonymisee": "Lors d'un forum télévisé consacré à la crise des carburants, [CANDIDAT] se prononce pour une taxe flottante (selon le titre de la page ; le contenu de la vidéo n'a pas pu être consulté).",
+          "citation_anonymisee": "une taxe flottante",
+          "source": {
+            "url": "https://www.bfmtv.com/politique/video-forum-bfmtv-crise-des-carburants-francois-ruffin-depute-de-la-somme-et-candidat-debout-a-l-election-presidentielle-est-pour-une-taxe-flottante_VN-202609230905.html",
+            "titre": "FORUM BFMTV - Crise des carburants : François Ruffin est pour \"une taxe flottante\"",
+            "date_publication": "2026-09-23",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Réclame un blocage en mars 2026, puis un contrôle des prix et une taxe flottante : direction favorable mais sources récentes divergentes.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Contrôle des prix et taxe flottante, blocage demandé en mars.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "9fe8dfeb"
+    },
+    {
+      "question_id": "ENV-026",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-001",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Lors du lancement de sa campagne, le candidat a promis d'augmenter le SMIC à 1 700 euros nets mensuels (et non 1 600), ainsi qu'une prime obligatoire de 1 000 euros sans cotisation ni fiscalité versée par les employeurs aux salariés les plus modestes dès l'arrivée au pouvoir.",
+          "citation_courte": "augmenter le SMIC à 1.700 euros nets mensuels",
+          "reformulation_anonymisee": "Lors du lancement de sa campagne, [CANDIDAT] a promis d'augmenter le SMIC à 1 700 euros nets mensuels (et non 1 600), ainsi qu'une prime obligatoire de 1 000 euros sans cotisation ni fiscalité versée par les employeurs aux salariés les plus modestes dès l'arrivée au pouvoir.",
+          "citation_anonymisee": "augmenter le SMIC à 1.700 euros nets mensuels",
+          "source": {
+            "url": "https://www.20minutes.fr/politique/4220297-20260425-presidentielle-2027-francois-ruffin-lance-campagne-defenseur-travailleurs-essentiels",
+            "titre": "Présidentielle 2027 : François Ruffin lance sa campagne en défenseur des « travailleurs essentiels » (20 Minutes avec AFP)",
+            "date_publication": "2026-04-25",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Promet un SMIC à 1 700 euros nets, plus loin que l'énoncé (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "SMIC à 1700 net, va plus loin (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "22a469d0"
+    },
+    {
+      "question_id": "ECO-002",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur BFMTV/RMC, le candidat dit vouloir remettre l'indexation des salaires sur l'inflation, en vigueur jusqu'en 1983, afin que les Français ne paient plus l'inflation. Aucune modalité précise n'est donnée.",
+          "citation_courte": "l’indexation des salaires sur l’inflation, qui a existé jusqu’en 1983",
+          "reformulation_anonymisee": "Interrogé à la radio-télévision, [CANDIDAT] dit vouloir remettre l'indexation des salaires sur l'inflation, en vigueur jusqu'en 1983, afin que les Français ne paient plus l'inflation. Aucune modalité précise n'est donnée.",
+          "citation_anonymisee": "l’indexation des salaires sur l’inflation, qui a existé jusqu’en 1983",
+          "source": {
+            "url": "https://www.bfmtv.com/politique/elections/presidentielle/indexation-des-salaires-sur-l-inflation-regulation-du-marche-pour-francois-ruffin-le-grand-choix-pour-2027-est-de-repondre-a-la-colere-sociale_AV-202605010266.html",
+            "titre": "Indexation des salaires sur l'inflation, régulation du marché... Pour François Ruffin « le grand choix pour 2027 » est de répondre à la colère sociale (BFM)",
+            "date_publication": "2026-05-01",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Dans un entretien, le candidat affirme vouloir rétablir l'indexation des salaires sur les prix, supprimée en 1983, pour que les salaires réels progressent. Il distingue les multinationales des PME mais ne précise ni le mécanisme ni le calendrier.",
+          "citation_courte": "Nous voulons donc rétablir l’indexation des salaires sur les prix.",
+          "reformulation_anonymisee": "Dans un entretien, [CANDIDAT] affirme vouloir rétablir l'indexation des salaires sur les prix, supprimée en 1983, pour que les salaires réels progressent. Il distingue les multinationales des PME mais ne précise ni le mécanisme ni le calendrier.",
+          "citation_anonymisee": "Nous voulons donc rétablir l’indexation des salaires sur les prix.",
+          "source": {
+            "url": "https://www.alternatives-economiques.fr/francois-ruffin-il-est-temps-de-refermer-la-parenthese-liberale",
+            "titre": "François Ruffin : « Il est temps de refermer la parenthèse libérale » (Alternatives économiques)",
+            "date_publication": "2026-07-11",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut rétablir l'indexation des salaires sur les prix, sans mécanisme et en distinguant multinationales et PME.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut rétablir l'indexation des salaires, modalités non précisées.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "6c69a998"
+    },
+    {
+      "question_id": "ECO-003",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans un entretien, le candidat dit vouloir rétablir le contrôle des prix et des marges (en vigueur jusqu'en 1986) et des prix planchers agricoles, et réguler les marchés hors santé et éducation. Il ne parle pas de blocage ni ne vise précisément l'alimentation, l'énergie ou les carburants dans ce passage.",
+          "citation_courte": "Nous voulons rétablir ces régulations.",
+          "reformulation_anonymisee": "Dans un entretien, [CANDIDAT] dit vouloir rétablir le contrôle des prix et des marges (en vigueur jusqu'en 1986) et des prix planchers agricoles, et réguler les marchés hors santé et éducation. Il ne parle pas de blocage ni ne vise précisément l'alimentation, l'énergie ou les carburants dans ce passage.",
+          "citation_anonymisee": "Nous voulons rétablir ces régulations.",
+          "source": {
+            "url": "https://www.alternatives-economiques.fr/francois-ruffin-il-est-temps-de-refermer-la-parenthese-liberale",
+            "titre": "François Ruffin : « Il est temps de refermer la parenthèse libérale » (Alternatives économiques)",
+            "date_publication": "2026-07-11",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut rétablir le contrôle des prix et des marges, sans parler de blocage ni des secteurs visés.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut rétablir le contrôle des prix et marges, sans parler de blocage.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "c9720cf5"
+    },
+    {
+      "question_id": "ECO-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-001",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans un compte rendu d'une rencontre publique à Valenciennes, le journaliste écrit que le candidat veut revenir sur la réforme Parcoursup, et lui prête la phrase selon laquelle on ne peut pas figer les destins à 15 ans. Le compte rendu ne précise ni une suppression de la plateforme ni ce qui la remplacerait.",
+          "citation_courte": "On ne peut pas figer les destins à 15 ans !",
+          "reformulation_anonymisee": "Dans un compte rendu d'une rencontre publique, le journaliste écrit que [CANDIDAT] veut revenir sur la réforme Parcoursup, et lui prête la phrase selon laquelle on ne peut pas figer les destins à 15 ans. Le compte rendu ne précise ni une suppression de la plateforme ni ce qui la remplacerait.",
+          "citation_anonymisee": "On ne peut pas figer les destins à 15 ans !",
+          "source": {
+            "url": "https://www.va-infos.fr/2026/05/21/entretien-dembauche-avec-francois-ruffin-a-valenciennes/",
+            "titre": "Entretien d'embauche avec François Ruffin à Valenciennes",
+            "date_publication": "2026-05-21",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut revenir sur Parcoursup sans dire s'il le supprimerait.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut revenir sur Parcoursup sans préciser suppression ni remplacement.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "9162a6e8"
+    },
+    {
+      "question_id": "EDU-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-001",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur les moyens de récupérer 15 à 20 milliards d'euros sur les plus grandes fortunes, il cite le retour de l'impôt de solidarité sur la fortune parmi plusieurs outils possibles (avec la taxe sur les hauts patrimoines, la fin des sociétés écrans, le relèvement des dividendes, la taxation des grandes transmissions). Il ne l'érige pas en mesure unique : « plusieurs solutions sont possibles ».",
+          "citation_courte": "le retour de l'impôt de solidarité sur la fortune",
+          "reformulation_anonymisee": "Interrogé sur les moyens de récupérer 15 à 20 milliards d'euros sur les plus grandes fortunes, [CANDIDAT] cite le retour de l'impôt de solidarité sur la fortune parmi plusieurs outils possibles (avec la taxe sur les hauts patrimoines, la fin des sociétés écrans, le relèvement des dividendes, la taxation des grandes transmissions). Il ne l'érige pas en mesure unique : « plusieurs solutions sont possibles ».",
+          "citation_anonymisee": "le retour de l'impôt de solidarité sur la fortune",
+          "source": {
+            "url": "https://www.franceinfo.fr/politique/justice-fiscale-aujourd-hui-c-est-un-combat-fiscal-entre-la-democratie-et-l-oligarchie-affirme-francois-ruffin-depute-debout-de-la-somme_7524913.html",
+            "titre": "Justice fiscale : « Aujourd'hui, c'est un combat fiscal entre la démocratie et l'oligarchie » (franceinfo, entretien)",
+            "date_publication": "2025-10-01",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Cite le retour de l'ISF comme un outil possible parmi d'autres, sans engagement ferme.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Cite le retour de l'ISF parmi plusieurs outils possibles.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "imprecise",
+        "motif": "Cite le retour de l'ISF comme un outil possible parmi d'autres sans engagement : direction favorable, choix non arrêté. (code retenu : celui du codeur A)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "52717878"
+    },
+    {
+      "question_id": "FIS-002",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il range la taxe sur les patrimoines des ultra-riches (taxe Zucman) parmi les mesures immédiates à prendre pour corriger la faible contribution des 0,1 % les plus riches. Le taux (2 %) et le seuil (100 millions d'euros) ne sont pas repris dans le passage.",
+          "citation_courte": "Il faut corriger cela d'urgence par des mesures immédiates : taxe Zucman",
+          "reformulation_anonymisee": "[CANDIDAT] range la taxe sur les patrimoines des ultra-riches parmi les mesures immédiates à prendre pour corriger la faible contribution des 0,1 % les plus riches. Le taux (2 %) et le seuil (100 millions d'euros) ne sont pas repris dans le passage.",
+          "citation_anonymisee": "Il faut corriger cela d'urgence par des mesures immédiates",
+          "source": {
+            "url": "https://www.alternatives-economiques.fr/francois-ruffin-il-est-temps-de-refermer-la-parenthese-liberale",
+            "titre": "François Ruffin : « Il est temps de refermer la parenthèse libérale » (Alternatives économiques)",
+            "date_publication": "2026-07-11",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Il qualifie la taxe Zucman de « bon outil » et réclame au gouvernement une obligation de résultat : 15 à 20 milliards d'euros à trouver chaque année sur les plus grandes fortunes, par cette taxe ou d'autres moyens. Les paramètres (2 %, 100 millions) ne sont pas précisés.",
+          "citation_courte": "La taxe Zucman est un bon outil",
+          "reformulation_anonymisee": "[CANDIDAT] qualifie la taxe sur les hauts patrimoines de « bon outil » et réclame au gouvernement une obligation de résultat : 15 à 20 milliards d'euros à trouver chaque année sur les plus grandes fortunes, par cette taxe ou d'autres moyens. Les paramètres (2 %, 100 millions) ne sont pas précisés.",
+          "citation_anonymisee": "La taxe sur les hauts patrimoines est un bon outil",
+          "source": {
+            "url": "https://www.franceinfo.fr/politique/justice-fiscale-aujourd-hui-c-est-un-combat-fiscal-entre-la-democratie-et-l-oligarchie-affirme-francois-ruffin-depute-debout-de-la-somme_7524913.html",
+            "titre": "Justice fiscale : « Aujourd'hui, c'est un combat fiscal entre la démocratie et l'oligarchie » (franceinfo, entretien)",
+            "date_publication": "2025-10-01",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Soutient une taxe sur les hauts patrimoines sans reprendre le taux de 2 % ni le seuil de 100 millions.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Soutient une taxe sur les hauts patrimoines sans les paramètres.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "5c82bbd6"
+    },
+    {
+      "question_id": "FIS-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-005",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il cite la taxation des « super-héritages » parmi les mesures immédiates contre la faible contribution des 0,1 % les plus riches. La source ne donne ni seuil (12 millions d'euros) ni taux de prélèvement.",
+          "citation_courte": "taxation des super-héritages",
+          "reformulation_anonymisee": "[CANDIDAT] cite la taxation des « super-héritages » parmi les mesures immédiates contre la faible contribution des 0,1 % les plus riches. La source ne donne ni seuil (12 millions d'euros) ni taux de prélèvement.",
+          "citation_anonymisee": "taxation des super-héritages",
+          "source": {
+            "url": "https://www.alternatives-economiques.fr/francois-ruffin-il-est-temps-de-refermer-la-parenthese-liberale",
+            "titre": "François Ruffin : « Il est temps de refermer la parenthèse libérale » (Alternatives économiques)",
+            "date_publication": "2026-07-11",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut taxer les super-héritages, sans seuil ni taux de prélèvement intégral.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Taxation des super-héritages sans seuil ni taux.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "3efce249"
+    },
+    {
+      "question_id": "FIS-006",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Pour les grandes fortunes qui quitteraient la France afin d'échapper à l'impôt, il se dit favorable à des mesures contraignantes et cite l'exemple américain où l'on reste taxé à vie même après un départ. Il s'interroge sur une privation des droits civiques ou un gel des avoirs : formulation de piste évoquée, sans cadre précis (pays visés, critères).",
+          "citation_courte": "Aux États-Unis, même quand les gens s'en vont, ils continuent d'être taxés à vie.",
+          "reformulation_anonymisee": "Pour les grandes fortunes qui quitteraient la France afin d'échapper à l'impôt, [CANDIDAT] se dit favorable à des mesures contraignantes et cite l'exemple américain où l'on reste taxé à vie même après un départ. Il s'interroge sur une privation des droits civiques ou un gel des avoirs : formulation de piste évoquée, sans cadre précis (pays visés, critères).",
+          "citation_anonymisee": "Aux États-Unis, même quand les gens s'en vont, ils continuent d'être taxés à vie.",
+          "source": {
+            "url": "https://www.lefigaro.fr/conjoncture/pourquoi-pas-une-privation-des-droits-civiques-francois-ruffin-veut-sanctionner-les-riches-qui-fuient-l-impot-20250924",
+            "titre": "« Pourquoi pas une privation des droits civiques ? » : François Ruffin veut sanctionner les riches qui fuient l'impôt (Le Figaro)",
+            "date_publication": "2025-09-24",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Favorable à une taxation des exilés fiscaux sur le modèle américain, piste sans cadre précis.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Favorable à des mesures contraignantes, piste sans cadre précis.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "4227322f"
+    },
+    {
+      "question_id": "FIS-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-001",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans une note de blog, le candidat rappelle qu'il distingue les immigrés déjà présents en France, « avec ou sans papiers », qui doivent tous pouvoir travailler et gagner leur vie, de l'immigration de travail future, à laquelle il est hostile. Il maintient une régularisation fondée sur des raisons humanitaires, de production et de cohésion nationale. Le texte ne précise ni durée de présence ni critères.",
+          "citation_courte": "Une régularisation pour des raisons à la fois humanitaires, mais aussi de production",
+          "reformulation_anonymisee": "Dans une note de blog, [CANDIDAT] rappelle qu'il distingue les immigrés déjà présents en France, « avec ou sans papiers », qui doivent tous pouvoir travailler et gagner leur vie, de l'immigration de travail future, à laquelle il est hostile. Il maintient une régularisation fondée sur des raisons humanitaires, de production et de cohésion nationale. Le texte ne précise ni durée de présence ni critères.",
+          "citation_anonymisee": "Une régularisation pour des raisons à la fois humanitaires, mais aussi de production",
+          "source": {
+            "url": "https://francoisruffin.fr/pourquoi-le-medef-veut-39-millions-de-travailleurs-immigres/",
+            "titre": "Pourquoi le Medef veut 3,9 millions de travailleurs immigrés",
+            "date_publication": "2026-04-29",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Défend la régularisation des présents avec ou sans papiers pour travailler, sans critères précisés.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Maintient une régularisation pour raisons humanitaires et de production, sans critères.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "10762e5e"
+    },
+    {
+      "question_id": "IMM-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-021",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-001",
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans une lettre ouverte à un autre responsable politique, il écrit être d'accord avec lui sur « la proportionnelle inutile », sans développer ni préciser de modalité (ni département, ni seuil).",
+          "citation_courte": "Je suis d’accord avec vous sur la proportionnelle inutile.",
+          "reformulation_anonymisee": "Dans une lettre ouverte à un autre responsable politique, [CANDIDAT] écrit être d'accord avec lui sur « la proportionnelle inutile », sans développer ni préciser de modalité (ni département, ni seuil).",
+          "citation_anonymisee": "Je suis d'accord avec vous sur la proportionnelle inutile.",
+          "source": {
+            "url": "https://francoisruffin.fr/edouard-philippe-le-prix-de-vos-mensonges/",
+            "titre": "Edouard Philippe : le prix de vos mensonges (lettre ouverte)",
+            "date_publication": "2025-06-11",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Se dit d'accord sur une « proportionnelle inutile », sans développement.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Juge la proportionnelle inutile, sans détail.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "f98441ad"
+    },
+    {
+      "question_id": "INS-002",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le manifeste du mouvement du candidat demande de nouveaux outils démocratiques dont le RIC, et présente le RIC comme « le premier pas » vers une nouvelle République. Le texte ne donne ni seuil de signatures ni détail des volets (proposition ou abrogation de loi).",
+          "citation_courte": "C’est pourquoi nous demandons de nouveaux outils démocratiques: le RIC",
+          "reformulation_anonymisee": "Le manifeste du mouvement du [CANDIDAT] demande de nouveaux outils démocratiques dont le RIC, et le présente comme « le premier pas » vers une nouvelle République. Le texte ne donne ni seuil de signatures ni détail des volets (proposition ou abrogation de loi).",
+          "citation_anonymisee": "Nous demandons de nouveaux outils démocratiques: le RIC",
+          "source": {
+            "url": "https://debout.fr/notre-manifeste/",
+            "titre": "Notre manifeste (document cadre du mouvement)",
+            "date_publication": "2026-04-10",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Dans une lettre ouverte, il défend une part de démocratie plus directe, par des conventions citoyennes et des consultations populaires, mais surtout par le RIC, qu'il veut inscrire dans la Constitution à l'image des votations suisses. Aucun seuil de signatures n'est donné.",
+          "citation_courte": "Mais par le Ric, surtout, que nous devons inscrire dans la Constitution",
+          "reformulation_anonymisee": "Dans une lettre ouverte, [CANDIDAT] défend une part de démocratie plus directe, par des conventions citoyennes et des consultations populaires, mais surtout par le RIC, à inscrire dans la Constitution à l'image des votations suisses. Aucun seuil de signatures n'est donné.",
+          "citation_anonymisee": "Mais par le RIC, surtout, que nous devons inscrire dans la Constitution",
+          "source": {
+            "url": "https://francoisruffin.fr/cher-raphael-glucksmann/",
+            "titre": "Cher Raphaël Glucksmann (lettre ouverte)",
+            "date_publication": "2024-01-19",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Soutient l'inscription du RIC dans la Constitution, sans seuil de signatures ni volets précisés.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Défend le RIC dans la Constitution, sans seuil de signatures.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "9c42c21c"
+    },
+    {
+      "question_id": "INS-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-008",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Il s'engage à renforcer l'indépendance du parquet en abrogeant notamment le pouvoir de nomination des magistrats du parquet par le Gouvernement, par une réforme constitutionnelle qu'il juge prête. Le texte ne mentionne pas le rôle du Conseil supérieur de la magistrature.",
+          "citation_courte": "en abrogeant notamment le pouvoir de nomination des magistrats du parquet par le Gouvernement",
+          "reformulation_anonymisee": "[CANDIDAT] s'engage à renforcer l'indépendance du parquet en abrogeant notamment le pouvoir de nomination des magistrats du parquet par le Gouvernement, par une réforme constitutionnelle jugée prête. Le texte ne mentionne pas le rôle du Conseil supérieur de la magistrature.",
+          "citation_anonymisee": "en abrogeant notamment le pouvoir de nomination des magistrats du parquet par le Gouvernement",
+          "source": {
+            "url": "https://nouspresident.fr/separation-argent-etat/",
+            "titre": "Pour une séparation de l'argent et de l'État (cahier de campagne)",
+            "date_publication": "2026-07-02",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut retirer au gouvernement le pouvoir de nommer les parquetiers, même sens par un autre mécanisme, sans mention du CSM.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Abroger le pouvoir de nomination du gouvernement, rôle du CSM non précisé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Abroger le pouvoir de nomination gouvernemental du parquet est une mesure concrète dans le sens de l'énoncé, sans reprendre le mécanisme CSM. (code retenu : celui du codeur A)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "0571a72c"
+    },
+    {
+      "question_id": "INS-009",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur la Corse lors d'un déplacement, il s'est déclaré favorable à l'autonomie, à condition qu'un maintien conséquent des pouvoirs régaliens et des solidarités nationales empêche l'île de devenir un territoire abandonné aux dérives mafieuses et à la spéculation. Propos rapportés par le journaliste ; l'inscription dans la Constitution n'est pas évoquée.",
+          "citation_courte": "favorable à l’autonomie à la condition",
+          "reformulation_anonymisee": "Interrogé sur un territoire insulaire lors d'un déplacement, [CANDIDAT] s'est déclaré favorable à l'autonomie, à condition qu'un maintien conséquent des pouvoirs régaliens et des solidarités nationales empêche le territoire de devenir un espace abandonné aux dérives mafieuses et à la spéculation. Propos rapportés par le journaliste ; l'inscription dans la Constitution n'est pas évoquée.",
+          "citation_anonymisee": "favorable à l'autonomie à la condition",
+          "source": {
+            "url": "https://www.journaldelacorse.corsica/articles/3740/francois-ruffin-gauche-debout-sans-tabou-ni-langue-de-bois",
+            "titre": "François Ruffin : gauche debout, sans tabou ni langue de bois",
+            "date_publication": "2025-03-01",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Favorable à l'autonomie sous condition, sans parler d'inscription dans la Constitution.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Favorable à l'autonomie sous condition, Constitution non évoquée.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Favorable à l'autonomie sous une condition identifiable (maintien du régalien), Constitution non évoquée. (code retenu : celui du codeur A)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "a2ed005a"
+    },
+    {
+      "question_id": "INS-010",
+      "code": 2,
+      "nature": "nette",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Il propose que les candidats à un mandat électif présentent un bulletin n°2 du casier judiciaire vierge de toute condamnation pour manquement au devoir de probité (fraude fiscale et électorale incluses) et pour les atteintes les plus graves à l'ordre social, ce qui créerait une nouvelle condition d'éligibilité. La mesure vise tous les mandats électifs, sans mention spécifique des municipales.",
+          "citation_courte": "nous introduirons une nouvelle condition d’éligibilité",
+          "reformulation_anonymisee": "Il propose que les candidats à un mandat électif présentent un bulletin n°2 du casier judiciaire vierge de toute condamnation pour manquement au devoir de probité (fraude fiscale et électorale incluses) et pour les atteintes les plus graves à l'ordre social, ce qui créerait une nouvelle condition d'éligibilité. La mesure vise tous les mandats électifs, sans mention spécifique des municipales.",
+          "citation_anonymisee": "nous introduirons une nouvelle condition d'éligibilité",
+          "source": {
+            "url": "https://nouspresident.fr/separation-argent-etat/",
+            "titre": "Pour une séparation de l'argent et de l'État (cahier de campagne)",
+            "date_publication": "2026-07-02",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Nouvelle condition d'éligibilité excluant les condamnés pour atteinte à la probité, pour tous les mandats dont les municipaux.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Casier vierge pour tous les mandats (plus large), R1.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 2,
+        "nature_retenue": "nette",
+        "motif": "Engagement ferme d'une condition d'éligibilité excluant les condamnés pour atteinte à la probité pour tous les mandats, ce qui inclut entièrement les municipales. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "0d843e4c"
+    },
+    {
+      "question_id": "INS-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-001",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur l'âge légal, la durée de cotisation et les pensions, il répond défendre un départ possible dès 60 ans, à partir de quarante années de cotisation, et dit que l'enjeu central est d'en finir avec le « mal-travail ».",
+          "citation_courte": "départ possible à partir de 60 ans, à partir de quarante années de cotisation",
+          "reformulation_anonymisee": "Interrogé sur l'âge légal, la durée de cotisation et les pensions, [CANDIDAT] répond défendre un départ possible dès 60 ans, à partir de quarante années de cotisation, et dit que l'enjeu central est d'en finir avec la dégradation des conditions de travail.",
+          "citation_anonymisee": "départ possible à partir de 60 ans, à partir de quarante années de cotisation",
+          "source": {
+            "url": "https://www.alternatives-economiques.fr/francois-ruffin-il-est-temps-de-refermer-la-parenthese-liberale",
+            "titre": "François Ruffin : « Il est temps de refermer la parenthèse libérale » (Alternatives économiques)",
+            "date_publication": "2026-07-11",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Selon CNews, il défend le principe d'un retour à un âge légal de départ à 60 ans, en faisant de la pénibilité le critère principal d'accès à la retraite. Le média ne précise pas de durée de cotisation dans ce passage.",
+          "citation_courte": "fait de la pénibilité le critère principal de l’accès à la retraite",
+          "reformulation_anonymisee": "Selon un média national, [CANDIDAT] défend le principe d'un retour à un âge légal de départ à 60 ans, en faisant de la pénibilité le critère principal d'accès à la retraite. Le média ne précise pas de durée de cotisation dans ce passage.",
+          "citation_anonymisee": "fait de la pénibilité le critère principal de l’accès à la retraite",
+          "source": {
+            "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+            "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ? (CNews)",
+            "date_publication": "2026-10-02",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Défend un départ à 60 ans, soit plus loin que 62 dans le même sens (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut 60 ans, plus loin que 62 (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "6e797354"
+    },
+    {
+      "question_id": "RET-002",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur l'âge légal, la durée de cotisation et les pensions, il répond défendre un départ possible dès 60 ans, à partir de quarante années de cotisation, et dit que l'enjeu central est d'en finir avec le « mal-travail ».",
+          "citation_courte": "départ possible à partir de 60 ans, à partir de quarante années de cotisation",
+          "reformulation_anonymisee": "Interrogé sur l'âge légal, la durée de cotisation et les pensions, [CANDIDAT] répond défendre un départ possible dès 60 ans, à partir de quarante années de cotisation, et dit que l'enjeu central est d'en finir avec la dégradation des conditions de travail.",
+          "citation_anonymisee": "départ possible à partir de 60 ans, à partir de quarante années de cotisation",
+          "source": {
+            "url": "https://www.alternatives-economiques.fr/francois-ruffin-il-est-temps-de-refermer-la-parenthese-liberale",
+            "titre": "François Ruffin : « Il est temps de refermer la parenthèse libérale » (Alternatives économiques)",
+            "date_publication": "2026-07-11",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Selon CNews, il défend le principe d'un retour à un âge légal de départ à 60 ans, en faisant de la pénibilité le critère principal d'accès à la retraite. Le média ne précise pas de durée de cotisation dans ce passage.",
+          "citation_courte": "fait de la pénibilité le critère principal de l’accès à la retraite",
+          "reformulation_anonymisee": "Selon un média national, [CANDIDAT] défend le principe d'un retour à un âge légal de départ à 60 ans, en faisant de la pénibilité le critère principal d'accès à la retraite. Le média ne précise pas de durée de cotisation dans ce passage.",
+          "citation_anonymisee": "fait de la pénibilité le critère principal de l’accès à la retraite",
+          "source": {
+            "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+            "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ? (CNews)",
+            "date_publication": "2026-10-02",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Défend le retour à un âge légal de départ à 60 ans.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Retour à 60 ans conditionné à 40 ans de cotisation et pénibilité.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Départ à 60 ans conditionné à 40 ans de cotisation puis à la pénibilité comme critère principal : condition identifiable sur la mesure énoncée. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "116f7666"
+    },
+    {
+      "question_id": "RET-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-005",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur l'âge légal, la durée de cotisation et les pensions, il répond défendre un départ possible dès 60 ans, à partir de quarante années de cotisation, et dit que l'enjeu central est d'en finir avec le « mal-travail ».",
+          "citation_courte": "départ possible à partir de 60 ans, à partir de quarante années de cotisation",
+          "reformulation_anonymisee": "Interrogé sur l'âge légal, la durée de cotisation et les pensions, [CANDIDAT] répond défendre un départ possible dès 60 ans, à partir de quarante années de cotisation, et dit que l'enjeu central est d'en finir avec la dégradation des conditions de travail.",
+          "citation_anonymisee": "départ possible à partir de 60 ans, à partir de quarante années de cotisation",
+          "source": {
+            "url": "https://www.alternatives-economiques.fr/francois-ruffin-il-est-temps-de-refermer-la-parenthese-liberale",
+            "titre": "François Ruffin : « Il est temps de refermer la parenthèse libérale » (Alternatives économiques)",
+            "date_publication": "2026-07-11",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Défend un départ à 60 ans avec 40 années de cotisation, contraire à 45 ans.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut 40 ans, soit l'inverse d'une hausse à 45 ans.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "0e3c33d4"
+    },
+    {
+      "question_id": "RET-006",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur l'âge légal, la durée de cotisation et les pensions, il répond défendre un départ possible dès 60 ans, à partir de quarante années de cotisation, et dit que l'enjeu central est d'en finir avec le « mal-travail ».",
+          "citation_courte": "départ possible à partir de 60 ans, à partir de quarante années de cotisation",
+          "reformulation_anonymisee": "Interrogé sur l'âge légal, la durée de cotisation et les pensions, [CANDIDAT] répond défendre un départ possible dès 60 ans, à partir de quarante années de cotisation, et dit que l'enjeu central est d'en finir avec la dégradation des conditions de travail.",
+          "citation_anonymisee": "départ possible à partir de 60 ans, à partir de quarante années de cotisation",
+          "source": {
+            "url": "https://www.alternatives-economiques.fr/francois-ruffin-il-est-temps-de-refermer-la-parenthese-liberale",
+            "titre": "François Ruffin : « Il est temps de refermer la parenthèse libérale » (Alternatives économiques)",
+            "date_publication": "2026-07-11",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Défend un départ à 60 ans à partir de quarante années de cotisation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Départ à partir de quarante années de cotisation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "d2c29091"
+    },
+    {
+      "question_id": "RET-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-009",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il déclare vouloir que les députés votent contre le gel des retraites (ainsi que contre le gel de l'allocation aux adultes handicapés), dans le cadre du budget de la Sécurité sociale 2026. Le texte de l'entretien n'a pas pu être ouvert, seul le titre est visible.",
+          "citation_courte": "Je veux qu'on vote contre le gel des retraites",
+          "reformulation_anonymisee": "Il déclare vouloir que les députés votent contre le gel des retraites (ainsi que contre le gel d'une allocation de solidarité), dans le cadre du budget de la Sécurité sociale 2026. Le texte de l'entretien n'a pas pu être ouvert, seul le titre est visible.",
+          "citation_anonymisee": "Je veux qu'on vote contre le gel des retraites",
+          "source": {
+            "url": "https://www.bfmtv.com/politique/video-francois-ruffin-je-veux-qu-on-vote-contre-le-gel-des-retraites-je-veux-qu-on-vote-contre-le-gel-de-l-allocation-aux-adultes-handicapes_VN-202511090239.html",
+            "titre": "François Ruffin: \"Je veux qu'on vote contre le gel des retraites, je veux qu'on vote contre le gel de l'allocation aux adultes handicapés\" (BFM)",
+            "date_publication": "2025-11-09",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Demande de voter contre le gel des retraites.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut voter contre le gel des retraites.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "a2fc40f6"
+    },
+    {
+      "question_id": "RET-010",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Selon CNews, il défend une pension minimale au niveau du SMIC pour une carrière complète.",
+          "citation_courte": "pension minimale au niveau du SMIC pour une carrière complète",
+          "reformulation_anonymisee": "Selon un média national, [CANDIDAT] défend une pension minimale au niveau du SMIC pour une carrière complète.",
+          "citation_anonymisee": "pension minimale au niveau du SMIC pour une carrière complète",
+          "source": {
+            "url": "https://www.cnews.fr/france/2026-10-02/presidentielle-2027-depart-60-ans-hausse-des-petites-pensions-penibilite-quelles",
+            "titre": "Présidentielle 2027 : départ à 60 ans, hausse des petites pensions, pénibilité... Quelles sont les propositions des candidats de gauche sur les retraites ? (CNews)",
+            "date_publication": "2026-10-02",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Défend une pension minimale au niveau du SMIC pour une carrière complète.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Défend une pension minimale au niveau du SMIC pour carrière complète.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "6d7da334"
+    },
+    {
+      "question_id": "RET-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-022",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-017",
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Dans un texte publié à propos du projet de budget de la Sécurité sociale, il dénonce le doublement des franchises médicales prévu dans le projet et leur extension aux soins dentaires et aux dispositifs médicaux, en soulignant que les malades de longue durée et les personnes handicapées seraient les plus touchés. Le texte ne cite pas le chiffre de 100 euros.",
+          "citation_courte": "Le doublement des franchises médicales",
+          "reformulation_anonymisee": "Dans un texte publié à propos du projet de budget de la Sécurité sociale, [CANDIDAT] dénonce le doublement des franchises médicales prévu dans le projet et leur extension aux soins dentaires et aux dispositifs médicaux, en soulignant que les malades de longue durée et les personnes handicapées seraient les plus touchés. Le texte ne cite pas le chiffre de 100 euros.",
+          "citation_anonymisee": "Le doublement des franchises médicales",
+          "source": {
+            "url": "https://francoisruffin.fr/budget-de-la-securite-sociale-alerte-sur-le-handicap/",
+            "titre": "Budget de la Sécurité sociale : alerte sur le handicap !",
+            "date_publication": "2025-10-23",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Dénonce le doublement des franchises prévu, sans citer le chiffre de 100 euros.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Dénonce le doublement des franchises sans citer 100 euros.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "nuancee",
+        "motif": "Dénonce explicitement le doublement des plafonds de franchises, mesure identifiable ; pas de contre-proposition, hésitation -2/-1 tranchée vers 0. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "eedc4b30"
+    },
+    {
+      "question_id": "SAN-018",
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Au lendemain de l'adoption par l'Assemblée, en février 2026, du texte créant le droit à l'aide à mourir, il juge que les débats ont abouti à un texte équilibré, qui offre aux patients en fin de vie une option allégeant leur peine. Il reste attaché à ce que ce soit un choix individuel et met en garde contre une dérive économique visant les personnes âgées. Il ne s'exprime pas sur la loi promulguée en août 2026.",
+          "citation_courte": "parviennent à l'arrivée à un texte équilibré",
+          "reformulation_anonymisee": "Au lendemain de l'adoption par l'Assemblée du texte créant le droit à l'aide à mourir, [CANDIDAT] juge que les débats ont abouti à un texte équilibré, qui offre aux patients en fin de vie une option allégeant leur peine. [CANDIDAT] reste attaché à ce que ce soit un choix individuel et met en garde contre une dérive économique visant les personnes âgées. [CANDIDAT] ne s'exprime pas sur la loi promulguée ensuite.",
+          "citation_anonymisee": "parviennent à l'arrivée à un texte équilibré",
+          "source": {
+            "url": "https://www.franceinfo.fr/societe/euthanasie/fin-de-vie-le-texte-adopte-a-l-assemblee-nationale-est-equilibre-salue-francois-ruffin_7830914.html",
+            "titre": "Fin de vie : le texte adopté à l'Assemblée nationale est \"équilibré\", salue François Ruffin",
+            "date_publication": "2026-02-26",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Juge le texte sur l'aide à mourir équilibré, avec mise en garde, sans se prononcer sur l'abrogation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Juge le texte équilibré, sans position sur la loi promulguée.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "imprecise",
+        "motif": "Juge le texte équilibré avec mise en garde, sans se prononcer sur la loi promulguée ni sur une abrogation : direction opposée seulement. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "1245cf8b"
+    },
+    {
+      "question_id": "SAN-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-001",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans une liste de propositions pour répondre à la crise après la mort d'un adolescent tué par un policier, il demande l'instauration d'un récépissé pour les contrôles d'identité, au motif que ces contrôles sans délit préalable sont vécus comme humiliants par les minorités. Le texte ne précise pas le contenu du récépissé.",
+          "citation_courte": "L’instauration d’un récépissé pour les contrôles d’identité",
+          "reformulation_anonymisee": "Dans une liste de propositions pour répondre à une crise consécutive à la mort d'un adolescent tué par un policier, [CANDIDAT] demande l'instauration d'un récépissé pour les contrôles d'identité, au motif que ces contrôles sans délit préalable sont vécus comme humiliants par les minorités. Le texte ne précise pas le contenu du récépissé.",
+          "citation_anonymisee": "L’instauration d’un récépissé pour les contrôles d’identité",
+          "source": {
+            "url": "https://francoisruffin.fr/nahel-apaisement-mais-comment/",
+            "titre": "Nahel : l'apaisement, mais comment ? (blog de François Ruffin)",
+            "date_publication": "2023-06-30",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Demande l'instauration d'un récépissé pour les contrôles d'identité.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Demande l'instauration d'un récépissé pour les contrôles.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "e7ecb27a"
+    },
+    {
+      "question_id": "SEC-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-004",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Parmi ses propositions, il réclame l'abrogation de la loi de 2017 sur les conditions d'usage des armes par les policiers lors des refus d'obtempérer. Il indique défendre ces pistes depuis son rapport parlementaire de 2020.",
+          "citation_courte": "L’abrogation de la loi Cazeneuve de 2017",
+          "reformulation_anonymisee": "Parmi ses propositions, [CANDIDAT] réclame l'abrogation de la loi de 2017 sur les conditions d'usage des armes par les policiers lors des refus d'obtempérer.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://francoisruffin.fr/nahel-apaisement-mais-comment/",
+            "titre": "Nahel : l'apaisement, mais comment ? (blog de François Ruffin)",
+            "date_publication": "2023-06-30",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Réclame l'abrogation de la loi de 2017 sur l'usage des armes.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Réclame l'abrogation de la loi de 2017.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "ab581aaf"
+    },
+    {
+      "question_id": "SEC-005",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il réclame un contrôle externe de la police, pour que celle-ci n'enquête plus sur elle-même via l'IGPN, et que le Défenseur des droits reçoive le pouvoir d'enquêter et de sanctionner. Le texte ne mentionne pas l'IGGN ni un remplacement formel de l'IGPN ; il évoque aussi un rôle pour le Parlement, les maires et les associations.",
+          "citation_courte": "Que soit donné au Défenseur des Droits le pouvoir d’enquêter comme de sanctionner",
+          "reformulation_anonymisee": "[CANDIDAT] réclame un contrôle externe de la police, pour que celle-ci n'enquête plus sur elle-même via son inspection interne, et que le Défenseur des droits reçoive le pouvoir d'enquêter et de sanctionner. Le texte ne mentionne pas la gendarmerie ni un remplacement formel de l'inspection ; il évoque aussi un rôle pour le Parlement, les maires et les associations.",
+          "citation_anonymisee": "Que soit donné au Défenseur des Droits le pouvoir d’enquêter comme de sanctionner",
+          "source": {
+            "url": "https://francoisruffin.fr/nahel-apaisement-mais-comment/",
+            "titre": "Nahel : l'apaisement, mais comment ? (blog de François Ruffin)",
+            "date_publication": "2023-06-30",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Contrôle externe de la police confié au Défenseur des droits, sans remplacement formel de l'inspection ni mention de la gendarmerie.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Contrôle externe avec pouvoir d'enquête du Défenseur des droits.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "2efd7e1e"
+    },
+    {
+      "question_id": "SEC-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-008",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "À plus long terme, il prône le retour d'une police de proximité, qu'il dit avoir été démantelée par un ancien président de la République, en plus d'une formation des policiers portée à deux ans.",
+          "citation_courte": "le retour d’une police de proximité",
+          "reformulation_anonymisee": "À plus long terme, [CANDIDAT] prône le retour d'une police de proximité, en plus d'une formation des policiers portée à deux ans.",
+          "citation_anonymisee": "le retour d’une police de proximité",
+          "source": {
+            "url": "https://francoisruffin.fr/nahel-apaisement-mais-comment/",
+            "titre": "Nahel : l'apaisement, mais comment ? (blog de François Ruffin)",
+            "date_publication": "2023-06-30",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Prône le retour d'une police de proximité ; le long terme est un calendrier (R2).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Prône le retour d'une police de proximité.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "96ad3a76"
+    },
+    {
+      "question_id": "SEC-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-018",
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur la proposition de la dirigeante d'un parti d'interdire le voile dans l'espace public aux moins de 15 ans, il la juge opportuniste et dit qu'elle fait le jeu des islamistes ; il ironise en demandant si l'on va aussi interdire la kippa ou le baptême, et estime qu'elle crée des lois à part pour les croyants.",
+          "citation_courte": "Est-ce qu'il va interdire la kippa ? Le baptême ?",
+          "reformulation_anonymisee": "Interrogé sur la proposition d'interdire le voile dans l'espace public aux moins de 15 ans, [CANDIDAT] la juge opportuniste et dit qu'elle fait le jeu des islamistes ; il ironise en demandant si l'on va aussi interdire la kippa ou le baptême, et estime qu'elle crée des lois à part pour les croyants.",
+          "citation_anonymisee": "Est-ce qu'il va interdire la kippa ? Le baptême ?",
+          "source": {
+            "url": "https://www.franceinfo.fr/politique/gabriel-attal/interdire-le-voile-pour-les-moins-de-15-ans-l-opportunisme-de-gabriel-attal-fait-le-jeu-des-islamistes-estime-francois-ruffin_7263228.html",
+            "titre": "Interdire le voile pour les moins de 15 ans : \"L'opportunisme de Gabriel Attal fait le jeu des islamistes\", estime François Ruffin",
+            "date_publication": "2025-05-21",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Sur BFMTV, il dit que le voile n'est pas pour lui un outil de soumission et que des adolescentes comme des adultes le choisissent librement ; il est plutôt favorable à un délit de contrainte au port du voile visant les parents, et ajoute que si une mesure sur le voile des mineures était mise en place, il faudrait la faire sur tous les insignes religieux. Le texte ne rapporte pas de position de sa part sur une interdiction générale pour les mineures.",
+          "citation_courte": "le faire sur tous les insignes religieux",
+          "reformulation_anonymisee": "Sur une chaîne d'information, [CANDIDAT] dit que le voile n'est pas pour lui un outil de soumission et que des adolescentes comme des adultes le choisissent librement ; il est plutôt favorable à un délit de contrainte au port du voile visant les parents, et ajoute que si une mesure sur le voile des mineures était mise en place, il faudrait la faire sur tous les insignes religieux. Le texte ne rapporte pas de position de sa part sur une interdiction générale pour les mineures.",
+          "citation_anonymisee": "le faire sur tous les insignes religieux",
+          "source": {
+            "url": "https://www.lejdd.fr/politique/des-adultes-et-des-adolescentes-font-leur-choix-librement-pour-francois-ruffin-le-voile-islamique-nest-pas-un-outil-de-soumission-de-la-femme-163883",
+            "titre": "Pour François Ruffin, le voile islamique n'est pas un outil de soumission de la femme",
+            "date_publication": "2025-11-10",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "S'oppose à l'interdiction ciblée et préfère un délit de contrainte visant les parents (R3).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Opposé à l'interdiction ciblant les mineures, ouvert à une mesure si elle vise tous les signes religieux.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "c155a617"
+    },
+    {
+      "question_id": "SEC-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-021",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-001",
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur l'adhésion de l'Ukraine à l'Union européenne, il la qualifie de point « très compliqué » aujourd'hui. Aucun chiffre ni condition précise n'est donné dans l'extrait visible.",
+          "citation_courte": "un point très compliqué",
+          "reformulation_anonymisee": "Interrogé sur l'adhésion de l'Ukraine à l'Union européenne, [CANDIDAT] la qualifie de point « très compliqué » aujourd'hui. Aucun chiffre ni condition précise n'est donné dans l'extrait visible.",
+          "citation_anonymisee": "un point très compliqué",
+          "source": {
+            "url": "https://www.bfmtv.com/politique/l-adhesion-de-l-ukraine-a-l-union-europeenne-est-pour-moi-aujourd-hui-un-point-tres-complique-declare-francois-ruffin_VN-202503120913.html",
+            "titre": "\"L'adhésion de l'Ukraine à l'Union européenne est pour moi aujourd'hui un point très compliqué\", déclare François Ruffin - BFM",
+            "date_publication": "2025-03-12",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Dans une lettre ouverte à un rival de gauche, il dit éprouver une immense réticence face à l'adhésion de l'Ukraine à l'Union européenne. Il rappelle que les élargissements précédents ont coûté des emplois industriels, refuse de la valider « les yeux fermés » sans conditions matérielles, garanties ni protections, tout en disant partager la solidarité due à un pays agressé. Il ne se prononce pas pour un refus définitif.",
+          "citation_courte": "j’éprouve une immense réticence",
+          "reformulation_anonymisee": "Dans une lettre ouverte à un rival politique, [CANDIDAT] dit éprouver une immense réticence face à l'adhésion de l'Ukraine à l'Union européenne. Il rappelle que les élargissements précédents ont coûté des emplois industriels, refuse de la valider « les yeux fermés » sans conditions matérielles, garanties ni protections, tout en disant partager la solidarité due à un pays agressé. Il ne se prononce pas pour un refus définitif.",
+          "citation_anonymisee": "j’éprouve une immense réticence",
+          "source": {
+            "url": "https://francoisruffin.fr/cher-raphael-glucksmann/",
+            "titre": "Cher Raphaël Glucksmann",
+            "date_publication": "2024-01-19",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Immense réticence et point très compliqué, sans refus définitif, adhésion soumise à conditions.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Immense réticence, sans refus définitif.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "imprecise",
+        "motif": "Immense réticence et point très compliqué, sans refus définitif ni conditions concrètes : direction opposée, mesure non spécifiée. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "7f56972a"
+    },
+    {
+      "question_id": "EUR-002",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il cite la volonté de la présidente de la Commission de passer à la majorité qualifiée en politique étrangère et affirme que la France doit s'y opposer avec fermeté : diplomatie et défense relèvent selon lui des États et doivent le rester. Engagement net contre la suppression du veto.",
+          "citation_courte": "la diplomatie et la défense relèvent des États et doivent le rester",
+          "reformulation_anonymisee": "[CANDIDAT] cite la volonté de la présidente de la Commission de passer à la majorité qualifiée en politique étrangère et affirme que la France doit s'y opposer avec fermeté : diplomatie et défense relèvent selon lui des États et doivent le rester. Engagement net contre la suppression du veto.",
+          "citation_anonymisee": "la diplomatie et la défense relèvent des États et doivent le rester",
+          "source": {
+            "url": "https://legrandcontinent.eu/fr/2026/02/25/pour-une-declaration-dindependance-la-doctrine-ruffin-sur-leurope/",
+            "titre": "Pour une déclaration d’indépendance : la doctrine Ruffin sur l’Europe (texte signé François Ruffin, Le Grand Continent)",
+            "date_publication": "2026-02-25",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "S'oppose fermement au passage à la majorité qualifiée en politique étrangère.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "S'oppose fermement à la majorité qualifiée en politique étrangère.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "c337fe45"
+    },
+    {
+      "question_id": "EUR-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-005",
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il critique les élargissements passés de l'Union (un million d'emplois industriels détruits selon lui, délocalisations vers l'Est) et refuse de les rééditer sans examen des conditions matérielles, garanties et protections, à propos de l'Ukraine notamment. Il parle d'une réticence qu'il juge largement partagée. Aucune échéance (2030) n'est évoquée.",
+          "citation_courte": "Nous avons déjà donné, en vies brisées, en salariés licenciés.",
+          "reformulation_anonymisee": "[CANDIDAT] critique les élargissements passés de l'Union (un million d'emplois industriels détruits selon lui, délocalisations vers l'Est) et refuse de les rééditer sans examen des conditions matérielles, garanties et protections, à propos de l'Ukraine notamment. Il parle d'une réticence qu'il juge largement partagée. Aucune échéance n'est évoquée.",
+          "citation_anonymisee": "Nous avons déjà donné, en vies brisées, en salariés licenciés.",
+          "source": {
+            "url": "https://francoisruffin.fr/cher-raphael-glucksmann/",
+            "titre": "Cher Raphaël Glucksmann",
+            "date_publication": "2024-01-19",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Réticent à de nouveaux élargissements sans garanties, mais pas de refus chiffré ou daté.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Refuse de rééditer les élargissements sans examen des conditions, sans mesure précise.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "8892d58b"
+    },
+    {
+      "question_id": "EUR-006",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il propose un « plan des 100 » : sur une centaine de produits prioritaires pour la souveraineté (aliments, médicaments, armement, acier, panneaux photovoltaïques…), appliquer droits de douane et quotas d'importation et soutenir la production européenne par la commande et les subventions publiques. Cela vise ces produits seulement, pas l'ensemble des marchés publics ; il critique par ailleurs les règles de mise en concurrence de la Commission.",
+          "citation_courte": "soutenir la production européenne avec de la commande et des subventions publiques",
+          "reformulation_anonymisee": "[CANDIDAT] propose un « plan des 100 » : sur une centaine de produits prioritaires pour la souveraineté (aliments, médicaments, armement, acier, panneaux photovoltaïques…), appliquer droits de douane et quotas d'importation et soutenir la production européenne par la commande et les subventions publiques. Cela vise ces produits seulement, pas l'ensemble des marchés publics ; il critique par ailleurs les règles de mise en concurrence de la Commission.",
+          "citation_anonymisee": "soutenir la production européenne avec de la commande et des subventions publiques",
+          "source": {
+            "url": "https://legrandcontinent.eu/fr/2026/02/25/pour-une-declaration-dindependance-la-doctrine-ruffin-sur-leurope/",
+            "titre": "Pour une déclaration d’indépendance : la doctrine Ruffin sur l’Europe (texte signé François Ruffin, Le Grand Continent)",
+            "date_publication": "2026-02-25",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Préférence européenne dans la commande publique limitée à une centaine de produits prioritaires.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Soutien à la production européenne par la commande publique sur une centaine de produits.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "f7598671"
+    },
+    {
+      "question_id": "EUR-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-016",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Il a déposé une proposition de résolution demandant que l'État français saisisse la Cour de justice de l'UE pour incompatibilité de l'accord avec les traités, afin d'empêcher sa ratification, et affirme qu'il faut dire « non » sur le fond à cet accord. Le texte ne parle pas d'un refus d'appliquer l'accord (publié avant son application provisoire).",
+          "citation_courte": "c’est un « non » que nous devons poser, opposer à cette concurrence",
+          "reformulation_anonymisee": "[CANDIDAT] a déposé une proposition de résolution demandant que l'État français saisisse la Cour de justice de l'UE pour incompatibilité de l'accord avec les traités, afin d'empêcher sa ratification, et affirme qu'il faut dire « non » sur le fond à cet accord. Le texte ne parle pas d'un refus d'appliquer l'accord (publié avant son application provisoire).",
+          "citation_anonymisee": "c’est un « non » que nous devons poser, opposer à cette concurrence",
+          "source": {
+            "url": "https://francoisruffin.fr/mercosur-quand-les-francais-ont-ils-vote-pour-la-mondialisation/",
+            "titre": "« Quand les Français ont-ils voté pour la mondialisation ? » (propos introductif sur sa proposition de résolution)",
+            "date_publication": "2025-11-13",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Dit non à l'accord et veut empêcher sa ratification via la CJUE, sans parler de refus d'application.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Dit non à l'accord sur le fond, sans parler de refus d'application.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Non sur le fond et saisine de la CJUE pour empêcher la ratification : mesure concrète dans le sens de l'énoncé, refus d'application non formulé. (code retenu : celui du codeur A)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "11affcc7"
+    }
+  ]
+}
