@@ -94,6 +94,26 @@
       "description": "Application de la règle de la méthodologie (§ 6.3) après la vérification indépendante du même jour : Nicolas Dupont-Aignan perd deux codes (un extrait d'agrégateur retiré sur FIS-007, une position sur un sujet voisin sur ENV-023) et passe à 82 questions codées sur 206 (39,8 %), sous le seuil de 40 % ; il repasse de « evalue » à « codage_en_attente ». Le calcul de l'application est inchangé : il reste comparé.",
       "auteur": "Claude (fiabilisation des codages), à la demande de Mathieu",
       "reference": "phase-4, fiabilisation du 4 octobre 2026"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "recodage",
+      "objets": [
+        "data/positions/*.json"
+      ],
+      "description": "Vague 3 du codage (4 octobre 2026) : nouvelle recherche, pour les 7 candidats de la vague 1 sous le seuil de 40 % (Arthaud, Attal, Le Pen, Lisnard, Philippe, Retailleau, Roussel), sur leurs questions sans code publié, avec une consigne orientée vers les sources peu exploitées (livres, tribunes, transcriptions, dossiers de fin septembre 2026). Même protocole que la vague 2 : extraction (Sonnet 5.5), contrôle mécanique des citations, double codage aveugle (Opus 5.5, Sonnet 5.5), désaccords arbitrés provisoirement par un troisième modèle (Fable 5.1), vérification indépendante sur échantillon. 41 nouveaux codes publiés pour ces 7 candidats ; aucune question touchée par la fiabilisation du même jour. Contrôle humain : 7 codes tirés au sort, à faire. La même vague a codé pour la première fois les 10 candidats déclarés de la vague 2 ; leurs fichiers ne sont pas importés ici, en attente d'une décision sur la population de référence (ils videraient la liste d'ancres). Données de preuve de concept.",
+      "auteur": "Claude, à la demande de Mathieu",
+      "reference": "phase-4, vague 3"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "changement_statut",
+      "objets": [
+        "data/candidats.json"
+      ],
+      "description": "Après la vague 3, Le Pen (94 questions actives codées sur 206, 45,6 %) et Retailleau (83 sur 206, 40,3 %) passent au statut « évalué », selon la règle des 40 % appliquée au lot 5g.",
+      "auteur": "Claude, à la demande de Mathieu",
+      "reference": "méthodologie, statut évalué (40 %)"
     }
   ]
 }

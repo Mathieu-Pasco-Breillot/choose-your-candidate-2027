@@ -1,6 +1,6 @@
 {
   "candidat_id": "le-pen-marine",
-  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
+  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire). Vague 3 (4 octobre 2026) : nouvelle recherche sur les questions sans code publié, même protocole.",
   "grille_version": "1.3",
   "programme": {
     "officiel_disponible": false,
@@ -541,17 +541,57 @@
     },
     {
       "question_id": "RET-011",
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null,
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Selon BFM, la candidate s'est prononcée contre la suppression des régimes spéciaux de retraite ; le texte ne précise ni les régimes concernés ni la distinction entre salariés déjà en poste et nouveaux entrants.",
+          "citation_courte": "s'est prononcée contre la suppression de ces régimes spéciaux",
+          "reformulation_anonymisee": "Selon le média, [CANDIDAT] s'est prononcé(e) contre la suppression des régimes spéciaux de retraite ; le texte ne précise ni les régimes concernés ni la distinction entre salariés déjà en poste et nouveaux entrants.",
+          "citation_anonymisee": "s'est prononcée contre la suppression de ces régimes spéciaux",
+          "source": {
+            "url": "https://www.bfmtv.com/economie/economie-social/france/retraites-que-proposent-emmanuel-macron-et-marine-le-pen_AV-202204120262.html",
+            "titre": "Retraites: que proposent Emmanuel Macron et Marine Le Pen?",
+            "date_publication": "2022-04-12",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "S'oppose à la suppression des régimes spéciaux.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Contre la suppression des régimes spéciaux, sans précision.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "nuancee",
+        "motif": "Opposition explicite à la suppression des régimes spéciaux (position reformulable : les maintenir), antérieure à la loi de 2023 et sans distinction en poste/nouveaux entrants : hésitation -2/-1 tranchée vers 0. (code retenu : troisième code)"
+      },
       "controle_humain": {
         "tire_au_sort": false
       },
       "contestations": [],
-      "version": 1
+      "version": 1,
+      "item_aveugle": "fe6a125e"
     },
     {
       "question_id": "RET-012",
@@ -679,31 +719,105 @@
     },
     {
       "question_id": "RET-016",
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Selon BFM, la candidate propose un départ à 60 ans pour ceux qui ont commencé à travailler avant 20 ans et compte mettre fin au compte professionnel de prévention ; ceux qui exercent un métier pénible commencé après 20 ans ne bénéficieraient donc pas d'un départ plus précoce. Les trois facteurs cités dans l'énoncé ne sont pas nommés.",
+          "citation_courte": "elle compte mettre fin au compte professionnel de prévention",
+          "reformulation_anonymisee": "Selon le média, [CANDIDAT] propose un départ à 60 ans pour ceux qui ont commencé à travailler avant 20 ans et compte mettre fin au compte professionnel de prévention ; ceux qui exercent un métier pénible commencé après 20 ans ne bénéficieraient donc pas d'un départ plus précoce. Les trois facteurs cités dans l'énoncé ne sont pas nommés.",
+          "citation_anonymisee": "elle compte mettre fin au compte professionnel de prévention",
+          "source": {
+            "url": "https://www.bfmtv.com/economie/economie-social/france/retraites-que-proposent-emmanuel-macron-et-marine-le-pen_AV-202204120262.html",
+            "titre": "Retraites: que proposent Emmanuel Macron et Marine Le Pen?",
+            "date_publication": "2022-04-12",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Veut supprimer le compte de prévention ; pas de départ anticipé pour pénibilité hors carrières longues.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Mettre fin au compte de prévention, départ à 60 ans limité.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
       },
       "contestations": [],
-      "version": 1
+      "version": 1,
+      "item_aveugle": "f3d14a80"
     },
     {
       "question_id": "RET-017",
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null,
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Interrogée sur les carrières hachées, la candidate déclare ne pas compter toucher à l'âge automatique du taux plein fixé à 67 ans, tout en évoquant une possible dynamique d'amélioration qui permettrait de l'abaisser, sans chiffre ni calendrier.",
+          "citation_courte": "Je ne compte pas toucher à cet âge automatique du taux plein",
+          "reformulation_anonymisee": "Interrogé(e) sur les carrières hachées, [CANDIDAT] déclare ne pas compter toucher à l'âge automatique du taux plein fixé à 67 ans, tout en évoquant une possible dynamique d'amélioration qui permettrait de l'abaisser, sans chiffre ni calendrier.",
+          "citation_anonymisee": "Je ne compte pas toucher à cet âge automatique du taux plein",
+          "source": {
+            "url": "https://www.capital.fr/votre-retraite/retraite-les-gagnants-et-les-perdants-de-la-reforme-de-marine-le-pen-1428902",
+            "titre": "Retraite : les gagnants et les perdants de la réforme de Marine Le Pen",
+            "date_publication": "2022-04-11",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Ne comptait pas toucher à l'âge de 67 ans tout en évoquant une baisse possible un jour.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Ne compte pas toucher à l'âge de 67 ans.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "nuancee",
+        "motif": "Ne pas toucher à l'âge de 67 ans est un statu quo explicite qui contredit l'énoncé sans proposer l'inverse ; l'ouverture à une baisse future reste non chiffrée. (code retenu : celui du codeur A)"
+      },
       "controle_humain": {
         "tire_au_sort": false
       },
       "contestations": [],
-      "version": 1
+      "version": 1,
+      "item_aveugle": "4db2a469"
     },
     {
       "question_id": "RET-018",
@@ -2624,12 +2738,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Selon Capital, la candidate fait partie de ceux qui veulent voir disparaître la tarification à l'activité ; avec un autre candidat, elle envisage de revenir à une dotation globale de fonctionnement.",
+          "citation_courte": "veulent la voir disparaître",
+          "reformulation_anonymisee": "Selon le média, [CANDIDAT] fait partie de ceux qui veulent voir disparaître la tarification à l'activité ; avec un autre candidat, [CANDIDAT] envisage de revenir à une dotation globale de fonctionnement.",
+          "citation_anonymisee": "veulent la voir disparaître",
+          "source": {
+            "url": "https://www.capital.fr/economie-politique/salaires-deserts-medicaux-comment-les-candidats-a-la-presidentielle-veulent-reformer-la-sante-1433243",
+            "titre": "Salaires, déserts médicaux... comment les candidats à la présidentielle veulent réformer la santé",
+            "date_publication": "2022-04-07",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Veut voir disparaître la T2A au profit d'une dotation globale.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Veut faire disparaître la T2A.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "c60b4c81"
     },
     {
       "question_id": "SAN-008",
@@ -2720,12 +2868,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Selon Capital, la candidate exige la suppression de l'aide médicale de l'État dédiée aux étrangers, pour un gain espéré d'environ 1 milliard d'euros. La source ne dit pas si elle serait remplacée par une aide limitée aux soins urgents.",
+          "citation_courte": "exiger la suppression de l’AME",
+          "reformulation_anonymisee": "Selon le média, [CANDIDAT] exige la suppression de l'aide médicale de l'État dédiée aux étrangers, pour un gain espéré d'environ 1 milliard d'euros. La source ne dit pas si elle serait remplacée par une aide limitée aux soins urgents.",
+          "citation_anonymisee": "exiger la suppression de l'AME",
+          "source": {
+            "url": "https://www.capital.fr/economie-politique/salaires-deserts-medicaux-comment-les-candidats-a-la-presidentielle-veulent-reformer-la-sante-1433243",
+            "titre": "Salaires, déserts médicaux... comment les candidats à la présidentielle veulent réformer la santé",
+            "date_publication": "2022-04-07",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut supprimer l'AME, ce qui va plus loin qu'une aide limitée aux urgences (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Exige la suppression de l'AME, remplacement non précisé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Suppression pure de l'AME va plus loin que son remplacement par une aide limitée aux soins urgents : R1. (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "1427b036"
     },
     {
       "question_id": "SAN-012",
@@ -4188,12 +4376,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "En juillet 2023, après l'annonce de la livraison de missiles à longue portée à l'Ukraine, la candidate a jugé « irresponsable » la poursuite des livraisons de missiles et dit vouloir que le chef de l'État se concentre sur une conférence pour la paix. Le Figaro la présente comme fermement opposée aux livraisons d'armes ; la source ne parle pas d'une limitation aux seuls équipements défensifs.",
+          "citation_courte": "irresponsable",
+          "reformulation_anonymisee": "En 2023, après l'annonce de la livraison de missiles à longue portée à un pays en guerre, [CANDIDAT] a jugé « irresponsable » la poursuite des livraisons de missiles et dit vouloir que le chef de l'État se concentre sur une conférence pour la paix. La source présente [CANDIDAT] comme fermement opposé(e) aux livraisons d'armes ; elle ne parle pas d'une limitation aux seuls équipements défensifs.",
+          "citation_anonymisee": "irresponsable",
+          "source": {
+            "url": "https://www.lefigaro.fr/politique/pour-la-premiere-fois-marine-le-pen-qualifie-la-livraison-d-armes-a-l-ukraine-d-irresponsable-20230713",
+            "titre": "Pour la première fois, Marine Le Pen qualifie la livraison d'armes à l'Ukraine d'«irresponsable»",
+            "date_publication": "2023-07-13",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Opposé aux livraisons d'armes et de missiles longue portée, ce qui va au-delà de l'énoncé (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Opposé aux livraisons d'armes dont missiles, sans limitation précise aux défensifs.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Opposition aux livraisons de missiles et d'armes va plus loin que la limitation aux équipements défensifs : R1. (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "4000bd75"
     },
     {
       "question_id": "EUR-001",
@@ -4480,12 +4708,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le 20 février 2022 sur France Inter et franceinfo, la candidate a dit avoir entendu le message des Français favorables à rester dans l'euro, tout en jugeant que la monnaie garde des inconvénients et a contribué à la baisse du pouvoir d'achat ; l'article note qu'elle ne milite plus pour l'abandon de l'euro, contrairement à 2017.",
+          "citation_courte": "rester dans l'euro",
+          "reformulation_anonymisee": "Le 20 février 2022, [CANDIDAT] a dit avoir entendu le message des Français favorables à rester dans l'euro, tout en jugeant que la monnaie garde des inconvénients et a contribué à la baisse du pouvoir d'achat ; elle ne milite plus pour l'abandon de l'euro, contrairement à la campagne précédente.",
+          "citation_anonymisee": "rester dans l'euro",
+          "source": {
+            "url": "https://www.franceinfo.fr/monde/europe/union-europeenne/vrai-ou-fake-l-euro-a-t-il-contribue-a-la-baisse-du-pouvoir-d-achat-et-a-la-desindustrialisation-de-la-france-comme-l-affirme-marine-le-pen_4975704.html",
+            "titre": "VRAI OU FAKE. L'euro a-t-il contribué à la baisse du pouvoir d'achat et à la désindustrialisation de la France, comme l'affirme Marine Le Pen ?",
+            "date_publication": "2022-03-05",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Ne milite plus pour sortir de l'euro et veut y rester.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Ne milite plus pour l'abandon de l'euro.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "nuancee",
+        "motif": "Renonce à militer pour l'abandon de l'euro tout en maintenant ses critiques : opposition avec réserve, hésitation -2/-1 tranchée vers 0. (code retenu : celui du codeur B)"
+      },
+      "item_aveugle": "7c2e7ada"
     },
     {
       "question_id": "EUR-010",
@@ -5276,12 +5544,60 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme de la candidate prévoit que les parts d'entreprise familiale léguées par un parent défunt à ses enfants soient entièrement exonérées de droits de succession, à condition que les héritiers conservent leurs parts au moins 10 ans (contre 75 % d'abattement aujourd'hui). La source ne mentionne pas les donations.",
+          "citation_courte": "seront entièrement exonérées de droits de succession",
+          "reformulation_anonymisee": "Le programme de [CANDIDAT] prévoit que les parts d'entreprise familiale léguées par un parent défunt à ses enfants soient entièrement exonérées de droits de succession, à condition que les héritiers conservent leurs parts au moins 10 ans (contre 75 % d'abattement aujourd'hui). La source ne mentionne pas les donations.",
+          "citation_anonymisee": "seront entièrement exonérées de droits de succession",
+          "source": {
+            "url": "https://www.toutsurmesfinances.com/argent/a/marine-le-pen-salaires-retraites-impots-le-programme-du-fn-pour-2017",
+            "titre": "Présidentielle 2022 : pouvoir d'achat, impôts, retraite, succession… le programme de Marine Le Pen",
+            "date_publication": "2022-04-08",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Selon L'Opinion, lors d'un débat devant des chefs d'entreprise, la candidate fait partie des candidats qui promettent de ne pas toucher au pacte Dutreil. La source ne dit pas si elle veut porter l'exonération à 100 %.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Selon le média, lors d'un débat devant des chefs d'entreprise, [CANDIDAT] fait partie des candidats qui promettent de ne pas toucher au pacte Dutreil. La source ne dit pas si [CANDIDAT] veut porter l'exonération à 100 %.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.lopinion.fr/politique/fiscalite-dette-et-salaires-les-points-cles-du-premier-debat-presidentiel",
+            "titre": "Fiscalité, dette et salaires : les points clés du premier débat présidentiel",
+            "date_publication": "2026-08-27",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Exonération totale des successions d'entreprise familiale sous condition en 2022 ; en 2026, promet seulement de ne pas toucher au pacte Dutreil, ce qui laisse sa position incertaine.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Programme 2022 d'exonération totale en succession sous condition ; source récente évoque le maintien du Dutreil.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "dda80136"
     },
     {
       "question_id": "FIS-019",
@@ -5290,12 +5606,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Selon BFM, la candidate veut instaurer une TVA à 0 % sur un panier de 100 produits de première nécessité, en plus d'une baisse de la TVA de 20 à 5,5 % sur les produits énergétiques.",
+          "citation_courte": "instaurer une TVA à 0% sur un panier de 100 produits de première nécessité",
+          "reformulation_anonymisee": "Selon le média, [CANDIDAT] veut instaurer une TVA à 0 % sur un panier de 100 produits de première nécessité, en plus d'une baisse de la TVA de 20 à 5,5 % sur les produits énergétiques.",
+          "citation_anonymisee": "instaurer une TVA à 0% sur un panier de 100 produits de première nécessité",
+          "source": {
+            "url": "https://www.bfmtv.com/economie/economie-social/france/fiscalite-et-pouvoir-d-achat-ce-que-proposent-emmanuel-macron-et-marine-le-pen_AN-202204100366.html",
+            "titre": "Fiscalité et pouvoir d'achat: ce que proposent Emmanuel Macron et Marine Le Pen",
+            "date_publication": "2022-04-10",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Veut instaurer une TVA à 0 % sur un panier de 100 produits de première nécessité.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Veut une TVA à 0 % sur un panier de 100 produits.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "23c6d573"
     },
     {
       "question_id": "FIS-020",
@@ -5592,12 +5942,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Lors de la présentation de son plan énergie en mars 2022, la candidate annonce que tous les projets éoliens en cours et les subventions seront stoppés, et que les machines existantes seront progressivement démantelées aux frais des installateurs.",
+          "citation_courte": "Tous les projets éoliens en cours et les subventions seront stoppés",
+          "reformulation_anonymisee": "En mars 2022, [CANDIDAT] annonce que tous les projets éoliens en cours et les subventions seront stoppés, et que les machines existantes seront progressivement démantelées aux frais des installateurs.",
+          "citation_anonymisee": "Tous les projets éoliens en cours et les subventions seront stoppés",
+          "source": {
+            "url": "https://www.publicsenat.fr/article/politique/energies-plein-pot-sur-le-nucleaire-et-haro-sur-les-eoliennes-pour-marine-le-pen",
+            "titre": "Energie : plein pot sur le nucléaire et haro sur les éoliennes pour Marine Le Pen",
+            "date_publication": "2022-03-14",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Annonce l'arrêt de tous les projets éoliens et des subventions.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Stoppe projets éoliens et subventions.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "3ec0f53a"
     },
     {
       "question_id": "ENV-012",
@@ -5812,12 +6196,26 @@
     {
       "question_id": "ENV-018",
       "contestations": [],
-      "version": 1,
+      "version": 2,
       "controle_humain": {
         "tire_au_sort": false
       },
-      "item_aveugle": "149bc3e4",
+      "item_aveugle": "7097b669",
       "extraits": [
+        {
+          "reformulation": "Dans son plan énergie de mars 2022, la candidate inclut la sortie du marché européen libéralisé de l'énergie, avec rétablissement de prix régulés compétitifs pour les professionnels et les industries. Source de 2022 ; la source ne précise pas les modalités de fixation du prix de l'électricité.",
+          "citation_courte": "la sortie du marché européen libéralisé",
+          "reformulation_anonymisee": "Dans son plan énergie de 2022, [CANDIDAT] inclut la sortie du marché européen libéralisé de l'énergie, avec rétablissement de prix régulés compétitifs pour les professionnels et les industries. Modalités de fixation du prix non précisées.",
+          "citation_anonymisee": "la sortie du marché européen libéralisé",
+          "source": {
+            "url": "https://www.publicsenat.fr/article/politique/energies-plein-pot-sur-le-nucleaire-et-haro-sur-les-eoliennes-pour-marine-le-pen",
+            "titre": "Energie : plein pot sur le nucléaire et haro sur les éoliennes pour Marine Le Pen",
+            "date_publication": "2022-03-14",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
         {
           "reformulation": "Interrogée sur les prix de l'énergie, elle juge que l'Union européenne a créé un système absurde dans lequel le prix de l'électricité est indexé sur celui du gaz : quand le gaz augmente, l'électricité augmente. Dans ce passage, elle n'évoque pas de sortie du marché européen ni de fixation nationale du prix.",
           "citation_courte": "système absurde où le prix de l’électricité est indexé sur celui du gaz",
@@ -5836,24 +6234,24 @@
       "codage": {
         "codeur_1": {
           "modele": "claude-opus-5-5",
-          "code": null,
-          "nature": "non_connu",
-          "justification": "Critique l'indexation sur le gaz sans évoquer de sortie du marché européen : sujet voisin (R4).",
-          "date": "2026-10-03",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Source récente critique l'indexation sur le gaz sans évoquer de sortie du marché ; la sortie n'apparaît qu'en 2022.",
+          "date": "2026-10-04",
           "aveugle": true
         },
         "codeur_2": {
           "modele": "claude-sonnet-5-5",
-          "code": null,
-          "nature": "non_connu",
-          "justification": "Critique l'indexation du prix de l'électricité sur le gaz sans évoquer sortie du marché ni fixation nationale du prix.",
-          "date": "2026-10-03",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Critique le marché européen de l'électricité, sortie évoquée en 2022 mais pas récemment ni modalités.",
+          "date": "2026-10-04",
           "aveugle": true
         },
         "accord": true
       },
-      "code": null,
-      "nature": "non_connu",
+      "code": 1,
+      "nature": "imprecise",
       "statut": "accord",
       "arbitrage": null
     },
@@ -5864,26 +6262,96 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans le même plan (mars 2022), la candidate prévoit la suppression des subventions aux énergies intermittentes, dont elle chiffre le gain à 4 à 5 milliards d'euros, ainsi que le surcoût de raccordement des nouvelles éoliennes et panneaux solaires. Elle maintiendrait la production photovoltaïque outre-mer et éventuellement sur le bassin méditerranéen. La source ne détaille pas de mesure spécifique au solaire en métropole hors cette suppression des subventions.",
+          "citation_courte": "aux énergies intermittentes",
+          "reformulation_anonymisee": "Dans son plan énergie de 2022, [CANDIDAT] prévoit la suppression des subventions aux énergies intermittentes (gain chiffré à 4 à 5 milliards d'euros) et du surcoût de raccordement des nouvelles éoliennes et panneaux solaires, tout en maintenant le photovoltaïque outre-mer et éventuellement sur le bassin méditerranéen. Pas de mesure spécifique au solaire métropolitain citée.",
+          "citation_anonymisee": "aux énergies intermittentes",
+          "source": {
+            "url": "https://www.publicsenat.fr/article/politique/energies-plein-pot-sur-le-nucleaire-et-haro-sur-les-eoliennes-pour-marine-le-pen",
+            "titre": "Energie : plein pot sur le nucléaire et haro sur les éoliennes pour Marine Le Pen",
+            "date_publication": "2022-03-14",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Supprime les subventions aux énergies intermittentes, avec exceptions (outre-mer, éventuellement Méditerranée).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Supprime les subventions aux intermittentes, avec exceptions (outre-mer).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "632894fd"
     },
     {
       "question_id": "ENV-023",
       "contestations": [],
       "version": 1,
       "controle_humain": {
-        "tire_au_sort": false
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "En mars 2022, la candidate propose de prolonger les centrales actuelles jusqu'à 60 ans, de lancer cinq paires d'EPR pour 2031 et cinq paires d'EPR 2 pour 2036 (soit vingt réacteurs), en critiquant le plan gouvernemental de six EPR2 plus huit en étude. Il s'agit d'un programme de campagne 2022 ; aucun chiffre postérieur n'a été trouvé.",
+          "citation_courte": "cinq paires d’EPR",
+          "reformulation_anonymisee": "En mars 2022, [CANDIDAT] propose de prolonger les centrales actuelles jusqu'à 60 ans, de lancer cinq paires de réacteurs EPR pour 2031 et cinq paires d'EPR 2 pour 2036 (soit vingt réacteurs), en critiquant le plan gouvernemental de six EPR2 plus huit en étude. Programme de campagne 2022 ; aucun chiffre postérieur trouvé.",
+          "citation_anonymisee": "cinq paires d’EPR",
+          "source": {
+            "url": "https://www.publicsenat.fr/article/politique/energies-plein-pot-sur-le-nucleaire-et-haro-sur-les-eoliennes-pour-marine-le-pen",
+            "titre": "Energie : plein pot sur le nucléaire et haro sur les éoliennes pour Marine Le Pen",
+            "date_publication": "2022-03-14",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Propose vingt réacteurs, plus loin que l'énoncé (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Propose vingt réacteurs, va plus loin (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "5e1bb367"
     },
     {
       "question_id": "ENV-024",
@@ -6072,12 +6540,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Interrogée sur BFMTV et RMC, la candidate se dit totalement contre la légalisation du cannabis et juge l'amende forfaitaire pour les consommateurs de drogue un « mauvais signal » : elle réclame au contraire un message de fermeté. La source ne mentionne pas explicitement la dépénalisation de l'usage.",
+          "citation_courte": "C'est l'inverse qu'il faut lancer, un message de fermeté",
+          "reformulation_anonymisee": "Interrogé(e) à la radio et à la télévision, [CANDIDAT] se dit totalement contre la légalisation du cannabis et juge l'amende forfaitaire pour les consommateurs de drogue un « mauvais signal » : [CANDIDAT] réclame au contraire un message de fermeté. La source ne mentionne pas explicitement la dépénalisation de l'usage.",
+          "citation_anonymisee": "C'est l'inverse qu'il faut lancer, un message de fermeté",
+          "source": {
+            "url": "https://www.bfmtv.com/politique/front-national/marine-le-pen-se-dit-totalement-contre-la-legalisation-du-cannabis_AP-202405060272.html",
+            "titre": "Marine Le Pen se dit \"totalement contre\" la légalisation du cannabis",
+            "date_publication": "2024-05-06",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Juge l'amende forfaitaire trop laxiste et réclame la fermeté envers les consommateurs : contraire de la dépénalisation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Contre la légalisation et réclame la fermeté, sans mention explicite de la dépénalisation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "imprecise",
+        "motif": "Réclame la fermeté envers les consommateurs contre l'amende forfaitaire jugée laxiste : direction opposée nette, sans mesure spécifiée ni mention de la dépénalisation. (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "c038870b"
     },
     {
       "question_id": "SEC-010",
@@ -6508,12 +7016,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans un message publié sur X le 2 avril 2026, la candidate reproche au ministre de l'Intérieur de s'aligner sur l'extrême gauche en s'opposant à l'interdiction du voilement des mineures, ce qui selon elle fragilise la laïcité. Elle cite le recteur de la Grande Mosquée de Paris selon lequel le voile ne devrait pas exister en France pour les enfants. Le message ne précise pas l'espace public ni les modalités d'une interdiction.",
+          "citation_courte": "En s’alignant sur les positions communautaristes de l’extrême gauche sur le voilement des mineures",
+          "reformulation_anonymisee": "Dans un message publié sur un réseau social en 2026, [CANDIDAT] reproche au ministre de l'Intérieur de s'aligner sur l'extrême gauche en s'opposant à l'interdiction du voilement des mineures, ce qui selon [CANDIDAT] fragilise la laïcité. [CANDIDAT] cite un recteur de mosquée selon lequel le voile ne devrait pas exister en France pour les enfants. Le message ne précise pas l'espace public ni les modalités d'une interdiction.",
+          "citation_anonymisee": "En s’alignant sur les positions communautaristes de l’extrême gauche sur le voilement des mineures",
+          "source": {
+            "url": "https://www.lejdd.fr/politique/port-du-voile-des-mineures-marine-le-pen-accuse-laurent-nunez-de-saligner-sur-lextreme-gauche-170397",
+            "titre": "Port du voile des mineures : Marine Le Pen accuse Laurent Nuñez de «s'aligner» sur l'extrême gauche",
+            "date_publication": "2026-04-02",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Soutient l'interdiction du voile des mineures sans préciser l'espace public ni les modalités.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Défend l'interdiction du voilement des mineures, espace public non précisé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "92abac46"
     },
     {
       "question_id": "SEC-019",

@@ -1,6 +1,6 @@
 {
   "candidat_id": "attal-gabriel",
-  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
+  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire). Vague 3 (4 octobre 2026) : nouvelle recherche sur les questions sans code publié, même protocole.",
   "grille_version": "1.3",
   "programme": {
     "officiel_disponible": true,
@@ -173,31 +173,121 @@
     },
     {
       "question_id": "RET-005",
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null,
+      "code": 0,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Il propose un système sans âge légal, fondé sur la seule durée de cotisation, avec décote en cas de départ avant cette durée. Il note que la durée actuelle pour le taux plein est de 43 ans et que, si l'espérance de vie continue d'augmenter, elle devra continuer à augmenter ; il ne donne aucun chiffre cible (ni 45 ans).",
+          "citation_courte": "évidemment que la durée devra continuer à augmenter",
+          "reformulation_anonymisee": "[CANDIDAT] propose un système sans âge légal, fondé sur la seule durée de cotisation, avec décote en cas de départ avant cette durée. Il note que la durée actuelle pour le taux plein est de 43 ans et que, si l'espérance de vie continue d'augmenter, elle devra continuer à augmenter ; il ne donne aucun chiffre cible (ni 45 ans).",
+          "citation_anonymisee": "évidemment que la durée devra continuer à augmenter",
+          "source": {
+            "url": "https://www.bfmtv.com/economie/economie-social/social/une-decote-tres-importante-gabriel-attal-detaille-son-idee-de-reforme-des-retraites-sans-age-legal-mais-avec-duree-de-cotisation-plus-longue_AD-202507010276.html",
+            "titre": "\"Une décote très importante\": Gabriel Attal détaille son idée de réforme des retraites sans âge légal mais avec durée de cotisation plus longue",
+            "date_publication": "2025-07-01",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Dans sa proposition de loi sur un système universel, le nombre de trimestres requis pour le taux plein ne serait pas fixé dans le texte : il serait déterminé par les partenaires sociaux, tout comme le niveau de la décote.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Dans la proposition de [CANDIDAT] pour un système universel, le nombre de trimestres requis pour le taux plein ne serait pas fixé dans le texte : il serait déterminé par les partenaires sociaux, tout comme le niveau de la décote.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.tf1info.fr/politique/proposition-de-loi-renaissance-retraites-en-quoi-consiste-le-systeme-universel-propose-par-gabriel-attal-2405823.html",
+            "titre": "Retraites : en quoi consiste le système universel proposé par Gabriel Attal ?",
+            "date_publication": "2025-11-10",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Juge que la durée de cotisation devra augmenter, sans chiffre ; elle serait ensuite fixée par les partenaires sociaux.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 0,
+          "nature": "nuancee",
+          "justification": "Pas de chiffre fixé, durée laissée aux partenaires sociaux.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 0,
+        "nature_retenue": "nuancee",
+        "motif": "La source la plus récente refuse explicitement de fixer la durée dans le texte et la renvoie aux partenaires sociaux : refus argumenté de trancher ; hésitation 0/+1 tranchée vers 0. (code retenu : celui du codeur A)"
+      },
       "controle_humain": {
-        "tire_au_sort": false
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
       },
       "contestations": [],
-      "version": 1
+      "version": 1,
+      "item_aveugle": "f2d9f6ae"
     },
     {
       "question_id": "RET-006",
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il propose un système sans âge légal, fondé sur la seule durée de cotisation. Il note que la durée actuelle pour le taux plein est de 43 ans et que, si l'espérance de vie continue d'augmenter, elle devra continuer à augmenter ; il n'évoque pas de réduction à 40 ans.",
+          "citation_courte": "évidemment que la durée devra continuer à augmenter",
+          "reformulation_anonymisee": "[CANDIDAT] propose un système sans âge légal, fondé sur la seule durée de cotisation. Il note que la durée actuelle pour le taux plein est de 43 ans et que, si l'espérance de vie continue d'augmenter, elle devra continuer à augmenter ; il n'évoque pas de réduction à 40 ans.",
+          "citation_anonymisee": "évidemment que la durée devra continuer à augmenter",
+          "source": {
+            "url": "https://www.bfmtv.com/economie/economie-social/social/une-decote-tres-importante-gabriel-attal-detaille-son-idee-de-reforme-des-retraites-sans-age-legal-mais-avec-duree-de-cotisation-plus-longue_AD-202507010276.html",
+            "titre": "\"Une décote très importante\": Gabriel Attal détaille son idée de réforme des retraites sans âge légal mais avec durée de cotisation plus longue",
+            "date_publication": "2025-07-01",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Estime que la durée de cotisation devra continuer à augmenter.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Durée devra continuer à augmenter, contraire d'une baisse.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
       },
       "contestations": [],
-      "version": 1
+      "version": 1,
+      "item_aveugle": "cb79f624"
     },
     {
       "question_id": "RET-007",
@@ -339,17 +429,65 @@
     },
     {
       "question_id": "RET-011",
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il défend pour les retraites un système universel avec les mêmes règles pour tous : public, privé, fonctionnaires, indépendants. La source ne précise pas le sort des salariés déjà en poste dans les régimes spéciaux.",
+          "citation_courte": "les mêmes règles pour tout le monde",
+          "reformulation_anonymisee": "[CANDIDAT] défend pour les retraites un système universel avec les mêmes règles pour tous : public, privé, fonctionnaires, indépendants. La source ne précise pas le sort des salariés déjà en poste dans les régimes spéciaux.",
+          "citation_anonymisee": "les mêmes règles pour tout le monde",
+          "source": {
+            "url": "https://www.capital.fr/votre-retraite/on-en-est-plus-a-prendre-des-mesures-de-soins-palliatifs-gabriel-attal-ferme-sur-la-question-des-retraites-1530609",
+            "titre": "«On en est plus à prendre des mesures de soins palliatifs» : Gabriel Attal ferme sur la question des retraites",
+            "date_publication": "2026-09-30",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Dans sa proposition de loi présentée par son parti, la quarantaine de régimes serait fondue en un seul régime universel auquel seuls les nouveaux entrants sur le marché du travail seraient affiliés ; les personnes déjà en poste n'y sont donc pas basculées.",
+          "citation_courte": "auquel seuls les nouveaux entrants sur le marché du travail seraient affiliés",
+          "reformulation_anonymisee": "Dans la proposition de loi présentée par [PARTI], la quarantaine de régimes serait fondue en un seul régime universel auquel seuls les nouveaux entrants sur le marché du travail seraient affiliés ; les personnes déjà en poste n'y sont donc pas basculées.",
+          "citation_anonymisee": "auquel seuls les nouveaux entrants sur le marché du travail seraient affiliés",
+          "source": {
+            "url": "https://www.tf1info.fr/politique/proposition-de-loi-renaissance-retraites-en-quoi-consiste-le-systeme-universel-propose-par-gabriel-attal-2405823.html",
+            "titre": "Retraites : en quoi consiste le système universel proposé par Gabriel Attal ?",
+            "date_publication": "2025-11-10",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Son régime universel ne concerne que les nouveaux entrants ; les salariés en poste n'y basculent pas.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Régime universel pour les seuls nouveaux entrants.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
       },
       "contestations": [],
-      "version": 1
+      "version": 1,
+      "item_aveugle": "00c0909c"
     },
     {
       "question_id": "RET-012",
@@ -4460,10 +4598,64 @@
       },
       "code": null,
       "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur BFMTV, il souhaite que l'argent circule plus vite et que les transmissions aux petits-enfants soient moins taxées, notamment pour aider les jeunes à financer un apport immobilier. Aucun chiffre ni délai de renouvellement n'est rapporté dans ce passage.",
+          "citation_courte": "faire en sorte que l'argent puisse circuler plus rapidement",
+          "reformulation_anonymisee": "Interrogé à la télévision, [CANDIDAT] souhaite que l'argent circule plus vite et que les transmissions aux petits-enfants soient moins taxées, notamment pour aider les jeunes à financer un apport immobilier. Aucun chiffre ni délai de renouvellement n'est rapporté dans ce passage.",
+          "citation_anonymisee": "faire en sorte que l'argent puisse circuler plus rapidement",
+          "source": {
+            "url": "https://lcp.fr/actualites/heritages-et-droits-de-succession-que-proposent-les-candidats-a-l-election",
+            "titre": "Héritages et droits de succession : que proposent les candidats à l'élection présidentielle ?",
+            "date_publication": "2026-08-27",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Selon ce panorama, il veut exonérer jusqu'à 150 000 euros par enfant (familles recomposées incluses) et 100 000 euros par petit-enfant pour donations et successions, et relever les plafonds de donation de 100 000 à 150 000 euros. La source ne mentionne pas de réduction du délai de renouvellement de 15 à 10 ans.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Selon ce panorama, [CANDIDAT] veut exonérer jusqu'à 150 000 euros par enfant (familles recomposées incluses) et 100 000 euros par petit-enfant pour donations et successions, et relever les plafonds de donation de 100 000 à 150 000 euros. La source ne mentionne pas de réduction du délai de renouvellement de 15 à 10 ans.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.lejdd.fr/politique/heritage-ce-que-proposent-les-candidats-a-la-presidentielle-183564",
+            "titre": "Héritage : ce que proposent les candidats à la présidentielle",
+            "date_publication": "2026-09-16",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Aucune source ne parle de passer le délai de 15 à 10 ans.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut relever les plafonds de donation à 150 000 euros, sans parler du délai.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": null,
+        "nature_retenue": "non_connu",
+        "motif": "Relèvement des plafonds de donation sans aucune mention du délai de renouvellement, paramètre de l'énoncé : sujet voisin. (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "b0c191bc"
     },
     {
       "question_id": "FIS-015",
@@ -4568,12 +4760,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Lors d'un débat télévisé, il rejette l'exonération d'impôt sur le revenu des moins de 30 ans proposée par un adversaire, la jugeant « hors-sol » : un ouvrier de 31 ans paierait l'impôt alors qu'un consultant ou un trader de 29 ans en serait exonéré.",
+          "citation_courte": "C'est complètement hors-sol",
+          "reformulation_anonymisee": "Lors d'un débat télévisé, [CANDIDAT] rejette l'exonération d'impôt sur le revenu des moins de 30 ans proposée par un adversaire, la jugeant « hors-sol » : un ouvrier de 31 ans paierait l'impôt alors qu'un consultant ou un trader de 29 ans en serait exonéré.",
+          "citation_anonymisee": "C'est complètement hors-sol",
+          "source": {
+            "url": "https://www.leparisien.fr/elections/legislatives/mbappe-aurait-eu-tort-de-partir-attal-critique-la-proposition-de-bardella-dexonerer-les-moins-de-30-ans-dimpot-sur-la-fortune-25-06-2024-ROSFING7HRGQBGQG3GEL4VAGGM.php",
+            "titre": "« Mbappé aurait eu tort de partir » : Attal critique la proposition de Bardella d'exonérer les moins de 30 ans d'impôt sur le revenu",
+            "date_publication": "2024-06-25",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Rejette explicitement l'exonération d'impôt des moins de 30 ans, jugée hors-sol.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Rejette l'exonération des moins de 30 ans.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "702fede9"
     },
     {
       "question_id": "FIS-018",
@@ -4972,12 +5198,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Dans un entretien à l'AFP, il propose, pour faire face à la hausse attendue du prix de l'eau, de garantir un tarif bas et fixe pour les premiers litres essentiels, selon la taille du foyer, dans un « bouclier tarifaire » destiné aux classes moyennes et populaires. Il parle d'un tarif bas, pas d'une gratuité, et ne chiffre pas le volume concerné.",
+          "citation_courte": "un tarif bas et fixe pour les premiers litres essentiels",
+          "reformulation_anonymisee": "Dans un entretien à une agence de presse, [CANDIDAT] propose, pour faire face à la hausse attendue du prix de l'eau, de garantir un tarif bas et fixe pour les premiers litres essentiels, selon la taille du foyer, dans un « bouclier tarifaire » destiné aux classes moyennes et populaires. Il parle d'un tarif bas, pas d'une gratuité, et ne chiffre pas le volume concerné.",
+          "citation_anonymisee": "un tarif bas et fixe pour les premiers litres essentiels",
+          "source": {
+            "url": "https://www.latribune.fr/article/la-tribune-dimanche/planete/2764519277735714/crise-de-leau-gabriel-attal-promet-la-plus-grande-chasse-au",
+            "titre": "Crise de l'eau : Gabriel Attal promet la « plus grande chasse au gâchis » et un bouclier tarifaire face à l'envolée des factures",
+            "date_publication": "2026-08-09",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Propose un tarif bas et fixe pour les premiers litres, pas la gratuité (R5).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Tarif bas et fixe pour les premiers litres, pas la gratuité.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "nuancee",
+        "motif": "Tarif bas et fixe pour les premiers litres : valeur identifiable qui ne va pas jusqu'à la gratuité de l'énoncé, R5. (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "dc06fb57"
     },
     {
       "question_id": "ENV-011",

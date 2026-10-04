@@ -3,11 +3,11 @@
   "_date_etat_des_lieux": "2026-10-02",
   "_note": "Dates « à vérifier » et sources R1 à compléter sur source primaire avant publication.",
   "candidats": [
-    {"id": "le-pen-marine", "prenom": "Marine", "nom": "Le Pen", "parti": "Rassemblement national", "statut_candidature": "declare", "date_declaration": "2023-09", "statut_evaluation": "codage_en_attente", "vague": 1, "a_verifier": "décision d'appel du 2026-07-07"},
+    {"id": "le-pen-marine", "prenom": "Marine", "nom": "Le Pen", "parti": "Rassemblement national", "statut_candidature": "declare", "date_declaration": "2023-09", "statut_evaluation": "evalue", "vague": 1, "a_verifier": "décision d'appel du 2026-07-07"},
     {"id": "philippe-edouard", "prenom": "Édouard", "nom": "Philippe", "parti": "Horizons", "statut_candidature": "declare", "date_declaration": "2024-09", "statut_evaluation": "codage_en_attente", "vague": 1},
     {"id": "melenchon-jean-luc", "prenom": "Jean-Luc", "nom": "Mélenchon", "parti": "La France insoumise", "statut_candidature": "declare", "date_declaration": "à vérifier", "statut_evaluation": "evalue", "vague": 1},
     {"id": "attal-gabriel", "prenom": "Gabriel", "nom": "Attal", "parti": "Renaissance", "statut_candidature": "declare", "date_declaration": "à vérifier", "statut_evaluation": "codage_en_attente", "vague": 1},
-    {"id": "retailleau-bruno", "prenom": "Bruno", "nom": "Retailleau", "parti": "Les Républicains", "statut_candidature": "declare", "date_declaration": "2026-02-12", "statut_evaluation": "codage_en_attente", "vague": 1},
+    {"id": "retailleau-bruno", "prenom": "Bruno", "nom": "Retailleau", "parti": "Les Républicains", "statut_candidature": "declare", "date_declaration": "2026-02-12", "statut_evaluation": "evalue", "vague": 1},
     {"id": "lisnard-david", "prenom": "David", "nom": "Lisnard", "parti": "Nouvelle Énergie", "statut_candidature": "declare", "date_declaration": "à vérifier", "statut_evaluation": "codage_en_attente", "vague": 1},
     {"id": "tondelier-marine", "prenom": "Marine", "nom": "Tondelier", "parti": "Les Écologistes", "statut_candidature": "declare", "date_declaration": "à vérifier", "statut_evaluation": "codage_en_attente", "vague": 2},
     {"id": "roussel-fabien", "prenom": "Fabien", "nom": "Roussel", "parti": "Parti communiste français", "statut_candidature": "investi", "date_declaration": "2026-09", "statut_evaluation": "codage_en_attente", "vague": 1},

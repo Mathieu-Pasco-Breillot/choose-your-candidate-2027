@@ -1,6 +1,6 @@
 {
   "candidat_id": "lisnard-david",
-  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
+  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire). Vague 3 (4 octobre 2026) : nouvelle recherche sur les questions sans code publié, même protocole.",
   "grille_version": "1.3",
   "programme": {
     "officiel_disponible": true,
@@ -381,15 +381,55 @@
       "question_id": "RET-010",
       "code": null,
       "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null,
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le projet prévoit de conserver un socle de pension minimale financé par répartition, attribué à tous sans condition dès 65 ans, complété par un minimum-vieillesse de 1000 euros par mois ; les autres régimes évolueraient vers la capitalisation. La source ne rattache pas ce montant au SMIC net ni à une carrière complète.",
+          "citation_courte": "un minimum-vieillesse à hauteur de 1000 euros par mois",
+          "reformulation_anonymisee": "Le projet prévoit de conserver un socle de pension minimale financé par répartition, attribué à tous sans condition dès 65 ans, complété par un minimum-vieillesse de 1000 euros par mois ; les autres régimes évolueraient vers la capitalisation. La source ne rattache pas ce montant au SMIC net ni à une carrière complète.",
+          "citation_anonymisee": "un minimum-vieillesse à hauteur de 1000 euros par mois",
+          "source": {
+            "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+            "titre": "L'ambition française de David Lisnard (page programme, Nouvelle Énergie)",
+            "date_publication": null,
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Socle et minimum-vieillesse de 1000 euros, inférieur au SMIC net et non lié à la carrière complète (R5).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Minimum-vieillesse de 1000 euros sans lien avec le SMIC net : sujet voisin.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": null,
+        "nature_retenue": "non_connu",
+        "motif": "Minimum-vieillesse de 1 000 euros à 65 ans sans condition n'est pas la pension minimale pour carrière complète : sujet voisin. (code retenu : celui du codeur B)"
+      },
       "controle_humain": {
         "tire_au_sort": false
       },
       "contestations": [],
-      "version": 1
+      "version": 1,
+      "item_aveugle": "4559690f"
     },
     {
       "question_id": "RET-011",
@@ -1778,14 +1818,50 @@
       "contestations": [],
       "version": 1,
       "controle_humain": {
-        "tire_au_sort": false
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans une tribune co-signée avec un sénateur, il écrit que Parcoursup doit mieux remplir son rôle d'outil de confiance, en regroupant les universités publiques, les établissements d'enseignement supérieur privé d'intérêt général et tous les établissements privés agréés par l'État selon des critères minimaux de qualité, avec davantage d'informations et de transparence. Le texte vise à réformer et élargir la plateforme, et ne prévoit pas sa suppression.",
+          "citation_courte": "doit mieux remplir son rôle d'outil de confiance",
+          "reformulation_anonymisee": "Dans une tribune co-signée avec un sénateur, [CANDIDAT] écrit que la plateforme nationale d'admission dans l'enseignement supérieur doit mieux remplir son rôle d'outil de confiance, en regroupant les universités publiques, les établissements d'enseignement supérieur privé d'intérêt général et tous les établissements privés agréés par l'État selon des critères minimaux de qualité, avec davantage d'informations et de transparence. Le texte vise à réformer et élargir la plateforme, et ne prévoit pas sa suppression.",
+          "citation_anonymisee": "doit mieux remplir son rôle d'outil de confiance",
+          "source": {
+            "url": "https://atlantico.fr/article/decryptage/enseignement-superieur-de-la-transparence-pour-un-vrai-libre-choix",
+            "titre": "Enseignement supérieur : de la transparence pour un vrai libre choix (tribune, Atlantico)",
+            "date_publication": "2025-07-11",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Veut réformer et élargir la plateforme, pas la supprimer.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Veut réformer et élargir Parcoursup, pas le supprimer.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "12f8e0a5"
     },
     {
       "question_id": "EDU-002",
@@ -1794,12 +1870,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur les maires qui font de la gratuité un marqueur (transports, fournitures scolaires), il juge la gratuité un mythe destructeur car c'est toujours l'argent des autres, qui déresponsabilise les usagers et prive le service de moyens. Il indique que dans sa commune transports et cantines scolaires sont financés en partie par le contribuable et en partie par l'usager, selon un équilibre qu'il estime juste. Il laisse chaque maire libre chez lui.",
+          "citation_courte": "la gratuité est un mythe destructeur, car c'est toujours l'argent des autres",
+          "reformulation_anonymisee": "Interrogé sur les maires qui font de la gratuité un marqueur (transports, fournitures scolaires), [CANDIDAT] juge la gratuité un mythe destructeur car c'est toujours l'argent des autres, qui déresponsabilise les usagers et prive le service de moyens. Il indique que dans sa commune transports et cantines scolaires sont financés en partie par le contribuable et en partie par l'usager, selon un équilibre qu'il estime juste. Il laisse chaque maire libre chez lui.",
+          "citation_anonymisee": "la gratuité est un mythe destructeur, car c'est toujours l'argent des autres",
+          "source": {
+            "url": "https://www.lejdd.fr/politique/david-lisnard-candidat-a-lelection-presidentielle-le-modele-de-letat-providence-est-mort-180804",
+            "titre": "David Lisnard, candidat à l'élection présidentielle : « Le modèle de l'État-providence est mort ! » (entretien, Le JDD)",
+            "date_publication": "2026-08-08",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Rejette la gratuité comme mythe destructeur, tout en laissant chaque maire libre.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Juge la gratuité un mythe destructeur.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "nuancee",
+        "motif": "Rejette la gratuité au profit d'un cofinancement usager-contribuable identifiable, en laissant chaque maire libre : hésitation -2/-1 tranchée vers 0. (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "3d0c7596"
     },
     {
       "question_id": "EDU-003",
@@ -3014,10 +3130,50 @@
       },
       "code": null,
       "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur la régularisation des sans-papiers travaillant dans les métiers en tension, il répond que la question ne pourra se poser qu'une fois la maîtrise de l'immigration acquise dans le pays, ajoutant qu'il n'y aurait rien de pire qu'une énième loi inutile sur l'immigration. Il ne dit pas explicitement s'il est pour ou contre la régularisation elle-même ; il la conditionne à la maîtrise préalable des flux. Propos rapportés par un site d'opinion à partir d'un entretien à un quotidien régional.",
+          "citation_courte": "qu'une fois que nous aurons la maîtrise de l'immigration dans notre pays",
+          "reformulation_anonymisee": "Interrogé sur la régularisation des sans-papiers travaillant dans les métiers en tension, [CANDIDAT] répond que la question ne pourra se poser qu'une fois la maîtrise de l'immigration acquise dans le pays, ajoutant qu'il n'y aurait rien de pire qu'une énième loi inutile sur l'immigration. Il ne dit pas explicitement s'il est pour ou contre la régularisation elle-même ; il la conditionne à la maîtrise préalable des flux.",
+          "citation_anonymisee": "qu'une fois que nous aurons la maîtrise de l'immigration dans notre pays",
+          "source": {
+            "url": "https://contrepoints.org/metiers-tension-travail/",
+            "titre": "Pour résoudre le problème des « métiers en tension », favoriser le travail plutôt que l'immigration (Contrepoints, citant un entretien à Ouest-France d'octobre 2023)",
+            "date_publication": "2023-12-04",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Ne se prononce pas sur la régularisation, renvoyée à une maîtrise préalable de l'immigration.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Régularisation reportée à la maîtrise de l'immigration.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": null,
+        "nature_retenue": "non_connu",
+        "motif": "Renvoie la question à une maîtrise préalable de l'immigration sans dire s'il est pour ou contre la régularisation elle-même. (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "52e73b62"
     },
     {
       "question_id": "IMM-002",

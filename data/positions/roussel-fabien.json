@@ -1,6 +1,6 @@
 {
   "candidat_id": "roussel-fabien",
-  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
+  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire). Vague 3 (4 octobre 2026) : nouvelle recherche sur les questions sans code publié, même protocole.",
   "grille_version": "1.3",
   "programme": {
     "officiel_disponible": false,
@@ -2604,12 +2604,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Selon un compte rendu de son programme présidentiel, il remplacerait la tarification à l'activité par un budget dédié permettant à chaque établissement hospitalier public de couvrir l'ensemble de ses charges selon ses moyens et non ses résultats. Il s'agit d'un projet de programme rapporté par un média spécialisé, sans calendrier.",
+          "citation_courte": "couvrir l'ensemble de ses charges en fonction des moyens et non des résultats",
+          "reformulation_anonymisee": "Selon un compte rendu de son programme présidentiel, [CANDIDAT] remplacerait la tarification à l'activité par un budget dédié permettant à chaque établissement hospitalier public de couvrir l'ensemble de ses charges selon ses moyens et non ses résultats. Il s'agit d'un projet de programme rapporté par un média spécialisé, sans calendrier.",
+          "citation_anonymisee": "couvrir l'ensemble de ses charges en fonction des moyens et non des résultats",
+          "source": {
+            "url": "https://pediatrie.lequotidiendumedecin.fr/sante-societe/politique-de-sante/fabien-roussel-pcf-souhaite-creer-100-000-personnels-supplementaires-lhopital-public",
+            "titre": "Fabien Roussel (PCF) souhaite créer 100 000 personnels supplémentaires à l'hôpital public - Le Quotidien du Médecin",
+            "date_publication": "2022-03-17",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Remplacerait la tarification à l'activité par un budget couvrant les charges des hôpitaux.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Remplacerait la T2A par un budget dédié.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "576d058a"
     },
     {
       "question_id": "SAN-008",
@@ -2852,12 +2886,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Selon un article de presse détaillant son projet (d'après Le Monde), il souhaite une prise en charge des soins à 100 % ainsi qu'un tiers payant généralisé. Le texte ne mentionne pas explicitement le taux actuel de 70 % pour les consultations.",
+          "citation_courte": "une prise en charge des soins à 100%",
+          "reformulation_anonymisee": "Selon un article de presse détaillant son projet, [CANDIDAT] souhaite une prise en charge des soins à 100 % ainsi qu'un tiers payant généralisé. Le texte ne mentionne pas explicitement le taux actuel de 70 % pour les consultations.",
+          "citation_anonymisee": "une prise en charge des soins à 100%",
+          "source": {
+            "url": "https://www.capital.fr/economie-politique/travail-salaires-le-communiste-fabien-roussel-devoile-son-programme-1426318",
+            "titre": "Travail, salaires... Le communiste Fabien Roussel dévoile son programme - Capital.fr",
+            "date_publication": "2022-01-24",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut une prise en charge des soins à 100 %, soit l'inverse d'une baisse du remboursement.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut une prise en charge à 100 %, contraire à une baisse du taux.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "cfa22ebf"
     },
     {
       "question_id": "IMM-001",
@@ -2934,12 +3002,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans une tribune publiée le 18 janvier 2024, avant la promulgation de la loi, Roussel juge que la loi « asile-immigration » consacre des thèses d'extrême droite (remise en cause du droit du sol, mesures inspirées de la « préférence nationale »), qu'elle n'apporte aucune solution et aggravera la situation. Il appelle à la mettre en échec, par la mobilisation du 21 janvier et en demandant au Président de ne pas la promulguer. Le mot « abrogation » n'y figure pas.",
+          "citation_courte": "mettre en échec cette loi scélérate",
+          "reformulation_anonymisee": "Dans une tribune publiée avant la promulgation de la loi, [CANDIDAT] juge que la loi sur l'asile et l'immigration consacre des thèses d'extrême droite (remise en cause du droit du sol, mesures inspirées de la préférence nationale), qu'elle n'apporte aucune solution et aggravera la situation. Il appelle à la mettre en échec, par la mobilisation et en demandant au Président de ne pas la promulguer. Le mot « abrogation » n'y figure pas.",
+          "citation_anonymisee": "mettre en échec cette loi scélérate",
+          "source": {
+            "url": "https://www.humanite.fr/politique/fabien-roussel/fabien-roussel-que-toute-la-nation-republicaine-se-leve",
+            "titre": "Fabien Roussel : « Que toute la nation républicaine se lève »",
+            "date_publication": "2024-01-18",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Appelait à mettre la loi en échec avant sa promulgation, sans parler d'abrogation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Appelle à mettre en échec la loi, sans mot d'abrogation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "71069266"
     },
     {
       "question_id": "IMM-003",
@@ -2948,12 +3050,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Résumé par Le Parisien du programme présidentiel 2022 de Roussel (rubrique « Citoyenneté ») : le droit de vote aux élections locales et européennes serait accordé aux étrangers vivant en France. Le texte ne précise ni condition de durée de résidence ni modalité de révision constitutionnelle.",
+          "citation_courte": "le droit de vote aux élections locales et européennes sera accordé",
+          "reformulation_anonymisee": "Résumé de presse du programme présidentiel 2022 de [CANDIDAT] : le droit de vote aux élections locales et européennes serait accordé aux étrangers vivant en France. Le texte ne précise ni condition de durée de résidence ni modalité de révision constitutionnelle.",
+          "citation_anonymisee": "le droit de vote aux élections locales et européennes sera accordé",
+          "source": {
+            "url": "https://www.leparisien.fr/elections/presidentielle/feminisme-transports-salaires-le-programme-de-fabien-roussel-07-03-2022-VCM5VD4KRVEXDPXDVA4RNQOO4U.php",
+            "titre": "Féminisme, transports, salaires... Le programme de Fabien Roussel",
+            "date_publication": "2022-03-07",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Programme accordant le droit de vote aux élections locales aux étrangers vivant en France.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Programme accordant le droit de vote aux étrangers aux élections locales.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "f154027a"
     },
     {
       "question_id": "IMM-004",
@@ -3346,14 +3482,50 @@
       "contestations": [],
       "version": 1,
       "controle_humain": {
-        "tire_au_sort": false
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Invité de BFMTV-RMC le 16 septembre 2026, Roussel estime qu'il faut mettre un stop à l'économie de guerre et au surarmement de la France et de l'Union européenne. La source (légende d'une vidéo) ne mentionne ni l'objectif en pourcentage du PIB ni la loi.",
+          "citation_courte": "mettre un stop sur l'économie de guerre, sur le surarmement de la France",
+          "reformulation_anonymisee": "Invité d'une émission de radio-télévision, [CANDIDAT] estime qu'il faut mettre un stop à l'économie de guerre et au surarmement de la France et de l'Union européenne. La source (légende d'une vidéo) ne mentionne ni l'objectif en pourcentage du PIB ni la loi.",
+          "citation_anonymisee": "mettre un stop sur l'économie de guerre, sur le surarmement de la France",
+          "source": {
+            "url": "https://fr.news.yahoo.com/fabien-roussel-candidat-pcf-%C3%A0-071323273.html",
+            "titre": "Fabien Roussel, candidat PCF à l'élection présidentielle, estime qu'il faut \"mettre un stop sur l'économie de guerre, sur le surarmement de la France et l'Union européenne\"",
+            "date_publication": "2026-09-16",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut stopper l'économie de guerre et le surarmement sans viser l'objectif en % du PIB.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut stopper le surarmement, sans viser l'objectif en % du PIB.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "4ec8d346"
     },
     {
       "question_id": "DEF-003",
@@ -4716,12 +4888,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogé par Alternatives économiques, il cite parmi ses priorités de pouvoir d'achat la réduction de la TVA sur les produits de première nécessité. La source ne donne ni taux cible (pas de mention de 0 %) ni nombre ou liste de produits.",
+          "citation_courte": "réduire la TVA sur les produits de première nécessité",
+          "reformulation_anonymisee": "Interrogé par un magazine économique, [CANDIDAT] cite parmi ses priorités de pouvoir d'achat la réduction de la TVA sur les produits de première nécessité. La source ne donne ni taux cible (pas de mention de 0 %) ni nombre ou liste de produits.",
+          "citation_anonymisee": "réduire la TVA sur les produits de première nécessité",
+          "source": {
+            "url": "https://www.alternatives-economiques.fr/fabien-roussel-il-faut-relancer-l-economie-par-les-salaires_27-06-2026",
+            "titre": "Fabien Roussel : « Il faut relancer l'économie par les salaires » - Alternatives économiques",
+            "date_publication": "2026-06-27",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut réduire la TVA sur les produits de première nécessité, sans taux 0 % ni panier défini.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Baisse de TVA sur produits de première nécessité sans taux ni liste.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "d14cac0c"
     },
     {
       "question_id": "FIS-020",

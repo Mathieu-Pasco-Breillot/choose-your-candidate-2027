@@ -1,6 +1,6 @@
 {
   "candidat_id": "retailleau-bruno",
-  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
+  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire). Vague 3 (4 octobre 2026) : nouvelle recherche sur les questions sans code publié, même protocole.",
   "grille_version": "1.3",
   "programme": {
     "officiel_disponible": false,
@@ -295,17 +295,57 @@
     },
     {
       "question_id": "RET-009",
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null,
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Dans un entretien de juillet 2025 sur le plan budgétaire de François Bayrou, il juge que, pour les retraités concernés, le gel des retraites constitue une « double peine », puisqu'ils seraient aussi touchés par l'année blanche et par la réforme de l'abattement de 10 %. Il ne formule pas d'autre précision sur la durée du gel ; la source est antérieure à sa candidature.",
+          "citation_courte": "c’est la double peine",
+          "reformulation_anonymisee": "Dans un entretien de juillet 2025 sur un plan budgétaire gouvernemental, [CANDIDAT] juge que, pour les retraités concernés, le gel des retraites constitue une « double peine », puisqu'ils seraient aussi touchés par l'année blanche et par la réforme de l'abattement de 10 %. Aucune autre précision sur la durée du gel.",
+          "citation_anonymisee": "c’est la double peine",
+          "source": {
+            "url": "https://republicains.fr/actualites/2025/07/18/bruno-retailleau-en-2027-je-ferai-tout-pour-faire-gagner-la-droite/",
+            "titre": "« En 2027, je ferai tout pour faire gagner la droite » (entretien reproduit sur republicains.fr)",
+            "date_publication": "2025-07-18",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Critique le gel des retraites comme une double peine pour les retraités concernés.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Juge le gel des retraites une double peine.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "imprecise",
+        "motif": "Critique le gel comme double peine sans proposer de mesure : direction opposée, modalités absentes. (code retenu : celui du codeur B)"
+      },
       "controle_humain": {
         "tire_au_sort": false
       },
       "contestations": [],
-      "version": 1
+      "version": 1,
+      "item_aveugle": "40dc1c67"
     },
     {
       "question_id": "RET-010",
@@ -351,17 +391,65 @@
     },
     {
       "question_id": "RET-013",
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans ses réponses écrites à l'IREF (avril 2026), il propose de rendre aux entreprises 40 milliards d'euros de compétitivité dès 2027, dont une baisse des cotisations patronales qui financent des dépenses universelles (famille, logement social, transport public local), soit 15 milliards d'euros de cotisations patronales supprimées, et une exonération totale de cotisations patronales sur les heures supplémentaires.",
+          "citation_courte": "suppression de 15 milliards d’euros de cotisations patronales",
+          "reformulation_anonymisee": "Dans ses réponses écrites à un institut de recherche (avril 2026), [CANDIDAT] propose de rendre aux entreprises 40 milliards d'euros de compétitivité dès 2027, dont une baisse des cotisations patronales qui financent des dépenses universelles (famille, logement social, transport public local), soit 15 milliards d'euros de cotisations patronales supprimées, et une exonération totale de cotisations patronales sur les heures supplémentaires.",
+          "citation_anonymisee": "suppression de 15 milliards d’euros de cotisations patronales",
+          "source": {
+            "url": "https://contrepoints.org/flat-tax-aides-aux-entreprises-assurances-sociales-calendrier-des-reformes-bruno-retailleau-repond-a-nos-questions/",
+            "titre": "Flat tax, aides aux entreprises, assurances sociales, calendrier des réformes… Bruno Retailleau répond à nos questions (Contrepoints, réponses écrites à l'IREF)",
+            "date_publication": "2026-04-15",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Lors de son entretien télévisé de septembre 2026, il dit vouloir baisser les taux de cotisations salariales et patronales de 5,25 % pour financer sa réforme des retraites (chiffre rapporté par le média, entre guillemets).",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Lors d'un entretien télévisé de septembre 2026, [CANDIDAT] dit vouloir baisser les taux de cotisations salariales et patronales de 5,25 % pour financer sa réforme des retraites (chiffre rapporté par le média).",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.capital.fr/economie-politique/je-veux-sauver-les-retraites-bruno-retailleau-defend-un-age-minimal-de-depart-a-63-ans-1530381",
+            "titre": "«Je veux sauver les retraites», Bruno Retailleau défend un âge minimal de départ à 63 ans (Capital, reprise de l'entretien sur LCI)",
+            "date_publication": "2026-09-22",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut baisser et supprimer des cotisations patronales.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut baisser les cotisations patronales.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
       },
       "contestations": [],
-      "version": 1
+      "version": 1,
+      "item_aveugle": "bd7be3ac"
     },
     {
       "question_id": "RET-014",
@@ -2380,12 +2468,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans un entretien d'août 2025, il estime qu'on ne peut plus faire le « tout gratuit » en santé, que la France a l'un des restes à charge les plus faibles d'Europe, et qu'il faut augmenter la franchise, ce qu'il juge absolument nécessaire. Il lie par ailleurs toute hausse des franchises à une remise en cause de la gratuité des soins pour les étrangers en situation irrégulière (AME).",
+          "citation_courte": "il faut augmenter la franchise, c’est absolument nécessaire",
+          "reformulation_anonymisee": "Dans un entretien d'août 2025, [CANDIDAT] estime qu'on ne peut plus faire le « tout gratuit » en santé, que la France a l'un des restes à charge les plus faibles d'Europe, et qu'il faut augmenter la franchise, ce qu'il juge absolument nécessaire. Il lie par ailleurs toute hausse des franchises à une remise en cause de la gratuité des soins pour les étrangers en situation irrégulière.",
+          "citation_anonymisee": "il faut augmenter la franchise, c’est absolument nécessaire",
+          "source": {
+            "url": "https://republicains.fr/actualites/2025/08/28/bruno-retailleau-la-france-nest-pas-condamnee-au-chaos/",
+            "titre": "« La France n’est pas condamnée au chaos » (Le Figaro Magazine, reproduit sur republicains.fr)",
+            "date_publication": "2025-08-28",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut augmenter la franchise, contraire de sa suppression.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut augmenter les franchises, contraire de la suppression.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "0d9a4fe3"
     },
     {
       "question_id": "SAN-005",
@@ -2630,12 +2752,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans un entretien d'août 2025, il se prononce pour augmenter la franchise médicale, jugée absolument nécessaire, sans citer de montant ni parler spécifiquement des plafonds annuels ni de 100 euros.",
+          "citation_courte": "il faut augmenter la franchise, c’est absolument nécessaire",
+          "reformulation_anonymisee": "Dans un entretien d'août 2025, [CANDIDAT] se prononce pour augmenter la franchise médicale, jugée absolument nécessaire, sans citer de montant ni parler spécifiquement des plafonds annuels ni de 100 euros.",
+          "citation_anonymisee": "il faut augmenter la franchise, c’est absolument nécessaire",
+          "source": {
+            "url": "https://republicains.fr/actualites/2025/08/28/bruno-retailleau-la-france-nest-pas-condamnee-au-chaos/",
+            "titre": "« La France n’est pas condamnée au chaos » (Le Figaro Magazine, reproduit sur republicains.fr)",
+            "date_publication": "2025-08-28",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut augmenter la franchise sans parler des plafonds ni de 100 euros.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Pour augmenter la franchise sans montant ni plafonds.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "4d51175b"
     },
     {
       "question_id": "SAN-018",
@@ -2700,12 +2856,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans un entretien de novembre 2025, il s'engage à supprimer l'aide médicale d'État en la transformant en une aide médicale d'urgence, c'est-à-dire limitée aux soins d'urgence. Il ne parle pas d'un accord préalable de l'assurance maladie pour les soins non urgents.",
+          "citation_courte": "Nous supprimerons l’AME en la transformant en une aide médicale d’urgence",
+          "reformulation_anonymisee": "Dans un entretien de novembre 2025, [CANDIDAT] s'engage à supprimer l'aide médicale d'État en la transformant en une aide médicale d'urgence, c'est-à-dire limitée aux soins d'urgence. Il ne parle pas d'un accord préalable de l'assurance maladie pour les soins non urgents.",
+          "citation_anonymisee": "Nous supprimerons l’AME en la transformant en une aide médicale d’urgence",
+          "source": {
+            "url": "https://republicains.fr/actualites/2025/11/24/bruno-retailleau-ce-budget-cest-le-hold-up-du-siecle/",
+            "titre": "« Ce budget, c’est le hold-up du siècle » (entretien au Parisien, reproduit sur republicains.fr)",
+            "date_publication": "2025-11-24",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut limiter l'AME aux soins urgents, ce qui va plus loin dans le même sens (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Supprime l'AME au profit d'aide d'urgence, va plus loin dans le même sens.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "c30315f9"
     },
     {
       "question_id": "SAN-020",
@@ -2974,12 +3164,52 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur les régularisations, il juge que l'idée de régulariser des étrangers en situation irrégulière (« clandestins ») est une capitulation ; il s'oppose à l'assouplissement par le gouvernement de sa circulaire sur les régularisations, qui créerait selon lui un appel d'air et ouvrirait la porte au regroupement familial, et dit qu'on peut plutôt former des Français ou des étrangers déjà en situation régulière. Propos d'ordre général : la source ne vise pas spécifiquement les parents d'enfants scolarisés.",
+          "citation_courte": "régulariser des clandestins qui ont fraudé nos lois est une capitulation",
+          "reformulation_anonymisee": "Interrogé sur les régularisations, [CANDIDAT] juge que l'idée de régulariser des étrangers en situation irrégulière est une capitulation ; il s'oppose à l'assouplissement par le gouvernement de la circulaire actuelle sur les régularisations, qui créerait selon lui un appel d'air et ouvrirait la porte au regroupement familial, et dit qu'on peut plutôt former des Français ou des étrangers déjà en situation régulière. Propos d'ordre général : la source ne vise pas spécifiquement les parents d'enfants scolarisés.",
+          "citation_anonymisee": "régulariser des clandestins qui ont fraudé nos lois est une capitulation",
+          "source": {
+            "url": "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/",
+            "titre": "Ma candidature ira jusqu'au bout (entretien au JDD, repris sur le site des Républicains)",
+            "date_publication": "2026-05-31",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Rejette les régularisations en général, sans viser spécifiquement les parents d'enfants scolarisés.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Juge les régularisations une capitulation, propos généraux non spécifiques aux parents.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "nuancee",
+        "motif": "Rejette toute régularisation et s'oppose à l'assouplissement de la circulaire, ce qui englobe les parents d'enfants scolarisés sans les viser : hésitation -2/-1 tranchée vers 0. (code retenu : celui du codeur A)"
+      },
+      "item_aveugle": "31be9abe"
     },
     {
       "question_id": "IMM-010",
@@ -2988,12 +3218,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur les régularisations, il juge que l'idée de régulariser des étrangers en situation irrégulière (« clandestins ») est une capitulation ; il s'oppose à l'assouplissement par le gouvernement de sa circulaire sur les régularisations, qui créerait selon lui un appel d'air et ouvrirait la porte au regroupement familial, et dit qu'on peut plutôt former des Français ou des étrangers déjà en situation régulière. Propos d'ordre général : la source ne vise pas spécifiquement les étudiants étrangers en situation irrégulière.",
+          "citation_courte": "régulariser des clandestins qui ont fraudé nos lois est une capitulation",
+          "reformulation_anonymisee": "Interrogé sur les régularisations, [CANDIDAT] juge que l'idée de régulariser des étrangers en situation irrégulière est une capitulation ; il s'oppose à l'assouplissement par le gouvernement de la circulaire actuelle sur les régularisations, qui créerait selon lui un appel d'air et ouvrirait la porte au regroupement familial, et dit qu'on peut plutôt former des Français ou des étrangers déjà en situation régulière. Propos d'ordre général : la source ne vise pas spécifiquement les étudiants étrangers en situation irrégulière.",
+          "citation_anonymisee": "régulariser des clandestins qui ont fraudé nos lois est une capitulation",
+          "source": {
+            "url": "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/",
+            "titre": "Ma candidature ira jusqu'au bout (entretien au JDD, repris sur le site des Républicains)",
+            "date_publication": "2026-05-31",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Rejette les régularisations en général, sans viser spécifiquement les étudiants.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Rejette la régularisation en général, étudiants non visés.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "edb26a70"
     },
     {
       "question_id": "IMM-011",
@@ -4446,12 +4710,46 @@
       "controle_humain": {
         "tire_au_sort": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans le même entretien de juillet 2025, il cite la réforme de l'abattement de 10 % des retraités parmi les mesures qui, cumulées au gel des retraites, forment une « double peine » pour les retraités concernés. Il ne se prononce pas sur le montant d'un forfait de 2 000 euros.",
+          "citation_courte": "la réforme des 10 % d’abattement",
+          "reformulation_anonymisee": "Dans un entretien de juillet 2025, [CANDIDAT] cite la réforme de l'abattement de 10 % des retraités parmi les mesures qui, cumulées au gel des retraites, forment une « double peine » pour les retraités concernés. Il ne se prononce pas sur le montant d'un forfait de 2 000 euros.",
+          "citation_anonymisee": "la réforme des 10 % d’abattement",
+          "source": {
+            "url": "https://republicains.fr/actualites/2025/07/18/bruno-retailleau-en-2027-je-ferai-tout-pour-faire-gagner-la-droite/",
+            "titre": "« En 2027, je ferai tout pour faire gagner la droite » (entretien reproduit sur republicains.fr)",
+            "date_publication": "2025-07-18",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Critique la réforme de l'abattement de 10 % comme une double peine, sans parler du forfait.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Critique la réforme de l'abattement de 10 %.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "item_aveugle": "20ee2797"
     },
     {
       "question_id": "FIS-011",
@@ -4526,12 +4824,42 @@
     {
       "question_id": "FIS-013",
       "contestations": [],
-      "version": 1,
+      "version": 2,
       "controle_humain": {
-        "tire_au_sort": false
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
       },
-      "item_aveugle": "5143ec79",
+      "item_aveugle": "df9d6879",
       "extraits": [
+        {
+          "reformulation": "Il promet de baisser les droits de succession autant que possible pendant le quinquennat. Pour cela, il propose un « choc de transmission » de trois ans : chaque parent pourrait donner à ses enfants de moins de 30 ans jusqu'à 150 000 euros sans impôt. Il s'agit d'un dispositif temporaire de donation, pas d'un relèvement permanent de l'abattement successoral.",
+          "citation_courte": "jusqu’à 150 000 euros, sans un seul euro d’impôt à payer",
+          "reformulation_anonymisee": "[CANDIDAT] promet de baisser les droits de succession autant que possible pendant le quinquennat. Il propose un « choc de transmission » de trois ans : chaque parent pourrait donner à ses enfants de moins de 30 ans jusqu'à 150 000 euros sans impôt. Il s'agit d'un dispositif temporaire de donation, pas d'un relèvement permanent de l'abattement successoral.",
+          "citation_anonymisee": "jusqu’à 150 000 euros, sans un seul euro d’impôt à payer",
+          "source": {
+            "url": "https://republicains.fr/actualites/2026/08/26/je-serai-le-president-qui-baissera-les-impots-de-succession/",
+            "titre": "Je serai le président qui baissera les impôts de succession (entretien à L'Opinion, reproduit sur republicains.fr)",
+            "date_publication": "2026-08-26",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Le JDD résume son projet : pendant les premières années du quinquennat, chaque parent ou grand-parent pourrait donner jusqu'à 150 000 euros sans impôt si le bénéficiaire a moins de 30 ans, et jusqu'à 100 000 euros s'il a moins de 40 ans. Ces abattements exceptionnels s'appliqueraient aussi aux donations et successions de patrimoine immobilier, et le délai de rappel fiscal des donations passerait de 15 à 10 ans.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Un journal résume le projet de [CANDIDAT] : pendant les premières années du quinquennat, chaque parent ou grand-parent pourrait donner jusqu'à 150 000 euros sans impôt si le bénéficiaire a moins de 30 ans, et jusqu'à 100 000 euros s'il a moins de 40 ans. Ces abattements exceptionnels s'appliqueraient aussi aux donations et successions de patrimoine immobilier, et le délai de rappel fiscal des donations passerait de 15 à 10 ans.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.lejdd.fr/politique/heritage-ce-que-proposent-les-candidats-a-la-presidentielle-183564",
+            "titre": "Héritage : ce que proposent les candidats à la présidentielle (Le JDD)",
+            "date_publication": "2026-09-16",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        },
         {
           "reformulation": "Propose, pour une durée limitée à trois ans, de relever le plafond des dons familiaux exonérés à 150 000 euros pour les bénéficiaires de moins de 30 ans et à 100 000 euros pour ceux de moins de 40 ans (contre 31 865 euros aujourd'hui pour les seuls dons en numéraire), règle applicable aussi aux donations et successions portant sur le patrimoine immobilier. Il s'agit d'un dispositif temporaire et ciblé, qui ne porte pas sur l'abattement général des successions.",
           "citation_courte": "applicable également aux donations et successions portant sur le patrimoine immobilier",
@@ -4550,26 +4878,32 @@
       "codage": {
         "codeur_1": {
           "modele": "claude-opus-5-5",
-          "code": null,
-          "nature": "non_connu",
-          "justification": "Dispositif temporaire et ciblé sur les dons familiaux aux moins de 30/40 ans, distinct de l'abattement général parents-enfants.",
-          "date": "2026-10-03",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Abattement de 150 000 euros temporaire et réservé aux bénéficiaires jeunes, pas un relèvement général et permanent : version partielle.",
+          "date": "2026-10-04",
           "aveugle": true
         },
         "codeur_2": {
           "modele": "claude-sonnet-5-5",
           "code": null,
           "nature": "non_connu",
-          "justification": "Le dispositif temporaire de dons pour les moins de 30 ou 40 ans ne porte pas sur l'abattement général des successions : sujet voisin.",
-          "date": "2026-10-03",
+          "justification": "Dispositif temporaire de donation, pas l'abattement successoral : sujet voisin.",
+          "date": "2026-10-04",
           "aveugle": true
         },
-        "accord": true
+        "accord": false
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "accord",
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Exonération à 150 000 euros applicable aussi aux successions, mais temporaire et réservée aux moins de 30 ans : version partielle de l'énoncé. (code retenu : celui du codeur A)"
+      }
     },
     {
       "question_id": "FIS-014",

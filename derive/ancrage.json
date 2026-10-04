@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "empreinte_donnees": "5f70ebc3df013869651232ae6d5c2104c3d09ab664fb6b9ecd365ad8c88c0707",
+  "empreinte_donnees": "8fced9d3581d36958f109f314282d195f99afb682dfed56b72e7bf76cd4de4b2",
   "provisoire": true,
   "parametres": {
     "nombre_ancres": 10,
@@ -55,6 +55,16 @@
     },
     {
       "rang": 5,
+      "question_id": "IMM-011",
+      "theme": "immigration",
+      "axe": "frontieres",
+      "sens": -1,
+      "D": 2.166667,
+      "couverture": 0.888889,
+      "candidats_codes": 8
+    },
+    {
+      "rang": 6,
       "question_id": "FIS-001",
       "theme": "fiscalite",
       "axe": "economie",
@@ -64,7 +74,7 @@
       "candidats_codes": 8
     },
     {
-      "rang": 6,
+      "rang": 7,
       "question_id": "INS-009",
       "theme": "institutions",
       "axe": "institutions",
@@ -74,7 +84,7 @@
       "candidats_codes": 8
     },
     {
-      "rang": 7,
+      "rang": 8,
       "question_id": "EDU-007",
       "theme": "education",
       "axe": "economie",
@@ -84,7 +94,7 @@
       "candidats_codes": 9
     },
     {
-      "rang": 8,
+      "rang": 9,
       "question_id": "ENV-002",
       "theme": "ecologie-energie",
       "axe": "ecologie",

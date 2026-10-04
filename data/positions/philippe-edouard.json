@@ -1,6 +1,6 @@
 {
   "candidat_id": "philippe-edouard",
-  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire).",
+  "_statut": "POC — codage vague 1, 11 thèmes. Retraites : arbitrages acceptés en bloc par Mathieu. Autres thèmes : désaccords arbitrés provisoirement par un 3e modèle, contrôle humain de 10 % à faire. À revoir avant publication. Vague 2 (4 octobre 2026) : recherche complémentaire sur les questions sans code publié, même protocole (double codage aveugle, arbitrage provisoire par un 3e modèle, contrôle humain de 10 % à faire). Vague 3 (4 octobre 2026) : nouvelle recherche sur les questions sans code publié, même protocole.",
   "grille_version": "1.3",
   "programme": {
     "officiel_disponible": true,
@@ -2636,14 +2636,56 @@
       "contestations": [],
       "version": 1,
       "controle_humain": {
-        "tire_au_sort": false
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
       },
-      "code": null,
-      "nature": "non_connu",
-      "statut": "sans_extrait",
-      "extraits": [],
-      "codage": null,
-      "arbitrage": null
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur Mayotte, où le droit du sol a déjà été restreint par une loi de 2025, le candidat estime qu'il faut aller plus loin et le suspendre totalement pendant plusieurs années sur ce territoire. La position vise Mayotte seulement : la source ne rapporte aucune position sur une suppression du droit du sol à l'échelle nationale.",
+          "citation_courte": "il faut aller encore plus loin et le suspendre totalement pendant plusieurs années",
+          "reformulation_anonymisee": "Interrogé sur un département d'outre-mer, où le droit du sol a déjà été restreint par une loi de 2025, [CANDIDAT] estime qu'il faut aller plus loin et le suspendre totalement pendant plusieurs années sur ce territoire. La position vise ce seul territoire : la source ne rapporte aucune position sur une suppression du droit du sol à l'échelle nationale.",
+          "citation_anonymisee": "il faut aller encore plus loin et le suspendre totalement pendant plusieurs années",
+          "source": {
+            "url": "https://lcp.fr/actualites/mayotte-pour-edouard-philippe-l-urgence-est-de-fermer-les-vannes-de-l-immigration-440519",
+            "titre": "Mayotte: pour Edouard Philippe, \"l'urgence est de fermer les vannes de l'immigration\" (LCP-Assemblée nationale, reprise d'un entretien à France Mayotte Matin)",
+            "date_publication": "2026-08-20",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut suspendre totalement le droit du sol sur un seul territoire d'outre-mer : version partielle.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut suspendre le droit du sol à Mayotte seulement, sans position nationale.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Suspension totale du droit du sol sur un seul territoire : version partielle identifiable de l'énoncé. (code retenu : celui du codeur B)"
+      },
+      "item_aveugle": "8286be96"
     },
     {
       "question_id": "IMM-012",
