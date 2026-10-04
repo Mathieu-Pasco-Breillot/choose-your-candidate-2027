@@ -1,6 +1,11 @@
 /**
  * Carte de résultat à partager (spécification J7) : image dessinée sur le téléphone, dans un canvas.
  * Rien n'est envoyé au serveur ; la fiabilité figure toujours ; une seule couleur neutre, aucune couleur de parti.
+ *
+ * Couleurs : la carte reste toujours dans le thème sombre, quel que soit le thème de l'écran. Elle est vue par
+ * d'autres personnes que l'expéditeur, hors de l'application : une seule apparence, identique pour tous, évite que
+ * deux cartes d'un même résultat diffèrent selon le réglage du téléphone, et garde l'identité visuelle de référence
+ * (spécification § 5.1). Le fond sombre plein se lit aussi bien sur une messagerie en mode clair qu'en mode sombre.
  */
 import type { Classe } from '../core/score/index.ts';
 import { FIABILITE, MODES } from './libelles.ts';

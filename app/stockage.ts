@@ -13,6 +13,9 @@ const CLE_PARTIE = 'isoloir:partie';
 const CLE_VUES = 'isoloir:vues';
 const CLE_BADGES = 'isoloir:badges';
 export const EVENEMENT_BADGES = 'isoloir:badges';
+/** Réglages de l'appareil (lus et écrits par reglages.ts) ; effacés eux aussi par « tout effacer ». */
+export const CLE_APPARENCE = 'isoloir:apparence';
+export const CLE_SON = 'isoloir:son';
 
 function lire(cle: string): unknown {
   try {
@@ -78,6 +81,8 @@ export function toutEffacer(): void {
     localStorage.removeItem(CLE_PARTIE);
     localStorage.removeItem(CLE_VUES);
     localStorage.removeItem(CLE_BADGES);
+    localStorage.removeItem(CLE_APPARENCE);
+    localStorage.removeItem(CLE_SON);
   } catch {
     /* rien à effacer */
   }

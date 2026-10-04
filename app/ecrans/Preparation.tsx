@@ -91,7 +91,7 @@ export function Preparation({ mode, onLancer, onRetour }: Props) {
           {candidatsParNom.map((c) => (
             <li key={c.id}>
               <label className="flex min-h-11 cursor-pointer items-center gap-3 rounded-xl bg-nuit-clair px-3 py-2 has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-or">
-                <input type="checkbox" className="size-5 accent-[#e2b85c]" checked={affinites.includes(c.id)} onChange={() => basculer(c.id)} />
+                <input type="checkbox" className="size-5 accent-or" checked={affinites.includes(c.id)} onChange={() => basculer(c.id)} />
                 <span>
                   {c.prenom} {c.nom}
                   <span className="block text-xs text-sourdine">{c.parti}</span>

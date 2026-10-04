@@ -145,7 +145,7 @@ function CarteCandidat({ s, rang, exAequo, visible = true }: { s: ScoreCandidat;
       {classe ? (
         <>
           <div className="mt-2 h-2 overflow-hidden rounded-full bg-nuit">
-            <div className="h-full bg-or" style={{ width: `${s.score.scoreArrondi ?? 0}%` }} />
+            <div data-barre-score className="h-full bg-or" style={{ width: `${s.score.scoreArrondi ?? 0}%` }} />
           </div>
           <p className="mt-2 text-sm text-sourdine">
             Fiabilité {FIABILITE[s.fiabilite]} · codé sur {s.score.codees} de vos {s.score.repondues} questions

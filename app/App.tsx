@@ -6,6 +6,7 @@ import { estTerminee, marquerVues, nouvelleGraine, nouvellePartie, reculer, repo
 import { apresPartie } from './badges.ts';
 import { ecrirePartie, ecrireVues, lirePartie, lireVues, majBadges, toutEffacer } from './stockage.ts';
 import { Accueil } from './ecrans/Accueil.tsx';
+import { appliquerApparence } from './reglages.ts';
 import { Vieprivee } from './ecrans/Vieprivee.tsx';
 import { Defi } from './ecrans/Defi.tsx';
 import { Preparation } from './ecrans/Preparation.tsx';
@@ -25,6 +26,8 @@ const aujourdhui = (): string => new Date().toISOString().slice(0, 10);
 export function App() {
   const [partie, setPartie] = useState<Partie | null>(() => lirePartie());
   const [ecran, setEcran] = useState<Ecran>('accueil');
+  // Change après « tout effacer » : l'accueil (et ses réglages) repart de zéro.
+  const [generation, setGeneration] = useState(0);
 
   const changer = useCallback((p: Partie) => {
     setPartie(p);
@@ -63,6 +66,8 @@ export function App() {
 
   const effacer = () => {
     toutEffacer();
+    appliquerApparence('auto');
+    setGeneration((g) => g + 1);
     setPartie(null);
     setEcran('accueil');
   };
@@ -102,6 +107,7 @@ export function App() {
         <Resultats partie={partie} onNouvelle={() => setEcran('accueil')} onDefi={jouerDefi} onVieprivee={() => setEcran('vieprivee')} onToutEffacer={effacer} />
       ) : (
         <Accueil
+          key={generation}
           enCours={!!partie && !estTerminee(partie)}
           terminee={!!partie && estTerminee(partie)}
           onCommencer={choisirMode}

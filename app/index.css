@@ -2,6 +2,14 @@
 @import '@fontsource-variable/source-serif-4';
 @import '@fontsource-variable/source-sans-3';
 
+/*
+ * Couleurs : les noms de classes restent ceux du thème sombre de référence (bg-nuit, text-creme, text-or…),
+ * mais chaque couleur est une variable CSS redéfinie pour le thème clair, plus bas. Les classes Tailwind lisent
+ * la variable à l'exécution (pas de `@theme inline`) : les opacités (bg-or/45) suivent donc le thème.
+ * Rôles : nuit = fond, nuit-clair = carte, creme = texte, sourdine = texte secondaire, or = accent unique.
+ * Aucune couleur n'est associée à un camp ou à un candidat ; l'échelle de réponse et les barres de score
+ * n'utilisent que l'or, à différentes intensités, dans les deux thèmes.
+ */
 @theme {
   --font-serif: 'Source Serif 4 Variable', Georgia, serif;
   --font-sans: 'Source Sans 3 Variable', system-ui, sans-serif;
@@ -10,6 +18,40 @@
   --color-or: #e2b85c;
   --color-creme: #f4ecd8;
   --color-sourdine: #aab4c8;
+  --color-fond-bas: #0a1226;
+  /* Papier de l'enveloppe de la mascotte : identique dans les deux thèmes. */
+  --color-papier: #fbf6ea;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+/*
+ * Thème clair : papier, encre marine, or foncé. Contrastes (WCAG AA) : encre sur papier 14,1 ; texte secondaire
+ * sur papier 6,6 et sur carte 7,3 ; or sur papier 5,5 ; papier sur bouton or 5,5. Choisi par le réglage manuel
+ * (data-theme="clair" sur <html>) ou, en automatique (pas d'attribut), par prefers-color-scheme.
+ */
+:root[data-theme='clair'] {
+  color-scheme: light;
+  --color-nuit: #f4efe3;
+  --color-nuit-clair: #fffcf5;
+  --color-or: #7d5a10;
+  --color-creme: #16203a;
+  --color-sourdine: #4b5567;
+  --color-fond-bas: #ebe3d1;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme='sombre']) {
+    color-scheme: light;
+    --color-nuit: #f4efe3;
+    --color-nuit-clair: #fffcf5;
+    --color-or: #7d5a10;
+    --color-creme: #16203a;
+    --color-sourdine: #4b5567;
+    --color-fond-bas: #ebe3d1;
+  }
 }
 
 html {
@@ -17,7 +59,7 @@ html {
 }
 
 body {
-  background: linear-gradient(180deg, var(--color-nuit) 0%, #0a1226 100%) fixed;
+  background: linear-gradient(180deg, var(--color-nuit) 0%, var(--color-fond-bas) 100%) fixed;
   color: var(--color-creme);
   font-family: var(--font-sans);
   min-height: 100dvh;

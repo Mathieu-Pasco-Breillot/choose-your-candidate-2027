@@ -1,5 +1,6 @@
 import { MODES } from '../libelles.ts';
 import type { ModeJeu } from '../jeu.ts';
+import { Reglages } from './Reglages.tsx';
 
 interface Props {
   enCours: boolean;
@@ -74,7 +75,7 @@ export function Accueil({ enCours, terminee, onCommencer, onDefi, onVieprivee, o
             <span className="block font-serif text-2xl font-semibold">
               {MODES[mode].nom} · {MODES[mode].questions} questions
             </span>
-            <span className="text-nuit/80">{MODES[mode].duree}</span>
+            <span className="text-nuit">{MODES[mode].duree}</span>
           </button>
         ))}
       </div>
@@ -87,6 +88,8 @@ export function Accueil({ enCours, terminee, onCommencer, onDefi, onVieprivee, o
         <span className="block font-serif text-xl font-semibold">Défi « Qui a dit ça ? »</span>
         <span className="text-sourdine">Cinq positions sourcées, sans les noms. Un jeu à part, sans lien avec votre résultat.</span>
       </button>
+
+      <Reglages />
 
       <footer className="mt-6 flex flex-col gap-2 text-sm text-sourdine">
         <p>
