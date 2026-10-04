@@ -1,6 +1,7 @@
 import { MODES } from '../libelles.ts';
 import type { ModeJeu } from '../jeu.ts';
 import { Reglages } from './Reglages.tsx';
+import { NOM_MASCOTTE } from '../habillage.ts';
 import { Mascotte } from './Mascotte.tsx';
 import { groupesCandidats, nomComplet } from '../listes.ts';
 import { MOTIFS_NON_EVALUATION } from '../libelles.ts';
@@ -37,7 +38,10 @@ export function Accueil({ enCours, terminee, onCommencer, onDefi, onVieprivee, o
         <h1 className="mt-2 font-serif text-5xl font-semibold">Mon Isoloir</h1>
         <div className="mt-2 flex items-end justify-between gap-3">
           <p className="text-lg text-sourdine">Comparez les candidats, à l'abri des regards.</p>
-          <Mascotte attitude="accueil" taille={84} />
+          <figure className="flex shrink-0 flex-col items-center">
+            <Mascotte attitude="accueil" taille={84} />
+            <figcaption className="text-xs text-sourdine">{NOM_MASCOTTE}</figcaption>
+          </figure>
         </div>
       </header>
 

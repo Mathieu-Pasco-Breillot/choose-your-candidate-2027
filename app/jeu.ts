@@ -118,9 +118,10 @@ export function situation(p: Partie) {
 
 /**
  * Population calculée : les candidats qui ont au moins une position publiée (même définition que la population
- * de référence de derive/, validée au lot 5b : candidats non « non_evalue » disposant de positions). Aucun candidat
- * n'est `evalue` au 3 octobre 2026 (bilan 5c) : ceux-là sont traités comme évalués, avec les mêmes seuils de
- * classement ; les autres sont listés « codage en attente ».
+ * de référence de derive/, validée au lot 5b : candidats non « non_evalue » disposant de positions). Au 4 octobre
+ * 2026, deux candidats sont `evalue` (40 % des questions actives codées, lot 5g) ; les candidats « codage en
+ * attente » qui ont déjà des positions publiées sont traités comme évalués, avec les mêmes seuils de classement
+ * (règle du lot 5c, confirmée au lot 5g) ; les autres sont listés « codage en attente ».
  */
 const candidatsCalcules = paquet.candidats.map((c) =>
   c.statutEvaluation !== 'non_evalue' && (paquet.positions[c.id] ?? []).some((p) => p.etat === 'publie')

@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 
 /**
- * La mascotte (spécification J3) : une urne, dessin original, non humain. Elle accompagne l'accueil, les fins de
+ * La mascotte (spécification J3), nommée Urnie (NOM_MASCOTTE, habillage.ts) : une urne, dessin original, non humain. Elle accompagne l'accueil, les fins de
  * chapitre et les écrans vides. Elle ne réagit qu'à la progression : jamais à une réponse ni à un candidat.
  * Couleurs par classes du thème (elle suit le thème clair et le thème sombre) ; décorative pour les lecteurs d'écran.
  * Animations coupées si le téléphone demande des animations réduites (MotionConfig dans App.tsx).

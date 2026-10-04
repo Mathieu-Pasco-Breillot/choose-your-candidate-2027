@@ -1,6 +1,6 @@
 import { apresSource } from '../badges.ts';
 import { majBadges } from '../stockage.ts';
-import { EXPLICATIONS_MOTIFS, libelleTheme, libelleValeur, MOTIFS_NON_EVALUATION, NATURES, THEMES } from '../libelles.ts';
+import { EXPLICATIONS_MOTIFS, libelleTheme, libelleValeur, MOTIFS_NON_EVALUATION, NATURES, pourcentage, SEUIL_EVALUE, THEMES } from '../libelles.ts';
 import { questionsParId } from '../jeu.ts';
 import { paquet } from '../paquet.ts';
 
@@ -36,9 +36,9 @@ export function FicheCandidat({ id, onRetour, libelleRetour = '← Retour' }: { 
           <li>
             Statut :{' '}
             <strong>
-              {c.statutEvaluation !== 'non_evalue' && publiees.length > 0
+              {c.statutEvaluation === 'codage_en_attente' && publiees.length > 0
                 ? // Même règle que le calcul (jeu.ts) : un candidat avec des positions publiées est comparé, même si son
-                  // statut dans les données est encore « codage en attente » (aucun n'est « évalué » au 4 octobre 2026).
+                  // statut dans les données est encore « codage en attente » (sous 40 % des questions actives codées).
                   'Comparé dans les résultats, codage en cours'
                 : STATUTS[c.statutEvaluation]}
             </strong>
@@ -47,12 +47,15 @@ export function FicheCandidat({ id, onRetour, libelleRetour = '← Retour' }: { 
           <li className="text-sourdine">
             {c.statutEvaluation === 'non_evalue'
               ? EXPLICATIONS_MOTIFS[c.motifNonEvaluation ?? 'motif_non_renseigne']
-              : publiees.length > 0
-                ? EXPLICATIONS_MOTIFS.compares
-                : EXPLICATIONS_MOTIFS.codage_en_attente}
+              : c.statutEvaluation === 'evalue'
+                ? EXPLICATIONS_MOTIFS.evalue
+                : publiees.length > 0
+                  ? EXPLICATIONS_MOTIFS.compare
+                  : EXPLICATIONS_MOTIFS.codage_en_attente}
           </li>
-          <li>
-            Positions publiées : <strong>{publiees.length}</strong> sur {actives} questions actives ({Math.round((100 * publiees.length) / actives)} %)
+          <li data-testid="couverture">
+            Questions actives codées : <strong>{publiees.length}</strong> sur {actives}, soit <strong>{pourcentage(publiees.length / actives)}</strong>{' '}
+            <span className="text-sourdine">(seuil du statut « évalué » : {pourcentage(SEUIL_EVALUE)})</span>
           </li>
           {publiees.length > 0 && (
             <li>

@@ -53,7 +53,9 @@ export const MODES = {
 
 /** Explication courte de chaque situation, reprise du critère d'inclusion v1 (docs/critere-inclusion.md). */
 export const EXPLICATIONS_MOTIFS: Record<string, string> = {
-  compares: 'Candidature déclarée (règle R1) et positions déjà codées : comparés dans vos résultats.',
+  evalue: 'Candidature déclarée (règle R1) et positions codées sur au moins 40 % des questions actives : évalué, comparé dans vos résultats.',
+  compares: 'Candidature déclarée (règle R1) et positions déjà codées : comparés dans vos résultats. Le statut « évalué » vient à 40 % des questions actives codées ; la part de chacun figure sur sa fiche.',
+  compare: 'Candidature déclarée (règle R1) et positions déjà codées : comparé dans vos résultats. Le statut « évalué » vient à 40 % des questions actives codées.',
   codage_en_attente: 'Candidature déclarée (règle R1), mais positions pas encore codées : codage en attente, par vagues publiées.',
   pressenti: 'Candidature évoquée, mais pas encore déclarée publiquement, personnellement et sans condition (règle R1).',
   primaire_en_cours: "Participants à une primaire non achevée : le vainqueur sera évalué dès sa désignation (règle R2).",
@@ -61,3 +63,14 @@ export const EXPLICATIONS_MOTIFS: Record<string, string> = {
   absent_liste_officielle: 'Absents de la liste officielle publiée par le Conseil constitutionnel (règle R3).',
   motif_non_renseigne: 'Motif non renseigné dans les données.',
 };
+
+/**
+ * Méthodologie § 6.3 (« Dans la banque ») : un candidat passe de « codage en attente » à « évalué » quand il est
+ * codé sur au moins 40 % des questions actives. Le statut est porté par data/candidats.json ; cette constante sert
+ * aux textes de la fiche. Un test vérifie qu'elle reste égale au `seuil_evalue` de derive/couverture.json.
+ */
+export const SEUIL_EVALUE = 0.4;
+
+/** Pourcentage à une décimale, à la française (« 47,6 % ») : évite qu'un arrondi affiche 40 % sous le seuil. */
+export const pourcentage = (part: number): string =>
+  `${(100 * part).toLocaleString('fr-FR', { minimumFractionDigits: 1, maximumFractionDigits: 1 })} %`;
