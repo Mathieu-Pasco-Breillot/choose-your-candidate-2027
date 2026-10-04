@@ -343,6 +343,12 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il critique le gel des pensions comme une « double peine » sans formuler de contre-mesure : direction contraire, modalités absentes."
+      },
       "contestations": [],
       "version": 1,
       "item_aveugle": "40dc1c67"
@@ -446,6 +452,12 @@
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
+      },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "L'extrait 2 rapporte une baisse chiffrée (5,25 %) des cotisations patronales dans le cadre de sa réforme des retraites, soit le contraire de l'énoncé ; l'extrait 1 porte sur des cotisations hors retraite et ne fonde pas seul le code."
       },
       "contestations": [],
       "version": 1,
@@ -2463,6 +2475,12 @@
     },
     {
       "question_id": "SAN-004",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le candidat veut augmenter la franchise, qu'il juge absolument nécessaire : c'est le contraire de sa suppression."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2747,6 +2765,12 @@
     },
     {
       "question_id": "SAN-017",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut augmenter la franchise sans préciser le paramètre (montant unitaire ou plafond) ni l'ampleur : direction perceptible, mesure non spécifiée, donc +1 imprecise défendable (null par R4 serait aussi soutenable)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2851,6 +2875,12 @@
     },
     {
       "question_id": "SAN-019",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Limiter l'AME aux soins d'urgence va plus loin que soumettre les soins non urgents à accord préalable, dans le même sens ; l'accord préalable est un mécanisme distinct non contenu dans la mesure du candidat, donc +1 nuancee plutôt que R6."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3159,6 +3189,18 @@
     },
     {
       "question_id": "IMM-009",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "a_revoir",
+        "motif": "Vérificateur : Le rejet des régularisations en général couvre les parents d'enfants scolarisés sans les viser ; un -2 nette par R6 symétrique serait soutenable, mais l'argumentaire porte surtout sur les régularisations par le travail et n'est pas un refus explicite de toute régularisation, donc le -1 nuancee publié reste défendable. Signalé pour examen R6. Second arbitre : Même passage : « régulariser des clandestins qui ont fraudé nos lois est une capitulation » et opposition au détricotage de sa circulaire, dans un contexte de régularisations par le travail ; rien sur les parents d'enfants scolarisés, et il défend une circulaire qui encadre les régularisations plutôt que de les supprimer. Direction contraire perceptible mais aucune mesure identifiable sur ce public : −1 imprecise (R6 non applicable, englobement déduit).",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": -1,
+          "nature_retenue": "imprecise",
+          "motif": "Même passage : « régulariser des clandestins qui ont fraudé nos lois est une capitulation » et opposition au détricotage de sa circulaire, dans un contexte de régularisations par le travail ; rien sur les parents d'enfants scolarisés, et il défend une circulaire qui encadre les régularisations plutôt que de les supprimer. Direction contraire perceptible mais aucune mesure identifiable sur ce public : −1 imprecise (R6 non applicable, englobement déduit)."
+        }
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3213,6 +3255,18 @@
     },
     {
       "question_id": "IMM-010",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Rejet général des régularisations de clandestins, qui couvre les étudiants sans les viser ; comme il défend sa propre circulaire sur les régularisations (cadre restrictif, pas interdiction totale), le −1 imprecise est défendable plutôt qu'un −2 par R6.",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": -1,
+          "nature_retenue": "imprecise",
+          "motif": "La source dit que « l'idée de régulariser des clandestins qui ont fraudé nos lois est une capitulation » et s'oppose au détricotage de sa circulaire, dans un passage sur les régularisations par le travail ; il ne formule aucune mesure couvrant les étudiants étrangers sans papiers, et il défend lui-même une circulaire qui encadre (donc n'abolit pas) les régularisations. L'englobement R6 serait une déduction : direction perceptible contre l'énoncé, mesure non spécifiée."
+        }
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4705,6 +4759,12 @@
     },
     {
       "question_id": "FIS-010",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il juge que la « réforme des 10 % d'abattement » (transformation en forfait) fait, avec le gel, une « double peine » pour les retraités, sans rejet formel ni alternative chiffrée : opposition perceptible mais non spécifiée."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4823,6 +4883,12 @@
     },
     {
       "question_id": "FIS-013",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Abattement de 150 000 euros applicable aussi aux successions immobilières, mais limité à trois ans et aux bénéficiaires de moins de 30 ans : version partielle identifiable, dans le sens de l'énoncé."
+      },
       "contestations": [],
       "version": 2,
       "controle_humain": {

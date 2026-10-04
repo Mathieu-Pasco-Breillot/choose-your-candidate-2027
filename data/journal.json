@@ -138,6 +138,16 @@
       "description": "Méthodologie v1.4 (D14, validée par Mathieu le 4 octobre 2026) : la population de référence du pouvoir discriminant et de l'ancrage ne comprend plus que les candidats codés sur au moins 20 % des questions actives. Sans ce seuil, l'import des 10 candidats de la vague 2, presque tous très peu codés, vidait la liste d'ancres. Tous les candidats ayant des positions restent comparés dans les résultats et suivis par le rapport de neutralité. Population de référence : 10 candidats (Ruffin, à 19,9 %, n'y entre pas).",
       "auteur": "Claude, à la demande de Mathieu",
       "reference": "méthodologie v1.4, D14"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "recodage",
+      "objets": [
+        "data/positions/*.json"
+      ],
+      "description": "Vérification indépendante des 41 codes de la vague 3 (Arthaud, Attal, Le Pen, Lisnard, Philippe, Retailleau, Roussel), selon le même protocole que les 648 premiers codes : page source téléchargée, vérificateur Opus 5.5, second arbitre Fable 5.1 sur les propositions de changement et les cas R6. Résultat : 39 confirmés, aucun corrigé, 2 à revoir par un humain. Retailleau IMM-009 : le second arbitre propose la nature « imprécise » au lieu de « nuancée », le vérificateur confirme le code publié. Lisnard EDU-001 : vérificateur et arbitre proposaient de retirer l'extrait, faute de trouver le passage, mais ils n'avaient obtenu qu'une version tronquée de la page Atlantico alors que la vague 3 avait retrouvé la citation mot à mot ; le retrait n'est pas appliqué. Aucune de ces étapes n'est validée par un humain (mode POC).",
+      "auteur": "Claude (fiabilisation des codages), à la demande de Mathieu",
+      "reference": "phase-4, fiabilisation du 4 octobre 2026"
     }
   ]
 }

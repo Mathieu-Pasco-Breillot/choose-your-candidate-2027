@@ -237,6 +237,12 @@
         "date": null,
         "resultat": null
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La source la plus récente renvoie explicitement la durée aux partenaires sociaux, sans cible : refus argumenté de trancher ; l'hésitation entre 0 et +1 est tranchée vers 0."
+      },
       "contestations": [],
       "version": 1,
       "item_aveugle": "f2d9f6ae"
@@ -284,6 +290,12 @@
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
+      },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il envisage une durée de cotisation qui continue d'augmenter au-delà de 43 ans, direction opposée à un retour à 40 ans par rapport au droit en vigueur ; la condition liée à l'espérance de vie n'atténue pas le sens."
       },
       "contestations": [],
       "version": 1,
@@ -484,6 +496,12 @@
       "arbitrage": null,
       "controle_humain": {
         "tire_au_sort": false
+      },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Son régime universel serait réservé aux « seuls les nouveaux entrants sur le marché du travail » : les salariés déjà en poste ne basculent pas, ce qui va à l'encontre de l'énoncé ; l'extrait 2026 ne le contredit pas."
       },
       "contestations": [],
       "version": 1,
@@ -4755,6 +4773,12 @@
     },
     {
       "question_id": "FIS-017",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il rejette l'exonération des moins de 30 ans, « complètement hors-sol », opposant l'ouvrier de 31 ans au trader de 29 ans : rejet sans réserve."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5193,6 +5217,12 @@
     },
     {
       "question_id": "ENV-010",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il propose « un tarif bas et fixe pour les premiers litres essentiels », pas la gratuité : mesure identifiable qui va moins loin que l'énoncé (R5, ou R3 autre mécanisme) ; +1 aurait été défendable mais −1 nuancee n'est pas contraire à la grille."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {

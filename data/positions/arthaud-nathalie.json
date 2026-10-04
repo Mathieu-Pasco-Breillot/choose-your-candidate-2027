@@ -233,6 +233,12 @@
         "date": null,
         "resultat": null
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle défend 40 annuités et exclut tout allongement : rejet sans réserve d'une durée portée à 45 ans, valeur dans la direction opposée au droit en vigueur."
+      },
       "contestations": [],
       "version": 1,
       "item_aveugle": "7b63b559"
@@ -2583,6 +2589,12 @@
     },
     {
       "question_id": "SAN-017",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle range le passage du plafond « de 50 à 100 euros » et « le doublement » des franchises parmi les attaques à combattre : rejet de la mesure de l'énoncé."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4891,6 +4903,12 @@
     },
     {
       "question_id": "FIS-018",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle dénonce l'exonération existante comme une niche pour les riches, sans mesure précise : direction contraire à une exonération totale, ampleur non spécifiée."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {

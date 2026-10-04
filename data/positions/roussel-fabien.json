@@ -2599,6 +2599,12 @@
     },
     {
       "question_id": "SAN-007",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le programme remplace la T2A par un budget dédié couvrant toutes les charges des hôpitaux, ce qui revient à la supprimer."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2881,6 +2887,12 @@
     },
     {
       "question_id": "SAN-020",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il souhaite « une prise en charge des soins à 100% », soit l'opposé d'une baisse du remboursement de 70 à 60 %."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2997,6 +3009,12 @@
     },
     {
       "question_id": "IMM-002",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Hostilité ferme à la loi avant sa promulgation, sans engagement d'abrogation une fois promulguée : direction claire, mesure non formulée."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3045,6 +3063,12 @@
     },
     {
       "question_id": "IMM-003",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le programme 2022 accorde le droit de vote aux élections locales aux étrangers vivant en France, ce qui inclut les municipales pour les non-Européens : soutien sans réserve."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -3479,6 +3503,12 @@
     },
     {
       "question_id": "DEF-002",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Roussel veut « mettre un stop sur l'économie de guerre, sur le surarmement », ce qui va dans le sens de l'abandon de l'objectif chiffré sans le viser ; +1 imprecise est défendable (null au titre de R4 serait aussi soutenable)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4883,6 +4913,12 @@
     },
     {
       "question_id": "FIS-019",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Le candidat veut « réduire la TVA sur les produits de première nécessité », sans taux 0 % ni panier défini : direction perceptible, mesure non spécifiée."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {

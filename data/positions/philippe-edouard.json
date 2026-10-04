@@ -2633,6 +2633,12 @@
     },
     {
       "question_id": "IMM-011",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il veut suspendre totalement le droit du sol à Mayotte pendant plusieurs années, sans position nationale : version partielle identifiable de l'énoncé."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {

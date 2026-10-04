@@ -1815,6 +1815,18 @@
     },
     {
       "question_id": "EDU-001",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "a_revoir",
+        "motif": "Le vérificateur et le second arbitre n'ont obtenu qu'une version tronquée de la page Atlantico (titre et chapeau, sans le passage cité) et ont proposé de retirer l'extrait. La vague 3 avait pourtant retrouvé la citation mot à mot sur la page complète : le retrait n'est pas appliqué, le code est inchangé et l'item est listé pour un humain.",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": null,
+          "nature_retenue": "non_connu",
+          "motif": "La page téléchargée ne contient que le titre, le chapeau (« une loi-cadre veut remettre de la transparence dans l'enseignement supérieur ») et la navigation ; aucune occurrence de « Parcoursup » ni d'« outil de confiance », et le WebFetch ne restitue pas davantage le corps de la tribune. Constat du vérificateur fondé : extrait écarté, aucun extrait exploitable → null."
+        }
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -1865,6 +1877,12 @@
     },
     {
       "question_id": "EDU-002",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Il rejette la gratuité sur le principe et défend un cofinancement usager-contribuable, tout en laissant les maires libres : −1 nuancee est défendable face à une gratuité générale."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {

@@ -589,6 +589,12 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "L'opposition à toute suppression des régimes spéciaux contredit l'énoncé ; −2 serait soutenable, mais la source unique est un résumé d'une ligne, antérieur à la loi de 2023, donc −1 reste défendable."
+      },
       "contestations": [],
       "version": 1,
       "item_aveugle": "fe6a125e"
@@ -761,6 +767,12 @@
       "controle_humain": {
         "tire_au_sort": false
       },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle compte « mettre fin au compte professionnel de prévention » et passe par le critère carrière longue : la pénibilité n'ouvre pas de départ anticipé, autre mécanisme identifiable (R3) ; source de 2022."
+      },
       "contestations": [],
       "version": 1,
       "item_aveugle": "f3d14a80"
@@ -814,6 +826,12 @@
       },
       "controle_humain": {
         "tire_au_sort": false
+      },
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle refuse explicitement de toucher aux 67 ans, ce qui contredit l'abaissement ; l'ouverture future n'est pas chiffrée et elle ne refuse pas explicitement le sens opposé, donc 0 n'est pas imposé."
       },
       "contestations": [],
       "version": 1,
@@ -2733,6 +2751,12 @@
     },
     {
       "question_id": "SAN-007",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La source rapporte qu'elle veut faire disparaître la T2A et revenir à une dotation globale de fonctionnement : soutien à la suppression. Source de 2022, résumé journalistique sans citation directe."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -2863,6 +2887,12 @@
     },
     {
       "question_id": "SAN-011",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La suppression pure de l'AME va plus loin dans le même sens que son remplacement par une aide limitée aux urgences ; elle ne contient pas la création de l'aide d'urgence, donc R1 plutôt que R6. Source journalistique de 2022, assez indirecte."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4371,6 +4401,12 @@
     },
     {
       "question_id": "DEF-014",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Ses propres mots visent l'arrêt des livraisons de missiles (armes offensives) et la priorité à une conférence de paix : même sens que l'énoncé, version partielle ou plus large selon la lecture ; +1 nuancee défendable. Position de 2023, éventuellement datée."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -4703,6 +4739,12 @@
     },
     {
       "question_id": "EUR-009",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle renonce à la sortie de l'euro en invoquant l'avis des Français tout en maintenant ses critiques : opposition avec réserve, -1 nuancee défendable (hésitation -2/-1 tranchée vers 0)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5539,6 +5581,12 @@
     },
     {
       "question_id": "FIS-018",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Exonération totale des successions sous condition en 2022 (version partielle : pas les donations) ; la source de 2026 ne promet que le maintien du Dutreil, ce qui rend la position actuelle incertaine : +1 imprecise est défendable."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5601,6 +5649,12 @@
     },
     {
       "question_id": "FIS-019",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle reprend exactement la mesure de l'énoncé (TVA à 0 % sur 100 produits de première nécessité)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -5937,6 +5991,12 @@
     },
     {
       "question_id": "ENV-011",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "« Tous les projets éoliens en cours et les subventions seront stoppés » : mesure plus large qui contient entièrement l'arrêt du soutien aux nouvelles installations (R6) ; source de 2022."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -6195,6 +6255,12 @@
     },
     {
       "question_id": "ENV-018",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "En 2022 elle proposait « la sortie du marché européen libéralisé » ; en 2026 elle critique seulement l'indexation sur le gaz, sans reprendre la sortie : direction perceptible, mesure actuelle non spécifiée."
+      },
       "contestations": [],
       "version": 2,
       "controle_humain": {
@@ -6257,6 +6323,18 @@
     },
     {
       "question_id": "ENV-022",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "La mesure est plus large (toutes les énergies intermittentes) mais ne contient pas entièrement l'énoncé, car le solaire ultramarin, et peut-être méditerranéen, est explicitement maintenu ; R6 ne s'applique donc pas pleinement et +1 nuancee reste correct.",
+        "second_arbitrage": {
+          "par": "second arbitrage aveugle quant à l'origine des options, sur la page source (claude-fable-5-1), non validé par un humain (mode POC)",
+          "code_retenu": 1,
+          "nature_retenue": "nuancee",
+          "motif": "La source rapporte la suppression des subventions « aux énergies intermittentes » (chiffrée 4 à 5 milliards), mais précise que « la production photovoltaïque sur les territoires ultramarins pourra être maintenue et, éventuellement, sur le bassin méditerranéen » : la mesure ne couvre pas « toute nouvelle installation solaire », R6 ne s'applique pas (couverture partielle)."
+        }
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -6305,6 +6383,12 @@
     },
     {
       "question_id": "ENV-023",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Vingt réacteurs proposés, soit plus que les 6+8 de l'énoncé : valeur chiffrée qui va plus loin dans le même sens (R1)."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -6535,6 +6619,12 @@
     },
     {
       "question_id": "SEC-009",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle réclame plus de fermeté envers les consommateurs que l'amende forfaitaire, direction opposée à la dépénalisation, sans mesure précise ; -1 imprecise est défendable (le -2 nette du codeur A l'était aussi). Note : le motif d'arbitrage indique « code retenu : celui du codeur A » alors que le code publié est celui du codeur B."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
@@ -7011,6 +7101,12 @@
     },
     {
       "question_id": "SEC-018",
+      "verification": {
+        "par": "vérification indépendante contre la page source par un modèle n'ayant pas participé au codage (claude-opus-5-5), non validée par un humain (mode POC)",
+        "date": "2026-10-04",
+        "verdict": "confirme",
+        "motif": "Elle reproche au ministre de « s'aligner » sur l'extrême gauche « sur le voilement des mineures » et invoque la laïcité : soutien implicite à une interdiction, sans espace public ni modalités."
+      },
       "contestations": [],
       "version": 1,
       "controle_humain": {
