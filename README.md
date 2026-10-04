@@ -53,8 +53,14 @@ le passage qui la fonde (reformulation, ou citation de 14 mots maximum). Une con
 
 Le site ne collecte pas les réponses des utilisateurs : tout est calculé dans le navigateur. Le serveur est un
 simple serveur de fichiers statiques, configuré sans journal d'accès (`Caddyfile`) avec une politique de
-sécurité de contenu stricte. L'hébergeur (Railway) conserve ses propres journaux : voir la page « vie privée »
-à venir.
+sécurité de contenu stricte. L'hébergeur (Railway) conserve ses propres journaux : voir la page « Vie privée »
+du site.
+
+## Mise en ligne
+
+Le site est servi par Railway (https://mon-isoloir.up.railway.app) depuis la branche `develop` : chaque push
+sur `develop` déclenche un déploiement automatique (image construite avec le `Dockerfile`, servie par Caddy).
+Les tests de bout en bout tournent avec les mêmes en-têtes que le site en ligne, lus dans le `Caddyfile`.
 
 ## Licences
 
