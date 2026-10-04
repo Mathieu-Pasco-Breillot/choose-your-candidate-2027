@@ -19,7 +19,7 @@ test('un candidat codé sur au moins 40 % des questions est « Évalué », avec
 test('un candidat sous le seuil reste comparé, codage en cours, avec sa part codée', async ({ page }) => {
   await ouvrirFiche(page, 'Édouard Philippe');
   await expect(page.getByText('Statut :')).toContainText('Comparé dans les résultats, codage en cours');
-  await expect(page.getByTestId('couverture')).toContainText(/22,3\s%/);
+  await expect(page.getByTestId('couverture')).toContainText(/22,8\s%/);
 });
 
 test('la mascotte porte son nom sur l’accueil', async ({ page }) => {
