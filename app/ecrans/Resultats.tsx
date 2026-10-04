@@ -9,6 +9,7 @@ import { questionsParId, resultatsDePartie } from '../jeu.ts';
 import { FIABILITE, libelleTheme, libelleValeur, MODES, MOTIFS_NON_EVALUATION, NATURES } from '../libelles.ts';
 import { paquet } from '../paquet.ts';
 import { CartePartage } from './CartePartage.tsx';
+import { SEUIL_CLASSEMENT_QUESTIONS } from '../../core/score/parametres.ts';
 import { jouer } from '../son.ts';
 
 interface Props {
@@ -287,8 +288,7 @@ export function Resultats({ partie, dejaRevele, onRevele, onFiche, onNouvelle, o
         <section className="rounded-2xl border-l-4 border-or bg-nuit-clair p-5 leading-relaxed">
           <h2 className="font-serif text-xl font-semibold">Aucun candidat n'est classé pour l'instant</h2>
           <p className="mt-2">
-            Pour classer un candidat, il faut qu'il soit codé sur au moins 10 de vos questions et sur la moitié de vos
-            réponses. Le codage des positions n'est pas terminé : aujourd'hui, les candidats ne sont codés que sur un petit
+            Pour classer un candidat, il faut qu'il soit codé sur au moins {SEUIL_CLASSEMENT_QUESTIONS} de vos questions. Le codage des positions n'est pas terminé : aujourd'hui, les candidats ne sont codés que sur un petit
             nombre de questions. Ce n'est ni une victoire, ni un échec pour personne.
           </p>
           <p className="mt-2">

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { SEUIL_CLASSEMENT_QUESTIONS } from '../../core/score/parametres.ts';
 import { MODES } from '../libelles.ts';
 import { paquet } from '../paquet.ts';
 import { Markdown } from './Markdown.tsx';
@@ -69,8 +70,9 @@ export function Methode({ onRetour, graine, journal }: Props) {
               chaque candidat sur cette question, codée de −2 à +2 à partir d'une source que vous pouvez ouvrir.
             </p>
             <p>
-              Un candidat n'est classé que s'il est codé sur au moins 10 de vos questions et sur la moitié de vos réponses ;
-              sinon il apparaît « hors classement », avec le motif. Le score est un rapprochement avec des positions publiques,
+              Un candidat n'est classé que s'il est codé sur au moins {SEUIL_CLASSEMENT_QUESTIONS} de vos questions ; sinon il
+              apparaît « hors classement », avec le motif. Un candidat peu codé reste classé, mais son score est ramené vers 50 et
+              sa fiabilité est indiquée. Le score est un rapprochement avec des positions publiques,
               pas une consigne de vote. Les votes au Parlement n'y entrent pas.
             </p>
             <p>
@@ -125,8 +127,8 @@ export function Methode({ onRetour, graine, journal }: Props) {
             )}
             <p>
               Pour chaque mode, {pages.neutralite.parametres.tirages_par_mode.toLocaleString('fr-FR')} parties simulées (poids de chapitres
-              aléatoires, toutes questions répondues) mesurent la part des parties où chaque candidat atteint les seuils de classement
-              ({pages.neutralite.parametres.seuil_questions_codees} questions codées et {pct(pages.neutralite.parametres.seuil_part_codee)} des réponses). Un écart important entre
+              aléatoires, toutes questions répondues) mesurent la part des parties où chaque candidat atteint le seuil de classement
+              ({pages.neutralite.parametres.seuil_questions_codees} questions codées). Un écart important entre
               candidats signale un déséquilibre de couverture, pas une préférence.
             </p>
             {Object.entries(pages.neutralite.modes).map(([mode, m]) => (

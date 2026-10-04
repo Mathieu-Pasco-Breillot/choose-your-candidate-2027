@@ -7,7 +7,7 @@ Fonctions pures : aucune lecture de fichier, aucun appel réseau, aucun tirage i
 
 | Fichier | Ce qu'il contient | Méthodologie |
 |---|---|---|
-| `parametres.ts` | tous les nombres fixés par la méthode (× 2, × 0,5, seuils 10 et 50 %, fiabilité 15 et 30…) | § 6, D2, D3, D5, D9 |
+| `parametres.ts` | tous les nombres fixés par la méthode (× 2, × 0,5, seuil de classement 8, fiabilité 15 et 30…) | § 6, D2, D3, D9, D13 |
 | `codee.ts` | ce qu'est une question « répondue » et une question « codée » (le code 0 est un code) | § 5, D8, D9 |
 | `formule.ts` | points, poids, score brut, coefficient `c`, score affiché, arrondi, fiabilité | § 6.1, 6.2, 6.4 |
 | `classement.ts` | seuils de classement, motif chiffré, rangs et ex aequo | § 6.3 |

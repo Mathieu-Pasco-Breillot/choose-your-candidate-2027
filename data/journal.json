@@ -49,6 +49,18 @@
       "description": "Vague 2 de la phase 4 : recherche complémentaire, pour 7 candidats (Arthaud, Attal, Le Pen, Lisnard, Philippe, Retailleau, Roussel), sur les 1 040 questions sans code publié. 78 nouveaux extraits (77 retenus) sur 71 couples, double codage aveugle (Opus 5.5, Sonnet 5.5 ; 53 accords sur 71), 18 désaccords arbitrés provisoirement par un troisième modèle (Fable 5.1). Une vérification indépendante sur échantillon a écarté 2 extraits contraires à la règle d'attribution (propos du parti ou de l'entourage, pas du candidat) : Le Pen × EDU-015 et Philippe × ENV-004, remis dans leur état antérieur. 64 nouveaux codes publiés. Contrôle humain : 8 codes tirés au sort, à faire. Données de preuve de concept.",
       "auteur": "Claude, à la demande de Mathieu",
       "reference": "phase-4, vague 2"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "recalcul",
+      "objets": [
+        "docs/methodologie.md",
+        "core/score/parametres.ts",
+        "derive/rapport-neutralite.json"
+      ],
+      "description": "Méthodologie v1.3 (D13, validée par Mathieu le 4 octobre 2026) : un candidat figure au classement dès qu'il est codé sur au moins 8 des questions répondues ; la condition « au moins 50 % des questions répondues » et le seuil de 10 questions (D5) sont supprimés. Rapport de neutralité recalculé avec ce seuil.",
+      "auteur": "Claude, à la demande de Mathieu",
+      "reference": "méthodologie v1.3, D13"
     }
   ]
 }

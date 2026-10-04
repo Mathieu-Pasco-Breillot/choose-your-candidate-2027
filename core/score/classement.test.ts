@@ -10,40 +10,34 @@ const candidat = (id: string, n: number, k: number, code: Valeur = 2, nature: Na
   return scoreCandidat(id, q.map((x) => rep(x, 2)), { retraites: 1 }, q.slice(0, k).map((x) => pos(x, code, nature)));
 };
 
-describe('seuils de classement (méthodologie § 6.3)', () => {
-  it('T6 : 20 réponses, candidat codé sur 9 → hors classement (moins de 10 questions)', () => {
-    const motif = motifHorsClassement(candidat('a', 20, 9).score);
-    expect(motif).toEqual({ codees: 9, repondues: 20, moinsDeDix: true, moinsDeLaMoitie: true, texte: 'codé sur 9 de vos 20 questions' });
+describe('seuils de classement (méthodologie § 6.3, D13)', () => {
+  it('T6 (v1.3) : 20 réponses, candidat codé sur 7 → hors classement (moins de 8 questions)', () => {
+    const motif = motifHorsClassement(candidat('a', 20, 7).score);
+    expect(motif).toEqual({ codees: 7, repondues: 20, sousLeSeuil: true, texte: 'codé sur 7 de vos 20 questions' });
   });
 
-  it('10 sur 20 : classé (au moins 10 et au moins la moitié)', () => {
-    expect(motifHorsClassement(candidat('a', 20, 10).score)).toBeNull();
+  it('8 sur 20 : classé (au moins 8)', () => {
+    expect(motifHorsClassement(candidat('a', 20, 8).score)).toBeNull();
   });
 
-  it('10 sur 21 : hors classement (moins de la moitié)', () => {
-    const motif = motifHorsClassement(candidat('a', 21, 10).score)!;
-    expect(motif.moinsDeDix).toBe(false);
-    expect(motif.moinsDeLaMoitie).toBe(true);
-    expect(motif.texte).toBe('codé sur 10 de vos 21 questions');
+  it('plus de condition de proportion : 8 sur 60 et 9 sur 20 sont classés (ancienne règle D5 : hors classement)', () => {
+    expect(motifHorsClassement(candidat('a', 60, 8).score)).toBeNull();
+    expect(motifHorsClassement(candidat('a', 20, 9).score)).toBeNull();
   });
 
-  it('9 sur 9 : hors classement (moins de 10 questions)', () => {
-    const motif = motifHorsClassement(candidat('a', 9, 9).score)!;
-    expect(motif.moinsDeDix).toBe(true);
-    expect(motif.moinsDeLaMoitie).toBe(false);
-  });
-
-  it('20 sur 40 : classé ; 19 sur 40 : hors classement', () => {
-    expect(motifHorsClassement(candidat('a', 40, 20).score)).toBeNull();
-    expect(motifHorsClassement(candidat('a', 40, 19).score)).not.toBeNull();
+  it('7 sur 7 : hors classement (moins de 8 questions)', () => {
+    const motif = motifHorsClassement(candidat('a', 7, 7).score)!;
+    expect(motif.sousLeSeuil).toBe(true);
+    expect(motif.texte).toBe('codé sur 7 de vos 7 questions');
   });
 
   it('une position imprécise compte pour une question codée (D9)', () => {
-    expect(motifHorsClassement(candidat('a', 20, 10, 2, 'imprecise').score)).toBeNull();
+    expect(motifHorsClassement(candidat('a', 20, 8, 2, 'imprecise').score)).toBeNull();
+    expect(motifHorsClassement(candidat('a', 20, 7, 2, 'imprecise').score)).not.toBeNull();
   });
 
   it('le code 0 compte pour une question codée', () => {
-    expect(motifHorsClassement(candidat('a', 20, 10, 0).score)).toBeNull();
+    expect(motifHorsClassement(candidat('a', 20, 8, 0).score)).toBeNull();
   });
 
   it('textes du motif', () => {

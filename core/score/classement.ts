@@ -1,7 +1,7 @@
 /**
  * Seuils, rangs et ordre d'affichage (méthodologie § 6.3, spécification § 6 et § 8).
  */
-import { SEUIL_CLASSEMENT_PART, SEUIL_CLASSEMENT_QUESTIONS } from './parametres.ts';
+import { SEUIL_CLASSEMENT_QUESTIONS } from './parametres.ts';
 import type { Classe, HorsClassement, Melanger, MotifHorsClassement, Score, ScoreCandidat } from './types.ts';
 
 /** Texte du motif, ex. « codé sur 7 de vos 20 questions ». */
@@ -12,16 +12,15 @@ export function texteMotif(codees: number, repondues: number): string {
 }
 
 /**
- * Un candidat figure au classement s'il est codé sur au moins 10 questions répondues
- * et sur au moins 50 % des questions répondues (une position `imprecise` compte pour une question codée).
- * Renvoie `null` s'il passe les seuils, sinon le motif chiffré.
+ * Un candidat figure au classement s'il est codé sur au moins 8 des questions répondues, sans condition de
+ * proportion (méthodologie v1.3, D13 ; une position `imprecise` compte pour une question codée, D9).
+ * Renvoie `null` s'il passe le seuil, sinon le motif chiffré.
  */
 export function motifHorsClassement(score: Score): MotifHorsClassement | null {
-  const moinsDeDix = score.codees < SEUIL_CLASSEMENT_QUESTIONS;
-  const moinsDeLaMoitie = score.codees < SEUIL_CLASSEMENT_PART * score.repondues;
-  // Sans aucun code il n'y a pas de score : toujours hors classement (cas déjà couvert par « moins de 10 »).
-  if (!moinsDeDix && !moinsDeLaMoitie && score.score !== null) return null;
-  return { codees: score.codees, repondues: score.repondues, moinsDeDix, moinsDeLaMoitie, texte: texteMotif(score.codees, score.repondues) };
+  const sousLeSeuil = score.codees < SEUIL_CLASSEMENT_QUESTIONS;
+  // Sans aucun code il n'y a pas de score : toujours hors classement (cas déjà couvert par le seuil).
+  if (!sousLeSeuil && score.score !== null) return null;
+  return { codees: score.codees, repondues: score.repondues, sousLeSeuil, texte: texteMotif(score.codees, score.repondues) };
 }
 
 /** Vérifie que le mélange fourni renvoie bien une permutation de la liste reçue. */

@@ -1,6 +1,13 @@
-# Méthodologie — version 1.2
+# Méthodologie — version 1.3
 
-Statut : **VALIDÉ le 3 octobre 2026** (v1 validée le 2 octobre 2026, v1.1 et v1.2 le 3 octobre 2026).
+Statut : **VALIDÉ le 4 octobre 2026** (v1 validée le 2 octobre 2026, v1.1 et v1.2 le 3 octobre 2026, v1.3 le 4 octobre 2026).
+
+## Modifications de la version 1.3
+
+Issue de la couverture réelle de la vague 1 (phase 4), validée par Mathieu le 4 octobre 2026 :
+
+- § 6.3 : la condition « au moins 50 % des questions répondues » est supprimée ; un candidat figure au classement dès qu'il est codé sur au moins 8 des questions répondues (D13).
+- § 10 : limite sur la couverture mise à jour avec les chiffres de la vague 1.
 
 ## Modifications de la version 1.2
 
@@ -91,7 +98,8 @@ score_affiché  = 50 + (score_brut − 50) × c
 
 ### 6.3 Seuils
 
-- **Dans un résultat** : un candidat figure au classement s'il est codé sur au moins **50 % des questions répondues et au moins 10 questions**. Sinon il est affiché hors classement, avec le motif.
+- **Dans un résultat** : un candidat figure au classement s'il est codé sur **au moins 8 des questions répondues** (v1.3). Sinon il est affiché hors classement, avec le motif. Il n'y a pas de condition de proportion : un candidat peu couvert reste classé, son score est ramené vers 50 % (§ 6.2) et sa fiabilité est affichée (§ 6.4).
+- Pourquoi (v1.3) : avec la couverture réelle de la vague 1 (de 20 à 48 % des questions selon le candidat), l'ancienne condition « au moins 50 % des questions répondues » écartait presque tous les candidats des modes longs. En mode 40 questions, le candidat le mieux couvert était classé dans 84 % des quiz, le moins couvert dans aucun. Or la couverture mesure surtout la quantité de déclarations trouvables, pas la position des candidats.
 - **Dans la banque** : un candidat passe de `codage_en_attente` à `evalue` quand il est codé sur au moins 40 % des questions actives.
 - Dans ces deux seuils, **une position `imprecise` compte pour une question codée** (v1.1). Elle ne pèse que 0,5 dans le score (§ 6.1).
 
@@ -154,7 +162,7 @@ Indicateur **séparé du score**. Chaque question est reliée aux scrutins perti
 - Les votes étant exclus du codage, un parlementaire sans programme publié est moins couvert qu'il ne pourrait l'être.
 - Une affirmation en cinq degrés ne restitue pas une position complexe ; les extraits sont là pour ça.
 - La banque reflète les débats à une date donnée.
-- Sur le pilote retraites, 41 % seulement des couples candidat × question ont un extrait : beaucoup de candidats peuvent rester hors classement. Le tirage n'est pas corrigé pour les avantager ; les seuils seront réexaminés quand la couverture de la vague 1 sera connue.
+- Sur la vague 1, 34 % seulement des couples candidat × question ont un extrait (de 20 à 48 % selon le candidat). Un candidat peu couvert est classé sur moins de questions, avec un score plus proche de 50 % et une fiabilité plus faible. Le tirage n'est pas corrigé pour l'avantager.
 
 ## Décisions validées
 
@@ -164,7 +172,7 @@ Indicateur **séparé du score**. Chaque question est reliée aux scrutins perti
 | D2 | 2 oct. 2026 | « Très important » : × 2 |
 | D3 | 2 oct. 2026 | Position `imprecise` : × 0,5, l'autre moitié traitée comme « non connu » |
 | D4 | 2 oct. 2026 | Ramenage vers 50 %, même formule pour tous les candidats |
-| D5 | 2 oct. 2026 | Classement : codé sur au moins 50 % des questions répondues et au moins 10 questions |
+| D5 | 2 oct. 2026 | Classement : codé sur au moins 50 % des questions répondues et au moins 10 questions (remplacée par D13) |
 | D6 | 2 oct. 2026 | Ancrage : 10 questions, une par thème au plus, trois par axe au plus, au moins quatre de chaque sens |
 | D7 | 2 oct. 2026 | Votes exclus du codage, règle affichée explicitement dans l'application |
 | D8 | 3 oct. 2026 | Désaccord non arbitré : traité comme « non connu » |
@@ -172,3 +180,4 @@ Indicateur **séparé du score**. Chaque question est reliée aux scrutins perti
 | D10 | 3 oct. 2026 | Variance de population dans `D` |
 | D11 | 3 oct. 2026 | Cinq ancres en mode court, dix en mode long et campagne |
 | D12 | 3 oct. 2026 | Tirage : départage global des sens quand un thème est à égalité ; seconde ancre dans un thème seulement si l'équilibre des sens du thème reste atteignable |
+| D13 | 4 oct. 2026 | Classement : codé sur au moins 8 des questions répondues, sans condition de proportion |

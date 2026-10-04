@@ -12,12 +12,11 @@
     "parametres": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["tirages_par_mode", "graine", "seuil_questions_codees", "seuil_part_codee", "poids_themes", "reponses", "questions_deja_vues"],
+      "required": ["tirages_par_mode", "graine", "seuil_questions_codees", "poids_themes", "reponses", "questions_deja_vues"],
       "properties": {
         "tirages_par_mode": { "type": "integer", "minimum": 1 },
         "graine": { "type": "integer", "minimum": 0, "maximum": 4294967295 },
-        "seuil_questions_codees": { "const": 10 },
-        "seuil_part_codee": { "const": 0.5 },
+        "seuil_questions_codees": { "const": 8 },
         "poids_themes": { "const": "uniforme_0_a_3_au_moins_un_non_nul" },
         "reponses": { "const": "toutes_les_questions_tirees" },
         "questions_deja_vues": { "const": "aucune" }

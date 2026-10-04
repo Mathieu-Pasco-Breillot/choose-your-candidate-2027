@@ -251,8 +251,7 @@ export namespace DeriveRapportNeutralite {
     parametres: {
       tirages_par_mode: number;
       graine: number;
-      seuil_questions_codees: 10;
-      seuil_part_codee: 0.5;
+      seuil_questions_codees: 8;
       poids_themes: 'uniforme_0_a_3_au_moins_un_non_nul';
       reponses: 'toutes_les_questions_tirees';
       questions_deja_vues: 'aucune';

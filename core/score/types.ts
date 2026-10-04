@@ -170,10 +170,8 @@ export interface ScoreCandidat {
 export interface MotifHorsClassement {
   codees: number;
   repondues: number;
-  /** Moins de 10 questions codées. */
-  moinsDeDix: boolean;
-  /** Codé sur moins de la moitié des questions répondues. */
-  moinsDeLaMoitie: boolean;
+  /** Moins de questions codées que le seuil de classement (8, méthodologie D13). */
+  sousLeSeuil: boolean;
   /** Ex. « codé sur 7 de vos 20 questions ». */
   texte: string;
 }

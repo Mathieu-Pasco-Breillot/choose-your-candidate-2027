@@ -4,8 +4,8 @@
  * Question posée : le tirage, qui ne regarde aucun candidat, donne-t-il à chacun la même chance d'atteindre
  * les seuils de classement ? Sur un grand nombre de tirages simulés par mode, avec des poids de thème
  * aléatoires, on mesure pour chaque candidat :
- *  - la part des tirages où il atteint les seuils de classement (méthodologie § 6.3 : codé sur au moins
- *    50 % des questions répondues et sur au moins 10 questions ; une position `imprecise` compte, D9),
+ *  - la part des tirages où il atteint le seuil de classement (méthodologie § 6.3, v1.3 : codé sur au moins
+ *    8 des questions répondues, sans condition de proportion, D13 ; une position `imprecise` compte, D9),
  *    en supposant que l'utilisateur répond à toutes les questions ;
  *  - sa couverture moyenne (questions codées / questions tirées) et le nombre moyen de questions codées.
  *
@@ -16,7 +16,7 @@
  * jamais transmises au tirage, qui ne reçoit que la banque.
  */
 import { creerGenerateur, deriverGraine, verifierGraine } from '../aleatoire/prng.ts';
-import { SEUIL_CLASSEMENT_PART, SEUIL_CLASSEMENT_QUESTIONS } from '../score/parametres.ts';
+import { SEUIL_CLASSEMENT_QUESTIONS } from '../score/parametres.ts';
 import { MODES, TAILLE_MODE, tirer, type BanqueTirage, type Mode, type PoidsTheme } from '../tirage/index.ts';
 
 /** Paramètres publiés du rapport. */
@@ -61,7 +61,6 @@ export interface RapportNeutralite {
     readonly tirages_par_mode: number;
     readonly graine: number;
     readonly seuil_questions_codees: number;
-    readonly seuil_part_codee: number;
     readonly poids_themes: 'uniforme_0_a_3_au_moins_un_non_nul';
     readonly reponses: 'toutes_les_questions_tirees';
     readonly questions_deja_vues: 'aucune';
@@ -107,7 +106,7 @@ export function calculerRapportNeutralite(entree: EntreeRapport, parametres: Par
         let n = 0;
         for (const id of questions) if (set.has(id)) n++;
         const k = cumul.get(c)!;
-        if (n >= SEUIL_CLASSEMENT_QUESTIONS && n >= SEUIL_CLASSEMENT_PART * repondues) k.atteint++;
+        if (n >= SEUIL_CLASSEMENT_QUESTIONS) k.atteint++;
         k.couverture += repondues > 0 ? n / repondues : 0;
         k.codees += n;
         k.min = Math.min(k.min, n);
@@ -139,7 +138,6 @@ export function calculerRapportNeutralite(entree: EntreeRapport, parametres: Par
       tirages_par_mode: parametres.tirages,
       graine: parametres.graine,
       seuil_questions_codees: SEUIL_CLASSEMENT_QUESTIONS,
-      seuil_part_codee: SEUIL_CLASSEMENT_PART,
       poids_themes: 'uniforme_0_a_3_au_moins_un_non_nul',
       reponses: 'toutes_les_questions_tirees',
       questions_deja_vues: 'aucune',

@@ -1,5 +1,5 @@
 /**
- * Paramètres fixés par la méthodologie (version 1.1). Les modifier change la méthode publiée.
+ * Paramètres fixés par la méthodologie (version 1.3). Les modifier change la méthode publiée.
  */
 
 /** § 6.1 et D2 : importance d'une question marquée « très important » (1 sinon). */
@@ -18,9 +18,11 @@ export const POINTS_MAX = 4;
 /** § 6.2 : point de ramenage, le même pour tous les candidats. */
 export const POINT_DE_RAMENAGE = 50;
 
-/** § 6.3 et D5 : seuils de classement (une position `imprecise` compte pour une question codée, D9). */
-export const SEUIL_CLASSEMENT_QUESTIONS = 10;
-export const SEUIL_CLASSEMENT_PART = 0.5;
+/**
+ * § 6.3 et D13 (v1.3) : seuil de classement, en questions répondues et codées (une position `imprecise` compte
+ * pour une question codée, D9). Pas de condition de proportion : D13 remplace D5 (10 questions et 50 %).
+ */
+export const SEUIL_CLASSEMENT_QUESTIONS = 8;
 
 /** § 6.4 : fiabilité d'après les questions répondues et codées. */
 export const FIABILITE_MOYENNE_A_PARTIR_DE = 15;

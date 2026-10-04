@@ -29,24 +29,25 @@ test('la révélation des résultats : suspense, puis classement, puis le reste 
   await lancer(page, 'Express');
   await repondreATout(page, 20);
   await expect(page.getByRole('status').filter({ hasText: 'Calcul de votre rapprochement' })).toBeVisible();
+  // « Non évalués » est toujours présent (candidats pressentis, primaire en cours) ; « Hors classement » peut être vide.
   // Tant que la révélation court, ni les hors classement ni les mentions de neutralité de bas de page ne sont perdues :
   // les mentions fixes sont toujours là.
   await expect(page.getByText(/Les votes au Parlement n'entrent/)).toBeVisible();
-  await expect(page.getByRole('heading', { name: 'Hors classement' })).toBeVisible({ timeout: 15_000 });
+  await expect(page.getByRole('heading', { name: 'Non évalués' })).toBeVisible({ timeout: 15_000 });
 });
 
 test("« Passer l'animation » affiche tout de suite le résultat", async ({ page }) => {
   await lancer(page, 'Express');
   await repondreATout(page, 20);
   await page.getByRole('button', { name: "Passer l'animation" }).click();
-  await expect(page.getByRole('heading', { name: 'Hors classement' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Non évalués' })).toBeVisible();
 });
 
 test('résultats : le nom d’un candidat ouvre sa fiche, et le retour ramène aux résultats sans rejouer la révélation', async ({ page }) => {
   await lancer(page, 'Express');
   await repondreATout(page, 20);
   await page.getByRole('button', { name: "Passer l'animation" }).click();
-  await expect(page.getByRole('heading', { name: 'Hors classement' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Non évalués' })).toBeVisible();
   const nom = page.getByRole('button', { name: /: ouvrir la fiche$/ }).first();
   const libelle = ((await nom.textContent()) ?? '').replace(' : ouvrir la fiche', '');
   await nom.click();

@@ -20,7 +20,7 @@ export interface Pages {
   horsJeu: { id: string; theme: string; statut: 'suspendue' | 'archivee'; enonce: string }[];
   neutralite: {
     provisoire: boolean;
-    parametres: { tirages_par_mode: number; seuil_questions_codees: number; seuil_part_codee: number };
+    parametres: { tirages_par_mode: number; seuil_questions_codees: number };
     modes: Record<string, { N: number; candidats: Record<string, ProfilNeutralite>; ecart_parts_atteint_seuils: number }>;
   };
 }

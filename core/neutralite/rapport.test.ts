@@ -22,15 +22,23 @@ describe('rapport de neutralité du tirage', () => {
     expect(r.couverture_banque).toEqual({ nulle: 0, partout: 1 });
   });
 
-  it('applique les deux seuils : au moins 10 questions et au moins la moitié des questions répondues', () => {
-    // Un seul thème tiré n'est pas garanti : on code un thème entier (10 questions) et rien d'autre.
+  it('applique le seuil de 8 questions codées (D13) : en dessous jamais, au-dessus toujours', () => {
     const theme = banque.questions.filter((q) => q.theme === 'fiscalite').map((q) => q.id);
     const r = calculerRapportNeutralite({ banque, codees: { un_theme: theme } }, { graine: 3, tirages: 500 });
-    // En mode Express (20 questions), il faudrait 10 questions codées : jamais plus que le quota du thème.
     for (const l of Object.values(r.modes)) {
       const c = l.candidats.un_theme!;
-      if (c.questions_codees_max < 10) expect(c.part_atteint_seuils).toBe(0);
+      if (c.questions_codees_max < 8) expect(c.part_atteint_seuils).toBe(0);
+      if (c.questions_codees_min >= 8) expect(c.part_atteint_seuils).toBe(1);
     }
+    expect(r.parametres.seuil_questions_codees).toBe(8);
+  });
+
+  it('sans condition de proportion (D13) : codé sur une question sur cinq, classé dans la plupart des parties Campagne', () => {
+    // Sous l'ancienne règle D5 (50 % des questions répondues), ce candidat n'était jamais classé.
+    const r = calculerRapportNeutralite({ banque, codees: { un_sur_cinq: ids.filter((_, i) => i % 5 === 0) } }, { graine: 4, tirages: 500 });
+    const c = r.modes.campagne!.candidats.un_sur_cinq!;
+    expect(c.couverture_moyenne).toBeLessThan(0.5);
+    expect(c.part_atteint_seuils).toBeGreaterThan(0.5);
   });
 
   it('candidats de même couverture répartie de même façon : parts voisines (le tirage ne favorise personne)', () => {
