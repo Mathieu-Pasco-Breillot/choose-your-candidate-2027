@@ -33,7 +33,17 @@ export function FicheCandidat({ id, onRetour, libelleRetour = '← Retour' }: { 
       <section className="rounded-xl bg-nuit-clair p-4 text-sm">
         <h2 className="font-serif text-xl font-semibold">Statut et couverture</h2>
         <ul className="mt-2 flex flex-col gap-1">
-          <li>Statut : <strong>{STATUTS[c.statutEvaluation]}</strong>{c.motifNonEvaluation ? ` (${MOTIFS_NON_EVALUATION[c.motifNonEvaluation] ?? c.motifNonEvaluation})` : ''}</li>
+          <li>
+            Statut :{' '}
+            <strong>
+              {c.statutEvaluation !== 'non_evalue' && publiees.length > 0
+                ? // Même règle que le calcul (jeu.ts) : un candidat avec des positions publiées est comparé, même si son
+                  // statut dans les données est encore « codage en attente » (aucun n'est « évalué » au 4 octobre 2026).
+                  'Comparé dans les résultats, codage en cours'
+                : STATUTS[c.statutEvaluation]}
+            </strong>
+            {c.motifNonEvaluation ? ` (${MOTIFS_NON_EVALUATION[c.motifNonEvaluation] ?? c.motifNonEvaluation})` : ''}
+          </li>
           <li className="text-sourdine">
             {c.statutEvaluation === 'non_evalue'
               ? EXPLICATIONS_MOTIFS[c.motifNonEvaluation ?? 'motif_non_renseigne']
@@ -72,7 +82,7 @@ export function FicheCandidat({ id, onRetour, libelleRetour = '← Retour' }: { 
                     <p className="font-semibold">{q(p.questionId)?.enonce}</p>
                     <p className="mt-1">Position : <strong>{libelleValeur(p.code!)}</strong> ({NATURES[p.nature ?? ''] ?? p.nature})</p>
                     {p.extrait && (
-                      <div className="mt-2 border-l-2 border-or/60 pl-3">
+                      <div className="mt-2 border-l-2 border-or/60 pl-3 [overflow-wrap:anywhere]">
                         <p>{p.extrait.reformulation}</p>
                         {p.extrait.citation && <p className="mt-1 italic">« {p.extrait.citation} »</p>}
                         <p className="mt-1">

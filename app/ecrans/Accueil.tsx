@@ -32,13 +32,13 @@ function Carte({ titre, children }: { titre: string; children: React.ReactNode }
 export function Accueil({ enCours, terminee, onCommencer, onDefi, onVieprivee, onNaviguer, onReprendre, onVoirResultats, onToutEffacer }: Props) {
   return (
     <main className="mx-auto flex max-w-xl flex-col gap-4 px-5 py-10">
-      <header className="mb-2 flex items-end justify-between gap-3">
-        <div>
-          <p className="text-xs font-semibold tracking-[0.2em] text-or uppercase">Présidentielle 2027</p>
-          <h1 className="mt-2 font-serif text-5xl font-semibold">Mon Isoloir</h1>
-          <p className="mt-3 text-lg text-sourdine">Comparez les candidats, à l'abri des regards.</p>
+      <header className="mb-2">
+        <p className="text-xs font-semibold tracking-[0.2em] text-or uppercase">Présidentielle 2027</p>
+        <h1 className="mt-2 font-serif text-5xl font-semibold">Mon Isoloir</h1>
+        <div className="mt-2 flex items-end justify-between gap-3">
+          <p className="text-lg text-sourdine">Comparez les candidats, à l'abri des regards.</p>
+          <Mascotte attitude="accueil" taille={84} />
         </div>
-        <Mascotte attitude="accueil" taille={84} className="-mb-1" />
       </header>
 
       {enCours && (

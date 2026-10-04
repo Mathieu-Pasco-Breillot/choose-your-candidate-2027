@@ -51,7 +51,7 @@ function LigneAccord({ candidatId, a }: { candidatId: string; a: AccordDesaccord
         Sa position : <strong>{libelleValeur(a.code)}</strong> ({NATURES[a.nature] ?? a.nature})
       </p>
       {extrait && (
-        <div className="mt-2 border-l-2 border-or/60 pl-3">
+        <div className="mt-2 border-l-2 border-or/60 pl-3 [overflow-wrap:anywhere]">
           <p>{extrait.reformulation}</p>
           {extrait.citation && <p className="mt-1 italic">« {extrait.citation} »</p>}
           <p className="mt-1">

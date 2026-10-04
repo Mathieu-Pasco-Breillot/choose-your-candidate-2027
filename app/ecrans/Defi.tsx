@@ -111,7 +111,7 @@ export function Defi({ graine, onRejouer, onQuitter }: Props) {
             {juste ? 'Bonne réponse : ' : `Ce n'était pas ${nom(repondu)}, c'était `}
             {nom(manche.bonne_reponse)}.
           </p>
-          <p className="text-sm">
+          <p className="text-sm [overflow-wrap:anywhere]">
             Source :{' '}
             <a className="underline" href={manche.revelation.source.url} target="_blank" rel="noopener noreferrer" onClick={() => majBadges((b) => apresSource(b, manche.revelation.source.url))}>
               {manche.revelation.source.titre}

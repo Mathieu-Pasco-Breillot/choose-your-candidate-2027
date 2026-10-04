@@ -12,3 +12,6 @@ tsconfig*.tsbuildinfo
 *.tsbuildinfo
 test-results/
 playwright-report/
+
+# Captures de la maquette (e2e/captures.spec.ts, CAPTURES=1)
+captures/
