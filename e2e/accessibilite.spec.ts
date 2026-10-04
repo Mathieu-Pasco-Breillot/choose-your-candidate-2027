@@ -40,7 +40,16 @@ test('préparation, question, résultats, défi', async ({ page }) => {
   await verifier(page, 'préparation');
   await page.getByRole('button', { name: 'Lancer la partie' }).click();
   await verifier(page, 'question');
-  await repondreATout(page, 20);
+  // Jusqu'à la première fin de chapitre.
+  let repondues = 0;
+  while (!(await page.getByRole('button', { name: /^Continuer/ }).isVisible())) {
+    const avant = await page.getByRole('heading', { level: 1 }).first().innerText();
+    await page.getByRole('button', { name: "Plutôt d'accord" }).first().click();
+    await expect(page.getByRole('heading', { level: 1 }).first()).not.toHaveText(avant);
+    repondues++;
+  }
+  await verifier(page, 'fin de chapitre');
+  await repondreATout(page, 20 - repondues);
   await verifier(page, 'résultats');
   await page.getByRole('button', { name: /Jouer au défi/ }).click();
   await verifier(page, 'défi (devinette)');

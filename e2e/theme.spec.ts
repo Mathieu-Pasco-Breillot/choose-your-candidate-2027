@@ -1,5 +1,5 @@
 import { expect, test, type Page } from '@playwright/test';
-import { lancer, repondreATout } from './outils.ts';
+import { lancer, repondreATout, surveillerErreurs, surveillerReseau } from './outils.ts';
 
 const fond = (page: Page) => page.evaluate(`getComputedStyle(document.documentElement).backgroundColor`);
 const SOMBRE = 'rgb(14, 26, 51)';
@@ -29,6 +29,18 @@ test('le son est coupé par défaut, et son réglage est mémorisé', async ({ p
   await bouton.click();
   await page.reload();
   await expect(page.getByRole('button', { name: /Effets sonores/ })).toHaveAttribute('aria-pressed', 'true');
+});
+
+test('son activé : une partie Express complète, sans erreur ni requête (sons générés dans le navigateur)', async ({ page }) => {
+  const erreurs = surveillerErreurs(page);
+  const externes = surveillerReseau(page);
+  await page.goto('/');
+  await page.getByRole('button', { name: /Effets sonores/ }).click();
+  await page.getByRole('button', { name: /^Express ·/ }).click();
+  await page.getByRole('button', { name: 'Lancer la partie' }).click();
+  await repondreATout(page, 20);
+  expect(erreurs).toEqual([]);
+  expect(externes).toEqual([]);
 });
 
 /** Couleur de base et opacité d'une couleur calculée : « oklab(L a b / 0.45) » ou « rgba(r, g, b, 0.45) ». */

@@ -11,7 +11,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       // Le script d'enregistrement est un fichier externe : la CSP interdit les scripts inline.
       injectRegister: 'script',
-      includeAssets: ['favicon.svg'],
+      includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
       manifest: {
         name: 'Mon Isoloir',
         short_name: 'Mon Isoloir',
@@ -25,7 +25,8 @@ export default defineConfig({
         icons: [
           { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },
-          { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+          // Icône « maskable » : fond plein et urne réduite dans la zone sûre (80 % central), pour les icônes rognées.
+          { src: 'icon-maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
       },
       workbox: {

@@ -19,10 +19,17 @@ export function surveillerErreurs(page: Page): string[] {
   return erreurs;
 }
 
-/** Répond « plutôt d'accord » à toutes les questions du quiz en cours. */
+/** Si l'écran de fin de chapitre est affiché, le passe. */
+export async function passerFinDeChapitre(page: Page): Promise<void> {
+  const continuer = page.getByRole('button', { name: /^Continuer/ });
+  if (await continuer.isVisible()) await continuer.click();
+}
+
+/** Répond « plutôt d'accord » à toutes les questions du quiz en cours (fins de chapitre comprises). */
 export async function repondreATout(page: Page, nombre: number): Promise<void> {
   for (let i = 0; i < nombre; i++) {
     // On attend le changement d'écran entre deux réponses : l'ancienne carte met un instant à partir.
+    await passerFinDeChapitre(page);
     const avant = await page.getByRole('heading', { level: 1 }).first().innerText();
     await page.getByRole('button', { name: "Plutôt d'accord" }).first().click();
     await expect(page.getByRole('heading', { level: 1 }).first()).not.toHaveText(avant);
@@ -39,6 +46,7 @@ export async function lancer(page: Page, mode: 'Express' | 'Débat' | 'Campagne'
 /** Répond à `nombre` questions sans aller jusqu'aux résultats. */
 export async function repondreQuelques(page: Page, nombre: number): Promise<void> {
   for (let i = 0; i < nombre; i++) {
+    await passerFinDeChapitre(page);
     const avant = await page.getByRole('heading', { level: 1 }).first().innerText();
     await page.getByRole('button', { name: "Plutôt d'accord" }).first().click();
     await expect(page.getByRole('heading', { level: 1 }).first()).not.toHaveText(avant);

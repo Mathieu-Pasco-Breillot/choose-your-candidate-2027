@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react';
 import { nouveauDefi } from '../defi.ts';
 import { libelleTheme } from '../libelles.ts';
 import { paquet } from '../paquet.ts';
+import { Mascotte } from './Mascotte.tsx';
 
 interface Props {
   graine: number;
@@ -28,6 +29,7 @@ export function Defi({ graine, onRejouer, onQuitter }: Props) {
   if (total === 0) {
     return (
       <main className="mx-auto flex max-w-xl flex-col gap-4 px-5 py-8">
+        <Mascotte attitude="attente" taille={88} />
         <h1 className="font-serif text-4xl font-semibold">Qui a dit ça ?</h1>
         <p className="leading-relaxed">
           Le défi n'est pas disponible pour l'instant : trop peu de positions nettes et sourcées sont publiées pour proposer des

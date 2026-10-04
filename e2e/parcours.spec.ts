@@ -74,3 +74,26 @@ test('les badges : Campagne terminée, puis « tout effacer » les retire', asyn
   await page.getByRole('button', { name: 'Tout effacer sur cet appareil' }).click();
   expect(await page.evaluate(() => localStorage.getItem('isoloir:badges'))).toBeNull();
 });
+
+test('fin de chapitre : progression et mascotte seulement, aucun nom, aucun score, pas à la reprise', async ({ page }) => {
+  await lancer(page, 'Express');
+  const bandeau = page.getByRole('list', { name: 'Chapitres' });
+  // Taille du premier chapitre : « Question 1 sur N ».
+  const surtitre = (await page.getByText(/Question 1 sur \d+/).first().textContent()) ?? '';
+  const taille = Number(/Question 1 sur (\d+)/.exec(surtitre)![1]);
+  await expect(bandeau).toBeVisible();
+  for (let i = 0; i < taille; i++) {
+    const avant = await page.getByRole('heading', { level: 1 }).first().innerText();
+    await page.getByRole('button', { name: "Plutôt d'accord" }).first().click();
+    await expect(page.getByRole('heading', { level: 1 }).first()).not.toHaveText(avant);
+  }
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText(/Chapitre bouclé ! Plus (que \d+|qu’un)\./);
+  await expect(page.locator('[data-mascotte="chapitre"]')).toBeVisible();
+  const texte = await page.locator('main').innerText();
+  expect(texte).not.toMatch(/Le Pen|Mélenchon|Philippe|Retailleau|Attal|Roussel|Arthaud|Lisnard|Dupont-Aignan|Rassemblement|score|\/ 100|%/i);
+  // Reprise : la partie reprend sur la question, sans repasser par la fin de chapitre.
+  await page.reload();
+  await page.getByRole('button', { name: /Reprendre la partie/ }).click();
+  await expect(page.getByRole('button', { name: "Plutôt d'accord" })).toBeVisible();
+  await expect(page.getByText(/Question 1 sur \d+/).first()).toBeVisible();
+});

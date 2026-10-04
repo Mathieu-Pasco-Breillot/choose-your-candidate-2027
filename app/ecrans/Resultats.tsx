@@ -1,7 +1,7 @@
 import { apresDesaccordsLus, apresSource, badgesDe } from '../badges.ts';
 import { EVENEMENT_BADGES, lireBadges, majBadges } from '../stockage.ts';
 import { motion, useReducedMotion } from 'motion/react';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { AccordDesaccord, HorsClassement, Classe, ScoreCandidat } from '../../core/score/index.ts';
 import type { Valeur } from '../../core/score/types.ts';
 import type { Partie } from '../jeu.ts';
@@ -9,6 +9,7 @@ import { questionsParId, resultatsDePartie } from '../jeu.ts';
 import { FIABILITE, libelleTheme, libelleValeur, MODES, MOTIFS_NON_EVALUATION, NATURES } from '../libelles.ts';
 import { paquet } from '../paquet.ts';
 import { CartePartage } from './CartePartage.tsx';
+import { jouer } from '../son.ts';
 
 interface Props {
   partie: Partie;
@@ -228,6 +229,13 @@ export function Resultats({ partie, onNouvelle, onDefi, onVieprivee, onToutEffac
     return () => clearTimeout(t);
   }, [revelees, n]);
   const fini = revelees >= n;
+  // Son de révélation (J9, coupé par défaut) : le même pour tous, quand le classement commence à s'afficher.
+  const sonJoue = useRef(false);
+  useEffect(() => {
+    if (sonJoue.current || revelees < 0) return;
+    sonJoue.current = true;
+    jouer('revelation');
+  }, [revelees]);
 
   return (
     <main className="mx-auto flex max-w-xl flex-col gap-6 px-5 py-8">
