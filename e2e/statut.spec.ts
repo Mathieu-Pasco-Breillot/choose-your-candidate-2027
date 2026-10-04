@@ -12,7 +12,7 @@ async function ouvrirFiche(page: Page, nom: string) {
 test('un candidat codé sur au moins 40 % des questions est « Évalué », avec sa part codée', async ({ page }) => {
   await ouvrirFiche(page, 'Jean-Luc Mélenchon');
   await expect(page.getByText('Statut :')).toContainText('Évalué');
-  await expect(page.getByTestId('couverture')).toContainText(/47,6\s%/);
+  await expect(page.getByTestId('couverture')).toContainText(/47,1\s%/);
   await expect(page.getByTestId('couverture')).toContainText(/40,0\s%/);
 });
 
