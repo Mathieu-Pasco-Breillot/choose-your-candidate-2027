@@ -61,6 +61,16 @@
       "description": "Méthodologie v1.3 (D13, validée par Mathieu le 4 octobre 2026) : un candidat figure au classement dès qu'il est codé sur au moins 8 des questions répondues ; la condition « au moins 50 % des questions répondues » et le seuil de 10 questions (D5) sont supprimés. Rapport de neutralité recalculé avec ce seuil.",
       "auteur": "Claude, à la demande de Mathieu",
       "reference": "méthodologie v1.3, D13"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "changement_statut",
+      "objets": [
+        "data/candidats.json"
+      ],
+      "description": "Application de la règle de la méthodologie (§ 6.3, « Dans la banque ») : un candidat passe de « codage_en_attente » à « evalue » quand il est codé sur au moins 40 % des 206 questions actives (une position imprécise compte, D9). Passent à « evalue » : Jean-Luc Mélenchon (98 questions, 47,6 %) et Nicolas Dupont-Aignan (84, 40,8 %). Restent « codage_en_attente » : Le Pen (38,3 %), Lisnard (37,9 %), Retailleau (36,4 %), Roussel (32,0 %), Attal (31,1 %), Arthaud (28,2 %), Philippe (22,3 %). Le calcul de l'application est inchangé : tout candidat disposant de positions publiées reste comparé (règle du lot 5c).",
+      "auteur": "Claude (lot 5g), à la demande de Mathieu",
+      "reference": "phase-5, lot 5g"
     }
   ]
 }
