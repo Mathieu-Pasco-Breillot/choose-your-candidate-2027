@@ -17,8 +17,9 @@ export default defineConfig({
         short_name: 'Mon Isoloir',
         description: "Comparateur des positions des candidats à l'élection présidentielle de 2027.",
         lang: 'fr',
-        theme_color: '#1f2a44',
-        background_color: '#f7f4ee',
+        // Couleurs du thème sombre, thème de référence (spécification § 5.1) : barre d'état et écran de lancement.
+        theme_color: '#0e1a33',
+        background_color: '#0e1a33',
         display: 'standalone',
         start_url: '/',
         icons: [
@@ -27,7 +28,17 @@ export default defineConfig({
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
       },
-      workbox: { globPatterns: ['**/*.{js,css,html,svg,png,woff2,json}'], navigateFallback: '/index.html' },
+      workbox: {
+        globPatterns: ['**/*.{js,css,html,svg,png,woff2,json}'],
+        // Polices : le site est en français, seuls les sous-ensembles latin et latin étendu servent hors connexion.
+        // Les autres restent servis en ligne si un caractère en a besoin (unicode-range), sans peser sur le précache.
+        globIgnores: ['**/*-{cyrillic,cyrillic-ext,greek,greek-ext,vietnamese}-*.woff2'],
+        // Le bundle principal embarque le paquet de données (plus de 1,6 Mo). Au-delà de cette limite, Workbox
+        // exclurait le fichier du précache sans erreur et le site ne marcherait plus hors connexion :
+        // e2e/hors-ligne.spec.ts vérifie que tout fichier utile de dist/ est bien précaché.
+        maximumFileSizeToCacheInBytes: 6 * 1024 * 1024,
+        navigateFallback: '/index.html',
+      },
     }),
   ],
   build: { target: 'es2023' },
