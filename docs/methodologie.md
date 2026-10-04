@@ -1,6 +1,13 @@
-# Méthodologie — version 1.3
+# Méthodologie — version 1.4
 
-Statut : **VALIDÉ le 4 octobre 2026** (v1 validée le 2 octobre 2026, v1.1 et v1.2 le 3 octobre 2026, v1.3 le 4 octobre 2026).
+Statut : **VALIDÉ le 4 octobre 2026** (v1 validée le 2 octobre 2026, v1.1 et v1.2 le 3 octobre 2026, v1.3 et v1.4 le 4 octobre 2026).
+
+## Modifications de la version 1.4
+
+Issue de la vague 3 du codage, qui code pour la première fois les candidats déclarés de la vague 2, validée par Mathieu le 4 octobre 2026 :
+
+- § 7.1 : les « candidats évalués » qui servent au pouvoir discriminant et à l'ancrage (population de référence) sont désormais les candidats **codés sur au moins 20 % des questions actives**. Les autres restent comparés dans les résultats et suivis par le rapport de neutralité (D14).
+- Pourquoi : la vague 3 ajoute des candidats encore très peu codés (de 0,5 à 24 % des questions). Comptés dans la population de référence, ils empêchaient toute question d'atteindre la couverture de 80 % exigée pour l'ancrage : la liste d'ancres devenait vide, et le pouvoir discriminant de toutes les questions baissait.
 
 ## Modifications de la version 1.3
 
@@ -123,6 +130,8 @@ D(q) = variance des codes des candidats codés × (candidats codés / candidats 
 
 La variance est la **variance de population** (somme des carrés des écarts à la moyenne, divisée par le nombre de candidats codés) ; `D` va de 0 à 4 (v1.1). Calculé si au moins 4 candidats sont codés sur la question, sinon non défini. Recalculé à chaque ajout de candidat et à chaque recodage ; résultat dans `derive/discriminance.json`.
 
+**Candidats évalués** (population de référence, v1.4) : les candidats hors « non évalué » qui ont des positions et qui sont codés sur **au moins 20 % des questions actives**. Un candidat moins codé est comparé dans les résultats comme les autres (§ 6.3), mais n'entre ni dans `D` ni dans la couverture de l'ancrage (§ 7.2). La population s'élargit seule quand un candidat franchit le seuil.
+
 ### 7.2 Questions d'ancrage
 
 Dix questions, présentes dans chaque tirage en mode long et en mode campagne. Sélection par ordre décroissant de D, sous contraintes :
@@ -181,3 +190,4 @@ Indicateur **séparé du score**. Chaque question est reliée aux scrutins perti
 | D11 | 3 oct. 2026 | Cinq ancres en mode court, dix en mode long et campagne |
 | D12 | 3 oct. 2026 | Tirage : départage global des sens quand un thème est à égalité ; seconde ancre dans un thème seulement si l'équilibre des sens du thème reste atteignable |
 | D13 | 4 oct. 2026 | Classement : codé sur au moins 8 des questions répondues, sans condition de proportion |
+| D14 | 4 oct. 2026 | Population de référence (pouvoir discriminant, ancrage) : candidats codés sur au moins 20 % des questions actives ; tous les candidats ayant des positions restent comparés |

@@ -36,7 +36,7 @@ describe.each([
     for (let graine = 1; graine <= 20; graine++) {
       const p = jouer(nouvellePartie(mode, [], graine), (i) => (i + graine) % 6 === 0 ? 'sans_avis' : (i * graine) % 5);
       const r = resultatsDePartie(p);
-      expect(r.classement.length + r.horsClassement.length).toBe(9);
+      expect(r.classement.length + r.horsClassement.length).toBe(19);
       expect(r.nonEvalues.length).toBeGreaterThan(0);
       for (const c of [...r.classement, ...r.horsClassement]) {
         expect(c.score.c).toBeGreaterThanOrEqual(0);

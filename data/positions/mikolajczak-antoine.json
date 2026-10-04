@@ -1,0 +1,3245 @@
+{
+  "candidat_id": "mikolajczak-antoine",
+  "_statut": "POC — vague 3 du codage (4 octobre 2026) : première recherche pour ce candidat, sur les 206 questions actives. Double codage aveugle (Opus 5.5, Sonnet 5.5), désaccords arbitrés provisoirement par un 3e modèle (Fable 5.1), contrôle humain de 10 % à faire. Aucun programme 2027 complet publié à cette date. À revoir avant publication.",
+  "grille_version": "1.2",
+  "programme": {
+    "officiel_disponible": false,
+    "date_publication": null,
+    "url": null,
+    "note": "Aucun programme officiel 2027 complet trouvé au 4 octobre 2026."
+  },
+  "positions": [
+    {
+      "question_id": "DEF-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-002",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le parti porte par le candidat défend une hausse de la production électrique bas-carbone reposant sur les renouvelables, le nucléaire existant (dont la prolongation des centrales amorties est présentée comme un atout) et de nouveaux réacteurs ; il juge l'écologie et le nucléaire compatibles. Aucune échéance de sortie du nucléaire n'est évoquée.",
+          "citation_courte": "nucléaire historique et nouveau nucléaire",
+          "reformulation_anonymisee": "[PARTI] défend une hausse de la production électrique bas-carbone reposant sur les renouvelables, le nucléaire existant (dont la prolongation des centrales amorties est présentée comme un atout) et de nouveaux réacteurs ; [PARTI] juge l'écologie et le nucléaire compatibles. Aucune échéance de sortie du nucléaire n'est évoquée.",
+          "citation_anonymisee": "nucléaire historique et nouveau nucléaire",
+          "source": {
+            "url": "https://parti-equinoxe.fr/sobriete-nucleaire-renouvelables/",
+            "titre": "Sobriété, Nucléaire, Renouvelables (site du parti Équinoxe)",
+            "date_publication": "2026-09-17",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Défend le nucléaire existant et de nouveaux réacteurs.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Programme pro-nucléaire avec nouveaux réacteurs, pas de sortie.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "a12b0378"
+    },
+    {
+      "question_id": "ENV-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-022",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-023",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-024",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-025",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-026",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le parti du candidat propose de diminuer le nombre d'élèves par classe et d'ouvrir plus de places dans les structures spécialisées. Aucun chiffre (ni moyenne de 19 élèves) ni calendrier n'est donné.",
+          "citation_courte": "Diminuer le nombre d'élèves par classe",
+          "reformulation_anonymisee": "[PARTI] propose de diminuer le nombre d'élèves par classe et d'ouvrir plus de places dans les structures spécialisées. Aucun chiffre (ni moyenne de 19 élèves) ni calendrier n'est donné.",
+          "citation_anonymisee": "Diminuer le nombre d'élèves par classe",
+          "source": {
+            "url": "https://parti-equinoxe.fr/pour-une-ecole-plus-inclusive-plus-adaptee-plus-humaine/",
+            "titre": "Pour une école plus inclusive, plus adaptée, plus humaine (Parti Équinoxe)",
+            "date_publication": "2026-09-08",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Veut moins d'élèves par classe sans chiffre : position générale (R4).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Diminuer les effectifs par classe sans chiffre.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": null,
+        "nature_retenue": "non_connu",
+        "motif": "Diminuer les effectifs sans aucun chiffre face à un énoncé qui fixe 19 élèves : R4. (code retenu : celui du codeur A)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "9eba0b93"
+    },
+    {
+      "question_id": "EDU-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-006",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le parti du candidat propose de revoir le statut des AESH pour leur offrir des conditions de travail dignes et un salaire décent. La source ne dit pas si ce statut deviendrait celui de fonctionnaire.",
+          "citation_courte": "Revoir le statut des AESH",
+          "reformulation_anonymisee": "[PARTI] propose de revoir le statut des AESH pour leur offrir des conditions de travail dignes et un salaire décent. La source ne dit pas si ce statut deviendrait celui de fonctionnaire.",
+          "citation_anonymisee": "Revoir le statut des AESH",
+          "source": {
+            "url": "https://parti-equinoxe.fr/pour-une-ecole-plus-inclusive-plus-adaptee-plus-humaine/",
+            "titre": "Pour une école plus inclusive, plus adaptée, plus humaine (Parti Équinoxe)",
+            "date_publication": "2026-09-08",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut revoir le statut des AESH sans préciser s'ils deviendraient fonctionnaires.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut revoir le statut des AESH sans dire fonctionnaire.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "67397162"
+    },
+    {
+      "question_id": "EDU-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-001",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le candidat propose un impôt unique sur l'héritage et le patrimoine, remplaçant la taxe foncière, à partir de 200 000 euros de patrimoine, proportionnel entre 0 et 2 % et progressif selon le patrimoine. Il ne parle pas de rétablir l'ISF sous ce nom.",
+          "citation_courte": "ça serait à partir de 200000 € de patrimoine",
+          "reformulation_anonymisee": "Le candidat propose un impôt unique sur l'héritage et le patrimoine, remplaçant la taxe foncière, à partir de 200 000 euros de patrimoine, proportionnel entre 0 et 2 % et progressif selon le patrimoine. Il ne parle pas de rétablir l'ISF sous ce nom.",
+          "citation_anonymisee": "ça serait à partir de 200000 € de patrimoine",
+          "source": {
+            "url": "https://www.youtube.com/watch?v=dq8d_gMKN-k",
+            "titre": "Présidentielle : le candidat que vous ne connaissez pas encore | Antoine Mikolajczak (Équinoxe) (chaîne Nopopol)",
+            "date_publication": "2026-07-16",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": false
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Propose un impôt progressif sur le patrimoine dès 200 000 euros, un mécanisme différent qui va dans le sens d'un impôt sur la fortune.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Impôt unique sur le patrimoine dès 200 000 euros, pas l'ISF nommément.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "93b83a64"
+    },
+    {
+      "question_id": "FIS-002",
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Sur la taxe Zucman, le candidat est d'accord avec le constat (les très riches échappent à l'impôt) et veut plus de justice fiscale, mais juge cette taxe une solution trop simple : recettes estimées entre 5 et 25 milliards, dont la moitié repose sur quatre familles. Il préfère un panel d'outils fiscaux (pacte Dutreil, plus-values latentes, patrimoine, héritage).",
+          "citation_courte": "la taxe Zucman nous paraît être une solution peut-être un peu trop simple",
+          "reformulation_anonymisee": "Sur cette taxe sur les très hauts patrimoines, le candidat est d'accord avec le constat (les très riches échappent à l'impôt) et veut plus de justice fiscale, mais juge cette taxe une solution trop simple : recettes estimées entre 5 et 25 milliards, dont la moitié repose sur quatre familles. Il préfère un panel d'outils fiscaux (pacte Dutreil, plus-values latentes, patrimoine, héritage).",
+          "citation_anonymisee": "cette taxe nous paraît être une solution peut-être un peu trop simple",
+          "source": {
+            "url": "https://www.youtube.com/watch?v=dq8d_gMKN-k",
+            "titre": "Présidentielle : le candidat que vous ne connaissez pas encore | Antoine Mikolajczak (Équinoxe) (chaîne Nopopol)",
+            "date_publication": "2026-07-16",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": false
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Partage le constat mais rejette cette taxe au profit d'autres outils fiscaux (R3).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Juge la taxe trop simple et préfère d'autres outils fiscaux (R3).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "ccfdfff0"
+    },
+    {
+      "question_id": "FIS-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-021",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-005",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Interrogé sur la durée de cotisation, le candidat annonce un régime unique de retraite avec 42 années de durée de cotisation, cette durée baissant ensuite selon la pénibilité du travail. Il ne s'agit donc ni de 45 ans ni de 40 ans.",
+          "citation_courte": "un seul régime de retraite, 42 années",
+          "reformulation_anonymisee": "Interrogé sur la durée de cotisation, le candidat annonce un régime unique de retraite avec 42 années de durée de cotisation, cette durée baissant ensuite selon la pénibilité du travail. Il ne s'agit donc ni de 45 ans ni de 40 ans.",
+          "citation_anonymisee": "un seul régime de retraite, 42 années",
+          "source": {
+            "url": "https://www.youtube.com/watch?v=dq8d_gMKN-k",
+            "titre": "Présidentielle : le candidat que vous ne connaissez pas encore | Antoine Mikolajczak (Équinoxe) (chaîne Nopopol)",
+            "date_publication": "2026-07-16",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": false
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Propose 42 années de cotisation, en dessous de la cible actuelle : sens opposé à 45 ans (R5).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Propose 42 ans, inférieur à la durée en vigueur : contraire à un allongement à 45 ans.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "98bc890b"
+    },
+    {
+      "question_id": "RET-006",
+      "code": -1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le candidat annonce un régime unique de retraite avec 42 années de durée de cotisation (et non 40), cette durée baissant ensuite selon la pénibilité du travail.",
+          "citation_courte": "un seul régime de retraite, 42 années",
+          "reformulation_anonymisee": "Le candidat annonce un régime unique de retraite avec 42 années de durée de cotisation (et non 40), cette durée baissant ensuite selon la pénibilité du travail.",
+          "citation_anonymisee": "un seul régime de retraite, 42 années",
+          "source": {
+            "url": "https://www.youtube.com/watch?v=dq8d_gMKN-k",
+            "titre": "Présidentielle : le candidat que vous ne connaissez pas encore | Antoine Mikolajczak (Équinoxe) (chaîne Nopopol)",
+            "date_publication": "2026-07-16",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": false
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Retient 42 années et non 40 (R5).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "nuancee",
+          "justification": "Retient 42 ans, va moins loin que 40.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "f2cd0aef"
+    },
+    {
+      "question_id": "RET-007",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le candidat exclut d'instaurer une retraite par capitalisation ; il privilégie l'unification des régimes en un seul.",
+          "citation_courte": "Non non, on n'instaurera pas de capitalisation.",
+          "reformulation_anonymisee": "Le candidat exclut d'instaurer une retraite par capitalisation ; il privilégie l'unification des régimes en un seul.",
+          "citation_anonymisee": "Non non, on n'instaurera pas de capitalisation.",
+          "source": {
+            "url": "https://www.youtube.com/watch?v=dq8d_gMKN-k",
+            "titre": "Présidentielle : le candidat que vous ne connaissez pas encore | Antoine Mikolajczak (Équinoxe) (chaîne Nopopol)",
+            "date_publication": "2026-07-16",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": false
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Refuse toute retraite par capitalisation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Exclut toute capitalisation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "32d8f820"
+    },
+    {
+      "question_id": "RET-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-012",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Constatant qu'il existe 42 régimes de retraite différents, le candidat veut les unifier en un seul régime, par souci de simplification. Il ne mentionne pas de fonctionnement par points.",
+          "citation_courte": "un seul régime de retraite",
+          "reformulation_anonymisee": "Constatant qu'il existe 42 régimes de retraite différents, le candidat veut les unifier en un seul régime, par souci de simplification. Il ne mentionne pas de fonctionnement par points.",
+          "citation_anonymisee": "un seul régime de retraite",
+          "source": {
+            "url": "https://www.youtube.com/watch?v=dq8d_gMKN-k",
+            "titre": "Présidentielle : le candidat que vous ne connaissez pas encore | Antoine Mikolajczak (Équinoxe) (chaîne Nopopol)",
+            "date_publication": "2026-07-16",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": false
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut un régime unique de retraite, sans fonctionnement par points.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut un régime unique de retraite, sans préciser le système par points.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "2660b5f9"
+    },
+    {
+      "question_id": "RET-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le candidat veut que la durée de cotisation (42 ans) baisse en fonction de la pénibilité au travail, selon une grille de pénibilité à construire avec les partenaires sociaux. Il ne cite ni port de charges, ni postures, ni vibrations.",
+          "citation_courte": "ces 42 années baissent en fonction de la pénibilité au travail",
+          "reformulation_anonymisee": "Le candidat veut que la durée de cotisation (42 ans) baisse en fonction de la pénibilité au travail, selon une grille de pénibilité à construire avec les partenaires sociaux. Il ne cite ni port de charges, ni postures, ni vibrations.",
+          "citation_anonymisee": "ces 42 années baissent en fonction de la pénibilité au travail",
+          "source": {
+            "url": "https://www.youtube.com/watch?v=dq8d_gMKN-k",
+            "titre": "Présidentielle : le candidat que vous ne connaissez pas encore | Antoine Mikolajczak (Équinoxe) (chaîne Nopopol)",
+            "date_publication": "2026-07-16",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": false
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Grille de pénibilité à construire sans citer les trois facteurs (R4).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Pénibilité générale sans les trois facteurs.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "8cc13d32"
+    },
+    {
+      "question_id": "RET-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-022",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-021",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    }
+  ]
+}

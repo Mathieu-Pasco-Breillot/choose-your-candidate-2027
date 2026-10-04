@@ -1,0 +1,3669 @@
+{
+  "candidat_id": "asselineau-francois",
+  "_statut": "POC — vague 3 du codage (4 octobre 2026) : première recherche pour ce candidat, sur les 206 questions actives. Double codage aveugle (Opus 5.5, Sonnet 5.5), désaccords arbitrés provisoirement par un 3e modèle (Fable 5.1), contrôle humain de 10 % à faire. Aucun programme 2027 complet publié à cette date. À revoir avant publication.",
+  "grille_version": "1.2",
+  "programme": {
+    "officiel_disponible": false,
+    "date_publication": null,
+    "url": null,
+    "note": "Aucun programme officiel 2027 complet trouvé au 4 octobre 2026."
+  },
+  "positions": [
+    {
+      "question_id": "DEF-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-005",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le candidat milite pour la sortie de la France de l'Union européenne, de l'euro et de l'OTAN (position rapportée par le média, avec une citation du candidat sur la sortie de l'OTAN).",
+          "citation_courte": "la sortie de l'Union Européenne, de l'euro et de l'OTAN",
+          "reformulation_anonymisee": "[CANDIDAT] milite pour la sortie de la France de l'Union européenne, de l'euro et de l'OTAN (position rapportée par le média).",
+          "citation_anonymisee": "la sortie de l'Union Européenne, de l'euro et de l'OTAN",
+          "source": {
+            "url": "https://www.publicsenat.fr/actualites/politique/europeennes-nous-essaierons-dimposer-un-debat-sur-la-sortie-de-la-france-de-lue-que-ce-soit-a-bruxelles-ou-en-france-defend-francois-asselineau-upr",
+            "titre": "Européennes : « Nous essaierons d'imposer un débat sur la sortie de la France de l'UE, que ce soit à Bruxelles ou en France », défend François Asselineau (UPR) - Public Sénat",
+            "date_publication": "2024-06-05",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Milite pour la sortie de la France de l'OTAN.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Milite pour la sortie de l'OTAN.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "ecee0dbe"
+    },
+    {
+      "question_id": "DEF-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-001",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans un texte publié sur le site de son parti, le candidat critique l'adoption par l'Union européenne du principe d'interdiction des voitures thermiques à partir de 2035, qu'il estime revenir à détruire la plus grande partie de l'industrie automobile ouest-européenne. Il n'évoque ni exception ni alternative chiffrée.",
+          "citation_courte": "ce qui revient à détruire la plus grande partie de l’industrie automobile ouest-européenne",
+          "reformulation_anonymisee": "Le candidat critique l'adoption au niveau européen du principe d'interdiction des voitures thermiques à partir de 2035, qu'il estime revenir à détruire la plus grande partie de l'industrie automobile ouest-européenne. Il n'évoque ni exception ni alternative chiffrée.",
+          "citation_anonymisee": "ce qui revient à détruire la plus grande partie de l’industrie automobile ouest-européenne",
+          "source": {
+            "url": "https://upr.fr/analyses/ursula-von-der-leyen-linvite-surprise-du-medef-a-son-debat-pour-2027",
+            "titre": "Ursula von der Leyen : l'invité surprise du MEDEF à son débat pour 2027",
+            "date_publication": "2026-08-27",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Critique l'interdiction des voitures thermiques en 2035 comme destructrice de l'industrie.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Critique l'interdiction 2035 comme destructrice de l'industrie.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "5b41cf3e"
+    },
+    {
+      "question_id": "ENV-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Dans le même texte, le candidat reproche à la présidente de la Commission européenne d'avoir fait adopter le marché européen de l'énergie, qui selon lui sabote totalement les intérêts nationaux les plus fondamentaux de la France. Il ne propose pas explicitement, dans ce passage, de sortir des règles de ce marché ni de fixer le prix de l'électricité.",
+          "citation_courte": "le marché européen de l’énergie qui sabote totalement nos intérêts nationaux les plus fondamentaux",
+          "reformulation_anonymisee": "Le candidat reproche à une haute responsable européenne d'avoir fait adopter le marché européen de l'énergie, qui selon lui sabote totalement les intérêts nationaux les plus fondamentaux du pays. Il ne propose pas explicitement, dans ce passage, de sortir des règles de ce marché ni de fixer le prix de l'électricité.",
+          "citation_anonymisee": "le marché européen de l’énergie qui sabote totalement nos intérêts nationaux les plus fondamentaux",
+          "source": {
+            "url": "https://upr.fr/analyses/ursula-von-der-leyen-linvite-surprise-du-medef-a-son-debat-pour-2027",
+            "titre": "Ursula von der Leyen : l'invité surprise du MEDEF à son débat pour 2027",
+            "date_publication": "2026-08-27",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Accuse le marché européen de l'énergie de nuire au pays, sans proposer explicitement d'en sortir.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Critique le marché européen sans proposer d'en sortir.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": null,
+        "nature_retenue": "non_connu",
+        "motif": "Critique du marché européen de l'énergie sans aucune proposition d'en sortir ni de fixer les prix : rien ne permet de coder. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "0a5da9c8"
+    },
+    {
+      "question_id": "ENV-022",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-023",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-024",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-025",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-026",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-014",
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans un entretien sur GP-TV (résumé publié sur le site de son mouvement), le candidat écarte les suppressions massives de postes de fonctionnaires pour réduire la dette, qu'il juge contre-productives pour les recettes publiques ; il propose plutôt de relancer la croissance et de financer l'État par de grands emprunts souscrits par les Français. Le résumé ne cite ni la règle du non-remplacement d'un départ sur trois ni de chiffre.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Dans un entretien télévisé en ligne, [CANDIDAT] écarte les suppressions massives de postes de fonctionnaires pour réduire la dette, qu'il juge contre-productives pour les recettes publiques ; il propose plutôt de relancer la croissance et de financer l'État par de grands emprunts souscrits par les Français. Le résumé ne cite ni la règle du non-remplacement d'un départ sur trois ni de chiffre.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://upr.fr/medias/francois-asselineau-invite-de-nicolas-stoquer-sur-gp-tv-01-10-2026",
+            "titre": "François Asselineau invité de Nicolas Stoquer sur GP-TV – 01/10/2026 (résumé sur le site de l'UPR)",
+            "date_publication": "2026-10-03",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Écarte les suppressions massives de postes de fonctionnaires sans viser la règle d'un sur trois.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Écarte les suppressions massives de postes, sans viser la règle précise.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "3ff7cd82"
+    },
+    {
+      "question_id": "ECO-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-001",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans un texte publié sur le site du parti, le candidat qualifie d'injuste la suppression de l'ISF au 1er janvier 2018 et reproche à un rival de n'avoir pas à en rendre compte. Le texte ne formule pas d'engagement explicite de rétablir l'ISF et ne précise ni seuil ni modalités.",
+          "citation_courte": "la suppression injuste de l’ISF le 1er janvier 2018",
+          "reformulation_anonymisee": "Dans un texte publié par le [PARTI], [CANDIDAT] qualifie d'injuste la suppression de l'ISF et reproche à un rival de n'avoir pas à en rendre compte. Le texte ne formule pas d'engagement explicite de rétablir l'ISF et ne précise ni seuil ni modalités.",
+          "citation_anonymisee": "la suppression injuste de l’ISF",
+          "source": {
+            "url": "https://upr.fr/analyses/matraquage-mediatique-intensif-au-profit-de-philippe",
+            "titre": "Matraquage médiatique intensif au profit de Philippe",
+            "date_publication": "2026-09-18",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Juge injuste la suppression de l'ISF sans engagement explicite de le rétablir.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Qualifie la suppression de l'ISF d'injuste sans engagement explicite.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "b9b2bf5a"
+    },
+    {
+      "question_id": "FIS-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-021",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-001",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le programme propose d'introduire une proportionnelle partielle aux élections législatives. La source ne précise ni le cadre départemental ni la part des sièges concernée.",
+          "citation_courte": "Introduire un système de proportionnelle partielle aux élections législatives",
+          "reformulation_anonymisee": "Le programme propose d'introduire une proportionnelle partielle aux élections législatives. La source ne précise ni le cadre départemental ni la part des sièges concernée.",
+          "citation_anonymisee": "Introduire un système de proportionnelle partielle aux élections législatives",
+          "source": {
+            "url": "https://www.upr.fr/notre-programme/programme-2022",
+            "titre": "Programme 2022 de François Asselineau (site UPR)",
+            "date_publication": "2022-02-15",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Propose une proportionnelle partielle, version limitée de l'énoncé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Proportionnelle partielle, cadre départemental non précisé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Proportionnelle partielle est une version limitée identifiable de l'énoncé, cadre départemental non précisé. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "73832518"
+    },
+    {
+      "question_id": "INS-002",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le candidat annonce l'instauration du référendum d'initiative citoyenne (RIC), dans un compte rendu de son discours de rentrée politique de septembre 2026. La source ne donne ni seuil de signatures ni champ d'application.",
+          "citation_courte": "instauration du Référendum d'Initiative Citoyenne (RIC)",
+          "reformulation_anonymisee": "Le candidat annonce l'instauration du référendum d'initiative citoyenne (RIC), dans un compte rendu d'un discours politique de septembre 2026. La source ne donne ni seuil de signatures ni champ d'application.",
+          "citation_anonymisee": "instauration du Référendum d'Initiative Citoyenne (RIC)",
+          "source": {
+            "url": "https://www.upr.fr/actualites/discours-de-rentree-2026-de-francois-asselineau-la-liberation-nationale",
+            "titre": "Discours de rentrée 2026 de François Asselineau (compte rendu UPR)",
+            "date_publication": "2026-09-30",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Annonce le RIC sans seuil de signatures ni champ d'application.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Annonce le RIC sans seuil ni champ.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "3de4fc7e"
+    },
+    {
+      "question_id": "INS-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-011",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le programme propose de rétablir le septennat pour le mandat présidentiel (et de ramener le mandat des députés de 5 à 4 ans). La source ne dit pas si ce mandat de sept ans serait unique ou renouvelable.",
+          "citation_courte": "Rétablir le septennat pour le mandat du Président de la République",
+          "reformulation_anonymisee": "Le programme propose de rétablir le septennat pour le mandat présidentiel (et de ramener le mandat des députés de 5 à 4 ans). La source ne dit pas si ce mandat de sept ans serait unique ou renouvelable.",
+          "citation_anonymisee": "Rétablir le septennat pour le mandat du Président de la République",
+          "source": {
+            "url": "https://www.upr.fr/notre-programme/programme-2022",
+            "titre": "Programme 2022 de François Asselineau (site UPR)",
+            "date_publication": "2022-02-15",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Rétablir le septennat, sans dire s'il serait unique.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Septennat, caractère unique non précisé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Rétablir le septennat est une mesure concrète, le caractère unique du mandat n'est pas repris. (code retenu : celui du codeur A)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "f4f673f7"
+    },
+    {
+      "question_id": "INS-012",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le candidat rappelle une proposition de son programme : ramener le nombre de sénateurs de 348 à 100, sur le modèle américain. Le programme 2022 prévoit en outre de ramener les députés de 577 à 500 ; le discours de rentrée de 2026 évoque une réduction du nombre de députés et de sénateurs sans chiffre.",
+          "citation_courte": "ramener le nombre de sénateurs de 348 à 100",
+          "reformulation_anonymisee": "Le candidat rappelle une proposition de son programme : ramener le nombre de sénateurs de 348 à 100, sur le modèle américain. Le programme 2022 prévoit en outre de ramener les députés de 577 à 500 ; un discours de 2026 évoque une réduction du nombre de députés et de sénateurs sans chiffre.",
+          "citation_anonymisee": "ramener le nombre de sénateurs de 348 à 100",
+          "source": {
+            "url": "https://upr.fr/medias/francois-asselineau-invite-de-richard-de-seze-sur-radio-courtoisie-28-09-2026",
+            "titre": "François Asselineau invité de Richard de Sèze sur Radio Courtoisie – 28/09/2026 (compte rendu UPR)",
+            "date_publication": "2026-09-28",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Le programme propose de réduire de 35 % le nombre de parlementaires : 500 députés au lieu de 577 et environ 100 sénateurs au lieu de 348.",
+          "citation_courte": "le nombre de sénateurs de 348 à environ 100",
+          "reformulation_anonymisee": "Le programme propose de réduire de 35 % le nombre de parlementaires : 500 députés au lieu de 577 et environ 100 sénateurs au lieu de 348.",
+          "citation_anonymisee": "le nombre de sénateurs de 348 à environ 100",
+          "source": {
+            "url": "https://www.upr.fr/notre-programme/programme-2022",
+            "titre": "Programme 2022 de François Asselineau (site UPR)",
+            "date_publication": "2022-02-15",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Réduit le nombre de parlementaires (100 sénateurs, 500 députés) : même sens, valeurs différentes de l'énoncé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut réduire le nombre de parlementaires mais avec des chiffres différents (100 sénateurs, 500 députés).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Réduction chiffrée (100 sénateurs, 500 députés) dans le sens de l'énoncé avec des valeurs différentes : position identifiable. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "e1f16e7a"
+    },
+    {
+      "question_id": "INS-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-007",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme s'engage à sauvegarder la retraite par répartition et à proposer d'inscrire dans la Constitution que le régime général fonctionne par répartition. Seule une retraite complémentaire par capitalisation, à titre personnel et facultatif, est préservée ; aucune capitalisation obligatoire n'est prévue.",
+          "citation_courte": "retraite complémentaire par capitalisation sera naturellement préservé",
+          "reformulation_anonymisee": "Le programme s'engage à sauvegarder la retraite par répartition et à proposer d'inscrire dans la Constitution que le régime général fonctionne par répartition. Seule une retraite complémentaire par capitalisation, à titre personnel et facultatif, est préservée ; aucune capitalisation obligatoire n'est prévue.",
+          "citation_anonymisee": "retraite complémentaire par capitalisation sera naturellement préservé",
+          "source": {
+            "url": "https://www.upr.fr/notre-programme/programme-2022",
+            "titre": "UPR - Programme 2022 (point 18 : Garantir les retraites)",
+            "date_publication": "2022-02-15",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut sanctuariser la répartition ; capitalisation seulement facultative.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Rejette toute capitalisation obligatoire.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "3581fb67"
+    },
+    {
+      "question_id": "RET-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-009",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme prévoit une garantie d'État du pouvoir d'achat des retraités : la loi imposerait que les pensions soient réévaluées chaque année d'un niveau au moins égal à l'inflation. Aucune durée de gel n'est évoquée ; la revalorisation annuelle est posée comme obligatoire.",
+          "citation_courte": "chaque année, d’un niveau au moins égal au taux d’inflation",
+          "reformulation_anonymisee": "Le programme prévoit une garantie d'État du pouvoir d'achat des retraités : la loi imposerait que les pensions soient réévaluées chaque année d'un niveau au moins égal à l'inflation. Aucune durée de gel n'est évoquée ; la revalorisation annuelle est posée comme obligatoire.",
+          "citation_anonymisee": "chaque année, d’un niveau au moins égal au taux d’inflation",
+          "source": {
+            "url": "https://www.upr.fr/notre-programme/programme-2022",
+            "titre": "UPR - Programme 2022 (point 18 : Garantir les retraites)",
+            "date_publication": "2022-02-15",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut une revalorisation annuelle obligatoire des pensions au moins égale à l'inflation.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Impose une revalorisation annuelle au moins égale à l'inflation, contraire au gel.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "401f74ef"
+    },
+    {
+      "question_id": "RET-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-022",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-005",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme présidentiel 2022 prévoit de créer un grand pôle public national de recherche pharmaceutique et de production de médicaments, par regroupement d'institutions publiques de recherche et de laboratoires privés totalement ou partiellement nationalisés, avec pour objectif l'autosuffisance de la France en médicaments et vaccins en dix ans. Le texte est rédigé comme un engagement ferme (« nous procèderons »).",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Le programme présidentiel prévoit de créer un grand pôle public national de recherche pharmaceutique et de production de médicaments, par regroupement d'institutions publiques de recherche et de laboratoires privés totalement ou partiellement nationalisés, avec pour objectif l'autosuffisance de la France en médicaments et vaccins en dix ans. Le texte est rédigé comme un engagement ferme.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.upr.fr/notre-programme/programme-2022",
+            "titre": "Programme 2022 - UPR (section 11, Hôpital : +30 000 lits)",
+            "date_publication": "2022-02-15",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Engagement ferme de créer un pôle public national de production de médicaments.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Engagement ferme de créer un pôle public du médicament.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "58f03253"
+    },
+    {
+      "question_id": "SAN-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-010",
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Selon Linternaute, la légalisation du cannabis n'est pas souhaitée par le candidat (point sur sa campagne présidentielle 2022). Le média ne cite pas de propos du candidat ni de justification.",
+          "citation_courte": null,
+          "reformulation_anonymisee": "Selon un média, la légalisation du cannabis n'est pas souhaitée par le candidat. Le média ne cite pas de propos du candidat ni de justification.",
+          "citation_anonymisee": null,
+          "source": {
+            "url": "https://www.linternaute.com/actualite/politique/2535396-francois-asselineau-programme-pour-2022-sondages-le-point-sur-sa-campagne-presidentielle/",
+            "titre": "François Asselineau : programme pour 2022, sondages... Le point sur sa campagne présidentielle - Linternaute.com",
+            "date_publication": "2022-02-22",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": null
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Un média rapporte qu'il ne souhaite pas la légalisation, sans citation ni argument.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Un média rapporte qu'il ne souhaite pas la légalisation, sans propos cités.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "4d3af598"
+    },
+    {
+      "question_id": "SAN-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-008",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme prévoit de remettre en place une police de proximité dans les quartiers, présentée comme ayant prouvé son efficacité, financée par la hausse de 20 % du budget de la police ; la politique de quartiers serait confiée à des fonctionnaires d'État pour éviter le clientélisme.",
+          "citation_courte": "remettre en place une police de proximité dans les quartiers",
+          "reformulation_anonymisee": "Le programme prévoit de remettre en place une police de proximité dans les quartiers, présentée comme ayant prouvé son efficacité, financée par la hausse de 20 % du budget de la police ; la politique de quartiers serait confiée à des fonctionnaires d'État pour éviter le clientélisme.",
+          "citation_anonymisee": "remettre en place une police de proximité dans les quartiers",
+          "source": {
+            "url": "https://upr.fr/notre-programme/programme-2022",
+            "titre": "UPR - Programme 2022 (23 – Sécurité : renforcement police et justice)",
+            "date_publication": "2022-02-15",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Le programme prévoit de remettre en place une police de proximité.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Programme remettant en place une police de proximité.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "a88609d7"
+    },
+    {
+      "question_id": "SEC-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-011",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme prévoit de rétablir des peines planchers pour les récidivistes auteurs d'infractions violentes contre les personnes (ainsi que de cambriolages et de trafic de stupéfiants), avec des planchers augmentant à chaque nouvelle récidive. Le texte ne donne pas de chiffres de peines minimales.",
+          "citation_courte": "Nous rétablirons des peines planchers pour les auteurs récidivistes",
+          "reformulation_anonymisee": "Le programme prévoit de rétablir des peines planchers pour les récidivistes auteurs d'infractions violentes contre les personnes (ainsi que de cambriolages et de trafic de stupéfiants), avec des planchers augmentant à chaque nouvelle récidive. Le texte ne donne pas de chiffres de peines minimales.",
+          "citation_anonymisee": "Nous rétablirons des peines planchers pour les auteurs récidivistes",
+          "source": {
+            "url": "https://upr.fr/notre-programme/programme-2022",
+            "titre": "UPR - Programme 2022 (23 – Sécurité : renforcement police et justice)",
+            "date_publication": "2022-02-15",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Peines planchers pour les récidivistes de certaines infractions seulement.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Peines planchers pour récidivistes de certaines infractions.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "a8ef1cb0"
+    },
+    {
+      "question_id": "SEC-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-013",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme prévoit de supprimer l'aménagement automatique des peines de prison de moins d'un an, mais pour les auteurs d'infractions violentes contre les personnes et de comportements à risque élevé de dégénérer en violences (cambriolages, trafic de stupéfiants), et non pour toutes les infractions.",
+          "citation_courte": "en supprimant l’aménagement automatique des peines de moins d’un an",
+          "reformulation_anonymisee": "Le programme prévoit de supprimer l'aménagement automatique des peines de prison de moins d'un an, mais pour les auteurs d'infractions violentes contre les personnes et de comportements à risque élevé de dégénérer en violences (cambriolages, trafic de stupéfiants), et non pour toutes les infractions.",
+          "citation_anonymisee": "en supprimant l’aménagement automatique des peines de moins d’un an",
+          "source": {
+            "url": "https://upr.fr/notre-programme/programme-2022",
+            "titre": "UPR - Programme 2022 (23 – Sécurité : renforcement police et justice)",
+            "date_publication": "2022-02-15",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Supprime l'aménagement automatique des peines de moins d'un an pour certaines infractions seulement.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Supprime l'aménagement automatique mais seulement pour certaines infractions.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "f1eb7eeb"
+    },
+    {
+      "question_id": "SEC-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-021",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-003",
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans une analyse de septembre 2026 titrée « la France encore arnaquée », il présente le budget 2028-2034 que la Commission voudrait porter à 2 000 milliards comme une hausse des prélèvements sur la France (contribution nette de près de 13 à 18,1 milliards par an). Il présente la sortie de l'UE comme l'alternative centrale. Il n'énonce pas de formule de refus du chiffre de 2 000 milliards autre que cette critique.",
+          "citation_courte": "Budget de l'UE 2028-2034 : la France encore arnaquée",
+          "reformulation_anonymisee": "Dans une analyse de 2026 titrée « la France encore arnaquée », [PARTI] présente le budget 2028-2034 que la Commission voudrait porter à 2 000 milliards comme une hausse des prélèvements sur la France (contribution nette de près de 13 à 18,1 milliards par an) et présente la sortie de l'UE comme l'alternative centrale. [CANDIDAT] n'énonce pas de formule de refus du chiffre de 2 000 milliards autre que cette critique.",
+          "citation_anonymisee": "Budget de l'UE 2028-2034 : la France encore arnaquée",
+          "source": {
+            "url": "https://upr.fr/analyses/budget-de-lue-2028-2034-la-france-encore-arnaquee",
+            "titre": "Budget de l'UE 2028-2034 : la France encore arnaquée ! (site de l'UPR)",
+            "date_publication": "2026-09-04",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Critique la hausse du budget de l'UE comme une arnaque, sans formuler de refus explicite du montant.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Critique le budget 2028-2034 comme hausse des prélèvements.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "dd33d7c3"
+    },
+    {
+      "question_id": "EUR-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-008",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans son discours de rentrée du 30 septembre 2026, il s'engage à notifier l'activation de l'article 50 du traité sur l'Union européenne dès la première semaine de son mandat, pour une sortie dans un délai de deux ans. Il refuse un référendum préalable, estimant que son élection vaudra mandat.",
+          "citation_courte": "il s’engage à notifier l’activation de l’article 50 du Traité sur l’Union européenne",
+          "reformulation_anonymisee": "Dans son discours de rentrée, [CANDIDAT] s'engage à notifier l'activation de l'article 50 du traité sur l'Union européenne dès la première semaine de son mandat, pour une sortie dans un délai de deux ans. [CANDIDAT] refuse un référendum préalable, estimant que son élection vaudra mandat.",
+          "citation_anonymisee": "il s’engage à notifier l’activation de l’article 50 du Traité sur l’Union européenne",
+          "source": {
+            "url": "https://upr.fr/actualites/discours-de-rentree-2026-de-francois-asselineau-la-liberation-nationale",
+            "titre": "Discours de rentrée 2026 de François Asselineau : la Libération nationale ! (site de l'UPR)",
+            "date_publication": "2026-09-30",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Son programme présidentiel 2022 propose de dénoncer juridiquement les traités européens et de sortir de l'UE et de l'euro, en premier lieu.",
+          "citation_courte": "sortir de l’UE et de l’euro",
+          "reformulation_anonymisee": "Le programme présidentiel de [CANDIDAT] propose de dénoncer juridiquement les traités européens et de sortir de l'UE et de l'euro, en premier lieu.",
+          "citation_anonymisee": "sortir de l’UE et de l’euro",
+          "source": {
+            "url": "https://upr.fr/actualites/programme-presidentiel-2022",
+            "titre": "Notre programme de libération nationale pour 2022 (site de l'UPR, programme présidentiel 2022)",
+            "date_publication": "2022-10-27",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "S'engage à activer l'article 50 dès la première semaine du mandat.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Engage l'article 50 dès la première semaine.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "99a287e4"
+    },
+    {
+      "question_id": "EUR-009",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme présidentiel 2022 prévoit la sortie de l'euro et l'adoption d'un nouveau franc, présentés comme mettant fin à la surévaluation de la monnaie et permettant un solde commercial positif en trois ans. La sortie de l'euro figure aussi dans l'engagement initial de sortir de l'UE et de l'euro.",
+          "citation_courte": "l’abandon de l’euro et de l’adoption d’un nouveau Franc",
+          "reformulation_anonymisee": "Le programme présidentiel de [CANDIDAT] prévoit la sortie de l'euro et l'adoption d'un nouveau franc, présentés comme mettant fin à la surévaluation de la monnaie et permettant un solde commercial positif en trois ans. La sortie de l'euro figure aussi dans l'engagement initial de sortir de l'UE et de l'euro.",
+          "citation_anonymisee": "l’abandon de l’euro et de l’adoption d’un nouveau Franc",
+          "source": {
+            "url": "https://upr.fr/actualites/programme-presidentiel-2022",
+            "titre": "Notre programme de libération nationale pour 2022 (site de l'UPR, programme présidentiel 2022)",
+            "date_publication": "2022-10-27",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Programme : sortie de l'euro et adoption d'un nouveau franc.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Programme prévoyant la sortie de l'euro et un nouveau franc.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "a693a186"
+    },
+    {
+      "question_id": "EUR-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-011",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans une analyse de septembre 2026, il juge qu'une baisse de la contribution française au budget de l'UE (par exemple un plafonnement de la contribution nette à 5 milliards d'euros) ne serait qu'une demi-mesure. Selon lui, la France n'a pas à verser le moindre euro à l'UE. Le chiffre de 23,1 milliards n'est pas évoqué.",
+          "citation_courte": "la France n’a pas à verser le moindre euro à une structure",
+          "reformulation_anonymisee": "Dans une analyse de 2026, [CANDIDAT] juge qu'une baisse de la contribution française au budget de l'UE (par exemple un plafonnement de la contribution nette à 5 milliards d'euros) ne serait qu'une demi-mesure. Selon [CANDIDAT], la France n'a pas à verser le moindre euro à l'UE. Le chiffre de 23,1 milliards n'est pas évoqué.",
+          "citation_anonymisee": "la France n’a pas à verser le moindre euro à une structure",
+          "source": {
+            "url": "https://upr.fr/analyses/laveu-de-lecornu-la-france-asphyxiee-par-le-budget-de-lue",
+            "titre": "L’aveu de Lecornu : la France asphyxiée par le budget de l'UE (site de l'UPR, texte à la première personne)",
+            "date_publication": "2026-09-15",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut une contribution nulle, plus loin que la baisse énoncée dans le même sens (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut ne verser aucun euro, plus loin que la baisse proposée (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "e674a0fe"
+    },
+    {
+      "question_id": "EUR-012",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme présidentiel 2022 prévoit de se retirer de l'espace Schengen et d'établir des contrôles à toutes les frontières, avec des accommodements pour les travailleurs frontaliers. Il s'agit donc d'une sortie de Schengen, non d'un maintien avec contrôle ciblé des seuls étrangers non européens. Le discours de rentrée 2026 annonce le rétablissement des contrôles aux frontières pour les flux humains, de marchandises et de capitaux.",
+          "citation_courte": "nous nous retirerons de l’Espace Schengen et établirons des contrôles à toutes les frontières",
+          "reformulation_anonymisee": "Le programme présidentiel de [CANDIDAT] prévoit de se retirer de l'espace Schengen et d'établir des contrôles à toutes les frontières, avec des accommodements pour les travailleurs frontaliers. Il s'agit donc d'une sortie de Schengen, non d'un maintien avec contrôle ciblé des seuls étrangers non européens. Un discours de rentrée de 2026 annonce le rétablissement des contrôles aux frontières pour les flux humains, de marchandises et de capitaux.",
+          "citation_anonymisee": "nous nous retirerons de l’Espace Schengen et établirons des contrôles à toutes les frontières",
+          "source": {
+            "url": "https://upr.fr/actualites/programme-presidentiel-2022",
+            "titre": "Notre programme de libération nationale pour 2022 (site de l'UPR, programme présidentiel 2022)",
+            "date_publication": "2022-10-27",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Sortie de Schengen et contrôles à toutes les frontières, plus loin dans le même sens (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Sortie de Schengen et contrôles à toutes frontières, va plus loin.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "5612aa9f"
+    },
+    {
+      "question_id": "EUR-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    }
+  ]
+}

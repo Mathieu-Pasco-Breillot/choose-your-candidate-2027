@@ -1,0 +1,3765 @@
+{
+  "candidat_id": "philippot-florian",
+  "_statut": "POC — vague 3 du codage (4 octobre 2026) : première recherche pour ce candidat, sur les 206 questions actives. Double codage aveugle (Opus 5.5, Sonnet 5.5), désaccords arbitrés provisoirement par un 3e modèle (Fable 5.1), contrôle humain de 10 % à faire. Aucun programme 2027 complet publié à cette date. À revoir avant publication.",
+  "grille_version": "1.2",
+  "programme": {
+    "officiel_disponible": false,
+    "date_publication": null,
+    "url": null,
+    "note": "Aucun programme officiel 2027 complet trouvé au 4 octobre 2026."
+  },
+  "positions": [
+    {
+      "question_id": "DEF-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-006",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Il s'oppose à tout envoi de troupes françaises en Ukraine, qualifiant de « folie absolue » le déploiement annoncé de 6 000 à 8 000 soldats dans le cadre de la Coalition des volontaires, et demande de privilégier la négociation et la paix. La source ne vise pas spécifiquement un déploiement après cessez-le-feu.",
+          "citation_courte": "Pas d’envoi de troupes françaises en Ukraine et au Groenland !",
+          "reformulation_anonymisee": "[CANDIDAT] s'oppose à tout envoi de troupes françaises en Ukraine, qualifiant de « folie absolue » le déploiement annoncé de 6 000 à 8 000 soldats dans le cadre de la Coalition des volontaires, et demande de privilégier la négociation et la paix. La source ne vise pas spécifiquement un déploiement après cessez-le-feu.",
+          "citation_anonymisee": "Pas d’envoi de troupes françaises en Ukraine et au Groenland !",
+          "source": {
+            "url": "https://les-patriotes.fr/pas-de-troupes-francaises-ni-en-ukraine-ni-au-groenland/",
+            "titre": "Pas de troupes françaises, ni en Ukraine ni au Groenland ! (site Les Patriotes)",
+            "date_publication": "2026-01-20",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "S'oppose à tout envoi de troupes françaises en Ukraine, y compris le déploiement de la Coalition des volontaires.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "S'oppose à tout envoi de troupes françaises en Ukraine.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "cec1fc08"
+    },
+    {
+      "question_id": "DEF-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-008",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans une tribune au JDD, il dénonce comme un piège l'européanisation de la dissuasion nucléaire française (« protection » élargie, « partage » du parapluie, « mutualisation » poussés par l'Allemagne), qu'il présente comme une atteinte à la souveraineté.",
+          "citation_courte": "l’européanisation de notre dissuasion nucléaire",
+          "reformulation_anonymisee": "Dans une tribune de presse, [CANDIDAT] dénonce comme un piège l'européanisation de la dissuasion nucléaire française (« protection » élargie, « partage » du parapluie, « mutualisation » poussés par un partenaire européen), qu'il présente comme une atteinte à la souveraineté.",
+          "citation_anonymisee": "l’européanisation de notre dissuasion nucléaire",
+          "source": {
+            "url": "https://www.lejdd.fr/politique/florian-philippot-la-question-du-frexit-sera-au-coeur-de-la-presidentielle-168537",
+            "titre": "Florian Philippot : « La question du Frexit sera au cœur de la présidentielle » (tribune, JDD)",
+            "date_publication": "2026-03-12",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Dénonce l'européanisation de la dissuasion comme une atteinte à la souveraineté.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Dénonce l'européanisation de la dissuasion comme un piège.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "c9d5839a"
+    },
+    {
+      "question_id": "DEF-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-001",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le texte veut préserver la voiture thermique au-delà de 2035 : il juge l'interdiction européenne de vente de thermiques neufs à cet horizon socialement injuste et faussement utile pour l'environnement (impact des métaux rares des voitures électriques) et annonce une taxation plus lourde de l'électricité pour compenser. Engagement formulé comme orientation du projet.",
+          "citation_courte": "Préserver la voiture thermique au-delà de 2035",
+          "reformulation_anonymisee": "Le texte veut préserver la voiture thermique au-delà de 2035 : il juge l'interdiction européenne de vente de thermiques neufs à cet horizon socialement injuste et faussement utile pour l'environnement (impact des métaux rares des voitures électriques) et annonce une taxation plus lourde de l'électricité pour compenser. Engagement formulé comme orientation du projet.",
+          "citation_anonymisee": "Préserver la voiture thermique au-delà de 2035",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Grandes orientations pour un projet patriote, édition 2026-2027 (Projet pour la France 2026 v2)",
+            "date_publication": "2026-09-03",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut garder la voiture thermique au-delà de 2035.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Veut préserver la voiture thermique après 2035.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "f17199b8"
+    },
+    {
+      "question_id": "ENV-002",
+      "code": -2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le texte préconise d'investir massivement dans le nucléaire (plan d'investissement massif dans le nucléaire de nouvelle génération) et critique l'engagement de réduire la part du nucléaire à 50 % de la production d'électricité dès 2030. Il ne mentionne pas explicitement l'horizon 2050.",
+          "citation_courte": "Investir massivement dans le nucléaire et choisir notre mix énergétique.",
+          "reformulation_anonymisee": "Le texte préconise d'investir massivement dans le nucléaire (plan d'investissement massif dans le nucléaire de nouvelle génération) et critique l'engagement de réduire la part du nucléaire à 50 % de la production d'électricité dès 2030. Il ne mentionne pas explicitement l'horizon 2050.",
+          "citation_anonymisee": "Investir massivement dans le nucléaire et choisir notre mix énergétique.",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Grandes orientations pour un projet patriote, édition 2026-2027 (Projet pour la France 2026 v2)",
+            "date_publication": "2026-09-03",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Prône un investissement massif dans le nucléaire.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Investir massivement dans le nucléaire, contraire de la sortie.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "924f9e69"
+    },
+    {
+      "question_id": "ENV-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-011",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le texte demande un moratoire total et définitif sur les éoliennes, sur terre et en mer, jugeant qu'il n'y a aucune raison de poursuivre leur développement, ainsi qu'un plan de démantèlement des éoliennes installées. Il ne vise pas spécifiquement le soutien financier de l'État mais l'arrêt du développement de la filière.",
+          "citation_courte": "un moratoire total et définitif sur cette méthode de production d'électricité",
+          "reformulation_anonymisee": "Le texte demande un moratoire total et définitif sur les éoliennes, sur terre et en mer, jugeant qu'il n'y a aucune raison de poursuivre leur développement, ainsi qu'un plan de démantèlement des éoliennes installées. Il ne vise pas spécifiquement le soutien financier de l'État mais l'arrêt du développement de la filière.",
+          "citation_anonymisee": "un moratoire total et définitif sur cette méthode de production d'électricité",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Grandes orientations pour un projet patriote, édition 2026-2027 (Projet pour la France 2026 v2)",
+            "date_publication": "2026-09-03",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Moratoire total et définitif sur l'éolien, ce qui exclut tout nouveau soutien.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Moratoire total et définitif, plus loin que l'arrêt du soutien (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Moratoire total et démantèlement vont plus loin que l'arrêt du soutien financier : R1. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "4df50aa9"
+    },
+    {
+      "question_id": "ENV-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-018",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le texte propose de quitter le marché européen de l'électricité et de revenir à des règles nationales, ce qui ferait baisser immédiatement les tarifs des particuliers et des entreprises ; il avance une division par trois du prix de l'électricité. Il propose aussi de rétablir un monopole public dans l'électricité.",
+          "citation_courte": "Quitter le marché européen de l'électricité.",
+          "reformulation_anonymisee": "Le texte propose de quitter le marché européen de l'électricité et de revenir à des règles nationales, ce qui ferait baisser immédiatement les tarifs des particuliers et des entreprises ; il avance une division par trois du prix de l'électricité. Il propose aussi de rétablir un monopole public dans l'électricité.",
+          "citation_anonymisee": "Quitter le marché européen de l'électricité.",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Grandes orientations pour un projet patriote, édition 2026-2027 (Projet pour la France 2026 v2)",
+            "date_publication": "2026-09-03",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Propose de quitter le marché européen de l'électricité et de revenir à des règles nationales.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Propose de quitter le marché européen de l'électricité.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "515fcaa1"
+    },
+    {
+      "question_id": "ENV-022",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-023",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le texte prévoit un plan d'investissement massif dans le nucléaire de nouvelle génération. Il ne donne aucun nombre de réacteurs à construire.",
+          "citation_courte": "plan d'investissement massif dans le nucléaire de nouvelle génération",
+          "reformulation_anonymisee": "Le texte prévoit un plan d'investissement massif dans le nucléaire de nouvelle génération. Il ne donne aucun nombre de réacteurs à construire.",
+          "citation_anonymisee": "plan d'investissement massif dans le nucléaire de nouvelle génération",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Grandes orientations pour un projet patriote, édition 2026-2027 (Projet pour la France 2026 v2)",
+            "date_publication": "2026-09-03",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Plan nucléaire massif sans nombre de réacteurs : position générale (R4).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Aucun nombre de réacteurs donné.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "948e14b3"
+    },
+    {
+      "question_id": "ENV-024",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-025",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-026",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le projet 2026 veut que la carrière des enseignants soit revalorisée, notamment sur le plan salarial, avec leur autorité pleinement reconnue. Aucun chiffre ni calendrier (20 % en cinq ans) n'est donné.",
+          "citation_courte": "carrière revalorisée, notamment sur le plan salarial",
+          "reformulation_anonymisee": "Le projet veut que la carrière des enseignants soit revalorisée, notamment sur le plan salarial, avec leur autorité pleinement reconnue. Aucun chiffre ni calendrier n'est donné.",
+          "citation_anonymisee": "carrière revalorisée, notamment sur le plan salarial",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Projet pour la France 2026",
+            "date_publication": "2026-09-01",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Revalorisation salariale sans chiffre ni calendrier : position générale (R4).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Revalorisation salariale sans chiffre ni calendrier.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": null,
+        "nature_retenue": "non_connu",
+        "motif": "Revalorisation salariale de principe sans reprendre le seuil de 20 % ni le calendrier : R4, sujet voisin. (code retenu : celui du codeur A)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "ec2e17a2"
+    },
+    {
+      "question_id": "EDU-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-010",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Parmi les mesures éducation du programme présidentiel de 2022, rapportées par la presse, figure le port de l'uniforme obligatoire. Le niveau scolaire concerné (primaire, collège) n'est pas précisé dans l'article.",
+          "citation_courte": "Port de l'uniforme obligatoire",
+          "reformulation_anonymisee": "Parmi les mesures éducation du programme présidentiel du candidat, rapportées par la presse, figure le port de l'uniforme obligatoire. Le niveau scolaire concerné n'est pas précisé dans l'article.",
+          "citation_anonymisee": "Port de l'uniforme obligatoire",
+          "source": {
+            "url": "https://www.ledauphine.com/elections/2022/01/31/le-programme-de-florian-philippot-(les-patriotes)",
+            "titre": "Présidentielle 2022. Le programme de Florian Philippot (non candidat)",
+            "date_publication": "2022-01-31",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Uniforme obligatoire sans précision des niveaux concernés.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Uniforme obligatoire, niveau non précisé.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Uniforme obligatoire figure au programme comme mesure concrète, niveaux non précisés : hésitation +2/+1 tranchée vers 0. (code retenu : celui du codeur A)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "f22c20c3"
+    },
+    {
+      "question_id": "EDU-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-012",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le projet 2026 propose de rompre avec le « collège unique » et d'offrir dès 14 ans des parcours différenciés, y compris vers l'apprentissage, avec une voie professionnelle revalorisée. Le texte ne mentionne ni la classe de quatrième ni un ciblage des élèves en difficulté.",
+          "citation_courte": "en finir avec le collège unique",
+          "reformulation_anonymisee": "Le projet propose de rompre avec le « collège unique » et d'offrir dès 14 ans des parcours différenciés, y compris vers l'apprentissage, avec une voie professionnelle revalorisée. Le texte ne mentionne ni la classe de quatrième ni un ciblage des élèves en difficulté.",
+          "citation_anonymisee": "en finir avec le collège unique",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Projet pour la France 2026",
+            "date_publication": "2026-09-01",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut des parcours différenciés dès 14 ans, sans ciblage des élèves en difficulté ni mention de la quatrième.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Parcours différenciés dès 14 ans, ni quatrième ni élèves en difficulté précisés.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Fin du collège unique et parcours différenciés dès 14 ans : mesure concrète dans le sens de l'énoncé, sans ciblage des élèves en difficulté. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "4f6ac194"
+    },
+    {
+      "question_id": "EDU-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-020",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le candidat affirme que baisser la TVA sur les carburants suppose l'autorisation de Bruxelles et qu'il faut, pour retrouver cette indépendance, sortir de l'Union européenne. La source ne donne pas de taux cible (5,5 %) et ne mentionne ni l'électricité ni le gaz.",
+          "citation_courte": "Pour baisser la TVA sur le carburant, il faut l'autorisation de Bruxelles.",
+          "reformulation_anonymisee": "[CANDIDAT] affirme que baisser la TVA sur les carburants suppose l'autorisation de Bruxelles et qu'il faut, pour retrouver cette indépendance, sortir de l'Union européenne. La source ne donne pas de taux cible (5,5 %) et ne mentionne ni l'électricité ni le gaz.",
+          "citation_anonymisee": "Pour baisser la TVA sur le carburant, il faut l'autorisation de Bruxelles.",
+          "source": {
+            "url": "https://www.lejdd.fr/politique/2027-florian-philippot-annonce-sa-candidature-pour-lelection-presidentielle-173496",
+            "titre": "2027 : Florian Philippot annonce sa candidature pour l'élection présidentielle",
+            "date_publication": "2026-05-09",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Laisse entendre vouloir baisser la TVA sur les carburants, sans taux cible ni électricité/gaz.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut baisser la TVA sur les carburants, sans taux ni énergie/gaz.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "4449708c"
+    },
+    {
+      "question_id": "IMM-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-021",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-022",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-016",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le projet 2026-2027 du mouvement affirme qu'il faut supprimer les agences régionales de santé, dans une section sur la réduction de la bureaucratie du système de santé. Le texte ne dit pas à qui seraient confiées leurs missions (préfets ou autre).",
+          "citation_courte": "Il faut supprimer les ARS (Agences régionales de santé).",
+          "reformulation_anonymisee": "Le projet 2026-2027 du [PARTI] affirme qu'il faut supprimer les agences régionales de santé, dans une section sur la réduction de la bureaucratie du système de santé. Le texte ne dit pas à qui seraient confiées leurs missions (préfets ou autre).",
+          "citation_anonymisee": "Il faut supprimer les ARS (Agences régionales de santé).",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Grandes orientations pour un projet patriote, édition 2026-2027 (Projet pour la France 2026 v2), section Santé",
+            "date_publication": "2026-09-03",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut supprimer les ARS mais ne dit pas que leurs missions iraient aux préfets : version partielle.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Suppression des ARS affirmée, mais sans transfert aux préfets.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "be659a75"
+    },
+    {
+      "question_id": "SAN-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-008",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme prévoit de recréer une police de proximité visible et permanente, avec des unités implantées physiquement dans les quartiers sensibles, présentes au quotidien et logées dans des commissariats de proximité.",
+          "citation_courte": "Recréer une police de proximité visible et permanente.",
+          "reformulation_anonymisee": "Le programme prévoit de recréer une police de proximité visible et permanente, avec des unités implantées physiquement dans les quartiers sensibles, présentes au quotidien et logées dans des commissariats de proximité.",
+          "citation_anonymisee": "Recréer une police de proximité visible et permanente.",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Projet pour la France 2026 (v2) - Les Patriotes",
+            "date_publication": "2026-09-01",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Veut recréer une police de proximité permanente dans les quartiers.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Programme recréant une police de proximité.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "4c6ee6aa"
+    },
+    {
+      "question_id": "SEC-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-011",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme propose de réinstaurer les peines planchers et de généraliser les sanctions dès la première infraction. La source ne précise ni le montant des peines ni une limitation aux seuls récidivistes.",
+          "citation_courte": "réinstaurer les peines planchers",
+          "reformulation_anonymisee": "Le programme propose de réinstaurer les peines planchers et de généraliser les sanctions dès la première infraction. La source ne précise ni le montant des peines ni une limitation aux seuls récidivistes.",
+          "citation_anonymisee": "réinstaurer les peines planchers",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Projet pour la France 2026 (v2) - Les Patriotes",
+            "date_publication": "2026-09-01",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Veut réinstaurer les peines planchers, étendues au-delà des récidivistes.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Réinstaurer les peines planchers.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "2ac28408"
+    },
+    {
+      "question_id": "SEC-012",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le programme veut en finir avec l'excuse automatique de minorité : elle ne s'appliquerait que si le juge la motive spécialement. Les actes graves seraient jugés comme tels, un mineur auteur d'un meurtre devant être jugé comme un adulte. La source ne mentionne ni seuil d'âge de 16 ans ni condition de récidive.",
+          "citation_courte": "qui tue comme un adulte doit être jugé comme un adulte",
+          "reformulation_anonymisee": "Le programme veut en finir avec l'excuse automatique de minorité : elle ne s'appliquerait que si le juge la motive spécialement. Les actes graves seraient jugés comme tels, un mineur auteur d'un meurtre devant être jugé comme un adulte. La source ne mentionne ni seuil d'âge de 16 ans ni condition de récidive.",
+          "citation_anonymisee": "qui tue comme un adulte doit être jugé comme un adulte",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Projet pour la France 2026 (v2) - Les Patriotes",
+            "date_publication": "2026-09-01",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "L'excuse de minorité ne serait plus automatique et un mineur auteur d'actes graves serait jugé comme un adulte, sans seuil de 16 ans ni condition de récidive : même sens, autre périmètre.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": null,
+          "nature": "non_connu",
+          "justification": "Position générale sans seuil de 16 ans ni récidive (R4).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "nuancee",
+        "motif": "Fin de l'excuse de minorité automatique et jugement comme adulte des actes graves : mesure concrète dans le même sens, périmètre différent (ni 16 ans ni récidive). (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "04d7dc4b"
+    },
+    {
+      "question_id": "SEC-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-014",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme veut construire les dizaines de milliers de places de prison qui manquent, et expulser les prisonniers étrangers. La source ne donne aucun objectif chiffré précis (pas de 85 000).",
+          "citation_courte": "Construire les dizaines de milliers de places de prison qui manquent",
+          "reformulation_anonymisee": "Le programme veut construire les dizaines de milliers de places de prison qui manquent, et expulser les prisonniers étrangers. La source ne donne aucun objectif chiffré précis.",
+          "citation_anonymisee": "Construire les dizaines de milliers de places de prison qui manquent",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Projet pour la France 2026 (v2) - Les Patriotes",
+            "date_publication": "2026-09-01",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut construire des dizaines de milliers de places de prison, sans objectif chiffré.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut construire des dizaines de milliers de places, sans objectif chiffré.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "0695987a"
+    },
+    {
+      "question_id": "SEC-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-017",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le programme veut mettre les parents de mineurs récidivistes face à leurs responsabilités en conditionnant les prestations sociales ; la suspension des aides, la révision du droit au logement social, voire l'expulsion de la famille, doivent pouvoir être envisagées comme leviers de dissuasion. Formulation de piste (« envisagées »), visant les mineurs récidivistes et non les mineurs condamnés en général ; les allocations familiales ne sont pas nommées.",
+          "citation_courte": "en conditionnant les prestations sociales",
+          "reformulation_anonymisee": "Le programme veut mettre les parents de mineurs récidivistes face à leurs responsabilités en conditionnant les prestations sociales ; la suspension des aides, la révision du droit au logement social, voire l'expulsion de la famille, doivent pouvoir être envisagées comme leviers de dissuasion. Formulation de piste, visant les mineurs récidivistes et non les mineurs condamnés en général ; les allocations familiales ne sont pas nommées.",
+          "citation_anonymisee": "en conditionnant les prestations sociales",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Projet pour la France 2026 (v2) - Les Patriotes",
+            "date_publication": "2026-09-01",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Piste de conditionnement des prestations pour les parents de mineurs récidivistes, sans nommer les allocations familiales.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Suspension des aides envisageable pour parents de mineurs récidivistes, périmètre réduit.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": 1,
+        "nature_retenue": "imprecise",
+        "motif": "Piste de conditionnement des prestations pour les parents de mineurs récidivistes, sans nommer les allocations familiales ni s'engager : direction sans mesure arrêtée. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "c26289ec"
+    },
+    {
+      "question_id": "SEC-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-020",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Dans le volet protection de l'enfance, le programme prévoit d'alourdir les peines des pédocriminels et de rendre la castration chimique automatique en cas de récidive. La source ne vise que la pédocriminalité (pas l'ensemble des crimes sexuels) et ne parle pas du consentement du condamné.",
+          "citation_courte": "la castration chimique devenir automatique en cas de récidive",
+          "reformulation_anonymisee": "Dans le volet protection de l'enfance, le programme prévoit d'alourdir les peines des pédocriminels et de rendre la castration chimique automatique en cas de récidive. La source ne vise que la pédocriminalité (pas l'ensemble des crimes sexuels) et ne parle pas du consentement du condamné.",
+          "citation_anonymisee": "la castration chimique devenir automatique en cas de récidive",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Projet pour la France 2026 (v2) - Les Patriotes",
+            "date_publication": "2026-09-01",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Castration chimique automatique pour les pédocriminels récidivistes seulement : même sens, périmètre réduit.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Castration chimique automatique en récidive, pédocriminalité seulement.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "46d4a03e"
+    },
+    {
+      "question_id": "SEC-021",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-003",
+      "code": -1,
+      "nature": "imprecise",
+      "statut": "arbitre",
+      "extraits": [
+        {
+          "reformulation": "Le projet pour 2028-2034 est cité comme une hausse de 40 % du budget européen, rangée parmi les prétentions politiques de plus en plus folles de l'UE, qui creuseraient le différentiel net payé par la France (environ 20 milliards d'euros). Le texte ne chiffre pas le montant de 2 000 milliards et ne formule pas de position d'ensemble sur ce chiffre, mais le présente comme un argument pour quitter l'UE.",
+          "citation_courte": "prétentions politiques de plus en plus folles de l’UE",
+          "reformulation_anonymisee": "Le projet pour 2028-2034 est cité comme une hausse de 40 % du budget européen, rangée parmi les prétentions politiques de plus en plus folles de l'UE, qui creuseraient le différentiel net payé par la France (environ 20 milliards d'euros). Le texte ne chiffre pas le montant de 2 000 milliards et ne formule pas de position d'ensemble sur ce chiffre, mais le présente comme un argument pour quitter l'UE.",
+          "citation_anonymisee": "prétentions politiques de plus en plus folles de l’UE",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Grandes orientations pour un projet patriote + Le Frexit en 10 questions, édition 2026-2027 (Les Patriotes)",
+            "date_publication": "2026-09-01",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": -2,
+          "nature": "nette",
+          "justification": "Qualifie la hausse du budget européen de prétention folle et la présente comme un argument pour quitter l'UE.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": -1,
+          "nature": "imprecise",
+          "justification": "Présente la hausse du budget UE comme prétention folle, sans chiffre.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": false
+      },
+      "arbitrage": {
+        "par": "arbitrage provisoire par un troisième modèle (claude-fable-5-1), aveugle, non validé par un humain (mode POC)",
+        "date": "2026-10-04",
+        "code_retenu": -1,
+        "nature_retenue": "imprecise",
+        "motif": "Qualifie la hausse de prétention folle sans se prononcer sur le montant ni proposer de contre-mesure : direction nette, mesure non spécifiée ; hésitation -2/-1 tranchée vers 0. (code retenu : celui du codeur B)"
+      },
+      "controle_humain": {
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "896f0027"
+    },
+    {
+      "question_id": "EUR-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-008",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le candidat déclare se présenter pour sortir la France de l'UE, de l'euro et de l'OTAN, en tant que président du mouvement souverainiste qu'il dirige.",
+          "citation_courte": "pour sortir la France de l’UE",
+          "reformulation_anonymisee": "[CANDIDAT] déclare se présenter pour sortir la France de l'UE, de l'euro et de l'OTAN, en tant que président du mouvement souverainiste qu'il dirige.",
+          "citation_anonymisee": "pour sortir la France de l’UE",
+          "source": {
+            "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-florian-philippot-declare-sa-candidature-mais-se-dit-deja-pret-a-se-retirer-09-05-2026-ABUDCTJBNZCR7DVIYOHXLHZHSA.php",
+            "titre": "Présidentielle 2027 : Florian Philippot déclare sa candidature… mais se dit déjà prêt à se retirer",
+            "date_publication": "2026-05-09",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Le projet 2026-2027 présente le Frexit comme clé de voûte et condition du redressement du pays, et affirme que seule la sortie de l'UE, prévue par les Traités, permet de redonner aux États des compétences transférées. Il écarte la renégociation des traités.",
+          "citation_courte": "Seule la sortie de l’UE, prévue par les Traités, le peut.",
+          "reformulation_anonymisee": "Le projet 2026-2027 présente la sortie de l'UE comme clé de voûte et condition du redressement du pays, et affirme que seule la sortie de l'UE, prévue par les Traités, permet de redonner aux États des compétences transférées. Il écarte la renégociation des traités.",
+          "citation_anonymisee": "Seule la sortie de l’UE, prévue par les Traités, le peut.",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Grandes orientations pour un projet patriote + Le Frexit en 10 questions, édition 2026-2027 (Les Patriotes)",
+            "date_publication": "2026-09-01",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Dans une tribune signée, il affirme que la question de la sortie de l'UE ne peut plus être reléguée à la marge et sera au cœur de l'élection présidentielle, comme condition de toute politique efficace (énergie, politique étrangère, agriculture, industrie, immigration).",
+          "citation_courte": "la question du Frexit ne peut plus être reléguée à la marge",
+          "reformulation_anonymisee": "Dans une tribune signée, [CANDIDAT] affirme que la question de la sortie de l'UE ne peut plus être reléguée à la marge et sera au cœur de l'élection présidentielle, comme condition de toute politique efficace (énergie, politique étrangère, agriculture, industrie, immigration).",
+          "citation_anonymisee": "la question de la sortie de l'UE ne peut plus être reléguée à la",
+          "source": {
+            "url": "https://www.lejdd.fr/politique/florian-philippot-la-question-du-frexit-sera-au-coeur-de-la-presidentielle-168537",
+            "titre": "Florian Philippot : « La question du Frexit sera au cœur de la présidentielle » (tribune)",
+            "date_publication": "2026-03-12",
+            "type": "texte_signe"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Prône la sortie de l'UE comme clé de voûte du projet.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Veut sortir de l'UE.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "5c40c55d"
+    },
+    {
+      "question_id": "EUR-009",
+      "code": 2,
+      "nature": "nette",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le candidat dit vouloir sortir la France de l'UE, de l'euro et de l'OTAN (déclaration de candidature sur une chaîne de télévision nationale).",
+          "citation_courte": "de l’euro et de l’Otan",
+          "reformulation_anonymisee": "[CANDIDAT] dit vouloir sortir la France de l'UE, de l'euro et de l'OTAN (déclaration de candidature sur une chaîne de télévision nationale).",
+          "citation_anonymisee": "de l’euro et de l’Otan",
+          "source": {
+            "url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-florian-philippot-declare-sa-candidature-mais-se-dit-deja-pret-a-se-retirer-09-05-2026-ABUDCTJBNZCR7DVIYOHXLHZHSA.php",
+            "titre": "Présidentielle 2027 : Florian Philippot déclare sa candidature… mais se dit déjà prêt à se retirer",
+            "date_publication": "2026-05-09",
+            "type": "declaration_publique"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        },
+        {
+          "reformulation": "Le projet 2026-2027 présente la sortie de l'euro et l'instauration d'une nouvelle monnaie nationale comme une condition absolue de la bonne santé économique du pays. La conversion se ferait à parité initiale simple (1 euro = 1 nouveau franc).",
+          "citation_courte": "La sortie de l’euro et l’instauration d’une nouvelle monnaie nationale",
+          "reformulation_anonymisee": "Le projet 2026-2027 présente la sortie de l'euro et l'instauration d'une nouvelle monnaie nationale comme une condition absolue de la bonne santé économique du pays. La conversion se ferait à parité initiale simple (1 euro = 1 nouvelle unité).",
+          "citation_anonymisee": "La sortie de l’euro et l’instauration d’une nouvelle monnaie nationale",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Grandes orientations pour un projet patriote + Le Frexit en 10 questions, édition 2026-2027 (Les Patriotes)",
+            "date_publication": "2026-09-01",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Prône la sortie de l'euro et une nouvelle monnaie nationale.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 2,
+          "nature": "nette",
+          "justification": "Programme: sortie de l'euro et nouvelle monnaie.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "03981dd8"
+    },
+    {
+      "question_id": "EUR-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-011",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le projet 2026-2027 affirme que la sortie de l'UE mettrait fin à la contribution française, chiffrée à 31,1 milliards d'euros en prévision 2026, soit un gain budgétaire net d'environ 15 milliards d'euros aujourd'hui, 20 milliards à terme. Il ne propose pas de ramener la contribution à 23,1 milliards.",
+          "citation_courte": "Le Frexit signifie la fin de la contribution française à l’UE",
+          "reformulation_anonymisee": "Le projet 2026-2027 affirme que la sortie de l'UE mettrait fin à la contribution française, chiffrée à 31,1 milliards d'euros en prévision 2026, soit un gain budgétaire net d'environ 15 milliards d'euros aujourd'hui, 20 milliards à terme. Il ne propose pas de ramener la contribution à 23,1 milliards.",
+          "citation_anonymisee": "La sortie de l’UE signifie la fin de la contribution française à l’UE",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Grandes orientations pour un projet patriote + Le Frexit en 10 questions, édition 2026-2027 (Les Patriotes)",
+            "date_publication": "2026-09-01",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut supprimer toute contribution par la sortie de l'UE, plus loin dans le même sens (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Sortie de l'UE met fin à la contribution, va plus loin (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "4622ee8d"
+    },
+    {
+      "question_id": "EUR-012",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le projet 2026-2027 estime qu'il est impératif de quitter l'UE et l'espace Schengen pour retrouver la maîtrise des frontières nationales, Schengen interdisant les contrôles permanents aux frontières. Il propose donc de sortir de Schengen, et non un contrôle limité aux étrangers non européens au sein de Schengen.",
+          "citation_courte": "il est impératif de quitter l’Union européenne et l’espace Schengen",
+          "reformulation_anonymisee": "Le projet 2026-2027 estime qu'il est impératif de quitter l'UE et l'espace Schengen pour retrouver la maîtrise des frontières nationales, Schengen interdisant les contrôles permanents aux frontières. Il propose donc de sortir de Schengen, et non un contrôle limité aux étrangers non européens au sein de Schengen.",
+          "citation_anonymisee": "il est impératif de quitter l’Union européenne et l’espace Schengen",
+          "source": {
+            "url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+            "titre": "Grandes orientations pour un projet patriote + Le Frexit en 10 questions, édition 2026-2027 (Les Patriotes)",
+            "date_publication": "2026-09-01",
+            "type": "programme_parti"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Veut sortir de Schengen et contrôler toutes les frontières, plus loin dans le même sens (R1).",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Sortie de Schengen avec contrôles généralisés, va plus loin.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "2d466217"
+    },
+    {
+      "question_id": "EUR-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    }
+  ]
+}

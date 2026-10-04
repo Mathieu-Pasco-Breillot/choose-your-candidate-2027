@@ -114,6 +114,30 @@
       "description": "Après la vague 3, Le Pen (94 questions actives codées sur 206, 45,6 %) et Retailleau (83 sur 206, 40,3 %) passent au statut « évalué », selon la règle des 40 % appliquée au lot 5g.",
       "auteur": "Claude, à la demande de Mathieu",
       "reference": "méthodologie, statut évalué (40 %)"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "recodage",
+      "objets": [
+        "data/positions/*.json"
+      ],
+      "description": "Vague 3 du codage, suite : import des 10 candidats déclarés de la vague 2 (Asselineau, Batho, Becht, Bouamrane, Egger, Lalanne, Mikolajczak, Philippot, Ruffin, Tondelier), codés pour la première fois sur les 206 questions actives avec le même protocole (extraction, contrôle mécanique, double codage aveugle Opus 5.5 et Sonnet 5.5, arbitrage provisoire Fable 5.1, vérification indépendante). 158 codes publiés : Tondelier 50, Ruffin 41, Philippot 21, Asselineau 20, Mikolajczak 8, Batho 6, Bouamrane 5, Lalanne 4, Egger 2, Becht 1. La vérification indépendante a écarté 7 extraits contraires à la règle d'attribution (Philippot × DEF-001, DEF-004, DEF-005, DEF-014 ; Tondelier × EDU-002, ENV-024 et un extrait de ENV-025, recodé à l'aveugle). Les extraits du programme de Tondelier sont rattachés à sa version publiée sur son site de campagne. Contrôle humain : 13 codes tirés au sort, à faire. Données de preuve de concept.",
+      "auteur": "Claude, à la demande de Mathieu",
+      "reference": "phase-4, vague 3"
+    },
+    {
+      "date": "2026-10-04",
+      "type": "recalcul",
+      "objets": [
+        "docs/methodologie.md",
+        "scripts/lib/derive.ts",
+        "derive/discriminance.json",
+        "derive/ancrage.json",
+        "derive/rapport-neutralite.json"
+      ],
+      "description": "Méthodologie v1.4 (D14, validée par Mathieu le 4 octobre 2026) : la population de référence du pouvoir discriminant et de l'ancrage ne comprend plus que les candidats codés sur au moins 20 % des questions actives. Sans ce seuil, l'import des 10 candidats de la vague 2, presque tous très peu codés, vidait la liste d'ancres. Tous les candidats ayant des positions restent comparés dans les résultats et suivis par le rapport de neutralité. Population de référence : 10 candidats (Ruffin, à 19,9 %, n'y entre pas).",
+      "auteur": "Claude, à la demande de Mathieu",
+      "reference": "méthodologie v1.4, D14"
     }
   ]
 }

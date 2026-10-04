@@ -41,8 +41,8 @@ export function construireRapport(ds: Dataset) {
     discriminance,
     ancrage,
   );
-  // Questions codées par candidat de la population de référence : codes publiés (D8), toutes natures (D9).
-  const ctx = construireContexte(ds);
+  // Questions codées par candidat comparé (tous ceux qui ont des positions, D14) : codes publiés (D8), toutes natures (D9).
+  const ctx = construireContexte(ds, 'comparables');
   const codees: Record<string, string[]> = Object.fromEntries(ctx.population.map((c) => [c, [] as string[]]));
   for (const [question, parCandidat] of [...ctx.codes.entries()].sort(([a], [b]) => a.localeCompare(b))) {
     for (const c of parCandidat.keys()) codees[c]!.push(question);

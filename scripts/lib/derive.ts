@@ -7,8 +7,11 @@
  *    Un désaccord non arbitré compte comme « non connu » (méthodologie, D8).
  *  - Un code 0 est un code : « non nul » signifie « différent de null ».
  *  - Seules les questions actives comptent.
- *  - Population de référence (« candidats évalués ») : les candidats dont le statut n'est pas
- *    « non_evalue » et qui ont un fichier de positions. Elle s'élargit seule à chaque vague de codage.
+ *  - Candidats comparables : les candidats dont le statut n'est pas « non_evalue » et qui ont un
+ *    fichier de positions. Ils sont tous comparés dans les résultats et suivis par le rapport de neutralité.
+ *  - Population de référence (« candidats évalués », méthodologie v1.4, D14) : les candidats comparables
+ *    codés sur au moins SEUIL_POPULATION_REFERENCE des questions actives. Elle seule sert au pouvoir
+ *    discriminant et à l'ancrage, pour qu'un candidat encore très peu codé ne vide pas la liste d'ancres.
  */
 import type { Dataset } from './dataset.ts';
 import type { Candidats, Positions, Questions } from '../../core/types.generated.ts';
@@ -28,6 +31,7 @@ export const ANCRES_MIN_PAR_SENS = 4;
 export const ANCRES_MIN_PAR_SENS_EXPRESS = 2;
 export const RANG_STABILITE = 20; // § 7.2 : stabilité
 export const SEUIL_EVALUE = 0.4; // § 6.3 : 40 % des questions actives
+export const SEUIL_POPULATION_REFERENCE = 0.2; // § 7.1, D14 : 20 % des questions actives codées
 
 const NATURES_CODEES = ['nette', 'nuancee', 'imprecise'] as const;
 type NatureCodee = (typeof NATURES_CODEES)[number];
@@ -53,27 +57,50 @@ export function estPublie(p: Position): boolean {
   return (p.statut === 'accord' || p.statut === 'arbitre') && p.code !== null;
 }
 
-export function populationDeReference(ds: Dataset): string[] {
+/** Candidats comparés dans les résultats : hors « non_evalue », avec un fichier de positions. */
+export function candidatsComparables(ds: Dataset): string[] {
   return ds.candidats.candidats
     .filter((c: Candidat) => c.statut_evaluation !== 'non_evalue' && ds.positions[c.id] !== undefined)
     .map((c: Candidat) => c.id)
     .sort();
 }
 
+/** Part des questions actives sur lesquelles le candidat a un code publié (toutes natures, D9). */
+export function partQuestionsCodees(ds: Dataset, candidat: string): number {
+  const actives = new Set(
+    Object.values(ds.questions)
+      .flatMap((f) => f.questions)
+      .filter((q) => q.statut === 'active')
+      .map((q) => q.id),
+  );
+  if (actives.size === 0) return 0;
+  const codees = (ds.positions[candidat]?.positions ?? []).filter((p) => actives.has(p.question_id) && estPublie(p)).length;
+  return codees / actives.size;
+}
+
+/** Population de référence (D14) : candidats comparables codés sur au moins 20 % des questions actives. */
+export function populationDeReference(ds: Dataset): string[] {
+  return candidatsComparables(ds).filter((id) => partQuestionsCodees(ds, id) >= SEUIL_POPULATION_REFERENCE);
+}
+
 /** Vrai tant que le codage de la vague 1 n'est pas terminé : les résultats sont alors « provisoires » (spécification, § 7.5). */
 export function estProvisoire(ds: Dataset): boolean {
-  const pop = populationDeReference(ds);
+  const pop = candidatsComparables(ds);
   if (pop.length === 0) return true;
   return ds.candidats.candidats.some((c: Candidat) => pop.includes(c.id) && c.statut_evaluation === 'codage_en_attente');
 }
 
-export function construireContexte(ds: Dataset): Contexte {
+/**
+ * `perimetre` : « reference » (par défaut) pour le pouvoir discriminant et l'ancrage ;
+ * « comparables » pour suivre tous les candidats comparés (rapport de neutralité).
+ */
+export function construireContexte(ds: Dataset, perimetre: 'reference' | 'comparables' = 'reference'): Contexte {
   const questionsActives = Object.values(ds.questions)
     .flatMap((f) => f.questions)
     .filter((q) => q.statut === 'active')
     .sort((a, b) => a.id.localeCompare(b.id));
   const actives = new Set(questionsActives.map((q) => q.id));
-  const population = populationDeReference(ds);
+  const population = perimetre === 'reference' ? populationDeReference(ds) : candidatsComparables(ds);
   const codes = new Map<string, Map<string, CodePublie>>();
   for (const cand of population) {
     for (const p of ds.positions[cand]!.positions) {

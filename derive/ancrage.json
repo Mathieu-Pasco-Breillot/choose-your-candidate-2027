@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "empreinte_donnees": "8fced9d3581d36958f109f314282d195f99afb682dfed56b72e7bf76cd4de4b2",
+  "empreinte_donnees": "566e45bb1e7c770f0ecf49f75426eb2d9cbc75272d7a289df6246d4adc0fa298",
   "provisoire": true,
   "parametres": {
     "nombre_ancres": 10,
@@ -19,78 +19,78 @@
       "theme": "retraites",
       "axe": "economie",
       "sens": 1,
-      "D": 2.617284,
+      "D": 2.49,
       "couverture": 1,
-      "candidats_codes": 9
+      "candidats_codes": 10
     },
     {
       "rang": 2,
-      "question_id": "RET-003",
-      "theme": "retraites",
-      "axe": "economie",
-      "sens": -1,
-      "D": 2.54321,
-      "couverture": 1,
-      "candidats_codes": 9
-    },
-    {
-      "rang": 3,
       "question_id": "IMM-001",
       "theme": "immigration",
       "axe": "frontieres",
       "sens": 1,
-      "D": 2.430556,
-      "couverture": 0.888889,
-      "candidats_codes": 8
+      "D": 2.422222,
+      "couverture": 0.9,
+      "candidats_codes": 9
     },
     {
-      "rang": 4,
+      "rang": 3,
       "question_id": "RET-001",
       "theme": "retraites",
       "axe": "economie",
       "sens": 1,
-      "D": 2.320988,
+      "D": 2.41,
       "couverture": 1,
+      "candidats_codes": 10
+    },
+    {
+      "rang": 4,
+      "question_id": "RET-003",
+      "theme": "retraites",
+      "axe": "economie",
+      "sens": -1,
+      "D": 2.288889,
+      "couverture": 0.9,
       "candidats_codes": 9
     },
     {
       "rang": 5,
-      "question_id": "IMM-011",
-      "theme": "immigration",
-      "axe": "frontieres",
+      "question_id": "ENV-011",
+      "theme": "ecologie-energie",
+      "axe": "ecologie",
       "sens": -1,
-      "D": 2.166667,
-      "couverture": 0.888889,
+      "D": 2,
+      "couverture": 0.8,
       "candidats_codes": 8
     },
     {
       "rang": 6,
-      "question_id": "FIS-001",
+      "question_id": "FIS-002",
       "theme": "fiscalite",
       "axe": "economie",
       "sens": 1,
-      "D": 1.875,
-      "couverture": 0.888889,
+      "D": 1.95,
+      "couverture": 0.8,
       "candidats_codes": 8
     },
     {
       "rang": 7,
-      "question_id": "INS-009",
-      "theme": "institutions",
-      "axe": "institutions",
-      "sens": 1,
-      "D": 1.430556,
-      "couverture": 0.888889,
+      "question_id": "IMM-011",
+      "theme": "immigration",
+      "axe": "frontieres",
+      "sens": -1,
+      "D": 1.95,
+      "couverture": 0.8,
       "candidats_codes": 8
     },
     {
       "rang": 8,
-      "question_id": "EDU-007",
-      "theme": "education",
+      "question_id": "FIS-001",
+      "theme": "fiscalite",
       "axe": "economie",
       "sens": 1,
-      "D": 1.358025,
-      "couverture": 1,
+      "D": 1.755556,
+      "couverture": 0.9,
       "candidats_codes": 9
     },
     {
@@ -99,24 +99,54 @@
       "theme": "ecologie-energie",
       "axe": "ecologie",
       "sens": 1,
-      "D": 1.135802,
+      "D": 1.56,
       "couverture": 1,
-      "candidats_codes": 9
+      "candidats_codes": 10
+    },
+    {
+      "rang": 10,
+      "question_id": "EDU-007",
+      "theme": "education",
+      "axe": "economie",
+      "sens": 1,
+      "D": 1.44,
+      "couverture": 1,
+      "candidats_codes": 10
+    },
+    {
+      "rang": 11,
+      "question_id": "INS-009",
+      "theme": "institutions",
+      "axe": "institutions",
+      "sens": 1,
+      "D": 1.2875,
+      "couverture": 0.8,
+      "candidats_codes": 8
+    },
+    {
+      "rang": 12,
+      "question_id": "FIS-018",
+      "theme": "fiscalite",
+      "axe": "economie",
+      "sens": -1,
+      "D": 0.9875,
+      "couverture": 0.8,
+      "candidats_codes": 8
     }
   ],
   "ancres": [
-    "RET-003",
     "IMM-001",
+    "RET-003",
     "FIS-001",
-    "INS-009",
+    "ENV-002",
     "EDU-007",
-    "ENV-002"
+    "INS-009"
   ],
   "ancres_express": [
-    "RET-003",
     "IMM-001",
+    "RET-003",
     "FIS-001",
-    "INS-009"
+    "ENV-002"
   ],
   "ancres_completes": false,
   "express_complet": false

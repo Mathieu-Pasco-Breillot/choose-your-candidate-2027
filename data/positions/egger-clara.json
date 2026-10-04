@@ -1,0 +1,2967 @@
+{
+  "candidat_id": "egger-clara",
+  "_statut": "POC — vague 3 du codage (4 octobre 2026) : première recherche pour ce candidat, sur les 206 questions actives. Double codage aveugle (Opus 5.5, Sonnet 5.5), désaccords arbitrés provisoirement par un 3e modèle (Fable 5.1), contrôle humain de 10 % à faire. Aucun programme 2027 complet publié à cette date. À revoir avant publication.",
+  "grille_version": "1.2",
+  "programme": {
+    "officiel_disponible": false,
+    "date_publication": null,
+    "url": null,
+    "note": "Aucun programme officiel 2027 complet trouvé au 4 octobre 2026."
+  },
+  "positions": [
+    {
+      "question_id": "DEF-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "DEF-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-022",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-023",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-024",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-025",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ENV-026",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "ECO-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EDU-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "FIS-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "IMM-021",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-002",
+      "code": 1,
+      "nature": "nuancee",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le texte de révision constitutionnelle de la candidate ajoute à l'article 89 une initiative citoyenne : une proposition de révision de la Constitution, entièrement rédigée, doit réunir 700 000 signatures d'électeurs en 18 mois, puis est soumise à référendum sans examen par le Parlement. Le dispositif vise uniquement la Constitution ; la source ne mentionne ni initiative ni abrogation de lois ordinaires, ni seuil de 2 % des électeurs.",
+          "citation_courte": "doit recueillir 700 000 signatures d’électeurs dans un délai de 18 mois",
+          "reformulation_anonymisee": "Le texte de révision constitutionnelle de [CANDIDAT] ajoute à l'article 89 une initiative citoyenne : une proposition de révision de la Constitution, entièrement rédigée, doit réunir 700 000 signatures d'électeurs en 18 mois, puis est soumise à référendum sans examen par le Parlement. Le dispositif vise uniquement la Constitution ; la source ne mentionne ni initiative ni abrogation de lois ordinaires, ni seuil de 2 % des électeurs.",
+          "citation_anonymisee": "doit recueillir 700 000 signatures d’électeurs dans un délai de 18 mois",
+          "source": {
+            "url": "https://solutiondemocratique.fr/notre-solution/proposition-de-revision-constitutionnelle-controle-constitution/",
+            "titre": "Proposition de révision constitutionnelle pour redonner le contrôle aux citoyens",
+            "date_publication": null,
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "Initiative citoyenne par référendum limitée à la Constitution (700 000 signatures), pas aux lois ordinaires.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "nuancee",
+          "justification": "RIC limité à la Constitution avec 700 000 signatures.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": true,
+        "date": null,
+        "resultat": null
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "6c90574c"
+    },
+    {
+      "question_id": "INS-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-016",
+      "code": 1,
+      "nature": "imprecise",
+      "statut": "accord",
+      "extraits": [
+        {
+          "reformulation": "Le programme de la candidate affirme que la population doit pouvoir se protéger en matière migratoire par des législations fondamentales validées à la majorité, ce que permettent les outils de démocratie directe qu'elle propose (référendum obligatoire et initiative citoyenne pour réviser la Constitution). La source ne propose pas de référendum sur l'immigration en tant que tel et ne mentionne pas l'interdiction constitutionnelle actuelle.",
+          "citation_courte": "à travers des législations fondamentales validées à la majorité",
+          "reformulation_anonymisee": "Le programme de [CANDIDAT] affirme que la population doit pouvoir se protéger en matière migratoire par des législations fondamentales validées à la majorité, ce que permettent les outils de démocratie directe proposés (référendum obligatoire et initiative citoyenne pour réviser la Constitution). La source ne propose pas de référendum sur l'immigration en tant que tel et ne mentionne pas l'interdiction constitutionnelle actuelle.",
+          "citation_anonymisee": "à travers des législations fondamentales validées à la majorité",
+          "source": {
+            "url": "https://solutiondemocratique.fr/notre-solution/calendrier-president/",
+            "titre": "Présidentielle 2027 : découvrez le programme de notre candidat",
+            "date_publication": "2026-07-03",
+            "type": "programme_officiel"
+          },
+          "date_consultation": "2026-10-04",
+          "citation_verifiee_mot_a_mot": true
+        }
+      ],
+      "codage": {
+        "codeur_1": {
+          "modele": "claude-opus-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut que la population puisse trancher les lois migratoires par démocratie directe, sans proposer explicitement la révision visée.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "codeur_2": {
+          "modele": "claude-sonnet-5-5",
+          "code": 1,
+          "nature": "imprecise",
+          "justification": "Veut des outils de démocratie directe permettant de valider des lois migratoires, sans référendum explicite sur l'immigration.",
+          "date": "2026-10-04",
+          "aveugle": true
+        },
+        "accord": true
+      },
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1,
+      "item_aveugle": "24de6022"
+    },
+    {
+      "question_id": "INS-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "INS-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "RET-022",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SAN-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-013",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-017",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-018",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-019",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-020",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "SEC-021",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-001",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-002",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-003",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-004",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-005",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-006",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-007",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-008",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-009",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-010",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-011",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-012",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-014",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-015",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    },
+    {
+      "question_id": "EUR-016",
+      "code": null,
+      "nature": "non_connu",
+      "statut": "sans_extrait",
+      "extraits": [],
+      "codage": null,
+      "arbitrage": null,
+      "controle_humain": {
+        "tire_au_sort": false
+      },
+      "contestations": [],
+      "version": 1
+    }
+  ]
+}

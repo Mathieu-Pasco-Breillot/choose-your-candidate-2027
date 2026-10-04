@@ -5,12 +5,16 @@ import { chargerDataset } from './lib/dataset.ts';
 import {
   calculerAccordCodeurs,
   calculerAncrage,
+  candidatsComparables,
   calculerCouverture,
   calculerDiscriminance,
   estPublie,
   kappaQuadratique,
+  partQuestionsCodees,
+  populationDeReference,
   pouvoirDiscriminant,
   selectionner,
+  SEUIL_POPULATION_REFERENCE,
   variancePopulation,
 } from './lib/derive.ts';
 import { jeuSynthetique, position } from './lib/jeu-synthetique.ts';
@@ -55,11 +59,11 @@ describe('désaccord non arbitré = « non connu » (D8)', () => {
     expect(estPublie({ ...(position('candidat-a', 'RET-001', 1) as object), code: 1 } as never)).toBe(true);
   });
 
-  it('sur les données réelles (phase 4, vagues 1 à 3) : 682 codes publiés, aucun arbitrage en attente', () => {
+  it('sur les données réelles (phase 4, vagues 1 à 3, 19 candidats) : 840 codes publiés, aucun arbitrage en attente', () => {
     const couverture = calculerCouverture(reel) as { candidats: Record<string, { codes_publies: number; arbitrages_en_attente: number }> };
     const total = Object.values(couverture.candidats).reduce((s, c) => s + c.codes_publies, 0);
     const attente = Object.values(couverture.candidats).reduce((s, c) => s + c.arbitrages_en_attente, 0);
-    expect(total).toBe(682);
+    expect(total).toBe(840);
     expect(attente).toBe(0);
   });
 });
@@ -89,17 +93,17 @@ describe('kappa pondéré quadratique', () => {
 describe('reproduit les chiffres publiés de la phase 4 (vagues 1 à 3, 11 thèmes, 4 octobre 2026)', () => {
   const accord = calculerAccordCodeurs(reel);
 
-  it('accord global : 735 couples, 568 accords (77,3 %), code seul 83,0 %, kappa 0,943', () => {
-    expect(accord.global.couples_codes).toBe(735);
-    expect(accord.global.accord_code_et_nature).toBe(568);
-    expect(arrondi3(accord.global.taux_accord)).toBe(0.773);
-    expect(arrondi3(accord.global.taux_accord_code_seul)).toBe(0.83);
-    expect(arrondi3(accord.global.kappa_pondere_quadratique)).toBe(0.943);
+  it('accord global : 900 couples, 695 accords (77,2 %), code seul 84,1 %, kappa 0,95', () => {
+    expect(accord.global.couples_codes).toBe(900);
+    expect(accord.global.accord_code_et_nature).toBe(695);
+    expect(arrondi3(accord.global.taux_accord)).toBe(0.772);
+    expect(arrondi3(accord.global.taux_accord_code_seul)).toBe(0.841);
+    expect(arrondi3(accord.global.kappa_pondere_quadratique)).toBe(0.95);
     // 12 arbitrages du pilote + 121 (vague 1) + 18 (vague 2) + 17 (vague 3) arbitrages provisoires par un troisième modèle, validation humaine en attente ;
     // un arbitrage disparaît le 4 octobre 2026 avec son extrait, retiré par la vérification indépendante (agrégateur).
     expect(accord.arbitrages.en_attente).toBe(0);
-    expect(accord.arbitrages.rendus).toBe(167);
-    expect(accord.controle_humain.tires_au_sort).toBe(71);
+    expect(accord.arbitrages.rendus).toBe(205);
+    expect(accord.controle_humain.tires_au_sort).toBe(84);
     expect(accord.controle_humain.effectues).toBe(9);
   });
 
@@ -192,10 +196,12 @@ describe('ancrage', () => {
     expect(a.ancres_completes).toBe(false);
     expect(a.ancres.length).toBeLessThan(10);
     // Phase 4 : peu de questions sont codées pour au moins 80 % des candidats évalués, d'où 6 ancres seulement.
-    expect(a.ancres).toEqual(['RET-002', 'IMM-001', 'FIS-001', 'INS-009', 'EDU-007', 'ENV-002']);
-    // Règle de stabilité : RET-003, ancre du pilote, reste dans les 20 premières et est donc conservée
-    // à la place de RET-002 (c'est la liste publiée dans derive/ancrage.json).
-    expect(calculerAncrage(reel, ['RET-003']).ancres).toEqual(['RET-003', 'IMM-001', 'FIS-001', 'INS-009', 'EDU-007', 'ENV-002']);
+    expect(a.ancres).toEqual(['RET-002', 'IMM-001', 'ENV-011', 'FIS-002', 'EDU-007', 'INS-009']);
+    // Règle de stabilité : les ancres déjà publiées qui restent dans les 20 premières sont conservées
+    // (c'est la liste publiée dans derive/ancrage.json après la vague 3).
+    expect(calculerAncrage(reel, ['RET-003', 'IMM-001', 'FIS-001', 'INS-009', 'EDU-007', 'ENV-002']).ancres).toEqual([
+      'IMM-001', 'RET-003', 'FIS-001', 'ENV-002', 'EDU-007', 'INS-009',
+    ]);
   });
 
   it('avec un codage complet : 10 ancres, une par thème, ≤ 3 par axe, ≥ 4 de chaque sens, par D décroissant', () => {
@@ -251,11 +257,32 @@ describe('ancrage', () => {
   });
 });
 
+describe('population de référence (méthodologie v1.4, D14)', () => {
+  it('ne retient que les candidats codés sur au moins 20 % des questions actives', () => {
+    const pop = populationDeReference(reel);
+    const comparables = candidatsComparables(reel);
+    expect(comparables).toHaveLength(19);
+    expect(pop).toHaveLength(10);
+    for (const id of comparables) expect(pop.includes(id), id).toBe(partQuestionsCodees(reel, id) >= SEUIL_POPULATION_REFERENCE);
+    // Cas limite : Ruffin est codé sur 41 questions sur 206 (19,9 %) et reste hors de la population.
+    expect(Math.round(partQuestionsCodees(reel, 'ruffin-francois') * 206)).toBe(41);
+    expect(pop).not.toContain('ruffin-francois');
+    expect(pop).toContain('tondelier-marine');
+  });
+
+  it('les candidats sous le seuil ne pèsent ni sur D ni sur l\'ancrage, qui garde ses ancres', () => {
+    const d = calculerDiscriminance(reel);
+    expect(d.population).toEqual(populationDeReference(reel));
+    expect(d.candidats_evalues).toBe(10);
+    expect(calculerAncrage(reel).ancres.length).toBeGreaterThan(0);
+  });
+});
+
 describe('discriminance sur données réelles', () => {
   it('liste les 206 questions actives ; D n\'est défini que pour celles codées par au moins 4 candidats', () => {
     const d = calculerDiscriminance(reel);
     expect(Object.keys(d.questions)).toHaveLength(206);
-    expect(d.candidats_evalues).toBe(9);
+    expect(d.candidats_evalues).toBe(10);
     expect(d.provisoire).toBe(true);
     for (const [id, l] of Object.entries(d.questions)) {
       expect(l.D === null).toBe(l.candidats_codes < 4);
