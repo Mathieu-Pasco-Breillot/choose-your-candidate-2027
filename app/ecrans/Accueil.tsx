@@ -2,6 +2,11 @@ import { MODES } from '../libelles.ts';
 import type { ModeJeu } from '../jeu.ts';
 import { Reglages } from './Reglages.tsx';
 import { Mascotte } from './Mascotte.tsx';
+import { groupesCandidats, nomComplet } from '../listes.ts';
+import { MOTIFS_NON_EVALUATION } from '../libelles.ts';
+
+const groupes = groupesCandidats();
+const noms = (l: readonly Parameters<typeof nomComplet>[0][]): string => l.map(nomComplet).join(', ');
 
 interface Props {
   enCours: boolean;
@@ -63,6 +68,32 @@ export function Accueil({ enCours, terminee, onCommencer, onDefi, onVieprivee, o
       <Carte titre="Ce que l'outil ne fait pas">
         Il ne vous dit pas pour qui voter. Il ne tient compte ni des personnalités, ni des sondages, ni des votes au
         Parlement. Un candidat dont les positions sont encore trop peu codées n'est pas classé : l'outil l'indique.
+      </Carte>
+      <Carte titre="Les candidats">
+        <p>Ordre alphabétique. Aucun seuil de sondages : le critère d'inclusion est public.</p>
+        <dl className="mt-3 flex flex-col gap-2 text-sm">
+          <div>
+            <dt className="font-semibold">Comparés dans les résultats ({groupes.compares.length})</dt>
+            <dd className="text-sourdine">{noms(groupes.compares)}</dd>
+          </div>
+          {groupes.enAttente.length > 0 && (
+            <div>
+              <dt className="font-semibold">Codage en attente ({groupes.enAttente.length})</dt>
+              <dd className="text-sourdine">{noms(groupes.enAttente)}</dd>
+            </div>
+          )}
+          {groupes.nonEvalues.map(([motif, liste]) => (
+            <div key={motif}>
+              <dt className="font-semibold">
+                Non évalués : {(MOTIFS_NON_EVALUATION[motif] ?? motif).toLowerCase()} ({liste.length})
+              </dt>
+              <dd className="text-sourdine">{noms(liste)}</dd>
+            </div>
+          ))}
+        </dl>
+        <button type="button" onClick={() => onNaviguer('candidats')} className="mt-3 min-h-11 underline">
+          Fiches des candidats et critère d'inclusion
+        </button>
       </Carte>
       <Carte titre="Vos réponses restent sur votre téléphone">
         Tout le calcul se fait dans votre navigateur. Aucune réponse n'est envoyée, aucun suivi n'est installé.

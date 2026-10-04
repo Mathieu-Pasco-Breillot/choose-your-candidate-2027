@@ -97,3 +97,24 @@ test('fin de chapitre : progression et mascotte seulement, aucun nom, aucun scor
   await expect(page.getByRole('button', { name: "Plutôt d'accord" })).toBeVisible();
   await expect(page.getByText(/Question 1 sur \d+/).first()).toBeVisible();
 });
+
+test('préparation : un chapitre écarté (poids 0) disparaît du bandeau, et le nombre de questions annoncé est tenu', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: /^Campagne ·/ }).click();
+  await page.getByRole('radiogroup', { name: 'Importance du chapitre Retraites' }).getByText('Écarter').click();
+  // Ne garder qu'un seul autre chapitre : moins de 60 questions disponibles.
+  for (const t of ['Fiscalité', 'Économie et dette', 'Santé', 'Éducation', 'Immigration', 'Sécurité', 'Défense', 'Union européenne', 'Institutions']) {
+    await page.getByRole('radiogroup', { name: `Importance du chapitre ${t}` }).getByText('Écarter').click();
+  }
+  const statut = page.locator('[data-questions-disponibles]');
+  const dispo = Number(await statut.getAttribute('data-questions-disponibles'));
+  expect(dispo).toBeGreaterThan(0);
+  expect(dispo).toBeLessThan(60);
+  await expect(statut).toContainText(`La partie comptera ${dispo} questions au lieu de 60`);
+  await page.getByRole('button', { name: `Lancer la partie (${dispo} questions)` }).click();
+  const bandeau = page.getByRole('list', { name: 'Chapitres' });
+  await expect(bandeau.getByRole('listitem')).toHaveCount(1);
+  await expect(bandeau).toContainText('Écologie et énergie');
+  await expect(bandeau).not.toContainText('Retraites');
+  await expect(page.getByText(`1 / ${dispo}`)).toBeVisible();
+});

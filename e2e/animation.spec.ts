@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import { lancer, repondreATout } from './outils.ts';
+import { lancer, passerFinDeChapitre, repondreATout } from './outils.ts';
 
 // Ici les animations sont activées (le reste de la suite les réduit).
 test.use({ reducedMotion: 'no-preference' });
@@ -16,6 +16,9 @@ test("un second tap sur l'ancienne carte, pendant sa sortie, ne remplace pas la 
     pasdutout.click();
   })()`);
 
+  // Si le premier chapitre n'a qu'une question, le premier tap mène à la fin de chapitre (l'ancienne carte a disparu).
+  await expect(page.getByText('2 / 20').or(page.getByRole('button', { name: /^Continuer/ }))).toBeVisible();
+  await passerFinDeChapitre(page);
   await expect(page.getByText('2 / 20')).toBeVisible();
   await page.getByRole('button', { name: '← Question précédente' }).click();
   await expect(page.getByRole('button', { name: "Plutôt d'accord" })).toHaveAttribute('aria-pressed', 'true');
@@ -37,4 +40,18 @@ test("« Passer l'animation » affiche tout de suite le résultat", async ({ pag
   await repondreATout(page, 20);
   await page.getByRole('button', { name: "Passer l'animation" }).click();
   await expect(page.getByRole('heading', { name: 'Hors classement' })).toBeVisible();
+});
+
+test('résultats : le nom d’un candidat ouvre sa fiche, et le retour ramène aux résultats sans rejouer la révélation', async ({ page }) => {
+  await lancer(page, 'Express');
+  await repondreATout(page, 20);
+  await page.getByRole('button', { name: "Passer l'animation" }).click();
+  await expect(page.getByRole('heading', { name: 'Hors classement' })).toBeVisible();
+  const nom = page.getByRole('button', { name: /: ouvrir la fiche$/ }).first();
+  const libelle = ((await nom.textContent()) ?? '').replace(' : ouvrir la fiche', '');
+  await nom.click();
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText(libelle);
+  await page.getByRole('button', { name: '← Retour aux résultats' }).click();
+  await expect(page.getByText('Vos résultats')).toBeVisible();
+  await expect(page.getByRole('button', { name: "Passer l'animation" })).toHaveCount(0);
 });

@@ -50,3 +50,14 @@ export const MODES = {
   debat: { nom: 'Débat', questions: 40, duree: 'environ 10 minutes' },
   campagne: { nom: 'Campagne', questions: 60, duree: 'environ 15 minutes' },
 } as const;
+
+/** Explication courte de chaque situation, reprise du critère d'inclusion v1 (docs/critere-inclusion.md). */
+export const EXPLICATIONS_MOTIFS: Record<string, string> = {
+  compares: 'Candidature déclarée (règle R1) et positions déjà codées : comparés dans vos résultats.',
+  codage_en_attente: 'Candidature déclarée (règle R1), mais positions pas encore codées : codage en attente, par vagues publiées.',
+  pressenti: 'Candidature évoquée, mais pas encore déclarée publiquement, personnellement et sans condition (règle R1).',
+  primaire_en_cours: "Participants à une primaire non achevée : le vainqueur sera évalué dès sa désignation (règle R2).",
+  declaration_non_sourcee: "Déclaration de candidature sans article d'un média national pour l'attester (règle R1).",
+  absent_liste_officielle: 'Absents de la liste officielle publiée par le Conseil constitutionnel (règle R3).',
+  motif_non_renseigne: 'Motif non renseigné dans les données.',
+};

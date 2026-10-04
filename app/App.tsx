@@ -1,5 +1,5 @@
 import { MotionConfig } from 'motion/react';
-import { lazy, Suspense, useCallback, useState } from 'react';
+import { lazy, Suspense, useCallback, useRef, useState } from 'react';
 import type { Valeur } from '../core/score/types.ts';
 import type { ModeJeu, Partie, Preparation as PreparationChoisie } from './jeu.ts';
 import { estTerminee, marquerVues, nouvelleGraine, nouvellePartie, reculer, repondre, situation } from './jeu.ts';
@@ -37,6 +37,21 @@ export function App() {
   }, []);
 
   const [fiche, setFiche] = useState('');
+  // Fiche ouverte depuis les résultats : retour aux résultats, à la même hauteur, sans rejouer la révélation.
+  const [ficheDepuis, setFicheDepuis] = useState<'candidats' | 'resultats'>('candidats');
+  const [revelationVue, setRevelationVue] = useState(false);
+  const defilement = useRef(0);
+  const ouvrirFiche = (id: string, depuis: 'candidats' | 'resultats') => {
+    defilement.current = window.scrollY;
+    setFiche(id);
+    setFicheDepuis(depuis);
+    setEcran('fiche');
+    window.scrollTo(0, 0);
+  };
+  const retourDeFiche = () => {
+    setEcran(ficheDepuis);
+    requestAnimationFrame(() => window.scrollTo(0, defilement.current));
+  };
   const [mode, setMode] = useState<ModeJeu>('express');
   // Fin de chapitre (J1) : affichée juste après la dernière réponse d'un chapitre, jamais à la reprise d'une partie.
   const [entracte, setEntracte] = useState(false);
@@ -50,6 +65,7 @@ export function App() {
   const lancer = (preparation: PreparationChoisie) => {
     changer(nouvellePartie(mode, lireVues(), nouvelleGraine(), preparation));
     setEntracte(false);
+    setRevelationVue(false);
     setEcran('quiz');
   };
 
@@ -103,18 +119,23 @@ export function App() {
         </Suspense>
       ) : ecran === 'candidats' ? (
         <Suspense fallback={<Chargement />}>
-          <Candidats onRetour={() => setEcran('accueil')} onFiche={(id) => { setFiche(id); setEcran('fiche'); }} />
+          <Candidats onRetour={() => setEcran('accueil')} onFiche={(id) => ouvrirFiche(id, 'candidats')} />
         </Suspense>
       ) : ecran === 'fiche' ? (
         <Suspense fallback={<Chargement />}>
-          <FicheCandidat id={fiche} onRetour={() => setEcran('candidats')} />
+          <FicheCandidat id={fiche} onRetour={retourDeFiche} libelleRetour={ficheDepuis === 'resultats' ? '← Retour aux résultats' : '← Retour'} />
         </Suspense>
       ) : ecran === 'vieprivee' ? (
         <Vieprivee onRetour={() => setEcran('accueil')} onToutEffacer={effacer} />
       ) : ecran === 'defi' ? (
         <Defi graine={graineDefi} onRejouer={() => setGraineDefi(nouvelleGraine())} onQuitter={() => setEcran('accueil')} />
       ) : ecran === 'resultats' && partie && estTerminee(partie) ? (
-        <Resultats partie={partie} onNouvelle={() => setEcran('accueil')} onDefi={jouerDefi} onVieprivee={() => setEcran('vieprivee')} onToutEffacer={effacer} />
+        <Resultats
+          partie={partie}
+          dejaRevele={revelationVue}
+          onRevele={() => setRevelationVue(true)}
+          onFiche={(id) => ouvrirFiche(id, 'resultats')}
+          onNouvelle={() => setEcran('accueil')} onDefi={jouerDefi} onVieprivee={() => setEcran('vieprivee')} onToutEffacer={effacer} />
       ) : (
         <Accueil
           key={generation}

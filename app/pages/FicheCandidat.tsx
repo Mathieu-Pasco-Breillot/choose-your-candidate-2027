@@ -1,6 +1,6 @@
 import { apresSource } from '../badges.ts';
 import { majBadges } from '../stockage.ts';
-import { libelleTheme, libelleValeur, MOTIFS_NON_EVALUATION, NATURES, THEMES } from '../libelles.ts';
+import { EXPLICATIONS_MOTIFS, libelleTheme, libelleValeur, MOTIFS_NON_EVALUATION, NATURES, THEMES } from '../libelles.ts';
 import { questionsParId } from '../jeu.ts';
 import { paquet } from '../paquet.ts';
 
@@ -10,7 +10,7 @@ const STATUTS: Record<string, string> = {
   non_evalue: 'Non évalué',
 };
 
-export function FicheCandidat({ id, onRetour }: { id: string; onRetour: () => void }) {
+export function FicheCandidat({ id, onRetour, libelleRetour = '← Retour' }: { id: string; onRetour: () => void; libelleRetour?: string }) {
   const c = paquet.candidats.find((x) => x.id === id);
   if (!c) return null;
   const positions = paquet.positions[id] ?? [];
@@ -24,7 +24,7 @@ export function FicheCandidat({ id, onRetour }: { id: string; onRetour: () => vo
     <main className="mx-auto flex max-w-xl flex-col gap-5 px-5 py-8 leading-relaxed">
       <header>
         <button type="button" onClick={onRetour} className="min-h-11 text-sm text-sourdine underline">
-          ← Retour
+          {libelleRetour}
         </button>
         <h1 className="mt-2 font-serif text-4xl font-semibold">{c.prenom} {c.nom}</h1>
         <p className="text-sourdine">{c.parti}</p>
@@ -34,6 +34,13 @@ export function FicheCandidat({ id, onRetour }: { id: string; onRetour: () => vo
         <h2 className="font-serif text-xl font-semibold">Statut et couverture</h2>
         <ul className="mt-2 flex flex-col gap-1">
           <li>Statut : <strong>{STATUTS[c.statutEvaluation]}</strong>{c.motifNonEvaluation ? ` (${MOTIFS_NON_EVALUATION[c.motifNonEvaluation] ?? c.motifNonEvaluation})` : ''}</li>
+          <li className="text-sourdine">
+            {c.statutEvaluation === 'non_evalue'
+              ? EXPLICATIONS_MOTIFS[c.motifNonEvaluation ?? 'motif_non_renseigne']
+              : publiees.length > 0
+                ? EXPLICATIONS_MOTIFS.compares
+                : EXPLICATIONS_MOTIFS.codage_en_attente}
+          </li>
           <li>
             Positions publiées : <strong>{publiees.length}</strong> sur {actives} questions actives ({Math.round((100 * publiees.length) / actives)} %)
           </li>

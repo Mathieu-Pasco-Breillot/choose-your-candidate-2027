@@ -3,6 +3,10 @@ import type { PoidsTheme } from '../../core/tirage/index.ts';
 import { THEMES, MODES } from '../libelles.ts';
 import type { ModeJeu, Preparation as PreparationChoisie } from '../jeu.ts';
 import { paquet } from '../paquet.ts';
+import { lireVues } from '../stockage.ts';
+
+const stock: Record<string, number> = {};
+for (const q of paquet.questions) stock[q.theme] = (stock[q.theme] ?? 0) + 1;
 
 interface Props {
   mode: ModeJeu;
@@ -24,6 +28,11 @@ export function Preparation({ mode, onLancer, onRetour }: Props) {
   const [poids, setPoids] = useState<Record<string, PoidsTheme>>(() => Object.fromEntries(themes.map((t) => [t, 1 as PoidsTheme])));
   const [affinites, setAffinites] = useState<string[]>([]);
   const actifs = themes.filter((t) => poids[t] !== 0);
+  // Questions disponibles selon les poids (spécification § 6, ligne « Mode ») : un chapitre écarté retire ses questions.
+  const [vues] = useState(() => new Set(lireVues().map((v) => v.id)));
+  const disponibles = actifs.reduce((n, t) => n + (stock[t] ?? 0), 0);
+  const nonVues = paquet.questions.filter((q) => actifs.includes(q.theme) && !vues.has(q.id)).length;
+  const prevues = Math.min(MODES[mode].questions, disponibles);
 
   const basculer = (id: string) =>
     setAffinites((a) => (a.includes(id) ? a.filter((x) => x !== id) : [...a, id]));
@@ -39,6 +48,13 @@ export function Preparation({ mode, onLancer, onRetour }: Props) {
         </p>
         <h1 className="mt-2 font-serif text-4xl font-semibold">Préparation</h1>
         <p className="mt-2 text-sourdine">Deux réglages facultatifs. Vous pouvez lancer la partie tel quel.</p>
+        <p className="mt-3 rounded-xl bg-nuit-clair p-3 text-sm leading-relaxed" role="status" data-questions-disponibles={disponibles}>
+          Avec ces réglages : <strong>{disponibles} questions disponibles</strong>
+          {vues.size > 0 ? ` (dont ${nonVues} jamais vues sur cet appareil)` : ''}.{' '}
+          {prevues < MODES[mode].questions
+            ? `La partie comptera ${prevues} questions au lieu de ${MODES[mode].questions} : gardez plus de chapitres pour en avoir davantage.`
+            : `La partie comptera ${prevues} questions.`}
+        </p>
       </header>
 
       <section aria-labelledby="titre-poids">
@@ -109,7 +125,7 @@ export function Preparation({ mode, onLancer, onRetour }: Props) {
           onClick={() => onLancer({ poids: Object.fromEntries(themes.map((t) => [t, poids[t]!])), affinites })}
           className="rounded-2xl bg-or px-5 py-4 font-serif text-xl font-semibold text-nuit disabled:opacity-50"
         >
-          Lancer la partie
+          Lancer la partie{actifs.length > 0 ? ` (${prevues} questions)` : ''}
         </button>
         {actifs.length === 0 && <p className="text-sm text-sourdine">Gardez au moins un chapitre pour lancer la partie.</p>}
       </div>

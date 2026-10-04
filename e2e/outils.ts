@@ -51,4 +51,5 @@ export async function repondreQuelques(page: Page, nombre: number): Promise<void
     await page.getByRole('button', { name: "Plutôt d'accord" }).first().click();
     await expect(page.getByRole('heading', { level: 1 }).first()).not.toHaveText(avant);
   }
+  await passerFinDeChapitre(page);
 }

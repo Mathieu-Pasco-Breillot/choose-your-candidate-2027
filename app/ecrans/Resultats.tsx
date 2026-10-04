@@ -13,6 +13,10 @@ import { jouer } from '../son.ts';
 
 interface Props {
   partie: Partie;
+  /** La révélation a déjà été vue pour cette partie (retour depuis une fiche) : pas de nouvelle animation. */
+  dejaRevele: boolean;
+  onRevele: () => void;
+  onFiche: (id: string) => void;
   onNouvelle: () => void;
   onDefi: () => void;
   onVieprivee: () => void;
@@ -117,7 +121,7 @@ function Detail({ s }: { s: ScoreCandidat }) {
   );
 }
 
-function CarteCandidat({ s, rang, exAequo, visible = true }: { s: ScoreCandidat; rang?: number; exAequo?: boolean; visible?: boolean }) {
+function CarteCandidat({ s, rang, exAequo, visible = true, onFiche }: { s: ScoreCandidat; rang?: number; exAequo?: boolean; visible?: boolean; onFiche: (id: string) => void }) {
   const [ouvert, setOuvert] = useState(false);
   const classe = rang !== undefined;
   const motif = (s as HorsClassement).motif;
@@ -133,7 +137,15 @@ function CarteCandidat({ s, rang, exAequo, visible = true }: { s: ScoreCandidat;
         <div>
           <h3 className="font-serif text-xl font-semibold">
             {classe && <span className="mr-2 text-or">{exAequo ? `${rang} ex æquo` : rang}</span>}
-            {nomComplet(s.candidatId)}
+            <button
+              type="button"
+              onClick={() => onFiche(s.candidatId)}
+              tabIndex={visible ? undefined : -1}
+              className="text-left underline decoration-or/60 decoration-2 underline-offset-4"
+            >
+              {nomComplet(s.candidatId)}
+              <span className="sr-only"> : ouvrir la fiche</span>
+            </button>
           </h3>
           <p className="text-sm text-sourdine">{partiDe(s.candidatId)}</p>
         </div>
@@ -210,7 +222,7 @@ function SectionBadges() {
   );
 }
 
-export function Resultats({ partie, onNouvelle, onDefi, onVieprivee, onToutEffacer }: Props) {
+export function Resultats({ partie, dejaRevele, onRevele, onFiche, onNouvelle, onDefi, onVieprivee, onToutEffacer }: Props) {
   const r = useMemo(() => resultatsDePartie(partie), [partie]);
   const total = partie.questions.length;
   const classement: Classe[] = r.classement;
@@ -221,7 +233,7 @@ export function Resultats({ partie, onNouvelle, onDefi, onVieprivee, onToutEffac
   // Animations réduites ou aucun classé : tout est visible tout de suite.
   const reduit = useReducedMotion();
   const n = classement.length;
-  const [revelees, setRevelees] = useState(() => (reduit || n === 0 ? n : -1));
+  const [revelees, setRevelees] = useState(() => (reduit || dejaRevele || n === 0 ? n : -1));
   useEffect(() => {
     if (revelees >= n) return;
     const delai = revelees < 0 ? 1200 : 450;
@@ -230,7 +242,10 @@ export function Resultats({ partie, onNouvelle, onDefi, onVieprivee, onToutEffac
   }, [revelees, n]);
   const fini = revelees >= n;
   // Son de révélation (J9, coupé par défaut) : le même pour tous, quand le classement commence à s'afficher.
-  const sonJoue = useRef(false);
+  const sonJoue = useRef(dejaRevele);
+  useEffect(() => {
+    if (fini) onRevele();
+  }, [fini]); // eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (sonJoue.current || revelees < 0) return;
     sonJoue.current = true;
@@ -296,7 +311,7 @@ export function Resultats({ partie, onNouvelle, onDefi, onVieprivee, onToutEffac
           )}
           <ol className="mt-3 flex flex-col gap-3">
             {classement.map((c, i) => (
-              <CarteCandidat key={c.candidatId} s={c} rang={c.rang} exAequo={c.exAequo} visible={i >= n - Math.max(revelees, 0)} />
+              <CarteCandidat key={c.candidatId} s={c} rang={c.rang} exAequo={c.exAequo} visible={i >= n - Math.max(revelees, 0)} onFiche={onFiche} />
             ))}
           </ol>
         </section>
@@ -312,7 +327,7 @@ export function Resultats({ partie, onNouvelle, onDefi, onVieprivee, onToutEffac
           <p className="mt-1 text-sm text-sourdine">Ordre tiré au sort à chaque partie.</p>
           <ul className="mt-3 flex flex-col gap-3">
             {horsClassement.map((c) => (
-              <CarteCandidat key={c.candidatId} s={c} />
+              <CarteCandidat key={c.candidatId} s={c} onFiche={onFiche} />
             ))}
           </ul>
         </section>
