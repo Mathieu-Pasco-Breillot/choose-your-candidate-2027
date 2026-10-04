@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from 'motion/react';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { Valeur } from '../../core/score/types.ts';
 import type { Partie } from '../jeu.ts';
 import { questionCourante, situation } from '../jeu.ts';
@@ -31,6 +31,15 @@ export function Quiz({ partie, onRepondre, onReculer, onQuitter }: Props) {
     setImportant(deja?.tresImportant ?? false);
     setPrecisionOuverte(false);
   }, [question.id]); // eslint-disable-line react-hooks/exhaustive-deps
+  // L'ancienne carte reste un instant à l'écran pendant sa sortie : ses boutons ne doivent plus rien enregistrer.
+  const courante = useRef(question.id);
+  courante.current = question.id;
+  const repondre = (valeur: Valeur | 'sans_avis', tresImportant: boolean) => {
+    if (courante.current === question.id) onRepondre(valeur, tresImportant);
+  };
+  const reculer = () => {
+    if (courante.current === question.id) onReculer();
+  };
   const total = partie.questions.length;
   const echelle = partie.echelleInversee ? [...ECHELLE].reverse() : ECHELLE;
 
@@ -105,7 +114,7 @@ export function Quiz({ partie, onRepondre, onReculer, onQuitter }: Props) {
                 key={e.valeur}
                 type="button"
                 aria-pressed={deja?.valeur === e.valeur}
-                onClick={() => onRepondre(e.valeur, important)}
+                onClick={() => repondre(e.valeur, important)}
                 className={`rounded-xl border px-4 py-3 text-left text-lg ${INTENSITE[e.valeur]} ${
                   deja?.valeur === e.valeur ? 'ring-2 ring-creme' : ''
                 }`}
@@ -128,7 +137,7 @@ export function Quiz({ partie, onRepondre, onReculer, onQuitter }: Props) {
 
           <button
             type="button"
-            onClick={() => onRepondre('sans_avis', false)}
+            onClick={() => repondre('sans_avis', false)}
             className="mt-2 rounded-xl px-4 py-2 text-left text-sm text-sourdine underline"
           >
             Sans avis
@@ -137,7 +146,7 @@ export function Quiz({ partie, onRepondre, onReculer, onQuitter }: Props) {
           <div className="mt-auto pt-6">
             <button
               type="button"
-              onClick={onReculer}
+              onClick={reculer}
               disabled={partie.position === 0}
               className="text-sm text-sourdine underline disabled:opacity-30"
             >

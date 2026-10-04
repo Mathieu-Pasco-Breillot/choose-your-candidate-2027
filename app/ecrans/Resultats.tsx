@@ -1,4 +1,5 @@
-import { useMemo, useState } from 'react';
+import { motion, useReducedMotion } from 'motion/react';
+import { useEffect, useMemo, useState } from 'react';
 import type { AccordDesaccord, HorsClassement, Classe, ScoreCandidat } from '../../core/score/index.ts';
 import type { Valeur } from '../../core/score/types.ts';
 import type { Partie } from '../jeu.ts';
@@ -113,12 +114,18 @@ function Detail({ s }: { s: ScoreCandidat }) {
   );
 }
 
-function CarteCandidat({ s, rang, exAequo }: { s: ScoreCandidat; rang?: number; exAequo?: boolean }) {
+function CarteCandidat({ s, rang, exAequo, visible = true }: { s: ScoreCandidat; rang?: number; exAequo?: boolean; visible?: boolean }) {
   const [ouvert, setOuvert] = useState(false);
   const classe = rang !== undefined;
   const motif = (s as HorsClassement).motif;
   return (
-    <li className="rounded-2xl border border-sourdine/20 bg-nuit-clair p-4">
+    <motion.li
+      className="rounded-2xl border border-sourdine/20 bg-nuit-clair p-4"
+      initial={false}
+      animate={visible ? { opacity: 1, y: 0 } : { opacity: 0, y: 16 }}
+      transition={{ duration: 0.35 }}
+      aria-hidden={!visible}
+    >
       <div className="flex items-baseline justify-between gap-3">
         <div>
           <h3 className="font-serif text-xl font-semibold">
@@ -151,7 +158,7 @@ function CarteCandidat({ s, rang, exAequo }: { s: ScoreCandidat; rang?: number; 
         {ouvert ? 'Masquer le détail' : 'Voir le détail et les sources'} {ouvert ? '▴' : '▾'}
       </button>
       {ouvert && <Detail s={s} />}
-    </li>
+    </motion.li>
   );
 }
 
@@ -160,6 +167,20 @@ export function Resultats({ partie, onNouvelle, onDefi, onVieprivee, onToutEffac
   const total = partie.questions.length;
   const classement: Classe[] = r.classement;
   const horsClassement: HorsClassement[] = r.horsClassement;
+
+  // Révélation (J4) : un court suspense, puis les cartes du classement une à une, de la dernière à la première.
+  // Même animation pour tous. Le reste de la page (hors classement, non évalués) s'affiche ensuite, sans animation.
+  // Animations réduites ou aucun classé : tout est visible tout de suite.
+  const reduit = useReducedMotion();
+  const n = classement.length;
+  const [revelees, setRevelees] = useState(() => (reduit || n === 0 ? n : -1));
+  useEffect(() => {
+    if (revelees >= n) return;
+    const delai = revelees < 0 ? 1200 : 450;
+    const t = setTimeout(() => setRevelees(revelees + 1 < 0 ? 0 : revelees + 1), delai);
+    return () => clearTimeout(t);
+  }, [revelees, n]);
+  const fini = revelees >= n;
 
   return (
     <main className="mx-auto flex max-w-xl flex-col gap-6 px-5 py-8">
@@ -171,7 +192,7 @@ export function Resultats({ partie, onNouvelle, onDefi, onVieprivee, onToutEffac
         </p>
       </header>
 
-      {r.affinites.length > 0 && (
+      {fini && r.affinites.length > 0 && (
         <section className="rounded-2xl bg-nuit-clair p-5 leading-relaxed">
           <h2 className="font-serif text-xl font-semibold">Vos affinités</h2>
           <p className="mt-1 text-sm text-sourdine">Les affinités n'entrent pas dans le score : elles servent seulement à situer ces candidats.</p>
@@ -210,17 +231,25 @@ export function Resultats({ partie, onNouvelle, onDefi, onVieprivee, onToutEffac
       {classement.length > 0 && (
         <section>
           <h2 className="font-serif text-2xl font-semibold">Classement</h2>
+          {!fini && (
+            <div className="mt-2 flex items-center justify-between gap-3 text-sm text-sourdine">
+              <p role="status">{revelees < 0 ? 'Calcul de votre rapprochement…' : 'Voici le classement…'}</p>
+              <button type="button" className="min-h-11 underline" onClick={() => setRevelees(n)}>
+                Passer l'animation
+              </button>
+            </div>
+          )}
           <ol className="mt-3 flex flex-col gap-3">
-            {classement.map((c) => (
-              <CarteCandidat key={c.candidatId} s={c} rang={c.rang} exAequo={c.exAequo} />
+            {classement.map((c, i) => (
+              <CarteCandidat key={c.candidatId} s={c} rang={c.rang} exAequo={c.exAequo} visible={i >= n - Math.max(revelees, 0)} />
             ))}
           </ol>
         </section>
       )}
 
-      <CartePartage mode={partie.mode} graine={partie.graine} classement={classement} nom={nomComplet} />
+      {fini && <CartePartage mode={partie.mode} graine={partie.graine} classement={classement} nom={nomComplet} />}
 
-      {horsClassement.length > 0 && (
+      {fini && horsClassement.length > 0 && (
         <section>
           <h2 className="font-serif text-2xl font-semibold">Hors classement</h2>
           <p className="mt-1 text-sm text-sourdine">Ordre tiré au sort à chaque partie.</p>
@@ -232,7 +261,7 @@ export function Resultats({ partie, onNouvelle, onDefi, onVieprivee, onToutEffac
         </section>
       )}
 
-      {r.nonEvalues.length > 0 && (
+      {fini && r.nonEvalues.length > 0 && (
         <section>
           <h2 className="font-serif text-2xl font-semibold">Non évalués</h2>
           <p className="mt-1 text-sm text-sourdine">
