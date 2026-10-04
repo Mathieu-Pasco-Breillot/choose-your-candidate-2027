@@ -9,6 +9,7 @@ Fonctions pures du comparateur (aucune dépendance à l'interface, au DOM ou au 
 | `core/tirage/` | 5d | tirage stratifié |
 | `core/defi/` | 5d | défi « Qui a dit ça ? » |
 | `core/neutralite/` | 5d | rapport de neutralité du tirage |
+| `core/duel/` | 5h | mode Duel : réservoir d'un candidat, tirage, affinité, rapport de neutralité |
 
 `types.generated.ts` est généré depuis `schemas/` (`npm run types:generate`) : ne pas l'éditer.
 Les tests (`*.test.ts`) sont à côté du code.

@@ -67,7 +67,7 @@ function LigneAccord({ candidatId, a }: { candidatId: string; a: AccordDesaccord
   );
 }
 
-function Detail({ s }: { s: ScoreCandidat }) {
+export function Detail({ s }: { s: ScoreCandidat }) {
   return (
     <div className="mt-3 flex flex-col gap-4">
       {s.score.scoreBrut !== null && (

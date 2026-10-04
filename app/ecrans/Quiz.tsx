@@ -13,7 +13,7 @@ interface Props {
 }
 
 /** Une seule teinte (l'or), d'intensité croissante de part et d'autre du centre : ni bien ni mal. */
-const INTENSITE: Record<number, string> = {
+export const INTENSITE: Record<number, string> = {
   2: 'bg-or/45 border-or',
   1: 'bg-or/25 border-or/70',
   0: 'bg-or/8 border-or/40',

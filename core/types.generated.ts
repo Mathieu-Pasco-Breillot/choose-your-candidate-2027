@@ -236,6 +236,36 @@ export namespace DeriveDiscriminance {
   }
 }
 
+// ── derive-rapport-duel.schema.json
+export namespace DeriveRapportDuel {
+  export type Part = number;
+
+  /**
+   * derive/rapport-duel.json — rapport de neutralité du mode Duel (addendum à la spécification de l'application, § 8). Pour chaque candidat ayant des positions, contenu de son réservoir de propositions : nombre, couverture de la banque, répartition par thème et par sens, part de positions imprécises. Rend visible un déséquilibre entre candidats sans le corriger ; non bloquant. Généré par `npm run derive`, jamais édité à la main.
+   */
+  export interface DeriveRapportDuel {
+    version: 1;
+    empreinte_donnees: string;
+    proposition_min: 8;
+    questions_actives: number;
+    candidats: {
+      candidat: string;
+      propositions: number;
+      couverture_banque: Part;
+      duel_disponible: boolean;
+      par_theme: {
+        [k: string]: number;
+      };
+      par_sens: {
+        plus: number;
+        moins: number;
+      };
+      positions_imprecises: number;
+      part_imprecise: Part;
+    }[];
+  }
+}
+
 // ── derive-rapport-neutralite.schema.json
 export namespace DeriveRapportNeutralite {
   export type Identifiant = string;

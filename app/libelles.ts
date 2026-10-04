@@ -54,6 +54,22 @@ export const MODES = {
   ultra: { nom: 'Ultra', questions: 200, duree: 'environ 50 minutes' },
 } as const;
 
+/** Tailles du mode Duel (phase-5/specification-mode-duel.md, § 4). */
+export const TAILLES_DUEL_INFO: readonly { taille: 20 | 40 | 60 | 'tout'; nom: string; duree: string }[] = [
+  { taille: 20, nom: '20 propositions', duree: 'environ 5 minutes' },
+  { taille: 40, nom: '40 propositions', duree: 'environ 10 minutes' },
+  { taille: 60, nom: '60 propositions', duree: 'environ 15 minutes' },
+  { taille: 'tout', nom: 'Tout son programme', duree: 'toutes les propositions disponibles' },
+];
+
+/** Écart entre votre réponse et la position du candidat : factuel, sans jugement de valeur. */
+export const ECARTS: Record<string, string> = {
+  meme_avis: 'Même avis',
+  proche: 'Avis proches',
+  different: 'Avis différents',
+  oppose: 'Avis opposés',
+};
+
 /** Explication courte de chaque situation, reprise du critère d'inclusion v1 (docs/critere-inclusion.md). */
 export const EXPLICATIONS_MOTIFS: Record<string, string> = {
   evalue: 'Candidature déclarée (règle R1) et positions codées sur au moins 40 % des questions actives : évalué, comparé dans vos résultats.',

@@ -19,6 +19,12 @@ interface Props {
   onReprendre: () => void;
   onVoirResultats: () => void;
   onToutEffacer: () => void;
+  /** Mode Duel avec un candidat (phase-5/specification-mode-duel.md). */
+  duelEnCours: boolean;
+  duelTermine: boolean;
+  onDuel: () => void;
+  onReprendreDuel: () => void;
+  onVoirResultatsDuel: () => void;
 }
 
 function Carte({ titre, children }: { titre: string; children: React.ReactNode }) {
@@ -30,7 +36,7 @@ function Carte({ titre, children }: { titre: string; children: React.ReactNode }
   );
 }
 
-export function Accueil({ enCours, terminee, onCommencer, onDefi, onVieprivee, onNaviguer, onReprendre, onVoirResultats, onToutEffacer }: Props) {
+export function Accueil({ enCours, terminee, onCommencer, onDefi, onVieprivee, onNaviguer, onReprendre, onVoirResultats, onToutEffacer, duelEnCours, duelTermine, onDuel, onReprendreDuel, onVoirResultatsDuel }: Props) {
   return (
     <main className="mx-auto flex max-w-xl flex-col gap-4 px-5 py-10">
       <header className="mb-2">
@@ -62,6 +68,18 @@ export function Accueil({ enCours, terminee, onCommencer, onDefi, onVieprivee, o
           className="rounded-2xl border border-or/60 bg-nuit-clair p-5 text-left"
         >
           <span className="block font-serif text-xl font-semibold">Revoir mon dernier résultat</span>
+        </button>
+      )}
+
+      {duelEnCours && (
+        <button type="button" onClick={onReprendreDuel} className="rounded-2xl border border-or/60 bg-nuit-clair p-5 text-left">
+          <span className="block font-serif text-xl font-semibold">Reprendre le duel en cours</span>
+          <span className="text-sourdine">Vous retrouvez vos réponses là où vous les avez laissées.</span>
+        </button>
+      )}
+      {duelTermine && (
+        <button type="button" onClick={onVoirResultatsDuel} className="rounded-2xl border border-or/60 bg-nuit-clair p-5 text-left">
+          <span className="block font-serif text-xl font-semibold">Revoir mon dernier duel</span>
         </button>
       )}
 
@@ -118,6 +136,11 @@ export function Accueil({ enCours, terminee, onCommencer, onDefi, onVieprivee, o
           </button>
         ))}
       </div>
+
+      <button type="button" onClick={onDuel} className="min-h-11 rounded-2xl border border-or/60 px-5 py-3 text-left">
+        <span className="block font-serif text-xl font-semibold">Duel avec un candidat</span>
+        <span className="text-sourdine">Choisissez un candidat et découvrez son programme au fil de vos réponses, avec les sources.</span>
+      </button>
 
       <button
         type="button"

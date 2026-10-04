@@ -74,7 +74,8 @@ export class ErreurTirage extends Error {}
 /** Ligne de quota d'un thème (étape 2). */
 export interface QuotaTheme {
   readonly theme: string;
-  readonly poids: PoidsTheme;
+  /** Poids du thème (0 à 3 pour le tirage classique). */
+  readonly poids: number;
   /** Questions actives du thème. */
   readonly stock: number;
   /** Part théorique N × poids / Σ poids, avant minimum et plafond. */

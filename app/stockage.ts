@@ -5,11 +5,13 @@
 import type { QuestionVue } from '../core/tirage/index.ts';
 import { BADGES_VIDES } from './badges.ts';
 import type { EtatBadges } from './badges.ts';
+import type { PartieDuel } from './duel.ts';
 import type { Partie } from './jeu.ts';
 import { questionsParId } from './jeu.ts';
 import { paquet } from './paquet.ts';
 
 const CLE_PARTIE = 'isoloir:partie';
+const CLE_DUEL = 'isoloir:duel';
 const CLE_VUES = 'isoloir:vues';
 const CLE_BADGES = 'isoloir:badges';
 export const EVENEMENT_BADGES = 'isoloir:badges';
@@ -45,6 +47,20 @@ export function lirePartie(): Partie | null {
 
 export const ecrirePartie = (p: Partie): void => ecrire(CLE_PARTIE, p);
 
+/** Duel en cours ou terminé : écarté si les données ont changé depuis, ou si le fichier enregistré est incohérent. */
+export function lireDuel(): PartieDuel | null {
+  const p = lire(CLE_DUEL) as PartieDuel | null;
+  if (!p || p.version !== 1 || p.empreinte !== paquet.empreinte) return null;
+  if (typeof p.candidat !== 'string' || !paquet.candidats.some((c) => c.id === p.candidat)) return null;
+  if (!Array.isArray(p.questions) || !p.questions.every((id) => questionsParId.has(id))) return null;
+  if (!Array.isArray(p.chapitres) || typeof p.reponses !== 'object' || p.reponses === null) return null;
+  if (!Number.isInteger(p.position) || p.position < 0 || p.position > p.questions.length) return null;
+  if (typeof p.poids !== 'object' || p.poids === null) return null;
+  return p;
+}
+
+export const ecrireDuel = (p: PartieDuel): void => ecrire(CLE_DUEL, p);
+
 export function lireVues(): QuestionVue[] {
   const v = lire(CLE_VUES);
   return Array.isArray(v) ? (v as QuestionVue[]).filter((x) => typeof x?.id === 'string' && typeof x?.date === 'string') : [];
@@ -79,6 +95,7 @@ export function majBadges(f: (b: EtatBadges) => EtatBadges): EtatBadges {
 export function toutEffacer(): void {
   try {
     localStorage.removeItem(CLE_PARTIE);
+    localStorage.removeItem(CLE_DUEL);
     localStorage.removeItem(CLE_VUES);
     localStorage.removeItem(CLE_BADGES);
     localStorage.removeItem(CLE_APPARENCE);

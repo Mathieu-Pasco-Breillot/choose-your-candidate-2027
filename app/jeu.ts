@@ -38,6 +38,18 @@ export interface Partie {
   echelleInversee: boolean;
 }
 
+/**
+ * Ce qu'une partie classique et un duel ont en commun : des questions rangées par chapitre, des réponses et une
+ * position. Les fonctions de déroulement ci-dessous ne lisent que ces champs.
+ */
+export interface Parcours {
+  chapitres: { theme: string; questions: string[] }[];
+  questions: string[];
+  reponses: Record<string, ReponseSaisie>;
+  /** Indice de la question en cours ; égal au nombre de questions quand le parcours est terminé. */
+  position: number;
+}
+
 export const questionsParId: ReadonlyMap<string, QuestionPaquet> = new Map(paquet.questions.map((q) => [q.id, q]));
 
 let banqueEnCache: BanqueTirage | undefined;
@@ -82,15 +94,15 @@ export function nouvellePartie(
   };
 }
 
-export const estTerminee = (p: Partie): boolean => p.position >= p.questions.length;
+export const estTerminee = (p: Pick<Parcours, 'position' | 'questions'>): boolean => p.position >= p.questions.length;
 
-export function questionCourante(p: Partie): QuestionPaquet {
+export function questionCourante(p: Pick<Parcours, 'position' | 'questions'>): QuestionPaquet {
   const q = questionsParId.get(p.questions[p.position] ?? '');
   if (!q) throw new Error('Aucune question en cours.');
   return q;
 }
 
-export function repondre(p: Partie, reponse: ReponseSaisie): Partie {
+export function repondre<T extends Parcours>(p: T, reponse: ReponseSaisie): T {
   if (estTerminee(p)) return p;
   const id = p.questions[p.position]!;
   const tresImportant = reponse.valeur === 'sans_avis' ? false : reponse.tresImportant;
@@ -101,12 +113,12 @@ export function repondre(p: Partie, reponse: ReponseSaisie): Partie {
   };
 }
 
-export function reculer(p: Partie): Partie {
+export function reculer<T extends Parcours>(p: T): T {
   return p.position > 0 ? { ...p, position: p.position - 1 } : p;
 }
 
 /** Place du chapitre en cours : « chapitre 3 sur 11 », « question 2 sur 4 du chapitre ». */
-export function situation(p: Partie) {
+export function situation(p: Pick<Parcours, 'position' | 'chapitres'>) {
   let reste = p.position;
   for (const [i, c] of p.chapitres.entries()) {
     if (reste < c.questions.length) return { chapitre: i, theme: c.theme, dansChapitre: reste, taille: c.questions.length };
@@ -154,7 +166,7 @@ export function resultatsDePartie(p: Partie): Resultats {
 }
 
 /** Ajoute les questions de la partie aux questions déjà vues (date UTC « AAAA-MM-JJ »). */
-export function marquerVues(vues: readonly QuestionVue[], p: Partie, date: string): QuestionVue[] {
+export function marquerVues(vues: readonly QuestionVue[], p: Pick<Parcours, 'questions'>, date: string): QuestionVue[] {
   const retenues = new Map(vues.map((v) => [v.id, v]));
   for (const id of p.questions) retenues.set(id, { id, date });
   return [...retenues.values()];

@@ -18,11 +18,12 @@
  * par leurs numérateurs) : deux restes « égaux » le sont exactement, sans erreur d'arrondi.
  */
 import { melanger, type Generateur } from '../aleatoire/prng.ts';
-import type { PoidsTheme, QuotaTheme } from './types.ts';
+import type { QuotaTheme } from './types.ts';
 
 export interface EntreeQuota {
   readonly theme: string;
-  readonly poids: PoidsTheme;
+  /** Poids entier du thème (0 = thème non tiré). Le duel y passe « propositions × poids choisi ». */
+  readonly poids: number;
   /** Nombre de questions actives du thème. */
   readonly stock: number;
 }

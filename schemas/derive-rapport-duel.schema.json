@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DeriveRapportDuel",
+  "description": "derive/rapport-duel.json — rapport de neutralité du mode Duel (addendum à la spécification de l'application, § 8). Pour chaque candidat ayant des positions, contenu de son réservoir de propositions : nombre, couverture de la banque, répartition par thème et par sens, part de positions imprécises. Rend visible un déséquilibre entre candidats sans le corriger ; non bloquant. Généré par `npm run derive`, jamais édité à la main.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "empreinte_donnees", "proposition_min", "questions_actives", "candidats"],
+  "properties": {
+    "version": { "const": 1 },
+    "empreinte_donnees": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "proposition_min": { "const": 8 },
+    "questions_actives": { "type": "integer", "minimum": 0 },
+    "candidats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["candidat", "propositions", "couverture_banque", "duel_disponible", "par_theme", "par_sens", "positions_imprecises", "part_imprecise"],
+        "properties": {
+          "candidat": { "type": "string", "pattern": "^[a-z]+(-[a-z]+)*$" },
+          "propositions": { "type": "integer", "minimum": 0 },
+          "couverture_banque": { "$ref": "#/$defs/part" },
+          "duel_disponible": { "type": "boolean" },
+          "par_theme": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 1 } },
+          "par_sens": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["plus", "moins"],
+            "properties": {
+              "plus": { "type": "integer", "minimum": 0 },
+              "moins": { "type": "integer", "minimum": 0 }
+            }
+          },
+          "positions_imprecises": { "type": "integer", "minimum": 0 },
+          "part_imprecise": { "$ref": "#/$defs/part" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "part": { "type": "number", "minimum": 0, "maximum": 1 }
+  }
+}
