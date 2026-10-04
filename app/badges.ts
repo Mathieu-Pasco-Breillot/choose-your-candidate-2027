@@ -4,7 +4,10 @@
  * On ne retient ni nom de candidat ni réponse : seulement des compteurs et des empreintes numériques d'adresses lues.
  */
 import { THEMES } from './libelles.ts';
-import type { Partie } from './jeu.ts';
+import type { ModeJeu, Partie } from './jeu.ts';
+
+/** Modes d'au moins 60 questions : terminer l'un d'eux donne le badge « Partie Campagne terminée ». */
+const MODES_CAMPAGNE: ReadonlySet<ModeJeu> = new Set(['campagne', 'semi', 'marathon', 'ultra']);
 
 export const SOURCES_POUR_ENQUETEUR = 10;
 
@@ -41,7 +44,7 @@ export function apresPartie(b: EtatBadges, p: Pick<Partie, 'mode' | 'chapitres'>
   return {
     ...b,
     chapitres: [...new Set([...b.chapitres, ...p.chapitres.map((c) => c.theme)])].sort(),
-    campagneTerminee: b.campagneTerminee || p.mode === 'campagne',
+    campagneTerminee: b.campagneTerminee || MODES_CAMPAGNE.has(p.mode),
   };
 }
 
@@ -66,7 +69,7 @@ export function badgesDe(b: EtatBadges): Badge[] {
       obtenu: explores >= nThemes,
       avancement: `${explores} sur ${nThemes}`,
     },
-    { id: 'campagne', nom: 'Partie Campagne terminée', description: 'Avoir terminé une partie de 60 questions.', obtenu: b.campagneTerminee },
+    { id: 'campagne', nom: 'Partie Campagne terminée', description: "Avoir terminé une partie d'au moins 60 questions (Campagne, Semi-marathon, Marathon ou Ultra).", obtenu: b.campagneTerminee },
     {
       id: 'enqueteur',
       nom: 'Enquêteur',

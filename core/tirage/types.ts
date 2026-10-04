@@ -3,18 +3,39 @@
  */
 
 /** Modes de jeu (spécification, J2). */
-export type Mode = 'express' | 'debat' | 'campagne';
+export type Mode = 'express' | 'debat' | 'campagne' | 'semi' | 'marathon' | 'ultra';
 
-export const MODES: readonly Mode[] = ['express', 'debat', 'campagne'];
+export const MODES: readonly Mode[] = ['express', 'debat', 'campagne', 'semi', 'marathon', 'ultra'];
 
 /** Nombre de questions N par mode. */
-export const TAILLE_MODE: Readonly<Record<Mode, number>> = { express: 20, debat: 40, campagne: 60 };
+export const TAILLE_MODE: Readonly<Record<Mode, number>> = {
+  express: 20,
+  debat: 40,
+  campagne: 60,
+  semi: 100,
+  marathon: 150,
+  ultra: 200,
+};
 
 /** Nombre d'ancres prévu par mode (méthodologie, D11). */
-export const ANCRES_MODE: Readonly<Record<Mode, number>> = { express: 5, debat: 10, campagne: 10 };
+export const ANCRES_MODE: Readonly<Record<Mode, number>> = {
+  express: 5,
+  debat: 10,
+  campagne: 10,
+  semi: 10,
+  marathon: 10,
+  ultra: 10,
+};
 
 /** Minimum d'ancres de chaque sens (méthodologie § 7.2 : quatre ; D11 : deux en mode court). */
-export const ANCRES_MIN_PAR_SENS_MODE: Readonly<Record<Mode, number>> = { express: 2, debat: 4, campagne: 4 };
+export const ANCRES_MIN_PAR_SENS_MODE: Readonly<Record<Mode, number>> = {
+  express: 2,
+  debat: 4,
+  campagne: 4,
+  semi: 4,
+  marathon: 4,
+  ultra: 4,
+};
 
 /** Contraintes de l'ancrage (méthodologie § 7.2, D6). */
 export const ANCRES_PAR_THEME_MAX = 1;

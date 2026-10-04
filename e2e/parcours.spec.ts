@@ -5,10 +5,15 @@ const MODES = [
   ['Express', 20],
   ['Débat', 40],
   ['Campagne', 60],
+  ['Semi-marathon', 100],
+  ['Marathon', 150],
+  ['Ultra', 200],
 ] as const;
 
 for (const [mode, n] of MODES) {
   test(`parcours complet en mode ${mode}, sans aucune requête externe`, async ({ page }) => {
+    // Environ une seconde par question, pour que les modes longs (jusqu'à 200 questions) aient le temps de finir.
+    test.setTimeout(Math.max(30_000, n * 1_000));
     const externes = surveillerReseau(page);
     const erreurs = surveillerErreurs(page);
     await lancer(page, mode);

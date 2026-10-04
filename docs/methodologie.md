@@ -134,7 +134,7 @@ La variance est la **variance de population** (somme des carrés des écarts à 
 
 ### 7.2 Questions d'ancrage
 
-Dix questions, présentes dans chaque tirage en mode long et en mode campagne. Sélection par ordre décroissant de D, sous contraintes :
+Dix questions, présentes dans chaque tirage en mode long, en mode campagne et dans les modes Semi-marathon, Marathon et Ultra. Sélection par ordre décroissant de D, sous contraintes :
 - couverture d'au moins 80 % des candidats évalués ;
 - une question par thème au maximum ;
 - trois par axe au maximum ;
@@ -191,3 +191,4 @@ Indicateur **séparé du score**. Chaque question est reliée aux scrutins perti
 | D12 | 3 oct. 2026 | Tirage : départage global des sens quand un thème est à égalité ; seconde ancre dans un thème seulement si l'équilibre des sens du thème reste atteignable |
 | D13 | 4 oct. 2026 | Classement : codé sur au moins 8 des questions répondues, sans condition de proportion |
 | D14 | 4 oct. 2026 | Population de référence (pouvoir discriminant, ancrage) : candidats codés sur au moins 20 % des questions actives ; tous les candidats ayant des positions restent comparés |
+| D15 | 4 oct. 2026 | Modes Semi-marathon (100 questions), Marathon (150) et Ultra (200) : mêmes dix ancres et mêmes règles de tirage que Campagne ; un thème écarté ou un stock insuffisant réduit la partie (l'Ultra tire presque toute la banque) |

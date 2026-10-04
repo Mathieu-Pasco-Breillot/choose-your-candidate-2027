@@ -264,10 +264,13 @@ export namespace DeriveRapportNeutralite {
       express: Mode;
       debat: Mode;
       campagne: Mode;
+      semi: Mode;
+      marathon: Mode;
+      ultra: Mode;
     };
   }
   export interface Mode {
-    N: 20 | 40 | 60;
+    N: 20 | 40 | 60 | 100 | 150 | 200;
     questions_tirees_moyenne: number;
     ecart_parts_atteint_seuils: Part;
     candidats: {

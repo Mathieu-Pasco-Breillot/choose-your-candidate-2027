@@ -37,7 +37,7 @@ export async function repondreATout(page: Page, nombre: number): Promise<void> {
   await expect(page.getByText('Vos résultats')).toBeVisible();
 }
 
-export async function lancer(page: Page, mode: 'Express' | 'Débat' | 'Campagne'): Promise<void> {
+export async function lancer(page: Page, mode: 'Express' | 'Débat' | 'Campagne' | 'Semi-marathon' | 'Marathon' | 'Ultra'): Promise<void> {
   await page.goto('/');
   await page.getByRole('button', { name: new RegExp(`^${mode} ·`) }).click();
   await page.getByRole('button', { name: 'Lancer la partie' }).click();

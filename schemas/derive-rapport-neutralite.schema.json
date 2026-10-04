@@ -31,11 +31,14 @@
     "modes": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["express", "debat", "campagne"],
+      "required": ["express", "debat", "campagne", "semi", "marathon", "ultra"],
       "properties": {
         "express": { "$ref": "#/$defs/mode" },
         "debat": { "$ref": "#/$defs/mode" },
-        "campagne": { "$ref": "#/$defs/mode" }
+        "campagne": { "$ref": "#/$defs/mode" },
+        "semi": { "$ref": "#/$defs/mode" },
+        "marathon": { "$ref": "#/$defs/mode" },
+        "ultra": { "$ref": "#/$defs/mode" }
       }
     }
   },
@@ -47,7 +50,7 @@
       "additionalProperties": false,
       "required": ["N", "questions_tirees_moyenne", "candidats", "ecart_parts_atteint_seuils"],
       "properties": {
-        "N": { "enum": [20, 40, 60] },
+        "N": { "enum": [20, 40, 60, 100, 150, 200] },
         "questions_tirees_moyenne": { "type": "number", "minimum": 0 },
         "ecart_parts_atteint_seuils": { "$ref": "#/$defs/part" },
         "candidats": {

@@ -49,6 +49,9 @@ export const MODES = {
   express: { nom: 'Express', questions: 20, duree: 'environ 5 minutes' },
   debat: { nom: 'Débat', questions: 40, duree: 'environ 10 minutes' },
   campagne: { nom: 'Campagne', questions: 60, duree: 'environ 15 minutes' },
+  semi: { nom: 'Semi-marathon', questions: 100, duree: 'environ 25 minutes' },
+  marathon: { nom: 'Marathon', questions: 150, duree: 'environ 40 minutes' },
+  ultra: { nom: 'Ultra', questions: 200, duree: 'environ 50 minutes' },
 } as const;
 
 /** Explication courte de chaque situation, reprise du critère d'inclusion v1 (docs/critere-inclusion.md). */

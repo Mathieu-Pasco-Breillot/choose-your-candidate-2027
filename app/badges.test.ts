@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { apresDesaccordsLus, apresPartie, apresSource, badgesDe, BADGES_VIDES, SOURCES_POUR_ENQUETEUR } from './badges.ts';
 import { THEMES } from './libelles.ts';
 
-const partie = (mode: 'express' | 'debat' | 'campagne', themes: string[]) => ({ mode, chapitres: themes.map((theme) => ({ theme, questions: [] })) });
+const partie = (mode: 'express' | 'debat' | 'campagne' | 'semi' | 'marathon' | 'ultra', themes: string[]) => ({ mode, chapitres: themes.map((theme) => ({ theme, questions: [] })) });
 const obtenu = (b: ReturnType<typeof badgesDe>, id: string) => b.find((x) => x.id === id)!.obtenu;
 
 describe('badges', () => {
@@ -18,9 +18,10 @@ describe('badges', () => {
     expect(obtenu(badgesDe(b), 'chapitres')).toBe(true);
   });
 
-  it('« Partie Campagne terminée » seulement en mode Campagne', () => {
+  it('« Partie Campagne terminée » à partir du mode Campagne (60 questions), pas en dessous', () => {
     expect(obtenu(badgesDe(apresPartie(BADGES_VIDES, partie('debat', []))), 'campagne')).toBe(false);
     expect(obtenu(badgesDe(apresPartie(BADGES_VIDES, partie('campagne', []))), 'campagne')).toBe(true);
+    for (const m of ['semi', 'marathon', 'ultra'] as const) expect(obtenu(badgesDe(apresPartie(BADGES_VIDES, partie(m, []))), 'campagne')).toBe(true);
   });
 
   it('« Enquêteur » compte des sources distinctes, sans garder les adresses', () => {

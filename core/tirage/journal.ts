@@ -4,7 +4,14 @@
  */
 import type { EntreeJournal, JournalTirage } from './types.ts';
 
-const NOM_MODE = { express: 'Express', debat: 'Débat', campagne: 'Campagne' } as const;
+const NOM_MODE = {
+  express: 'Express',
+  debat: 'Débat',
+  campagne: 'Campagne',
+  semi: 'Semi-marathon',
+  marathon: 'Marathon',
+  ultra: 'Ultra',
+} as const;
 
 const nombre = (x: number, decimales = 2): string =>
   x.toLocaleString('fr-FR', { minimumFractionDigits: 0, maximumFractionDigits: decimales });
