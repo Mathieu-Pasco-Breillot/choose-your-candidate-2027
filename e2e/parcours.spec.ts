@@ -63,3 +63,14 @@ test('« tout effacer » supprime la partie enregistrée', async ({ page }) => {
   await expect(page.getByRole('button', { name: /Reprendre la partie/ })).toHaveCount(0);
   expect(await page.evaluate(() => localStorage.getItem('isoloir:partie'))).toBeNull();
 });
+
+test('les badges : Campagne terminée, puis « tout effacer » les retire', async ({ page }) => {
+  await lancer(page, 'Campagne');
+  await repondreATout(page, 60);
+  await page.getByRole('button', { name: "Passer l'animation" }).click({ timeout: 1000 }).catch(() => undefined);
+  const campagne = page.getByRole('listitem').filter({ hasText: 'Partie Campagne terminée' });
+  await expect(campagne).toContainText('(obtenu)');
+  await page.getByRole('button', { name: 'Vie privée' }).click();
+  await page.getByRole('button', { name: 'Tout effacer sur cet appareil' }).click();
+  expect(await page.evaluate(() => localStorage.getItem('isoloir:badges'))).toBeNull();
+});

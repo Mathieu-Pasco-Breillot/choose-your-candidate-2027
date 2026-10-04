@@ -1,3 +1,5 @@
+import { apresDesaccordsLus, apresSource, badgesDe } from '../badges.ts';
+import { EVENEMENT_BADGES, lireBadges, majBadges } from '../stockage.ts';
 import { motion, useReducedMotion } from 'motion/react';
 import { useEffect, useMemo, useState } from 'react';
 import type { AccordDesaccord, HorsClassement, Classe, ScoreCandidat } from '../../core/score/index.ts';
@@ -48,7 +50,7 @@ function LigneAccord({ candidatId, a }: { candidatId: string; a: AccordDesaccord
           <p>{extrait.reformulation}</p>
           {extrait.citation && <p className="mt-1 italic">« {extrait.citation} »</p>}
           <p className="mt-1">
-            <a className="underline" href={extrait.source.url} target="_blank" rel="noopener noreferrer">
+            <a className="underline" href={extrait.source.url} target="_blank" rel="noopener noreferrer" onClick={() => majBadges((b) => apresSource(b, extrait.source.url))}>
               {extrait.source.titre}
             </a>
             {extrait.source.datePublication ? ` (${extrait.source.datePublication})` : ''}
@@ -154,11 +156,56 @@ function CarteCandidat({ s, rang, exAequo, visible = true }: { s: ScoreCandidat;
           Hors classement : {motif?.texte ?? 'trop peu de questions codées'}.
         </p>
       )}
-      <button type="button" aria-expanded={ouvert} onClick={() => setOuvert((o) => !o)} className="mt-3 text-sm underline">
+      <button
+        type="button"
+        aria-expanded={ouvert}
+        onClick={() => {
+          if (!ouvert) {
+            // Badge « Contradicteur » : le détail montre les extraits de ses trois désaccords les plus forts.
+            const avecExtrait = s.desaccords.filter((a) => paquet.positions[s.candidatId]?.find((p) => p.questionId === a.questionId)?.extrait);
+            if (avecExtrait.length >= 3) majBadges(apresDesaccordsLus);
+          }
+          setOuvert((o) => !o);
+        }}
+        className="mt-3 text-sm underline"
+      >
         {ouvert ? 'Masquer le détail' : 'Voir le détail et les sources'} {ouvert ? '▴' : '▾'}
       </button>
       {ouvert && <Detail s={s} />}
     </motion.li>
+  );
+}
+
+function SectionBadges() {
+  const [etat, setEtat] = useState(lireBadges);
+  useEffect(() => {
+    const maj = () => setEtat(lireBadges());
+    window.addEventListener(EVENEMENT_BADGES, maj);
+    return () => window.removeEventListener(EVENEMENT_BADGES, maj);
+  }, []);
+  const badges = badgesDe(etat);
+  return (
+    <section className="rounded-2xl bg-nuit-clair p-5" aria-labelledby="titre-badges">
+      <h2 id="titre-badges" className="font-serif text-2xl font-semibold">
+        Vos badges
+      </h2>
+      <p className="mt-1 text-sm text-sourdine">Ils récompensent l'usage de l'outil, jamais le sens de vos réponses. Ils restent sur votre téléphone.</p>
+      <ul className="mt-3 flex flex-col gap-2">
+        {badges.map((b) => (
+          <li key={b.id} className={`rounded-xl border p-3 text-sm ${b.obtenu ? 'border-or bg-or/15' : 'border-sourdine/30'}`}>
+            <p className="font-semibold">
+              <span aria-hidden="true">{b.obtenu ? '★ ' : '☆ '}</span>
+              {b.nom}
+              <span className="sr-only">{b.obtenu ? ' (obtenu)' : ' (pas encore obtenu)'}</span>
+            </p>
+            <p className="text-sourdine">
+              {b.description}
+              {!b.obtenu && b.avancement ? ` Avancement : ${b.avancement}.` : ''}
+            </p>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }
 
@@ -246,6 +293,8 @@ export function Resultats({ partie, onNouvelle, onDefi, onVieprivee, onToutEffac
           </ol>
         </section>
       )}
+
+      {fini && <SectionBadges />}
 
       {fini && <CartePartage mode={partie.mode} graine={partie.graine} classement={classement} nom={nomComplet} />}
 

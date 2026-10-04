@@ -1,3 +1,5 @@
+import { apresSource } from '../badges.ts';
+import { majBadges } from '../stockage.ts';
 import { libelleTheme, libelleValeur, MOTIFS_NON_EVALUATION, NATURES, THEMES } from '../libelles.ts';
 import { questionsParId } from '../jeu.ts';
 import { paquet } from '../paquet.ts';
@@ -67,7 +69,7 @@ export function FicheCandidat({ id, onRetour }: { id: string; onRetour: () => vo
                         <p>{p.extrait.reformulation}</p>
                         {p.extrait.citation && <p className="mt-1 italic">« {p.extrait.citation} »</p>}
                         <p className="mt-1">
-                          <a className="underline" href={p.extrait.source.url} target="_blank" rel="noopener noreferrer">{p.extrait.source.titre}</a>
+                          <a className="underline" href={p.extrait.source.url} target="_blank" rel="noopener noreferrer" onClick={() => majBadges((b) => apresSource(b, p.extrait!.source.url))}>{p.extrait.source.titre}</a>
                           {p.extrait.source.datePublication ? ` (${p.extrait.source.datePublication})` : ''}
                         </p>
                       </div>

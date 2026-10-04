@@ -1,3 +1,5 @@
+import { apresSource } from '../badges.ts';
+import { majBadges } from '../stockage.ts';
 import { useMemo, useState } from 'react';
 import { nouveauDefi } from '../defi.ts';
 import { libelleTheme } from '../libelles.ts';
@@ -109,7 +111,7 @@ export function Defi({ graine, onRejouer, onQuitter }: Props) {
           </p>
           <p className="text-sm">
             Source :{' '}
-            <a className="underline" href={manche.revelation.source.url} target="_blank" rel="noopener noreferrer">
+            <a className="underline" href={manche.revelation.source.url} target="_blank" rel="noopener noreferrer" onClick={() => majBadges((b) => apresSource(b, manche.revelation.source.url))}>
               {manche.revelation.source.titre}
             </a>
             {manche.revelation.source.date_publication ? ` (${manche.revelation.source.date_publication})` : ''}

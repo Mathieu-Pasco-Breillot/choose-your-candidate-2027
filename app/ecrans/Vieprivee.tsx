@@ -16,7 +16,7 @@ export function Vieprivee({ onRetour, onToutEffacer }: Props) {
       <section>
         <h2 className="font-serif text-2xl font-semibold">Ce qui reste sur votre téléphone</h2>
         <p className="mt-2">
-          Vos réponses, la partie en cours, votre dernier résultat et la liste des questions déjà vues (pour ne pas vous les
+          Vos réponses, la partie en cours, votre dernier résultat, vos badges (de simples compteurs d'usage, sans nom de candidat ni réponse) et la liste des questions déjà vues (pour ne pas vous les
           reposer) sont enregistrés dans le stockage de votre navigateur, sur votre appareil seulement. Le calcul des résultats
           se fait entièrement sur votre téléphone. Aucune réponse n'est envoyée, et aucune mesure d'audience, aucun traceur,
           aucun script ou police externe n'est utilisé.

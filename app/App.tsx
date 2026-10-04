@@ -3,7 +3,8 @@ import { lazy, Suspense, useCallback, useState } from 'react';
 import type { Valeur } from '../core/score/types.ts';
 import type { ModeJeu, Partie, Preparation as PreparationChoisie } from './jeu.ts';
 import { estTerminee, marquerVues, nouvelleGraine, nouvellePartie, reculer, repondre } from './jeu.ts';
-import { ecrirePartie, ecrireVues, lirePartie, lireVues, toutEffacer } from './stockage.ts';
+import { apresPartie } from './badges.ts';
+import { ecrirePartie, ecrireVues, lirePartie, lireVues, majBadges, toutEffacer } from './stockage.ts';
 import { Accueil } from './ecrans/Accueil.tsx';
 import { Vieprivee } from './ecrans/Vieprivee.tsx';
 import { Defi } from './ecrans/Defi.tsx';
@@ -55,6 +56,7 @@ export function App() {
     changer(suivante);
     if (estTerminee(suivante)) {
       ecrireVues(marquerVues(lireVues(), suivante, aujourdhui()));
+      majBadges((b) => apresPartie(b, suivante));
       setEcran('resultats');
     }
   };
